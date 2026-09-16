@@ -5,12 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="A lightweight literature tracker for catalysis, electrochemistry, photocatalysis and synthetic chemistry." />
   <title>Literature Tracker</title>
+
+  <!-- Inter is used as the primary interface font. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- All visual styling is kept in a separate stylesheet for maintainability. -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Hero: site identity, short description, and dataset update timestamp. -->
   <header class="hero">
     <div class="hero-inner">
       <div>
@@ -18,22 +23,36 @@
         <h1>Literature Tracker</h1>
         <p class="subtitle">Track recent papers in electrochemistry, photocatalysis, transition-metal catalysis and synthetic methodology.</p>
       </div>
+
+      <!-- app.js replaces this placeholder with the date from papers.json. -->
       <div class="hero-badge" id="lastUpdated">Loading…</div>
     </div>
   </header>
 
   <main class="container">
+    <!-- Summary counters are filled dynamically by renderStats() in app.js. -->
     <section class="stats" aria-label="Literature statistics">
-      <article class="stat-card"><span class="stat-label">Total papers</span><strong id="totalCount">0</strong></article>
-      <article class="stat-card"><span class="stat-label">This week</span><strong id="weekCount">0</strong></article>
-      <article class="stat-card"><span class="stat-label">Highly relevant</span><strong id="highCount">0</strong></article>
+      <article class="stat-card">
+        <span class="stat-label">Total papers</span>
+        <strong id="totalCount">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">This week</span>
+        <strong id="weekCount">0</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-label">Highly relevant</span>
+        <strong id="highCount">0</strong>
+      </article>
     </section>
 
+    <!-- Search and sort controls operate entirely in the browser. -->
     <section class="toolbar">
       <label class="search-wrap">
         <span class="sr-only">Search papers</span>
         <input id="searchInput" type="search" placeholder="Search title, author, journal or keyword…" />
       </label>
+
       <select id="sortSelect" aria-label="Sort papers">
         <option value="date-desc">Newest first</option>
         <option value="relevance-desc">Relevance</option>
@@ -41,14 +60,19 @@
       </select>
     </section>
 
+    <!-- Topic buttons are generated dynamically from TOPICS in app.js. -->
     <section class="filters" id="filters" aria-label="Topic filters"></section>
 
+    <!-- Result count reflects the currently filtered paper list. -->
     <section class="results-head">
       <h2>Recent papers</h2>
       <span id="resultCount">0 papers</span>
     </section>
 
+    <!-- Paper cards are injected here by render() in app.js. -->
     <section id="paperGrid" class="paper-grid" aria-live="polite"></section>
+
+    <!-- Shown only when the current search/filter combination has no matches. -->
     <div id="emptyState" class="empty-state" hidden>No matching papers found.</div>
   </main>
 
@@ -56,6 +80,7 @@
     <p>Built with GitHub Pages · Data can be refreshed automatically with GitHub Actions.</p>
   </footer>
 
+  <!-- Load application logic after the page structure is available in the DOM. -->
   <script src="app.js"></script>
 </body>
 </html>
