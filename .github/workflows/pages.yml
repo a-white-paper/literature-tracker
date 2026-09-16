@@ -1,37 +1,58 @@
+# Deploy the repository's static website to GitHub Pages.
+#
+# The site does not need a separate build step: index.html, style.css, app.js,
+# and papers.json are uploaded directly as a static Pages artifact.
+
 name: Deploy GitHub Pages
 
 on:
+  # Re-deploy whenever main changes. This also means that a scheduled update to
+  # papers.json automatically publishes the refreshed literature dataset.
   push:
     branches: ["main"]
+
+  # Allow a manual deployment from the GitHub Actions interface.
   workflow_dispatch:
 
+# Minimum permissions required by the official GitHub Pages deployment actions.
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Only one Pages deployment should run at a time. If a newer deployment starts,
+# an older in-progress deployment is cancelled so the newest commit wins.
 concurrency:
   group: pages
   cancel-in-progress: true
 
 jobs:
   deploy:
+    runs-on: ubuntu-latest
+
+    # The github-pages environment records the published site URL and provides
+    # GitHub's standard deployment status in the repository interface.
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+
     steps:
+      # Download the repository content that will be published.
       - name: Check out repository
         uses: actions/checkout@v4
 
+      # Configure metadata required by GitHub Pages for this repository.
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      # Package the repository root as the static website artifact.
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
           path: "."
 
+      # Publish the uploaded artifact and expose its final URL through the
+      # deployment step output used by the environment above.
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
