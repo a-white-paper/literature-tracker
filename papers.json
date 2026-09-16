@@ -1,0 +1,38 @@
+{
+  "updated": "2026-09-16",
+  "papers": [
+    {
+      "title": "Example: Photoelectrochemical approaches to radical cross-coupling",
+      "authors": ["Example Author", "Example Author"],
+      "journal": "Example Journal",
+      "date": "2026-09-15",
+      "doi": "",
+      "url": "https://openalex.org/",
+      "abstract": "This placeholder paper demonstrates the card layout. The scheduled updater will replace and expand this dataset with recent literature collected from OpenAlex.",
+      "tags": ["Electrochemistry", "Photocatalysis", "Decarboxylative Coupling"],
+      "relevance": 92
+    },
+    {
+      "title": "Example: Iron-enabled photochemical radical generation from carboxylic acids",
+      "authors": ["Example Author"],
+      "journal": "Example Journal",
+      "date": "2026-09-13",
+      "doi": "",
+      "url": "https://openalex.org/",
+      "abstract": "Placeholder metadata for the first deployment. Real records will be gathered automatically by the update workflow.",
+      "tags": ["Photocatalysis", "Fe Catalysis", "Decarboxylative Coupling"],
+      "relevance": 88
+    },
+    {
+      "title": "Example: Recent advances in boron-mediated skeletal editing",
+      "authors": ["Example Author"],
+      "journal": "Example Journal",
+      "date": "2026-09-10",
+      "doi": "",
+      "url": "https://openalex.org/",
+      "abstract": "Placeholder entry showing topic filtering for skeletal editing and boron chemistry.",
+      "tags": ["Skeletal Editing", "Boron Chemistry"],
+      "relevance": 66
+    }
+  ]
+}
