@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A lightweight literature tracker for catalysis, electrochemistry, photocatalysis and synthetic chemistry." />
+  <title>Literature Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">CHEMISTRY LITERATURE DASHBOARD</p>
+        <h1>Literature Tracker</h1>
+        <p class="subtitle">Track recent papers in electrochemistry, photocatalysis, transition-metal catalysis and synthetic methodology.</p>
+      </div>
+      <div class="hero-badge" id="lastUpdated">Loading…</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="stats" aria-label="Literature statistics">
+      <article class="stat-card"><span class="stat-label">Total papers</span><strong id="totalCount">0</strong></article>
+      <article class="stat-card"><span class="stat-label">This week</span><strong id="weekCount">0</strong></article>
+      <article class="stat-card"><span class="stat-label">Highly relevant</span><strong id="highCount">0</strong></article>
+    </section>
+
+    <section class="toolbar">
+      <label class="search-wrap">
+        <span class="sr-only">Search papers</span>
+        <input id="searchInput" type="search" placeholder="Search title, author, journal or keyword…" />
+      </label>
+      <select id="sortSelect" aria-label="Sort papers">
+        <option value="date-desc">Newest first</option>
+        <option value="relevance-desc">Relevance</option>
+        <option value="journal">Journal</option>
+      </select>
+    </section>
+
+    <section class="filters" id="filters" aria-label="Topic filters"></section>
+
+    <section class="results-head">
+      <h2>Recent papers</h2>
+      <span id="resultCount">0 papers</span>
+    </section>
+
+    <section id="paperGrid" class="paper-grid" aria-live="polite"></section>
+    <div id="emptyState" class="empty-state" hidden>No matching papers found.</div>
+  </main>
+
+  <footer>
+    <p>Built with GitHub Pages · Data can be refreshed automatically with GitHub Actions.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
