@@ -11,6 +11,8 @@ Corresponding-author policy
 3. If that authorship has no paper-level affiliation, use a small curated
    correction table for known OpenAlex institution-resolution errors; otherwise
    query the author's OpenAlex profile for recent institutions.
+4. Append the institution country to every structured affiliation whenever
+   OpenAlex exposes a country code.
 
 The provenance is stored in ``corresponding_source`` so explicit metadata and
 fallbacks remain distinguishable in papers.json.
@@ -43,13 +45,58 @@ USER_AGENT = (
     "+https://github.com/a-white-paper/literature-tracker)"
 )
 
+# OpenAlex exposes ISO-style country codes on institution objects. Keep a compact
+# name table for the countries most likely to occur in synthetic-chemistry
+# literature. Unknown codes are still shown verbatim rather than silently lost.
+COUNTRY_NAMES = {
+    "AT": "Austria",
+    "AU": "Australia",
+    "BE": "Belgium",
+    "BR": "Brazil",
+    "CA": "Canada",
+    "CH": "Switzerland",
+    "CN": "China",
+    "CZ": "Czech Republic",
+    "DE": "Germany",
+    "DK": "Denmark",
+    "ES": "Spain",
+    "FI": "Finland",
+    "FR": "France",
+    "GB": "United Kingdom",
+    "GR": "Greece",
+    "HK": "Hong Kong",
+    "HU": "Hungary",
+    "IE": "Ireland",
+    "IL": "Israel",
+    "IN": "India",
+    "IT": "Italy",
+    "JP": "Japan",
+    "KR": "South Korea",
+    "MX": "Mexico",
+    "NL": "Netherlands",
+    "NO": "Norway",
+    "NZ": "New Zealand",
+    "PL": "Poland",
+    "PT": "Portugal",
+    "RO": "Romania",
+    "RU": "Russia",
+    "SA": "Saudi Arabia",
+    "SE": "Sweden",
+    "SG": "Singapore",
+    "TR": "Türkiye",
+    "TW": "Taiwan",
+    "US": "United States",
+    "ZA": "South Africa",
+}
+
 # Curated corrections are used only when a paper-level affiliation is missing
 # and OpenAlex's author profile is known to conflate or mis-normalize institutions.
-# Keep this table intentionally small and evidence-based.
+# Countries are included directly because these rows bypass the normal OpenAlex
+# institution formatter.
 AUTHOR_AFFILIATION_OVERRIDES = {
     "Kenichiro Itami": [
-        "Molecule Creation Laboratory, RIKEN",
-        "Institute of Transformative Bio-Molecules (WPI-ITbM), Nagoya University",
+        "Molecule Creation Laboratory, RIKEN, Japan",
+        "Institute of Transformative Bio-Molecules (WPI-ITbM), Nagoya University, Japan",
     ],
 }
 
@@ -103,32 +150,53 @@ def dedupe_preserve_order(values):
     return result
 
 
+def country_name(country_code):
+    """Return a readable country name for one OpenAlex country code."""
+    code = str(country_code or "").strip().upper()
+    if not code:
+        return ""
+    return COUNTRY_NAMES.get(code, code)
+
+
+def format_institution(institution):
+    """Format one OpenAlex institution as ``Institution, Country``."""
+    institution = institution or {}
+    name = " ".join(str(institution.get("display_name") or "").split()).strip()
+    country = country_name(institution.get("country_code"))
+    if name and country:
+        return f"{name}, {country}"
+    return name
+
+
 def authorship_name(authorship):
     """Return the normalized display name for one OpenAlex authorship."""
     return ((authorship.get("author") or {}).get("display_name") or "").strip()
 
 
 def authorship_affiliations(authorship):
-    """Return paper-level institution names, then raw affiliation strings."""
+    """Return paper-level institutions with countries, then raw affiliations."""
     institution_names = [
-        (institution or {}).get("display_name") or ""
+        format_institution(institution)
         for institution in (authorship.get("institutions") or [])
     ]
     institution_names = dedupe_preserve_order(institution_names)
     if institution_names:
         return institution_names
+
+    # Raw affiliation strings have no reliable machine-readable country field.
+    # Preserve them as-is rather than guessing a country.
     return dedupe_preserve_order(authorship.get("raw_affiliation_strings") or [])
 
 
 def author_profile_affiliations(authorship):
-    """Return the most recent institutions from the author's OpenAlex profile."""
+    """Return the most recent author-profile institutions with countries."""
     author = authorship.get("author") or {}
     profile = fetch_openalex_author(author.get("id"))
     if not profile:
         return []
 
     last_known = dedupe_preserve_order([
-        (institution or {}).get("display_name") or ""
+        format_institution(institution)
         for institution in (profile.get("last_known_institutions") or [])
     ])
     if last_known:
@@ -140,7 +208,7 @@ def author_profile_affiliations(authorship):
     for row in affiliation_rows:
         years = [year for year in (row.get("years") or []) if isinstance(year, int)]
         row_latest = max(years) if years else None
-        institution_name = ((row.get("institution") or {}).get("display_name") or "").strip()
+        institution_name = format_institution(row.get("institution") or {})
         if not institution_name:
             continue
         if row_latest is None:
