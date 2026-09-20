@@ -1,8 +1,9 @@
 # Automatically refresh papers.json with recent literature from OpenAlex.
 #
-# This workflow is the scheduled data pipeline for the website. It runs the
-# Python fetcher, checks whether papers.json actually changed, and commits the
-# new dataset only when necessary.
+# This workflow is the scheduled data pipeline for the website. It first runs
+# the synthetic-organic literature fetch/filter stage, then enriches the
+# accepted records with publisher-provided TOC / article-image metadata. The
+# completed papers.json dataset is committed only when it actually changes.
 
 name: Update literature
 
@@ -12,13 +13,14 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
-  # Re-run immediately whenever the fetch/filter logic itself changes. This
-  # makes code refinements visible on the website without waiting for the next
-  # scheduled daily refresh.
+  # Re-run immediately whenever either the literature filter or TOC-enrichment
+  # logic changes. This makes code refinements visible on the website without
+  # waiting for the next scheduled daily refresh.
   push:
     branches: ["main"]
     paths:
       - "scripts/fetch_papers.py"
+      - "scripts/fetch_toc.py"
       - ".github/workflows/update-papers.yml"
 
   # Also allow the workflow to be started manually from the Actions tab.
@@ -44,10 +46,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Query OpenAlex, apply synthetic-organic admission/materials filters,
-      # normalize accepted results, deduplicate them, and overwrite papers.json.
-      - name: Fetch recent papers
+      # Stage 1: query OpenAlex, apply the synthetic-organic admission and
+      # materials-exclusion rules, normalize accepted papers, and deduplicate.
+      - name: Fetch and filter recent papers
         run: python scripts/fetch_papers.py
+
+      # Stage 2: visit each accepted paper's landing page and capture a genuine
+      # graphical abstract / TOC image when the publisher exposes one. A lower-
+      # confidence article image may be stored as a labelled fallback; generic
+      # logos/placeholders are rejected by the enrichment script.
+      - name: Enrich papers with TOC graphics
+        run: python scripts/fetch_toc.py
 
       # Avoid creating empty daily commits when the generated dataset is
       # identical to the current papers.json file.
