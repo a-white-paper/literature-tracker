@@ -7,11 +7,13 @@ the synthetic-organic filtering pipeline.
 Image discovery is intentionally layered:
 
 1. Reuse a previously resolved image for the same DOI/title when possible.
-2. Ask OpenAlex for direct publisher / open-access landing pages and inspect
-   those pages for explicit graphical-abstract / TOC metadata.
-3. Fall back to structured article-image metadata such as JSON-LD / Open Graph.
+2. Resolve publisher pages from DOI-prefix rules, DataCite/Crossref, and
+   OpenAlex, avoiding doi.org redirects whenever possible.
+3. Inspect those pages for explicit graphical-abstract / TOC metadata first,
+   then structured article-image metadata such as JSON-LD / Open Graph.
 4. If publishers block the GitHub Actions runner, use Microlink's public
-   metadata endpoint to resolve the page's primary article image.
+   metadata endpoint for the already-resolved publisher page as a final
+   article-image fallback.
 
 The script never fabricates a TOC graphic. Real graphical abstracts are labelled
 as such. Lower-confidence page images are explicitly labelled "article image".
@@ -28,6 +30,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from html.parser import HTMLParser
 from pathlib import Path
 from threading import Lock
+from urllib.error import HTTPError
 from urllib.parse import quote, urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
 
@@ -123,6 +126,7 @@ class ArticleImageParser(HTMLParser):
                 or "graphic abstract" in alt
                 or "table of contents" in alt
                 or "toc graphic" in alt
+                or "toc image" in alt
             ):
                 self.candidates.append((95, "graphical abstract", src))
 
@@ -178,10 +182,15 @@ def normalize_title(title):
     return re.sub(r"[^a-z0-9]+", "", str(title or "").lower())
 
 
+def normalized_doi(paper):
+    """Return a bare DOI string for a normalized paper record."""
+    return str(paper.get("doi") or "").replace("https://doi.org/", "").strip()
+
+
 def paper_cache_keys(paper):
     """Return DOI/title cache keys for one paper."""
     keys = []
-    doi = str(paper.get("doi") or "").replace("https://doi.org/", "").lower()
+    doi = normalized_doi(paper).lower()
     if doi:
         keys.append(f"doi:{doi}")
 
@@ -242,37 +251,150 @@ def add_unique_url(urls, value):
         urls.append(value)
 
 
-def openalex_article_pages(paper):
+def publisher_url_candidates(doi):
+    """Construct predictable publisher URLs for common chemistry DOI prefixes.
+
+    These URLs avoid doi.org entirely and are intentionally placed before
+    metadata-resolver results because their host/path patterns are stable and
+    easy to audit.
+    """
+    urls = []
+    doi_lower = doi.lower()
+    suffix = doi.split("/", 1)[1] if "/" in doi else ""
+
+    if doi_lower.startswith("10.1038/") and suffix:
+        add_unique_url(urls, f"https://www.nature.com/articles/{suffix}")
+
+    if doi_lower.startswith("10.1021/"):
+        add_unique_url(urls, f"https://pubs.acs.org/doi/{doi}")
+
+    if doi_lower.startswith("10.1002/"):
+        add_unique_url(urls, f"https://onlinelibrary.wiley.com/doi/{doi}")
+
+    return urls
+
+
+def datacite_article_page(doi):
+    """Resolve the registered landing URL for DataCite-managed DOIs.
+
+    ChemRxiv's 10.26434 DOI family is registered with DataCite, whose metadata
+    contains the canonical preprint landing page even when DOI redirects are
+    blocked to a GitHub-hosted runner.
+    """
+    if not doi.lower().startswith("10.26434/"):
+        return ""
+
+    api_url = f"https://api.datacite.org/dois/{quote(doi, safe='')}"
+    request = Request(
+        api_url,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/vnd.api+json"},
+    )
+
+    try:
+        with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+            payload = json.load(response)
+        return (((payload.get("data") or {}).get("attributes") or {}).get("url") or "")
+    except Exception as exc:
+        print(f"DataCite lookup failed for {doi}: {exc}")
+        return ""
+
+
+def crossref_article_pages(doi):
+    """Resolve publisher URLs exposed by Crossref metadata."""
+    if not doi:
+        return []
+
+    api_url = f"https://api.crossref.org/works/{quote(doi, safe='')}"
+    request = Request(
+        api_url,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+    )
+
+    urls = []
+    try:
+        with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+            message = (json.load(response).get("message") or {})
+
+        resource = message.get("resource") or {}
+        primary = resource.get("primary") or {}
+        add_unique_url(urls, primary.get("URL"))
+
+        # Crossref sometimes exposes full-text links even when the main URL is
+        # only a DOI resolver. HTML links are especially useful for TOC parsing.
+        for item in message.get("link") or []:
+            if not isinstance(item, dict):
+                continue
+            content_type = str(item.get("content-type") or "").lower()
+            intended_for = str(item.get("intended-application") or "").lower()
+            if "html" in content_type or intended_for in {"text-mining", "similarity-checking"}:
+                add_unique_url(urls, item.get("URL"))
+
+        main_url = message.get("URL") or ""
+        if "doi.org/" not in main_url:
+            add_unique_url(urls, main_url)
+    except Exception as exc:
+        print(f"Crossref lookup failed for {doi}: {exc}")
+
+    return urls
+
+
+def openalex_article_pages(doi):
     """Resolve direct publisher/repository landing pages through OpenAlex."""
     urls = []
-    doi = str(paper.get("doi") or "").replace("https://doi.org/", "")
+    if not doi:
+        return urls
+
+    identifier = quote(f"https://doi.org/{doi}", safe=":/")
+    api_url = f"https://api.openalex.org/works/{identifier}"
+    request = Request(
+        api_url,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+    )
+
+    try:
+        with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+            work = json.load(response)
+
+        primary = work.get("primary_location") or {}
+        best_oa = work.get("best_oa_location") or {}
+        add_unique_url(urls, primary.get("landing_page_url"))
+        add_unique_url(urls, best_oa.get("landing_page_url"))
+
+        for location in work.get("locations") or []:
+            add_unique_url(urls, (location or {}).get("landing_page_url"))
+    except Exception as exc:
+        print(f"OpenAlex landing-page lookup failed for {doi}: {exc}")
+
+    return urls
+
+
+def article_pages(paper):
+    """Build an ordered set of publisher/article pages for one paper."""
+    urls = []
+    doi = normalized_doi(paper)
 
     if doi:
-        identifier = quote(f"https://doi.org/{doi}", safe=":/")
-        api_url = f"https://api.openalex.org/works/{identifier}"
-        request = Request(
-            api_url,
-            headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
-        )
+        for value in publisher_url_candidates(doi):
+            add_unique_url(urls, value)
 
-        try:
-            with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
-                work = json.load(response)
+        add_unique_url(urls, datacite_article_page(doi))
 
-            primary = work.get("primary_location") or {}
-            best_oa = work.get("best_oa_location") or {}
-            add_unique_url(urls, primary.get("landing_page_url"))
-            add_unique_url(urls, best_oa.get("landing_page_url"))
+        for value in crossref_article_pages(doi):
+            add_unique_url(urls, value)
 
-            for location in work.get("locations") or []:
-                add_unique_url(urls, (location or {}).get("landing_page_url"))
-        except Exception as exc:
-            print(f"OpenAlex landing-page lookup failed for {doi}: {exc}")
+        for value in openalex_article_pages(doi):
+            # Keep doi.org links out of the preferred set; they are known to be
+            # blocked in this workflow environment and add no new information.
+            if "doi.org/" not in value:
+                add_unique_url(urls, value)
 
     stored_url = str(paper.get("url") or "")
     if stored_url and "doi.org/" not in stored_url:
         add_unique_url(urls, stored_url)
 
+    # DOI resolver is retained only as a final direct-extraction attempt. It is
+    # deliberately never used as the metadata-proxy target when a resolved page
+    # is available.
     if doi:
         add_unique_url(urls, f"https://doi.org/{doi}")
 
@@ -294,7 +416,7 @@ def page_image_candidates(page_url):
         content_type = response.headers.get("Content-Type", "")
         if "html" not in content_type.lower():
             return []
-        html = response.read(2_500_000).decode("utf-8", errors="replace")
+        html = response.read(3_500_000).decode("utf-8", errors="replace")
 
     parser = ArticleImageParser()
     parser.feed(html)
@@ -332,6 +454,15 @@ def microlink_article_image(page_url):
     try:
         with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
             payload = json.load(response)
+    except HTTPError as exc:
+        # Read the response body when possible; this makes future provider/API
+        # changes diagnosable from the Actions log instead of showing only 400.
+        try:
+            body = exc.read().decode("utf-8", errors="replace")[:500]
+        except Exception:
+            body = ""
+        print(f"Microlink lookup failed for {page_url}: HTTP {exc.code} {body}")
+        return ""
     except Exception as exc:
         print(f"Microlink lookup failed for {page_url}: {exc}")
         return ""
@@ -344,7 +475,6 @@ def microlink_article_image(page_url):
     logo = data.get("logo") or {}
     image_url = image.get("url") or ""
 
-    # Do not mistake the publisher/site logo for an article visual.
     if image_url and image_url == (logo.get("url") or ""):
         return ""
 
@@ -371,7 +501,7 @@ def extract_toc_for_paper(paper, cache):
     if cached_url:
         return cached_url, cached_kind
 
-    pages = openalex_article_pages(paper)
+    pages = article_pages(paper)
     best_candidate = None
     errors = []
 
@@ -396,14 +526,14 @@ def extract_toc_for_paper(paper, cache):
         _, toc_kind, toc_url = best_candidate
         return toc_url, toc_kind
 
-    # Hosted CI runners are blocked by several publisher/DOI endpoints. Use the
-    # metadata proxy only after direct extraction fails, and keep the fallback
-    # clearly labelled as an article image rather than a verified TOC graphic.
-    doi = str(paper.get("doi") or "").replace("https://doi.org/", "")
-    fallback_page = pages[0] if pages else ""
-    if doi:
-        fallback_page = f"https://doi.org/{doi}"
-
+    # Use the first resolved non-doi.org publisher/repository page for the
+    # metadata proxy. This fixes the previous behavior that unnecessarily sent
+    # the proxy back through the same DOI resolver that the runner could not
+    # access directly.
+    fallback_page = next(
+        (page for page in pages if "doi.org/" not in page),
+        pages[0] if pages else "",
+    )
     if fallback_page:
         fallback_image = microlink_article_image(fallback_page)
         if fallback_image:
@@ -412,7 +542,7 @@ def extract_toc_for_paper(paper, cache):
     if errors:
         print(
             f"TOC unavailable: {paper.get('title', 'Untitled')} — "
-            + " | ".join(errors[:3])
+            + " | ".join(errors[:4])
         )
     return "", ""
 
