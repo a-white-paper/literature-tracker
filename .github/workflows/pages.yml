@@ -6,10 +6,16 @@
 name: Deploy GitHub Pages
 
 on:
-  # Re-deploy whenever main changes. This also means that a scheduled update to
-  # papers.json automatically publishes the refreshed literature dataset.
+  # Re-deploy whenever a normal change is pushed to main.
   push:
     branches: ["main"]
+
+  # The scheduled literature updater commits papers.json with GITHUB_TOKEN.
+  # GitHub intentionally does not let that bot-generated push trigger another
+  # workflow, so listen for the completion of Update literature explicitly.
+  workflow_run:
+    workflows: ["Update literature"]
+    types: [completed]
 
   # Allow a manual deployment from the GitHub Actions interface.
   workflow_dispatch:
@@ -28,6 +34,9 @@ concurrency:
 
 jobs:
   deploy:
+    # For workflow_run events, deploy only when Update literature succeeded.
+    # Normal pushes and manual runs continue to deploy as before.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     # The github-pages environment records the published site URL and provides
@@ -37,7 +46,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      # Download the repository content that will be published.
+      # For workflow_run events, checkout's default behavior reads the current
+      # main branch, which already contains the updater's newly committed data.
       - name: Check out repository
         uses: actions/checkout@v4
 
