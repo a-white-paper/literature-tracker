@@ -5,11 +5,12 @@
  * 1. Load literature data from papers.json.
  * 2. Render topic filters, statistics, and paper cards.
  * 3. Apply keyword search and sorting in the browser.
- * 4. Keep all dynamic page updates in one place.
+ * 4. Show publisher-provided TOC / article graphics when available.
+ * 5. Keep all dynamic page updates in one place.
  *
  * The frontend deliberately does not fetch papers from external APIs directly.
  * External literature retrieval is handled by scripts/fetch_papers.py and
- * GitHub Actions, which keep papers.json up to date.
+ * scripts/fetch_toc.py through GitHub Actions, which keep papers.json current.
  */
 
 // Topics shown as filter buttons above the paper list.
@@ -42,9 +43,9 @@ const el = id => document.getElementById(id);
 /**
  * Load the generated literature dataset and initialize the interface.
  *
- * papers.json is produced by scripts/fetch_papers.py. The no-store cache
- * option helps ensure that visitors see the newest dataset after an update.
- * If loading fails, the page remains usable and displays an empty result set.
+ * papers.json is produced by scripts/fetch_papers.py and then enriched with
+ * TOC/article-image metadata by scripts/fetch_toc.py. The no-store cache option
+ * helps ensure that visitors see the newest dataset after an update.
  *
  * @returns {Promise<void>}
  */
@@ -149,9 +150,9 @@ function relevanceLabel(score = 0) {
 /**
  * Escape text before inserting external metadata into HTML templates.
  *
- * OpenAlex titles, abstracts, journal names, and author names are external
- * data. Escaping reserved HTML characters prevents those values from being
- * interpreted as page markup.
+ * OpenAlex titles, abstracts, journal names, author names, and publisher image
+ * URLs are external data. Escaping reserved HTML characters prevents those
+ * values from being interpreted as page markup.
  *
  * @param {unknown} value - Value to convert into safe display text.
  * @returns {string} HTML-safe string.
@@ -164,6 +165,48 @@ function escapeHTML(value = "") {
     "'": "&#39;",
     '"': "&quot;"
   }[char]));
+}
+
+/**
+ * Build the visual-summary region shown on every literature card.
+ *
+ * A real publisher-provided graphical abstract / TOC image is preferred. If
+ * only article-level image metadata is available, it is labelled accordingly.
+ * If neither exists, the card explicitly says the TOC is unavailable rather
+ * than fabricating an image or showing a publisher logo.
+ *
+ * @param {Object} paper - Normalized paper record from papers.json.
+ * @param {string} targetUrl - Article URL opened when the graphic is clicked.
+ * @returns {string} HTML markup for the visual-summary region.
+ */
+function tocBlock(paper, targetUrl) {
+  if (!paper.toc_url) {
+    return `
+      <div class="toc-unavailable" aria-label="TOC graphic unavailable">
+        <span>TOC</span>
+        <small>Not available from publisher metadata</small>
+      </div>`;
+  }
+
+  const kind = paper.toc_kind === "graphical abstract"
+    ? "TOC / graphical abstract"
+    : "Article graphic";
+
+  return `
+    <figure class="toc-figure">
+      <a href="${escapeHTML(targetUrl)}" target="_blank" rel="noopener">
+        <img
+          class="toc-image"
+          src="${escapeHTML(paper.toc_url)}"
+          alt="Visual summary for ${escapeHTML(paper.title || "this paper")}" 
+          loading="lazy"
+          decoding="async"
+          referrerpolicy="no-referrer"
+          onerror="this.closest('.toc-figure').classList.add('toc-load-error'); this.remove();"
+        >
+      </a>
+      <figcaption>${kind}</figcaption>
+    </figure>`;
 }
 
 /**
@@ -194,16 +237,17 @@ function paperCard(paper) {
         <span class="date">${escapeHTML(paper.date || "")}</span>
       </div>
       <h3 class="paper-title">
-        <a href="${titleUrl}" target="_blank" rel="noopener">${escapeHTML(paper.title || "Untitled")}</a>
+        <a href="${escapeHTML(titleUrl)}" target="_blank" rel="noopener">${escapeHTML(paper.title || "Untitled")}</a>
       </h3>
       <div class="authors">${escapeHTML((paper.authors || []).join(", "))}</div>
+      ${tocBlock(paper, titleUrl)}
       <p class="abstract">${escapeHTML(abstract.length > 320 ? abstract.slice(0, 320) + "…" : abstract)}</p>
       <div class="tags">
         ${(paper.tags || []).map(tag => `<span class="tag">${escapeHTML(tag)}</span>`).join("")}
       </div>
       <div class="paper-footer">
         <span class="relevance ${relevanceClass}">${label} · ${paper.relevance || 0}</span>
-        <a class="doi-link" href="${doiUrl}" target="_blank" rel="noopener">${paper.doi ? "DOI ↗" : "Paper ↗"}</a>
+        <a class="doi-link" href="${escapeHTML(doiUrl)}" target="_blank" rel="noopener">${paper.doi ? "DOI ↗" : "Paper ↗"}</a>
       </div>
     </article>`;
 }
