@@ -232,6 +232,92 @@ body {
   line-height: 1.55;
 }
 
+/* Publisher-provided TOC / graphical-abstract region. The ~1.86:1 aspect
+ * ratio mirrors the compact landscape format commonly used for chemistry TOC
+ * graphics while still accommodating publisher article-image fallbacks. */
+.toc-figure,
+.toc-unavailable {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 1.86 / 1;
+  border: 1px solid #e5eaf1;
+  border-radius: 12px;
+  background: #fbfcfe;
+  overflow: hidden;
+}
+
+.toc-figure {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.toc-figure a {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.toc-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.toc-figure figcaption {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 4px 7px;
+  border-radius: 999px;
+  background: rgba(23, 32, 51, 0.78);
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.2;
+  pointer-events: none;
+}
+
+/* If a publisher blocks hot-linking after metadata was collected, keep the
+ * card layout stable and clearly report that the visual could not be loaded. */
+.toc-figure.toc-load-error::before {
+  content: "TOC image could not be loaded";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #8a95a6;
+  font-size: 12px;
+  background: #f7f9fc;
+}
+
+.toc-figure.toc-load-error figcaption {
+  display: none;
+}
+
+.toc-unavailable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #9aa5b5;
+  background: linear-gradient(135deg, #fafbfd, #f3f6fa);
+}
+
+.toc-unavailable span {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.toc-unavailable small {
+  font-size: 11px;
+}
+
 .abstract {
   font-size: 14px;
   line-height: 1.7;
