@@ -24,8 +24,9 @@
       "relevance": 68,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "通过连续流动生成NCF3阴离子实现三组分烯烃差异化",
+      "title_zh": "通过连续流动生成 NCF3 阴离子实现三组分烯烃双官能化",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -54,11 +55,12 @@
         "Inner Mongolia Medical University",
         "Beijing University of Chemical Technology"
       ],
-      "title_zh": "Α-酮酸与硝基芳烃的成对电化学脱羧酰胺化反应",
+      "title_zh": "α-酮酸与硝基芳烃的配对电化学脱羧酰胺化",
       "corresponding_affiliations_zh": [
-        "内蒙古医科大学附属医院",
+        "内蒙古医科大学",
         "北京化工大学"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -85,6 +87,7 @@
       "corresponding_affiliations": [],
       "title_zh": "由机械力驱动的主动约束催化。",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -111,8 +114,9 @@
       "relevance": 54,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "通过形式环膨胀从氮杂环丁烷硝酮合成5-氨基异恶唑烷",
+      "title_zh": "氮杂环丁烷硝酮通过正式扩环合成 5-氨基异恶唑烷",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -139,8 +143,9 @@
       "relevance": 48,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "色氨酸在肽和蛋白质中的可见光驱动C2-膦酰化",
+      "title_zh": "可见光驱动的肽和蛋白质中色氨酸的 C2 磷酸化",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -165,8 +170,9 @@
       "relevance": 62,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "通过自由基应变释放脱芳烃级联电合成双螺环",
+      "title_zh": "通过自由基应变释放脱芳构化级联电合成双螺环",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -197,10 +203,11 @@
       "corresponding_affiliations": [
         "Rice University"
       ],
-      "title_zh": "通过铁光催化进行抗-Markovnikov烯烃加氢烷基化",
+      "title_zh": "通过铁光催化进行反马尔可夫尼科夫烯烃加氢烷基化",
       "corresponding_affiliations_zh": [
         "莱斯大学"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -222,8 +229,9 @@
       "relevance": 56,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "面向功能性有机材料的性能导向催化骨架编辑",
+      "title_zh": "功能有机材料的性质导向催化骨架编辑",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -251,10 +259,11 @@
       "corresponding_affiliations": [
         "Yunnan University"
       ],
-      "title_zh": "可见光诱导氧原子转移到酰氯的C-CL键中进行均解裂解",
+      "title_zh": "可见光诱导氧原子转移到酰氯的 C−CL 键上进行均裂",
       "corresponding_affiliations_zh": [
-        "Yunnan Arts University"
+        "云南大学"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -280,8 +289,9 @@
       "relevance": 70,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "通过氮丙啶开环加成光诱导钴催化的1,3-二胺的对映收敛合成",
+      "title_zh": "光诱导钴催化氮丙啶开环加成对映异构体合成 1,3-二胺",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -309,8 +319,9 @@
       "relevance": 80,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "开发一种用于高通量实验的可调谐光反应器",
+      "title_zh": "开发用于高通量实验的可调光反应器",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -333,8 +344,9 @@
       "relevance": 66,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "二氧化碳促成的自适应光催化机制· –和双光子激发协同作用：芳基卤化物与二氧化碳的环化-羧化",
+      "title_zh": "CO2 ·– 和双光子激发协同作用实现的自适应光催化机制：芳基卤化物与 CO2 的环化-羧化",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -359,6 +371,7 @@
       "corresponding_affiliations": [],
       "title_zh": "催化磷基氢原子",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -381,8 +394,9 @@
       "relevance": 56,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "通过膦酰基阴离子继电器的催化磷基氢原子转移",
+      "title_zh": "通过膦酰基阴离子继电器催化磷基氢原子转移",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -410,8 +424,9 @@
       "relevance": 94,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "用于羧酸脱羧烯烃的合作碱金属催化",
+      "title_zh": "碱金属协同催化羧酸脱羧烯化",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -437,10 +452,11 @@
       "corresponding_affiliations": [
         "Fudan University"
       ],
-      "title_zh": "自由基介导的1,2-硼酸盐迁移：针对不同硼酸盐分子和聚合物的新兴战略",
+      "title_zh": "自由基介导的 1,2-硼基迁移：针对多种硼酸盐分子和聚合物的新兴策略",
       "corresponding_affiliations_zh": [
         "复旦大学"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -464,8 +480,9 @@
       "relevance": 70,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "用于叔胺的直接区域特异性α-C (sp3) βH炔基化的低能光催化平台",
+      "title_zh": "用于叔胺直接区域特异性α-C(sp3)ꟷH烷基化的低能量光催化平台",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -486,8 +503,9 @@
       "relevance": 48,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "用于醚的氢化α ‑ C (sp3) -H的直接硫醇化的无金属光诱导氢原子转移。",
+      "title_zh": "无金属光诱导氢原子转移用于醚的氢 α-C(sp3)-H 的直接硫醇化。",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -518,11 +536,12 @@
         "Piramal (India)",
         "Seoul National University"
       ],
-      "title_zh": "对有机转化的光催化C–C键偶联反应-近期更新",
+      "title_zh": "光催化 C-C 键偶联反应实现有机转化——最新进展",
       "corresponding_affiliations_zh": [
         "皮拉马尔（印度）",
-        "毕业于巴黎国家行政学院"
+        "首尔国立大学"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -553,6 +572,7 @@
       "corresponding_affiliations_zh": [
         "江苏大学"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -586,13 +606,14 @@
         "Université de Rouen Normandie",
         "Institut National des Sciences Appliquées Rouen Normandie"
       ],
-      "title_zh": "通过氢化获得未知（乙氧基）二氟甲基化-含四氢呋喃",
+      "title_zh": "通过氢化获得未知的（乙氧基）二氟甲基化四氢呋喃",
       "corresponding_affiliations_zh": [
-        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>",
+        "国家科学研究中心",
         "诺曼底大学",
-        "鲁昂诺曼底大学",
-        "鲁昂诺曼底应用科学研究所"
+        "诺曼底鲁昂大学",
+        "诺曼底鲁昂国家应用科学研究所"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -622,13 +643,14 @@
         "Beihang University",
         "Beijing National Laboratory for Molecular Sciences"
       ],
-      "title_zh": "光化学和光电化学氟烷基化的最新进展：氟烷基羧酸的直接使用",
+      "title_zh": "光化学和光电化学氟烷基化的最新进展：直接使用氟烷基羧酸",
       "corresponding_affiliations_zh": [
-        "",
+        "国际生物大学联盟 - CIAT",
         "教育部",
         "北京航空航天大学",
-        "北京市分子科学国家实验室"
+        "北京分子科学国家实验室"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -657,10 +679,11 @@
       "corresponding_affiliations": [
         "Xiamen University"
       ],
-      "title_zh": "电化学脱甲硅烷基氟化能够获得N-单氟甲基酰胺和肽",
+      "title_zh": "电化学脱甲硅烷基氟化能够获得 N-单氟甲基酰胺和肽",
       "corresponding_affiliations_zh": [
         "厦门大学"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -691,13 +714,14 @@
         "Institut des Sciences Moléculaires",
         "Institut Polytechnique de Bordeaux"
       ],
-      "title_zh": "NHC-硼烷介导的选择性光诱导α-氨基C (sp 3) –H烷基化",
+      "title_zh": "NHC-硼烷介导的选择性光诱导α-氨基 C(sp 3 )–H 烷基化",
       "corresponding_affiliations_zh": [
-        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>",
+        "国家科学研究中心",
         "波尔多大学",
-        "莫莱库莱尔科学研究所",
+        "分子科学研究所",
         "波尔多理工学院"
       ],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
@@ -723,8 +747,9 @@
       "relevance": 98,
       "corresponding_authors": [],
       "corresponding_affiliations": [],
-      "title_zh": "未活化烯烃与三氟甲芳烃的光诱导钯催化脱氟级联反应",
+      "title_zh": "光诱导钯催化未活化烯烃与三氟甲基芳烃的脱氟级联反应",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     }
