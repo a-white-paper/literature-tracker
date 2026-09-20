@@ -3,8 +3,8 @@
 # This workflow is the scheduled data pipeline for the website. It first runs
 # the synthetic-organic literature fetch/filter stage, then enriches accepted
 # records with corresponding-author affiliations and Chinese translations,
-# then resolves/validates TOC metadata. The completed papers.json dataset is
-# committed only when it actually changes.
+# normalizes bilingual affiliation display, then resolves/validates TOC metadata.
+# The completed papers.json dataset is committed only when it actually changes.
 
 name: Update literature
 
@@ -22,6 +22,7 @@ on:
     paths:
       - "scripts/fetch_papers.py"
       - "scripts/enrich_bilingual_metadata.py"
+      - "scripts/normalize_affiliation_display.py"
       - "scripts/fetch_toc.py"
       - "scripts/validate_toc.py"
       - ".github/workflows/update-papers.yml"
@@ -54,19 +55,25 @@ jobs:
       - name: Fetch and filter recent papers
         run: python scripts/fetch_papers.py
 
-      # Stage 2: use OpenAlex's explicit corresponding-author metadata to add
-      # affiliations, then translate titles and those affiliations into Chinese.
-      # Missing corresponding-author flags are left unavailable rather than
-      # guessed from author order.
+      # Stage 2: prefer explicit corresponding-author metadata. If a source does
+      # not identify the corresponding author, use the project convention of
+      # treating the final listed author as corresponding and resolve that
+      # author's institution through paper-level or author-profile metadata.
       - name: Enrich bilingual card metadata
         run: python scripts/enrich_bilingual_metadata.py
 
-      # Stage 3: inspect publisher/article metadata for possible graphical
+      # Stage 3: enforce the display convention requested for Chinese cards:
+      # institution first, country second (``机构，国家``). This final guard also
+      # cleans historical translation-cache entries such as ``美国莱斯大学``.
+      - name: Normalize affiliation display
+        run: python scripts/normalize_affiliation_display.py
+
+      # Stage 4: inspect publisher/article metadata for possible graphical
       # abstracts. Candidate images are validated separately before display.
       - name: Enrich papers with TOC metadata
         run: python scripts/fetch_toc.py
 
-      # Stage 4: enforce a strict display policy. Only images explicitly
+      # Stage 5: enforce a strict display policy. Only images explicitly
       # identified as a graphical abstract / TOC are retained. Generic
       # PubMed/PMC/NLM preview images and ordinary article/social images are
       # removed so a misleading picture can never be shown as a TOC.
