@@ -5,12 +5,13 @@
  * 1. Load literature data from papers.json.
  * 2. Render topic filters, statistics, and paper cards.
  * 3. Apply keyword search and sorting in the browser.
- * 4. Show publisher-provided TOC / article graphics when available.
- * 5. Keep all dynamic page updates in one place.
+ * 4. Show bilingual title / corresponding-author affiliation metadata.
+ * 5. Show verified publisher-provided TOC graphics when available.
+ * 6. Keep all dynamic page updates in one place.
  *
  * The frontend deliberately does not fetch papers from external APIs directly.
- * External literature retrieval is handled by scripts/fetch_papers.py and
- * scripts/fetch_toc.py through GitHub Actions, which keep papers.json current.
+ * External literature retrieval and enrichment are handled by the Python
+ * scripts under scripts/ through GitHub Actions, which keep papers.json current.
  */
 
 // Topics shown as filter buttons above the paper list.
@@ -44,8 +45,8 @@ const el = id => document.getElementById(id);
  * Load the generated literature dataset and initialize the interface.
  *
  * papers.json is produced by scripts/fetch_papers.py and then enriched with
- * TOC/article-image metadata by scripts/fetch_toc.py. The no-store cache option
- * helps ensure that visitors see the newest dataset after an update.
+ * bilingual/corresponding-author metadata and verified TOC metadata. The
+ * no-store cache option helps ensure that visitors see the newest dataset.
  *
  * @returns {Promise<void>}
  */
@@ -72,9 +73,6 @@ async function loadPapers() {
 
 /**
  * Render topic filter buttons and attach their click handlers.
- *
- * Re-rendering the buttons after a click keeps the selected button's
- * "active" class synchronized with activeTopic.
  */
 function renderFilters() {
   const box = el("filters");
@@ -95,9 +93,8 @@ function renderFilters() {
 /**
  * Apply the current topic filter, search text, and sort order.
  *
- * Search is intentionally broad: title, journal, authors, abstract, and tags
- * are combined into one lowercase text string so a single search box can
- * match any of those fields.
+ * Both English and Chinese title/affiliation metadata are searchable so users
+ * can find a paper using either language.
  *
  * @returns {Array<Object>} A new filtered and sorted paper array.
  */
@@ -108,11 +105,14 @@ function filteredPapers() {
   const result = papers.filter(paper => {
     const topicMatch = activeTopic === "All" || (paper.tags || []).includes(activeTopic);
 
-    // Build one searchable string from all user-relevant metadata fields.
     const haystack = [
       paper.title,
+      paper.title_zh,
       paper.journal,
       (paper.authors || []).join(" "),
+      (paper.corresponding_authors || []).join(" "),
+      (paper.corresponding_affiliations || []).join(" "),
+      (paper.corresponding_affiliations_zh || []).join(" "),
       paper.abstract,
       (paper.tags || []).join(" ")
     ].join(" ").toLowerCase();
@@ -121,7 +121,6 @@ function filteredPapers() {
   });
 
   if (sort === "relevance-desc") {
-    // Relevance is the primary key; publication date breaks equal-score ties.
     result.sort((a, b) =>
       (b.relevance || 0) - (a.relevance || 0) ||
       new Date(b.date) - new Date(a.date)
@@ -137,9 +136,6 @@ function filteredPapers() {
 
 /**
  * Convert a numeric relevance score into a human-readable label and CSS class.
- *
- * @param {number} score - Relevance score from 0 to 100.
- * @returns {[string, string]} Display label and corresponding CSS class.
  */
 function relevanceLabel(score = 0) {
   if (score >= 80) return ["Highly relevant", "rel-high"];
@@ -149,13 +145,6 @@ function relevanceLabel(score = 0) {
 
 /**
  * Escape text before inserting external metadata into HTML templates.
- *
- * OpenAlex titles, abstracts, journal names, author names, and publisher image
- * URLs are external data. Escaping reserved HTML characters prevents those
- * values from being interpreted as page markup.
- *
- * @param {unknown} value - Value to convert into safe display text.
- * @returns {string} HTML-safe string.
  */
 function escapeHTML(value = "") {
   return String(value).replace(/[&<>'"]/g, char => ({
@@ -168,29 +157,48 @@ function escapeHTML(value = "") {
 }
 
 /**
- * Build the visual-summary region shown on every literature card.
+ * Build the English + Chinese metadata immediately below the English title.
  *
- * A real publisher-provided graphical abstract / TOC image is preferred. If
- * only article-level image metadata is available, it is labelled accordingly.
- * If neither exists, the card explicitly says the TOC is unavailable rather
- * than fabricating an image or showing a publisher logo.
- *
- * @param {Object} paper - Normalized paper record from papers.json.
- * @param {string} targetUrl - Article URL opened when the graphic is clicked.
- * @returns {string} HTML markup for the visual-summary region.
+ * OpenAlex must explicitly mark an authorship as corresponding before its
+ * institution is shown here. Missing metadata is reported rather than guessed.
+ */
+function bilingualMetadataBlock(paper) {
+  const affiliations = paper.corresponding_affiliations || [];
+  const affiliationsZh = paper.corresponding_affiliations_zh || [];
+  const titleZh = (paper.title_zh || "").trim();
+
+  const affiliationEn = affiliations.length
+    ? affiliations.join("; ")
+    : "Reliable corresponding-author affiliation not available from metadata";
+
+  const affiliationZh = affiliationsZh.length
+    ? affiliationsZh.join("；")
+    : "暂无可靠的通讯作者单位元数据";
+
+  return `
+    <div class="corresponding-affiliation-en">
+      <span class="metadata-label">Corresponding author affiliation:</span>
+      ${escapeHTML(affiliationEn)}
+    </div>
+    <div class="bilingual-block">
+      <div class="paper-title-zh">${escapeHTML(titleZh || "中文标题翻译暂不可用")}</div>
+      <div class="corresponding-affiliation-zh">
+        <span class="metadata-label-zh">通讯作者单位：</span>${escapeHTML(affiliationZh)}
+      </div>
+    </div>`;
+}
+
+/**
+ * Build the verified TOC / graphical-abstract region shown on each card.
  */
 function tocBlock(paper, targetUrl) {
   if (!paper.toc_url) {
     return `
       <div class="toc-unavailable" aria-label="TOC graphic unavailable">
         <span>TOC</span>
-        <small>Not available from publisher metadata</small>
+        <small>Verified TOC not available</small>
       </div>`;
   }
-
-  const kind = paper.toc_kind === "graphical abstract"
-    ? "TOC / graphical abstract"
-    : "Article graphic";
 
   return `
     <figure class="toc-figure">
@@ -198,31 +206,23 @@ function tocBlock(paper, targetUrl) {
         <img
           class="toc-image"
           src="${escapeHTML(paper.toc_url)}"
-          alt="Visual summary for ${escapeHTML(paper.title || "this paper")}" 
+          alt="TOC graphic for ${escapeHTML(paper.title || "this paper")}" 
           loading="lazy"
           decoding="async"
           referrerpolicy="no-referrer"
           onerror="this.closest('.toc-figure').classList.add('toc-load-error'); this.remove();"
         >
       </a>
-      <figcaption>${kind}</figcaption>
+      <figcaption>TOC / graphical abstract</figcaption>
     </figure>`;
 }
 
 /**
  * Build the HTML for one literature card.
- *
- * The DOI is preferred for the DOI button, while the paper title uses the
- * best available landing-page URL. Abstract text is truncated only for the
- * card preview; the original full abstract remains in papers.json.
- *
- * @param {Object} paper - Normalized paper record from papers.json.
- * @returns {string} HTML markup for one paper card.
  */
 function paperCard(paper) {
   const [label, relevanceClass] = relevanceLabel(paper.relevance);
 
-  // Normalize DOI values whether papers.json stores a bare DOI or doi.org URL.
   const doiUrl = paper.doi
     ? `https://doi.org/${encodeURIComponent(paper.doi.replace(/^https?:\/\/doi\.org\//, ""))}`
     : paper.url || "#";
@@ -239,6 +239,7 @@ function paperCard(paper) {
       <h3 class="paper-title">
         <a href="${escapeHTML(titleUrl)}" target="_blank" rel="noopener">${escapeHTML(paper.title || "Untitled")}</a>
       </h3>
+      ${bilingualMetadataBlock(paper)}
       <div class="authors">${escapeHTML((paper.authors || []).join(", "))}</div>
       ${tocBlock(paper, titleUrl)}
       <p class="abstract">${escapeHTML(abstract.length > 320 ? abstract.slice(0, 320) + "…" : abstract)}</p>
@@ -254,10 +255,6 @@ function paperCard(paper) {
 
 /**
  * Update summary counters shown above the search controls.
- *
- * "This week" means papers dated within the previous seven days relative to
- * the visitor's current browser time. "Highly relevant" uses the same >=80
- * threshold as relevanceLabel().
  */
 function renderStats() {
   const now = new Date();
@@ -281,9 +278,7 @@ function render() {
   renderStats();
 }
 
-// Re-render immediately whenever the user changes search text or sort order.
 el("searchInput").addEventListener("input", render);
 el("sortSelect").addEventListener("change", render);
 
-// Initial application startup: load data first, then render the page.
 loadPapers();
