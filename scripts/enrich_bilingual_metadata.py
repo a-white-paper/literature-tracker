@@ -3,19 +3,23 @@
 This script runs after ``fetch_papers.py``. It adds card-level metadata without
 changing literature admission/filtering decisions:
 
-- ``corresponding_authors``: names explicitly marked as corresponding by OpenAlex.
+- ``corresponding_authors``: corresponding-author names.
 - ``corresponding_affiliations``: English institution/affiliation strings for
-  those corresponding authors.
+  those authors.
+- ``corresponding_source``: whether the corresponding author came from an
+  explicit OpenAlex flag or from the configured last-author fallback.
 - ``title_zh``: Simplified-Chinese translation of the English paper title.
 - ``corresponding_affiliations_zh``: Chinese translations of the affiliation
   strings above.
 
-Accuracy policy
----------------
-The script never assumes that the last author is the corresponding author. If
-OpenAlex does not expose an explicit ``is_corresponding`` flag, the affiliation
-fields are left empty and the frontend reports that reliable metadata is not
-available.
+Corresponding-author policy
+---------------------------
+OpenAlex's explicit ``is_corresponding`` flag is always preferred. If OpenAlex
+does not mark any authorship as corresponding, this tracker follows the project
+policy requested by the repository owner: the final listed author is treated as
+the corresponding author and that authorship's institution/affiliation is used.
+The provenance is preserved in ``corresponding_source`` so the inferred fallback
+can still be distinguished from explicit metadata in the dataset.
 
 Translation policy
 ------------------
@@ -86,34 +90,69 @@ def dedupe_preserve_order(values):
     return result
 
 
+def authorship_name(authorship):
+    """Return the normalized display name for one OpenAlex authorship."""
+    return ((authorship.get("author") or {}).get("display_name") or "").strip()
+
+
+def authorship_affiliations(authorship):
+    """Return normalized institution names, falling back to raw affiliations."""
+    institutions = authorship.get("institutions") or []
+    institution_names = [
+        (institution or {}).get("display_name") or ""
+        for institution in institutions
+    ]
+    institution_names = dedupe_preserve_order(institution_names)
+    if institution_names:
+        return institution_names
+
+    return dedupe_preserve_order(
+        authorship.get("raw_affiliation_strings") or []
+    )
+
+
 def corresponding_metadata(work):
-    """Extract only explicitly marked corresponding authors and affiliations."""
-    names = []
-    affiliations = []
+    """Return corresponding-author metadata using explicit flags, then fallback.
 
-    for authorship in work.get("authorships") or []:
-        if not authorship.get("is_corresponding"):
-            continue
+    Returns
+    -------
+    tuple[list[str], list[str], str]
+        ``(names, affiliations, source)`` where source is ``openalex_explicit``
+        or ``last_author_fallback``. Empty strings/lists are returned only when
+        the work contains no usable authorship information at all.
+    """
+    authorships = work.get("authorships") or []
+    explicit = [
+        authorship
+        for authorship in authorships
+        if authorship.get("is_corresponding")
+    ]
 
-        author_name = ((authorship.get("author") or {}).get("display_name") or "").strip()
-        if author_name:
-            names.append(author_name)
+    if explicit:
+        names = [authorship_name(authorship) for authorship in explicit]
+        affiliations = []
+        for authorship in explicit:
+            affiliations.extend(authorship_affiliations(authorship))
+        return (
+            dedupe_preserve_order(names),
+            dedupe_preserve_order(affiliations),
+            "openalex_explicit",
+        )
 
-        institutions = authorship.get("institutions") or []
-        institution_names = [
-            (institution or {}).get("display_name") or ""
-            for institution in institutions
-        ]
-        institution_names = dedupe_preserve_order(institution_names)
+    # Project policy: when the source does not identify a corresponding author,
+    # treat the final listed author as corresponding rather than leaving the
+    # card blank. The source flag keeps this inference auditable in papers.json.
+    if authorships:
+        last_authorship = authorships[-1]
+        name = authorship_name(last_authorship)
+        affiliations = authorship_affiliations(last_authorship)
+        return (
+            [name] if name else [],
+            affiliations,
+            "last_author_fallback",
+        )
 
-        if institution_names:
-            affiliations.extend(institution_names)
-        else:
-            # Raw affiliation text is accepted only when it belongs to an
-            # explicitly corresponding authorship. We never infer from order.
-            affiliations.extend(authorship.get("raw_affiliation_strings") or [])
-
-    return dedupe_preserve_order(names), dedupe_preserve_order(affiliations)
+    return [], [], ""
 
 
 def load_translation_cache():
@@ -228,10 +267,11 @@ def enrich_paper(paper, translation_cache):
     enriched = dict(paper)
     doi = normalized_doi(paper)
     work = fetch_openalex_work(doi)
-    names, affiliations = corresponding_metadata(work)
+    names, affiliations, source = corresponding_metadata(work)
 
     enriched["corresponding_authors"] = names
     enriched["corresponding_affiliations"] = affiliations
+    enriched["corresponding_source"] = source
     enriched["title_zh"] = translate_to_chinese(
         paper.get("title") or "",
         translation_cache,
@@ -242,14 +282,19 @@ def enrich_paper(paper, translation_cache):
     ]
     enriched["translation_version"] = TRANSLATION_VERSION
 
-    if names:
+    if source == "openalex_explicit":
         print(
-            f"Corresponding author metadata: {paper.get('title', 'Untitled')} — "
+            f"Explicit corresponding author: {paper.get('title', 'Untitled')} — "
             f"{', '.join(names)}"
+        )
+    elif source == "last_author_fallback":
+        print(
+            f"Corresponding-author fallback (last author): "
+            f"{paper.get('title', 'Untitled')} — {', '.join(names) or 'unknown'}"
         )
     else:
         print(
-            f"Corresponding author metadata unavailable: "
+            f"Corresponding-author metadata unavailable: "
             f"{paper.get('title', 'Untitled')}"
         )
 
@@ -268,6 +313,14 @@ def main():
         encoding="utf-8",
     )
 
+    explicit_count = sum(
+        paper.get("corresponding_source") == "openalex_explicit"
+        for paper in payload["papers"]
+    )
+    fallback_count = sum(
+        paper.get("corresponding_source") == "last_author_fallback"
+        for paper in payload["papers"]
+    )
     with_affiliations = sum(
         bool(paper.get("corresponding_affiliations"))
         for paper in payload["papers"]
@@ -277,8 +330,9 @@ def main():
         for paper in payload["papers"]
     )
     print(
-        f"Bilingual metadata enrichment complete: {with_affiliations}/{len(papers)} "
-        f"papers have explicit corresponding-author affiliations; "
+        f"Bilingual metadata enrichment complete: {explicit_count} explicit + "
+        f"{fallback_count} last-author fallback corresponding records; "
+        f"{with_affiliations}/{len(papers)} papers have affiliations; "
         f"{with_chinese_titles}/{len(papers)} have Chinese titles; "
         f"translation version {TRANSLATION_VERSION}."
     )
