@@ -4,42 +4,50 @@ This script runs after fetch_papers.py. It does not decide which papers belong
 in the tracker; it only adds visual metadata to papers that have already passed
 the synthetic-organic filtering pipeline.
 
-For each paper, the script first asks OpenAlex for direct publisher / open-access
-landing pages. This avoids relying on doi.org redirects, which frequently block
-GitHub Actions runners. Candidate article pages are then inspected for images in
-this order:
+Image discovery is intentionally layered:
 
-1. Explicit graphical-abstract / TOC metadata or images.
-2. Structured article-image metadata (JSON-LD / itemprop=image).
-3. Open Graph or Twitter article images as a lower-confidence fallback.
+1. Reuse a previously resolved image for the same DOI/title when possible.
+2. Ask OpenAlex for direct publisher / open-access landing pages and inspect
+   those pages for explicit graphical-abstract / TOC metadata.
+3. Fall back to structured article-image metadata such as JSON-LD / Open Graph.
+4. If publishers block the GitHub Actions runner, use Microlink's public
+   metadata endpoint to resolve the page's primary article image.
 
-The script never fabricates a TOC graphic. When no suitable publisher-provided
-image is available, ``toc_url`` remains empty and the frontend reports that the
-TOC is unavailable rather than showing a fake graphic.
+The script never fabricates a TOC graphic. Real graphical abstracts are labelled
+as such. Lower-confidence page images are explicitly labelled "article image".
+When no suitable image can be found, ``toc_url`` stays empty and the frontend
+shows an unobtrusive unavailable state.
 
 No third-party Python packages are required.
 """
 
 import json
+import re
+import subprocess
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import quote, urljoin, urlparse
+from threading import Lock
+from urllib.parse import quote, urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
 PAPERS_FILE = ROOT / "papers.json"
 
-# Keep publisher traffic modest. The work itself is parallelized because a few
-# publishers may respond slowly or time out.
 MAX_WORKERS = 4
 REQUEST_TIMEOUT = 15
+MICROLINK_MAX_REQUESTS = 25
 
 USER_AGENT = (
     "Mozilla/5.0 (compatible; LiteratureTracker/1.0; "
     "+https://github.com/a-white-paper/literature-tracker)"
 )
+
+# Microlink's anonymous endpoint has a limited daily allowance. A lock keeps
+# parallel workers from exceeding the configured per-run cap.
+_microlink_lock = Lock()
+_microlink_requests = 0
 
 # Generic website assets should never be presented as a paper's TOC graphic.
 REJECT_IMAGE_TOKENS = (
@@ -165,6 +173,53 @@ def iter_json_images(value):
             yield from iter_json_images(item)
 
 
+def normalize_title(title):
+    """Create a stable title key for matching today's papers to prior data."""
+    return re.sub(r"[^a-z0-9]+", "", str(title or "").lower())
+
+
+def paper_cache_keys(paper):
+    """Return DOI/title cache keys for one paper."""
+    keys = []
+    doi = str(paper.get("doi") or "").replace("https://doi.org/", "").lower()
+    if doi:
+        keys.append(f"doi:{doi}")
+
+    title_key = normalize_title(paper.get("title"))
+    if title_key:
+        keys.append(f"title:{title_key}")
+    return keys
+
+
+def load_previous_image_cache():
+    """Load TOC metadata from the currently committed papers.json.
+
+    fetch_papers.py overwrites the working-tree file before this script runs.
+    ``git show HEAD:papers.json`` lets us recover the previously published data
+    and avoid repeating remote image lookups for papers that remain in the feed.
+    """
+    try:
+        raw = subprocess.check_output(
+            ["git", "show", "HEAD:papers.json"],
+            cwd=ROOT,
+            text=True,
+            stderr=subprocess.DEVNULL,
+        )
+        previous = json.loads(raw)
+    except Exception:
+        return {}
+
+    cache = {}
+    for paper in previous.get("papers") or []:
+        toc_url = paper.get("toc_url") or ""
+        if not toc_url:
+            continue
+        value = (toc_url, paper.get("toc_kind") or "article image")
+        for key in paper_cache_keys(paper):
+            cache[key] = value
+    return cache
+
+
 def is_suitable_image(url):
     """Return True for plausible public article/TOC image URLs."""
     if not url:
@@ -188,12 +243,7 @@ def add_unique_url(urls, value):
 
 
 def openalex_article_pages(paper):
-    """Resolve direct article/repository landing pages through OpenAlex.
-
-    doi.org often returns HTTP 403 to hosted CI runners even when the publisher
-    page itself is public. OpenAlex already stores direct landing pages, so we
-    use those first and leave doi.org only as a last-resort candidate.
-    """
+    """Resolve direct publisher/repository landing pages through OpenAlex."""
     urls = []
     doi = str(paper.get("doi") or "").replace("https://doi.org/", "")
 
@@ -202,10 +252,7 @@ def openalex_article_pages(paper):
         api_url = f"https://api.openalex.org/works/{identifier}"
         request = Request(
             api_url,
-            headers={
-                "User-Agent": USER_AGENT,
-                "Accept": "application/json",
-            },
+            headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
         )
 
         try:
@@ -222,12 +269,10 @@ def openalex_article_pages(paper):
         except Exception as exc:
             print(f"OpenAlex landing-page lookup failed for {doi}: {exc}")
 
-    # A stored non-DOI URL may already point directly to a publisher/repository.
     stored_url = str(paper.get("url") or "")
     if stored_url and "doi.org/" not in stored_url:
         add_unique_url(urls, stored_url)
 
-    # Keep the DOI resolver as a last resort only.
     if doi:
         add_unique_url(urls, f"https://doi.org/{doi}")
 
@@ -263,12 +308,70 @@ def page_image_candidates(page_url):
     return candidates
 
 
-def extract_toc_for_paper(paper):
-    """Return ``(toc_url, toc_kind)`` for one paper, or empty strings."""
-    pages = openalex_article_pages(paper)
-    if not pages:
-        return "", ""
+def reserve_microlink_request():
+    """Atomically reserve one fallback metadata request for this workflow run."""
+    global _microlink_requests
+    with _microlink_lock:
+        if _microlink_requests >= MICROLINK_MAX_REQUESTS:
+            return False
+        _microlink_requests += 1
+        return True
 
+
+def microlink_article_image(page_url):
+    """Resolve a page's primary image through Microlink as a final fallback."""
+    if not reserve_microlink_request():
+        return ""
+
+    query = urlencode({"url": page_url})
+    request = Request(
+        f"https://api.microlink.io?{query}",
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
+    )
+
+    try:
+        with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+            payload = json.load(response)
+    except Exception as exc:
+        print(f"Microlink lookup failed for {page_url}: {exc}")
+        return ""
+
+    if payload.get("status") != "success":
+        return ""
+
+    data = payload.get("data") or {}
+    image = data.get("image") or {}
+    logo = data.get("logo") or {}
+    image_url = image.get("url") or ""
+
+    # Do not mistake the publisher/site logo for an article visual.
+    if image_url and image_url == (logo.get("url") or ""):
+        return ""
+
+    width = image.get("width")
+    height = image.get("height")
+    if isinstance(width, (int, float)) and isinstance(height, (int, float)):
+        if width < 180 or height < 120:
+            return ""
+
+    return image_url if is_suitable_image(image_url) else ""
+
+
+def cached_image_for_paper(paper, cache):
+    """Return a prior TOC result for this DOI/title when available."""
+    for key in paper_cache_keys(paper):
+        if key in cache:
+            return cache[key]
+    return "", ""
+
+
+def extract_toc_for_paper(paper, cache):
+    """Return ``(toc_url, toc_kind)`` for one paper, or empty strings."""
+    cached_url, cached_kind = cached_image_for_paper(paper, cache)
+    if cached_url:
+        return cached_url, cached_kind
+
+    pages = openalex_article_pages(paper)
     best_candidate = None
     errors = []
 
@@ -286,14 +389,25 @@ def extract_toc_for_paper(paper):
         if best_candidate is None or page_best[0] > best_candidate[0]:
             best_candidate = page_best
 
-        # An explicit graphical abstract is already the ideal result, so there
-        # is no reason to continue requesting lower-priority mirrors.
         if best_candidate[0] >= 95:
             break
 
     if best_candidate:
         _, toc_kind, toc_url = best_candidate
         return toc_url, toc_kind
+
+    # Hosted CI runners are blocked by several publisher/DOI endpoints. Use the
+    # metadata proxy only after direct extraction fails, and keep the fallback
+    # clearly labelled as an article image rather than a verified TOC graphic.
+    doi = str(paper.get("doi") or "").replace("https://doi.org/", "")
+    fallback_page = pages[0] if pages else ""
+    if doi:
+        fallback_page = f"https://doi.org/{doi}"
+
+    if fallback_page:
+        fallback_image = microlink_article_image(fallback_page)
+        if fallback_image:
+            return fallback_image, "article image"
 
     if errors:
         print(
@@ -303,9 +417,9 @@ def extract_toc_for_paper(paper):
     return "", ""
 
 
-def enrich_one(index, paper):
+def enrich_one(index, paper, cache):
     """Enrich one paper while preserving list order for final serialization."""
-    toc_url, toc_kind = extract_toc_for_paper(paper)
+    toc_url, toc_kind = extract_toc_for_paper(paper, cache)
     enriched = dict(paper)
     enriched["toc_url"] = toc_url
     enriched["toc_kind"] = toc_kind
@@ -316,13 +430,15 @@ def main():
     """Load papers.json, enrich its records concurrently, and save it back."""
     payload = json.loads(PAPERS_FILE.read_text(encoding="utf-8"))
     papers = payload.get("papers") or []
+    cache = load_previous_image_cache()
 
     enriched = [None] * len(papers)
     found_count = 0
+    graphical_abstract_count = 0
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = [
-            executor.submit(enrich_one, index, paper)
+            executor.submit(enrich_one, index, paper, cache)
             for index, paper in enumerate(papers)
         ]
 
@@ -331,6 +447,8 @@ def main():
             enriched[index] = paper
             if paper.get("toc_url"):
                 found_count += 1
+                if paper.get("toc_kind") == "graphical abstract":
+                    graphical_abstract_count += 1
                 print(
                     f"TOC found ({paper.get('toc_kind')}): "
                     f"{paper.get('title', 'Untitled')}"
@@ -343,8 +461,9 @@ def main():
     )
 
     print(
-        f"TOC enrichment complete: {found_count}/{len(papers)} papers "
-        "have publisher-provided visual metadata."
+        f"TOC enrichment complete: {found_count}/{len(papers)} papers have a "
+        f"visual ({graphical_abstract_count} verified graphical abstracts); "
+        f"Microlink fallback requests used: {_microlink_requests}."
     )
 
 
