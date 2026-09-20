@@ -12,6 +12,15 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+  # Re-run immediately whenever the fetch/filter logic itself changes. This
+  # makes code refinements visible on the website without waiting for the next
+  # scheduled daily refresh.
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/fetch_papers.py"
+      - ".github/workflows/update-papers.yml"
+
   # Also allow the workflow to be started manually from the Actions tab.
   workflow_dispatch:
 
@@ -35,8 +44,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Query OpenAlex, normalize results, deduplicate them, and overwrite
-      # papers.json with the latest dataset.
+      # Query OpenAlex, apply synthetic-organic admission/materials filters,
+      # normalize accepted results, deduplicate them, and overwrite papers.json.
       - name: Fetch recent papers
         run: python scripts/fetch_papers.py
 
