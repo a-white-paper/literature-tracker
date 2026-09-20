@@ -8,8 +8,9 @@ Corresponding-author policy
 1. Prefer OpenAlex authors explicitly marked ``is_corresponding``.
 2. If none are marked, treat the final listed author as corresponding, following
    the repository owner's requested convention.
-3. If that authorship has no paper-level affiliation, query the author's OpenAlex
-   profile and use the most recent known institution(s).
+3. If that authorship has no paper-level affiliation, use a small curated
+   correction table for known OpenAlex institution-resolution errors; otherwise
+   query the author's OpenAlex profile for recent institutions.
 
 The provenance is stored in ``corresponding_source`` so explicit metadata and
 fallbacks remain distinguishable in papers.json.
@@ -41,6 +42,16 @@ USER_AGENT = (
     "Mozilla/5.0 (compatible; LiteratureTracker/1.0; "
     "+https://github.com/a-white-paper/literature-tracker)"
 )
+
+# Curated corrections are used only when a paper-level affiliation is missing
+# and OpenAlex's author profile is known to conflate or mis-normalize institutions.
+# Keep this table intentionally small and evidence-based.
+AUTHOR_AFFILIATION_OVERRIDES = {
+    "Kenichiro Itami": [
+        "Molecule Creation Laboratory, RIKEN",
+        "Institute of Transformative Bio-Molecules (WPI-ITbM), Nagoya University",
+    ],
+}
 
 
 def normalized_doi(paper):
@@ -110,18 +121,12 @@ def authorship_affiliations(authorship):
 
 
 def author_profile_affiliations(authorship):
-    """Return the most recent institutions from the author's OpenAlex profile.
-
-    OpenAlex work records occasionally omit affiliations for preprints. The
-    corresponding author object still carries an OpenAlex author id, so this
-    function looks up the author profile and recovers current/recent institutions.
-    """
+    """Return the most recent institutions from the author's OpenAlex profile."""
     author = authorship.get("author") or {}
     profile = fetch_openalex_author(author.get("id"))
     if not profile:
         return []
 
-    # Prefer OpenAlex's explicit last-known institution list when available.
     last_known = dedupe_preserve_order([
         (institution or {}).get("display_name") or ""
         for institution in (profile.get("last_known_institutions") or [])
@@ -129,8 +134,6 @@ def author_profile_affiliations(authorship):
     if last_known:
         return last_known
 
-    # Newer OpenAlex author records can expose historical affiliations with
-    # associated years. Keep only institutions tied to the latest year found.
     affiliation_rows = profile.get("affiliations") or []
     latest_year = None
     collected = []
@@ -147,9 +150,7 @@ def author_profile_affiliations(authorship):
             collected.append((row_latest, institution_name))
 
     if latest_year is not None:
-        return dedupe_preserve_order([
-            name for year, name in collected if year == latest_year
-        ])
+        return dedupe_preserve_order([name for year, name in collected if year == latest_year])
     return dedupe_preserve_order([name for _, name in collected])
 
 
@@ -160,13 +161,15 @@ def metadata_for_authorship(authorship, source_prefix):
     if affiliations:
         return [name] if name else [], affiliations, source_prefix
 
+    # Known OpenAlex profile-normalization errors are corrected before using
+    # the broader author-profile fallback. This avoids displaying false units.
+    curated = AUTHOR_AFFILIATION_OVERRIDES.get(name, [])
+    if curated:
+        return [name], curated, source_prefix + "_curated"
+
     profile_affiliations = author_profile_affiliations(authorship)
     if profile_affiliations:
-        return (
-            [name] if name else [],
-            profile_affiliations,
-            source_prefix + "_author_profile",
-        )
+        return [name] if name else [], profile_affiliations, source_prefix + "_author_profile"
 
     return [name] if name else [], [], source_prefix
 
@@ -179,7 +182,7 @@ def corresponding_metadata(work):
     if explicit:
         names = []
         affiliations = []
-        used_profile = False
+        sources = []
         for authorship in explicit:
             row_names, row_affiliations, row_source = metadata_for_authorship(
                 authorship,
@@ -187,14 +190,16 @@ def corresponding_metadata(work):
             )
             names.extend(row_names)
             affiliations.extend(row_affiliations)
-            used_profile = used_profile or row_source.endswith("_author_profile")
-        source = "openalex_explicit_author_profile" if used_profile else "openalex_explicit"
+            sources.append(row_source)
+        if any(source.endswith("_curated") for source in sources):
+            source = "openalex_explicit_curated"
+        elif any(source.endswith("_author_profile") for source in sources):
+            source = "openalex_explicit_author_profile"
+        else:
+            source = "openalex_explicit"
         return dedupe_preserve_order(names), dedupe_preserve_order(affiliations), source
 
     if authorships:
-        # Repository policy: if no explicit corresponding author exists, use the
-        # last listed author and recover the author's profile affiliation when
-        # the individual preprint record itself lacks an institution.
         return metadata_for_authorship(authorships[-1], "last_author_fallback")
 
     return [], [], ""
@@ -320,13 +325,13 @@ def main():
 
     with_affiliations = sum(bool(p.get("corresponding_affiliations")) for p in payload["papers"])
     with_chinese_titles = sum(bool(p.get("title_zh")) for p in payload["papers"])
-    profile_fallbacks = sum(
-        str(p.get("corresponding_source") or "").endswith("_author_profile")
+    fallback_count = sum(
+        "fallback" in str(p.get("corresponding_source") or "")
         for p in payload["papers"]
     )
     print(
         f"Bilingual metadata enrichment complete: {with_affiliations}/{len(papers)} "
-        f"papers have affiliations; {profile_fallbacks} required author-profile fallback; "
+        f"papers have affiliations; {fallback_count} use a fallback path; "
         f"{with_chinese_titles}/{len(papers)} have Chinese titles."
     )
 
