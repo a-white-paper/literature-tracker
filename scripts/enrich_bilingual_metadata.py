@@ -1,35 +1,24 @@
 """Enrich accepted literature records with corresponding-author affiliations and Chinese text.
 
 This script runs after ``fetch_papers.py``. It adds card-level metadata without
-changing literature admission/filtering decisions:
-
-- ``corresponding_authors``: corresponding-author names.
-- ``corresponding_affiliations``: English institution/affiliation strings for
-  those authors.
-- ``corresponding_source``: whether the corresponding author came from an
-  explicit OpenAlex flag or from the configured last-author fallback.
-- ``title_zh``: Simplified-Chinese translation of the English paper title.
-- ``corresponding_affiliations_zh``: Chinese translations of the affiliation
-  strings above.
+changing literature admission/filtering decisions.
 
 Corresponding-author policy
 ---------------------------
-OpenAlex's explicit ``is_corresponding`` flag is always preferred. If OpenAlex
-does not mark any authorship as corresponding, this tracker follows the project
-policy requested by the repository owner: the final listed author is treated as
-the corresponding author and that authorship's institution/affiliation is used.
-The provenance is preserved in ``corresponding_source`` so the inferred fallback
-can still be distinguished from explicit metadata in the dataset.
+1. Prefer OpenAlex authors explicitly marked ``is_corresponding``.
+2. If none are marked, treat the final listed author as corresponding, following
+   the repository owner's requested convention.
+3. If that authorship has no paper-level affiliation, query the author's OpenAlex
+   profile and use the most recent known institution(s).
+
+The provenance is stored in ``corresponding_source`` so explicit metadata and
+fallbacks remain distinguishable in papers.json.
 
 Translation policy
 ------------------
 Translations are cached across workflow runs. Google Translate's public web
-endpoint is tried first because it handles scientific sentence structure and
-institution names better than the previous fallback. MyMemory is retained as a
-secondary fallback. If both fail, the Chinese field is left empty rather than
-inventing text.
-
-Only Python's standard library is required.
+endpoint is tried first; MyMemory is retained as a fallback. Translation failure
+is non-fatal.
 """
 
 import html
@@ -43,7 +32,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PAPERS_FILE = ROOT / "papers.json"
-OPENALEX_BASE = "https://api.openalex.org/works/"
+OPENALEX_WORK_BASE = "https://api.openalex.org/works/"
+OPENALEX_AUTHOR_BASE = "https://api.openalex.org/authors/"
 GOOGLE_TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single"
 MYMEMORY_URL = "https://api.mymemory.translated.net/get"
 TRANSLATION_VERSION = 2
@@ -58,23 +48,35 @@ def normalized_doi(paper):
     return str(paper.get("doi") or "").replace("https://doi.org/", "").strip()
 
 
-def fetch_openalex_work(doi):
-    """Fetch one complete OpenAlex work record by DOI."""
-    if not doi:
-        return {}
-
-    identifier = urllib.parse.quote(f"https://doi.org/{doi}", safe=":/")
+def fetch_json(url, label):
+    """Fetch JSON from one public metadata endpoint, returning {} on failure."""
     request = urllib.request.Request(
-        OPENALEX_BASE + identifier,
+        url,
         headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
     )
-
     try:
         with urllib.request.urlopen(request, timeout=20) as response:
             return json.load(response)
     except Exception as exc:
-        print(f"OpenAlex affiliation lookup failed for {doi}: {exc}")
+        print(f"{label} lookup failed: {exc}")
         return {}
+
+
+def fetch_openalex_work(doi):
+    """Fetch one complete OpenAlex work record by DOI."""
+    if not doi:
+        return {}
+    identifier = urllib.parse.quote(f"https://doi.org/{doi}", safe=":/")
+    return fetch_json(OPENALEX_WORK_BASE + identifier, f"OpenAlex work {doi}")
+
+
+def fetch_openalex_author(author_id):
+    """Fetch an OpenAlex author profile from a full or bare OpenAlex author id."""
+    author_id = str(author_id or "").strip()
+    if not author_id:
+        return {}
+    short_id = author_id.rsplit("/", 1)[-1]
+    return fetch_json(OPENALEX_AUTHOR_BASE + short_id, f"OpenAlex author {short_id}")
 
 
 def dedupe_preserve_order(values):
@@ -96,61 +98,104 @@ def authorship_name(authorship):
 
 
 def authorship_affiliations(authorship):
-    """Return normalized institution names, falling back to raw affiliations."""
-    institutions = authorship.get("institutions") or []
+    """Return paper-level institution names, then raw affiliation strings."""
     institution_names = [
         (institution or {}).get("display_name") or ""
-        for institution in institutions
+        for institution in (authorship.get("institutions") or [])
     ]
     institution_names = dedupe_preserve_order(institution_names)
     if institution_names:
         return institution_names
+    return dedupe_preserve_order(authorship.get("raw_affiliation_strings") or [])
 
-    return dedupe_preserve_order(
-        authorship.get("raw_affiliation_strings") or []
-    )
+
+def author_profile_affiliations(authorship):
+    """Return the most recent institutions from the author's OpenAlex profile.
+
+    OpenAlex work records occasionally omit affiliations for preprints. The
+    corresponding author object still carries an OpenAlex author id, so this
+    function looks up the author profile and recovers current/recent institutions.
+    """
+    author = authorship.get("author") or {}
+    profile = fetch_openalex_author(author.get("id"))
+    if not profile:
+        return []
+
+    # Prefer OpenAlex's explicit last-known institution list when available.
+    last_known = dedupe_preserve_order([
+        (institution or {}).get("display_name") or ""
+        for institution in (profile.get("last_known_institutions") or [])
+    ])
+    if last_known:
+        return last_known
+
+    # Newer OpenAlex author records can expose historical affiliations with
+    # associated years. Keep only institutions tied to the latest year found.
+    affiliation_rows = profile.get("affiliations") or []
+    latest_year = None
+    collected = []
+    for row in affiliation_rows:
+        years = [year for year in (row.get("years") or []) if isinstance(year, int)]
+        row_latest = max(years) if years else None
+        institution_name = ((row.get("institution") or {}).get("display_name") or "").strip()
+        if not institution_name:
+            continue
+        if row_latest is None:
+            collected.append((None, institution_name))
+        else:
+            latest_year = row_latest if latest_year is None else max(latest_year, row_latest)
+            collected.append((row_latest, institution_name))
+
+    if latest_year is not None:
+        return dedupe_preserve_order([
+            name for year, name in collected if year == latest_year
+        ])
+    return dedupe_preserve_order([name for _, name in collected])
+
+
+def metadata_for_authorship(authorship, source_prefix):
+    """Return name, affiliations, and provenance for one selected authorship."""
+    name = authorship_name(authorship)
+    affiliations = authorship_affiliations(authorship)
+    if affiliations:
+        return [name] if name else [], affiliations, source_prefix
+
+    profile_affiliations = author_profile_affiliations(authorship)
+    if profile_affiliations:
+        return (
+            [name] if name else [],
+            profile_affiliations,
+            source_prefix + "_author_profile",
+        )
+
+    return [name] if name else [], [], source_prefix
 
 
 def corresponding_metadata(work):
-    """Return corresponding-author metadata using explicit flags, then fallback.
-
-    Returns
-    -------
-    tuple[list[str], list[str], str]
-        ``(names, affiliations, source)`` where source is ``openalex_explicit``
-        or ``last_author_fallback``. Empty strings/lists are returned only when
-        the work contains no usable authorship information at all.
-    """
+    """Return corresponding-author metadata with explicit and fallback layers."""
     authorships = work.get("authorships") or []
-    explicit = [
-        authorship
-        for authorship in authorships
-        if authorship.get("is_corresponding")
-    ]
+    explicit = [a for a in authorships if a.get("is_corresponding")]
 
     if explicit:
-        names = [authorship_name(authorship) for authorship in explicit]
+        names = []
         affiliations = []
+        used_profile = False
         for authorship in explicit:
-            affiliations.extend(authorship_affiliations(authorship))
-        return (
-            dedupe_preserve_order(names),
-            dedupe_preserve_order(affiliations),
-            "openalex_explicit",
-        )
+            row_names, row_affiliations, row_source = metadata_for_authorship(
+                authorship,
+                "openalex_explicit",
+            )
+            names.extend(row_names)
+            affiliations.extend(row_affiliations)
+            used_profile = used_profile or row_source.endswith("_author_profile")
+        source = "openalex_explicit_author_profile" if used_profile else "openalex_explicit"
+        return dedupe_preserve_order(names), dedupe_preserve_order(affiliations), source
 
-    # Project policy: when the source does not identify a corresponding author,
-    # treat the final listed author as corresponding rather than leaving the
-    # card blank. The source flag keeps this inference auditable in papers.json.
     if authorships:
-        last_authorship = authorships[-1]
-        name = authorship_name(last_authorship)
-        affiliations = authorship_affiliations(last_authorship)
-        return (
-            [name] if name else [],
-            affiliations,
-            "last_author_fallback",
-        )
+        # Repository policy: if no explicit corresponding author exists, use the
+        # last listed author and recover the author's profile affiliation when
+        # the individual preprint record itself lacks an institution.
+        return metadata_for_authorship(authorships[-1], "last_author_fallback")
 
     return [], [], ""
 
@@ -170,64 +215,49 @@ def load_translation_cache():
 
     cache = {}
     for paper in previous.get("papers") or []:
-        # A version gate lets us deliberately refresh old translations after a
-        # translation-provider/quality-policy change.
         if paper.get("translation_version") != TRANSLATION_VERSION:
             continue
-
         title = str(paper.get("title") or "").strip()
         title_zh = str(paper.get("title_zh") or "").strip()
         if title and title_zh:
             cache[title] = title_zh
-
-        source_affiliations = paper.get("corresponding_affiliations") or []
-        translated_affiliations = paper.get("corresponding_affiliations_zh") or []
-        for source, translated in zip(source_affiliations, translated_affiliations):
+        for source, translated in zip(
+            paper.get("corresponding_affiliations") or [],
+            paper.get("corresponding_affiliations_zh") or [],
+        ):
             source = str(source or "").strip()
             translated = str(translated or "").strip()
             if source and translated:
                 cache[source] = translated
-
     return cache
 
 
 def google_translate(text):
     """Translate one short English string with Google's public web endpoint."""
     params = urllib.parse.urlencode({
-        "client": "gtx",
-        "sl": "en",
-        "tl": "zh-CN",
-        "dt": "t",
-        "q": text,
+        "client": "gtx", "sl": "en", "tl": "zh-CN", "dt": "t", "q": text,
     })
     request = urllib.request.Request(
         f"{GOOGLE_TRANSLATE_URL}?{params}",
         headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
     )
-
     with urllib.request.urlopen(request, timeout=20) as response:
         payload = json.load(response)
-
     segments = payload[0] if isinstance(payload, list) and payload else []
-    translated = "".join(
+    return html.unescape("".join(
         str(segment[0])
         for segment in segments
         if isinstance(segment, list) and segment and segment[0]
-    ).strip()
-    return html.unescape(translated)
+    ).strip())
 
 
 def mymemory_translate(text):
     """Translate one short English string using MyMemory as a fallback."""
-    params = urllib.parse.urlencode({
-        "q": text[:490],
-        "langpair": "en|zh-CN",
-    })
+    params = urllib.parse.urlencode({"q": text[:490], "langpair": "en|zh-CN"})
     request = urllib.request.Request(
         f"{MYMEMORY_URL}?{params}",
         headers={"User-Agent": USER_AGENT, "Accept": "application/json"},
     )
-
     with urllib.request.urlopen(request, timeout=20) as response:
         payload = json.load(response)
     return html.unescape(
@@ -243,10 +273,7 @@ def translate_to_chinese(text, cache):
     if text in cache:
         return cache[text]
 
-    for provider_name, provider in (
-        ("Google", google_translate),
-        ("MyMemory", mymemory_translate),
-    ):
+    for provider_name, provider in (("Google", google_translate), ("MyMemory", mymemory_translate)):
         try:
             translated = provider(text)
             if translated and translated.casefold() != text.casefold():
@@ -254,50 +281,31 @@ def translate_to_chinese(text, cache):
                 time.sleep(0.12)
                 return translated
         except Exception as exc:
-            print(
-                f"{provider_name} Chinese translation failed for "
-                f"{text[:80]!r}: {exc}"
-            )
-
+            print(f"{provider_name} Chinese translation failed for {text[:80]!r}: {exc}")
     return ""
 
 
 def enrich_paper(paper, translation_cache):
     """Return one paper with corresponding-author and Chinese metadata added."""
     enriched = dict(paper)
-    doi = normalized_doi(paper)
-    work = fetch_openalex_work(doi)
+    work = fetch_openalex_work(normalized_doi(paper))
     names, affiliations, source = corresponding_metadata(work)
 
     enriched["corresponding_authors"] = names
     enriched["corresponding_affiliations"] = affiliations
     enriched["corresponding_source"] = source
-    enriched["title_zh"] = translate_to_chinese(
-        paper.get("title") or "",
-        translation_cache,
-    )
+    enriched["title_zh"] = translate_to_chinese(paper.get("title") or "", translation_cache)
     enriched["corresponding_affiliations_zh"] = [
         translate_to_chinese(affiliation, translation_cache)
         for affiliation in affiliations
     ]
     enriched["translation_version"] = TRANSLATION_VERSION
 
-    if source == "openalex_explicit":
-        print(
-            f"Explicit corresponding author: {paper.get('title', 'Untitled')} — "
-            f"{', '.join(names)}"
-        )
-    elif source == "last_author_fallback":
-        print(
-            f"Corresponding-author fallback (last author): "
-            f"{paper.get('title', 'Untitled')} — {', '.join(names) or 'unknown'}"
-        )
-    else:
-        print(
-            f"Corresponding-author metadata unavailable: "
-            f"{paper.get('title', 'Untitled')}"
-        )
-
+    print(
+        f"Corresponding metadata: {paper.get('title', 'Untitled')} — "
+        f"{', '.join(names) or 'unknown'} — "
+        f"{', '.join(affiliations) or 'affiliation unavailable'} — source={source or 'none'}"
+    )
     return enriched
 
 
@@ -308,33 +316,18 @@ def main():
     papers = payload.get("papers") or []
 
     payload["papers"] = [enrich_paper(paper, cache) for paper in papers]
-    PAPERS_FILE.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    PAPERS_FILE.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    explicit_count = sum(
-        paper.get("corresponding_source") == "openalex_explicit"
-        for paper in payload["papers"]
-    )
-    fallback_count = sum(
-        paper.get("corresponding_source") == "last_author_fallback"
-        for paper in payload["papers"]
-    )
-    with_affiliations = sum(
-        bool(paper.get("corresponding_affiliations"))
-        for paper in payload["papers"]
-    )
-    with_chinese_titles = sum(
-        bool(paper.get("title_zh"))
-        for paper in payload["papers"]
+    with_affiliations = sum(bool(p.get("corresponding_affiliations")) for p in payload["papers"])
+    with_chinese_titles = sum(bool(p.get("title_zh")) for p in payload["papers"])
+    profile_fallbacks = sum(
+        str(p.get("corresponding_source") or "").endswith("_author_profile")
+        for p in payload["papers"]
     )
     print(
-        f"Bilingual metadata enrichment complete: {explicit_count} explicit + "
-        f"{fallback_count} last-author fallback corresponding records; "
-        f"{with_affiliations}/{len(papers)} papers have affiliations; "
-        f"{with_chinese_titles}/{len(papers)} have Chinese titles; "
-        f"translation version {TRANSLATION_VERSION}."
+        f"Bilingual metadata enrichment complete: {with_affiliations}/{len(papers)} "
+        f"papers have affiliations; {profile_fallbacks} required author-profile fallback; "
+        f"{with_chinese_titles}/{len(papers)} have Chinese titles."
     )
 
 
