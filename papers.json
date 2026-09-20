@@ -270,22 +270,14 @@
         "Kenichiro Itami"
       ],
       "corresponding_affiliations": [
-        "Pioneer (United States)",
-        "RIKEN Center for Sustainable Resource Science",
-        "Pioneer (Japan)",
-        "RIKEN",
-        "Nagoya University",
-        "University of South Carolina Aiken"
+        "Molecule Creation Laboratory, RIKEN",
+        "Institute of Transformative Bio-Molecules (WPI-ITbM), Nagoya University"
       ],
-      "corresponding_source": "last_author_fallback_author_profile",
+      "corresponding_source": "last_author_fallback_curated",
       "title_zh": "功能有机材料的性质导向催化骨架编辑",
       "corresponding_affiliations_zh": [
-        "先锋（美国）",
-        "日本理化学研究所可持续资源科学中心",
-        "先锋（日本）",
-        "理化学研究所",
-        "名古屋大学",
-        "南卡罗来纳大学艾肯分校"
+        "RIKEN 分子创造实验室",
+        "名古屋大学转化生物分子研究所 (WPI-ITbM)"
       ],
       "translation_version": 2,
       "toc_url": "",
