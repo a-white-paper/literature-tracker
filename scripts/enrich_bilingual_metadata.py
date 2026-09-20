@@ -20,8 +20,10 @@ fallbacks remain distinguishable in papers.json.
 Translation policy
 ------------------
 Translations are cached across workflow runs. Google Translate's public web
-endpoint is tried first; MyMemory is retained as a fallback. Translation failure
-is non-fatal.
+endpoint is tried first; MyMemory is retained as a fallback. Institution names
+are translated separately from their country so the Chinese card always keeps
+the requested ``机构，国家`` order instead of allowing a machine translator to
+move the country before the institution name.
 """
 
 import html
@@ -87,6 +89,47 @@ COUNTRY_NAMES = {
     "TW": "Taiwan",
     "US": "United States",
     "ZA": "South Africa",
+}
+
+COUNTRY_NAMES_ZH = {
+    "Austria": "奥地利",
+    "Australia": "澳大利亚",
+    "Belgium": "比利时",
+    "Brazil": "巴西",
+    "Canada": "加拿大",
+    "Switzerland": "瑞士",
+    "China": "中国",
+    "Czech Republic": "捷克",
+    "Germany": "德国",
+    "Denmark": "丹麦",
+    "Spain": "西班牙",
+    "Finland": "芬兰",
+    "France": "法国",
+    "United Kingdom": "英国",
+    "Greece": "希腊",
+    "Hong Kong": "中国香港",
+    "Hungary": "匈牙利",
+    "Ireland": "爱尔兰",
+    "Israel": "以色列",
+    "India": "印度",
+    "Italy": "意大利",
+    "Japan": "日本",
+    "South Korea": "韩国",
+    "Mexico": "墨西哥",
+    "Netherlands": "荷兰",
+    "Norway": "挪威",
+    "New Zealand": "新西兰",
+    "Poland": "波兰",
+    "Portugal": "葡萄牙",
+    "Romania": "罗马尼亚",
+    "Russia": "俄罗斯",
+    "Saudi Arabia": "沙特阿拉伯",
+    "Sweden": "瑞典",
+    "Singapore": "新加坡",
+    "Türkiye": "土耳其",
+    "Taiwan": "中国台湾",
+    "United States": "美国",
+    "South Africa": "南非",
 }
 
 # Curated corrections are used only when a paper-level affiliation is missing
@@ -358,6 +401,29 @@ def translate_to_chinese(text, cache):
     return ""
 
 
+def translate_affiliation_to_chinese(affiliation, cache):
+    """Translate an affiliation while enforcing ``机构，国家`` word order."""
+    affiliation = " ".join(str(affiliation or "").split()).strip()
+    if not affiliation:
+        return ""
+
+    # Match the final country suffix produced by format_institution(). Translate
+    # only the institution portion, then append a controlled Chinese country
+    # name. Sorting by length prevents shorter country names from matching first.
+    for country_en in sorted(COUNTRY_NAMES_ZH, key=len, reverse=True):
+        suffix = f", {country_en}"
+        if affiliation.endswith(suffix):
+            institution_en = affiliation[:-len(suffix)].strip()
+            institution_zh = translate_to_chinese(institution_en, cache)
+            country_zh = COUNTRY_NAMES_ZH[country_en]
+            if institution_zh:
+                return f"{institution_zh}，{country_zh}"
+            return country_zh
+
+    # Raw affiliation strings may not have structured country metadata.
+    return translate_to_chinese(affiliation, cache)
+
+
 def enrich_paper(paper, translation_cache):
     """Return one paper with corresponding-author and Chinese metadata added."""
     enriched = dict(paper)
@@ -369,7 +435,7 @@ def enrich_paper(paper, translation_cache):
     enriched["corresponding_source"] = source
     enriched["title_zh"] = translate_to_chinese(paper.get("title") or "", translation_cache)
     enriched["corresponding_affiliations_zh"] = [
-        translate_to_chinese(affiliation, translation_cache)
+        translate_affiliation_to_chinese(affiliation, translation_cache)
         for affiliation in affiliations
     ]
     enriched["translation_version"] = TRANSLATION_VERSION
