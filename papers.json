@@ -22,6 +22,10 @@
         "Photocatalysis"
       ],
       "relevance": 68,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "通过连续流动生成NCF3阴离子实现三组分烯烃差异化",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -42,6 +46,19 @@
         "Decarboxylative Coupling"
       ],
       "relevance": 62,
+      "corresponding_authors": [
+        "Huirong Wang",
+        "Duanyang Kong"
+      ],
+      "corresponding_affiliations": [
+        "Inner Mongolia Medical University",
+        "Beijing University of Chemical Technology"
+      ],
+      "title_zh": "Α-酮酸与硝基芳烃的成对电化学脱羧酰胺化反应",
+      "corresponding_affiliations_zh": [
+        "内蒙古医科大学附属医院",
+        "北京化工大学"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -64,6 +81,10 @@
         "Photocatalysis"
       ],
       "relevance": 56,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "由机械力驱动的主动约束催化。",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -88,6 +109,10 @@
         "Skeletal Editing"
       ],
       "relevance": 54,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "通过形式环膨胀从氮杂环丁烷硝酮合成5-氨基异恶唑烷",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -112,6 +137,10 @@
         "Photocatalysis"
       ],
       "relevance": 48,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "色氨酸在肽和蛋白质中的可见光驱动C2-膦酰化",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -134,6 +163,10 @@
         "Electrochemistry"
       ],
       "relevance": 62,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "通过自由基应变释放脱芳烃级联电合成双螺环",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -158,6 +191,16 @@
         "Photocatalysis"
       ],
       "relevance": 58,
+      "corresponding_authors": [
+        "Julian G. West"
+      ],
+      "corresponding_affiliations": [
+        "Rice University"
+      ],
+      "title_zh": "通过铁光催化进行抗-Markovnikov烯烃加氢烷基化",
+      "corresponding_affiliations_zh": [
+        "莱斯大学"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -177,6 +220,10 @@
         "Skeletal Editing"
       ],
       "relevance": 56,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "面向功能性有机材料的性能导向催化骨架编辑",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -198,6 +245,16 @@
         "Photocatalysis"
       ],
       "relevance": 48,
+      "corresponding_authors": [
+        "Chengfeng Xia"
+      ],
+      "corresponding_affiliations": [
+        "Yunnan University"
+      ],
+      "title_zh": "可见光诱导氧原子转移到酰氯的C-CL键中进行均解裂解",
+      "corresponding_affiliations_zh": [
+        "Yunnan Arts University"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -221,6 +278,10 @@
         "Photocatalysis"
       ],
       "relevance": 70,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "通过氮丙啶开环加成光诱导钴催化的1,3-二胺的对映收敛合成",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -246,6 +307,10 @@
         "Decarboxylative Coupling"
       ],
       "relevance": 80,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "开发一种用于高通量实验的可调谐光反应器",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -266,6 +331,10 @@
         "Photocatalysis"
       ],
       "relevance": 66,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "二氧化碳促成的自适应光催化机制· –和双光子激发协同作用：芳基卤化物与二氧化碳的环化-羧化",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -286,6 +355,10 @@
         "Decarboxylative Coupling"
       ],
       "relevance": 56,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "催化磷基氢原子",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -306,6 +379,10 @@
         "Decarboxylative Coupling"
       ],
       "relevance": 56,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "通过膦酰基阴离子继电器的催化磷基氢原子转移",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -331,6 +408,10 @@
         "Decarboxylative Coupling"
       ],
       "relevance": 94,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "用于羧酸脱羧烯烃的合作碱金属催化",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -350,6 +431,16 @@
         "Boron Chemistry"
       ],
       "relevance": 72,
+      "corresponding_authors": [
+        "Xiangcheng Pan"
+      ],
+      "corresponding_affiliations": [
+        "Fudan University"
+      ],
+      "title_zh": "自由基介导的1,2-硼酸盐迁移：针对不同硼酸盐分子和聚合物的新兴战略",
+      "corresponding_affiliations_zh": [
+        "复旦大学"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -371,6 +462,10 @@
         "Cu Catalysis"
       ],
       "relevance": 70,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "用于叔胺的直接区域特异性α-C (sp3) βH炔基化的低能光催化平台",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -389,6 +484,10 @@
         "Photocatalysis"
       ],
       "relevance": 48,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "用于醚的氢化α ‑ C (sp3) -H的直接硫醇化的无金属光诱导氢原子转移。",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -411,6 +510,19 @@
         "Decarboxylative Coupling"
       ],
       "relevance": 88,
+      "corresponding_authors": [
+        "Priyanka R. Sakhare",
+        "Subba Rao Cheekatla"
+      ],
+      "corresponding_affiliations": [
+        "Piramal (India)",
+        "Seoul National University"
+      ],
+      "title_zh": "对有机转化的光催化C–C键偶联反应-近期更新",
+      "corresponding_affiliations_zh": [
+        "皮拉马尔（印度）",
+        "毕业于巴黎国家行政学院"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -431,6 +543,16 @@
         "Photocatalysis"
       ],
       "relevance": 68,
+      "corresponding_authors": [
+        "Zhiping Yin"
+      ],
+      "corresponding_affiliations": [
+        "Jiangsu University"
+      ],
+      "title_zh": "通过分子内环化的三氟甲基化杂环：从传统合成到绿色合成的演变",
+      "corresponding_affiliations_zh": [
+        "江苏大学"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -455,6 +577,22 @@
         "Difluoromethylation"
       ],
       "relevance": 68,
+      "corresponding_authors": [
+        "Tatiana Besset"
+      ],
+      "corresponding_affiliations": [
+        "Centre National de la Recherche Scientifique",
+        "Normandie Université",
+        "Université de Rouen Normandie",
+        "Institut National des Sciences Appliquées Rouen Normandie"
+      ],
+      "title_zh": "通过氢化获得未知（乙氧基）二氟甲基化-含四氢呋喃",
+      "corresponding_affiliations_zh": [
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>",
+        "诺曼底大学",
+        "鲁昂诺曼底大学",
+        "鲁昂诺曼底应用科学研究所"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -474,6 +612,23 @@
         "Photocatalysis"
       ],
       "relevance": 62,
+      "corresponding_authors": [
+        "Lu Song",
+        "Niankai Fu"
+      ],
+      "corresponding_affiliations": [
+        "Alliance Bioversity International - CIAT",
+        "Ministry of Education",
+        "Beihang University",
+        "Beijing National Laboratory for Molecular Sciences"
+      ],
+      "title_zh": "光化学和光电化学氟烷基化的最新进展：氟烷基羧酸的直接使用",
+      "corresponding_affiliations_zh": [
+        "",
+        "教育部",
+        "北京航空航天大学",
+        "北京市分子科学国家实验室"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -495,6 +650,17 @@
         "Electrochemistry"
       ],
       "relevance": 58,
+      "corresponding_authors": [
+        "Hao Long",
+        "Hai‐Chao Xu"
+      ],
+      "corresponding_affiliations": [
+        "Xiamen University"
+      ],
+      "title_zh": "电化学脱甲硅烷基氟化能够获得N-单氟甲基酰胺和肽",
+      "corresponding_affiliations_zh": [
+        "厦门大学"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -515,6 +681,23 @@
         "Boron Chemistry"
       ],
       "relevance": 70,
+      "corresponding_authors": [
+        "Laurent Chabaud",
+        "Mathieu Pucheault"
+      ],
+      "corresponding_affiliations": [
+        "Centre National de la Recherche Scientifique",
+        "Université de Bordeaux",
+        "Institut des Sciences Moléculaires",
+        "Institut Polytechnique de Bordeaux"
+      ],
+      "title_zh": "NHC-硼烷介导的选择性光诱导α-氨基C (sp 3) –H烷基化",
+      "corresponding_affiliations_zh": [
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>",
+        "波尔多大学",
+        "莫莱库莱尔科学研究所",
+        "波尔多理工学院"
+      ],
       "toc_url": "",
       "toc_kind": ""
     },
@@ -538,6 +721,10 @@
         "Difluoromethylation"
       ],
       "relevance": 98,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "title_zh": "未活化烯烃与三氟甲芳烃的光诱导钯催化脱氟级联反应",
+      "corresponding_affiliations_zh": [],
       "toc_url": "",
       "toc_kind": ""
     }
