@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "papers": [
     {
       "title": "Synergistic enzyme-nanozyme catalysis on a porous carbon electrode for sensitive L-phenylalanine sensing",
@@ -74,6 +74,58 @@
       "relevance": 36
     },
     {
+      "title": "Bridging electrochemical desalination and energy storage: Coordination chemistry of organic electrode materials for capacitive deionization and aqueous batteries",
+      "authors": [
+        "Zhifeng Lin",
+        "Yifan Wang",
+        "Qian Du",
+        "Jinhao Zhou",
+        "Xueding Jiang",
+        "Si Liu",
+        "Hailong Wang",
+        "Xihong Lu"
+      ],
+      "journal": "Coordination Chemistry Reviews",
+      "date": "2026-09-18",
+      "doi": "10.1016/j.ccr.2026.218548",
+      "url": "https://doi.org/10.1016/j.ccr.2026.218548",
+      "abstract": "Organic materials are attracting attention as tunable electrodes for capacitive deionization (CDI) and aqueous batteries, owing to their structural designability, abundant redox-active sites, and resource sustainability. This review systematically presents progress on three classes of organic materials, namely polymers, frameworks (COFs and MOFs), and small molecules, in these two technologies, with an emphasis on the structure–property–performance and coordination relationships that govern ion capture and charge storage. We establish a unified cross-disciplinary framework linking CDI and battery design principles, a perspective previously missing from the literature. In CDI, molecular engineering of redox centers, conducting polymers, and ion-exchange functionalities delivers high desalination capacity, ion selectivity, and cycling stability. In aqueous batteries, design strategies overcoming dissolution, structural collapse, and sluggish kinetics of inorganic electrodes yield markedly enhanced capacity and extended lifespan. Comparative analysis highlights the conceptual convergence in electrode design and coordination chemistry across three classes, underscoring the enabling role of organic materials as a bridge between electrochemical desalination and energy storage. Persistent challenges including low intrinsic conductivity, high synthesis cost, and scalable production are identified. Future directions involving AI-assisted design, green synthesis, and integrated water–energy devices are outlined to guide next-generation electrodes for sustainable water treatment and energy storage.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 28
+    },
+    {
+      "title": "Solid and Liquid Electrolytes for Li-ion Batteries",
+      "authors": [
+        "Vitaly V. Chaban"
+      ],
+      "journal": "Figshare",
+      "date": "2026-09-18",
+      "doi": "10.6084/m9.figshare.33931417",
+      "url": "https://doi.org/10.6084/m9.figshare.33931417",
+      "abstract": "Electrolytes are pivotal components of Li-ion batteries. Electrolytes enable ion transport between electrodes. The chemical composition and thermodynamic phase of an electrolyte directly influence performance, safety, and longevity. This chapter discusses challenges and advancements in liquid and solid electrolytes with an accent on their roles in shaping next-generation energy storage systems. Liquid electrolytes, composed of lithium salts dissolved in organic solvents remain the present industry standard, thanks to their desirable ionic conductivity and mature manufacturing infrastructure. Flammability, toxicity, and chemical reactivity under extreme conditions pose risks, such as thermal runaway and fire hazards. In turn, solid electrolytes offer non-flammable alternatives. They exhibit enhanced thermal stability and compatibility with highly energy-dense anodes like lithium metal. Ceramic electrolytes boast promising conductivity and electrochemical stability. Thus far, high production costs and processing challenges hinder the scalability of ceramic alternatives. Polymeric Li-ion electrolytes are flexible and easy to process, yet face limitations, such as relatively low ionic conductivity. Liquid Li-ion electrolytes dominate due to established supply chains and cost-effectiveness. Alternatively, solid electrolytes steadily gain traction amid modern demand for safer and higher-capacity batteries. The synthesis of solid Li-ion electrolytes involves costly processes and requires rare materials. Safety represents a critical driver for solid electrolytes, as they eliminate flammability risks and mitigate lithium dendrite formation. Sustainability and recyclability limitations are common challenges across both electrolyte types. Ionic liquids dissolving lithium salts can be considered to represent the third type of Li-ion electrolyte due to their non-volatility and broad voltage tolerance. Liquid Li-ion electrolytes contribute harshly to environmental pollution due to toxic solvent leakage, whereas solid electrolytes face obvious hurdles in material recovery.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 28
+    },
+    {
+      "title": "Solid and Liquid Electrolytes for Li-ion Batteries",
+      "authors": [
+        "Vitaly V. Chaban"
+      ],
+      "journal": "Figshare",
+      "date": "2026-09-18",
+      "doi": "10.6084/m9.figshare.33931417.v1",
+      "url": "https://doi.org/10.6084/m9.figshare.33931417.v1",
+      "abstract": "Electrolytes are pivotal components of Li-ion batteries. Electrolytes enable ion transport between electrodes. The chemical composition and thermodynamic phase of an electrolyte directly influence performance, safety, and longevity. This chapter discusses challenges and advancements in liquid and solid electrolytes with an accent on their roles in shaping next-generation energy storage systems. Liquid electrolytes, composed of lithium salts dissolved in organic solvents remain the present industry standard, thanks to their desirable ionic conductivity and mature manufacturing infrastructure. Flammability, toxicity, and chemical reactivity under extreme conditions pose risks, such as thermal runaway and fire hazards. In turn, solid electrolytes offer non-flammable alternatives. They exhibit enhanced thermal stability and compatibility with highly energy-dense anodes like lithium metal. Ceramic electrolytes boast promising conductivity and electrochemical stability. Thus far, high production costs and processing challenges hinder the scalability of ceramic alternatives. Polymeric Li-ion electrolytes are flexible and easy to process, yet face limitations, such as relatively low ionic conductivity. Liquid Li-ion electrolytes dominate due to established supply chains and cost-effectiveness. Alternatively, solid electrolytes steadily gain traction amid modern demand for safer and higher-capacity batteries. The synthesis of solid Li-ion electrolytes involves costly processes and requires rare materials. Safety represents a critical driver for solid electrolytes, as they eliminate flammability risks and mitigate lithium dendrite formation. Sustainability and recyclability limitations are common challenges across both electrolyte types. Ionic liquids dissolving lithium salts can be considered to represent the third type of Li-ion electrolyte due to their non-volatility and broad voltage tolerance. Liquid Li-ion electrolytes contribute harshly to environmental pollution due to toxic solvent leakage, whereas solid electrolytes face obvious hurdles in material recovery.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 28
+    },
+    {
       "title": "POLİANİLİN-TƏKQAT KARBON NANOBORU ƏSASLI HİBRİD QAZ SENSORUNUN SİNTEZİ VƏ XARAKTERİSTİKALARI",
       "authors": [
         "Sh. Zeynalova"
@@ -106,6 +158,22 @@
       "relevance": 20
     },
     {
+      "title": "PROCESSING OF SECONDARY RAW MATERIALS FOR THE RECOVERY OF VALUABLE COMPONENTS",
+      "authors": [
+        "Yuri Sknar",
+        "Tatyana Hrydnieva",
+        "Ірина Скнар",
+        "T.E. Butyrina"
+      ],
+      "journal": "Unknown journal",
+      "date": "2026-09-18",
+      "doi": "10.46299/979-8-90671-558-6",
+      "url": "https://doi.org/10.46299/979-8-90671-558-6",
+      "abstract": "The monograph “Processing of Secondary Raw Materials for the Recovery of Valuable Components” is devoted to the development of scientific basis and the technology for obtaining amorphous silicon (IV) oxide of high purification requirement from the rice husk that allow to solve the important applied scientific problem of providing various industries with amorphous silicon(IV) oxide. The amorphous silicon (IV) oxide is widely used in such industries as electronics, cosmetology (toothpastes, creams), medicine (medicine filler), paint and varnish industry; in the production of building materials, glass, rubber, refractory materials and in food industry. The estimation of the present state of research in the branch of obtaining amorphous silicon (IV) oxide from different raw materials was given. It is shown that amorphous silicon (IV) oxide is obtained from quartz or natural silicates by chemical deposition from the gas phase and by other methods. These processes are multi-stage, energy-intensive, require sophisticated equipment and are accompanied by harmful emissions into the environment. It has been found that by using rice husk (RH) as raw material it is possible to solve most problems inherent to the traditional technologies as well as to create waste-free, economically profitable production of multipurpose amorphous silicon(IV) oxide. This study investigates combined processes involving physicochemical and thermal treatment for the production of amorphous silicon (IV) oxide of varying degrees of purity. The rice husk composition as a raw material for the process of obtaining amorphous silicon (IV) oxide was investigated. According to the elemental composition of the rice husk and gas environment, the estimation of the thermodynamic probability of the heat treatment process of the rice husk is given. The results of thermodynamic analysis of the thermal decomposition of the rice husk in the range of 300−2000 K at the pressure of 0.01 −1 MPa in the different gas environments (in pyrolysis gases, water vapor) were shown. The gas phase-to- raw material ratio was varied in the calculations, the rice husk composition being as follows, (% wt.): SіО2 – 22.24; С – 35.77; О – 36.59; Н – 5.05; N−0.32; S–0.03. The influence of pressure, temperature and gas environment on the equilibrium state of the systems formed in the process of the rice husk heat treatment has been studied. The high thermodynamic probability of obtaining amorphous silicon (IV) oxide by heat treatment of the rice husk in the temperature range of 550−850 K was shown. The equilibrium compositions in the different gas environments differ only in the gas phase components. The regularities of the process for obtaining amorphous silicon (IV) oxide of different purity levels by the method of thermal treatment in the air environment are deduced from experiments. It is shown that the temperature of the heat treatment process should be 923 К and duration 35−40 min. It is established that in these conditions the content of carbon in solid residue is 23.00−25.51% wt and that of silicon (IV) oxide is 20.90−22.00 % wt. The obtained results indicate that using only thermal extraction of the silicon (IV) oxide allows getting the technical qualification product. The possibility of obtaining amorphous silicon (IV) oxide of higher purity level by decreasing lignin and cellulose content in the rice husk by the physicochemical methods is deduced from experiments and in theory. The hypothesis for the process mechanism is formulated and the equations that describe the lignin and cellulose extraction from the rice husk are received. The research of the obtained models has shown that by using the rice husk fractions 40−150 μm in size the maximum degree of lignin extraction by the mixture of ethanol and hydrochloric acid (3% by weight) at the temperature of 80°С and process duration of 6 hours accounts for 33% wt. During the process of cellulose extraction by 15% water solution of sulfuric acid the maximum degree of extraction is achieved at the temperature of 100°С for 6 hours and is 29.9 % wt. The successive implementation these two stages allows to increase the degree of extraction of and thereby increase the content of the amorphous silicon(IV) oxide in the solid residue. While making experimental studies on the extraction of carbon-containing components the process mechanism was determined. The kinetic parameters of lignin and cellulose extraction were calculated. The experimental research methods were worked out and the basic technological parameters for each stage of the process for obtaining high purity amorphous silicon (IV) oxide were found. The processes of heat treatment of the rice husk after lignin and cellulose extraction in non-isothermal conditions were investigated. The kinetic parameters of the process are established as well. The installations for experimental studies of the process for obtaining various purpose amorphous silicon (IV) oxide by means of the rice husk thermal treatment and the extraction carbon-containing components were developed. The experimental implementation of the scheme which includes lignin and cellulose extraction, thermal decomposition of the solid residue in the air environment at the temperature of 885–913K allows to obtain high purity amorphous silicon(IV) oxide (with 99 % wt. of the product in the solid residue). Physicochemical characteristics of the amorphous silicon(IV) oxide powder obtained by one-stage thermal decomposition and when using two-stage extraction and heat treatment (three-stage process) were established. The chemical composition of the raw material and the finished product were determined using X-ray phase analysis which were performed on the DRON-3 diffractometer in Cuα radiation. The phase identification was carried out with the help of X-ray card index. Besides, amorphous structure of silicon (IV) oxide powder was also confirmed. The research show that using amorphous silicon (IV) oxide obtained from the rice husk appears to be promising in the manufacture of paint and varnish products. Keywords: rice husk, obtaining, powder, amorphous silicon (IV) oxide, thermal processing, extraction, carbon, lignin, cellulose, mechanism, kinetics, hypothesis, process flowchart.",
+      "tags": [],
+      "relevance": 20
+    },
+    {
       "title": "Paired Electrochemical Decarboxylative Amidation of α‐Ketoacids With Nitroarenes",
       "authors": [
         "Yun Sa",
@@ -116,7 +184,7 @@
       "date": "2026-09-17",
       "doi": "10.1002/chem.71706",
       "url": "https://doi.org/10.1002/chem.71706",
-      "abstract": "ABSTRACT We report a paired electrochemical decarboxylative amidation of α‐ketoacids with nitroarenes for the direct synthesis of N‐aryl amides. Ferrocene‐mediated anodic decarboxylation generates acyl radicals, while cathodic reduction of nitroarenes enables the in situ generation of reactive nitrogen‐containing intermediates, thereby providing a direct route to C─N bond formation without preforming aniline coupling partners. The transformation proceeds under mild, transition‐metal‐catalyst‐free conditions without stoichiometric chemical oxidants or reductants. A broad range of α‐ketoacids and nitroarenes are compatible with the reaction, affording the corresponding N‐aryl amides with excellent functional‐group tolerance. Mechanistic studies support the involvement of acyl and nitrogen‐containing intermediates in the amidation process.",
+      "abstract": "We report a paired electrochemical decarboxylative amidation of α-ketoacids with nitroarenes for the direct synthesis of N-aryl amides. Ferrocene-mediated anodic decarboxylation generates acyl radicals, while cathodic reduction of nitroarenes enables the in situ generation of reactive nitrogen-containing intermediates, thereby providing a direct route to C─N bond formation without preforming aniline coupling partners. The transformation proceeds under mild, transition-metal-catalyst-free conditions without stoichiometric chemical oxidants or reductants. A broad range of α-ketoacids and nitroarenes are compatible with the reaction, affording the corresponding N-aryl amides with excellent functional-group tolerance. Mechanistic studies support the involvement of acyl and nitrogen-containing intermediates in the amidation process.",
       "tags": [
         "Electrochemistry",
         "Decarboxylative Coupling"
@@ -523,7 +591,7 @@
       "date": "2026-09-17",
       "doi": "10.1002/smll.75772",
       "url": "https://doi.org/10.1002/smll.75772",
-      "abstract": "ABSTRACT Carbon dots (CDs) are emerging zero‐dimensional carbon‐based nanomaterials with unique optical properties. Among them, near‐infrared carbon dots (NIR‐CDs), exhibiting absorption/emission in the biological transparency window (650‐1700 nm), have attracted increasing attention due to their excellent biocompatibility, high spatial resolution, and low photo‐toxicity. In this review, we systematically summarize the development of NIR‐CDs including preparation methods, rational design and choice of precursors, optical characteristics and mechanisms, and multifunctional applications. A comprehensive and detailed methodological description encompassing the synthesis strategies, rational design, and precursor engineering of NIR‐CDs are provided. And then the optical properties of NIR‐CDs, including absorption, fluorescence, phosphorescence, nonlinear optical properties, and their mechanisms are further discussed and analyzed. Finally, recent advances in the multifunctional applications of NIR‐CDs are summarized, covering light‐emitting devices, fluorescence sensing, environmental, hydrogen energy, and biomedical fields. By consolidating current knowledge into a unified framework and identifying key challenges and opportunities, the review not only offers the most up‐to‐date and holistic perspective on NIR‐CDs but also serves as a guide to accelerate the translation of NIR‐CDs from laboratory research to practical applications.",
+      "abstract": "Carbon dots (CDs) are emerging zero-dimensional carbon-based nanomaterials with unique optical properties. Among them, near-infrared carbon dots (NIR-CDs), exhibiting absorption/emission in the biological transparency window (650-1700 nm), have attracted increasing attention due to their excellent biocompatibility, high spatial resolution, and low photo-toxicity. In this review, we systematically summarize the development of NIR-CDs including preparation methods, rational design and choice of precursors, optical characteristics and mechanisms, and multifunctional applications. A comprehensive and detailed methodological description encompassing the synthesis strategies, rational design, and precursor engineering of NIR-CDs are provided. And then the optical properties of NIR-CDs, including absorption, fluorescence, phosphorescence, nonlinear optical properties, and their mechanisms are further discussed and analyzed. Finally, recent advances in the multifunctional applications of NIR-CDs are summarized, covering light-emitting devices, fluorescence sensing, environmental, hydrogen energy, and biomedical fields. By consolidating current knowledge into a unified framework and identifying key challenges and opportunities, the review not only offers the most up-to-date and holistic perspective on NIR-CDs but also serves as a guide to accelerate the translation of NIR-CDs from laboratory research to practical applications.",
       "tags": [],
       "relevance": 20
     },
@@ -573,74 +641,6 @@
       "doi": "10.1007/s44245-026-00350-4",
       "url": "https://doi.org/10.1007/s44245-026-00350-4",
       "abstract": "Abstract A design solution has been developed and proposed for cooling the nozzle blades of the first stage of a steam turbine operating at steam parameters above standard supercritical conditions. In this work, a capillary-porous system is proposed, functioning on the principle of a closed evaporation–condensation scheme. A diagram of the cooling system is provided. The calculation of the evaporative and condensation parts has been performed. A model of vapor bubble contact with the vapor-generating surface within the vapor generation cells of the capillary-porous structure is presented. Experimental installations for optical research methods of the dynamics of vapor and liquid phase development have been created. Visual observations of the processes are carried out using high-speed filming with an HSMC-1 M camera; photo and filming are performed using «Zenit», «RPC-5 M» cameras, as well as «Krasnogorsk» and «Kiev-16 s» movie cameras. To study vaporization processes using holographic interferometry, an interferometer was employed, incorporating a helium–neon laser of the LG-38 type. The initial stage of vapor bubble nucleation and the dynamics of growth and destruction processes in the capillary-porous structure have been investigated using optical methods, with nine stages of development and destruction presented. Cinegrams and holographic interferograms of heat and mass transfer processes are shown for various structures, heat loads, and coolant excess ratios, including calculations of vaporization center density, liquid droplet (water) ejection from the structure, and cavity formation due to erosion.",
-      "tags": [],
-      "relevance": 20
-    },
-    {
-      "title": "A review of autonomous and low cost sensor systems for surface water quality monitoring with implications for local decision making",
-      "authors": [
-        "Lucie Le Goff",
-        "Norka Fuentes",
-        "Marco Soto-Alvarez",
-        "Pedro Hervé‐Fernández",
-        "Ricardo A. Ayala"
-      ],
-      "journal": "Discover Water",
-      "date": "2026-09-17",
-      "doi": "10.1007/s43832-026-00446-8",
-      "url": "https://doi.org/10.1007/s43832-026-00446-8",
-      "abstract": "Preserving water quality has become a critical priority due to the increasing pressure on water resources from population growth, production activities and climate change. This article reviews recent studies on water quality monitoring in lakes, rivers and reservoirs, with a focus on lessons relevant to local decision-making. Using a structured literature review approach, we synthesised and interpreted research on water quality monitoring systems used in aquatic ecosystems affected by eutrophication and turbidity. Particular attention was given to turbidity sensors and autonomous monitoring approaches. The findings show that traditional manual quality measurements continue to coexist with autonomous monitoring systems, each contributing different strengths to water quality assessment. However, studies on low-cost sensors and permanent autonomous measurement systems remain limited, likely because of other research priorities. The limited number of published studies suggests either that these systems remain uncommon in practice or that their use is insufficiently documented. Current monitoring efforts largely rely on field manual sampling carried out by specialised technical personnel employed in state services or research centres. Looking ahead, it appears promising to complement current methods by increasingly integrating low-cost autonomous sensor networks and expanding opportunities for citizen participation. Such developments could support the creation of real-time information systems that facilitate local decision-making.",
-      "tags": [],
-      "relevance": 20
-    },
-    {
-      "title": "Active porous ZIF-8 based hybrid catalysts for solvent-free reactions",
-      "authors": [
-        "César D. Sampaio",
-        "L.G. Dias",
-        "Isabel Santos-Vieira",
-        "Eulália Pereira",
-        "Luís Cunha-Silva",
-        "Fátima Mirante",
-        "Salete S. Balula"
-      ],
-      "journal": "Frontiers in Chemistry",
-      "date": "2026-09-17",
-      "doi": "10.3389/fchem.2026.1894924",
-      "url": "https://doi.org/10.3389/fchem.2026.1894924",
-      "abstract": "Hybrid heterogeneous polymeric catalysts were prepared by distinct methodologies to evaluate their catalytic ability, stability and recycling capacity to promote the ring-opening reaction of styrene oxide with aniline resulting as main product the 2-Amino-1,2-diphenylethanol. These composites were based on porous metal–organic frameworks (MOFs), specifically the zinc-based ZIF-8, activated catalytically by the incorporation of Keggin-type phosphomolybdic acid (PMo 12 ). The resulting composite denoted as PMo 12 @ZIF-8 was prepared via impregnation and in-situ methods (PMo 12 loadings of 0.149 and 0.194 mmol/g were obtained via in-situ and impregnation procedures). Both materials were characterized by FTIR-ATR, PXRD, SEM, EDS, and ICP-OES. The catalytic performance evaluation revealed that both composites exhibited high conversion rates under a sustainable solvent-free system (98% of conversion was achieved after 24 h), and high selectivity toward 2-Amino-1,2-diphenylethanol, along with notable robustness and recyclability.",
-      "tags": [],
-      "relevance": 20
-    },
-    {
-      "title": "Aflatoxin contamination in dried fish: Sources, health impacts, Detection, Detoxification, and Control strategies in developing countries",
-      "authors": [
-        "R. Hiththatiyage",
-        "Ruvini Liyanage"
-      ],
-      "journal": "Ceylon Journal of Science",
-      "date": "2026-09-17",
-      "doi": "10.4038/cjs.v55i4.9459",
-      "url": "https://doi.org/10.4038/cjs.v55i4.9459",
-      "abstract": "Aflatoxin contamination in dried fish is a growing food safety concern with significant implications for human and animal health. This review highlights the key factors contributing to aflatoxin contamination in dried fish, including its sources, influencing factors, health impacts, detection methods, and prevention and mitigation strategies. The contamination process is driven by interconnected pre-harvest and post-harvest factors, including the use of contaminated plant-based feed ingredients, inadequate drying and storage practices, high environmental humidity, and poor handling and processing conditions. These factors promote fungal proliferation and aflatoxin production throughout the production and supply chain. The review also highlights the toxicological impacts of aflatoxins, ranging from acute poisoning to long-term carcinogenic, immunosuppressive, and growth-inhibiting effects in humans and livestock, as well as bioaccumulation risks in fish tissues. Current detection approaches, including chromatographic and immunoassay-based techniques, are widely used but face limitations in sensitivity, cost, and field applicability. Emerging technologies such as biosensors, AI-assisted tools, and rapid diagnostic methods offer improved accuracy and potential for real-time monitoring. Preventive and mitigation strategies discussed include improved feed quality control, optimized drying and storage practices, HACCP and GHP implementation, biological control agents, adsorbents, and detoxification approaches. Collectively, effective management of aflatoxin contamination in dried fish requires an integrated, multidisciplinary approach combining prevention, monitoring, regulation, and technological innovation to ensure food safety and public health protection.",
-      "tags": [],
-      "relevance": 20
-    },
-    {
-      "title": "Active Confinement Catalysis Powered by Mechanical Force.",
-      "authors": [
-        "Shi Li",
-        "Fang‐Zi Liu",
-        "Xinhan Liu",
-        "Yan Liu",
-        "Jian Wang",
-        "KaKing Yan"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-09-17",
-      "doi": "10.26434/chemrxiv.15008989/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15008989/v1",
-      "abstract": "The design of artificial enzyme mimics has long been guided by the paradigm of crafting static pockets for transition-state stabilization, a process reliant on stochastic molecular diffusion. These passive events impose a rate limit, and a strict criterion for substrates with suitable size and electronic matching. Inspired by biological ion pumps that drive uphill ion transport using chemical fuels, we propose that mechanical force can power an active, out-of-equilibrium catalytic pumping cycle. We herein report a solid-state mechanochemical strategy where mechanical input drives a confinement catalyst 1 ( Pd 2 L 2 ) from a closed to an open “active” state, while simultaneously pumping substrate molecules into its active site for catalytic events. This dynamic catalyst exhibits substrate size and shape recognition, and its mechano-pump mechanism is quantitatively validated by Michaelis-Menten saturation kinetics, where catalytic efficiency scales directly with the applied force. Moreover, the active-pump action overcomes inherent electrostatic repulsion, enabling cationic substrates, normally excluded from the cationic host catalysts, to be efficiently drawn in and engaged in catalytic turnover. This force-induced pumping catalysis concept is smoothly extended to photochemistry. By combining a photosensitizing unit and an active confinement catalyst, an active pumping mechano-photoredox C-H oxidation process is developed. This work establishes mechanical force not merely as a synthetic tool, but as a fundamental design parameter for catalysts, opening a pathway to life-like chemical control in which energy transduction, not just static structure, dictates function.",
       "tags": [],
       "relevance": 20
     },
@@ -706,6 +706,43 @@
       "doi": "10.26434/chemrxiv.15008988/v1",
       "url": "https://doi.org/10.26434/chemrxiv.15008988/v1",
       "abstract": "Mechanochemical reactivity provides a distinctive mode of energy input, wherein mechanical force performs work on molecular structures to access reactivity beyond conventional thermal activation. Yet a fundamental understanding of how transient mechanical impacts translate into productive molecular activation remains lacking, particularly under the stochastic conditions of ball milling. By promoting direct homolytic bond scission, mechanoradical chemistry provides an ideal platform to interrogate the role of mechanical force in triggering chemical reactions. However, the resulting highly reactive radical species are often short-lived and elusive, making their formation and reactivity difficult to quantify. Here we use a mechanoradical-chain C-S coupling reaction to amplify otherwise transient initiation events into a measurable kinetic response. Time-resolved kinetics reveal a pronounced force-dependent induction period, while theoretical calculations show that productive C-I homolysis requires a specific loading trajectory. These findings indicate that mechanical force does not simply promote bond cleavage in proportion to its magnitude; rather, individual impacts sample a distribution of mechanical states, with only a small subset being competent for chemical activation. This selective sampling of mechanically competent states provides a mechanistic basis that controls the initiation, propagation and extinction of mechanoradical chains, enabling sustained out-of-equilibrium radical reactivity under intermittent mechanical driving, including with otherwise inaccessible insoluble poly(disulfides) in a diffusion-limited setting.",
+      "tags": [],
+      "relevance": 20
+    },
+    {
+      "title": "Active porous ZIF-8 based hybrid catalysts for solvent-free reactions",
+      "authors": [
+        "César D. Sampaio",
+        "L.G. Dias",
+        "Isabel Santos-Vieira",
+        "Eulália Pereira",
+        "Luís Cunha-Silva",
+        "Fátima Mirante",
+        "Salete S. Balula"
+      ],
+      "journal": "Frontiers in Chemistry",
+      "date": "2026-09-17",
+      "doi": "10.3389/fchem.2026.1894924",
+      "url": "https://doi.org/10.3389/fchem.2026.1894924",
+      "abstract": "Hybrid heterogeneous polymeric catalysts were prepared by distinct methodologies to evaluate their catalytic ability, stability and recycling capacity to promote the ring-opening reaction of styrene oxide with aniline resulting as main product the 2-Amino-1,2-diphenylethanol. These composites were based on porous metal–organic frameworks (MOFs), specifically the zinc-based ZIF-8, activated catalytically by the incorporation of Keggin-type phosphomolybdic acid (PMo 12 ). The resulting composite denoted as PMo 12 @ZIF-8 was prepared via impregnation and in-situ methods (PMo 12 loadings of 0.149 and 0.194 mmol/g were obtained via in-situ and impregnation procedures). Both materials were characterized by FTIR-ATR, PXRD, SEM, EDS, and ICP-OES. The catalytic performance evaluation revealed that both composites exhibited high conversion rates under a sustainable solvent-free system (98% of conversion was achieved after 24 h), and high selectivity toward 2-Amino-1,2-diphenylethanol, along with notable robustness and recyclability.",
+      "tags": [],
+      "relevance": 20
+    },
+    {
+      "title": "Active Confinement Catalysis Powered by Mechanical Force.",
+      "authors": [
+        "Shi Li",
+        "Fang‐Zi Liu",
+        "Xinhan Liu",
+        "Yan Liu",
+        "Jian Wang",
+        "KaKing Yan"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-09-17",
+      "doi": "10.26434/chemrxiv.15008989/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15008989/v1",
+      "abstract": "The design of artificial enzyme mimics has long been guided by the paradigm of crafting static pockets for transition-state stabilization, a process reliant on stochastic molecular diffusion. These passive events impose a rate limit, and a strict criterion for substrates with suitable size and electronic matching. Inspired by biological ion pumps that drive uphill ion transport using chemical fuels, we propose that mechanical force can power an active, out-of-equilibrium catalytic pumping cycle. We herein report a solid-state mechanochemical strategy where mechanical input drives a confinement catalyst 1 ( Pd 2 L 2 ) from a closed to an open “active” state, while simultaneously pumping substrate molecules into its active site for catalytic events. This dynamic catalyst exhibits substrate size and shape recognition, and its mechano-pump mechanism is quantitatively validated by Michaelis-Menten saturation kinetics, where catalytic efficiency scales directly with the applied force. Moreover, the active-pump action overcomes inherent electrostatic repulsion, enabling cationic substrates, normally excluded from the cationic host catalysts, to be efficiently drawn in and engaged in catalytic turnover. This force-induced pumping catalysis concept is smoothly extended to photochemistry. By combining a photosensitizing unit and an active confinement catalyst, an active pumping mechano-photoredox C-H oxidation process is developed. This work establishes mechanical force not merely as a synthetic tool, but as a fundamental design parameter for catalysts, opening a pathway to life-like chemical control in which energy transduction, not just static structure, dictates function.",
       "tags": [],
       "relevance": 20
     },
@@ -802,6 +839,28 @@
       "doi": "10.3389/fvets.2026.1925519",
       "url": "https://doi.org/10.3389/fvets.2026.1925519",
       "abstract": "Zinc is an essential trace mineral involved in numerous biological processes, including growth, antioxidant defense, immune function, and intestinal integrity in broiler chickens. Optimizing its bioavailability remains an important objective in modern poultry nutrition. Nanotechnology has emerged as a promising strategy to enhance zinc bioavailability while potentially reducing dietary inclusion levels and environmental zinc excretion. Current evidence suggests that nano zinc supplementation may enhance antioxidant capacity, modulate immune responses, support intestinal health, and improve productive performance under specific experimental conditions. Several studies further indicate reduced zinc excretion compared with conventional zinc sources, suggesting potential environmental benefits through lower mineral losses. Furthermore, nano zinc has been proposed as part of nutritional strategies aiming to reduce reliance on antimicrobial use by improving gut health and host resilience. However, direct evidence supporting nano zinc as an alternative to antibiotics under commercial production conditions remains limited. Nano zinc supplementation has also been associated with improvements in intestinal morphology, microbial composition, and barrier function, although the underlying molecular mechanisms remain to be fully elucidated. Despite these promising findings, important knowledge gaps remain regarding optimal particle characteristics, dosage, long-term safety, tissue accumulation, and regulatory acceptance. This review summarizes the current evidence on the biological functions and applications of nano zinc in broiler nutrition, discusses the proposed mechanisms of action, critically evaluates the available literature, and highlights priorities for future research.",
+      "tags": [],
+      "relevance": 20
+    },
+    {
+      "title": "II INTERNATIONAL SCIENTIFIC CONFERENCE ON CHEMICAL SCIENCES",
+      "authors": [],
+      "journal": "Unknown journal",
+      "date": "2026-09-17",
+      "doi": "10.36719/2707-1146/ii",
+      "url": "https://doi.org/10.36719/2707-1146/ii",
+      "abstract": "+ cation radicals Açar sözlər: tiosemikarbazon, mis(II) kompleksləri, sulfonamidlər, antioksidant aktivlik, ABTS •+ kation radikallarıOxidative stress plays a crucial role in the development and progression of numerous pathological conditions, including inflammation, neurodegenerative disorders, cardiovascular diseases, and cancer.Therefore, the search for new antioxidant agents capable of effectively neutralizing reactive oxygen species remains an important research area.Sulfonamides represent a versatile class of biologically active compounds with a wide range of pharmacological properties, including antioxidant, antimicrobial, and anti-inflammatory effects.",
+      "tags": [],
+      "relevance": 20
+    },
+    {
+      "title": "II INTERNATIONAL SCIENTIFIC CONFERENCE ON CHEMICAL SCIENCES",
+      "authors": [],
+      "journal": "Unknown journal",
+      "date": "2026-09-17",
+      "doi": "10.36719/2707-1146/ii/bk/kebk/ns/2026",
+      "url": "https://doi.org/10.36719/2707-1146/ii/bk/kebk/ns/2026",
+      "abstract": "+ cation radicals Açar sözlər: tiosemikarbazon, mis(II) kompleksləri, sulfonamidlər, antioksidant aktivlik, ABTS •+ kation radikallarıOxidative stress plays a crucial role in the development and progression of numerous pathological conditions, including inflammation, neurodegenerative disorders, cardiovascular diseases, and cancer.Therefore, the search for new antioxidant agents capable of effectively neutralizing reactive oxygen species remains an important research area.Sulfonamides represent a versatile class of biologically active compounds with a wide range of pharmacological properties, including antioxidant, antimicrobial, and anti-inflammatory effects.",
       "tags": [],
       "relevance": 20
     },
@@ -1315,7 +1374,7 @@
       "date": "2026-09-16",
       "doi": "10.5713/ab.260506",
       "url": "https://doi.org/10.5713/ab.260506",
-      "abstract": "in Hanwoo heifers under high temperature-humidity condition",
+      "abstract": "Objective: Heat stress impairs feed intake, metabolic balance, and productivity in cattle, and nutritional strategies are needed to maintain productivity under hot conditions. This study evaluated the effects of two complete commercial vitamin premixes on growth performance, rumen fermentation, blood profiles, and stress-related biomarkers in Hanwoo heifers under high temperature-humidity conditions. Methods: Fifteen Hanwoo heifers (initial body weight 647 ± 35 kg; age 27.7 ± 0.40 months) were assigned to a replicated 3 × 3 Latin square design with three 21-day periods. The treatments were a control, Mix A, and Mix B, with both premixes top-dressed onto the morning ration at 0.4% of daily dry matter intake. Growth performance, feed intake, rumen fermentation, hematological and serum biochemical profiles, and serum cortisol and heat shock proteins 70 and 90 were measured. Results: The mean temperature-humidity index was 78.6, with a mean of 74.6 at 05:00, indicating sustained heat load. Mix A increased forage dry matter intake compared with the control (1.27 vs. 1.18 kg/d; p = 0.0187), whereas Mix B was intermediate. Mix B reduced the molar proportion of ruminal iso-butyrate (p = 0.0086) and serum total protein (p = 0.0023) and showed a tendency toward greater average daily gain (p = 0.0820). Serum albumin was lower in Mix B than in Mix A, with the control being intermediate (p = 0.0460). Mix B also showed a lower serum cortisol than the control, whereas Mix A was intermediate (p = 0.0372). Conclusion: The premixes produced distinct mixture-specific responses under high temperature-humidity conditions. Mix A increased forage intake, whereas Mix B altered ruminal iso-butyrate, serum protein variables, and the cortisol concentration.",
       "tags": [],
       "relevance": 20
     },
@@ -1519,28 +1578,6 @@
       "relevance": 36
     },
     {
-      "title": "Anti-Markovnikov alkene hydroalkylation via iron photocatalysis",
-      "authors": [
-        "Shih‐Chieh Kao",
-        "Kang‐Jie Bian",
-        "Jess C Tang",
-        "Shijin Yu",
-        "Yongchen Wang",
-        "Ying Chen",
-        "Xiaowei Chen",
-        "Julian G. West"
-      ],
-      "journal": "Nature Catalysis",
-      "date": "2026-09-15",
-      "doi": "10.1038/s41929-026-01600-0",
-      "url": "https://doi.org/10.1038/s41929-026-01600-0",
-      "abstract": "Abstract Hydroalkylation provides a direct approach to C( sp 3 )–C( sp 3 ) bond formation from abundant alkenes, yet general methods for linear-selective hydroalkylation remain limited, particularly for simple alkyl groups such as methyl and ethyl. Here we introduce traceless radical polarity reversal, in which a removable electron-withdrawing group promotes radical alkene addition and is subsequently deleted in situ under the reaction conditions. Using a visible-light-promoted iron-and-thiol dual-catalytic system, this strategy enables hydroalkylation reactions that were previously difficult to access, including hydromethylation, hydroethylation and hydrocyclobutylation, with high linear selectivity from simple malonic acids. The method also provides direct access to gem -monofluoroalkyl and gem -difluoroalkyl motifs from fluorinated malonic acids and enables efficient synthesis of bioactive targets, including a GPR119 agonist. Preliminary mechanistic studies support a dual-catalytic radical pathway involving visible-light-induced homolysis and hydrogen-atom transfer processes.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 36
-    },
-    {
       "title": "Coordination‐Engineered Cu Single Atom on N‐Doped Carbon Nanosheets for Highly‐Efficient Photocatalytic CO 2 Reduction to CH 4",
       "authors": [
         "Chao‐Ying Gao",
@@ -1580,6 +1617,28 @@
       "relevance": 36
     },
     {
+      "title": "Anti-Markovnikov alkene hydroalkylation via iron photocatalysis",
+      "authors": [
+        "Shih‐Chieh Kao",
+        "Kang‐Jie Bian",
+        "Jess C Tang",
+        "Shijin Yu",
+        "Yongchen Wang",
+        "Ying Chen",
+        "Xiaowei Chen",
+        "Julian G. West"
+      ],
+      "journal": "Nature Catalysis",
+      "date": "2026-09-15",
+      "doi": "10.1038/s41929-026-01600-0",
+      "url": "https://doi.org/10.1038/s41929-026-01600-0",
+      "abstract": "Abstract Hydroalkylation provides a direct approach to C( sp 3 )–C( sp 3 ) bond formation from abundant alkenes, yet general methods for linear-selective hydroalkylation remain limited, particularly for simple alkyl groups such as methyl and ethyl. Here we introduce traceless radical polarity reversal, in which a removable electron-withdrawing group promotes radical alkene addition and is subsequently deleted in situ under the reaction conditions. Using a visible-light-promoted iron-and-thiol dual-catalytic system, this strategy enables hydroalkylation reactions that were previously difficult to access, including hydromethylation, hydroethylation and hydrocyclobutylation, with high linear selectivity from simple malonic acids. The method also provides direct access to gem -monofluoroalkyl and gem -difluoroalkyl motifs from fluorinated malonic acids and enables efficient synthesis of bioactive targets, including a GPR119 agonist. Preliminary mechanistic studies support a dual-catalytic radical pathway involving visible-light-induced homolysis and hydrogen-atom transfer processes.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 36
+    },
+    {
       "title": "Constructing p‐d Orbital Hybridization via In Situ Generation of Bi 19 Br 3 S 27 /NiS x for Highly Selective Photothermal CO 2 Reduction to C 2 H 4",
       "authors": [
         "Guangmei Gan",
@@ -1596,43 +1655,6 @@
       "url": "https://doi.org/10.1002/anie.1626004",
       "abstract": "ABSTRACT Photothermal catalytic CO 2 reduction to multi‐carbon products is a promising approach for carbon utilization, yet the design of active sites that effectively promote multistep C─C coupling toward selective C 2 H 4 formation remains a significant challenge. Hence, we employ an in situ interfacial engineering strategy to construct crystalline/amorphous Bi 19 Br 3 S 27 /NiS x (BBSN) photothermal catalysts with strong p‐d orbital hybridization. The optimized BBSN‐8 achieves a C 2 H 4 production rate of 41.38 µmol g −1 h −1 with a selectivity of 96.8% under full‐spectrum irradiation, which exhibits a remarkable advantage in the field of C 2 H 4 production. Experimental results and theoretical calculations demonstrate that Ni incorporation optimizes CO 2 adsorption from overly strong Bi─C single‐site binding to balanced multi‐sites adsorption, while newly formed p‐d orbital hybridization establishes electronically cooperative Bi─S─Ni active sites stabilizing both carbon‐ and oxygen‐centered species, synergistically facilitating *CO─CHO* coupling and boosting C 2 H 4 formation. This work demonstrates that in situ interfacial orbital hybridization can regulate intermediate coupling and steer photothermal CO 2 reduction toward highly selective C 2 H 4 formation.",
       "tags": [],
-      "relevance": 28
-    },
-    {
-      "title": "Textile dye degradation technologies with mechanistic insights, kinetic modeling, and comparative performance analysis",
-      "authors": [
-        "Manvi Rawat",
-        "Murari Kumar Jha",
-        "Sumit Kumar Rai",
-        "Parag Agrawal"
-      ],
-      "journal": "Discover Environment",
-      "date": "2026-09-15",
-      "doi": "10.1007/s44274-026-00979-8",
-      "url": "https://doi.org/10.1007/s44274-026-00979-8",
-      "abstract": "Pollution caused by textile dyes constitutes a significant environmental challenge in the global textile industry, with over 280,000 tonnes of synthetic dyes discharged annually. Conventional treatment systems are effective at decolorizing wastewater; however, they fail to mineralize chromophores or eliminate the toxicity of the transformation products, raising concerns regarding regulatory compliance and public health. This review presents a mechanistic, kinetic, and comparative study of dye degradation technologies, combining molecular-level pathway information with quantitative kinetic modeling frameworks and multi-criteria technology evaluation. The key finding was (i) Anaerobic azo bond cleavage by azoreductase (EC 1.7.1.6) produces aromatic amines, many exhibiting greater mutagenicity than the parent dye as evidence by Ames testing, necessitating metabolite profiling via GC–MS and LC–MS. The Haldane substrate-inhibition model (μ = μmax·S/(Ks + S + S 2 /Ki)) is able to describe the nonlinear kinetics of the azo dye-degrading systems, with the BMG (Behnajady–Modirshahla–Ghanbery) kinetic model showing better fitting for photocatalytic decolorization than simple pseudo-first-order expressions. The efficiency of hydroxyl radicals was significantly reduced, and the rates of biological degradation were modified by (iii) water matrix components, such as Cl − (10–100 mM), SO 4 2− , humic acid (5–20 mg/L), and non-ionic surfactants. (iv) EPR spin-trapping experiments confirmed that ·OH, SO 4 ·, and O 2 · are the major reactive species in AOP-based systems, with TBA, p-BQ, and EDTA-2Na being used to validate the results of the experiments. The decolorization of effluents was 90–99% under visible-light irradiation using photocatalysts based on nanoparticles, MOFs, and COFs, and toxicity bioassays (Ames test, Daphnia magna EC50, zebrafish embryo FET) showed that the effluents were not mineralized but remained mutagenic after AOP treatment. Hybrid sequential anaerobic–aerobic systems and bio-AOP integration provide TOC removals of 85–97%, which is better than single-technology systems. This review is unique in bringing together mechanistic pathway analysis for four dye structural classes (azo, anthraquinone, triarylmethane, and phthalocyanine), quantitative kinetic modeling (including the BMG model), water matrix interference analysis, EPR-validated radical speciation, and toxicological bioassay requirements in a single comparative framework—addressing critical knowledge gaps not covered by existing reviews.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 28
-    },
-    {
-      "title": "PdAu/TiO2 nanoparticles: transforming methane to methanol for clean energy in PEM fuel cell reactors",
-      "authors": [
-        "Victória A. Maia",
-        "Paulo Victor Rodrigues Gomes",
-        "Marlon Holanda Gonçalvez",
-        "Rodrigo Fernando Brambilla de Souza",
-        "Almir Oliveira Neto"
-      ],
-      "journal": "Academia Catalysis",
-      "date": "2026-09-15",
-      "doi": "10.20935/acadcatal8508",
-      "url": "https://doi.org/10.20935/acadcatal8508",
-      "abstract": "Introduction: Methane valorization through its direct conversion into value-added chemicals is an attractive strategy for mitigating greenhouse gas emissions while producing high-value chemicals. In this study, the selective electrochemical oxidation of methane to methanol was investigated using a polymer electrolyte membrane (PEM) fuel cell reactor and PdAu bimetallic electrocatalysts supported on TiO2. Materials and methods: PdAu/TiO2 electrocatalysts with different Pd:Au compositions were synthesized and structurally characterized by transmission electron microscopy (TEM) and X-ray diffraction (XRD). Their electrocatalytic performance toward methane oxidation was evaluated in a PEM fuel cell reactor under mild operating conditions by measuring methanol production at different applied potentials. Results: TEM and XRD analyses confirmed the formation of PdAu nanoparticles with average particle sizes ranging from 5.0 to 8.0 nm. The incorporation of Au into Pd-based catalysts induced structural and electrochemical modifications, which influenced their catalytic performance for methane-to-methanol conversion. Among the investigated catalysts, Pd50Au50/TiO2 exhibited the highest methanol production rate, reaching 10.61 µmol cm−2 h−1 at an applied potential of 0.1 V. The superior performance of Pd50Au50/TiO2 may be associated with the specific Pd/Au composition and the resulting structural and electrochemical characteristics of the catalyst, which favored methanol formation under the investigated conditions. Conclusions: The results demonstrate that PdAu/TiO2 bimetallic electrocatalysts are promising materials for the electrochemical conversion of methane to methanol under mild conditions. In particular, the Pd50Au50/TiO2 catalyst exhibited the highest methanol production rate among the investigated catalysts, indicating that the Pd/Au composition plays an important role in the catalytic performance. These findings provide valuable insights into the development of efficient electrocatalysts for methane valorization and support the potential application of PEM fuel cell reactors for electrochemical methane-to-methanol conversion.",
-      "tags": [
-        "Electrochemistry"
-      ],
       "relevance": 28
     },
     {
