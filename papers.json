@@ -84,38 +84,22 @@
       "relevance": 54
     },
     {
-      "title": "From Inert N2 to Reactive Nitrate: A Comparative Analysis on Electrocatalytic Urea Synthesis via CO2 Coelectrolysis",
+      "title": "Visible-light-driven C2-phosphonylation of tryptophan in peptides and proteins",
       "authors": [
-        "Leandro A. Faustino",
-        "Susana I. Córdoba de Torresi"
-      ],
-      "journal": "Langmuir",
-      "date": "2026-09-17",
-      "doi": "10.1021/acs.langmuir.6c02719",
-      "url": "https://doi.org/10.1021/acs.langmuir.6c02719",
-      "abstract": "Abstract Electrochemical urea synthesis through C–N bond formation under mild conditions has emerged as a promising alternative to the conventional energy-intensive Bosch–Meiser process, offering a sustainable pathway coupling carbon and nitrogen cycles. In this context, the coelectrolysis of CO2 with different nitrogen sources, N2 and NO3–, has attracted increasing attention. However, these routes present fundamentally distinct challenges and opportunities regarding substrate activation, intermediate formation, and product selectivity. This mini-review provides a comprehensive comparison between N2 + CO2 and NO3– + CO2 coelectrolysis, focusing on the key factors that drive C–N coupling. Intrinsically limitations associated with the high-energy activation for breaking the N≡N triple bond of N2 and its associated low solubility, in contrast with the higher reactivity and availability of NO3– species, were discussed. Mechanistic insights into C–N coupling pathways were critically analyzed, highlighting the role of adsorbed intermediates and competing reactions such as hydrogen evolution and side products from nitrogen-species reduction. Furthermore, recent advances regarding the catalyst design and operational conditions were evaluated in terms of their ability to enhance selectivity toward urea synthesis. Finally, we outline the current challenges and future perspectives for the rational development of next-generation catalytic systems for sustainable urea synthesis.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 48
-    },
-    {
-      "title": "Photosensitive Phenothiazine-Fused [4]Helicenes",
-      "authors": [
-        "Ling‐Xiao Li",
-        "Gaoqiang Xu",
-        "Yue Zhang",
-        "Yonghong Xiao",
-        "Guiyi Yang",
-        "Yanning Xu",
-        "Parvej Alam",
-        "Zijie Qiu"
+        "Ranran Zhu",
+        "Xiaofei Gao",
+        "Xiaoying Lian",
+        "Diqi Yan",
+        "Fulai Li",
+        "Daokuan Sun",
+        "Ran Zhang",
+        "Yufen Zhao"
       ],
       "journal": "ChemRxiv",
       "date": "2026-09-17",
-      "doi": "10.26434/chemrxiv.15008968/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15008968/v1",
-      "abstract": "Here, we report the synthesis and photoreactivity of a phenothiazine fused [4]helicene, namely 3,13dimethoxybenzo[4,5]quinolino[3,2,1-kl]phenothiazine (MBQP). Comprehensive photophysical studies reveal that MBQP exhibits a high photoluminescence quantum yield of 60.3% and strong circularly-polarized luminescence, with high glum of 2.0 × 10-3 in DMSO. Besides its excellent chiroptical properties, MBQP can undergo a photoinduced chloroformylation reaction upon 365 nm irradiation in chloroform, enabling direct functionalization of the helicene framework. Notably, the emission of resulting photoproducts redshift to ~500, 550, and 660 nm, together with quantum yields up to 77.2%, demonstrating that the photochemical transformation can simultaneously functionalize the helicene framework and improve its luminescence performance. This work provides a straightforward example for the facile synthesis and post-functionalization of color-tunable chiral materials.",
+      "doi": "10.26434/chemrxiv.15008966/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15008966/v1",
+      "abstract": "Tryptophan (Trp) residues are comparatively rare in proteins but are frequently positioned at sites that control folding, molecular recognition, ligand binding, and enzymatic activity. Direct chemical modification of Trp therefore offers a powerful strategy for perturbing protein structure and function. However, methods for installing compact, highly polar functionality onto native Trp residues under mild, protein-compatible conditions remain limited. Here we report a visible-light-driven reductive platform for the C2-selective phosphonylation of Trp-containing peptides and proteins using oxime phosphonates as radical precursors. The reaction proceeds under mild conditions, tolerates diverse peptide sequences containing nearly all proteinogenic amino-acid side chains, and enables late-stage modification of Trp-containing synthetic peptides or peptides derived from structurally complex bioactive molecules. The method further extends to native proteins in aqueous buffer, with LC-MS/MS analysis confirming site-selective modification across a range of protein substrates. Collectively, these results establish photochemical Trp-phosphonylation as a versatile method for peptide diversification, protein conjugation, and chemical control of biomolecular function in situ.",
       "tags": [
         "Photocatalysis"
       ],
@@ -138,28 +122,6 @@
       "abstract": "This report presents an electro-oxidative approach to synthesize functionalized bis-spirocycles by combining the strain-release reactivity of bicyclo[1.1.0]butanes (BCBs) with arene dearomatization in a radical cascade. Various radical precursors can undergo this transformation under mild, oxidant- and mediator-free conditions, allowing efficient production of complex, three-dimensional bis-spirocyclic structures with high functional-group tolerance. Mechanistic investigations indicate an anodically driven radical cascade, involving radical addition to the BCB, strain-release ring opening, and subsequent ipso-dearomatization.",
       "tags": [
         "Electrochemistry"
-      ],
-      "relevance": 62
-    },
-    {
-      "title": "Metal-Free Photoredox Upcycling of Chemically Diverse Plastics and Mixed Plastics into High-Value Chemicals under Visible Light",
-      "authors": [
-        "Xin Ying Kong",
-        "Shao Rong Choo",
-        "Wei‐Kean Chong",
-        "Lin Zhang",
-        "Panyawut Tonanon",
-        "Richard D. Webster",
-        "Siang‐Piao Chai",
-        "Teck‐Peng Loh"
-      ],
-      "journal": "Sustainable Science and Innovation",
-      "date": "2026-09-16",
-      "doi": "10.54963/ssi.v1i1.103365",
-      "url": "https://doi.org/10.54963/ssi.v1i1.103365",
-      "abstract": "The growing accumulation of plastic waste poses a major global environmental challenge, yet existing chemical recycling technologies remain constrained by high energy demand, narrow substrate scope, intolerance to poly(vinyl chloride) (PVC) and mixed plastic waste, and heavy reliance on precious, toxic, or base-metal catalysts. Here, we report a metal-free, defect-engineered polymeric carbon nitride photocatalyst containing tri-coordinated nitrogen vacancies and oxygen-linked heptazine units (O-VN-CN) that confronts this challenge under visible light and ambient conditions. Our developed O-VN-CN catalyst converts chemically distinct commodity plastics, including aliphatic polypropylene (PP), aromatic polystyrene (PS), and halogenated PVC, both individually and as a ternary mixture, into value-added chemicals under a unified set of reaction conditions without substrate-specific modification. Notably, the co-upcycling of ternary PP/PS/PVC mixture represents, to the best of our knowledge, the first demonstration of photocatalytic upcycling of mixed plastics using a recyclable, metal-free heterogeneous photocatalyst under ambient conditions. Mechanistic and computational investigations reveal that the co-existence of tri-coordinated nitrogen vacancies and oxygen-linked heptazine units creates shallow electron-trapping states that enhance visible light absorption, promote charge separation and interfacial transfer, and facilitate the activation of O2 to •O2⁻ that actively participates in the C–C bond cleavage and breaks down the polymer chains into value-added small molecules. Synthesized from cheap, abundant urea and ammonium acetate by simple calcination, the catalyst offers a potentially scalable, green and economically compelling route to closing the plastics carbon loop.",
-      "tags": [
-        "Photocatalysis"
       ],
       "relevance": 62
     },
@@ -452,7 +414,7 @@
       "tags": [
         "Difluoromethylation"
       ],
-      "relevance": 62
+      "relevance": 68
     },
     {
       "title": "Recent Advances in Photochemical and Photoelectrochemical Fluoroalkylation: Direct Use of Fluoroalkyl Carboxylic Acids",
@@ -469,7 +431,26 @@
         "Electrochemistry",
         "Photocatalysis"
       ],
-      "relevance": 56
+      "relevance": 62
+    },
+    {
+      "title": "Electrochemical Desilylative Fluorination Enables Access to N ‐Monofluoromethyl Amides and Peptides",
+      "authors": [
+        "Honghai Zhang",
+        "Jia-ze Qin",
+        "Meng-Ting Ai",
+        "Hao Long",
+        "Hai‐Chao Xu"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-08-31",
+      "doi": "10.1002/anie.5407928",
+      "url": "https://doi.org/10.1002/anie.5407928",
+      "abstract": "ABSTRACT N ‐Fluoroalkyl amides have emerged as highly attractive targets because N ‐fluoromethylation can modulate conformation, stability, lipophilicity, and molecular recognition. However, despite the rapidly advancing chemistry of N ‐CF 3 and N ‐CF 2 H amides, access to the corresponding N ‐monofluoromethyl ( N ‐CH 2 F) amides remains significantly underdeveloped. Existing approaches are often constrained by the use of silver‐based fluorinating reagents, unstable intermediates, and limited compatibility with peptide substrates. In this study, we report an electrochemical strategy for the synthesis of N ‐monofluoromethyl amides using fluoride as the fluorine source. Employing N ‐CH 2 TMS amides as readily accessible precursors, the target framework is efficiently constructed through electrochemical oxidative activation. The transformation proceeds under mild conditions and exhibits broad compatibility with amino acid‐derived amides and peptide substrates of varying chain lengths.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 58
     },
     {
       "title": "Selective Photoinduced α‐Amino C(sp 3 )–H Alkylation Mediated by NHC–Borane",
