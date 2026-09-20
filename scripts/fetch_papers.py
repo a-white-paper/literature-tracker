@@ -1,15 +1,23 @@
-"""Fetch and normalize recent chemistry literature from OpenAlex.
+"""Fetch, filter, score, and normalize recent synthetic-organic literature.
 
 This script is the data-ingestion layer for the Literature Tracker website.
-It performs four main tasks:
+It performs six main tasks:
 
 1. Run several topic-focused searches against the OpenAlex Works API.
 2. Reconstruct abstracts from OpenAlex's inverted-index representation.
-3. Assign topic tags and a simple relevance score to each paper.
-4. Deduplicate and save the final records to papers.json for the frontend.
+3. Reject papers that are clearly dominated by materials, energy, sensing,
+   degradation, or device-oriented research.
+4. Require a positive synthetic-organic chemistry signal before admission.
+5. Classify admitted papers into the tracked topics and assign a transparent
+   relevance score.
+6. Deduplicate records and save the final dataset to papers.json.
 
-The script is designed to run automatically from GitHub Actions, but it can
-also be executed locally with:
+The filtering philosophy is intentionally conservative: for this tracker,
+showing fewer papers is preferable to flooding the website with irrelevant
+materials-science results.
+
+The script runs automatically from GitHub Actions, but it can also be executed
+locally with:
 
     python scripts/fetch_papers.py
 
@@ -17,6 +25,7 @@ No third-party Python packages are required; only the standard library is used.
 """
 
 import json
+import re
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -29,9 +38,8 @@ OUTPUT = ROOT / "papers.json"
 
 # Search phrases sent to OpenAlex.
 #
-# These phrases are intentionally broader than the frontend tags. Broad API
-# searches improve recall, while KEYWORDS below provide a second-stage local
-# classification step.
+# API searches remain deliberately broad to avoid missing relevant papers.
+# Precision is enforced locally by the admission and exclusion rules below.
 SEARCHES = {
     "Electrochemistry": "electrochemical organic synthesis",
     "Photocatalysis": "photocatalysis organic synthesis",
@@ -39,52 +47,242 @@ SEARCHES = {
     "Cu Catalysis": "copper catalysis radical organic synthesis",
     "Skeletal Editing": "skeletal editing organic chemistry",
     "Boron Chemistry": "boron chemistry organic synthesis",
-    "Difluoromethylation": "difluoromethylation",
-    "Decarboxylative Coupling": "decarboxylative coupling radical",
+    "Difluoromethylation": "difluoromethylation organic synthesis",
+    "Decarboxylative Coupling": "decarboxylative coupling organic synthesis",
 }
 
-# Keywords used for local topic tagging and relevance scoring.
-# Matching is case-insensitive because the searchable text is normalized to
-# lowercase before these terms are checked.
-KEYWORDS = {
-    "Electrochemistry": ["electrochem", "electrosynth", "electrolysis", "alternating current"],
-    "Photocatalysis": ["photocatal", "photochemical", "visible light", "lmct"],
-    "Fe Catalysis": ["iron catal", "fe catal", "iron-mediated"],
-    "Cu Catalysis": ["copper catal", "cu catal", "copper-mediated"],
-    "Skeletal Editing": ["skeletal editing", "atom insertion", "atom deletion", "scaffold editing"],
-    "Boron Chemistry": ["boron", "boronic", "boryl", "borylation"],
-    "Difluoromethylation": ["difluoromethyl", "cf2h"],
-    "Decarboxylative Coupling": ["decarboxyl", "carboxylic acid", "redox-active ester"],
+# Topic keywords used after admission. These terms determine which frontend
+# category tags are attached to each accepted paper.
+TOPIC_KEYWORDS = {
+    "Electrochemistry": [
+        "electrochem",
+        "electrosynth",
+        "electrolysis",
+        "electrooxid",
+        "electroreduct",
+        "alternating current",
+    ],
+    "Photocatalysis": [
+        "photocatal",
+        "photochemical",
+        "visible light",
+        "photoinduced",
+        "photoredox",
+        "lmct",
+    ],
+    "Fe Catalysis": [
+        "iron catal",
+        "iron-catal",
+        "fe catal",
+        "fe-catal",
+        "iron-mediated",
+    ],
+    "Cu Catalysis": [
+        "copper catal",
+        "copper-catal",
+        "cu catal",
+        "cu-catal",
+        "copper-mediated",
+    ],
+    "Skeletal Editing": [
+        "skeletal editing",
+        "skeletal edit",
+        "atom insertion",
+        "atom deletion",
+        "scaffold editing",
+        "scaffold edit",
+        "ring expansion",
+        "ring contraction",
+    ],
+    "Boron Chemistry": [
+        "boronic",
+        "boronate",
+        "organoboron",
+        "borylation",
+        "boryl",
+        "borane",
+    ],
+    "Difluoromethylation": [
+        "difluoromethyl",
+        "cf2h",
+    ],
+    "Decarboxylative Coupling": [
+        "decarboxyl",
+        "redox-active ester",
+        "carboxylic acid coupling",
+    ],
 }
 
-# A small journal bonus is used only as a secondary relevance signal.
-# Topic matching remains the dominant part of the score.
+# Positive signals that indicate a paper is about synthetic organic chemistry
+# rather than only mentioning a catalytic or electrochemical keyword.
+#
+# A paper must contain at least one of these signals, or one of the highly
+# specific tracked-topic signals in STRONG_TOPIC_SIGNALS, before it can enter
+# papers.json.
+SYNTHETIC_ORGANIC_SIGNALS = [
+    "organic synthesis",
+    "synthetic method",
+    "synthetic methodology",
+    "chemical synthesis",
+    "cross-coupling",
+    "cross coupling",
+    "coupling reaction",
+    "functionalization",
+    "c-h functionalization",
+    "c–h functionalization",
+    "c−h functionalization",
+    "alkylation",
+    "arylation",
+    "acylation",
+    "amination",
+    "amidation",
+    "olefination",
+    "difunctionalization",
+    "cyclization",
+    "annulation",
+    "dearomatization",
+    "rearrangement",
+    "ring expansion",
+    "ring contraction",
+    "skeletal editing",
+    "scaffold editing",
+    "decarboxylative",
+    "decarbonylative",
+    "defluorinative",
+    "borylation",
+    "hydrofunctionalization",
+    "carbofunctionalization",
+    "radical addition",
+    "radical coupling",
+    "radical relay",
+    "radical-polar crossover",
+    "enantioselective",
+    "enantioselectivity",
+    "asymmetric catalysis",
+    "stereoselective",
+    "late-stage functionalization",
+    "late stage functionalization",
+    "substrate scope",
+    "reaction scope",
+    "synthetic utility",
+    "total synthesis",
+    "c(sp3)",
+    "c(sp³)",
+    "c-c bond",
+    "c–c bond",
+    "c-n bond",
+    "c–n bond",
+    "c-o bond",
+    "c–o bond",
+]
+
+# Highly specific subjects that are intrinsically close enough to the tracker to
+# count as synthetic-organic admission signals even when the abstract does not
+# literally contain a generic phrase such as "organic synthesis".
+STRONG_TOPIC_SIGNALS = [
+    "difluoromethyl",
+    "cf2h",
+    "skeletal editing",
+    "scaffold editing",
+    "redox-active ester",
+    "decarboxylative coupling",
+    "decarboxylative cross-coupling",
+    "electrosynthesis",
+    "organic electrosynthesis",
+    "photoredox",
+    "organoboron",
+]
+
+# Strong indicators that a result belongs primarily to materials science,
+# energy conversion/storage, sensing, environmental remediation, or devices.
+# These are deliberately explicit so the filter remains easy to audit.
+HARD_EXCLUDE_SIGNALS = [
+    "lithium-ion battery",
+    "lithium ion battery",
+    "sodium-ion battery",
+    "sodium ion battery",
+    "potassium-ion battery",
+    "zinc-ion battery",
+    "solid-state battery",
+    "supercapacitor",
+    "energy storage",
+    "fuel cell",
+    "photovoltaic",
+    "solar cell",
+    "perovskite solar",
+    "hydrogen evolution reaction",
+    "oxygen evolution reaction",
+    "oxygen reduction reaction",
+    "water splitting",
+    "electrochemical water splitting",
+    "photocatalytic degradation",
+    "photodegradation",
+    "wastewater treatment",
+    "pollutant degradation",
+    "dye degradation",
+    "electrochemical sensor",
+    "electrochemical sensing",
+    "biosensor",
+    "gas sensor",
+    "corrosion protection",
+    "corrosion inhibition",
+]
+
+# Softer materials-related terms. One occurrence alone is not enough to reject a
+# paper because synthetic chemistry papers may occasionally mention them.
+# Multiple hits, however, are strong evidence that the work is not in scope.
+SOFT_MATERIALS_SIGNALS = [
+    "electrode material",
+    "electrocatalyst",
+    "nanocomposite",
+    "nanoparticle",
+    "nanostructure",
+    "graphene",
+    "carbon nanotube",
+    "metal-organic framework",
+    "metal organic framework",
+    "mof",
+    "covalent organic framework",
+    "cof",
+    "porous material",
+    "semiconductor",
+    "thin film",
+    "device performance",
+    "electrode performance",
+    "specific capacitance",
+    "charge storage",
+    "energy density",
+    "power density",
+    "photocurrent density",
+    "band gap",
+]
+
+# Journals that are especially likely to contain important synthetic organic
+# chemistry. This is a ranking bonus, not a whitelist: relevant papers from
+# other journals are still retained.
 PRIORITY_JOURNALS = {
     "Nature",
     "Science",
     "Nature Catalysis",
     "Nature Chemistry",
+    "Nature Synthesis",
     "Journal of the American Chemical Society",
     "Angewandte Chemie International Edition",
+    "ACS Catalysis",
+    "Chemical Science",
+    "Organic Letters",
+    "The Journal of Organic Chemistry",
+    "Chem Catalysis",
+    "CCS Chemistry",
+    "Science Advances",
 }
+
+# Minimum score required after a paper passes the hard admission gate.
+MIN_RELEVANCE_SCORE = 45
 
 
 def reconstruct_abstract(index):
-    """Rebuild normal abstract text from an OpenAlex inverted index.
-
-    OpenAlex may return abstracts as a mapping from each word to the positions
-    where that word occurs. This function reverses that representation by
-    collecting all ``(position, word)`` pairs, sorting by position, and joining
-    the words in their original order.
-
-    Args:
-        index: OpenAlex ``abstract_inverted_index`` dictionary, or a falsey
-            value when no abstract is available.
-
-    Returns:
-        The reconstructed abstract as a plain string. Returns an empty string
-        when the source record has no abstract.
-    """
+    """Rebuild normal abstract text from an OpenAlex inverted index."""
     if not index:
         return ""
 
@@ -97,66 +295,113 @@ def reconstruct_abstract(index):
     return " ".join(word for _, word in words)
 
 
-def tag_and_score(work):
-    """Assign topic tags and a simple 0-100 relevance score to one work.
-
-    The current scoring system is intentionally transparent rather than
-    machine-learned. Every paper starts with a baseline score of 20. Matching
-    topic keywords add points, and selected high-impact chemistry journals add
-    a small bonus. The result is capped at 100.
-
-    Args:
-        work: Raw OpenAlex work dictionary.
-
-    Returns:
-        A tuple ``(tags, score)`` where ``tags`` is a list of matched topic
-        names and ``score`` is an integer from 0 to 100.
-    """
-    text = " ".join([
+def searchable_text(work):
+    """Return normalized title + abstract text used by all local filters."""
+    return " ".join([
         work.get("title") or "",
         reconstruct_abstract(work.get("abstract_inverted_index")),
     ]).lower()
 
+
+def matched_terms(text, terms):
+    """Return configured terms that occur in normalized text."""
+    return [term for term in terms if term in text]
+
+
+def classify_topics(text):
+    """Return tracked topic tags supported by the paper's title/abstract."""
     tags = []
-    score = 20
-
-    for tag, keywords in KEYWORDS.items():
-        # Count distinct configured keywords that occur at least once.
-        hits = sum(1 for keyword in keywords if keyword in text)
-
-        if hits:
+    for tag, keywords in TOPIC_KEYWORDS.items():
+        if any(keyword in text for keyword in keywords):
             tags.append(tag)
+    return tags
 
-            # Limit each topic's contribution so one dense keyword family does
-            # not overwhelm the rest of the relevance score.
-            score += min(18, hits * 8)
+
+def evaluate_admission(work):
+    """Decide whether a raw OpenAlex work belongs in this tracker.
+
+    Returns:
+        Tuple ``(accepted, reason, metadata)``. ``metadata`` contains the text,
+        matched synthetic signals, materials signals, and topic tags so the
+        scoring function does not need to repeat the same work.
+    """
+    text = searchable_text(work)
+    title = (work.get("title") or "Untitled").strip()
+
+    synthetic_hits = matched_terms(text, SYNTHETIC_ORGANIC_SIGNALS)
+    strong_topic_hits = matched_terms(text, STRONG_TOPIC_SIGNALS)
+    hard_exclude_hits = matched_terms(text, HARD_EXCLUDE_SIGNALS)
+    soft_material_hits = matched_terms(text, SOFT_MATERIALS_SIGNALS)
+    tags = classify_topics(text)
+
+    metadata = {
+        "text": text,
+        "synthetic_hits": synthetic_hits,
+        "strong_topic_hits": strong_topic_hits,
+        "hard_exclude_hits": hard_exclude_hits,
+        "soft_material_hits": soft_material_hits,
+        "tags": tags,
+    }
+
+    # Hard exclusions normally win immediately. An exception is allowed only
+    # when the paper has unusually strong synthetic-organic evidence, which
+    # protects edge cases where an organic synthesis paper briefly discusses an
+    # energy/materials application in its abstract.
+    if hard_exclude_hits and len(synthetic_hits) < 2 and not strong_topic_hits:
+        reason = "hard materials/energy signal: " + ", ".join(hard_exclude_hits[:4])
+        return False, reason, metadata
+
+    # Multiple softer materials signals are also sufficient for rejection when
+    # synthetic-organic evidence is weak.
+    if len(soft_material_hits) >= 2 and not synthetic_hits and not strong_topic_hits:
+        reason = "materials-dominated signal: " + ", ".join(soft_material_hits[:4])
+        return False, reason, metadata
+
+    # The central admission gate: generic electrochemistry/photochemistry/metal
+    # catalysis terms alone are not enough. There must be evidence of an organic
+    # synthesis/transformation or a highly specific tracked topic.
+    if not synthetic_hits and not strong_topic_hits:
+        return False, "no synthetic-organic admission signal", metadata
+
+    # The website is topic-focused, so a synthetic paper that matches none of
+    # the configured research areas is outside the current tracker scope.
+    if not tags:
+        return False, "no tracked-topic match", metadata
+
+    return True, f"accepted: {title}", metadata
+
+
+def score_admitted_work(work, metadata):
+    """Assign a transparent 0-100 score to an already admitted paper."""
+    synthetic_hits = metadata["synthetic_hits"]
+    strong_topic_hits = metadata["strong_topic_hits"]
+    soft_material_hits = metadata["soft_material_hits"]
+    tags = metadata["tags"]
+
+    # Admission itself establishes substantial relevance. Additional distinct
+    # synthetic signals and topic matches raise the score further.
+    score = 40
+    score += min(24, max(0, len(synthetic_hits) - 1) * 6)
+    score += min(16, len(strong_topic_hits) * 8)
+    score += min(24, len(tags) * 8)
+
+    # Materials-like language does not necessarily disqualify a paper after it
+    # passes the admission gate, but it lowers confidence in relevance.
+    score -= min(20, len(soft_material_hits) * 5)
 
     journal = (
         ((work.get("primary_location") or {}).get("source") or {})
         .get("display_name")
         or ""
     )
-
     if journal in PRIORITY_JOURNALS:
-        score += 8
+        score += 10
 
-    return tags, min(score, 100)
+    return max(0, min(score, 100))
 
 
 def fetch(query, from_date):
-    """Fetch recent OpenAlex works for one search query.
-
-    Args:
-        query: Free-text query sent to OpenAlex.
-        from_date: Earliest publication date in ISO ``YYYY-MM-DD`` format.
-
-    Returns:
-        A list of raw OpenAlex work dictionaries.
-
-    Raises:
-        urllib.error.URLError: If the network request cannot be completed.
-        TimeoutError: If the request exceeds the configured timeout.
-    """
+    """Fetch recent OpenAlex works for one search query."""
     params = urllib.parse.urlencode({
         "search": query,
         "filter": f"from_publication_date:{from_date}",
@@ -175,22 +420,8 @@ def fetch(query, from_date):
         return json.load(response).get("results", [])
 
 
-def normalize(work):
-    """Convert a raw OpenAlex work into the website's paper schema.
-
-    Keeping normalization in one function makes papers.json stable even if the
-    upstream OpenAlex response contains many fields that the website does not
-    use.
-
-    Args:
-        work: Raw OpenAlex work dictionary.
-
-    Returns:
-        Dictionary containing the fields expected by app.js.
-    """
-    tags, relevance = tag_and_score(work)
-
-    # Limit the visible author list to eight names so cards stay readable.
+def normalize(work, metadata, relevance):
+    """Convert an admitted OpenAlex work into the website's paper schema."""
     authors = [
         item.get("author", {}).get("display_name", "")
         for item in work.get("authorships", [])[:8]
@@ -199,8 +430,6 @@ def normalize(work):
 
     location = work.get("primary_location") or {}
     source = location.get("source") or {}
-
-    # Store a bare DOI in papers.json; app.js reconstructs the doi.org URL.
     doi = (work.get("doi") or "").replace("https://doi.org/", "")
 
     return {
@@ -216,41 +445,80 @@ def normalize(work):
             or ""
         ),
         "abstract": reconstruct_abstract(work.get("abstract_inverted_index")),
-        "tags": tags,
+        "tags": metadata["tags"],
         "relevance": relevance,
     }
 
 
+def normalize_title(title):
+    """Create a stable title key for cross-source/version deduplication."""
+    return re.sub(r"[^a-z0-9]+", "", (title or "").lower())
+
+
 def main():
-    """Run all configured searches, deduplicate papers, and write papers.json."""
-    # The first version tracks papers published within the previous 30 days.
+    """Run searches, filter candidates, deduplicate papers, and write JSON."""
     from_date = (
         datetime.now(timezone.utc) - timedelta(days=30)
     ).date().isoformat()
 
-    # Dictionary-based deduplication makes DOI/title lookup efficient and also
-    # lets us keep the higher relevance score if the same work appears in more
-    # than one topic search.
-    by_key = {}
+    # Keep separate lookup maps for DOI and normalized title. Using title as a
+    # second key removes duplicate preprint/version records that may have
+    # different DOIs but describe the same work.
+    accepted_by_id = {}
+    id_by_title = {}
+    id_by_doi = {}
 
-    for query in SEARCHES.values():
+    rejected_count = 0
+    candidate_count = 0
+
+    for topic, query in SEARCHES.items():
         try:
-            for work in fetch(query, from_date):
-                paper = normalize(work)
+            works = fetch(query, from_date)
+            print(f"Fetched {len(works)} candidates for {topic}: {query!r}")
 
-                # DOI is the preferred stable identifier. If no DOI exists,
-                # normalized title text provides a reasonable fallback key.
-                key = (
-                    paper["doi"].lower()
-                    if paper["doi"]
-                    else paper["title"].strip().lower()
-                )
+            for work in works:
+                candidate_count += 1
+                accepted, reason, metadata = evaluate_admission(work)
+                title = work.get("title") or "Untitled"
 
-                if (
-                    key not in by_key
-                    or paper["relevance"] > by_key[key]["relevance"]
-                ):
-                    by_key[key] = paper
+                if not accepted:
+                    rejected_count += 1
+                    print(f"Rejected: {title} — {reason}")
+                    continue
+
+                relevance = score_admitted_work(work, metadata)
+                if relevance < MIN_RELEVANCE_SCORE:
+                    rejected_count += 1
+                    print(
+                        f"Rejected: {title} — relevance {relevance} "
+                        f"below threshold {MIN_RELEVANCE_SCORE}"
+                    )
+                    continue
+
+                paper = normalize(work, metadata, relevance)
+                doi_key = paper["doi"].strip().lower()
+                title_key = normalize_title(paper["title"])
+
+                existing_id = None
+                if doi_key and doi_key in id_by_doi:
+                    existing_id = id_by_doi[doi_key]
+                elif title_key and title_key in id_by_title:
+                    existing_id = id_by_title[title_key]
+
+                # Prefer the higher-scoring representation when the same paper
+                # is found by multiple searches or through multiple versions.
+                if existing_id is not None:
+                    existing = accepted_by_id[existing_id]
+                    if paper["relevance"] > existing["relevance"]:
+                        accepted_by_id[existing_id] = paper
+                    continue
+
+                record_id = len(accepted_by_id)
+                accepted_by_id[record_id] = paper
+                if doi_key:
+                    id_by_doi[doi_key] = record_id
+                if title_key:
+                    id_by_title[title_key] = record_id
 
         except Exception as exc:
             # One failed topic query should not prevent the remaining searches
@@ -259,7 +527,7 @@ def main():
 
     # Newer papers appear first; relevance breaks ties on identical dates.
     papers = sorted(
-        by_key.values(),
+        accepted_by_id.values(),
         key=lambda paper: (paper["date"], paper["relevance"]),
         reverse=True,
     )
@@ -274,7 +542,10 @@ def main():
         encoding="utf-8",
     )
 
-    print(f"Saved {len(papers)} papers to {OUTPUT}")
+    print(
+        f"Processed {candidate_count} candidates; rejected {rejected_count}; "
+        f"saved {len(papers)} unique synthetic-organic papers to {OUTPUT}"
+    )
 
 
 if __name__ == "__main__":
