@@ -1,6 +1,181 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "papers": [
+    {
+      "title": "Skeletal Editing of Polarized σ-Bonds via Formal Single-Carbon Insertion",
+      "authors": [
+        "Zhiwei Chen",
+        "Fukuan Zhang",
+        "Yaojia Jiang"
+      ],
+      "journal": "Sustainable Science and Innovation",
+      "date": "2026-09-20",
+      "doi": "10.54963/ssi.103411",
+      "url": "https://doi.org/10.54963/ssi.103411",
+      "abstract": "Carbenes represent a prominent class of single‑carbon synthons in organic synthesis, whose classic transformations have long focused on X‑H insertion, cyclopropanation, and ylide‑formation reactions. Enabled by advances in carbene‑precursor design, catalytic system development, and mechanistic investigations, carbene‑mediated formal single-carbon insertion has emerged as a powerful strategy for skeletal editing of organic molecules. By precisely inserting one carbon atom into pre‑existing polarized σ‑bonds, this approach enables ring expansion, skeletal reconstruction and carbon‑chain elongation, offering distinctive synthetic routes toward the efficient assembly of complex molecules and bioactive scaffolds. This review concentrates on recent advances in carbene‑mediated formal single-carbon insertion reactions. We systematically categorize these transformations by bond types, highlighting representative examples of carbene insertion into polarized σ-bonds including carbon‑heteroatom bonds (C–N, C–O, C–S, etc.) and heteroatom‑heteroatom bonds (N–O, N–S, etc.). Their reaction features and substrate scopes are discussed. Mechanistically, key reaction manifolds are summarized, including ylide formation, radical pathways, and migratory insertion of metal carbenes, illustrating the operating modes of diverse carbene systems in formal single-carbon insertion. Furthermore, sustainability considerations, including atom economy, catalyst loading, and greener activation modes, are highlighted, reflecting the growing demand for environmentally benign synthetic methods. Finally, current challenges and future opportunities in this rapidly evolving field are outlined, aiming to provide a useful guide for the rational design of novel single-carbon insertion reactions and their applications in medicinal chemistry and green pesticide discovery.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 80,
+      "corresponding_authors": [
+        "Yaojia Jiang"
+      ],
+      "corresponding_affiliations": [
+        "Guizhou University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过正式的单碳插入对极化σ键进行骨架编辑",
+      "corresponding_affiliations_zh": [
+        "贵州大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrosynthesis of Functionalized Chromenes via Selenylation-Induced Alkynes Cyclization",
+      "authors": [
+        "Guilherme M. Martins",
+        "Felipe de Lucca",
+        "João P. R. S. Ribeiro",
+        "Pedro P. de Castro",
+        "Manoella de Lima",
+        "Samuel R. Mendes",
+        "Roberto G. S. Berlinck",
+        "Kléber T. de Oliveira"
+      ],
+      "journal": "The Journal of Organic Chemistry",
+      "date": "2026-09-19",
+      "doi": "10.1021/acs.joc.6c01733",
+      "url": "https://doi.org/10.1021/acs.joc.6c01733",
+      "abstract": "Abstract An efficient electrochemical method for the synthesis of functionalized chromenes via selenylation-induced intramolecular cyclization of alkynes is described. Herein, selenylated chromenes are obtained in yields up to 96%, without the need for external oxidants using an undivided cell equipped with carbon electrodes under galvanostatic conditions. Mechanistic investigations support an anodic generation of electrophilic selenium species, followed by intramolecular cyclization. Furthermore, the method encompasses a versatile substrate scope, demonstrates efficiency on a gram scale, and is significantly improved by using continuous-flow conditions.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Kléber T. de Oliveira"
+      ],
+      "corresponding_affiliations": [
+        "Universidade Federal de São Carlos, Brazil"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过硒化诱导的炔烃环化电合成官能化色烯",
+      "corresponding_affiliations_zh": [
+        "圣卡洛斯联邦大学，巴西"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Deaminative Allylation of Primary Amines",
+      "authors": [
+        "Qi Sun",
+        "Shuhao Li",
+        "Zhangkai Cui",
+        "Panpan Ma",
+        "Linlin Ding",
+        "Hongjian Lu"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-09-18",
+      "doi": "10.1002/anie.6992524",
+      "url": "https://doi.org/10.1002/anie.6992524",
+      "abstract": "Nitrogen atoms play pivotal roles in governing molecular properties and biological activity. Accordingly, nitrogen-atom manipulation has emerged as a powerful strategy for skeletal remodeling. However, its integration into classical reactions to redirect their inherent pathways and outcomes remains largely unexplored. Here, we report a deaminative allylation enabled by embedding a photoinduced N-atom deletion process within a classical N-allylation reaction. This reaction-reprogramming strategy transforms ubiquitous alkylamines into α-substituted acrylates and acrylamides-privileged motifs in covalent drugs, chemical biology probes, and functional materials. Mechanistic studies reveal multiple parallel pathways, including deaminative allylation of alkylamines, formal nitrogen-atom deletion of allyl alkylamine intermediates, and denitrogenation of allyl alkyldiazene species, which collectively converge on the same products. The method exhibits broad substrate scope and excellent functional-group tolerance, enabling late-stage modification of natural products and pharmaceuticals. Beyond providing streamlined access to valuable acrylic compounds, this work establishes a pathway-convergent reaction paradigm that harnesses, rather than suppresses, competing reaction pathways, offering new opportunities for bioactive-molecule discovery.",
+      "tags": [
+        "Photocatalysis",
+        "Skeletal Editing"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Hongjian Lu"
+      ],
+      "corresponding_affiliations": [
+        "Guizhou University, China",
+        "Nanjing University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "初级胺的脱氨基烯丙基化",
+      "corresponding_affiliations_zh": [
+        "贵州大学，中国",
+        "南京大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Visible-light-induced trifluoroacetylation reaction of electron-deficient nitrogen heterocycles",
+      "authors": [
+        "Yanshu Li",
+        "Jiangzhen An",
+        "Qiuren Wei",
+        "Huachun Yang",
+        "Xi Li",
+        "Kai Sun",
+        "Zhongyan Cao",
+        "Xiaolan Chen"
+      ],
+      "journal": "Frontiers in Chemistry",
+      "date": "2026-09-18",
+      "doi": "10.3389/fchem.2026.1957846",
+      "url": "https://doi.org/10.3389/fchem.2026.1957846",
+      "abstract": "The direct C–H trifluoroacetylation of electron-deficient nitrogen heterocycles remains a longstanding challenge with conventional reagents, owing to the inherent instability of the trifluoroacetyl radical and its polarity mismatch with electron-deficient substrates. Here, a novel method for the trifluoroacetylation of electron-deficient nitrogen heterocycles has been developed; under visible-light irradiation, the protocol operates without the need for cumbersome substrate pre-functionalization, expensive catalysts, transition metals, or additional additives. This approach enables the efficient trifluoroacetylation of diverse substrates, including pyridine, quinoline, quinoxalinone, chromone, and azauracil, and exhibits broad functional group tolerance and versatility, rendering it highly suitable for the late-stage functionalization of various bioactive molecules. By overcoming the polarity-mismatch limitation, this strategy addresses the longstanding challenge of direct C–H trifluoroacetylation of electron-deficient nitrogen heterocycles and aligns with the principles of sustainable chemistry.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Qiuren Wei",
+        "Kai Sun",
+        "Bing Yu"
+      ],
+      "corresponding_affiliations": [
+        "Zhengzhou University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "缺电子氮杂环的可见光诱导三氟乙酰化反应",
+      "corresponding_affiliations_zh": [
+        "郑州大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Dinuclear Gold Photocatalyzed Atom-Transfer σ-Bond Metathesis and Sequential Heck-type Coupling",
+      "authors": [
+        "Sourav Pal",
+        "Pintu Kumbhakar",
+        "Theertha Babu T",
+        "Malekul Islam",
+        "Suman De Sarkar"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-09-18",
+      "doi": "10.26434/chemrxiv.15009073/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009073/v1",
+      "abstract": "A dinuclear gold photocatalytic approach for strain-release σ-bond metathesis has been developed by combining inner-sphere electron transfer (ISET) and radical ligand transfer (RLT) mechanisms. This strategy facilitates atom-transfer reactions via C–I bond cleavage, radical translocation, and ligand transfer, yielding a wide range of spirocyclobutyl oxindoles with excellent substrate diversity and atom economy. Additionally, the produced C(sp 3 )–I bond functions as a versatile handle for selective Heck-type coupling with alkenes. Mechanistic investigations indicate a combined ISET-RLT pathway, where sequential excitation and excited-state aurophilic interactions between high-valent gold centers weaken the Au–I bond and enable ligand transfer. Gramscale synthesis and further derivatizations highlight the synthetic utility of this methodology.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Suman De Sarkar"
+      ],
+      "corresponding_affiliations": [
+        "Indian Institute of Science Education and Research Kolkata, India"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "双核金光催化原子转移σ键复分解和顺序Heck型耦合",
+      "corresponding_affiliations_zh": [
+        "加尔各答科学教育和研究所，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Three-Component Alkene Difunctionalization Enabled by Continuous-Flow Generation of the NCF3 Anion",
       "authors": [
@@ -73,78 +248,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Active Confinement Catalysis Powered by Mechanical Force.",
-      "authors": [
-        "Shi Li",
-        "Fang‐Zi Liu",
-        "Xinhan Liu",
-        "Yan Liu",
-        "Jian Wang",
-        "KaKing Yan"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-09-17",
-      "doi": "10.26434/chemrxiv.15008989/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15008989/v1",
-      "abstract": "The design of artificial enzyme mimics has long been guided by the paradigm of crafting static pockets for transition-state stabilization, a process reliant on stochastic molecular diffusion. These passive events impose a rate limit, and a strict criterion for substrates with suitable size and electronic matching. Inspired by biological ion pumps that drive uphill ion transport using chemical fuels, we propose that mechanical force can power an active, out-of-equilibrium catalytic pumping cycle. We herein report a solid-state mechanochemical strategy where mechanical input drives a confinement catalyst 1 ( Pd 2 L 2 ) from a closed to an open “active” state, while simultaneously pumping substrate molecules into its active site for catalytic events. This dynamic catalyst exhibits substrate size and shape recognition, and its mechano-pump mechanism is quantitatively validated by Michaelis-Menten saturation kinetics, where catalytic efficiency scales directly with the applied force. Moreover, the active-pump action overcomes inherent electrostatic repulsion, enabling cationic substrates, normally excluded from the cationic host catalysts, to be efficiently drawn in and engaged in catalytic turnover. This force-induced pumping catalysis concept is smoothly extended to photochemistry. By combining a photosensitizing unit and an active confinement catalyst, an active pumping mechano-photoredox C-H oxidation process is developed. This work establishes mechanical force not merely as a synthetic tool, but as a fundamental design parameter for catalysts, opening a pathway to life-like chemical control in which energy transduction, not just static structure, dictates function.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 56,
-      "corresponding_authors": [
-        "KaKing Yan"
-      ],
-      "corresponding_affiliations": [
-        "ShanghaiTech University, China"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "由机械力驱动的主动约束催化。",
-      "corresponding_affiliations_zh": [
-        "上海科技大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Synthesis of 5-Aminoisoxazolidines from Azetidine Nitrones via Formal Ring Expansion",
-      "authors": [
-        "Dylan C. Keane",
-        "Abdullah S. Alshreimi",
-        "Laura Alonso",
-        "Oishik Sarkar",
-        "Lam Minh Uyen Phan",
-        "Benjamin Stageberg",
-        "Donald J. Wink",
-        "Laura L. Anderson"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-09-17",
-      "doi": "10.26434/chemrxiv.15007888/v2",
-      "url": "https://doi.org/10.26434/chemrxiv.15007888/v2",
-      "abstract": "A formal ring-expansion reaction of azetidine nitrones has been developed for the synthesis of 5-aminoisoxazolidines. Nucleophilic addition of an amine, alcohol or water to an azetidine nitrone is proposed to initiate azetidine nitrone ring-opening followed by cyclization to the corresponding 5-membered ring. A variety of examples are presented highlighting the scope of the method as well as the differences in stereochemical preference between primary aniline and secondary amine nucleophiles. A two-step, one-pot process is also described for the direct conversion of N-alkenylnitrones to 5-aminoisoxazolidines.",
-      "tags": [
-        "Skeletal Editing"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Laura L. Anderson"
-      ],
-      "corresponding_affiliations": [
-        "University of Illinois Chicago, United States",
-        "University of Chicago, United States"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "氮杂环丁烷硝酮通过正式扩环合成 5-氨基异恶唑烷",
-      "corresponding_affiliations_zh": [
-        "伊利诺伊大学芝加哥分校，美国",
-        "芝加哥大学，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Visible-light-driven C2-phosphonylation of tryptophan in peptides and proteins",
       "authors": [
         "Ranran Zhu",
@@ -181,40 +284,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Electrosynthesis of Bis-spirocycles via a Radical Strain-Release Dearomatization Cascade",
-      "authors": [
-        "Pooja Bhardwaj",
-        "B K Paul",
-        "Padmanabha Samanta",
-        "Pintu Kumbhakar",
-        "Aritri Saha",
-        "Suman De Sarkar"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-09-16",
-      "doi": "10.26434/chemrxiv.15008903/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15008903/v1",
-      "abstract": "This report presents an electro-oxidative approach to synthesize functionalized bis-spirocycles by combining the strain-release reactivity of bicyclo[1.1.0]butanes (BCBs) with arene dearomatization in a radical cascade. Various radical precursors can undergo this transformation under mild, oxidant- and mediator-free conditions, allowing efficient production of complex, three-dimensional bis-spirocyclic structures with high functional-group tolerance. Mechanistic investigations indicate an anodically driven radical cascade, involving radical addition to the BCB, strain-release ring opening, and subsequent ipso-dearomatization.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 62,
-      "corresponding_authors": [
-        "Suman De Sarkar"
-      ],
-      "corresponding_affiliations": [
-        "Indian Institute of Science Education and Research Kolkata, India"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "通过自由基应变释放脱芳构化级联电合成双螺环",
-      "corresponding_affiliations_zh": [
-        "科学教育研究所加尔各答，印度"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Anti-Markovnikov alkene hydroalkylation via iron photocatalysis",
       "authors": [
         "Shih‐Chieh Kao",
@@ -245,39 +314,6 @@
       "title_zh": "通过铁光催化进行反马尔可夫尼科夫烯烃加氢烷基化",
       "corresponding_affiliations_zh": [
         "莱斯大学，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Toward Property-Directed Catalytic Skeletal Editing of Functional Organic Materials",
-      "authors": [
-        "Taichi Koike",
-        "Sajan Pradhan",
-        "Kenichiro Itami"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-09-15",
-      "doi": "10.26434/chemrxiv.15008875/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15008875/v1",
-      "abstract": "Late-stage skeletal editing has emerged as a useful strategy in synthetic and medicinal chemistry for altering molecular frameworks by atom insertion, deletion, replacement, or bond reorganization. Functional organic molecules and materials are commonly optimized through peripheral substitution and de novo framework construction. Direct modification of an existing skeleton provides a complementary means of tuning electronic structure, molecular shape, chirality, packing, and processability. Herein we examine catalytic skeletal editing with an emphasis on functional organic materials, specifically π-conjugated molecules, dyes, polymers, and covalent frameworks. Representative examples are evaluated in terms of catalytic status and experimentally demonstrated properties. Key requirements for broader application include site selectivity, element transfer, catalyst compatibility, and control of editing extent in extended materials. The emerging opportunity is to move skeletal editing from reaction-centered diversification toward catalyst-controlled, property-directed modification.",
-      "tags": [
-        "Skeletal Editing"
-      ],
-      "relevance": 56,
-      "corresponding_authors": [
-        "Kenichiro Itami"
-      ],
-      "corresponding_affiliations": [
-        "Molecule Creation Laboratory, RIKEN, Japan",
-        "Institute of Transformative Bio-Molecules (WPI-ITbM), Nagoya University, Japan"
-      ],
-      "corresponding_source": "last_author_fallback_curated",
-      "title_zh": "功能有机材料的性质导向催化骨架编辑",
-      "corresponding_affiliations_zh": [
-        "RIKEN 分子创造实验室，日本",
-        "名古屋大学转化生物分子研究所 (WPI-ITbM)，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -530,37 +566,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Radical‐Mediated 1,2‐Boryl Migration: An Emerging Strategy Toward Diverse Boronate Molecules and Polymers",
-      "authors": [
-        "Chaoran Xu",
-        "Xiangcheng Pan"
-      ],
-      "journal": "Transformative Chemistry",
-      "date": "2026-09-08",
-      "doi": "10.1002/tch2.70022",
-      "url": "https://doi.org/10.1002/tch2.70022",
-      "abstract": "ABSTRACT Organoboronates represent indispensable synthetic handles and functional building blocks, motivating the continuous development of innovative strategies for their construction and structural editing. In recent years, the radical‐mediated 1,2‐boryl migration strategy, enabled by the unique electronic characteristics of the boron center, has transcended the constraints of ionic manifolds and flourished as a powerful tool for molecular editing. Merging this rearrangement with state‐of‐the‐art systems, such as photoredox catalysis, energy‐transfer activation, hydrogen atom transfer, and polarity‐matching approaches, has not only enabled the efficient synthesis and transposition editing of diverse small‐molecule organoboronates but has also recently expanded its frontiers into polymer synthesis. This perspective aims to provide an overview of recent advances in radical‐mediated 1,2‐boryl migration strategies spanning both small‐molecule and polymer synthesis, offering insights into the design of novel radical rearrangements and their applications in precision materials fabrication.",
-      "tags": [
-        "Photocatalysis",
-        "Boron Chemistry"
-      ],
-      "relevance": 72,
-      "corresponding_authors": [
-        "Xiangcheng Pan"
-      ],
-      "corresponding_affiliations": [
-        "Fudan University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "自由基介导的 1,2-硼基迁移：针对多种硼酸盐分子和聚合物的新兴策略",
-      "corresponding_affiliations_zh": [
-        "复旦大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Low-Energy Photocatalysis Platform for Direct Regiospecific α-C(sp3)ꟷH Alkynylation of Tertiary Amines",
       "authors": [
         "Nand Lal",
@@ -587,74 +592,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "用于叔胺直接区域特异性α-C(sp3)ꟷH烷基化的低能量光催化平台",
       "corresponding_affiliations_zh": [
-        "罗帕尔理工学院，印度"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Metal-Free Photoinduced Hydrogen Atom Transfer for Direct Thiolation of Hydridic α‑C(sp3)-H of Ethers.",
-      "authors": [
-        "Alexander Karr",
-        "Elias Picazo"
-      ],
-      "journal": "PubMed",
-      "date": "2026-09-08",
-      "doi": "10.1021/acsomega.6c06146",
-      "url": "https://doi.org/10.1021/acsomega.6c06146",
-      "abstract": ")-S bond construction.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Elias Picazo"
-      ],
-      "corresponding_affiliations": [
-        "University of Southern California, United States"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "无金属光诱导氢原子转移用于醚的氢 α-C(sp3)-H 的直接硫醇化。",
-      "corresponding_affiliations_zh": [
-        "南加州大学，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Photocatalytic C–C Bond Coupling Reactions Towards Organic Transformation—Recent Updates",
-      "authors": [
-        "Priyanka R. Sakhare",
-        "Amit K. Jha",
-        "Praveen Kumar",
-        "Vittal Seema",
-        "Subba Rao Cheekatla"
-      ],
-      "journal": "Organics",
-      "date": "2026-09-07",
-      "doi": "10.3390/org7030036",
-      "url": "https://doi.org/10.3390/org7030036",
-      "abstract": "The development of sustainable and efficient methods for carbon–carbon (C–C) bond formation remains the main objective in modern organic synthesis. In recent years, photocatalysis has developed as a suitable alternative to conventional transition-metal-catalyzed approaches, offering mild reaction conditions, high functional-group tolerance, excellent atom economy, and the ability to utilize visible light as a clean and renewable energy source. Through unique radical-mediated pathways, photocatalytic strategies allow the selective activation of traditionally unreactive substrates, including haloarenes, alkanes, alcohols, carboxylic acids, and amines, thereby providing efficient routes to complex molecular architectures. Beyond organic synthesis, photocatalysis has also demonstrated significant potential in broader areas of applied chemistry. This review summarizes the major advances in photocatalytic C–C bond coupling reported from 2023 to early 2026, with special focus on C(sp3)–C(sp3), C(sp3)–C(sp2), and C(sp2)–C(sp2) bond-forming reactions. Representative catalytic systems, substrate scope, reaction mechanisms, and synthetic applications are critically discussed, including dual photoredox/transition-metal catalysis, metal-free photocatalysis, hydrogen atom transfer (HAT), proton-coupled electron transfer (PCET), radical–radical coupling, decarboxylative and deaminative functionalization, and enantioselective transformations. Finally, current challenges, emerging trends, and future opportunities for developing more sustainable, scalable, and selective photocatalytic C–C bond-forming methodologies are highlighted, providing a comprehensive resource for researchers working in synthetic and medicinal chemistry.",
-      "tags": [
-        "Photocatalysis",
-        "Decarboxylative Coupling"
-      ],
-      "relevance": 88,
-      "corresponding_authors": [
-        "Priyanka R. Sakhare",
-        "Subba Rao Cheekatla"
-      ],
-      "corresponding_affiliations": [
-        "Piramal (India), India",
-        "Seoul National University, South Korea"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "光催化 C-C 键偶联反应实现有机转化——最新进展",
-      "corresponding_affiliations_zh": [
-        "皮拉马尔（），印度",
-        "首尔国立大学，韩国"
+        "理工学院Ropar，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -727,8 +665,8 @@
       "corresponding_affiliations_zh": [
         "国家科学研究中心，法国",
         "诺曼底大学，法国",
-        "诺曼底鲁昂大学，法国",
-        "诺曼底鲁昂国家应用科学研究所，法国"
+        "鲁昂诺曼底大学，法国",
+        "鲁昂诺曼底应用科学研究所，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -750,24 +688,11 @@
         "Photocatalysis"
       ],
       "relevance": 62,
-      "corresponding_authors": [
-        "Lu Song",
-        "Niankai Fu"
-      ],
-      "corresponding_affiliations": [
-        "Alliance Bioversity International - CIAT, Italy",
-        "Ministry of Education, Taiwan",
-        "Beihang University, China",
-        "Beijing National Laboratory for Molecular Sciences, China"
-      ],
-      "corresponding_source": "openalex_explicit",
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "corresponding_source": "",
       "title_zh": "光化学和光电化学氟烷基化的最新进展：直接使用氟烷基羧酸",
-      "corresponding_affiliations_zh": [
-        "国际生物大学联盟 - CIAT，意大利",
-        "教育部，中国台湾",
-        "北京航空航天大学，中国",
-        "北京分子科学国家实验室，中国"
-      ],
+      "corresponding_affiliations_zh": [],
       "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
@@ -838,7 +763,7 @@
       "corresponding_affiliations_zh": [
         "国家科学研究中心，法国",
         "波尔多大学，法国",
-        "分子科学研究所，法国",
+        "莫莱库莱尔科学研究所，法国",
         "波尔多理工学院，法国"
       ],
       "translation_version": 2,
