@@ -1,6 +1,79 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "papers": [
+    {
+      "title": "Electrochemical Platform for Automated Design-of-Experiment Optimization of Ni-Catalyzed Cross-Electrophile Coupling Reactions",
+      "authors": [
+        "Jieping Chen",
+        "Mathew R. Johnson",
+        "Zhifeng Tan",
+        "Tessa H. T. Myren",
+        "Kyle W. Quasdorf",
+        "Carolyn S. Wei",
+        "Shannon S. Stahl"
+      ],
+      "journal": "JACS Au",
+      "date": "2026-09-22",
+      "doi": "10.1021/jacsau.6c01220",
+      "url": "https://doi.org/10.1021/jacsau.6c01220",
+      "abstract": "Abstract Electrosynthetic organic reactions have advanced significantly in recent years, but their adoption for large-scale applications remains limited. Here, we report an automated experimental platform designed to facilitate translation of small-scale chemical and electrochemical redox reactions into robust larger-scale electrochemical processes. This platform, which integrates a commercial chemical synthesis workstation, peristaltic pumps, and a potentiostat, is equipped to conduct an automated sequence of batch experiments to optimize standard variables, such as stir rate and temperature, in addition to variables unique to electrosynthesis, such as applied current and total charge passed. Analysis of these variables using a design-of-experiment (DoE) approach accelerates identification of optimal reaction conditions and translation of mg-to-multigram operations. To evaluate the DoE optimization protocol and experimental platform, four Ni-catalyzed C(sp2)–C(sp3) cross-electrophile coupling reactions were selected from the literature that were originally conducted on a 0.2–0.4 mmol scale with chemical or electrochemical reduction methods. Each reaction was successfully scaled by a factor of 30–250, delivering up to 20 g (100 mmol) of isolated product. These results show how small-scale redox reactions may be rapidly translated to scalable electrosynthetic processes.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Shannon S. Stahl"
+      ],
+      "corresponding_affiliations": [
+        "University of Wisconsin–Madison, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "用于镍催化交叉电偶联反应自动实验设计优化的电化学平台",
+      "corresponding_affiliations_zh": [
+        "威斯康星大学麦迪逊分校，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Recent Advances in Asymmetric Electrochemical Synthesis",
+      "authors": [
+        "Cheng Huang",
+        "Yingqi Yang",
+        "Kang Liang",
+        "Xiuwen Zheng",
+        "Ping Hu",
+        "Jin Song",
+        "Qingquan Lu",
+        "Chang Guo"
+      ],
+      "journal": "Chinese Journal of Chemistry",
+      "date": "2026-09-21",
+      "doi": "10.1002/cjoc.70759",
+      "url": "https://doi.org/10.1002/cjoc.70759",
+      "abstract": "Comprehensive Summary Asymmetric organic electrosynthesis has the core value of precisely combining the clean characteristics of electrochemistry with the high selectivity of organic synthesis. This technology utilizes electrons as ideal redox reagents, fundamentally avoiding the reliance on stoichiometric reductants or hazardous oxidants in traditional methods, and meeting the development requirements of sustainable chemistry. By precise regulation of potential and current, the reaction can selectively generate highly reactive intermediates (such as radicals and radical ions) under mild conditions, opening up a unique pathway for efficient asymmetric synthesis and demonstrating great potential in the synthesis of chiral drug molecules, natural products, and functional materials. Currently, asymmetric organic electrosynthesis based on transition‐metal catalysis, organocatalysis, and biocatalysis is flourishing, and a systematic research system has been established to achieve asymmetric coupling and functionalization reactions of various radicals. This review summarizes the research progress made in the field of asymmetric electrosynthesis since 2019, and the mechanistic considerations are comprehensively discussed, including asymmetric anodic oxidation, cathodic reduction, and paired electrolysis. Furthermore, we provide critical insights into future directions and potential challenges in this field, highlighting opportunities for further methodology development and applications for asymmetric electrosynthesis. With the continuous breakthroughs in basic research and technological innovation, asymmetric organic electrosynthesis is expected to become an indispensable core tool in chiral chemistry. Key Scientists KEY PLAYERS in the field of asymmetric electrochemical synthesis.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 76,
+      "corresponding_authors": [
+        "Chang Guo"
+      ],
+      "corresponding_affiliations": [
+        "University of Science and Technology of China, China",
+        "Hefei National Center for Physical Sciences at Nanoscale, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "不对称电化学合成的最新进展",
+      "corresponding_affiliations_zh": [
+        "科学技术大学，中国",
+        "合肥国家纳米物理科学中心，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Skeletal Editing of Polarized σ-Bonds via Formal Single-Carbon Insertion",
       "authors": [
@@ -33,16 +106,54 @@
       "toc_kind": ""
     },
     {
+      "title": "Diboron‐Embedded Heteroacenes With Systematically Varied Central π‐Skeletons and Fusion Modes",
+      "authors": [
+        "Tatsuya Mori",
+        "Sebastian Baumert",
+        "Gustavo Fernández",
+        "Naoya Aizawa",
+        "Takuma Yasuda",
+        "Shigehiro Yamaguchi"
+      ],
+      "journal": "Helvetica Chimica Acta",
+      "date": "2026-09-20",
+      "doi": "10.1002/hlca.70098",
+      "url": "https://doi.org/10.1002/hlca.70098",
+      "abstract": "ABSTRACT Diboron‐embedded heteroacenes with systematically varied central π‐skeletons and fusion modes were synthesized via one‐pot cyclative borylation using benzene, thieno[3,2‐ b ]thiophene, or dithieno[3,2‐ b :2′,3′‐ d ]thiophene cores, affording six derivatives with C 2h or C 2v symmetry. Their photophysical and electrochemical properties, including absorption and emission wavelengths and sequential reduction behavior during cyclic voltammetry, depend primarily on fusion mode rather than π‐core size. Single‐crystal analysis, in turn, revealed that molecular symmetry governs packing modes, where C 2h derivatives exhibited limited π‐overlap due to shielding by mesityl groups on both π‐faces, while C 2v derivatives formed efficient π–π stacking with large intermolecular overlap despite the presence of the bulky mesityl groups. Notably, one of the derivatives adopted a uniform columnar structure via continuous π–π stacking, establishing a design principle for solid‐state organization in boron‐embedded heteroacenes.",
+      "tags": [
+        "Electrochemistry",
+        "Boron Chemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Tatsuya Mori",
+        "Shigehiro Yamaguchi"
+      ],
+      "corresponding_affiliations": [
+        "Hokkaido University, Japan",
+        "Nagoya University, Japan"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "具有系统变化的中心π骨架和融合模式的二硼嵌入杂并苯",
+      "corresponding_affiliations_zh": [
+        "北海道大学，日本",
+        "名古屋大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Electrosynthesis of Functionalized Chromenes via Selenylation-Induced Alkynes Cyclization",
       "authors": [
         "Guilherme M. Martins",
         "Felipe de Lucca",
         "João P. R. S. Ribeiro",
-        "Pedro P. de Castro",
+        "Pedro Pôssa de Castro",
         "Manoella de Lima",
         "Samuel R. Mendes",
         "Roberto G. S. Berlinck",
-        "Kléber T. de Oliveira"
+        "Kleber Thiago de Oliveira"
       ],
       "journal": "The Journal of Organic Chemistry",
       "date": "2026-09-19",
@@ -54,7 +165,7 @@
       ],
       "relevance": 72,
       "corresponding_authors": [
-        "Kléber T. de Oliveira"
+        "Kleber Thiago de Oliveira"
       ],
       "corresponding_affiliations": [
         "Universidade Federal de São Carlos, Brazil"
@@ -170,7 +281,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "双核金光催化原子转移σ键复分解和顺序Heck型耦合",
       "corresponding_affiliations_zh": [
-        "加尔各答科学教育和研究所，印度"
+        "科学教育研究所加尔各答，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -234,50 +345,16 @@
         "Duanyang Kong"
       ],
       "corresponding_affiliations": [
+        "State Key Laboratory of Chemical Resource Engineering, China",
         "Inner Mongolia Medical University, China",
         "Beijing University of Chemical Technology, China"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "α-酮酸与硝基芳烃的配对电化学脱羧酰胺化",
       "corresponding_affiliations_zh": [
+        "化学资源工程国家重点实验室，中国",
         "内蒙古医科大学，中国",
         "北京化工大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Visible-light-driven C2-phosphonylation of tryptophan in peptides and proteins",
-      "authors": [
-        "Ranran Zhu",
-        "Xiaofei Gao",
-        "Xiaoying Lian",
-        "Diqi Yan",
-        "Fulai Li",
-        "Daokuan Sun",
-        "Ran Zhang",
-        "Yufen Zhao"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-09-17",
-      "doi": "10.26434/chemrxiv.15008966/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15008966/v1",
-      "abstract": "Tryptophan (Trp) residues are comparatively rare in proteins but are frequently positioned at sites that control folding, molecular recognition, ligand binding, and enzymatic activity. Direct chemical modification of Trp therefore offers a powerful strategy for perturbing protein structure and function. However, methods for installing compact, highly polar functionality onto native Trp residues under mild, protein-compatible conditions remain limited. Here we report a visible-light-driven reductive platform for the C2-selective phosphonylation of Trp-containing peptides and proteins using oxime phosphonates as radical precursors. The reaction proceeds under mild conditions, tolerates diverse peptide sequences containing nearly all proteinogenic amino-acid side chains, and enables late-stage modification of Trp-containing synthetic peptides or peptides derived from structurally complex bioactive molecules. The method further extends to native proteins in aqueous buffer, with LC-MS/MS analysis confirming site-selective modification across a range of protein substrates. Collectively, these results establish photochemical Trp-phosphonylation as a versatile method for peptide diversification, protein conjugation, and chemical control of biomolecular function in situ.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Ju Wu"
-      ],
-      "corresponding_affiliations": [
-        "Ningbo University, China"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "可见光驱动的肽和蛋白质中色氨酸的 C2 磷酸化",
-      "corresponding_affiliations_zh": [
-        "宁波大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -397,7 +474,7 @@
       "title": "Development of a Tunable Photoreactor for High-Throughput Experimentation",
       "authors": [
         "Reem Nsouli",
-        "Hai N. Tran",
+        "Hai Ngoc Tran",
         "Robbie S. Sidhu",
         "Hannah G. Ford",
         "Andrew V. Tran",
@@ -592,7 +669,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "用于叔胺直接区域特异性α-C(sp3)ꟷH烷基化的低能量光催化平台",
       "corresponding_affiliations_zh": [
-        "理工学院Ropar，印度"
+        "罗帕尔理工学院，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -633,7 +710,7 @@
     {
       "title": "Access to Uncharted (Ethoxy)difluoromethylated‐Containing Tetrahydrofurans by Hydrogenation",
       "authors": [
-        "T. Charvillat",
+        "Thibaud Charvillat",
         "Victor Levet",
         "Patrick Bernardelli",
         "Marc Daumas",
@@ -665,8 +742,8 @@
       "corresponding_affiliations_zh": [
         "国家科学研究中心，法国",
         "诺曼底大学，法国",
-        "鲁昂诺曼底大学，法国",
-        "鲁昂诺曼底应用科学研究所，法国"
+        "诺曼底鲁昂大学，法国",
+        "诺曼底鲁昂国家应用科学研究所，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -688,11 +765,24 @@
         "Photocatalysis"
       ],
       "relevance": 62,
-      "corresponding_authors": [],
-      "corresponding_affiliations": [],
-      "corresponding_source": "",
+      "corresponding_authors": [
+        "Lu Song",
+        "Niankai Fu"
+      ],
+      "corresponding_affiliations": [
+        "Alliance Bioversity International - CIAT, Italy",
+        "Ministry of Education, Taiwan",
+        "Beihang University, China",
+        "Beijing National Laboratory for Molecular Sciences, China"
+      ],
+      "corresponding_source": "openalex_explicit",
       "title_zh": "光化学和光电化学氟烷基化的最新进展：直接使用氟烷基羧酸",
-      "corresponding_affiliations_zh": [],
+      "corresponding_affiliations_zh": [
+        "国际生物大学联盟 - CIAT，意大利",
+        "教育部，中国台湾",
+        "北京航空航天大学，中国",
+        "北京分子科学国家实验室，中国"
+      ],
       "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
@@ -763,7 +853,7 @@
       "corresponding_affiliations_zh": [
         "国家科学研究中心，法国",
         "波尔多大学，法国",
-        "莫莱库莱尔科学研究所，法国",
+        "分子科学研究所，法国",
         "波尔多理工学院，法国"
       ],
       "translation_version": 2,
