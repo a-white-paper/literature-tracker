@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "papers": [
     {
       "title": "Electrochemical Platform for Automated Design-of-Experiment Optimization of Ni-Catalyzed Cross-Electrophile Coupling Reactions",
@@ -31,6 +31,36 @@
       "title_zh": "用于镍催化交叉电偶联反应自动实验设计优化的电化学平台",
       "corresponding_affiliations_zh": [
         "威斯康星大学麦迪逊分校，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrochemical Transformations of Organosulfurs and Beyond",
+      "authors": [
+        "Diping Zeng",
+        "Ke‐Yin Ye"
+      ],
+      "journal": "SynOpen",
+      "date": "2026-09-22",
+      "doi": "10.1055/a-2930-1910",
+      "url": "https://doi.org/10.1055/a-2930-1910",
+      "abstract": "Abstract Organosulfur compounds hold significant promise for applications, underpinning advances across organic synthesis, agrochemicals, and functional materials. Concurrently, synthetic organic electrochemistry has emerged as a powerful and sustainable platform in organic methodology, enabling notable breakthroughs in synthetic efficiency and practicality. In this Personal Account, we provide a concise overview of our recent progress in the diverse transformation of sulfur-containing compounds, unified by the strategic implementation of green and sustainable catalytic modalities, principally synthetic electrochemistry, biocatalysis, and beyond.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Ke‐Yin Ye"
+      ],
+      "corresponding_affiliations": [
+        "Fuzhou University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "有机硫及其他物质的电化学转化",
+      "corresponding_affiliations_zh": [
+        "福州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -770,7 +800,6 @@
         "Niankai Fu"
       ],
       "corresponding_affiliations": [
-        "Alliance Bioversity International - CIAT, Italy",
         "Ministry of Education, Taiwan",
         "Beihang University, China",
         "Beijing National Laboratory for Molecular Sciences, China"
@@ -778,7 +807,6 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光化学和光电化学氟烷基化的最新进展：直接使用氟烷基羧酸",
       "corresponding_affiliations_zh": [
-        "国际生物大学联盟 - CIAT，意大利",
         "教育部，中国台湾",
         "北京航空航天大学，中国",
         "北京分子科学国家实验室，中国"
