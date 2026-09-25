@@ -1,6 +1,38 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "papers": [
+    {
+      "title": "Enantioselective C–H Activations by Metallaelectro-Catalysis",
+      "authors": [
+        "Sven Erik Peters",
+        "Sven Trienes",
+        "Yanjun Li",
+        "Lutz Ackermann"
+      ],
+      "journal": "Accounts of Chemical Research",
+      "date": "2026-09-23",
+      "doi": "10.1021/acs.accounts.6c00509",
+      "url": "https://doi.org/10.1021/acs.accounts.6c00509",
+      "abstract": "Conspectus Given the increasing awareness of the economic and environmental aspects of chemical syntheses, transformative catalysis platforms have emerged, with molecular electrocatalysis residing at the forefront. It enables sustainable oxidative transformations with high levels of energy efficiency and resource economy as well as scalability and inherent process safety. Hence, organic electrocatalysis has gained considerable momentum. Further, in terms of sustainable syntheses, the catalyzed activation of otherwise inert C–H bonds was identified as a particularly powerful strategy for the rapid assembly of chiral scaffolds, thereby preventing stoichiometric chemical waste. Despite indisputable advances, these strategies largely relied, until recently, on stoichiometric quantities of often expensive or toxic chemical oxidants. To this end, metallaelectro-catalysis has emerged as an enabling technology for C–H activations, using the traceless transfer of protons and electrons in lieu of chemical oxidants, while generating molecular hydrogen as the sole by-product via the synchronized hydrogen evolution reaction (HER). Although distinct electrooxidative C–H activations were realized during the past decade, enantioselective electrochemical catalysis has thus far proven elusive. This Account summarizes our key advances until August 2026 in metallaelectro-catalyzed enantioselective C–H activation, streamlining the assembly of chiral molecules featuring various stereogenic elements. Thus, palladaelectro-catalyzed C–H alkenylation set the stage for oxidative C–H/C–H couplings toward atropochiral biaryls, leveraging chiral transient directing groups (TDGs). Subsequent research efforts have allowed us to broaden this platform. Since the pronounced complexity of the electrochemical space in these systems can complicate discovery and optimization, the implementation of a machine learning (ML) workflow was targeted. This was harnessed for the accelerated optimization of an enantioselective palladaelectro-catalyzed annulation reaction. Moreover, the versatility of rhodium catalysis in enantioselective electrochemical C–H activations was mirrored by the e construction of chiral spiropyrazolones and phthalides. Tailored ruthenium catalysts allowed for the selective buildup of atropostable indoles as well as chiral spirocyclic compounds. Taking into consideration the environmental implications and cost-efficacy of transition metal-catalyzed transformations, we further explored the utility of earth-abundant transition metals. On this note, enantioselective cobaltaelectro-catalysis enabled a broad range of highly efficient and enantioselective transformations, such as spirocyclizations, annulations with alkynes, allenes, and alkenes toward axial-, C-, and P-centered chirality, as well as decagram-scale synthesis realized in flow. The data-driven exploration of newly designed chiral ligands facilitated accelerated discovery in cobaltaelectro-catalyzed C–H activation. Moreover, cupraelectro-catalysis was employed for crafting planar chirality in ferrocene derivatives through versatile C–Het bond formations. Finally, we achieved an enantioselective desymmetrization through electrooxidative nickel catalysis inspired by ML, selectively constructing multiple contiguous stereocenters. Interestingly, comparative analysis revealed distinct reactivity for cobalt and nickel catalysts, whose mechanistic origins were elucidated.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Lutz Ackermann"
+      ],
+      "corresponding_affiliations": [
+        "University of Göttingen, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "金属电催化对映选择性 C–H 活化",
+      "corresponding_affiliations_zh": [
+        "哥廷根大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Electrochemical Platform for Automated Design-of-Experiment Optimization of Ni-Catalyzed Cross-Electrophile Coupling Reactions",
       "authors": [
@@ -505,7 +537,7 @@
       "authors": [
         "Reem Nsouli",
         "Hai Ngoc Tran",
-        "Robbie S. Sidhu",
+        "Robbie S Sidhu",
         "Hannah G. Ford",
         "Andrew V. Tran",
         "Harpreet Kaur",
@@ -643,7 +675,7 @@
         "Nirina D. Razafindrajao",
         "Hamada Rezk",
         "Eszter Baráth",
-        "Olga Bokareva",
+        "Olga S. Bokareva",
         "Osama El‐Sepelgy"
       ],
       "journal": "ACS Catalysis",
