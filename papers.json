@@ -1,6 +1,70 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "papers": [
+    {
+      "title": "Photochemical strategies in divalent samarium catalysis",
+      "authors": [
+        "Takahito Kuribara",
+        "Tetsuhiro Nemoto"
+      ],
+      "journal": "Beilstein Journal of Organic Chemistry",
+      "date": "2026-09-25",
+      "doi": "10.3762/bjoc.22.105",
+      "url": "https://doi.org/10.3762/bjoc.22.105",
+      "abstract": "Divalent samarium reagents, particularly samarium diiodide (SmI 2 ), have long been recognized as the most powerful and versatile single-electron reductants in organic synthesis. Several catalytic strategies have been developed for Sm(II) chemistry over the past three decades, including approaches based on metal co-reductants, electrochemical reduction, and radical relay mechanisms. Photochemical strategies have recently emerged as new platforms for catalytic Sm(II) chemistry, leading to the development of a broad range of reductive transformations. This review highlights the recent progress in the photochemical generation of Sm(II) species and their applications in organic synthesis.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Tetsuhiro Nemoto"
+      ],
+      "corresponding_affiliations": [
+        "Chiba University, Japan"
+      ],
+      "corresponding_source": "last_author_fallback_author_profile",
+      "title_zh": "二价钐催化的光化学策略",
+      "corresponding_affiliations_zh": [
+        "千叶大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-105-graphical-abstract.svg?max-width=637&background=FFFFFF",
+      "toc_kind": "graphical abstract"
+    },
+    {
+      "title": "Synthesis of Borylated Compounds Through Decarboxylative and Decarbonylative Reactions",
+      "authors": [
+        "Jenny Ha",
+        "Raphaël Robiette",
+        "Stéphane P. Vincent"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-09-24",
+      "doi": "10.1002/ejoc.70811",
+      "url": "https://doi.org/10.1002/ejoc.70811",
+      "abstract": "Organoboronates and organoboronic acids are important and versatile building blocks in organic synthesis, in materials science, and in medicinal chemistry as carboxylic acid bioisosteres. The most employed reactions to generate organoboronates are transmetallation and hydroboration of olefins. However, as carboxylic acids are commercially available, naturally abundant, structurally diverse, and bench‐stable, their direct transformation into boronate esters or boronic acids is very attractive. This review highlights the recent developments in the direct decarboxylative, decarbonylative borylations, and alkylations of carboxylic acid derivatives. This review intends to be a practical tool for selection of suitable reaction conditions for specific transformations. The parameters facilitating the decarboxylation process are highlighted as a function of the substrate structure. The reviewed methodologies span from transition‐metal catalysis to photocatalysis.",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 96,
+      "corresponding_authors": [
+        "Stéphane P. Vincent"
+      ],
+      "corresponding_affiliations": [
+        "University of Namur, Belgium"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过脱羧和脱羰反应合成硼化化合物",
+      "corresponding_affiliations_zh": [
+        "那慕尔大学，比利时"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Electro-Redox Process: A Long-Overlooked Mode of Single-Electron Transfer in Organic Synthesis",
       "authors": [
@@ -39,75 +103,33 @@
       "toc_kind": ""
     },
     {
-      "title": "Electrosynthesis of tetrahydrofurans from styrenes with water as oxygen source",
+      "title": "Synthetic Strategies for the Construction of Cyclobutane‐Fused Heterocycles",
       "authors": [
-        "Shuyan Han",
-        "Yajuan Zhang",
-        "Yixuan Gao",
-        "Hongfang Li",
-        "Yanyan He",
-        "Zhenhua Jia",
-        "Teck-Peng Loh"
+        "Michela Vargiu",
+        "Mauro Uras",
+        "Angelo Frongia"
       ],
-      "journal": "CHINESE JOURNAL OF CATALYSIS (CHINESE VERSION)",
+      "journal": "European Journal of Organic Chemistry",
       "date": "2026-09-24",
-      "doi": "10.1016/s1872-2067(26)65178-9",
-      "url": "https://doi.org/10.1016/s1872-2067(26)65178-9",
-      "abstract": "Electrochemical synthesis offers a sustainable platform for redox transformations. However, many existing methods suffer from low Faradaic efficiency and high energy input. Herein, we report an efficient electrosynthetic strategy for the direct conversion of styrenes into tetrahydrofurans (THFs) using water as the sole oxygen source. By integrating experimental studies and theoretical calculations, we revealed that inexpensive carbon-based electrodes effectively promoted styrene activation and facilitated a radical-radical coupling of styrene-derived radical cations and hydroxyl radicals(•OH) generated in-situ from water oxidation. Moreover, key reactive intermediates were identified to support the proposed mechanism. This work established an efficient route to THFs and underscored the potential of electrochemical approaches for harnessing water as oxygen source in selective organic transformations.",
+      "doi": "10.1002/ejoc.70699",
+      "url": "https://doi.org/10.1002/ejoc.70699",
+      "abstract": "Cyclobutane‐fused heterocycles represent a distinctive class of structurally constrained scaffolds with significant relevance in natural products and medicinal chemistry. Recent advances in synthetic organic chemistry have enabled the development of diverse, increasingly efficient strategies for their construction. Among these, [2 + 2] cycloaddition‐based approaches have emerged as central tools, spanning photochemical dearomative transformations of heteroarenes, olefin [2 + 2] photocycloadditions, and Lewis acid‐ or transition‐metal‐catalyzed variants, including enantioselective and visible‐light‐mediated processes. Alongside these approaches, complementary ring‐closure strategies, including cascade processes and strain‐release annulations, have also been reported in recent years, providing efficient and elegant access to cyclobutane‐fused heterocycles through mechanistically distinct pathways. This review provides a critical overview of the principal synthetic strategies for constructing cyclobutane‐fused heterocycles, with an emphasis on reactivity patterns, selectivity control, and mechanistic features.",
       "tags": [
-        "Electrochemistry"
+        "Photocatalysis"
       ],
-      "relevance": 62,
+      "relevance": 54,
       "corresponding_authors": [
-        "Shuyan Han",
-        "Zhenhua Jia",
-        "Teck-Peng Loh"
+        "Angelo Frongia"
       ],
       "corresponding_affiliations": [
-        "Henan University of Technology, China",
-        "Nanyang Technological University, Singapore"
+        "University of Cagliari, Italy",
+        "Istituto Nazionale di Fisica Nucleare, Sezione di Cagliari, Italy"
       ],
       "corresponding_source": "openalex_explicit",
-      "title_zh": "水为氧源苯乙烯电合成四氢呋喃",
+      "title_zh": "构建环丁烷稠合杂环的合成策略",
       "corresponding_affiliations_zh": [
-        "河南工业大学，中国",
-        "南洋理工大学，新加坡"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Electro‐Organic Synthesis at a Stable Oil/Water/Solid Three‐Phase Interface Reactor",
-      "authors": [
-        "Deyin Chen",
-        "Jianan Zhu",
-        "Huan Wu",
-        "Huajun Zheng",
-        "Longhao Jiao",
-        "Chengpu Chu",
-        "Yinghua Xu",
-        "Bin Liu"
-      ],
-      "journal": "Angewandte Chemie",
-      "date": "2026-09-24",
-      "doi": "10.1002/ange.3415969",
-      "url": "https://doi.org/10.1002/ange.3415969",
-      "abstract": "ABSTRACT Electro‐organic synthesis offers a green and efficient method to produce high‐value organic chemicals under mild conditions, but it suffers from poor water solubility of organic reactant(s) and tedious separation processes for organic product(s) in the conventional electrochemical reaction systems. Herein, we report a porous membrane electrode (PME) reactor design that allows electro‐organic synthesis with concentrated or neat organic reactant(s), achieving product concentrations above 6 M in representative reactions with simplified separation. The PME reactor is demonstrated across several representative electro‐organic transformations, including reduction, oxidation, and oxidation–reduction coupled reactions. The PME reactor can be run at a low operating voltage (∼2 V) with excellent long‐term stability (for more than 400 h) and has achieved the synthesis of pharmaceutical intermediate on a 500‐g scale. The exceptional performance of the PME reactor is associated with its unique interfacial structure, which can create a stable oil/water/solid three‐phase electrochemical reaction interface.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Bin Liu"
-      ],
-      "corresponding_affiliations": [
-        "City University of Hong Kong, Hong Kong"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "稳定的油/水/固三相界面反应器中的有机电合成",
-      "corresponding_affiliations_zh": [
-        "香港城市大学，中国香港"
+        "卡利亚里大学，意大利",
+        "卡利亚里国家核财政研究所，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -143,6 +165,82 @@
       "title_zh": "N-烷基氮丙啶通过硼基自由基断裂进行发散开环和官能化",
       "corresponding_affiliations_zh": [
         "亚琛工业大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photoredox‐Catalyzed 1,2,2‐Trifunctionalization of Alkenes with 1,7‐Enynes and α‐Bromocarbonyls",
+      "authors": [
+        "Chengyi Jiang",
+        "Shangyu Mao",
+        "Yifei Luo",
+        "Wenli Xia",
+        "Mengli Yang",
+        "Xinyu Yu",
+        "Jianrui Zhou",
+        "Yao Jian"
+      ],
+      "journal": "Chinese Journal of Chemistry",
+      "date": "2026-09-23",
+      "doi": "10.1002/cjoc.70769",
+      "url": "https://doi.org/10.1002/cjoc.70769",
+      "abstract": "Comprehensive Summary Cyclopenta[ c ]quinoline derivatives represent privileged structural motifs that exhibit remarkable potential biological activities, which have prompted considerable interest in developing green, efficient and general synthetic strategies for constructing this scaffold. Despite significant advances, the currently available methods for the rapid assembly of cyclopenta[ c ]quinoline frameworks are predominantly limited to two‐component reactions, and the development of multicomponent strategies that enable rapid diversification and complexity generation remains highly desirable. Herein, we report a novel visible‐light photoredox‐catalyzed three‐component 1,2,2‐trifunctionalization of alkenes with 1,7‐enynes and α‐bromocarbonyls, enabling rapid and efficient synthesis of structurally diverse cyclopenta[ c ]quinoline derivatives with excellent functional group tolerance. Notably, this strategy represents a rare example of 1,5‐hydrogen atom transfer‐enabled 1,2,2‐trifunctionalization of alkenes. This mild and transition metal‐free protocol operates under ambient conditions with visible light as the sole energy source and allows simultaneous construction of four C–C bonds in one pot, offering a step‐economical and atom‐efficient approach to complex polycyclic architectures. The reaction exhibits a broad substrate scope across all three coupling partners, including various substituted 1,7‐enynes, cyclic and acyclic enamides, unactivated alkenes, and diverse activated alkyl bromides, delivering the desired products in up to 94% yield. Moreover, the synthetic utility of this method is highlighted by gram‐scale synthesis and facile downstream transformations of the products. Mechanistic studies, including radical‐trapping experiments, radical clock studies, Stern‐Volmer fluorescence quenching analysis, and light on/off experiments, indicate that the reaction proceeds through a sequential cascade process involving reductive C–Br bond cleavage, sequential difunctionalization of alkenes, 1,5‐hydrogen atom transfer, and intramolecular cyclization.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 80,
+      "corresponding_authors": [
+        "Siping Wei",
+        "Shiqi Zhang",
+        "Dong Yi"
+      ],
+      "corresponding_affiliations": [
+        "Southwest Medical University, China",
+        "Chengdu Institute of Biology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光氧化还原催化 1,7-烯炔和 α-溴羰基对烯烃进行 1,2,2-三官能化",
+      "corresponding_affiliations_zh": [
+        "西南医科大学，中国",
+        "成都生物研究所，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
+      "authors": [
+        "Anupam Das",
+        "Nagarajan Ramkumar",
+        "Artis Kinēns",
+        "Sergey Belyakov",
+        "Andris Antuzevičš",
+        "Janis Veliks"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-09-23",
+      "doi": "10.26434/chemrxiv.15009392/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009392/v1",
+      "abstract": "While conventional radical fluoroalkylation typically requires exogenous catalysts or photoactivation to overcome significant kinetic barriers, here we report bench-stable μ-oxo-bridged iodine(III) reagents that release fluoro(halo)methyl radicals upon heating without an external catalyst, additive, or light. The resulting radicals initiate cascade cyclizations of methacrylamides and methacrylohydrazides to afford fluorinated oxindoles, pyrazolones, and related heterocycles. Variation of the fluorinated carboxylate ligand within the iodine(III) reagent framework controls the identity of the transferred C1 fragment, thereby providing chlorofluoromethyl, bromofluoromethyl, difluoromethyl, and monofluoromethyl products from a common reagent architecture. The transformation is compatible with structurally diverse and natural-product-derived substrates and proceeds efficiently upon scale-up. By encoding the required bond lability directly into the iodine(III) framework, this strategy establishes a general platform for the catalyst-, additive-, and light-free generation and incorporation of fluorinated C1 radicals into complex molecular frameworks.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 75,
+      "corresponding_authors": [
+        "Janis Veliks"
+      ],
+      "corresponding_affiliations": [
+        "National Institute of Biomedical Innovation, Health and Nutrition, Japan",
+        "National Institute of Research and Innovation, LV"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "μ-氧桥碘 (III) 试剂可实现无催化剂且无光的氟（卤）甲基自由基生成",
+      "corresponding_affiliations_zh": [
+        "国家生物医学创新、健康与营养研究所，日本",
+        "LV 国家研究与创新研究所"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -389,37 +487,6 @@
       "title_zh": "5-（羟甲基）糠醛瓶颈后的绿色呋喃：生物质向分子复杂性、功能材料和循环化学平台的碳高效转化",
       "corresponding_affiliations_zh": [
         "N.D.泽林斯基有机化学研究所，俄罗斯"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Skeletal Editing of Polarized σ-Bonds via Formal Single-Carbon Insertion",
-      "authors": [
-        "Zhiwei Chen",
-        "Fukuan Zhang",
-        "Yaojia Jiang"
-      ],
-      "journal": "Sustainable Science and Innovation",
-      "date": "2026-09-20",
-      "doi": "10.54963/ssi.103411",
-      "url": "https://doi.org/10.54963/ssi.103411",
-      "abstract": "Carbenes represent a prominent class of single‑carbon synthons in organic synthesis, whose classic transformations have long focused on X‑H insertion, cyclopropanation, and ylide‑formation reactions. Enabled by advances in carbene‑precursor design, catalytic system development, and mechanistic investigations, carbene‑mediated formal single-carbon insertion has emerged as a powerful strategy for skeletal editing of organic molecules. By precisely inserting one carbon atom into pre‑existing polarized σ‑bonds, this approach enables ring expansion, skeletal reconstruction and carbon‑chain elongation, offering distinctive synthetic routes toward the efficient assembly of complex molecules and bioactive scaffolds. This review concentrates on recent advances in carbene‑mediated formal single-carbon insertion reactions. We systematically categorize these transformations by bond types, highlighting representative examples of carbene insertion into polarized σ-bonds including carbon‑heteroatom bonds (C–N, C–O, C–S, etc.) and heteroatom‑heteroatom bonds (N–O, N–S, etc.). Their reaction features and substrate scopes are discussed. Mechanistically, key reaction manifolds are summarized, including ylide formation, radical pathways, and migratory insertion of metal carbenes, illustrating the operating modes of diverse carbene systems in formal single-carbon insertion. Furthermore, sustainability considerations, including atom economy, catalyst loading, and greener activation modes, are highlighted, reflecting the growing demand for environmentally benign synthetic methods. Finally, current challenges and future opportunities in this rapidly evolving field are outlined, aiming to provide a useful guide for the rational design of novel single-carbon insertion reactions and their applications in medicinal chemistry and green pesticide discovery.",
-      "tags": [
-        "Skeletal Editing"
-      ],
-      "relevance": 80,
-      "corresponding_authors": [
-        "Yaojia Jiang"
-      ],
-      "corresponding_affiliations": [
-        "Guizhou University, China"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "通过正式的单碳插入对极化σ键进行骨架编辑",
-      "corresponding_affiliations_zh": [
-        "贵州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -744,45 +811,6 @@
       "title_zh": "电化学脱甲硅烷基氟化能够获得 N-单氟甲基酰胺和肽",
       "corresponding_affiliations_zh": [
         "厦门大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Selective Photoinduced α‐Amino C(sp 3 )–H Alkylation Mediated by NHC–Borane",
-      "authors": [
-        "Gabin Lalande",
-        "Laurent Chabaud",
-        "Mathieu Pucheault"
-      ],
-      "journal": "Advanced Synthesis & Catalysis",
-      "date": "2026-08-27",
-      "doi": "10.1002/adsc.70742",
-      "url": "https://doi.org/10.1002/adsc.70742",
-      "abstract": "Herein, we report a selective photoinduced functionalization of α‐amino C(sp 3 )─H bonds mediated by NHC–boranes. This reaction proceeds efficiently without the need for any external radical initiator or photoredox catalyst. Mechanistic studies reveal that the reaction proceeds via an efficient radical chain, featuring the formation of an aryl radical driven by a boryl‐mediated XAT and a subsequent 1,5‐HAT as key steps. The method demonstrates broad functional group tolerance, providing a practical route for the synthesis of nitrogen‐containing molecules.",
-      "tags": [
-        "Photocatalysis",
-        "Boron Chemistry"
-      ],
-      "relevance": 70,
-      "corresponding_authors": [
-        "Laurent Chabaud",
-        "Mathieu Pucheault"
-      ],
-      "corresponding_affiliations": [
-        "Centre National de la Recherche Scientifique, France",
-        "Université de Bordeaux, France",
-        "Institut des Sciences Moléculaires, France",
-        "Institut Polytechnique de Bordeaux, France"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "NHC-硼烷介导的选择性光诱导α-氨基 C(sp 3 )–H 烷基化",
-      "corresponding_affiliations_zh": [
-        "国家科学研究中心，法国",
-        "波尔多大学，法国",
-        "分子科学研究所，法国",
-        "波尔多理工学院，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
