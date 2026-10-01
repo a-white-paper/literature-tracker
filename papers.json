@@ -1,4 +1,604 @@
 {
-  "updated": "2026-09-30",
-  "papers": []
+  "updated": "2026-10-01",
+  "papers": [
+    {
+      "title": "Photocatalytic Transannular Migration to Stereodefined Cyclobutanes and Bicyclo[2.1.1]hexanes as Benzenoid Bioisosteres",
+      "authors": [
+        "Hao-Song Ren",
+        "Jin‐Ping Xing",
+        "Hongmei Bai",
+        "De‐Xia Li",
+        "Songlin Yang",
+        "Jinlian Wei",
+        "Jun Zheng"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-09-28",
+      "doi": "10.1002/anie.7845758",
+      "url": "https://doi.org/10.1002/anie.7845758",
+      "abstract": "often correlates with clinical success, driving the replacement of flat arenes with saturated carbocycles. Stereodefined 1,1,3-trisubstituted cyclobutane and 1,2,4-trisubstituted bicyclo[2.1.1]hexane (BCH) serve as bioisosteres for para- and 1,2,4-trisubstituted benzenes, respectively. Yet, general stereoselective routes to these frameworks remain underdeveloped. In this study, we report a photocatalytic transannular functional group migration (TFGM) strategy that enables highly diastereoselective synthesis of 1,1,3-trisubstituted cyclobutanes from alkylidene cyclobutanes and diverse radical precursors at room temperature. The reaction proceeds through a rigid BCH-type transition state, delivering exclusive cis-selectivity. The mild conditions accommodate broad functional group tolerance and support the migration of various groups, including heteroarenes, nitrile, aldehyde, oxime, and alkene derivatives. This platform further provides general and modular entry to 1,2,4-trisubstituted BCHs via a base-promoted 5-exo-tet cyclization and cross-coupling sequence. The resulting BCH scaffolds are effective bioisosteres of 1,2,4-trisubstituted benzenes, demonstrated by BCH-Olaparib and BCH-Fluzoparib-analogues of the anticancer drugs Olaparib and Fluzoparib. These analogues retain potent activity comparable to Olaparib in a panel of cancer cell lines (enhanced in breast and liver cells), and the preferred enantiomer of BCH-Olaparib surpasses Olaparib in PARP1 inhibition, validating 1,2,4-trisubstituted BCHs as faithful benzenoid bioisosteres for drug innovation.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Jinlian Wei",
+        "Jun Zheng"
+      ],
+      "corresponding_affiliations": [
+        "East China University of Science and Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光催化跨环迁移到立体定义的环丁烷和双环[2.1.1]己烷作为苯类生物等排体",
+      "corresponding_affiliations_zh": [
+        "华东理工大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Geminal Metalloid Substituents Enable Stereoselective Geometric Isomerization of Highly Substituted Alkenes via Energy-Transfer Catalysis",
+      "authors": [
+        "Nadim Eghbarieh",
+        "Nicole Hanania",
+        "Brandon E. Haines",
+        "Ahmad Masarwa"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-09-28",
+      "doi": "10.26434/chemrxiv.15009548/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009548/v1",
+      "abstract": "Controlling alkene geometry with high stereochemical precision remains a fundamental challenge in synthetic chemistry, particularly for highly substituted systems. Here we report a stereoselective photoisomerization of gem-diborylalkenes in which visible light enables efficient E→Z interconversion of geminal metalloids-substituted carbon–carbon double bonds through a triplet energy-transfer (EnT) mechanism, overcoming the long-standing limitation of stereoselective photoisomerization of highly (tetra)substituted alkenes. A broad range of tri- and tetra-substituted alkenes are converted to the thermodynamically less stable Z-isomer with up to 99:1 selectivity. Mechanistic studies and density functional theory (DFT) calculations reveal that stereocontrol arises from both interplay between excited-state deconjugation due to steric bulkiness and substratephotocatalyst interactions. Sequential functionalizations of both geometrically defined diborylalkene isomers are also demonstrated, enabling the stereodivergent construction of complex stereodefined alkenes. Beyond facilitating stereoselective geometric isomerization of tri- and tetrasubstituted alkenes, this work establishes (gem)-dimetalloid alkenes as light-programmable scaffolds and introduces a general strategy for boron-mediated photochemical control of alkene stereochemistry with implications for molecular and materials design.",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Ahmad Masarwa"
+      ],
+      "corresponding_affiliations": [
+        "Hebrew University of Jerusalem, Israel"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "偕类非金属取代基通过能量转移催化实现高度取代的烯烃的立体选择性几何异构化",
+      "corresponding_affiliations_zh": [
+        "耶路撒冷希伯来大学，以色列"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Visible-Light Photocatalysis in Green Solvents: Mechanistic Insights, Process Integration, and Sustainable Design Strategies",
+      "authors": [
+        "Hussein Ali Ahmed",
+        "Shatha Abd Aljabbar",
+        "Ahmed Zamil Hattab"
+      ],
+      "journal": "World Journal of Chemical and Pharmaceutical Sciences",
+      "date": "2026-09-27",
+      "doi": "10.53346/wjcps.2026.9.1.0030",
+      "url": "https://doi.org/10.53346/wjcps.2026.9.1.0030",
+      "abstract": "This would contribute to achieving a paradigm change in visible-light photocatalysis using green solvents that contain photoredox chemistry fundamentals together with the knowledge accumulated from materials science and gentler process Green Chemistry principles directions leading to sustainable chemical syntheses. The present review summarizes the theoretical principles of designing molecular, mechanistic and engineering factors for photocatalytic reactions under environmentally benign (green solvent) conditions in lieu of water; bio-derived solvents such as alcohols/phenols; ionic liquids (IL); and deep eutectic solvents. We emphasize the consideration of solvent polarity, hydrogen-bond networks, viscosity and photophysical transparency on excited-state energetics to rationalize theory/predictions for subsequent electron-transfer pathways progressing in reaction conditions that affect catalyst stability/overall turnover efficiency. Novel design principles limiting synergy for synergistically less reactive (high-volume solvent classes) but net-green ones based on performance and sustainability trade-off comparisons per natural unit or cost. This review then incorporates green-solvent photocatalytic systems into quantitative sustainability metrics (E-factor, PMI and energy efficiency) to further this aim while illustrating their likely usefulness as an industrial process beyond the interests of basic research. The process sustainability puzzle is furnished with a life-cycle assessment carrying all aspects facing the recyclability of solvents. Thereafter, 3 specific technical bottlenecks limiting the total action are examined including limited photon penetration depth to the reaction zone; mass -transport limitations in high microorganism density environments and difficulties related to scale up. They also consider the new potential in areas such as solar-driven photochemistry, use of machine learning for optimization of reaction conditions and modular continuous−flow reactor technologies. Altogether, all of these advances lead to a future where a green−solvent photocatalysis platform for industrial application may enable greener chemical transformations with the advantages of unprecedented selectivities with little waste and inherent energy efficiency. This review broadly compiles the current roadmap of full-integrated and sustainable photocatalytic procedures in ecological solvents, identify existing challenges limiting their practical realisations and propose future perspectives for researchers, process engineers as well as industrial practitioners.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Shatha Abd Aljabbar"
+      ],
+      "corresponding_affiliations": [
+        "University of Kerbala, IQ"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "绿色溶剂中的可见光光催化：机理见解、工艺集成和可持续设计策略",
+      "corresponding_affiliations_zh": [
+        "卡尔巴拉大学，IQ"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Catalyst‐Controlled Divergent Strain‐Release Amination and Skeletal Remodeling of Bicyclo[1.1.0]Butanes",
+      "authors": [
+        "Aksar Ali",
+        "Lennard Kloene",
+        "Justus Koedel",
+        "Yifan Guo",
+        "Minakshi Altia",
+        "René M. Koenigs"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-09-26",
+      "doi": "10.1002/anie.3256942",
+      "url": "https://doi.org/10.1002/anie.3256942",
+      "abstract": "Catalyst-controlled nitrene transfer enables divergent amination reactions of bicyclo[1.1.0]butanes through distinct modes of activation of their highly strained central σ-bond. Under Rh(II) catalysis, bicyclo[1.1.0]butanes undergo selective strain-release amination to furnish aminocyclobutenes, which provide efficient access to cyclobutane amino acids through a simple amination-hydrogenation sequence. In contrast, photocatalytic nitrene activation redirects the reaction pathway toward double amination and skeletal remodeling, affording functionalized dihydropyrrolidines that can be readily converted into pyrrole heterocycles under acidic conditions. The synthetic utility of both approaches is further demonstrated, for example, in a telescoped synthesis of cyclobutane amino acids from diazo precursors or downstream diversification reactions. Mechanistic experiments and computational studies reveal distinct catalyst-dependent nitrene activation pathways that govern the fate of a common reactive intermediate and underpin the observed divergent reactivity.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "René M. Koenigs"
+      ],
+      "corresponding_affiliations": [
+        "University of Bayreuth, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "催化剂控制的发散应变释放胺化和双环[1.1.0]丁烷的骨架重塑",
+      "corresponding_affiliations_zh": [
+        "拜罗伊特大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Direct Skeletal Modification of Bioactive N -Fused Heterocycles via Transmutation",
+      "authors": [
+        "Avijit Karan",
+        "Sukanya Neogi",
+        "Alakananda Hajra"
+      ],
+      "journal": "JACS Au",
+      "date": "2026-09-26",
+      "doi": "10.1021/jacsau.6c01052",
+      "url": "https://doi.org/10.1021/jacsau.6c01052",
+      "abstract": "Abstract Advancements in pharmaceutical and agricultural lead discovery and optimization have been significantly enhanced through the precise editing of organic molecules at the atomic level, eliminating the need for prefunctionalization. Although many atom insertion and deletion reactions have been documented recently, instances of single-atom swaps are still limited, primarily due to the complexities involved in selectively cleaving and forming multiple chemical bonds surrounding the same atom. On the other hand, several natural products, dyes, and medications contain N-fused heterocycles that display a wide array of biological and photophysical activities. This situation presents an unexplored frontier for the skeleton editing of N-fused heterocycles. Herein, we disclose the straightforward single-atom editing of N-fused bioactive molecules by carbon-to-nitrogen transmutation. The reaction exhibits remarkable versatility and is capable of transforming a diverse array of functional groups containing heterocycles, including compounds with pharmaceutical relevance, thereby rendering it appropriate for a multitude of discovery initiatives.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Alakananda Hajra"
+      ],
+      "corresponding_affiliations": [
+        "Visva-Bharati University, India"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过嬗变对生物活性 N-稠合杂环进行直接骨架修饰",
+      "corresponding_affiliations_zh": [
+        "维斯瓦巴拉蒂大学，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Regioselective Insertion of Diazo Compounds Into 3‐Hydroxyisoindolinones for the Synthesis of Isoquinolones",
+      "authors": [
+        "Yihan Gao",
+        "Xiaofei Chen",
+        "Yingjie Wang",
+        "Fengxian Luo",
+        "Lei Zhou"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-09-25",
+      "doi": "10.1002/adsc.70789",
+      "url": "https://doi.org/10.1002/adsc.70789",
+      "abstract": "Both 3‐hydroxyisoindolinones and isoquinolones are structural motifs found in many natural alkaloids, and their derivatives exhibit a wide range of therapeutic applications. Herein, we report the direct conversion of 3‐hydroxyisoindolinones into isoquinolones via a diazo ester insertion reaction. This transformation involves the nucleophilic addition of diazo esters to iminium ions, which are generated in situ from the dehydration of 3‐hydroxyisoindolinones. The resulting diazonium intermediates undergo ring expansion through exclusive 1,2‐nitrogen migration to give isoquinolones in the presence of a bulky triarylborane Lewis acid catalyst. In contrast, when the nitrogen atom and the 3‐aryl group of the starting material are tethered by an alkyl bridge, protoberberine alkaloid derivatives are formed via regiospecific 1,2‐aryl migration.",
+      "tags": [
+        "Skeletal Editing",
+        "Boron Chemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Lei Zhou"
+      ],
+      "corresponding_affiliations": [
+        "Sun Yat-sen University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "将重氮化合物区域选择性插入 3-羟基异二氢吲哚酮中用于合成异喹诺酮",
+      "corresponding_affiliations_zh": [
+        "中山大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Unlocking Li/Mg‐Based Photochemical Nitration Platforms for Anticancer Drug Discovery",
+      "authors": [
+        "Qian Wan",
+        "Jiali Zhu",
+        "Shanshuo Liu",
+        "Luchuan Ou",
+        "Huizhen Wang",
+        "Yu Lan",
+        "Zhou Dong",
+        "Yihang Bai"
+      ],
+      "journal": "Advanced Science",
+      "date": "2026-09-25",
+      "doi": "10.1002/advs.77873",
+      "url": "https://doi.org/10.1002/advs.77873",
+      "abstract": "ABSTRACT The low toxicity and cost‐effectiveness of light main‐group metal photochemical systems render them highly suitable for drug development, while the redox inertness of light main‐group metals significantly hinders this goal. Herein, through the in situ assembly of readily available lithium nitrate, methoxyacetic acid, and aniline substrates, an unprecedented, mild lithium‐based photochemical system capable of producing valuable nitro radicals is established. This system enables selective C(sp 2 )–H (di‐)nitration of anilines for synthesizing nitro‐aromatic compounds as potential antitumor candidates. Further, replacing lithium nitrate with magnesium nitrate makes the reaction conditions milder, allowing lower‐energy green‐light irradiation for the (di‐)nitration. The two main‐group metal photochemical systems also enable direct late‐stage functionalization of complex drug molecules, eliminating the risk of transition metal residue and drastically simplifying the workup procedures of pharmaceutical manufacturing processes.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Linbin Niu"
+      ],
+      "corresponding_affiliations": [
+        "Zhengzhou University, China",
+        "Henan Normal University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "解锁用于抗癌药物发现的锂/镁基光化学硝化平台",
+      "corresponding_affiliations_zh": [
+        "郑州大学，中国",
+        "河南师范大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electro-Redox Process: A Long-Overlooked Mode of Single-Electron Transfer in Organic Synthesis",
+      "authors": [
+        "Lei Wang",
+        "Yumeng He",
+        "H Liu",
+        "Lijuan Liang",
+        "Peng Chen",
+        "Zhenhua Jia"
+      ],
+      "journal": "Sustainable Science and Innovation",
+      "date": "2026-09-24",
+      "doi": "10.54963/ssi.102544",
+      "url": "https://doi.org/10.54963/ssi.102544",
+      "abstract": "Single electron transfer (SET) is a fundamental step in radical-mediated organic transformations, enabling unique bond-forming and cleavage that are difficult to access via traditional two-electron pathways. Electrochemical redox directly drives single electron transfer processes through heterogeneous electron transfer at the electrode-electrolyte interface without external catalysts such as transition metals and precious metals. Anodic single-electron oxidation activates inert C–H bonds, generating carbon-centered radicals for selective functionalization, whereas cathodic reduction enables homolytic cleavage of C–X bonds, generating radical anions or carbanions for reductive coupling and dehalogenation. Electrochemical single electron transfer (SET) has emerged as a powerful, sustainable alternative to metal-catalyzed and photo-redox systems. By eliminating stoichiometric redox agents, transition metals, and photocatalysts, electro-synthesis utilizes precise potential control and a traceless electron supply under mild conditions to avoid metal contamination, the generation of by-products, and reduce environmental impact. Mediator-assisted SET and hydrogen-atom transfer enable selective oxidation of unactivated aliphatic C–H bonds, while electrochemical radical cyclization constructs C–C and C–heteroatom bonds. In this review, we summarized the fundamental principles, general mechanism and technical characteristics of the electrochemically driven by single electron transfer process. Advances in anodic C–H functionalization, cathodic reduction, cyclization and mediator-assisted oxidation are highlighted, alongside electrode materials and reactor engineering. We aim to provide a comprehensive overview of recent advancements in this field, highlighting key mechanistic insights and future opportunities for sustainable synthesis via single electron transfer. Remaining challenges such as selectivity, scale-up, and emerging directions are also discussed.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 75,
+      "corresponding_authors": [
+        "Zhenhua Jia"
+      ],
+      "corresponding_affiliations": [
+        "Fudan University, China",
+        "Henan University of Technology, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "电氧化还原过程：有机合成中长期被忽视的单电子转移模式",
+      "corresponding_affiliations_zh": [
+        "复旦大学，中国",
+        "河南工业大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photoredox‐Catalyzed 1,2,2‐Trifunctionalization of Alkenes with 1,7‐Enynes and α‐Bromocarbonyls",
+      "authors": [
+        "Chengyi Jiang",
+        "Shangyu Mao",
+        "Yifei Luo",
+        "Wenli Xia",
+        "Mengli Yang",
+        "Xinyu Yu",
+        "Jianrui Zhou",
+        "Yao Jian"
+      ],
+      "journal": "Chinese Journal of Chemistry",
+      "date": "2026-09-23",
+      "doi": "10.1002/cjoc.70769",
+      "url": "https://doi.org/10.1002/cjoc.70769",
+      "abstract": "Comprehensive Summary Cyclopenta[ c ]quinoline derivatives represent privileged structural motifs that exhibit remarkable potential biological activities, which have prompted considerable interest in developing green, efficient and general synthetic strategies for constructing this scaffold. Despite significant advances, the currently available methods for the rapid assembly of cyclopenta[ c ]quinoline frameworks are predominantly limited to two‐component reactions, and the development of multicomponent strategies that enable rapid diversification and complexity generation remains highly desirable. Herein, we report a novel visible‐light photoredox‐catalyzed three‐component 1,2,2‐trifunctionalization of alkenes with 1,7‐enynes and α‐bromocarbonyls, enabling rapid and efficient synthesis of structurally diverse cyclopenta[ c ]quinoline derivatives with excellent functional group tolerance. Notably, this strategy represents a rare example of 1,5‐hydrogen atom transfer‐enabled 1,2,2‐trifunctionalization of alkenes. This mild and transition metal‐free protocol operates under ambient conditions with visible light as the sole energy source and allows simultaneous construction of four C–C bonds in one pot, offering a step‐economical and atom‐efficient approach to complex polycyclic architectures. The reaction exhibits a broad substrate scope across all three coupling partners, including various substituted 1,7‐enynes, cyclic and acyclic enamides, unactivated alkenes, and diverse activated alkyl bromides, delivering the desired products in up to 94% yield. Moreover, the synthetic utility of this method is highlighted by gram‐scale synthesis and facile downstream transformations of the products. Mechanistic studies, including radical‐trapping experiments, radical clock studies, Stern‐Volmer fluorescence quenching analysis, and light on/off experiments, indicate that the reaction proceeds through a sequential cascade process involving reductive C–Br bond cleavage, sequential difunctionalization of alkenes, 1,5‐hydrogen atom transfer, and intramolecular cyclization.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 80,
+      "corresponding_authors": [
+        "Siping Wei",
+        "Shiqi Zhang",
+        "Dong Yi"
+      ],
+      "corresponding_affiliations": [
+        "Southwest Medical University, China",
+        "Chinese Academy of Sciences, China",
+        "Chengdu Institute of Biology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光氧化还原催化 1,7-烯炔和 α-溴羰基对烯烃进行 1,2,2-三官能化",
+      "corresponding_affiliations_zh": [
+        "西南医科大学，中国",
+        "科学院，中国",
+        "成都生物研究所，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
+      "authors": [
+        "Anupam Das",
+        "Nagarajan Ramkumar",
+        "Artis Kinēns",
+        "Sergey Belyakov",
+        "Andris Antuzevičš",
+        "Janis Veliks"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-09-23",
+      "doi": "10.26434/chemrxiv.15009392/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009392/v1",
+      "abstract": "While conventional radical fluoroalkylation typically requires exogenous catalysts or photoactivation to overcome significant kinetic barriers, here we report bench-stable μ-oxo-bridged iodine(III) reagents that release fluoro(halo)methyl radicals upon heating without an external catalyst, additive, or light. The resulting radicals initiate cascade cyclizations of methacrylamides and methacrylohydrazides to afford fluorinated oxindoles, pyrazolones, and related heterocycles. Variation of the fluorinated carboxylate ligand within the iodine(III) reagent framework controls the identity of the transferred C1 fragment, thereby providing chlorofluoromethyl, bromofluoromethyl, difluoromethyl, and monofluoromethyl products from a common reagent architecture. The transformation is compatible with structurally diverse and natural-product-derived substrates and proceeds efficiently upon scale-up. By encoding the required bond lability directly into the iodine(III) framework, this strategy establishes a general platform for the catalyst-, additive-, and light-free generation and incorporation of fluorinated C1 radicals into complex molecular frameworks.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 75,
+      "corresponding_authors": [
+        "Janis Veliks"
+      ],
+      "corresponding_affiliations": [
+        "National Institute of Research and Innovation, LV"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "μ-氧桥碘 (III) 试剂可实现无催化剂且无光的氟（卤）甲基自由基生成",
+      "corresponding_affiliations_zh": [
+        "LV 国家研究与创新研究院"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Synthesis and In Vivo Incorporation of 4‐Difluoromethyl‐L‐Phenylalanine Into Proteins",
+      "authors": [
+        "Daniel S. Honeycutt",
+        "Jason M. Mrosla",
+        "Sarah A. Sexton",
+        "Giovanni E. Cavalli",
+        "Emmerson G. Bartels",
+        "Brian Pallares",
+        "W. H. McCarthy",
+        "Ruojun Wu"
+      ],
+      "journal": "ChemBioChem",
+      "date": "2026-09-23",
+      "doi": "10.1002/cbic.70541",
+      "url": "https://doi.org/10.1002/cbic.70541",
+      "abstract": "The difluoromethyl group exhibits unique chemical and nuclear magnetic resonance (NMR) spectroscopic properties. Here, the synthesis and characterization of 4‐difluoromethyl‐L‐phenylalanine is reported. Methods have been developed to incorporate this versatile unnatural amino acid into full‐length green fluorescent protein and carbonic anhydrase, using an orthogonal transfer RNA (tRNA)/synthetase pair with standard genetic code expansion techniques. Taking advantage of the characteristic 19 F NMR behavior of the difluoromethyl group, the potential application of the difluoromethyl group as a probe in protein NMR studies was explored.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Fang Wang",
+        "Jacob M. Goldberg"
+      ],
+      "corresponding_affiliations": [
+        "University of Rhode Island, United States",
+        "Colgate University, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "4-二氟甲基-L-苯丙氨酸的合成和体内掺入蛋白质",
+      "corresponding_affiliations_zh": [
+        "罗德岛大学，美国",
+        "科尔盖特大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Copper‐Catalyzed C─N Cross‐Coupling of Benzohydrazides with Boronic Acids for N ‐Aryl Amide Synthesis",
+      "authors": [
+        "Jayshree Nandkumar Solanke",
+        "Rana Chatterjee",
+        "Rambabu Dandela"
+      ],
+      "journal": "ChemistrySelect",
+      "date": "2026-09-23",
+      "doi": "10.1002/slct.74624",
+      "url": "https://doi.org/10.1002/slct.74624",
+      "abstract": "ABSTRACT An operationally simple and efficient protocol for the synthesis of N ‐aryl amides has been developed, based on the copper‐catalyzed coupling of benzohydrazides with boronic acids. The transformation relies on the unique in situ activation of the benzohydrazide precursors using a telescoped mixture of tert ‐butyl nitrite (TBN) and trimethylsilyl chloride (TMSCl). The subsequent cross‐coupling process is efficiently promoted by copper(I) chloride, potassium tert ‐butoxide, and cesium fluoride (CsF) under open‐air, ambient‐temperature conditions. Furthermore, this one‐pot protocol enables rapid access to a broad range of 27 examples of N ‐aryl amide derivatives, delivering moderate to excellent yields ranging from 40% to 88% under mild conditions with excellent functional group tolerance. The operational simplicity, ambient open‐air conditions, demonstrated synthetic utility, and gram‐scale applicability underscore the practical value of this protocol.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Rana Chatterjee",
+        "Rambabu Dandela"
+      ],
+      "corresponding_affiliations": [
+        "Department of Industrial and Engineering Chemistry Indian Oil Odisha Campus Institute of Chemical Technology Bhubaneswar India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "铜催化苯并酰肼与硼酸的C─N交叉偶联合成N-芳基酰胺",
+      "corresponding_affiliations_zh": [
+        "印度石油奥里萨邦工业与工程化学系化学技术学院布巴内斯瓦尔印度奥里萨邦校区"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A binuclear copper enzyme platform for enantioconvergent radical (pseudo)halogenation",
+      "authors": [
+        "Xiao‐Wang Chen",
+        "Oluwatosin Maryam Adeyemo",
+        "Heyu Chen",
+        "Hongda Chen",
+        "Ngoc Nguyen",
+        "Joseph Palazzo",
+        "Liupeng Zhao",
+        "Ken Lin"
+      ],
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "date": "2026-09-22",
+      "doi": "10.64898/2026.09.20.753013",
+      "url": "https://doi.org/10.64898/2026.09.20.753013",
+      "abstract": "Despite their intriguing native metalloenzymology, naturally occurring copper enzymes remain largely underexploited for new-to-nature biocatalytic reactions. Herein, we report the systematic investigation and reprogramming of natural copper enzymes to catalyze unnatural free radical (pseudo)halogenation reaction in a highly enantioselective fashion. Evaluating Cu enzymes in the decarboxylative azidation of redox-active esters revealed activity across multiple Cu enzyme families, with type III binuclear Cu enzymes, particularly the Bacillus megaterium tyrosinase ( Bm Tyr), exhibiting superior activity and enantioselectivity across both stabilized and unstabilized alkyl radicals upon further engineering. The strong halide binding affinity of the binuclear Cu system also enabled challenging enantioconvergent bromination, chlorination and isothiocyanation reactions, which remained inaccessible to repurposed nonheme Fe enzymes. Further EPR and UV– visible spectroscopic analyses confirmed the coupled binuclear nature of wild-type and engineered bacterial tyrosinases and provided insights into the origin of their enhanced activity. Collectively, this study establishes binuclear copper enzymes as a powerful platform for new-to-nature stereoselective radical reactions, expanding the scope of metalloenzyme catalysis beyond mononuclear systems.",
+      "tags": [
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 74,
+      "corresponding_authors": [
+        "Shiliang Tian"
+      ],
+      "corresponding_affiliations": [
+        "Purdue University West Lafayette, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "用于对映体自由基（假）卤化的双核铜酶平台",
+      "corresponding_affiliations_zh": [
+        "普渡大学西拉斐特分校，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photochemical Strategies for the Synthesis of C ‐Disubstituted Bicyclo[1.1.1]pentanes via Direct Difunctionalization of [1.1.1]Propellane: A Review",
+      "authors": [
+        "Jingyi Zhang",
+        "Zhixiong Wang",
+        "Xidu Ye",
+        "Chen Xiang",
+        "Wanmei Li",
+        "Jun Xu"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-09-22",
+      "doi": "10.1002/adsc.70765",
+      "url": "https://doi.org/10.1002/adsc.70765",
+      "abstract": "Bicyclo[1.1.1]pentanes (BCPs) have emerged as valuable bioisosteres in drug discovery. Consequently, the development of efficient methods for the synthesis of functionalized BCP derivatives has attracted considerable attention. Among these, C ‐disubstituted BCPs represent a particularly important class of target compounds, as the introduction of two carbon‐based substituents enables precise modulation of molecular properties and facilitates further structural elaboration. The most direct and atom‐economical approach to access these compounds is through the difunctionalization of [1.1.1]propellane, a strained bicyclic molecule that serves as an ideal precursor for BCP scaffold construction. This review provides a comprehensive overview of recent advances in photochemical strategies for the one‐step synthesis of C ‐disubstituted BCPs via direct difunctionalization of [1.1.1]propellane. Based on the nature of the photocatalytic systems employed, the discussed strategies are categorized into three main types: metal/photoredox co‐catalysis, photoredox catalysis, and photochemical direct activation. For each category, key aspects such as reaction design, catalyst selection, substrate scope, functional group compatibility, and mechanistic pathways are systematically examined. Current challenges and future directions in this rapidly evolving field are also critically assessed, aiming to provide researchers with a structured understanding of the potential of photochemical difunctionalization of [1.1.1]propellane for the synthesis of C ‐disubstituted BCPs in drug development.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Wanmei Li",
+        "Jun Xu"
+      ],
+      "corresponding_affiliations": [
+        "Hangzhou Normal University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过[1.1.1]丙烷直接双官能化合成C-二取代双环[1.1.1]戊烷的光化学策略：综述",
+      "corresponding_affiliations_zh": [
+        "杭州师范大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Decoupled EDA Activation of Aryl Halides Enables Metal‐Free C–H Arylation of Pyrroles",
+      "authors": [
+        "Ashutosh Mishra",
+        "Sakthi Raje",
+        "Priya Mata",
+        "Graham de Ruiter"
+      ],
+      "journal": "Chemistry - A European Journal",
+      "date": "2026-09-22",
+      "doi": "10.1002/chem.71660",
+      "url": "https://doi.org/10.1002/chem.71660",
+      "abstract": "Electron donor-acceptor (EDA) complexes have emerged as a powerful platform for photocatalyst-free, visible-light-driven radical-based synthesis. However, existing strategies are typically limited by binary activation modes in which the electron donor also serves as the nucleophilic coupling partner, restricting synthetic modularity. Here we report a decoupled EDA strategy in which N,N-dimethylaniline (DMA) acts as a dedicated electron donor, forming a photoactive charge-transfer complex with electron-deficient (hetero)aryl halides under visible-light irradiation. Photoinduced single-electron transfer promotes C─X bond fragmentation to generate aryl radicals that are intercepted by independently chosen coupling partners, enabling C-H arylation of pyrroles. The method is applicable to aryl bromides, iodides, and activated aryl chlorides, and extends to borylation and hydrodehalogenation by simple variation of the radical trap. These results demonstrate that decoupled EDA activation provides a modular platform for metal-free C─C bond formation from aryl halides.",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Graham de Ruiter"
+      ],
+      "corresponding_affiliations": [
+        "Technion – Israel Institute of Technology, Israel"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "芳基卤化物的解耦 EDA 活化实现吡咯的无金属 C-H 芳基化",
+      "corresponding_affiliations_zh": [
+        "Technion – 理工学院，以色列"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Trifluoromethylated Heterocycles via Intramolecular Cyclisation: Evolution From Traditional to Green Synthesis",
+      "authors": [
+        "Heng Li",
+        "Xiaowen Qin",
+        "Zhiping Yin"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-09-06",
+      "doi": "10.1002/adsc.70749",
+      "url": "https://doi.org/10.1002/adsc.70749",
+      "abstract": "The principles of green chemistry have driven modern organic synthesis toward processes that are more efficient, less toxic, and atom‐economical. This review systematically summarizes recent advances in the synthesis of trifluoromethylated heterocycles. The review outlines the structural characteristics and reactivity profiles of electrophilic, nucleophilic, and radical trifluoromethylating reagents. It then explores traditional synthetic strategies, including transition‐metal catalysis (Pd, Cu, and Ag) and metal‐free thermal/chemical oxidant‐mediated reactions. Subsequently, a strong emphasis is placed on emerging green synthetic methodologies. These encompass visible‐light photocatalysis (involving homogeneous Ru/Ir complexes, organic photocatalysts, heterogeneous photocatalysis, and catalyst‐free photochemistry), electrochemistry (anodic oxidation and cathodic reduction), as well as photoelectrocatalysis, mechanochemical and enzymatic catalysis for constructing trifluoromethylated heterocyclic frameworks via cascade cyclisation. Each of these approaches exhibits distinct advantages in terms of reaction efficiency, substrate scope, stereoselectivity, and environmental friendliness. Notably, electrochemical and photocatalytic methods stand out due to their avoidance of chemical oxidants and mild conditions. Meanwhile, enzymatic catalysis offers a novel route for the asymmetric synthesis of chiral trifluoromethylated heterocycles. This review aims to provide a valuable reference for the green, efficient, and precise synthesis of trifluoromethylated heterocycles.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Zhiping Yin"
+      ],
+      "corresponding_affiliations": [
+        "Jiangsu University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过分子内环化的三氟甲基化杂环：从传统合成到绿色合成的演变",
+      "corresponding_affiliations_zh": [
+        "江苏大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Access to Uncharted (Ethoxy)difluoromethylated‐Containing Tetrahydrofurans by Hydrogenation",
+      "authors": [
+        "Thibaud Charvillat",
+        "Victor Levet",
+        "Patrick Bernardelli",
+        "Marc Daumas",
+        "Hassan Oulyadi",
+        "Muriel Sebban",
+        "Vincent Ferey",
+        "Tatiana Besset"
+      ],
+      "journal": "Chemistry - A European Journal",
+      "date": "2026-09-03",
+      "doi": "10.1002/chem.71545",
+      "url": "https://doi.org/10.1002/chem.71545",
+      "abstract": "ABSTRACT Fluorinated (hetero)cyclic compounds have garnered attention over the years, offering key building blocks in medicinally relevant molecules. However, the synthesis of fluorinated tetrahydrofurans remains a synthetic challenge to reach. Herein, we developed an efficient and robust approach for the synthesis of cis ‐(ethoxycarbonyl)difluoromethylated tetrahydrofurans. Using the inexpensive Pd/C catalyst, the diastereoselective hydrogenation of functionalized CF 2 CO 2 Et‐containing furans was achieved under mild reaction conditions. Access to unprecedented cis ‐fluorinated tetrahydrofurans with isolated yields of up to 74% and diastereomeric ratios up to 95:5 (12 examples) was reached. Pleasingly, under slightly modified reaction conditions, 5‐arylated CF 2 CO 2 Et‐containing furans were smoothly converted into the valuable α,α‐difluoro‐β‐hydroxyesters (five examples, up to 66% yield). Overall, the protocol exhibited good functional‐group tolerance and was easily scaled up. The synthetic utility of the CF 2 CO 2 Et moiety was further illustrated by its conversion into various other fluorinated groups.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Tatiana Besset"
+      ],
+      "corresponding_affiliations": [
+        "Centre National de la Recherche Scientifique, France",
+        "École Nationale Supérieure d'Ingénieurs de Caen, France",
+        "Université de Rouen Normandie, France",
+        "Institut National des Sciences Appliquées Rouen Normandie, France"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过氢化获得未知的（乙氧基）二氟甲基化四氢呋喃",
+      "corresponding_affiliations_zh": [
+        "国家科学研究中心，法国",
+        "卡昂国立高等工程师学院，法国",
+        "诺曼底鲁昂大学，法国",
+        "诺曼底鲁昂国家应用科学研究所，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    }
+  ]
 }
