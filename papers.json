@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "papers": [
     {
       "title": "Photocatalytic Transannular Migration to Stereodefined Cyclobutanes and Bicyclo[2.1.1]hexanes as Benzenoid Bioisosteres",
@@ -453,41 +453,6 @@
       "title_zh": "用于对映体自由基（假）卤化的双核铜酶平台",
       "corresponding_affiliations_zh": [
         "普渡大学西拉斐特分校，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Photochemical Strategies for the Synthesis of C ‐Disubstituted Bicyclo[1.1.1]pentanes via Direct Difunctionalization of [1.1.1]Propellane: A Review",
-      "authors": [
-        "Jingyi Zhang",
-        "Zhixiong Wang",
-        "Xidu Ye",
-        "Chen Xiang",
-        "Wanmei Li",
-        "Jun Xu"
-      ],
-      "journal": "Advanced Synthesis & Catalysis",
-      "date": "2026-09-22",
-      "doi": "10.1002/adsc.70765",
-      "url": "https://doi.org/10.1002/adsc.70765",
-      "abstract": "Bicyclo[1.1.1]pentanes (BCPs) have emerged as valuable bioisosteres in drug discovery. Consequently, the development of efficient methods for the synthesis of functionalized BCP derivatives has attracted considerable attention. Among these, C ‐disubstituted BCPs represent a particularly important class of target compounds, as the introduction of two carbon‐based substituents enables precise modulation of molecular properties and facilitates further structural elaboration. The most direct and atom‐economical approach to access these compounds is through the difunctionalization of [1.1.1]propellane, a strained bicyclic molecule that serves as an ideal precursor for BCP scaffold construction. This review provides a comprehensive overview of recent advances in photochemical strategies for the one‐step synthesis of C ‐disubstituted BCPs via direct difunctionalization of [1.1.1]propellane. Based on the nature of the photocatalytic systems employed, the discussed strategies are categorized into three main types: metal/photoredox co‐catalysis, photoredox catalysis, and photochemical direct activation. For each category, key aspects such as reaction design, catalyst selection, substrate scope, functional group compatibility, and mechanistic pathways are systematically examined. Current challenges and future directions in this rapidly evolving field are also critically assessed, aiming to provide researchers with a structured understanding of the potential of photochemical difunctionalization of [1.1.1]propellane for the synthesis of C ‐disubstituted BCPs in drug development.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 68,
-      "corresponding_authors": [
-        "Wanmei Li",
-        "Jun Xu"
-      ],
-      "corresponding_affiliations": [
-        "Hangzhou Normal University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "通过[1.1.1]丙烷直接双官能化合成C-二取代双环[1.1.1]戊烷的光化学策略：综述",
-      "corresponding_affiliations_zh": [
-        "杭州师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
