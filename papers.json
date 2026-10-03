@@ -1,6 +1,71 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "papers": [
+    {
+      "title": "Redox-Paired Activation of Sulfur Hexafluoride Enables Nucleophilic C(sp3)–F Bond Formation",
+      "authors": [
+        "Aniruddha Biswas",
+        "Demetra Zambardino",
+        "Tanja Gulder"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-01",
+      "doi": "10.26434/chemrxiv.15009734/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009734/v1",
+      "abstract": "Sulfur hexafluoride (SF6) is a potent greenhouse gas whose direct use as a fluorine source in organic synthesis remains underdeveloped. Here, we disclose complementary photoredox and electrochemical strategies for nucleophilic fluorinations with SF6, merging oxidative formation of carbocation intermediated from alkoxamines, carboxylic acids, or thiols with SF6 reduction, the latter providing fluoride for C(sp3)–F bond formation. The photochemical protocol efficiently converts electronrich substrates and tolerates a broad range of functional groups, whereas paired electrolysis extends the reaction to electronically deactivated substrates. Together, the two methods enable fluorination of diverse benzylic and aliphatic substrates, including late-stage fluorination of structurally complex derivatives of pharmaceuticals, natural products, and agrochemicals.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Tanja Gulder"
+      ],
+      "corresponding_affiliations": [
+        "Institute of Catalysis and Petrochemistry, Russia",
+        "Helmholtz Institute for Pharmaceutical Research Saarland, Germany",
+        "Saarland University, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "六氟化硫的氧化还原配对活化能够形成亲核 C(sp3)–F 键",
+      "corresponding_affiliations_zh": [
+        "催化与石油化学研究所，俄罗斯",
+        "萨尔州亥姆霍兹药物研究所，德国",
+        "萨尔大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalyst testing and development",
+      "authors": [
+        "Rachel Andrews"
+      ],
+      "journal": "Research Portal (Queen's University Belfast)",
+      "date": "2026-10-01",
+      "doi": "10.17034/32631639",
+      "url": "https://doi.org/10.17034/32631639",
+      "abstract": "This thesis is concerned with the development of more appropriate and sensitive testing methods to enable the analysis and comparison of photocatalytic ability for photocatalytic materials with a range of activities. A significant part of this thesis is dedicated to the development and examination of the ISO 22197-1:2016 for NO removal (NO ISO) using commercial “self-cleaning” materials, including the impact of the formation of a surface layer of HNO3, resulting in decreasing NO and NOx removal activity with increasing irradiation time. In addition to this the effect of accelerated weathering on the NOx removing activity exhibited by exterior photocatalytic paints is explored, this work was carried out in collaboration with Prof. J. Krysa at UCT in Prague. Throughout this work it was found that no significant photocatalytic activity occurred without “standard” accelerated weathering (cycles of 0.76 mW cm-2 , 8 h at 50 oC, followed by 4 h at 60 oC in the dark), although two samples were also activated by ‘condensation-only’ weathering (cycles of 4 h at 60 oC in the dark), due to the initial loss of surface silicate binder. A supersensitive test (SST) for photocatalytic activity was developed to assess the activities of materials that show little, if any activity when tested using the NO ISO. An expression is derived which relates rate, thereby photocatalytic activity, directly to the average %NO removed, measured under either standard ISO or SST conditions, where the latter value is directly related to the photocatalytic area, A, and the reciprocal of the flow rate, 1/f. This relationship allows all %NOrem values < 25%, measured using either standard ISO or SST conditions, to be combined to create a universal scale of photocatalytic activity. This work identified commercial photocatalytic materials, such as tiles, that were of such low activity that even this test was unable to measure the activity leading to the development of a new silver ion photocatalytic activity indicator ink, paii that can probe even very low activity photocatalytic materials via a striking colour change from colourless to brown-black upon illumination with UV light. During this work, it became apparent that the photodeposition of Ag metal onto commercial photocatalytic films such as that on self-cleaning glass, could be used to produce highly conducting wires, investigated initially for demisting purposes. A study of Ag-particle growth on sol-gel TiO2 films demonstrated the necessity of overlapping island growth of the Ag-particles to enable conduction.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Rachel Andrews"
+      ],
+      "corresponding_affiliations": [
+        "Queen's University Belfast, United Kingdom"
+      ],
+      "corresponding_source": "openalex_explicit_author_profile",
+      "title_zh": "光触媒测试与开发",
+      "corresponding_affiliations_zh": [
+        "贝尔法斯特女王大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Photocatalytic Transannular Migration to Stereodefined Cyclobutanes and Bicyclo[2.1.1]hexanes as Benzenoid Bioisosteres",
       "authors": [
