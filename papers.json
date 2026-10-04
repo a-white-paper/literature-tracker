@@ -1,6 +1,76 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "papers": [
+    {
+      "title": "Wireless Bipolar Electrochemistry for Organic Electrosynthesis: Principles, Mechanistic Insights, and Emerging Autonomous Systems",
+      "authors": [
+        "Sadia Rani",
+        "Najoua Sbei",
+        "Afshan Ramzan",
+        "Seyfeddine Rahali",
+        "Zia Ul Haq",
+        "Nisar Ahmed"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-02",
+      "doi": "10.26434/chemrxiv.15004810/v2",
+      "url": "https://doi.org/10.26434/chemrxiv.15004810/v2",
+      "abstract": "Wireless bipolar electrochemistry (BPE) has emerged as a powerful platform for organic electrosynthesis, enabling redox transformations on electrically floating conductors without direct electrical wiring. Through electric-field-induced polarization, bipolar electrodes simultaneously promote spatially separated oxidation and reduction reactions, offering unique opportunities for reaction design, miniaturized reactor architectures, parallel processing, and sustainable chemical synthesis. Recent years have witnessed significant advances in both exogenous and endogenous bipolar electrochemical systems, expanding the scope of wireless electrosynthesis to asymmetric transformations, flow chemistry, low-electrolyte conditions, autonomous microreactors, and self-propelled electrochemical systems. This review critically examines the fundamental principles governing bipolar electrochemistry, recent developments in organic synthesis, and emerging diagnostic methodologies, including split bipolar electrodes and electrochemiluminescence-based imaging, which have substantially improved mechanistic understanding of charge transport, polarization phenomena, and reaction control. The advantages and limitations of wireless bipolar systems are evaluated in comparison with conventional electrolysis, highlighting challenges associated with reaction selectivity, scalability, energy efficiency, and quantitative electrochemical characterization. Finally, future opportunities involving advanced materials, operando analytical techniques, artificial intelligence-assisted optimization, and continuous-flow processing are discussed. Collectively, these developments position wireless bipolar electrochemistry as a promising enabling technology for next-generation sustainable electrosynthesis and autonomous electrochemical manufacturing.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 65,
+      "corresponding_authors": [
+        "Nisar Ahmed"
+      ],
+      "corresponding_affiliations": [
+        "University of Bath, United Kingdom",
+        "Life University, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "有机电合成的无线双极电化学：原理、机理见解和新兴自主系统",
+      "corresponding_affiliations_zh": [
+        "巴斯大学，英国",
+        "生命大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrochemical Hydroformylation with a Homogeneous Rhodium Catalyst",
+      "authors": [
+        "Emma L. Cosner",
+        "Spencer P. Delgado-Kukuczka",
+        "Haochen Zhang",
+        "Abigail L. Blenko",
+        "Evan V. Miu",
+        "Karthish Manthiram"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-02",
+      "doi": "10.1021/jacs.6c15582",
+      "url": "https://doi.org/10.1021/jacs.6c15582",
+      "abstract": "Abstract Electrochemical hydroformylation is an attractive pathway to synthesize aldehydes at ambient conditions using electrons sourced from renewable energy as a reductant instead of hydrogen gas sourced from energy-intensive steam methane reforming. However, previously reported electrochemical hydroformylation systems have shown limited rates and selectivities using heterogeneous catalysts, motivating continued development. In this work, we report a homogeneously catalyzed system that achieved a maximum partial current density of 1.1 ± 0.1 mA cm–2 and a Faradaic efficiency of 29 ± 1% toward the conversion of styrene to 2-phenylpropanal at 5 bar CO and 25 °C. Infrared and UV-visible spectroscopies suggested that the initial Rh2Cl2(CO)4 precatalyst undergoes pressure-dependent speciation to Rh(I)–CO species in the presence of CO. Kinetic experiments revealed a complex mechanism in which the rate-determining step likely shifts between electron transfer, substrate coordination, and Rh–H bond cleavage in different substrate concentration and overpotential regimes. Looking forward, the insight from this work informs future strategies to improve the rate and selectivity of electrochemical hydroformylation and other electrochemical C–C bond formation reactions.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Karthish Manthiram"
+      ],
+      "corresponding_affiliations": [
+        "California Institute of Technology, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "使用均相铑催化剂进行电化学加氢甲酰化",
+      "corresponding_affiliations_zh": [
+        "加州理工学院，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Redox-Paired Activation of Sulfur Hexafluoride Enables Nucleophilic C(sp3)–F Bond Formation",
       "authors": [
@@ -38,6 +108,112 @@
       "toc_kind": ""
     },
     {
+      "title": "Multigram Copper-Catalyzed Azidodeboronation of Alkenyl Boronates",
+      "authors": [
+        "Maksym Kovalenko",
+        "Yevhen M. Ivon",
+        "Yaroslava Kovalchuk",
+        "Kristina Bakhmatska",
+        "Dmytrii Kryvenchuk",
+        "Yaroslav Yakivets",
+        "Daria S. Klymenko",
+        "Oleksandr S. Liashuk"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-01",
+      "doi": "10.26434/chemrxiv.15009735/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009735/v1",
+      "abstract": "A multigram synthetic approach to alkenyl azides based on copper-catalyzed azidodeboronation of alkenyl pinacol boronates was described. The optimized protocol relied on the use of Cu(OAc) 2 as the reaction promoter, which provided higher, reproducible yields and did not cause uncontrolled decomposition of the reaction mixture, unlike the CuSO 4 ·5H 2 O-based protocol reported previously. The method was applicable to β-, β,β-, and α,β-substituted substrates, including those bearing electron-withdrawing groups and saturated O -, N -, and S -heterocyclic motifs. Some alkenyl azides were prepared on up to 21 g scale, and their thermal behavior was evaluated by thermogravimetric analysis. The synthetic utility of the products was demonstrated through the preparation of a substituted pyrrole and 1-alkenyl-1,2,3-triazoles. Furthermore, a one-pot azidation – click reaction protocol enabled the direct conversion of alkenyl boronates into the corresponding triazoles without isolation of unstable or highly volatile alkenyl azide intermediates, thereby broadening the accessible substrate scope.",
+      "tags": [
+        "Cu Catalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Oleksandr O. Grygorenko"
+      ],
+      "corresponding_affiliations": [
+        "Taras Shevchenko National University of Kyiv, UA",
+        "Enamine (Ukraine), UA"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "多克铜催化烯基硼酸酯的叠氮脱硼反应",
+      "corresponding_affiliations_zh": [
+        "塔拉斯舍甫琴科国立基辅大学，UA",
+        "Enamine（乌克兰），UA"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Visible‐Light‐Mediated Photoredox 1,2‐Aryl Migration of Allylic Alcohols With Sulfoxonium Ylides for the Synthesis of 1,5‐Dicarbonyl Scaffolds",
+      "authors": [
+        "Xige Ding",
+        "Ning Xian",
+        "Dong‐Fang Jiang",
+        "Huawen Huang"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-10-01",
+      "doi": "10.1002/adsc.70787",
+      "url": "https://doi.org/10.1002/adsc.70787",
+      "abstract": "We herein report a mild, metal‐free photoredox strategy that enables a 1,2‐aryl migration reaction of allylic alcohols with sulfoxonium ylides, thereby providing direct access to structurally diverse 1,5‐dicarbonyl compounds. These adducts can be further transformed into pyridine derivatives via a concise one‐pot, two‐step sequence. Notably, this protocol exhibits exceptional functional‐group tolerance and a broad substrate scope and offers a synthetically attractive route that unites atom economy with step economy for the preparation of both 1,5‐dicarbonyls and pyridine frameworks of structural significance.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Dong‐Fang Jiang",
+        "Huawen Huang"
+      ],
+      "corresponding_affiliations": [
+        "Changsha Medical University, China",
+        "Xiangtan University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "可见光介导的烯丙醇光氧化还原 1,2-芳基迁移与磺酰叶立德用于合成 1,5-二羰基支架",
+      "corresponding_affiliations_zh": [
+        "长沙医科大学，中国",
+        "湘潭大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "In situ Activation of Ni(II) with Boronic Acids and Application of a Phosphasilinane Ligand enable the Suzuki-Miyaura Cross-Coupling of Deactivated (Hetero)Aryl Chlorides",
+      "authors": [
+        "Christoph Kremser",
+        "Dino Berthold",
+        "Alexander F. Siegle",
+        "Oliver Trapp"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-01",
+      "doi": "10.26434/chemrxiv.15009720/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009720/v1",
+      "abstract": "The important substitution of costly palladium catalysts with earth-abundant nickel alternatives in Suzuki-Miyaura cross-coupling reactions is still problematic for challenging substrates, such as heteroaryls and (hetero)aryl chlorides. In this context, we report the application of low Vbur and electron-rich biaryl-based phosphasilinane ligands in nickel-catalyzed Suzuki-Miyaura cross-coupling reaction of electron-rich (hetero)aryl-chlorides with aryl boronic acid substrates, at catalyst loadings as low as 0.5 mol-% on gram-scale synthesis. To overcome the use of unstable Ni(0)-sources, the activation of cheap and bench-stable L2NiCl2 precatalysts with boronic acids was investigated and successfully applied, e.g., in the synthesis of intermediates for agrochemical and pharmaceutical products. Furthermore, this method enabled the synthesis of bench- and base-stable L2Ni(3-furyl)Cl complex, which was directly applied in cross-coupling reactions.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Oliver Trapp"
+      ],
+      "corresponding_affiliations": [
+        "Ludwig-Maximilians-Universität München, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "用硼酸原位活化 Ni(II) 并应用磷硅烷配体实现失活（杂）芳基氯化物的 Suzuki-Miyaura 交叉偶联",
+      "corresponding_affiliations_zh": [
+        "路德维希马克西米利安慕尼黑大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Photocatalyst testing and development",
       "authors": [
         "Rachel Andrews"
@@ -61,6 +237,42 @@
       "title_zh": "光触媒测试与开发",
       "corresponding_affiliations_zh": [
         "贝尔法斯特女王大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Chiroptical Switching by Stereoselective Photochemical Sigmatropic Rearrangements: Experimental Realization of Calderoselectivity",
+      "authors": [
+        "Anne Krenkel",
+        "Frederike Beyer",
+        "Malte Feßner",
+        "Trung Tran Ngoc",
+        "Tobias Rüffer",
+        "Dominik Hornig",
+        "Martin Breugst",
+        "Christian Merten"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-09-30",
+      "doi": "10.1002/anie.9477381",
+      "url": "https://doi.org/10.1002/anie.9477381",
+      "abstract": "The stereochemical outcomes of pericyclic reactions provide direct insight into the geometry and directionality of concerted bond reorganization. Although torquoselectivity has emerged as a defining concept for electrocyclizations, an analogous principle for sigmatropic rearrangements on a single cyclic π system has remained unknown. We report that a homoannulene-based photoswitch undergoes an auxiliary-controlled, stereoselective photochemical [1,11]-sigmatropic rearrangement, thereby establishing selectivity over directional migration on a single cyclic π framework. We coin the term calderoselectivity for such an unreported stereoselective sigmatropic rearrangement. The switching process is reversible, proceeds to photostationary mixtures of homoannulene and iso-homoannulene isomers, and furnishes diastereomeric products in a 56:44 ratio; combined chiral HPLC, NMR, ECD, and DFT studies assign the major directionality of acyl migration in pro-R directionality. This study provides the first experimental realization of calderoselectivity and reveals a direct analogue in sigmatropic rearrangements to torquoselectivity with implications for both mechanistic physical organic chemistry and chiroptical switch design.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Johannes F. Teichert"
+      ],
+      "corresponding_affiliations": [
+        "Chemnitz University of Technology, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "立体选择性光化学Sigmatropic重排的手性光学切换：Caldero选择性的实验实现",
+      "corresponding_affiliations_zh": [
+        "开姆尼茨理工大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -91,12 +303,14 @@
         "Jun Zheng"
       ],
       "corresponding_affiliations": [
-        "East China University of Science and Technology, China"
+        "East China University of Science and Technology, China",
+        "State Key Laboratory of Bioreactor Engineering"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "光催化跨环迁移到立体定义的环丁烷和双环[2.1.1]己烷作为苯类生物等排体",
       "corresponding_affiliations_zh": [
-        "华东理工大学，中国"
+        "华东理工大学，中国",
+        "生物反应器工程国家重点实验室"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -161,105 +375,6 @@
       "title_zh": "绿色溶剂中的可见光光催化：机理见解、工艺集成和可持续设计策略",
       "corresponding_affiliations_zh": [
         "卡尔巴拉大学，IQ"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Catalyst‐Controlled Divergent Strain‐Release Amination and Skeletal Remodeling of Bicyclo[1.1.0]Butanes",
-      "authors": [
-        "Aksar Ali",
-        "Lennard Kloene",
-        "Justus Koedel",
-        "Yifan Guo",
-        "Minakshi Altia",
-        "René M. Koenigs"
-      ],
-      "journal": "Angewandte Chemie International Edition",
-      "date": "2026-09-26",
-      "doi": "10.1002/anie.3256942",
-      "url": "https://doi.org/10.1002/anie.3256942",
-      "abstract": "Catalyst-controlled nitrene transfer enables divergent amination reactions of bicyclo[1.1.0]butanes through distinct modes of activation of their highly strained central σ-bond. Under Rh(II) catalysis, bicyclo[1.1.0]butanes undergo selective strain-release amination to furnish aminocyclobutenes, which provide efficient access to cyclobutane amino acids through a simple amination-hydrogenation sequence. In contrast, photocatalytic nitrene activation redirects the reaction pathway toward double amination and skeletal remodeling, affording functionalized dihydropyrrolidines that can be readily converted into pyrrole heterocycles under acidic conditions. The synthetic utility of both approaches is further demonstrated, for example, in a telescoped synthesis of cyclobutane amino acids from diazo precursors or downstream diversification reactions. Mechanistic experiments and computational studies reveal distinct catalyst-dependent nitrene activation pathways that govern the fate of a common reactive intermediate and underpin the observed divergent reactivity.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 64,
-      "corresponding_authors": [
-        "René M. Koenigs"
-      ],
-      "corresponding_affiliations": [
-        "University of Bayreuth, Germany"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "催化剂控制的发散应变释放胺化和双环[1.1.0]丁烷的骨架重塑",
-      "corresponding_affiliations_zh": [
-        "拜罗伊特大学，德国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Direct Skeletal Modification of Bioactive N -Fused Heterocycles via Transmutation",
-      "authors": [
-        "Avijit Karan",
-        "Sukanya Neogi",
-        "Alakananda Hajra"
-      ],
-      "journal": "JACS Au",
-      "date": "2026-09-26",
-      "doi": "10.1021/jacsau.6c01052",
-      "url": "https://doi.org/10.1021/jacsau.6c01052",
-      "abstract": "Abstract Advancements in pharmaceutical and agricultural lead discovery and optimization have been significantly enhanced through the precise editing of organic molecules at the atomic level, eliminating the need for prefunctionalization. Although many atom insertion and deletion reactions have been documented recently, instances of single-atom swaps are still limited, primarily due to the complexities involved in selectively cleaving and forming multiple chemical bonds surrounding the same atom. On the other hand, several natural products, dyes, and medications contain N-fused heterocycles that display a wide array of biological and photophysical activities. This situation presents an unexplored frontier for the skeleton editing of N-fused heterocycles. Herein, we disclose the straightforward single-atom editing of N-fused bioactive molecules by carbon-to-nitrogen transmutation. The reaction exhibits remarkable versatility and is capable of transforming a diverse array of functional groups containing heterocycles, including compounds with pharmaceutical relevance, thereby rendering it appropriate for a multitude of discovery initiatives.",
-      "tags": [
-        "Skeletal Editing"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Alakananda Hajra"
-      ],
-      "corresponding_affiliations": [
-        "Visva-Bharati University, India"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "通过嬗变对生物活性 N-稠合杂环进行直接骨架修饰",
-      "corresponding_affiliations_zh": [
-        "维斯瓦巴拉蒂大学，印度"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Regioselective Insertion of Diazo Compounds Into 3‐Hydroxyisoindolinones for the Synthesis of Isoquinolones",
-      "authors": [
-        "Yihan Gao",
-        "Xiaofei Chen",
-        "Yingjie Wang",
-        "Fengxian Luo",
-        "Lei Zhou"
-      ],
-      "journal": "Advanced Synthesis & Catalysis",
-      "date": "2026-09-25",
-      "doi": "10.1002/adsc.70789",
-      "url": "https://doi.org/10.1002/adsc.70789",
-      "abstract": "Both 3‐hydroxyisoindolinones and isoquinolones are structural motifs found in many natural alkaloids, and their derivatives exhibit a wide range of therapeutic applications. Herein, we report the direct conversion of 3‐hydroxyisoindolinones into isoquinolones via a diazo ester insertion reaction. This transformation involves the nucleophilic addition of diazo esters to iminium ions, which are generated in situ from the dehydration of 3‐hydroxyisoindolinones. The resulting diazonium intermediates undergo ring expansion through exclusive 1,2‐nitrogen migration to give isoquinolones in the presence of a bulky triarylborane Lewis acid catalyst. In contrast, when the nitrogen atom and the 3‐aryl group of the starting material are tethered by an alkyl bridge, protoberberine alkaloid derivatives are formed via regiospecific 1,2‐aryl migration.",
-      "tags": [
-        "Skeletal Editing",
-        "Boron Chemistry"
-      ],
-      "relevance": 56,
-      "corresponding_authors": [
-        "Lei Zhou"
-      ],
-      "corresponding_affiliations": [
-        "Sun Yat-sen University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "将重氮化合物区域选择性插入 3-羟基异二氢吲哚酮中用于合成异喹诺酮",
-      "corresponding_affiliations_zh": [
-        "中山大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -488,75 +603,6 @@
       "toc_kind": ""
     },
     {
-      "title": "A binuclear copper enzyme platform for enantioconvergent radical (pseudo)halogenation",
-      "authors": [
-        "Xiao‐Wang Chen",
-        "Oluwatosin Maryam Adeyemo",
-        "Heyu Chen",
-        "Hongda Chen",
-        "Ngoc Nguyen",
-        "Joseph Palazzo",
-        "Liupeng Zhao",
-        "Ken Lin"
-      ],
-      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
-      "date": "2026-09-22",
-      "doi": "10.64898/2026.09.20.753013",
-      "url": "https://doi.org/10.64898/2026.09.20.753013",
-      "abstract": "Despite their intriguing native metalloenzymology, naturally occurring copper enzymes remain largely underexploited for new-to-nature biocatalytic reactions. Herein, we report the systematic investigation and reprogramming of natural copper enzymes to catalyze unnatural free radical (pseudo)halogenation reaction in a highly enantioselective fashion. Evaluating Cu enzymes in the decarboxylative azidation of redox-active esters revealed activity across multiple Cu enzyme families, with type III binuclear Cu enzymes, particularly the Bacillus megaterium tyrosinase ( Bm Tyr), exhibiting superior activity and enantioselectivity across both stabilized and unstabilized alkyl radicals upon further engineering. The strong halide binding affinity of the binuclear Cu system also enabled challenging enantioconvergent bromination, chlorination and isothiocyanation reactions, which remained inaccessible to repurposed nonheme Fe enzymes. Further EPR and UV– visible spectroscopic analyses confirmed the coupled binuclear nature of wild-type and engineered bacterial tyrosinases and provided insights into the origin of their enhanced activity. Collectively, this study establishes binuclear copper enzymes as a powerful platform for new-to-nature stereoselective radical reactions, expanding the scope of metalloenzyme catalysis beyond mononuclear systems.",
-      "tags": [
-        "Decarboxylative Coupling"
-      ],
-      "relevance": 74,
-      "corresponding_authors": [
-        "Shiliang Tian"
-      ],
-      "corresponding_affiliations": [
-        "Purdue University West Lafayette, United States"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "用于对映体自由基（假）卤化的双核铜酶平台",
-      "corresponding_affiliations_zh": [
-        "普渡大学西拉斐特分校，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Decoupled EDA Activation of Aryl Halides Enables Metal‐Free C–H Arylation of Pyrroles",
-      "authors": [
-        "Ashutosh Mishra",
-        "Sakthi Raje",
-        "Priya Mata",
-        "Graham de Ruiter"
-      ],
-      "journal": "Chemistry - A European Journal",
-      "date": "2026-09-22",
-      "doi": "10.1002/chem.71660",
-      "url": "https://doi.org/10.1002/chem.71660",
-      "abstract": "Electron donor-acceptor (EDA) complexes have emerged as a powerful platform for photocatalyst-free, visible-light-driven radical-based synthesis. However, existing strategies are typically limited by binary activation modes in which the electron donor also serves as the nucleophilic coupling partner, restricting synthetic modularity. Here we report a decoupled EDA strategy in which N,N-dimethylaniline (DMA) acts as a dedicated electron donor, forming a photoactive charge-transfer complex with electron-deficient (hetero)aryl halides under visible-light irradiation. Photoinduced single-electron transfer promotes C─X bond fragmentation to generate aryl radicals that are intercepted by independently chosen coupling partners, enabling C-H arylation of pyrroles. The method is applicable to aryl bromides, iodides, and activated aryl chlorides, and extends to borylation and hydrodehalogenation by simple variation of the radical trap. These results demonstrate that decoupled EDA activation provides a modular platform for metal-free C─C bond formation from aryl halides.",
-      "tags": [
-        "Photocatalysis",
-        "Boron Chemistry"
-      ],
-      "relevance": 62,
-      "corresponding_authors": [
-        "Graham de Ruiter"
-      ],
-      "corresponding_affiliations": [
-        "Technion – Israel Institute of Technology, Israel"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "芳基卤化物的解耦 EDA 活化实现吡咯的无金属 C-H 芳基化",
-      "corresponding_affiliations_zh": [
-        "Technion – 理工学院，以色列"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Trifluoromethylated Heterocycles via Intramolecular Cyclisation: Evolution From Traditional to Green Synthesis",
       "authors": [
         "Heng Li",
@@ -583,48 +629,6 @@
       "title_zh": "通过分子内环化的三氟甲基化杂环：从传统合成到绿色合成的演变",
       "corresponding_affiliations_zh": [
         "江苏大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Access to Uncharted (Ethoxy)difluoromethylated‐Containing Tetrahydrofurans by Hydrogenation",
-      "authors": [
-        "Thibaud Charvillat",
-        "Victor Levet",
-        "Patrick Bernardelli",
-        "Marc Daumas",
-        "Hassan Oulyadi",
-        "Muriel Sebban",
-        "Vincent Ferey",
-        "Tatiana Besset"
-      ],
-      "journal": "Chemistry - A European Journal",
-      "date": "2026-09-03",
-      "doi": "10.1002/chem.71545",
-      "url": "https://doi.org/10.1002/chem.71545",
-      "abstract": "ABSTRACT Fluorinated (hetero)cyclic compounds have garnered attention over the years, offering key building blocks in medicinally relevant molecules. However, the synthesis of fluorinated tetrahydrofurans remains a synthetic challenge to reach. Herein, we developed an efficient and robust approach for the synthesis of cis ‐(ethoxycarbonyl)difluoromethylated tetrahydrofurans. Using the inexpensive Pd/C catalyst, the diastereoselective hydrogenation of functionalized CF 2 CO 2 Et‐containing furans was achieved under mild reaction conditions. Access to unprecedented cis ‐fluorinated tetrahydrofurans with isolated yields of up to 74% and diastereomeric ratios up to 95:5 (12 examples) was reached. Pleasingly, under slightly modified reaction conditions, 5‐arylated CF 2 CO 2 Et‐containing furans were smoothly converted into the valuable α,α‐difluoro‐β‐hydroxyesters (five examples, up to 66% yield). Overall, the protocol exhibited good functional‐group tolerance and was easily scaled up. The synthetic utility of the CF 2 CO 2 Et moiety was further illustrated by its conversion into various other fluorinated groups.",
-      "tags": [
-        "Difluoromethylation"
-      ],
-      "relevance": 68,
-      "corresponding_authors": [
-        "Tatiana Besset"
-      ],
-      "corresponding_affiliations": [
-        "Centre National de la Recherche Scientifique, France",
-        "École Nationale Supérieure d'Ingénieurs de Caen, France",
-        "Université de Rouen Normandie, France",
-        "Institut National des Sciences Appliquées Rouen Normandie, France"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "通过氢化获得未知的（乙氧基）二氟甲基化四氢呋喃",
-      "corresponding_affiliations_zh": [
-        "国家科学研究中心，法国",
-        "卡昂国立高等工程师学院，法国",
-        "诺曼底鲁昂大学，法国",
-        "诺曼底鲁昂国家应用科学研究所，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
