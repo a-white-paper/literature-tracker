@@ -1,6 +1,35 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "papers": [
+    {
+      "title": "COMBINATION OF PHOTOCATALYSIS AND CONTINUOUS-FLOW TECHNOLOGY FOR THE SYNTHESIS OF BIOACTIVE COMPOUNDS AND ITS PRECURSORS",
+      "authors": [
+        "Alexander V. Nyuchev"
+      ],
+      "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+      "date": "2026-10-07",
+      "doi": "10.5281/zenodo.23059309",
+      "url": "https://doi.org/10.5281/zenodo.23059309",
+      "abstract": "The combination of photoredox catalysis and continuous-flow technology provides a powerful approach to the synthesis of valuable organic compounds that are difficult to access using traditional stoichiometric or metal-catalyzed methods. The precise control of reaction parameters, efficient irradiation, and enhanced mass and heat transfer offered by continuous-flow systems can improve the efficiency, reproducibility, and scalability of photochemical transformations. We have developed several efficient continuous-flow approaches to photochemical transformations, enabling the synthesis of bioactive compounds, their precursors, and derivatives. These include trifluoromethylation of (het)arenes [1], N-(hetero)arylation of amines [2], C(sp3)-heteroarylation [3], trifluoromethoxylation [4] and photocatalytic E→Z isomerization of alkenes. In these transformations, continuous-flow technology enabled efficient light utilization and precise control over reaction conditions, providing a practical platform for the development and intensification of photochemical synthetic processes. Overall, our results demonstrate the potential of combining photoredox catalysis with continuous-flow technology for the efficient synthesis of structurally diverse and potentially bioactive organic compounds, while offering opportunities for improved scalability and process efficiency.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Alexander V. Nyuchev"
+      ],
+      "corresponding_affiliations": [
+        "N. I. Lobachevsky State University of Nizhny Novgorod, Russia"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光催化与连续流技术相结合合成生物活性化合物及其前体",
+      "corresponding_affiliations_zh": [
+        "N.I. Lobachevsky 下诺夫哥罗德国立大学，俄罗斯"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Wireless Bipolar Electrochemistry for Organic Electrosynthesis: Principles, Mechanistic Insights, and Emerging Autonomous Systems",
       "authors": [
@@ -72,6 +101,40 @@
       "toc_kind": ""
     },
     {
+      "title": "Sustainable and solvent-free delamination of spent LFP cathodes and their direct regeneration via stoichiometric hydrothermal re-lithiation",
+      "authors": [
+        "Abhishek Vishwakarma",
+        "Vinay Mirzapure",
+        "Manjusha Vilas Shelke",
+        "Girish Praveen Nayaka"
+      ],
+      "journal": "Journal of Power Sources",
+      "date": "2026-10-02",
+      "doi": "10.1016/j.jpowsour.2026.241629",
+      "url": "https://doi.org/10.1016/j.jpowsour.2026.241629",
+      "abstract": "As the use of electric vehicles increases, sustainable end-of-life management of lithium iron phosphate (LFP) batteries becomes more crucial. However, because of their low intrinsic metal value and chemically stable olivine framework, traditional recycling methods such as pyrometallurgy and hydrometallurgy are often energy-intensive and economically disadvantageous for LFP cathodes. Here, we describe an environmentally safe direct regeneration method that employs hydrothermal re-lithiation following aqueous delamination of used LFP cathodes. The active material was successfully separated from aluminum current collectors using only water at room temperature, removing the need for harsh acids, hazardous solvents, or chemically rigorous separation procedures. Under comparatively mild conditions, effective lithium replenishment and olivine structure recovery were made possible by hydrothermal treatment. The regenerated LFP demonstrated exceptional long-term electrochemical performance, retaining 98.9% of its capacity over 500 cycles at 1C, displaying a discharge capacity of 146.32 mAh g −1 . For next-generation battery circularity, this study offers a scalable, low-impact recycling method that combines high-performance cathode regeneration with sustainable processing.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Girish Praveen Nayaka"
+      ],
+      "corresponding_affiliations": [
+        "National Chemical Laboratory, India",
+        "Academy of Scientific and Innovative Research, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "废 LFP 阴极的可持续和无溶剂分层及其通过化学计量水热再锂化的直接再生",
+      "corresponding_affiliations_zh": [
+        "国家化学实验室，印度",
+        "科学与创新研究院，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Redox-Paired Activation of Sulfur Hexafluoride Enables Nucleophilic C(sp3)–F Bond Formation",
       "authors": [
         "Aniruddha Biswas",
@@ -102,6 +165,44 @@
         "催化与石油化学研究所，俄罗斯",
         "萨尔州亥姆霍兹药物研究所，德国",
         "萨尔大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalytic C–H Amination of Arenes with Saccharin",
+      "authors": [
+        "Aeri Jang",
+        "Hyesin Yim",
+        "Haein Jeon",
+        "Jee Eun Hong",
+        "Jinwoo Kim",
+        "Seokwoo Lee",
+        "Yohan Park"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-01",
+      "doi": "10.1002/anie.3193418",
+      "url": "https://doi.org/10.1002/anie.3193418",
+      "abstract": "ABSTRACT We report an unprecedented, highly general organic photocatalytic strategy for direct C(sp 2 )–H amination of arenes using easily accessible saccharin as a nitrogen source. In sharp contrast to conventional radical amination protocols requiring transient arene radical cation intermediates, our system operates via an initial preferential single‐electron transfer (SET) oxidation of the in situ–generated saccharinate anion. This mechanistic pivot successfully bypasses longstanding electronic limitations, enabling an exceptionally broad substrate scope. The protocol tolerates a full spectrum of aromatic systems, including unactivated benzene (using only 2.0 equiv), haloarenes, polycyclic networks, highly electron‐deficient arenes bearing strong electron‐withdrawing groups (ester, nitrile, or trifluoromethyl substituents), and complex pharmaceutical frameworks, delivering the corresponding N ‐aryl saccharins in up to 99% yield (98% for benzene) with predictable regioselectivity. Density functional theory (DFT) calculations quantitatively corroborate the electrophilic radical kinetics (Δ G ‡ = 2.3–14.4 kcal/mol for arene addition) and TEMPO‐mediated rearomatization cascade. Furthermore, the N ‐aryl saccharin adducts function as robust, programmable modified Gabriel reagents, smoothly delivering diverse primary and secondary aryl amine hydrochloride salts in up to 99% yield under remarkably mild conditions.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Jee Eun Hong",
+        "Jinwoo Kim",
+        "Seokwoo Lee",
+        "Yohan Park"
+      ],
+      "corresponding_affiliations": [
+        "Chungnam National University, South Korea"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "糖精光催化芳烃 C-H 胺化",
+      "corresponding_affiliations_zh": [
+        "忠南大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -147,35 +248,37 @@
       "toc_kind": ""
     },
     {
-      "title": "Visible‐Light‐Mediated Photoredox 1,2‐Aryl Migration of Allylic Alcohols With Sulfoxonium Ylides for the Synthesis of 1,5‐Dicarbonyl Scaffolds",
+      "title": "A Thorough Examination of Graphene-Based Materials for CO₂ Mitigation from Storage to Conversion: Review",
       "authors": [
-        "Xige Ding",
-        "Ning Xian",
-        "Dong‐Fang Jiang",
-        "Huawen Huang"
+        "Noto Susanto Gultom",
+        "Kirana Qulsum",
+        "Canggih Setya Budi",
+        "Januar Widakdo",
+        "Celca Rahmatunnisa",
+        "Raudhatul Islam Chaerun",
+        "Mochamad Januar",
+        "Misganaw Alemu Zeleke"
       ],
-      "journal": "Advanced Synthesis & Catalysis",
+      "journal": "Sustainable Chemistry for Climate Action",
       "date": "2026-10-01",
-      "doi": "10.1002/adsc.70787",
-      "url": "https://doi.org/10.1002/adsc.70787",
-      "abstract": "We herein report a mild, metal‐free photoredox strategy that enables a 1,2‐aryl migration reaction of allylic alcohols with sulfoxonium ylides, thereby providing direct access to structurally diverse 1,5‐dicarbonyl compounds. These adducts can be further transformed into pyridine derivatives via a concise one‐pot, two‐step sequence. Notably, this protocol exhibits exceptional functional‐group tolerance and a broad substrate scope and offers a synthetically attractive route that unites atom economy with step economy for the preparation of both 1,5‐dicarbonyls and pyridine frameworks of structural significance.",
+      "doi": "10.1016/j.scca.2026.100242",
+      "url": "https://doi.org/10.1016/j.scca.2026.100242",
+      "abstract": "ABSTRACT The increasing concentration of atmospheric carbon dioxide (CO 2 ) intensified global efforts to develop effective carbon mitigation technologies. Carbon capture, utilization and storage (CCUS) has emerged a promising strategy through combining CO 2 capture and subsequent conversion to value-added products, thereby contributing to greenhouse-gas reduction and the circular carbon economy. Among various candidate materials, graphene and its derivatives have drawn much attention owing to their high specific surface area, excellent electrical conductivity, outstanding chemical stability and highly tunable surface chemistry. These unique features allow graphene as an excellent CO 2 adsorbent, conductive catalyst support, electron-transport medium and active component for catalytic CO 2 conversion. This review article provides a comprehensive overview of graphene-based materials for CO 2 capture and conversion, discussing the principles of adsorption, defect engineering, design of porous structures, heteroatom doping, surface functionalization, and the production of hybrid composites. The roles of graphene in electrocatalytic, photocatalytic and photoelectrochemical CO 2 reduction are critically discussed, focusing on structure–property–performance relationships and the underlying reaction mechanisms. Current challenges such as scalable synthesis, structural stability, integrated capture-conversion systems, standardized performance evaluation and techno-economic feasibility are also analyzed. Finally, future research areas are focused on accelerating the development of graphene-enable CCUS technology for practical and sustainable carbon management.",
       "tags": [
+        "Electrochemistry",
         "Photocatalysis"
       ],
-      "relevance": 56,
+      "relevance": 57,
       "corresponding_authors": [
-        "Dong‐Fang Jiang",
-        "Huawen Huang"
+        "Sahrul Hidayat"
       ],
       "corresponding_affiliations": [
-        "Changsha Medical University, China",
-        "Xiangtan University, China"
+        "Padjadjaran University, ID"
       ],
       "corresponding_source": "openalex_explicit",
-      "title_zh": "可见光介导的烯丙醇光氧化还原 1,2-芳基迁移与磺酰叶立德用于合成 1,5-二羰基支架",
+      "title_zh": "对石墨烯基材料从储存到转化过程中二氧化碳减排的彻底检查：回顾",
       "corresponding_affiliations_zh": [
-        "长沙医科大学，中国",
-        "湘潭大学，中国"
+        "爱达荷州巴查查兰大学"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -243,36 +346,142 @@
       "toc_kind": ""
     },
     {
-      "title": "Chiroptical Switching by Stereoselective Photochemical Sigmatropic Rearrangements: Experimental Realization of Calderoselectivity",
+      "title": "Difluoromethylenation of Alkynes: Streamlined Access to Allyl Difluorides",
       "authors": [
-        "Anne Krenkel",
-        "Frederike Beyer",
-        "Malte Feßner",
-        "Trung Tran Ngoc",
-        "Tobias Rüffer",
-        "Dominik Hornig",
-        "Martin Breugst",
-        "Christian Merten"
+        "Fabien Naullet",
+        "Sourav Mondal",
+        "Frédéric Guégan",
+        "Bastien Michelet",
+        "Sébastien Thibaudeau"
       ],
       "journal": "Angewandte Chemie International Edition",
       "date": "2026-09-30",
-      "doi": "10.1002/anie.9477381",
-      "url": "https://doi.org/10.1002/anie.9477381",
-      "abstract": "The stereochemical outcomes of pericyclic reactions provide direct insight into the geometry and directionality of concerted bond reorganization. Although torquoselectivity has emerged as a defining concept for electrocyclizations, an analogous principle for sigmatropic rearrangements on a single cyclic π system has remained unknown. We report that a homoannulene-based photoswitch undergoes an auxiliary-controlled, stereoselective photochemical [1,11]-sigmatropic rearrangement, thereby establishing selectivity over directional migration on a single cyclic π framework. We coin the term calderoselectivity for such an unreported stereoselective sigmatropic rearrangement. The switching process is reversible, proceeds to photostationary mixtures of homoannulene and iso-homoannulene isomers, and furnishes diastereomeric products in a 56:44 ratio; combined chiral HPLC, NMR, ECD, and DFT studies assign the major directionality of acyl migration in pro-R directionality. This study provides the first experimental realization of calderoselectivity and reveals a direct analogue in sigmatropic rearrangements to torquoselectivity with implications for both mechanistic physical organic chemistry and chiroptical switch design.",
+      "doi": "10.1002/anie.8050538",
+      "url": "https://doi.org/10.1002/anie.8050538",
+      "abstract": "ABSTRACT A direct difluoromethylenation of alkynes has been developed using HF/pyridine as a dual acidic and fluorinating medium. The reaction proceeds via in situ generation of a primary oxocarbenium ion from formaldehyde, enabling efficient formation of two C(sp 3 )─F bonds and one C(sp 2 )═C(sp 2 ) bond in a single step without the need for pre‐functionalized reagents. This strategy offers a concise route to allyl difluorides as a complementary approach to incorporate difluoromethylene motifs into complex molecular frameworks. Additional spectroscopic and computational investigations provide insights into this mechanism.",
       "tags": [
-        "Photocatalysis"
+        "Difluoromethylation"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Bastien Michelet",
+        "Sébastien Thibaudeau"
+      ],
+      "corresponding_affiliations": [
+        "Centre National de la Recherche Scientifique, France",
+        "Université de Poitiers, France"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "炔烃的二氟亚甲基化：简化获得烯丙基二氟化物的过程",
+      "corresponding_affiliations_zh": [
+        "国家科学研究中心，法国",
+        "普瓦捷大学，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Mechanistic Study Reveals Hypoboric Acid Catecholate (HAC): An Enhanced Diboron Reagent for Decarboxylative Borylation",
+      "authors": [
+        "Beatriz Meana-Baamonde",
+        "Wenjie Wei",
+        "Stefanie V. Kohlhepp",
+        "Marc Montesinos‐Magraner",
+        "Fahmi Himo",
+        "Abraham Mendoza"
+      ],
+      "journal": "ChemistryEurope",
+      "date": "2026-09-29",
+      "doi": "10.1002/ceur.70363",
+      "url": "https://doi.org/10.1002/ceur.70363",
+      "abstract": "The decarboxylative borylation of redox‐active esters promoted by bis(catecholato)diboron (B 2 cat 2 ) and blue light enables the synthesis of versatile organoboron building blocks from carboxylic acid materials. An LED‐illuminated NMR kinetic study revealed that the reaction is surprisingly accelerated by water, and this hidden catalysis can be attributed to a novel intermediate formed in situ, namely a hypoboric acid catecholate (HAC). This unsymmetrical diboron species can alternatively be formed by hydrolysis of B 2 cat 2 or transesterification between B 2 cat 2 and hypoboric acid (B 2 (OH) 4 ). Experimental and computational studies revealed and rationalized the regioselective capture of alkyl radicals by the HAC species, and the concomitant formation of a more reductive boryl radical chain carrier. The regioselectivity is characteristic of the HAC species studied, and is controlled by electronic rather than steric effects.",
+      "tags": [
+        "Boron Chemistry",
+        "Decarboxylative Coupling"
       ],
       "relevance": 70,
       "corresponding_authors": [
-        "Johannes F. Teichert"
+        "Fahmi Himo",
+        "Abraham Mendoza"
       ],
       "corresponding_affiliations": [
-        "Chemnitz University of Technology, Germany"
+        "Stockholm University, Sweden",
+        "Parc Científic de la Universitat de València, Spain"
       ],
       "corresponding_source": "openalex_explicit",
-      "title_zh": "立体选择性光化学Sigmatropic重排的手性光学切换：Caldero选择性的实验实现",
+      "title_zh": "机理研究揭示了次硼酸儿茶酚酸盐 (HAC)：一种用于脱羧硼基化的增强型二硼试剂",
       "corresponding_affiliations_zh": [
-        "开姆尼茨理工大学，德国"
+        "斯德哥尔摩大学，瑞典",
+        "瓦伦西亚大学科学公园，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "C‐Terminal Functionalization Methods of Amino Acids, Peptides, and Proteins",
+      "authors": [
+        "Jay Hanssens",
+        "Mark Lambers",
+        "Romano V. A. Orrù",
+        "Jordy M. Saya"
+      ],
+      "journal": "Chemistry - A European Journal",
+      "date": "2026-09-29",
+      "doi": "10.1002/chem.71730",
+      "url": "https://doi.org/10.1002/chem.71730",
+      "abstract": "The functionalization of the C-terminus of amino acids, peptides, and proteins has been extensively studied for more than 150 years and is central to modern peptide synthesis. While most functionalization methods target the N-terminus or reactive residues, such as lysine, cysteine, or tyrosine, the chemo- and regioselective modification of the C-terminus remains relatively underdeveloped. In this review, we discuss strategies for C-terminal activation and functionalization, including classical coupling reagents, enzymatic modifications, photo- and electrochemical decarboxylation, and emerging catalytic approaches. Recent atom-efficient advances in the field that describe protective group-free syntheses while minimizing epimerization and improving chemo- and regio-selectivity are discussed enabling the modification of complex peptides and proteins. Furthermore, current limitations and remaining challenges in achieving general, selective, and broadly applicable C-terminal functionalization methods are highlighted.",
+      "tags": [
+        "Electrochemistry",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Jordy M. Saya"
+      ],
+      "corresponding_affiliations": [
+        "Maastricht University, Netherlands"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "氨基酸、肽和蛋白质的C端功能化方法",
+      "corresponding_affiliations_zh": [
+        "马斯特里赫特大学，荷兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrochemically Induced Regio‐ and Stereoselective ( E )‐β‐C(sp 2 )─H Alkoxycarbonylation of Enamides With Carbazates",
+      "authors": [
+        "Guisheng Chen",
+        "Yiyan Lin",
+        "Yucheng Yang",
+        "Ling Yang",
+        "Xiaolan Li",
+        "Xuzhong Luo",
+        "Haiqing Luo"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-09-29",
+      "doi": "10.1002/adsc.70785",
+      "url": "https://doi.org/10.1002/adsc.70785",
+      "abstract": "Herein, we disclosed an electrochemically induced alkoxycarbonylation of enamides with carbazates under metal‐free and peroxide‐free reaction conditions, which provided a green protocol for constructing enol esters, exhibiting excellent regioselectivity and mainly affording products in the E ‐configuration. Mechanistically, a free alkoxycarbonyl radical pathway was involved in this approach.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Haiqing Luo"
+      ],
+      "corresponding_affiliations": [
+        "Gannan Normal University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
+      "corresponding_affiliations_zh": [
+        "赣南师范学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -419,85 +628,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Electro-Redox Process: A Long-Overlooked Mode of Single-Electron Transfer in Organic Synthesis",
-      "authors": [
-        "Lei Wang",
-        "Yumeng He",
-        "H Liu",
-        "Lijuan Liang",
-        "Peng Chen",
-        "Zhenhua Jia"
-      ],
-      "journal": "Sustainable Science and Innovation",
-      "date": "2026-09-24",
-      "doi": "10.54963/ssi.102544",
-      "url": "https://doi.org/10.54963/ssi.102544",
-      "abstract": "Single electron transfer (SET) is a fundamental step in radical-mediated organic transformations, enabling unique bond-forming and cleavage that are difficult to access via traditional two-electron pathways. Electrochemical redox directly drives single electron transfer processes through heterogeneous electron transfer at the electrode-electrolyte interface without external catalysts such as transition metals and precious metals. Anodic single-electron oxidation activates inert C–H bonds, generating carbon-centered radicals for selective functionalization, whereas cathodic reduction enables homolytic cleavage of C–X bonds, generating radical anions or carbanions for reductive coupling and dehalogenation. Electrochemical single electron transfer (SET) has emerged as a powerful, sustainable alternative to metal-catalyzed and photo-redox systems. By eliminating stoichiometric redox agents, transition metals, and photocatalysts, electro-synthesis utilizes precise potential control and a traceless electron supply under mild conditions to avoid metal contamination, the generation of by-products, and reduce environmental impact. Mediator-assisted SET and hydrogen-atom transfer enable selective oxidation of unactivated aliphatic C–H bonds, while electrochemical radical cyclization constructs C–C and C–heteroatom bonds. In this review, we summarized the fundamental principles, general mechanism and technical characteristics of the electrochemically driven by single electron transfer process. Advances in anodic C–H functionalization, cathodic reduction, cyclization and mediator-assisted oxidation are highlighted, alongside electrode materials and reactor engineering. We aim to provide a comprehensive overview of recent advancements in this field, highlighting key mechanistic insights and future opportunities for sustainable synthesis via single electron transfer. Remaining challenges such as selectivity, scale-up, and emerging directions are also discussed.",
-      "tags": [
-        "Electrochemistry",
-        "Photocatalysis"
-      ],
-      "relevance": 75,
-      "corresponding_authors": [
-        "Zhenhua Jia"
-      ],
-      "corresponding_affiliations": [
-        "Fudan University, China",
-        "Henan University of Technology, China"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "电氧化还原过程：有机合成中长期被忽视的单电子转移模式",
-      "corresponding_affiliations_zh": [
-        "复旦大学，中国",
-        "河南工业大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Photoredox‐Catalyzed 1,2,2‐Trifunctionalization of Alkenes with 1,7‐Enynes and α‐Bromocarbonyls",
-      "authors": [
-        "Chengyi Jiang",
-        "Shangyu Mao",
-        "Yifei Luo",
-        "Wenli Xia",
-        "Mengli Yang",
-        "Xinyu Yu",
-        "Jianrui Zhou",
-        "Yao Jian"
-      ],
-      "journal": "Chinese Journal of Chemistry",
-      "date": "2026-09-23",
-      "doi": "10.1002/cjoc.70769",
-      "url": "https://doi.org/10.1002/cjoc.70769",
-      "abstract": "Comprehensive Summary Cyclopenta[ c ]quinoline derivatives represent privileged structural motifs that exhibit remarkable potential biological activities, which have prompted considerable interest in developing green, efficient and general synthetic strategies for constructing this scaffold. Despite significant advances, the currently available methods for the rapid assembly of cyclopenta[ c ]quinoline frameworks are predominantly limited to two‐component reactions, and the development of multicomponent strategies that enable rapid diversification and complexity generation remains highly desirable. Herein, we report a novel visible‐light photoredox‐catalyzed three‐component 1,2,2‐trifunctionalization of alkenes with 1,7‐enynes and α‐bromocarbonyls, enabling rapid and efficient synthesis of structurally diverse cyclopenta[ c ]quinoline derivatives with excellent functional group tolerance. Notably, this strategy represents a rare example of 1,5‐hydrogen atom transfer‐enabled 1,2,2‐trifunctionalization of alkenes. This mild and transition metal‐free protocol operates under ambient conditions with visible light as the sole energy source and allows simultaneous construction of four C–C bonds in one pot, offering a step‐economical and atom‐efficient approach to complex polycyclic architectures. The reaction exhibits a broad substrate scope across all three coupling partners, including various substituted 1,7‐enynes, cyclic and acyclic enamides, unactivated alkenes, and diverse activated alkyl bromides, delivering the desired products in up to 94% yield. Moreover, the synthetic utility of this method is highlighted by gram‐scale synthesis and facile downstream transformations of the products. Mechanistic studies, including radical‐trapping experiments, radical clock studies, Stern‐Volmer fluorescence quenching analysis, and light on/off experiments, indicate that the reaction proceeds through a sequential cascade process involving reductive C–Br bond cleavage, sequential difunctionalization of alkenes, 1,5‐hydrogen atom transfer, and intramolecular cyclization.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 80,
-      "corresponding_authors": [
-        "Siping Wei",
-        "Shiqi Zhang",
-        "Dong Yi"
-      ],
-      "corresponding_affiliations": [
-        "Southwest Medical University, China",
-        "Chinese Academy of Sciences, China",
-        "Chengdu Institute of Biology, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "光氧化还原催化 1,7-烯炔和 α-溴羰基对烯烃进行 1,2,2-三官能化",
-      "corresponding_affiliations_zh": [
-        "西南医科大学，中国",
-        "科学院，中国",
-        "成都生物研究所，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
       "authors": [
         "Anupam Das",
@@ -565,38 +695,6 @@
       "corresponding_affiliations_zh": [
         "罗德岛大学，美国",
         "科尔盖特大学，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Copper‐Catalyzed C─N Cross‐Coupling of Benzohydrazides with Boronic Acids for N ‐Aryl Amide Synthesis",
-      "authors": [
-        "Jayshree Nandkumar Solanke",
-        "Rana Chatterjee",
-        "Rambabu Dandela"
-      ],
-      "journal": "ChemistrySelect",
-      "date": "2026-09-23",
-      "doi": "10.1002/slct.74624",
-      "url": "https://doi.org/10.1002/slct.74624",
-      "abstract": "ABSTRACT An operationally simple and efficient protocol for the synthesis of N ‐aryl amides has been developed, based on the copper‐catalyzed coupling of benzohydrazides with boronic acids. The transformation relies on the unique in situ activation of the benzohydrazide precursors using a telescoped mixture of tert ‐butyl nitrite (TBN) and trimethylsilyl chloride (TMSCl). The subsequent cross‐coupling process is efficiently promoted by copper(I) chloride, potassium tert ‐butoxide, and cesium fluoride (CsF) under open‐air, ambient‐temperature conditions. Furthermore, this one‐pot protocol enables rapid access to a broad range of 27 examples of N ‐aryl amide derivatives, delivering moderate to excellent yields ranging from 40% to 88% under mild conditions with excellent functional group tolerance. The operational simplicity, ambient open‐air conditions, demonstrated synthetic utility, and gram‐scale applicability underscore the practical value of this protocol.",
-      "tags": [
-        "Boron Chemistry"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Rana Chatterjee",
-        "Rambabu Dandela"
-      ],
-      "corresponding_affiliations": [
-        "Department of Industrial and Engineering Chemistry Indian Oil Odisha Campus Institute of Chemical Technology Bhubaneswar India"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "铜催化苯并酰肼与硼酸的C─N交叉偶联合成N-芳基酰胺",
-      "corresponding_affiliations_zh": [
-        "印度石油奥里萨邦工业与工程化学系化学技术学院布巴内斯瓦尔印度奥里萨邦校区"
       ],
       "translation_version": 2,
       "toc_url": "",
