@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "papers": [
     {
       "title": "COMBINATION OF PHOTOCATALYSIS AND CONTINUOUS-FLOW TECHNOLOGY FOR THE SYNTHESIS OF BIOACTIVE COMPOUNDS AND ITS PRECURSORS",
@@ -25,6 +25,118 @@
       "title_zh": "光催化与连续流技术相结合合成生物活性化合物及其前体",
       "corresponding_affiliations_zh": [
         "N.I. Lobachevsky 下诺夫哥罗德国立大学，俄罗斯"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Experimental and density functional theory investigation of nickel curcumin catalyzed Suzuki Miyaura cross coupling",
+      "authors": [
+        "N. Asharani",
+        "S. Supriya",
+        "Dileep Ramakrishna",
+        "T. Jeevananda",
+        "Ranganatha S"
+      ],
+      "journal": "Scientific Reports",
+      "date": "2026-10-03",
+      "doi": "10.1038/s41598-026-71772-z",
+      "url": "https://doi.org/10.1038/s41598-026-71772-z",
+      "abstract": "Abstract The development of sustainable and cost-effective catalysts for carbon–carbon bond formation remains an important goal in modern organic synthesis. In the present study, a nickel–curcumin complex was investigated towards catalytic applications on Suzuki–Miyaura cross-coupling reactions between aryl halides and arylboronic acids. The catalytic system showed good performance under mild reaction conditions using methanol as the solvent and a low catalyst loading. Reaction parameters such as solvent, base, temperature, and catalyst concentration were systematically optimized using a model reaction. Under the optimized conditions, a variety of substituted aryl iodides, bromides, and chlorides were successfully coupled to give the corresponding biaryl products in moderate to excellent yields. The catalyst exhibited good functional group tolerance and consistent catalytic efficiency across different substrates. Mercury poisoning and radical trapping experiments suggested that the reaction proceeds mainly through a homogeneous catalytic pathway. The combination of naturally derived curcumin as a ligand with earth-abundant and low-cost nickel highlights the sustainable nature of this catalytic system. To the best of our knowledge, this is the first report describing the catalytic application of a nickel–curcumin complex in Suzuki–Miyaura cross-coupling reactions, which may provide opportunities for the further development of curcumin-based catalysts in organic synthesis.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Dileep Ramakrishna"
+      ],
+      "corresponding_affiliations": [
+        "Department of Chemistry, RNS Institute of Technology, R R Nagar, Bengaluru, 560098, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "镍姜黄素催化铃木宫浦交叉偶联的实验及密度泛函理论研究",
+      "corresponding_affiliations_zh": [
+        "RNS 理工学院化学系，R R Nagar，班加罗尔，560098，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Ag─S Sites Steer Furfural Electroreduction to Furfuryl Alcohol",
+      "authors": [
+        "Haibin Ma",
+        "Jordi Morales‐Vidal",
+        "George Teo",
+        "Muhammad Saad Naeem",
+        "Terence Jing Cong Tan",
+        "Núria López",
+        "Boon Siang Yeo"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-03",
+      "doi": "10.1002/anie.1214768",
+      "url": "https://doi.org/10.1002/anie.1214768",
+      "abstract": "ABSTRACT The electrochemical upgrading of furfural (FF), a biomass‐derived platform molecule, using renewable electricity offers a promising route toward green and sustainable chemical synthesis. However, achieving high selectivity toward hydrogenated products, such as furfuryl alcohol (FA), remains challenging as hydrogenation competes with C─C coupling reactions that generate undesired dimers. In this study, we show that trace sulfide species introduced into the electrolyte dynamically generate Ag─S sites on Ag surfaces during electrolysis, thereby steering the FF reduction reaction toward FA formation. Using Ag disk electrodes, the introduction of 0.5 mM sulfide ions (S 2− ) into the electrolyte increases the Faradaic efficiency (FE) for FA formation from 59% to 88% and enhances its partial current density ( j FA ) from 5.4 to 12.5 mA cm −2 . X‐ray photoelectron spectroscopy, in situ Raman spectroscopy, and density functional theory simulations collectively reveal that the low‐coverage sulfide species on Ag regulate FF adsorption and facilitate proton transfer to the carbonyl oxygen, steering FA formation, while suppressing hydrofuroin (HF) formation by disrupting the Ag ensembles required for C─C coupling. Overall, our findings establish the deliberate introduction of trace sulfide into the electrolyte as a simple and potentially broadly applicable strategy to steer selectivity in the electrochemical hydrogenation of biomass‐derived furanic aldehydes.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Núria López",
+        "Boon Siang Yeo"
+      ],
+      "corresponding_affiliations": [
+        "Institut Català d'Investigació Química, Spain",
+        "Barcelona Institute of Science and Technology, Spain",
+        "National University of Singapore, Singapore"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "Ag─S位点引导糠醛电还原生成糠醇",
+      "corresponding_affiliations_zh": [
+        "基米卡加泰罗尼亚调查研究所，西班牙",
+        "巴塞罗那科学技术学院，西班牙",
+        "国立大学，新加坡"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Adaptive Cinchona Alkaloid-Derived Organoboron Crystalline Sponges Enable Enantioseparation of Weakly Interacting Molecules",
+      "authors": [
+        "Maximilian Rajski",
+        "Michał Terlecki",
+        "Iwona Justyniak",
+        "Arkadiusz Kornowicz",
+        "Michał Krzysztof Leszczyński",
+        "Mikołaj Cieślak",
+        "Janusz Lewiński"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-02",
+      "doi": "10.1021/jacs.6c09766",
+      "url": "https://doi.org/10.1021/jacs.6c09766",
+      "abstract": "Abstract The enantioseparation of small, weakly interacting organic molecules remains a fundamental challenge, as they lack the functional groups required for efficient chiral recognition. Consequently, their enantiopure forms are typically accessed via asymmetric synthesis rather than resolution. Herein, we demonstrate that adaptive supramolecular crystalline sponges assembled from air- and moisture-stable cinchona alkaloid-derived organoboron complexes enable efficient enantiodiscrimination of small ethers, lactones, and cyclic ketones through guest inclusion within porous crystalline frameworks. Structural analysis reveals that enantioselectivity arises from adaptive confinement within homochiral cavities, where subtle framework rearrangements and modulation of cavity volume amplify cooperative weak host–guest interactions. Systematic tuning of the molecular building blocks affords crystalline sponges capable of resolving challenging substrates such as the biobased green solvent 2-methyltetrahydrofuran, γ-valerolactone, and methylcyclohexanone isomers with enantiomeric excesses of up to 76%. These findings establish adaptive confinement in supramolecular crystalline sponges as a general mechanism for chiral discrimination in the solid state and provide a conceptual framework for enantioseparation beyond conventional crystallization-based approaches.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Janusz Lewiński"
+      ],
+      "corresponding_affiliations": [
+        "Warsaw University of Technology, Poland",
+        "Institute of Physical Chemistry, Poland",
+        "Polish Academy of Sciences, Poland"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "适应性金鸡纳生物碱衍生的有机硼结晶海绵能够实现弱相互作用分子的对映分离",
+      "corresponding_affiliations_zh": [
+        "华沙理工大学，波兰",
+        "物理化学研究所，波兰",
+        "科学院，波兰"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -67,74 +179,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Electrochemical Hydroformylation with a Homogeneous Rhodium Catalyst",
-      "authors": [
-        "Emma L. Cosner",
-        "Spencer P. Delgado-Kukuczka",
-        "Haochen Zhang",
-        "Abigail L. Blenko",
-        "Evan V. Miu",
-        "Karthish Manthiram"
-      ],
-      "journal": "Journal of the American Chemical Society",
-      "date": "2026-10-02",
-      "doi": "10.1021/jacs.6c15582",
-      "url": "https://doi.org/10.1021/jacs.6c15582",
-      "abstract": "Abstract Electrochemical hydroformylation is an attractive pathway to synthesize aldehydes at ambient conditions using electrons sourced from renewable energy as a reductant instead of hydrogen gas sourced from energy-intensive steam methane reforming. However, previously reported electrochemical hydroformylation systems have shown limited rates and selectivities using heterogeneous catalysts, motivating continued development. In this work, we report a homogeneously catalyzed system that achieved a maximum partial current density of 1.1 ± 0.1 mA cm–2 and a Faradaic efficiency of 29 ± 1% toward the conversion of styrene to 2-phenylpropanal at 5 bar CO and 25 °C. Infrared and UV-visible spectroscopies suggested that the initial Rh2Cl2(CO)4 precatalyst undergoes pressure-dependent speciation to Rh(I)–CO species in the presence of CO. Kinetic experiments revealed a complex mechanism in which the rate-determining step likely shifts between electron transfer, substrate coordination, and Rh–H bond cleavage in different substrate concentration and overpotential regimes. Looking forward, the insight from this work informs future strategies to improve the rate and selectivity of electrochemical hydroformylation and other electrochemical C–C bond formation reactions.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 58,
-      "corresponding_authors": [
-        "Karthish Manthiram"
-      ],
-      "corresponding_affiliations": [
-        "California Institute of Technology, United States"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "使用均相铑催化剂进行电化学加氢甲酰化",
-      "corresponding_affiliations_zh": [
-        "加州理工学院，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Sustainable and solvent-free delamination of spent LFP cathodes and their direct regeneration via stoichiometric hydrothermal re-lithiation",
-      "authors": [
-        "Abhishek Vishwakarma",
-        "Vinay Mirzapure",
-        "Manjusha Vilas Shelke",
-        "Girish Praveen Nayaka"
-      ],
-      "journal": "Journal of Power Sources",
-      "date": "2026-10-02",
-      "doi": "10.1016/j.jpowsour.2026.241629",
-      "url": "https://doi.org/10.1016/j.jpowsour.2026.241629",
-      "abstract": "As the use of electric vehicles increases, sustainable end-of-life management of lithium iron phosphate (LFP) batteries becomes more crucial. However, because of their low intrinsic metal value and chemically stable olivine framework, traditional recycling methods such as pyrometallurgy and hydrometallurgy are often energy-intensive and economically disadvantageous for LFP cathodes. Here, we describe an environmentally safe direct regeneration method that employs hydrothermal re-lithiation following aqueous delamination of used LFP cathodes. The active material was successfully separated from aluminum current collectors using only water at room temperature, removing the need for harsh acids, hazardous solvents, or chemically rigorous separation procedures. Under comparatively mild conditions, effective lithium replenishment and olivine structure recovery were made possible by hydrothermal treatment. The regenerated LFP demonstrated exceptional long-term electrochemical performance, retaining 98.9% of its capacity over 500 cycles at 1C, displaying a discharge capacity of 146.32 mAh g −1 . For next-generation battery circularity, this study offers a scalable, low-impact recycling method that combines high-performance cathode regeneration with sustainable processing.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Girish Praveen Nayaka"
-      ],
-      "corresponding_affiliations": [
-        "National Chemical Laboratory, India",
-        "Academy of Scientific and Innovative Research, India"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "废 LFP 阴极的可持续和无溶剂分层及其通过化学计量水热再锂化的直接再生",
-      "corresponding_affiliations_zh": [
-        "国家化学实验室，印度",
-        "科学与创新研究院，印度"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Redox-Paired Activation of Sulfur Hexafluoride Enables Nucleophilic C(sp3)–F Bond Formation",
       "authors": [
         "Aniruddha Biswas",
@@ -171,120 +215,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Photocatalytic C–H Amination of Arenes with Saccharin",
-      "authors": [
-        "Aeri Jang",
-        "Hyesin Yim",
-        "Haein Jeon",
-        "Jee Eun Hong",
-        "Jinwoo Kim",
-        "Seokwoo Lee",
-        "Yohan Park"
-      ],
-      "journal": "Angewandte Chemie International Edition",
-      "date": "2026-10-01",
-      "doi": "10.1002/anie.3193418",
-      "url": "https://doi.org/10.1002/anie.3193418",
-      "abstract": "ABSTRACT We report an unprecedented, highly general organic photocatalytic strategy for direct C(sp 2 )–H amination of arenes using easily accessible saccharin as a nitrogen source. In sharp contrast to conventional radical amination protocols requiring transient arene radical cation intermediates, our system operates via an initial preferential single‐electron transfer (SET) oxidation of the in situ–generated saccharinate anion. This mechanistic pivot successfully bypasses longstanding electronic limitations, enabling an exceptionally broad substrate scope. The protocol tolerates a full spectrum of aromatic systems, including unactivated benzene (using only 2.0 equiv), haloarenes, polycyclic networks, highly electron‐deficient arenes bearing strong electron‐withdrawing groups (ester, nitrile, or trifluoromethyl substituents), and complex pharmaceutical frameworks, delivering the corresponding N ‐aryl saccharins in up to 99% yield (98% for benzene) with predictable regioselectivity. Density functional theory (DFT) calculations quantitatively corroborate the electrophilic radical kinetics (Δ G ‡ = 2.3–14.4 kcal/mol for arene addition) and TEMPO‐mediated rearomatization cascade. Furthermore, the N ‐aryl saccharin adducts function as robust, programmable modified Gabriel reagents, smoothly delivering diverse primary and secondary aryl amine hydrochloride salts in up to 99% yield under remarkably mild conditions.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 64,
-      "corresponding_authors": [
-        "Jee Eun Hong",
-        "Jinwoo Kim",
-        "Seokwoo Lee",
-        "Yohan Park"
-      ],
-      "corresponding_affiliations": [
-        "Chungnam National University, South Korea"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "糖精光催化芳烃 C-H 胺化",
-      "corresponding_affiliations_zh": [
-        "忠南大学，韩国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Multigram Copper-Catalyzed Azidodeboronation of Alkenyl Boronates",
-      "authors": [
-        "Maksym Kovalenko",
-        "Yevhen M. Ivon",
-        "Yaroslava Kovalchuk",
-        "Kristina Bakhmatska",
-        "Dmytrii Kryvenchuk",
-        "Yaroslav Yakivets",
-        "Daria S. Klymenko",
-        "Oleksandr S. Liashuk"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-01",
-      "doi": "10.26434/chemrxiv.15009735/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15009735/v1",
-      "abstract": "A multigram synthetic approach to alkenyl azides based on copper-catalyzed azidodeboronation of alkenyl pinacol boronates was described. The optimized protocol relied on the use of Cu(OAc) 2 as the reaction promoter, which provided higher, reproducible yields and did not cause uncontrolled decomposition of the reaction mixture, unlike the CuSO 4 ·5H 2 O-based protocol reported previously. The method was applicable to β-, β,β-, and α,β-substituted substrates, including those bearing electron-withdrawing groups and saturated O -, N -, and S -heterocyclic motifs. Some alkenyl azides were prepared on up to 21 g scale, and their thermal behavior was evaluated by thermogravimetric analysis. The synthetic utility of the products was demonstrated through the preparation of a substituted pyrrole and 1-alkenyl-1,2,3-triazoles. Furthermore, a one-pot azidation – click reaction protocol enabled the direct conversion of alkenyl boronates into the corresponding triazoles without isolation of unstable or highly volatile alkenyl azide intermediates, thereby broadening the accessible substrate scope.",
-      "tags": [
-        "Cu Catalysis",
-        "Boron Chemistry"
-      ],
-      "relevance": 62,
-      "corresponding_authors": [
-        "Oleksandr O. Grygorenko"
-      ],
-      "corresponding_affiliations": [
-        "Taras Shevchenko National University of Kyiv, UA",
-        "Enamine (Ukraine), UA"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "多克铜催化烯基硼酸酯的叠氮脱硼反应",
-      "corresponding_affiliations_zh": [
-        "塔拉斯舍甫琴科国立基辅大学，UA",
-        "Enamine（乌克兰），UA"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "A Thorough Examination of Graphene-Based Materials for CO₂ Mitigation from Storage to Conversion: Review",
-      "authors": [
-        "Noto Susanto Gultom",
-        "Kirana Qulsum",
-        "Canggih Setya Budi",
-        "Januar Widakdo",
-        "Celca Rahmatunnisa",
-        "Raudhatul Islam Chaerun",
-        "Mochamad Januar",
-        "Misganaw Alemu Zeleke"
-      ],
-      "journal": "Sustainable Chemistry for Climate Action",
-      "date": "2026-10-01",
-      "doi": "10.1016/j.scca.2026.100242",
-      "url": "https://doi.org/10.1016/j.scca.2026.100242",
-      "abstract": "ABSTRACT The increasing concentration of atmospheric carbon dioxide (CO 2 ) intensified global efforts to develop effective carbon mitigation technologies. Carbon capture, utilization and storage (CCUS) has emerged a promising strategy through combining CO 2 capture and subsequent conversion to value-added products, thereby contributing to greenhouse-gas reduction and the circular carbon economy. Among various candidate materials, graphene and its derivatives have drawn much attention owing to their high specific surface area, excellent electrical conductivity, outstanding chemical stability and highly tunable surface chemistry. These unique features allow graphene as an excellent CO 2 adsorbent, conductive catalyst support, electron-transport medium and active component for catalytic CO 2 conversion. This review article provides a comprehensive overview of graphene-based materials for CO 2 capture and conversion, discussing the principles of adsorption, defect engineering, design of porous structures, heteroatom doping, surface functionalization, and the production of hybrid composites. The roles of graphene in electrocatalytic, photocatalytic and photoelectrochemical CO 2 reduction are critically discussed, focusing on structure–property–performance relationships and the underlying reaction mechanisms. Current challenges such as scalable synthesis, structural stability, integrated capture-conversion systems, standardized performance evaluation and techno-economic feasibility are also analyzed. Finally, future research areas are focused on accelerating the development of graphene-enable CCUS technology for practical and sustainable carbon management.",
-      "tags": [
-        "Electrochemistry",
-        "Photocatalysis"
-      ],
-      "relevance": 57,
-      "corresponding_authors": [
-        "Sahrul Hidayat"
-      ],
-      "corresponding_affiliations": [
-        "Padjadjaran University, ID"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "对石墨烯基材料从储存到转化过程中二氧化碳减排的彻底检查：回顾",
-      "corresponding_affiliations_zh": [
-        "爱达荷州巴查查兰大学"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "In situ Activation of Ni(II) with Boronic Acids and Application of a Phosphasilinane Ligand enable the Suzuki-Miyaura Cross-Coupling of Deactivated (Hetero)Aryl Chlorides",
       "authors": [
         "Christoph Kremser",
@@ -311,35 +241,6 @@
       "title_zh": "用硼酸原位活化 Ni(II) 并应用磷硅烷配体实现失活（杂）芳基氯化物的 Suzuki-Miyaura 交叉偶联",
       "corresponding_affiliations_zh": [
         "路德维希马克西米利安慕尼黑大学，德国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Photocatalyst testing and development",
-      "authors": [
-        "Rachel Andrews"
-      ],
-      "journal": "Research Portal (Queen's University Belfast)",
-      "date": "2026-10-01",
-      "doi": "10.17034/32631639",
-      "url": "https://doi.org/10.17034/32631639",
-      "abstract": "This thesis is concerned with the development of more appropriate and sensitive testing methods to enable the analysis and comparison of photocatalytic ability for photocatalytic materials with a range of activities. A significant part of this thesis is dedicated to the development and examination of the ISO 22197-1:2016 for NO removal (NO ISO) using commercial “self-cleaning” materials, including the impact of the formation of a surface layer of HNO3, resulting in decreasing NO and NOx removal activity with increasing irradiation time. In addition to this the effect of accelerated weathering on the NOx removing activity exhibited by exterior photocatalytic paints is explored, this work was carried out in collaboration with Prof. J. Krysa at UCT in Prague. Throughout this work it was found that no significant photocatalytic activity occurred without “standard” accelerated weathering (cycles of 0.76 mW cm-2 , 8 h at 50 oC, followed by 4 h at 60 oC in the dark), although two samples were also activated by ‘condensation-only’ weathering (cycles of 4 h at 60 oC in the dark), due to the initial loss of surface silicate binder. A supersensitive test (SST) for photocatalytic activity was developed to assess the activities of materials that show little, if any activity when tested using the NO ISO. An expression is derived which relates rate, thereby photocatalytic activity, directly to the average %NO removed, measured under either standard ISO or SST conditions, where the latter value is directly related to the photocatalytic area, A, and the reciprocal of the flow rate, 1/f. This relationship allows all %NOrem values < 25%, measured using either standard ISO or SST conditions, to be combined to create a universal scale of photocatalytic activity. This work identified commercial photocatalytic materials, such as tiles, that were of such low activity that even this test was unable to measure the activity leading to the development of a new silver ion photocatalytic activity indicator ink, paii that can probe even very low activity photocatalytic materials via a striking colour change from colourless to brown-black upon illumination with UV light. During this work, it became apparent that the photodeposition of Ag metal onto commercial photocatalytic films such as that on self-cleaning glass, could be used to produce highly conducting wires, investigated initially for demisting purposes. A study of Ag-particle growth on sol-gel TiO2 films demonstrated the necessity of overlapping island growth of the Ag-particles to enable conduction.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Rachel Andrews"
-      ],
-      "corresponding_affiliations": [
-        "Queen's University Belfast, United Kingdom"
-      ],
-      "corresponding_source": "openalex_explicit_author_profile",
-      "title_zh": "光触媒测试与开发",
-      "corresponding_affiliations_zh": [
-        "贝尔法斯特女王大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -584,44 +485,6 @@
       "title_zh": "绿色溶剂中的可见光光催化：机理见解、工艺集成和可持续设计策略",
       "corresponding_affiliations_zh": [
         "卡尔巴拉大学，IQ"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Unlocking Li/Mg‐Based Photochemical Nitration Platforms for Anticancer Drug Discovery",
-      "authors": [
-        "Qian Wan",
-        "Jiali Zhu",
-        "Shanshuo Liu",
-        "Luchuan Ou",
-        "Huizhen Wang",
-        "Yu Lan",
-        "Zhou Dong",
-        "Yihang Bai"
-      ],
-      "journal": "Advanced Science",
-      "date": "2026-09-25",
-      "doi": "10.1002/advs.77873",
-      "url": "https://doi.org/10.1002/advs.77873",
-      "abstract": "ABSTRACT The low toxicity and cost‐effectiveness of light main‐group metal photochemical systems render them highly suitable for drug development, while the redox inertness of light main‐group metals significantly hinders this goal. Herein, through the in situ assembly of readily available lithium nitrate, methoxyacetic acid, and aniline substrates, an unprecedented, mild lithium‐based photochemical system capable of producing valuable nitro radicals is established. This system enables selective C(sp 2 )–H (di‐)nitration of anilines for synthesizing nitro‐aromatic compounds as potential antitumor candidates. Further, replacing lithium nitrate with magnesium nitrate makes the reaction conditions milder, allowing lower‐energy green‐light irradiation for the (di‐)nitration. The two main‐group metal photochemical systems also enable direct late‐stage functionalization of complex drug molecules, eliminating the risk of transition metal residue and drastically simplifying the workup procedures of pharmaceutical manufacturing processes.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Linbin Niu"
-      ],
-      "corresponding_affiliations": [
-        "Zhengzhou University, China",
-        "Henan Normal University, China"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "解锁用于抗癌药物发现的锂/镁基光化学硝化平台",
-      "corresponding_affiliations_zh": [
-        "郑州大学，中国",
-        "河南师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
