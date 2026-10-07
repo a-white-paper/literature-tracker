@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "papers": [
     {
       "title": "COMBINATION OF PHOTOCATALYSIS AND CONTINUOUS-FLOW TECHNOLOGY FOR THE SYNTHESIS OF BIOACTIVE COMPOUNDS AND ITS PRECURSORS",
@@ -25,6 +25,199 @@
       "title_zh": "光催化与连续流技术相结合合成生物活性化合物及其前体",
       "corresponding_affiliations_zh": [
         "N.I. Lobachevsky 下诺夫哥罗德国立大学，俄罗斯"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "1,2-Alkylthiocyanation of 1,3-Enynes Enabled by Photoredox and Copper Catalysis",
+      "authors": [
+        "Wenchao Zhao",
+        "Ke Xiao",
+        "Wei Huang",
+        "Fenghua Zhang"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-10-05",
+      "doi": "10.1021/acs.orglett.6c03663",
+      "url": "https://doi.org/10.1021/acs.orglett.6c03663",
+      "abstract": "Abstract Propargyl thiocyanates, which contain the alkynyl group and SCN group, are significant building blocks in organic synthesis. However, there is a lack of effective and simple methods for obtaining them. Herein, we have reported a copper- and photoredox-catalyzed multicomponent reaction for 1,3-enynes, NH4SCN, and NHPI esters, enabling the efficient synthesis of propargyl thiocyanates. SET and EDA strategies were applied. This novel method features redox-neutral conditions, wide substrate scope, and good functional group compatibility. The mechanistic experiment indicates that the reaction involves a radical process.",
+      "tags": [
+        "Photocatalysis",
+        "Cu Catalysis"
+      ],
+      "relevance": 80,
+      "corresponding_authors": [
+        "Fenghua Zhang"
+      ],
+      "corresponding_affiliations": [
+        "University of Chinese Academy of Sciences, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "光氧化还原和铜催化实现 1,3-烯炔的 1,2-烷硫氰化",
+      "corresponding_affiliations_zh": [
+        "科学院大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Radical Markovnikov Hydroboration of Unactivated Terminal Alkenes With HBaza‐Type Hydroborane via a Triple Catalysis",
+      "authors": [
+        "Chang Liu",
+        "Yiyun Pan",
+        "Yu Zhang",
+        "Jie Xu",
+        "Kai Huai Yang",
+        "Peng Liu",
+        "Qiuling Song"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-04",
+      "doi": "10.1002/anie.5679433",
+      "url": "https://doi.org/10.1002/anie.5679433",
+      "abstract": "Organoboron compounds are versatile building blocks for C─C and C-heteroatom bond formation, with broad applications in drug discovery and materials science. Hydroboration of alkenes with hydroboranes is a reliable route to access organoboron compoundsssssss, yet the Markovnikov-selective hydroboration of unactivated terminal alkenes remains challenging. In this study, we report a triple catalysis strategy for the highly Markovnikov-selective hydroboration of unactivated terminal alkenes with HBaza-type hydroborane (HBaza: 1,3,2-benzodiazaborolane). The reaction exhibits a broad substrate scope and good functional group compatibility, and has been successfully applied to the Markovnikov hydroboration of alkene derivatives from complex molecules. Further derivatizations of the resulting alkyl boron products, as well as the synthesis of biologically relevant molecules or intermediates, highlight the synthetic value of this method. Mechanistic studies support that this reaction proceeds via sequential metal-hydride hydrogen atom transfer (MHAT)-mediated radical generation and HBaza-involved radical borylation process under a triple photoredox, cobalt, and Brønsted acid catalysis.",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 88,
+      "corresponding_authors": [
+        "Kai Huai Yang",
+        "Peng Liu",
+        "Qiuling Song"
+      ],
+      "corresponding_affiliations": [
+        "Fuzhou University, China",
+        "Fujian University of Technology, China",
+        "University of Pittsburgh, United States",
+        "Henan Normal University, China",
+        "Nanjing University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "未活化末端烯烃与 HBaza 型氢硼烷通过三重催化进行自由基马尔可夫尼科夫硼氢化反应",
+      "corresponding_affiliations_zh": [
+        "福州大学，中国",
+        "福建工业大学，中国",
+        "匹兹堡大学，美国",
+        "河南师范大学，中国",
+        "南京大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Unsaturated Carboxylates as Electrophilic Synthons for Transition‐Metal‐Catalyst‐Free Electroreductive Deoxygenative Coupling",
+      "authors": [
+        "Jianyou Zhao",
+        "Jiaoyang Liu",
+        "Zi‐Ao Zhang",
+        "Zhihui Sun",
+        "Fan Wang",
+        "Shuai Liu",
+        "Zhong‐Quan Liu"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-04",
+      "doi": "10.1002/anie.6256116",
+      "url": "https://doi.org/10.1002/anie.6256116",
+      "abstract": "ABSTRACT The use of ester‐derived electrophiles in transition‐metal‐free electroreductive C(sp 3 )─C(sp 3 ) bond formation remains largely unexplored. Herein, we report a sacrificial‐anode‐enabled electroreductive cross‐coupling of simple unsaturated carboxylates with unactivated alkyl halides. Aryl, alkenyl, and alkynyl carboxylates are readily incorporated, affording methylene‐bridged alkylarenes together with allylic and propargylic C(sp 3 )‐rich frameworks under mild conditions. Mechanistic studies support independent single‐electron reduction of both electrophilic partners, followed by radical‐radical coupling, alkoxide elimination, and cathodic deoxygenation via a Clemmensen‐like reduction pathway. This work establishes unsaturated carboxylates as a new class of alkylating reagents for electroreductive C(sp 3 )─C(sp 3 ) bond formation.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Shuai Liu",
+        "Zhong‐Quan Liu"
+      ],
+      "corresponding_affiliations": [
+        "Nanjing University of Information Science and Technology, China",
+        "Nanjing University, China",
+        "Nanjing University of Chinese Medicine, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "不饱和羧酸盐作为亲电合成子用于无过渡金属催化剂的电还原脱氧偶联",
+      "corresponding_affiliations_zh": [
+        "南京信息工程大学，中国",
+        "南京大学，中国",
+        "南京中医药大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Site-Selective Radical Carbonylation of Aryl Thianthrenium Salts with Gaseous CO in Flow",
+      "authors": [
+        "Zhen He",
+        "Cassandra Henderson",
+        "Julian Quévarec",
+        "Nikolaos Kaplaneris",
+        "Fabian Raymenants",
+        "Runkang Liu",
+        "Nicola Bragato",
+        "Umberto Sangalli"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-04",
+      "doi": "10.26434/chemrxiv.15009832/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009832/v1",
+      "abstract": "Site-selective carbonylation of complex arenes remains challenging, particularly when carbon monoxide must intercept short-lived radical intermediates. Here, we report a photoredox carbonylation of aryl thianthrenium salts with gaseous CO and Michael acceptors in continuous flow. Pressurized gas–liquid flow facilitates the interception of photogenerated aryl radicals by CO, generating acyl radicals that subsequently engage diverse Michael acceptors to furnish 1,4-dicarbonyl derivatives. The method is compatible with a broad range of functional groups, heterocycles, pharmaceuticals, and natural-product-derived substrates, and its synthetic utility is demonstrated through a three-step synthesis of fenbufen from biphenyl and diversification of a salicin-derived 1,4-diketone into several heterocycles. This strategy combines siteselective arene thianthrenation with flow radical carbonylation, providing a versatile approach to the late-stage installation of carbonyl-containing motifs in complex molecules.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Timothy Noël"
+      ],
+      "corresponding_affiliations": [
+        "Flow Chemistry Group",
+        "Van ’t Hoff Institute for Molecular Sciences (HIMS), University of Amsterdam"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "芳基噻烯盐与气态 CO 在流动中的位点选择性自由基羰基化",
+      "corresponding_affiliations_zh": [
+        "流动化学组",
+        "阿姆斯特丹大学范特霍夫分子科学研究所 (HIMS)"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "All-in-One Photocatalytic-Photothermal-SERS Nanoknives Platform for Solar-Driven Inactivation of Antibiotic-Resistant Superbugs and Selective Azoaromatic Synthesis",
+      "authors": [
+        "Shivangee Rai",
+        "Olorunsola Praise Kolawole",
+        "Silas Dillon",
+        "Ronak Nana",
+        "Megan Davis",
+        "Ashvik Senthil",
+        "Avijit Pramanik",
+        "Sanchita Kundu"
+      ],
+      "journal": "ACS Omega",
+      "date": "2026-10-04",
+      "doi": "10.1021/acsomega.6c08701",
+      "url": "https://doi.org/10.1021/acsomega.6c08701",
+      "abstract": "Abstract Harnessing sunlight-driven renewable energy provides a sustainable strategy for the rapid eradication of antibiotic-resistant superbugs and selective organic synthesis. However, the development of highly efficient solar photocatalytic materials remains a significant challenge. Herein, we report the rational design of a plasmonic MXene-Ag@Au-nanostar based all-in-one photocatalytic-photothermal-SERS nanoknives platform that harnesses solar energy to simultaneously achieve highly efficient inactivation of antibiotic-resistant superbugs and selective azoaromatic synthesis. By synergistically integrating broad-spectrum solar harvesting (350–950 nm), high photothermal conversion efficiency (∼70%), intense SERS enhancement, and efficient hot-electron and reactive oxygen species (ROS) generation, the heterostructure delivers exceptional photocatalytic activity toward selective azoaromatic synthesis. Under solar irradiation, the multifunctional nanoplatform promotes the selective oxidation of 4-aminothiophenol (4-ATP) to 4,4′-dimercaptoazobenzene (4,4′-DMAB) with conversion yields exceeding 69%, while enabling the selective reduction of 4-nitrothiophenol (4-NTP) to 4,4′-DMAB with conversion efficiencies greater than 72%. Mechanistic investigations further demonstrated that ROS, photothermal heating, and hot-carrier transfer collectively contribute to the remarkably enhanced photocatalytic performance. Furthermore, the heterostructure achieved rapid solar-driven inactivation of carbapenem-resistant E. coli, multidrug-resistant Salmonella DT104, and MRSA superbugs, within 15–25 min of irradiation. Mechanistic investigations revealed that the outstanding superbug inactivation activity originated from the synergistic interplay of MXene nanoknives that physically disrupted bacterial membranes, which facilitates the penetration of ROS into bacterial cells, resulting in severe oxidative stress and rapid cell death. Collectively, this work establishes a strategy for designing active-site-engineered “All-in-One” platforms for sustainable solar-driven chemical synthesis and rapid superbug inactivation.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Paresh Chandra Ray"
+      ],
+      "corresponding_affiliations": [
+        "Jackson State University, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "用于太阳能驱动抗生素抗性超级细菌灭活和选择性偶氮芳香族化合物合成的一体化光催化-光热-SERS纳米刀平台",
+      "corresponding_affiliations_zh": [
+        "杰克逊州立大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -57,7 +250,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "镍姜黄素催化铃木宫浦交叉偶联的实验及密度泛函理论研究",
       "corresponding_affiliations_zh": [
-        "RNS 理工学院化学系，R R Nagar，班加罗尔，560098，印度"
+        "RNS 理工学院化学系，RR Nagar，班加罗尔，560098，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -98,45 +291,6 @@
         "基米卡加泰罗尼亚调查研究所，西班牙",
         "巴塞罗那科学技术学院，西班牙",
         "国立大学，新加坡"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Adaptive Cinchona Alkaloid-Derived Organoboron Crystalline Sponges Enable Enantioseparation of Weakly Interacting Molecules",
-      "authors": [
-        "Maximilian Rajski",
-        "Michał Terlecki",
-        "Iwona Justyniak",
-        "Arkadiusz Kornowicz",
-        "Michał Krzysztof Leszczyński",
-        "Mikołaj Cieślak",
-        "Janusz Lewiński"
-      ],
-      "journal": "Journal of the American Chemical Society",
-      "date": "2026-10-02",
-      "doi": "10.1021/jacs.6c09766",
-      "url": "https://doi.org/10.1021/jacs.6c09766",
-      "abstract": "Abstract The enantioseparation of small, weakly interacting organic molecules remains a fundamental challenge, as they lack the functional groups required for efficient chiral recognition. Consequently, their enantiopure forms are typically accessed via asymmetric synthesis rather than resolution. Herein, we demonstrate that adaptive supramolecular crystalline sponges assembled from air- and moisture-stable cinchona alkaloid-derived organoboron complexes enable efficient enantiodiscrimination of small ethers, lactones, and cyclic ketones through guest inclusion within porous crystalline frameworks. Structural analysis reveals that enantioselectivity arises from adaptive confinement within homochiral cavities, where subtle framework rearrangements and modulation of cavity volume amplify cooperative weak host–guest interactions. Systematic tuning of the molecular building blocks affords crystalline sponges capable of resolving challenging substrates such as the biobased green solvent 2-methyltetrahydrofuran, γ-valerolactone, and methylcyclohexanone isomers with enantiomeric excesses of up to 76%. These findings establish adaptive confinement in supramolecular crystalline sponges as a general mechanism for chiral discrimination in the solid state and provide a conceptual framework for enantioseparation beyond conventional crystallization-based approaches.",
-      "tags": [
-        "Boron Chemistry"
-      ],
-      "relevance": 72,
-      "corresponding_authors": [
-        "Janusz Lewiński"
-      ],
-      "corresponding_affiliations": [
-        "Warsaw University of Technology, Poland",
-        "Institute of Physical Chemistry, Poland",
-        "Polish Academy of Sciences, Poland"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "适应性金鸡纳生物碱衍生的有机硼结晶海绵能够实现弱相互作用分子的对映分离",
-      "corresponding_affiliations_zh": [
-        "华沙理工大学，波兰",
-        "物理化学研究所，波兰",
-        "科学院，波兰"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -209,38 +363,6 @@
         "催化与石油化学研究所，俄罗斯",
         "萨尔州亥姆霍兹药物研究所，德国",
         "萨尔大学，德国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "In situ Activation of Ni(II) with Boronic Acids and Application of a Phosphasilinane Ligand enable the Suzuki-Miyaura Cross-Coupling of Deactivated (Hetero)Aryl Chlorides",
-      "authors": [
-        "Christoph Kremser",
-        "Dino Berthold",
-        "Alexander F. Siegle",
-        "Oliver Trapp"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-01",
-      "doi": "10.26434/chemrxiv.15009720/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15009720/v1",
-      "abstract": "The important substitution of costly palladium catalysts with earth-abundant nickel alternatives in Suzuki-Miyaura cross-coupling reactions is still problematic for challenging substrates, such as heteroaryls and (hetero)aryl chlorides. In this context, we report the application of low Vbur and electron-rich biaryl-based phosphasilinane ligands in nickel-catalyzed Suzuki-Miyaura cross-coupling reaction of electron-rich (hetero)aryl-chlorides with aryl boronic acid substrates, at catalyst loadings as low as 0.5 mol-% on gram-scale synthesis. To overcome the use of unstable Ni(0)-sources, the activation of cheap and bench-stable L2NiCl2 precatalysts with boronic acids was investigated and successfully applied, e.g., in the synthesis of intermediates for agrochemical and pharmaceutical products. Furthermore, this method enabled the synthesis of bench- and base-stable L2Ni(3-furyl)Cl complex, which was directly applied in cross-coupling reactions.",
-      "tags": [
-        "Boron Chemistry"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Oliver Trapp"
-      ],
-      "corresponding_affiliations": [
-        "Ludwig-Maximilians-Universität München, Germany"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "用硼酸原位活化 Ni(II) 并应用磷硅烷配体实现失活（杂）芳基氯化物的 Suzuki-Miyaura 交叉偶联",
-      "corresponding_affiliations_zh": [
-        "路德维希马克西米利安慕尼黑大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -558,38 +680,6 @@
       "corresponding_affiliations_zh": [
         "罗德岛大学，美国",
         "科尔盖特大学，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Trifluoromethylated Heterocycles via Intramolecular Cyclisation: Evolution From Traditional to Green Synthesis",
-      "authors": [
-        "Heng Li",
-        "Xiaowen Qin",
-        "Zhiping Yin"
-      ],
-      "journal": "Advanced Synthesis & Catalysis",
-      "date": "2026-09-06",
-      "doi": "10.1002/adsc.70749",
-      "url": "https://doi.org/10.1002/adsc.70749",
-      "abstract": "The principles of green chemistry have driven modern organic synthesis toward processes that are more efficient, less toxic, and atom‐economical. This review systematically summarizes recent advances in the synthesis of trifluoromethylated heterocycles. The review outlines the structural characteristics and reactivity profiles of electrophilic, nucleophilic, and radical trifluoromethylating reagents. It then explores traditional synthetic strategies, including transition‐metal catalysis (Pd, Cu, and Ag) and metal‐free thermal/chemical oxidant‐mediated reactions. Subsequently, a strong emphasis is placed on emerging green synthetic methodologies. These encompass visible‐light photocatalysis (involving homogeneous Ru/Ir complexes, organic photocatalysts, heterogeneous photocatalysis, and catalyst‐free photochemistry), electrochemistry (anodic oxidation and cathodic reduction), as well as photoelectrocatalysis, mechanochemical and enzymatic catalysis for constructing trifluoromethylated heterocyclic frameworks via cascade cyclisation. Each of these approaches exhibits distinct advantages in terms of reaction efficiency, substrate scope, stereoselectivity, and environmental friendliness. Notably, electrochemical and photocatalytic methods stand out due to their avoidance of chemical oxidants and mild conditions. Meanwhile, enzymatic catalysis offers a novel route for the asymmetric synthesis of chiral trifluoromethylated heterocycles. This review aims to provide a valuable reference for the green, efficient, and precise synthesis of trifluoromethylated heterocycles.",
-      "tags": [
-        "Electrochemistry",
-        "Photocatalysis"
-      ],
-      "relevance": 68,
-      "corresponding_authors": [
-        "Zhiping Yin"
-      ],
-      "corresponding_affiliations": [
-        "Jiangsu University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "通过分子内环化的三氟甲基化杂环：从传统合成到绿色合成的演变",
-      "corresponding_affiliations_zh": [
-        "江苏大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
