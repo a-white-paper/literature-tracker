@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "papers": [
     {
       "title": "COMBINATION OF PHOTOCATALYSIS AND CONTINUOUS-FLOW TECHNOLOGY FOR THE SYNTHESIS OF BIOACTIVE COMPOUNDS AND ITS PRECURSORS",
@@ -8,8 +8,8 @@
       ],
       "journal": "Zenodo (CERN European Organization for Nuclear Research)",
       "date": "2026-10-07",
-      "doi": "10.5281/zenodo.23059309",
-      "url": "https://doi.org/10.5281/zenodo.23059309",
+      "doi": "10.5281/zenodo.23059308",
+      "url": "https://doi.org/10.5281/zenodo.23059308",
       "abstract": "The combination of photoredox catalysis and continuous-flow technology provides a powerful approach to the synthesis of valuable organic compounds that are difficult to access using traditional stoichiometric or metal-catalyzed methods. The precise control of reaction parameters, efficient irradiation, and enhanced mass and heat transfer offered by continuous-flow systems can improve the efficiency, reproducibility, and scalability of photochemical transformations. We have developed several efficient continuous-flow approaches to photochemical transformations, enabling the synthesis of bioactive compounds, their precursors, and derivatives. These include trifluoromethylation of (het)arenes [1], N-(hetero)arylation of amines [2], C(sp3)-heteroarylation [3], trifluoromethoxylation [4] and photocatalytic E→Z isomerization of alkenes. In these transformations, continuous-flow technology enabled efficient light utilization and precise control over reaction conditions, providing a practical platform for the development and intensification of photochemical synthetic processes. Overall, our results demonstrate the potential of combining photoredox catalysis with continuous-flow technology for the efficient synthesis of structurally diverse and potentially bioactive organic compounds, while offering opportunities for improved scalability and process efficiency.",
       "tags": [
         "Photocatalysis"
@@ -25,6 +25,115 @@
       "title_zh": "光催化与连续流技术相结合合成生物活性化合物及其前体",
       "corresponding_affiliations_zh": [
         "N.I. Lobachevsky 下诺夫哥罗德国立大学，俄罗斯"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "N -Acyl Hemiperaminals: From Bioactive Skeleton Editing of Artemisinin to Programmable Handles for α-Amido Functionalization and Bioactive Peroxides",
+      "authors": [
+        "Yuda Li",
+        "Han Gao",
+        "Jian‐Liang Ye",
+        "Hangtao Zhou",
+        "Qian Zhu",
+        "Dunpu Rao",
+        "Li Li",
+        "Lihua Wang"
+      ],
+      "journal": "JACS Au",
+      "date": "2026-10-06",
+      "doi": "10.1021/jacsau.6c00996",
+      "url": "https://doi.org/10.1021/jacsau.6c00996",
+      "abstract": "Abstract Late-stage molecular editing is vital for drug diversification and SAR studies. However, programmable peroxide-based editing handles for amides, α-amino acids, peptide- and drug-relevant scaffolds remain largely unexplored, particularly N-acyl hemiperaminals. Inspired by the molecular editing conception for the bioactive skeleton of artemisinin, we report herein efficient syntheses of structurally diverse N-acyl hemiperaminals via aerobic photocatalytic α-amido C–H oxidative functionalization and oxidative decarboxylative coupling of α-amino acids. Notably, the oxidative decarboxylative of dipeptides and tripeptides facilitates the late-stage modification of peptidomimetic drugs and drug-derived scaffolds. Investigations into the chemical properties of N-acyl hemiperaminals suggest their potential as programmable molecular editing handles for the facile construction of α-amido C–C bonds via Lewis acid-catalyzed nucleophilic substitution and titanocene-catalyzed radical cross-coupling. Importantly, as the derivatives, O-alkylated peroxides exhibit potent antimalarial activity, and 6-amido-1,2,4-trioxanes demonstrate powerful and broad-spectrum anticancer activities. This work will enhance the investigation and application of organic peroxides, advancing novel pharmaceuticals by establishing these peroxides as versatile editing linchpins.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 82,
+      "corresponding_authors": [
+        "Xiao Zheng"
+      ],
+      "corresponding_affiliations": [
+        "Xiamen University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "N-酰基半胺醛：从青蒿素的生物活性骨架编辑到 α-氨基功能化和生物活性过氧化物的可编程手柄",
+      "corresponding_affiliations_zh": [
+        "厦门大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Modular Synthesis of γ-Chloro Ketones through Carbochlorination of Alkenes Mediated by Copper(I) Photoredox Catalysis",
+      "authors": [
+        "Finn Hagen",
+        "Sabrina L. Simmet",
+        "Hanno Stuntebeck",
+        "Kevin T. A. Dang",
+        "Tobias Morack"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-10-06",
+      "doi": "10.1021/acscatal.6c06764",
+      "url": "https://doi.org/10.1021/acscatal.6c06764",
+      "abstract": "Abstract γ-Chloro ketones are multifunctional synthons that serve as versatile linchpins for the rapid assembly of molecular complexity. Despite this strategic value, their broader adoption remains conspicuously limited as a consequence of the intrinsic challenges associated with their preparation. Herein, we report a visible-light-driven, copper-catalyzed carbochlorination of alkenes that provides γ-chloro ketones from readily available α-chloro analogues. The resulting products engage as versatile building blocks, enabling direct access to a range of heterocycles, (spiro-)cyclopropanes, and γ-functionalized ketones. A key feature of this transformation is the use of heteroleptic Cu(I) photocatalysts, which combine strong reducing power in the excited state with ligand exchange processes that enable terminal bond formation at the copper center. This duality enables reactivity that is not readily accessed with common organic or iridium-based photocatalysts. Mechanistic studies support the involvement of two active photocatalytic species that together enable the challenging access to α-keto radicals from α-chloro ketones. They further underscore the role of the dmp ligand in stabilizing Cu(II) intermediates, thereby facilitating carbon−chlorine bond formation. This simple and efficient methodology provides expedient access to multifunctional building blocks, set up for downstream diversification.",
+      "tags": [
+        "Photocatalysis",
+        "Cu Catalysis"
+      ],
+      "relevance": 74,
+      "corresponding_authors": [
+        "Tobias Morack"
+      ],
+      "corresponding_affiliations": [
+        "Heidelberg University, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "铜(I)光氧化还原催化下烯烃碳氯化模块化合成γ-氯代酮",
+      "corresponding_affiliations_zh": [
+        "海德堡大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Phosphate‐Modulated Asymmetric Copper Catalysis for Photochemical Enantioselective S ‐Benzylation of Sulfenamides",
+      "authors": [
+        "Jia‐Bin Liao",
+        "Longxiao Chi",
+        "Mingyao Pan",
+        "Xianda Wu",
+        "Chaoyang Wang",
+        "Shaofeng Wu",
+        "Guo Tang",
+        "Lei Gong"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-05",
+      "doi": "10.1002/anie.1388948",
+      "url": "https://doi.org/10.1002/anie.1388948",
+      "abstract": "S-stereogenic sulfilimines constitute valuable S(IV)-based scaffolds widely encountered in chiral ligands, pharmaceuticals, and bioactive molecules, yet their catalytic enantioselective construction remains a formidable challenge. Herein, we report a versatile copper catalytic platform assembled from a chiral pyridine-oxazoline (PyOx) ligand, a bulky phosphate, and a Cu(I) salt to generate the active catalyst. This chiral copper/PyOx/phosphate system accommodates three mechanistically distinct radical-generation pathways upon light irradiation, encompassing single-electron transfer reduction of Katritzky salts, proton-coupled electron transfer decarboxylation of carboxylic acids, and hydrogen atom transfer activation of toluene derivatives. Such flexibility enables efficient asymmetric radical benzylation of readily accessible sulfenamides under mild conditions. Mechanistic investigations reveal that the phosphate anion serves a multifunctional role, modulating the copper coordination sphere and stabilizing key copper-sulfur intermediates, which collectively boost both reactivity and enantioselectivity. The methodology delivers enantioenriched sulfilimines with broad substrate scope and operational simplicity. This work establishes a general blueprint for integrating multiple radical-generation modes into a single stereocontrolled catalytic framework, demonstrating that rational modulation of the secondary coordination sphere can unlock new possibilities in stereoselective radical chemistry.",
+      "tags": [
+        "Photocatalysis",
+        "Cu Catalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 92,
+      "corresponding_authors": [
+        "Lei Gong"
+      ],
+      "corresponding_affiliations": [
+        "Xiamen University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "磷酸盐调节不对称铜催化亚磺酰胺光化学对映选择性S-苄基化",
+      "corresponding_affiliations_zh": [
+        "厦门大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -58,6 +167,216 @@
       "title_zh": "光氧化还原和铜催化实现 1,3-烯炔的 1,2-烷硫氰化",
       "corresponding_affiliations_zh": [
         "科学院大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Hypoboric Acid Catecholate (HAC) Catalysis for Stereoselective Decarboxylative Borylation of Redox-Active Esters",
+      "authors": [
+        "Stefanie V. Kohlhepp",
+        "Matteo Costantini",
+        "Beatriz Meana-Baamonde",
+        "Abraham Mendoza"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-05",
+      "doi": "10.26434/chemrxiv.15009869/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009869/v1",
+      "abstract": "The Hypoboric Acid Catecholate (HAC) is a new class of diboron reagent bearing a borylcatecholato and a boronic acid moiety. Herein, we demonstrate that HACs can also be expontaneously formed in situ from collections of catechols and hypoboric acid. These HACs catalyze the decarboxylative borylation of redox-active esters, providing superior reactivity and selectivity. Equilibrium and kinetic NMR experiments indicate that the catalytic turnover is enabled by the high affinity of catechols for hypoboric acid and their low affinity for boronic acids that is uncovered herein. The catalytic system operates in mild conditions and is robust towards air and moisture, demonstrating its utility in the synthesis of important medicinally-relevant boronates. The enhanced selectivity is sourced in the regioselective radical capture by HAC intermediates at their customized borylcatecholato moiety, which can easily be stereoelectronically tailored for specific applications. These features of the catalytic approach with unsymmetrical HACs presented herein contrast with current state-of-the-art methods based on stoichiometric symmetrical diboron reagents.",
+      "tags": [
+        "Boron Chemistry",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 76,
+      "corresponding_authors": [
+        "Abraham Mendoza"
+      ],
+      "corresponding_affiliations": [
+        "Parc Científic de la Universitat de València, Spain"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "次硼酸儿茶酚酸酯 (HAC) 催化氧化还原活性酯的立体选择性脱羧硼基化",
+      "corresponding_affiliations_zh": [
+        "瓦伦西亚大学科学公园，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "N‐Heterocyclic Carbene‐Triarylamine Hybrids as Redox‐Tunable Organophotocatalysts for Radical Cross‐Coupling Reactions",
+      "authors": [
+        "Wei Ding",
+        "Fang‐Yu Bian",
+        "Decheng Fu",
+        "Yujia Liu",
+        "Xin Li",
+        "Ying‐Feng Han"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-05",
+      "doi": "10.1002/anie.3699223",
+      "url": "https://doi.org/10.1002/anie.3699223",
+      "abstract": "Visible-light-induced photoredox catalysis has emerged as a powerful platform for organic radical transformations under mild conditions. In this field, the development of efficient photocatalysts plays a crucial role. Conventional ruthenium and iridium polypyridyl photocatalysts are limited by the expense of these precious metals. From a sustainable perspective, organic photocatalysts represent cost-effective and mild alternatives to photoredox catalysis; however, tuning their redox properties often requires complicated synthetic approach. Here we introduce N-heterocyclic carbene-triarylamine hybrids as novel donor-acceptor-type organophotocatalysts. These hybrids feature with facile structural modification, broad intramolecular charge-transfer absorption bands, and tunable redox potentials. Furthermore, these new photocatalysts have been successfully utilized for five distinct visible-light-induced redox-neutral radical cross-coupling reactions (94 examples, up to 99% yield). Mechanistic studies indicate that visible-light irradiation of the photocatalyst generates a charge-shifted excited state through photoinduced intramolecular electron transfer. This finding has a guiding significance for the design and development of new organophotocatalysts.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Wei Ding",
+        "Xin Li",
+        "Ying‐Feng Han"
+      ],
+      "corresponding_affiliations": [
+        "Henan University of Technology, China",
+        "Zhengzhou University, China",
+        "Northwest University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "N-杂环卡宾-三芳胺杂化物作为氧化还原可调有机光催化剂用于自由基交叉偶联反应",
+      "corresponding_affiliations_zh": [
+        "河南工业大学，中国",
+        "郑州大学，中国",
+        "西北大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalyst‐Free Hydrodifluoromethylation of Alkenes via Thiol‐Mediated Photoactivation of Zn(CF 2 H) 2 (DMPU) 2",
+      "authors": [
+        "Hyunsu Kim",
+        "Hyunsu Kim",
+        "Seonyoung Kim",
+        "Hyunwoo Kim",
+        "Hyunwoo Kim"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-10-05",
+      "doi": "10.1002/adsc.70802",
+      "url": "https://doi.org/10.1002/adsc.70802",
+      "abstract": "Herein, we report a photocatalyst‐free hydrodifluoromethylation of alkenes using Zn(CF 2 H) 2 (DMPU) 2 and thiophenols under 390 nm irradiation. The thiophenol serves a dual stoichiometric function, promoting the formation of a photoactive thiol‐modified organozinc species while acting as the terminal hydrogen‐atom donor. The reaction is applicable to styrenes, electron‐rich and electron‐deficient alkenes, and 1,1‐disubstituted alkenes, as well as selected internal and unactivated aliphatic alkenes. Its synthetic utility is further demonstrated by the late‐stage difluoromethylation of biologically relevant molecules. Preliminary mechanistic investigations, including radical‐clock experiments, spectroscopic analysis, and 19 F NMR experiments, support a radical pathway involving thiophenol‐induced speciation and photoactivation of the organozinc reagent, followed by hydrogen‐atom transfer to the resulting carbon‐centered radical. These findings establish thiophenol‐mediated photoactivation as a distinct strategy for exploiting Zn(CF 2 H) 2 (DMPU) 2 in radical difluoromethylation.",
+      "tags": [
+        "Photocatalysis",
+        "Difluoromethylation"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Hyunsu Kim",
+        "Seonyoung Kim",
+        "Hyunwoo Kim"
+      ],
+      "corresponding_affiliations": [
+        "Pohang University of Science and Technology, South Korea"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过硫醇介导的 Zn(CF 2 H) 2 (DMPU) 2 光活化实现烯烃的无光催化剂氢二氟甲基化",
+      "corresponding_affiliations_zh": [
+        "浦项科技大学，韩国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Consecutive hydrodefluorination for the regioselective synthesis of partially fluorinated arenes",
+      "authors": [
+        "Yanxian Tan",
+        "Howard Toh",
+        "Chieh-Yu Chang",
+        "Phillip S. Grant"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-05",
+      "doi": "10.26434/chemrxiv.15009852/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009852/v1",
+      "abstract": "Fluorinated arenes are critically important motifs in drug discovery, often exhibiting superior bioactivity compared to their non-fluorinated counterparts. While advances in fluorination methods have improved access to monofluoroarenes, the synthesis of di- and trifluoroarenes remains challenging. Here, we present a powerful method for access to partially fluorinated arenes via consecutive hydrodefluorination of perfluoroarenes, executed in one ‘pot’. This method utilises hydridosilicates as the reducing species, which are formed in situ by the combination of phenylsilane and cesium carbonate in dimethylsulfoxide. These conditions avoid precious metal catalysts and exotic reagents, exhibiting exceptional regioselectivity and control over the degree of defluorination. Through an in-depth mechanistic study, we found that hydridosilicates can perform hydrodefluorination by two distinct mechanisms, one thermal and one photochemical. These mechanisms are complementary in substrate scope—together, they enable a method with notable generality.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Phillip S. Grant"
+      ],
+      "corresponding_affiliations": [
+        "Nanyang Technological University, Singapore"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "连续加氢脱氟区域选择性合成部分氟化芳烃",
+      "corresponding_affiliations_zh": [
+        "南洋理工大学，新加坡"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Hypervalent Iodine‐Mediated Oxidative Cleavage of Ethylenediamine Derivatives and Its Application to Ring Contraction",
+      "authors": [
+        "Daiki Higuchi",
+        "Wakana Ito",
+        "Takaya Tomoike",
+        "Takeshi Sugiyama",
+        "Ryo Nakajima",
+        "Kazuki Kawanaka",
+        "Kota Hashimoto",
+        "Satoshi Matsubara"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-10-05",
+      "doi": "10.1002/adsc.70772",
+      "url": "https://doi.org/10.1002/adsc.70772",
+      "abstract": "Hypervalent iodine‐mediated oxidative cleavage of ethylenediamine derivatives enables direct access to imines from readily available substrates. The method proceeds under mild conditions, tolerates diverse sulfonamides, and is applicable to one‐pot transformations and ring contraction reactions, offering a versatile approach to nitrogen‐containing scaffolds.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Kei Murakami"
+      ],
+      "corresponding_affiliations": [
+        "Kwansei Gakuin University, Japan"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "高价碘介导的乙二胺衍生物的氧化裂解及其在环收缩中的应用",
+      "corresponding_affiliations_zh": [
+        "关西学院大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Chiral Intramolecular Ether–Borane FLPs for Asymmetric Ketone Hydrogenation",
+      "authors": [
+        "Nikolay V. Shcherbakov",
+        "Julius K. Kräutle",
+        "Josep Mas‐Roselló"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-05",
+      "doi": "10.26434/chemrxiv.15009927/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009927/v1",
+      "abstract": "Asymmetric hydrogenation of ketones remains challenging in frustrated Lewis pair (FLP) catalysis, largely because the low basicity of ketones places stringent demands on both H 2 activation and stereocontrol. Here we introduce binaphthyl ether–boranes (BINEBs), a new class of chiral intramolecular FLPs featuring a bis-ether Lewis base tethered to a strongly Lewis acidic borane on an axially chiral binaphthyl scaffold. BINEBs catalyze the asymmetric hydrogenation of a broad range of aromatic ketones, delivering chiral secondary alcohols with high enantioselectivities. This platform also enables the first metal-free kinetic resolution of cyclic α-haloketones using H 2 as the reductant, providing enantioenriched cis-halohydrins with selectivity factors (s) exceeding 200. Mechanistic studies and DFT calculations support a multifunctional role for the key intramolecular bis-ether motif: it mediates heterolytic H 2 cleavage and, following proton transfer to the ketone, remains engaged through hydrogen bonding, orienting the substrate for stereoselective hydride transfer. This study illustrates how covalent Lewis acid–base preorganization can enhance substrate recognition and stereocontrol, providing catalyst design principles that may open opportunities in asymmetric FLP hydrogenation and Lewis acid catalysis.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Josep Mas‐Roselló"
+      ],
+      "corresponding_affiliations": [
+        "ETH Zurich, Switzerland",
+        "Laboratory of Organic Chemistry, Switzerland"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "用于不对称酮氢化的手性分子内醚-硼烷 FLP",
+      "corresponding_affiliations_zh": [
+        "苏黎世联邦理工学院，瑞士",
+        "有机化学实验室，瑞士"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -182,115 +501,6 @@
       "corresponding_affiliations_zh": [
         "流动化学组",
         "阿姆斯特丹大学范特霍夫分子科学研究所 (HIMS)"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "All-in-One Photocatalytic-Photothermal-SERS Nanoknives Platform for Solar-Driven Inactivation of Antibiotic-Resistant Superbugs and Selective Azoaromatic Synthesis",
-      "authors": [
-        "Shivangee Rai",
-        "Olorunsola Praise Kolawole",
-        "Silas Dillon",
-        "Ronak Nana",
-        "Megan Davis",
-        "Ashvik Senthil",
-        "Avijit Pramanik",
-        "Sanchita Kundu"
-      ],
-      "journal": "ACS Omega",
-      "date": "2026-10-04",
-      "doi": "10.1021/acsomega.6c08701",
-      "url": "https://doi.org/10.1021/acsomega.6c08701",
-      "abstract": "Abstract Harnessing sunlight-driven renewable energy provides a sustainable strategy for the rapid eradication of antibiotic-resistant superbugs and selective organic synthesis. However, the development of highly efficient solar photocatalytic materials remains a significant challenge. Herein, we report the rational design of a plasmonic MXene-Ag@Au-nanostar based all-in-one photocatalytic-photothermal-SERS nanoknives platform that harnesses solar energy to simultaneously achieve highly efficient inactivation of antibiotic-resistant superbugs and selective azoaromatic synthesis. By synergistically integrating broad-spectrum solar harvesting (350–950 nm), high photothermal conversion efficiency (∼70%), intense SERS enhancement, and efficient hot-electron and reactive oxygen species (ROS) generation, the heterostructure delivers exceptional photocatalytic activity toward selective azoaromatic synthesis. Under solar irradiation, the multifunctional nanoplatform promotes the selective oxidation of 4-aminothiophenol (4-ATP) to 4,4′-dimercaptoazobenzene (4,4′-DMAB) with conversion yields exceeding 69%, while enabling the selective reduction of 4-nitrothiophenol (4-NTP) to 4,4′-DMAB with conversion efficiencies greater than 72%. Mechanistic investigations further demonstrated that ROS, photothermal heating, and hot-carrier transfer collectively contribute to the remarkably enhanced photocatalytic performance. Furthermore, the heterostructure achieved rapid solar-driven inactivation of carbapenem-resistant E. coli, multidrug-resistant Salmonella DT104, and MRSA superbugs, within 15–25 min of irradiation. Mechanistic investigations revealed that the outstanding superbug inactivation activity originated from the synergistic interplay of MXene nanoknives that physically disrupted bacterial membranes, which facilitates the penetration of ROS into bacterial cells, resulting in severe oxidative stress and rapid cell death. Collectively, this work establishes a strategy for designing active-site-engineered “All-in-One” platforms for sustainable solar-driven chemical synthesis and rapid superbug inactivation.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Paresh Chandra Ray"
-      ],
-      "corresponding_affiliations": [
-        "Jackson State University, United States"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "用于太阳能驱动抗生素抗性超级细菌灭活和选择性偶氮芳香族化合物合成的一体化光催化-光热-SERS纳米刀平台",
-      "corresponding_affiliations_zh": [
-        "杰克逊州立大学，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Experimental and density functional theory investigation of nickel curcumin catalyzed Suzuki Miyaura cross coupling",
-      "authors": [
-        "N. Asharani",
-        "S. Supriya",
-        "Dileep Ramakrishna",
-        "T. Jeevananda",
-        "Ranganatha S"
-      ],
-      "journal": "Scientific Reports",
-      "date": "2026-10-03",
-      "doi": "10.1038/s41598-026-71772-z",
-      "url": "https://doi.org/10.1038/s41598-026-71772-z",
-      "abstract": "Abstract The development of sustainable and cost-effective catalysts for carbon–carbon bond formation remains an important goal in modern organic synthesis. In the present study, a nickel–curcumin complex was investigated towards catalytic applications on Suzuki–Miyaura cross-coupling reactions between aryl halides and arylboronic acids. The catalytic system showed good performance under mild reaction conditions using methanol as the solvent and a low catalyst loading. Reaction parameters such as solvent, base, temperature, and catalyst concentration were systematically optimized using a model reaction. Under the optimized conditions, a variety of substituted aryl iodides, bromides, and chlorides were successfully coupled to give the corresponding biaryl products in moderate to excellent yields. The catalyst exhibited good functional group tolerance and consistent catalytic efficiency across different substrates. Mercury poisoning and radical trapping experiments suggested that the reaction proceeds mainly through a homogeneous catalytic pathway. The combination of naturally derived curcumin as a ligand with earth-abundant and low-cost nickel highlights the sustainable nature of this catalytic system. To the best of our knowledge, this is the first report describing the catalytic application of a nickel–curcumin complex in Suzuki–Miyaura cross-coupling reactions, which may provide opportunities for the further development of curcumin-based catalysts in organic synthesis.",
-      "tags": [
-        "Boron Chemistry"
-      ],
-      "relevance": 66,
-      "corresponding_authors": [
-        "Dileep Ramakrishna"
-      ],
-      "corresponding_affiliations": [
-        "Department of Chemistry, RNS Institute of Technology, R R Nagar, Bengaluru, 560098, India"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "镍姜黄素催化铃木宫浦交叉偶联的实验及密度泛函理论研究",
-      "corresponding_affiliations_zh": [
-        "RNS 理工学院化学系，RR Nagar，班加罗尔，560098，印度"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Ag─S Sites Steer Furfural Electroreduction to Furfuryl Alcohol",
-      "authors": [
-        "Haibin Ma",
-        "Jordi Morales‐Vidal",
-        "George Teo",
-        "Muhammad Saad Naeem",
-        "Terence Jing Cong Tan",
-        "Núria López",
-        "Boon Siang Yeo"
-      ],
-      "journal": "Angewandte Chemie International Edition",
-      "date": "2026-10-03",
-      "doi": "10.1002/anie.1214768",
-      "url": "https://doi.org/10.1002/anie.1214768",
-      "abstract": "ABSTRACT The electrochemical upgrading of furfural (FF), a biomass‐derived platform molecule, using renewable electricity offers a promising route toward green and sustainable chemical synthesis. However, achieving high selectivity toward hydrogenated products, such as furfuryl alcohol (FA), remains challenging as hydrogenation competes with C─C coupling reactions that generate undesired dimers. In this study, we show that trace sulfide species introduced into the electrolyte dynamically generate Ag─S sites on Ag surfaces during electrolysis, thereby steering the FF reduction reaction toward FA formation. Using Ag disk electrodes, the introduction of 0.5 mM sulfide ions (S 2− ) into the electrolyte increases the Faradaic efficiency (FE) for FA formation from 59% to 88% and enhances its partial current density ( j FA ) from 5.4 to 12.5 mA cm −2 . X‐ray photoelectron spectroscopy, in situ Raman spectroscopy, and density functional theory simulations collectively reveal that the low‐coverage sulfide species on Ag regulate FF adsorption and facilitate proton transfer to the carbonyl oxygen, steering FA formation, while suppressing hydrofuroin (HF) formation by disrupting the Ag ensembles required for C─C coupling. Overall, our findings establish the deliberate introduction of trace sulfide into the electrolyte as a simple and potentially broadly applicable strategy to steer selectivity in the electrochemical hydrogenation of biomass‐derived furanic aldehydes.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 64,
-      "corresponding_authors": [
-        "Núria López",
-        "Boon Siang Yeo"
-      ],
-      "corresponding_affiliations": [
-        "Institut Català d'Investigació Química, Spain",
-        "Barcelona Institute of Science and Technology, Spain",
-        "National University of Singapore, Singapore"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "Ag─S位点引导糠醛电还原生成糠醇",
-      "corresponding_affiliations_zh": [
-        "基米卡加泰罗尼亚调查研究所，西班牙",
-        "巴塞罗那科学技术学院，西班牙",
-        "国立大学，新加坡"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -511,44 +721,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Photocatalytic Transannular Migration to Stereodefined Cyclobutanes and Bicyclo[2.1.1]hexanes as Benzenoid Bioisosteres",
-      "authors": [
-        "Hao-Song Ren",
-        "Jin‐Ping Xing",
-        "Hongmei Bai",
-        "De‐Xia Li",
-        "Songlin Yang",
-        "Jinlian Wei",
-        "Jun Zheng"
-      ],
-      "journal": "Angewandte Chemie International Edition",
-      "date": "2026-09-28",
-      "doi": "10.1002/anie.7845758",
-      "url": "https://doi.org/10.1002/anie.7845758",
-      "abstract": "often correlates with clinical success, driving the replacement of flat arenes with saturated carbocycles. Stereodefined 1,1,3-trisubstituted cyclobutane and 1,2,4-trisubstituted bicyclo[2.1.1]hexane (BCH) serve as bioisosteres for para- and 1,2,4-trisubstituted benzenes, respectively. Yet, general stereoselective routes to these frameworks remain underdeveloped. In this study, we report a photocatalytic transannular functional group migration (TFGM) strategy that enables highly diastereoselective synthesis of 1,1,3-trisubstituted cyclobutanes from alkylidene cyclobutanes and diverse radical precursors at room temperature. The reaction proceeds through a rigid BCH-type transition state, delivering exclusive cis-selectivity. The mild conditions accommodate broad functional group tolerance and support the migration of various groups, including heteroarenes, nitrile, aldehyde, oxime, and alkene derivatives. This platform further provides general and modular entry to 1,2,4-trisubstituted BCHs via a base-promoted 5-exo-tet cyclization and cross-coupling sequence. The resulting BCH scaffolds are effective bioisosteres of 1,2,4-trisubstituted benzenes, demonstrated by BCH-Olaparib and BCH-Fluzoparib-analogues of the anticancer drugs Olaparib and Fluzoparib. These analogues retain potent activity comparable to Olaparib in a panel of cancer cell lines (enhanced in breast and liver cells), and the preferred enantiomer of BCH-Olaparib surpasses Olaparib in PARP1 inhibition, validating 1,2,4-trisubstituted BCHs as faithful benzenoid bioisosteres for drug innovation.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 70,
-      "corresponding_authors": [
-        "Jinlian Wei",
-        "Jun Zheng"
-      ],
-      "corresponding_affiliations": [
-        "East China University of Science and Technology, China",
-        "State Key Laboratory of Bioreactor Engineering"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "光催化跨环迁移到立体定义的环丁烷和双环[2.1.1]己烷作为苯类生物等排体",
-      "corresponding_affiliations_zh": [
-        "华东理工大学，中国",
-        "生物反应器工程国家重点实验室"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Geminal Metalloid Substituents Enable Stereoselective Geometric Isomerization of Highly Substituted Alkenes via Energy-Transfer Catalysis",
       "authors": [
         "Nadim Eghbarieh",
@@ -576,37 +748,6 @@
       "title_zh": "偕类非金属取代基通过能量转移催化实现高度取代的烯烃的立体选择性几何异构化",
       "corresponding_affiliations_zh": [
         "耶路撒冷希伯来大学，以色列"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Visible-Light Photocatalysis in Green Solvents: Mechanistic Insights, Process Integration, and Sustainable Design Strategies",
-      "authors": [
-        "Hussein Ali Ahmed",
-        "Shatha Abd Aljabbar",
-        "Ahmed Zamil Hattab"
-      ],
-      "journal": "World Journal of Chemical and Pharmaceutical Sciences",
-      "date": "2026-09-27",
-      "doi": "10.53346/wjcps.2026.9.1.0030",
-      "url": "https://doi.org/10.53346/wjcps.2026.9.1.0030",
-      "abstract": "This would contribute to achieving a paradigm change in visible-light photocatalysis using green solvents that contain photoredox chemistry fundamentals together with the knowledge accumulated from materials science and gentler process Green Chemistry principles directions leading to sustainable chemical syntheses. The present review summarizes the theoretical principles of designing molecular, mechanistic and engineering factors for photocatalytic reactions under environmentally benign (green solvent) conditions in lieu of water; bio-derived solvents such as alcohols/phenols; ionic liquids (IL); and deep eutectic solvents. We emphasize the consideration of solvent polarity, hydrogen-bond networks, viscosity and photophysical transparency on excited-state energetics to rationalize theory/predictions for subsequent electron-transfer pathways progressing in reaction conditions that affect catalyst stability/overall turnover efficiency. Novel design principles limiting synergy for synergistically less reactive (high-volume solvent classes) but net-green ones based on performance and sustainability trade-off comparisons per natural unit or cost. This review then incorporates green-solvent photocatalytic systems into quantitative sustainability metrics (E-factor, PMI and energy efficiency) to further this aim while illustrating their likely usefulness as an industrial process beyond the interests of basic research. The process sustainability puzzle is furnished with a life-cycle assessment carrying all aspects facing the recyclability of solvents. Thereafter, 3 specific technical bottlenecks limiting the total action are examined including limited photon penetration depth to the reaction zone; mass -transport limitations in high microorganism density environments and difficulties related to scale up. They also consider the new potential in areas such as solar-driven photochemistry, use of machine learning for optimization of reaction conditions and modular continuous−flow reactor technologies. Altogether, all of these advances lead to a future where a green−solvent photocatalysis platform for industrial application may enable greener chemical transformations with the advantages of unprecedented selectivities with little waste and inherent energy efficiency. This review broadly compiles the current roadmap of full-integrated and sustainable photocatalytic procedures in ecological solvents, identify existing challenges limiting their practical realisations and propose future perspectives for researchers, process engineers as well as industrial practitioners.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 56,
-      "corresponding_authors": [
-        "Shatha Abd Aljabbar"
-      ],
-      "corresponding_affiliations": [
-        "University of Kerbala, IQ"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "绿色溶剂中的可见光光催化：机理见解、工艺集成和可持续设计策略",
-      "corresponding_affiliations_zh": [
-        "卡尔巴拉大学，IQ"
       ],
       "translation_version": 2,
       "toc_url": "",
