@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "papers": [
     {
       "title": "COMBINATION OF PHOTOCATALYSIS AND CONTINUOUS-FLOW TECHNOLOGY FOR THE SYNTHESIS OF BIOACTIVE COMPOUNDS AND ITS PRECURSORS",
@@ -25,6 +25,83 @@
       "title_zh": "光催化与连续流技术相结合合成生物活性化合物及其前体",
       "corresponding_affiliations_zh": [
         "N.I. Lobachevsky 下诺夫哥罗德国立大学，俄罗斯"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Carbon dioxide as a multifunctional regulator in electrochemical vicinal bromination",
+      "authors": [
+        "Guo-Wei Lai",
+        "Haibo Wu",
+        "Bin Zeng",
+        "Hui-Wen Gong",
+        "Yi-Fei Zhang",
+        "Jun-You Ding",
+        "Xiu‐Jin Meng",
+        "Jun Rong Jiang"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-10-07",
+      "doi": "10.1038/s41467-026-78459-z",
+      "url": "https://doi.org/10.1038/s41467-026-78459-z",
+      "abstract": "Vicinal dibromination of alkenes is a fundamentally important transformation in organic synthesis, as vicinal dibromides are prevalent motifs in bioactive molecules and serve as indispensable intermediates across chemical synthesis. Despite extensive advances in thermal, photochemical, and electrochemical dibromination, the development of efficient and practical dibromination methods using inexpensive and readily available bromine sources remains highly desirable. In particular, N–H-containing substrates can present additional challenges under oxidative electrochemical conditions because of competing reactions involving the nitrogen functionality. Herein, we report a CO2-mediated electrochemical strategy that enables efficient and chemoselective vicinal dibromination of N–H-containing amino acid-derived alkenes as well as a broad range of functionalized alkenes using NaBr as the bromine source. Mechanistic studies indicate that CO2 plays multiple cooperative roles in this transformation: (i) in situ transient protection of N-H moieties, (ii) formation of carbonic acid with water to replace conventional protic acids, and (iii) lowering of the oxidation potential of bromide ions. Collectively, these findings demonstrate the multifunctional regulatory role of CO2 in the present electrochemical vicinal dibromination system. The authors report a CO2-mediated electrochemical vicinal dibromination, compatible with broad range of alkenes bearing sensitive functional groups, using NaBr as a sustainable bromine source.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Jun Rong Jiang",
+        "Ying‐Ming Pan",
+        "Haitao Tang"
+      ],
+      "corresponding_affiliations": [
+        "Guangxi University, China",
+        "Guangxi Normal University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "二氧化碳作为电化学邻位溴化的多功能调节剂",
+      "corresponding_affiliations_zh": [
+        "广西大学，中国",
+        "广西师范大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Some Items of Interest to Process R&D Chemists and Engineers",
+      "authors": [
+        "James A. Schwindeman",
+        "Timothy Kwok",
+        "Annabel Q. Ansel",
+        "James M. MacDougall",
+        "Jimmy Lauberteaux",
+        "Deeksha Jain",
+        "Elizabeth M. Dauncey",
+        "John Kremers"
+      ],
+      "journal": "Organic Process Research & Development",
+      "date": "2026-10-07",
+      "doi": "10.1021/acs.oprd.6c00462",
+      "url": "https://doi.org/10.1021/acs.oprd.6c00462",
+      "abstract": "Amide bond formation remains a cornerstone of pharmaceutical synthesis, with more than half of the top-selling smallmolecule drugs containing at least one amide linkage.To address the sustainability and atom economy limitations associated with conventional amide coupling strategies, Lei and co-workers contributed to the development of a novel biocatalytic approach based on engineered oxidative amidases (OxiAms) (Science, DOI: 10.1126/science.adw3365).Through multiple rounds of protein engineering, aldehyde dehydrogenases were successfully repurposed to catalyze the direct oxidative amidation of aldehydes and amines.Strategic mutations increased the hydrophobicity of the catalytic pocket, enabling selective capture of thioester intermediates by nucleophilic amines rather than water.The resulting enzyme platform demonstrated broad substrate tolerance, providing access to more than 70 amide products from diverse aldehyde and amine partners.The methodology was further expanded into a one-pot, two-step synthesis from alcohols by integrating an alcohol dehydrogenase with an NAD + recycling system.Its practical relevance was validated through gram-scale synthesis and the shortened de novo preparation of valuable pharmaceutical targets, highlighting its potential for sustainable drug manufacturing. ■ CATALYST-AND BASE-FREE ELECTROCHEMICAL ORTHO AMINATION OF PHENOLSConventional routes to N-alkyl aryl amines typically require multistep sequences usually involving nitro group reduction followed by N-alkylation, leading to lengthy processes and reduced overall sustainability.To support the identification of more efficient synthetic alternatives, Liu, Wang, and coworkers reported an electrochemical methodology enabling the direct amination of arenes under catalyst-free and base-free conditions (Chem.Commun., DOI: 10.1039/d6cc01670g).The approach leverages electrochemical activation to generate reactive intermediates without the need for additional reagents, Highlights from the Literature pubs.acs.org/OPRD",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "John Knight"
+      ],
+      "corresponding_affiliations": [
+        "JKonsult Ltd , Meadow View, Cross Keys , ,"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "工艺研发化学家和工程师感兴趣的一些项目",
+      "corresponding_affiliations_zh": [
+        "JKonsult Ltd、Meadow View、十字键、、"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -61,30 +138,37 @@
       "toc_kind": ""
     },
     {
-      "title": "Performance limits and stability horizons in next-generation anion exchange membrane water electrolysis for hydrogen production",
+      "title": "Cooperative Shunt Photocatalysis of Pt Single Atoms and Nanoparticles for Efficient Methanol Conversion to Hydrogen and Formaldehyde",
       "authors": [
-        "Mahlon Kida Marvin",
-        "Zakiyyu Muhammad Sarkinbaka"
+        "Youyu Pang",
+        "Linjia Li",
+        "Qijing Bu",
+        "Rui Zhang",
+        "Zhihan He",
+        "Yanhong Lin",
+        "Dayang Wang",
+        "Tengfeng Xie"
       ],
-      "journal": "npj Clean Energy",
+      "journal": "Angewandte Chemie International Edition",
       "date": "2026-10-07",
-      "doi": "10.1038/s44406-026-00047-3",
-      "url": "https://doi.org/10.1038/s44406-026-00047-3",
-      "abstract": "In this paper, we reviewed the performance boundaries and operational stability horizons governing next-generation AEMWE platforms. This review study indicates that standard state-of-the-art AEMWE configurations achieve industrially relevant cell voltages of 1.7–1.9 V at 1.0 A cm⁻², with optimized systems reaching current densities up to ~2.0–2.7 A cm⁻² at ~1.8 V as reported in literatures. Membrane hydroxide conductivity typically spans 50–100 mS cm⁻¹ at 60–80 °C with water uptake levels between 20 wt.% and 80 wt.%. While hydrogen Faradaic efficiencies consistently exceed 95–99% under steady-state, transient operating conditions can drop this metric to 90–95% due to gas crossover. Operational stability remains the primary commercialization bottleneck; reported cell degradation rates vary significantly from 10 μV h⁻¹ to >1000 μV h⁻¹ under continuous testing, driven by quaternary ammonium functional group decay, backbone cleavage via nucleophilic attack, catalyst dissolution, support corrosion, and electrode delamination. Addressing these constraints through advanced hydrocarbon membrane chemistries, tailored ionomer cross-linking, optimized porous transport layers, and standardized AST protocols is essential to meet the Clean Hydrogen Partnership target of degradation rates below 0.5% per 1000 hours at current densities above 1.5 A cm⁻².",
+      "doi": "10.1002/anie.7100046",
+      "url": "https://doi.org/10.1002/anie.7100046",
+      "abstract": "ABSTRACT Photocatalytic methanol dehydrogenation requires not only charge separation but, more critically, synchronized and rapid consumption of photogenerated electrons and holes—an unmet challenge in conventional Pt‐based photocatalysts. Here we report a photocatalytic platform in which Pt single atoms (Pt SA ) and Pt nanoparticles (Pt NP ) are uniformly integrated on crystalline carbon nitride (CCN), denoted CCN‐Pt SA+NP , via photoinduced reduction of chloroplatinic acid. In situ spectroscopic analyses reveal that spatially separated Pt SA /Pt NP redox pairs enable balanced and rapid photocarrier utilization, yielding closely matched TA‐derived decay time constants of photogenerated holes and electrons of 405.1 and 386.7 ps, respectively. This synchronized charge consumption effectively suppresses recombination. Meanwhile, Pt single‐atom sites enhance methanol adsorption and lower the energy barrier for the initial O─H bond cleavage, favoring the generation of alkoxy intermediates. The accelerated hole consumption and proton supply at the oxidation site further facilitate proton‐electron coupling reactions on Pt nanoparticles. Consequently, the optimized CCN‐Pt SA+NP catalyst delivers exceptional photocatalytic performance, achieving H 2 and HCHO evolution rates of 24.5 and 22.6 mmol g −1 h −1 , respectively, with an H 2 ‐to‐HCHO ratio approaching unity. This work establishes a general strategy for engineering single‐atom/nanoparticle redox pairs to realize matched electron‐hole consumption and selective, low‐carbon methanol‐to‐hydrogen conversion.",
       "tags": [
-        "Electrochemistry"
+        "Photocatalysis"
       ],
-      "relevance": 48,
+      "relevance": 53,
       "corresponding_authors": [
-        "Zakiyyu Muhammad Sarkinbaka"
+        "Dayang Wang",
+        "Tengfeng Xie"
       ],
       "corresponding_affiliations": [
-        "Federal University Wukari"
+        "Jilin University, China"
       ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "下一代阴离子交换膜水电解制氢的性能限制和稳定性范围",
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "Pt 单原子和纳米颗粒的协同并联光催化将甲醇高效转化为氢气和甲醛",
       "corresponding_affiliations_zh": [
-        "乌卡里联邦大学"
+        "吉林大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -441,74 +525,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Consecutive hydrodefluorination for the regioselective synthesis of partially fluorinated arenes",
-      "authors": [
-        "Yanxian Tan",
-        "Howard Toh",
-        "Chieh-Yu Chang",
-        "Phillip S. Grant"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-05",
-      "doi": "10.26434/chemrxiv.15009852/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15009852/v1",
-      "abstract": "Fluorinated arenes are critically important motifs in drug discovery, often exhibiting superior bioactivity compared to their non-fluorinated counterparts. While advances in fluorination methods have improved access to monofluoroarenes, the synthesis of di- and trifluoroarenes remains challenging. Here, we present a powerful method for access to partially fluorinated arenes via consecutive hydrodefluorination of perfluoroarenes, executed in one ‘pot’. This method utilises hydridosilicates as the reducing species, which are formed in situ by the combination of phenylsilane and cesium carbonate in dimethylsulfoxide. These conditions avoid precious metal catalysts and exotic reagents, exhibiting exceptional regioselectivity and control over the degree of defluorination. Through an in-depth mechanistic study, we found that hydridosilicates can perform hydrodefluorination by two distinct mechanisms, one thermal and one photochemical. These mechanisms are complementary in substrate scope—together, they enable a method with notable generality.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Phillip S. Grant"
-      ],
-      "corresponding_affiliations": [
-        "Nanyang Technological University, Singapore"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "连续加氢脱氟区域选择性合成部分氟化芳烃",
-      "corresponding_affiliations_zh": [
-        "南洋理工大学，新加坡"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Hypervalent Iodine‐Mediated Oxidative Cleavage of Ethylenediamine Derivatives and Its Application to Ring Contraction",
-      "authors": [
-        "Daiki Higuchi",
-        "Wakana Ito",
-        "Takaya Tomoike",
-        "Takeshi Sugiyama",
-        "Ryo Nakajima",
-        "Kazuki Kawanaka",
-        "Kota Hashimoto",
-        "Satoshi Matsubara"
-      ],
-      "journal": "Advanced Synthesis & Catalysis",
-      "date": "2026-10-05",
-      "doi": "10.1002/adsc.70772",
-      "url": "https://doi.org/10.1002/adsc.70772",
-      "abstract": "Hypervalent iodine‐mediated oxidative cleavage of ethylenediamine derivatives enables direct access to imines from readily available substrates. The method proceeds under mild conditions, tolerates diverse sulfonamides, and is applicable to one‐pot transformations and ring contraction reactions, offering a versatile approach to nitrogen‐containing scaffolds.",
-      "tags": [
-        "Skeletal Editing"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Kei Murakami"
-      ],
-      "corresponding_affiliations": [
-        "Kwansei Gakuin University, Japan"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "高价碘介导的乙二胺衍生物的氧化裂解及其在环收缩中的应用",
-      "corresponding_affiliations_zh": [
-        "关西学院大学，日本"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Unsaturated Carboxylates as Electrophilic Synthons for Transition‐Metal‐Catalyst‐Free Electroreductive Deoxygenative Coupling",
       "authors": [
         "Jianyou Zhao",
@@ -689,39 +705,6 @@
       "corresponding_affiliations_zh": [
         "国家科学研究中心，法国",
         "普瓦捷大学，法国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "C‐Terminal Functionalization Methods of Amino Acids, Peptides, and Proteins",
-      "authors": [
-        "Jay Hanssens",
-        "Mark Lambers",
-        "Romano V. A. Orrù",
-        "Jordy M. Saya"
-      ],
-      "journal": "Chemistry - A European Journal",
-      "date": "2026-09-29",
-      "doi": "10.1002/chem.71730",
-      "url": "https://doi.org/10.1002/chem.71730",
-      "abstract": "The functionalization of the C-terminus of amino acids, peptides, and proteins has been extensively studied for more than 150 years and is central to modern peptide synthesis. While most functionalization methods target the N-terminus or reactive residues, such as lysine, cysteine, or tyrosine, the chemo- and regioselective modification of the C-terminus remains relatively underdeveloped. In this review, we discuss strategies for C-terminal activation and functionalization, including classical coupling reagents, enzymatic modifications, photo- and electrochemical decarboxylation, and emerging catalytic approaches. Recent atom-efficient advances in the field that describe protective group-free syntheses while minimizing epimerization and improving chemo- and regio-selectivity are discussed enabling the modification of complex peptides and proteins. Furthermore, current limitations and remaining challenges in achieving general, selective, and broadly applicable C-terminal functionalization methods are highlighted.",
-      "tags": [
-        "Electrochemistry",
-        "Decarboxylative Coupling"
-      ],
-      "relevance": 56,
-      "corresponding_authors": [
-        "Jordy M. Saya"
-      ],
-      "corresponding_affiliations": [
-        "Maastricht University, Netherlands"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "氨基酸、肽和蛋白质的C端功能化方法",
-      "corresponding_affiliations_zh": [
-        "马斯特里赫特大学，荷兰"
       ],
       "translation_version": 2,
       "toc_url": "",
