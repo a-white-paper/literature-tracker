@@ -1,71 +1,284 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "papers": [
     {
-      "title": "COMBINATION OF PHOTOCATALYSIS AND CONTINUOUS-FLOW TECHNOLOGY FOR THE SYNTHESIS OF BIOACTIVE COMPOUNDS AND ITS PRECURSORS",
+      "title": "Regio- and Enantioselective Functionalization of Gaseous Alkanes via Nickel-Catalyzed Alkene Dicarbofunctionalization",
       "authors": [
-        "Alexander V. Nyuchev"
+        "Sergio Barbeira-Arán",
+        "Akshay Murali Nair",
+        "José M. Malga",
+        "Xia Hu",
+        "Ángel Rentería‐Gómez",
+        "Yaning Liu",
+        "Achyut Ranjan Gogoi",
+        "Osvaldo Gutiérrez"
       ],
-      "journal": "Zenodo (CERN European Organization for Nuclear Research)",
-      "date": "2026-10-07",
-      "doi": "10.5281/zenodo.23059308",
-      "url": "https://doi.org/10.5281/zenodo.23059308",
-      "abstract": "The combination of photoredox catalysis and continuous-flow technology provides a powerful approach to the synthesis of valuable organic compounds that are difficult to access using traditional stoichiometric or metal-catalyzed methods. The precise control of reaction parameters, efficient irradiation, and enhanced mass and heat transfer offered by continuous-flow systems can improve the efficiency, reproducibility, and scalability of photochemical transformations. We have developed several efficient continuous-flow approaches to photochemical transformations, enabling the synthesis of bioactive compounds, their precursors, and derivatives. These include trifluoromethylation of (het)arenes [1], N-(hetero)arylation of amines [2], C(sp3)-heteroarylation [3], trifluoromethoxylation [4] and photocatalytic E→Z isomerization of alkenes. In these transformations, continuous-flow technology enabled efficient light utilization and precise control over reaction conditions, providing a practical platform for the development and intensification of photochemical synthetic processes. Overall, our results demonstrate the potential of combining photoredox catalysis with continuous-flow technology for the efficient synthesis of structurally diverse and potentially bioactive organic compounds, while offering opportunities for improved scalability and process efficiency.",
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-10",
+      "doi": "10.1021/jacs.6c15886",
+      "url": "https://doi.org/10.1021/jacs.6c15886",
+      "abstract": "Abstract The regio- and enantioselective functionalization of gaseous alkanes remains an unsolved challenge in organic synthesis. Here, we report a general strategy for the asymmetric three-component dicarbofunctionalization of alkenes using readily available gaseous alkanes, including ethane, propane, and isobutane. This transformation, enabled by the merger of hydrogen atom transfer photocatalysis with a chiral nickel catalyst, efficiently delivers chiral α-aryl carbonyl compounds in good yield with excellent regio- and enantioselectivity (up to >20:1 rr and 99:1 er). Experimental and computational studies reveal insights into the mechanism controlling selectivity. Operating under exceptionally mild, energy-efficient conditions, the method unlocks a versatile platform for upgrading feedstock gaseous alkanes into sought-after chiral building blocks.",
       "tags": [
         "Photocatalysis"
       ],
-      "relevance": 68,
+      "relevance": 82,
       "corresponding_authors": [
-        "Alexander V. Nyuchev"
+        "Martín Fañanás‐Mastral"
       ],
       "corresponding_affiliations": [
-        "N. I. Lobachevsky State University of Nizhny Novgorod, Russia"
+        "Universidade de Santiago de Compostela, Spain"
       ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "光催化与连续流技术相结合合成生物活性化合物及其前体",
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过镍催化的烯烃二碳官能化气态烷烃的区域和对映选择性官能化",
       "corresponding_affiliations_zh": [
-        "N.I. Lobachevsky 下诺夫哥罗德国立大学，俄罗斯"
+        "圣地亚哥德孔波斯特拉大学，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
     {
-      "title": "Carbon dioxide as a multifunctional regulator in electrochemical vicinal bromination",
+      "title": "Modular Cyano-fluoroalkylation of Unactivated Alkenes Enabled by Photoinduced Fe-LMCT Catalysis",
       "authors": [
-        "Guo-Wei Lai",
-        "Haibo Wu",
-        "Bin Zeng",
-        "Hui-Wen Gong",
-        "Yi-Fei Zhang",
-        "Jun-You Ding",
-        "Xiu‐Jin Meng",
-        "Jun Rong Jiang"
+        "Mario Martinez-Lopez",
+        "Irene Bosque",
+        "Jose Carlos Gonzalez‐Gomez",
+        "Sara Cuadros"
       ],
-      "journal": "Nature Communications",
-      "date": "2026-10-07",
-      "doi": "10.1038/s41467-026-78459-z",
-      "url": "https://doi.org/10.1038/s41467-026-78459-z",
-      "abstract": "Vicinal dibromination of alkenes is a fundamentally important transformation in organic synthesis, as vicinal dibromides are prevalent motifs in bioactive molecules and serve as indispensable intermediates across chemical synthesis. Despite extensive advances in thermal, photochemical, and electrochemical dibromination, the development of efficient and practical dibromination methods using inexpensive and readily available bromine sources remains highly desirable. In particular, N–H-containing substrates can present additional challenges under oxidative electrochemical conditions because of competing reactions involving the nitrogen functionality. Herein, we report a CO2-mediated electrochemical strategy that enables efficient and chemoselective vicinal dibromination of N–H-containing amino acid-derived alkenes as well as a broad range of functionalized alkenes using NaBr as the bromine source. Mechanistic studies indicate that CO2 plays multiple cooperative roles in this transformation: (i) in situ transient protection of N-H moieties, (ii) formation of carbonic acid with water to replace conventional protic acids, and (iii) lowering of the oxidation potential of bromide ions. Collectively, these findings demonstrate the multifunctional regulatory role of CO2 in the present electrochemical vicinal dibromination system. The authors report a CO2-mediated electrochemical vicinal dibromination, compatible with broad range of alkenes bearing sensitive functional groups, using NaBr as a sustainable bromine source.",
+      "journal": "Organic Letters",
+      "date": "2026-10-09",
+      "doi": "10.1021/acs.orglett.6c03828",
+      "url": "https://doi.org/10.1021/acs.orglett.6c03828",
+      "abstract": "Abstract We describe the implementation of an iron catalyzed cyano-fluoroalkylation of unactivated alkenes that leverages inexpensive trifluoroacetic acid (CF3CO2H) and related carboxylic acids (CFnRCO2H) as radical fluoroalkyl sources, together with tosyl cyanide (TsCN) as a low-toxicity cyanation reagent. Notably, the mild and redox-neutral conditions of the method are compatible with a broad range of substrates, including alkenes containing biologically relevant motifs (40 examples, up to 83% yield). The resulting β-fluoroalkylated nitriles can be diversely derivatized to afford other valuable fluorinated sp3-rich architectures. Mechanistic studies have revealed the key role of a protonated bipyridine-based ligand in enhancing reaction efficiency.",
       "tags": [
-        "Electrochemistry",
-        "Photocatalysis"
+        "Photocatalysis",
+        "Fe Catalysis"
       ],
-      "relevance": 62,
+      "relevance": 72,
       "corresponding_authors": [
-        "Jun Rong Jiang",
-        "Ying‐Ming Pan",
-        "Haitao Tang"
+        "Sara Cuadros"
       ],
       "corresponding_affiliations": [
-        "Guangxi University, China",
-        "Guangxi Normal University, China"
+        "University of Alicante, Spain"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "由光诱导的Fe-LMCT催化实现的未活化烯烃的模块化氰基氟烷基化",
+      "corresponding_affiliations_zh": [
+        "阿利坎特大学，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Visible-Light-Mediated Decarboxylative Coupling of Aromatic Carboxylic Acids with Aryl Methyl Ketones to Unsymmetrical 1,2-Diketones",
+      "authors": [
+        "Ali Akbari",
+        "Danial Zand Hoseinshahi"
+      ],
+      "journal": "Synthesis",
+      "date": "2026-10-09",
+      "doi": "10.1055/a-2968-4851",
+      "url": "https://doi.org/10.1055/a-2968-4851",
+      "abstract": "A transition-metal-free and operationally simple strategy has been developed for the synthesis of unsymmetrical 1,2-diketones via a visible-light-induced decarboxylative arylation–oxidation cascade. Readily available aromatic carboxylic acids serve as convenient aryl precursors, and Eosin Y acts as an inexpensive organic photocatalyst. Under mild blue-light irradiation (450 nm) at room temperature in PEG-400 and in the presence of air as the oxidant, a broad range of unsymmetrical 1,2-diketones is obtained in good to excellent yields with good functional-group tolerance. Control experiments confirmed the essential roles of light, Eosin Y, and molecular oxygen, and TEMPO inhibition was consistent with a radical pathway. The protocol avoids precious-metal catalysts and stoichiometric oxidants, providing an efficient and practical route to valuable 1,2-diketone scaffolds from abundant starting materials.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Danial Zand Hoseinshahi"
+      ],
+      "corresponding_affiliations": [
+        "University of Jiroft, IR",
+        "Islamic Azad University, Jiroft Branch, IR"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "芳基甲基酮与芳基羧酸的可见光介导脱羧偶联至不对称的1,2-二酮",
+      "corresponding_affiliations_zh": [
+        "",
+        "伊斯兰阿扎德大学Jiroft分校， IR"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocluster catalytic oxidation enabled by structurally precise copper-hydride nanoclusters",
+      "authors": [
+        "Xiaona Yang",
+        "Cong Fang",
+        "Zhuang Wang",
+        "Rong Huo",
+        "Yaqi Wang",
+        "Qi Li",
+        "Simin Li",
+        "Takashi Shirai"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-10-09",
+      "doi": "10.1038/s41467-026-78511-y",
+      "url": "https://doi.org/10.1038/s41467-026-78511-y",
+      "abstract": "The utilization of light energy emerges as a prominent strategy to boost nanocluster catalysis, spurring rapid growth in the field termed photocluster catalysis. In particular, structurally well-defined copper-hydride nanoclusters attract attention as promising photocluster catalysts for organic synthesis. Herein, we report Cu13H6 exhibits excellent activity for photocatalytic α-C–H oxidation, revealing great potential in oxidation chemistry. Cu13H6 is one-pot synthesized and characterized using advanced analytical techniques. Critically, machine learning tentatively identifies hydride positions, reducing dependence on neutron diffraction. The Cu13H6 nanocluster exhibits outstanding activity in the photooxidation of diverse alkyl aromatics and alcohols to ketones under mild conditions. This pathway also supports photocatalytic defluorination, deuteriation, cyclopropane ring-opening and dehydrogenative coupling. This work tentatively determines the structure of Cu13H6 using robust stochastic surface walking global optimization with neural network, and identifies the cluster as a versatile, efficient photocatalyst that broadens photocatalysis applications in organic synthesis. The utilization of light energy has emerged as a prominent strategy to boost copper nanocluster photocatalysis for organic synthesis, but the scope of transformations remains relatively narrow. Here we report the catalytic performance of a copper-hydride nanocluster, Cu13H6, for photocatalytic α-C–H oxidation.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Yunzi Xin",
+        "Xiaoyan Sun",
+        "Hui Cun Shen"
+      ],
+      "corresponding_affiliations": [
+        "Nagoya Institute of Technology, Japan",
+        "Chinese Academy of Sciences, China",
+        "Qingdao Institute of Bioenergy and Bioprocess Technology, China",
+        "University of Chinese Academy of Sciences, China",
+        "Inner Mongolia University, China"
       ],
       "corresponding_source": "openalex_explicit",
-      "title_zh": "二氧化碳作为电化学邻位溴化的多功能调节剂",
+      "title_zh": "由结构上精确的氢化铜纳米团簇实现的光团簇催化氧化",
       "corresponding_affiliations_zh": [
-        "广西大学，中国",
-        "广西师范大学，中国"
+        "名古屋工业大学，日本",
+        "科学院，中国",
+        "青岛生物能源与生物工艺技术研究所，中国",
+        "科学院大学，中国",
+        "内蒙古大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Modular synthesis of 3,3-diaryloxetanes",
+      "authors": [
+        "Qikai Sun",
+        "J.P. Liu",
+        "Tobias Ritter"
+      ],
+      "journal": "Nature Synthesis",
+      "date": "2026-10-08",
+      "doi": "10.1038/s44160-026-01183-5",
+      "url": "https://doi.org/10.1038/s44160-026-01183-5",
+      "abstract": "Abstract Oxetanes are strained four-membered oxygen heterocycles that are valuable motifs for modulating lipophilicity, metabolic stability and three-dimensional structure of pharmaceuticals. Diaryloxetanes with 3,3-substitution are recognized as bioisosteres of diaryl ketones that preserve key electronic features while exhibiting distinct reactivity. However, synthesis of this motif largely relies on Lewis acid-promoted Friedel–Crafts reactions, which are restricted to electron-rich arenes and often suffer from low functional-group tolerance and competing side reactions. Here we report a method for the synthesis of 3,3-substituted diaryloxetanes from readily available 3-oxetanone through a cross-coupling reaction with tetrafluoropyridone as leaving group. The difunctionalization through subsequent addition of two aryl groups, one from an aryl halide, the other from an arylboronic ester, provides access to a variety of benzophenone bioisosteres. The nickel-catalysed cross-coupling at a fully substituted carbon centre is enabled through oxetanyl C–O bond oxidative addition and establishes programmable entry to 3,3-diaryloxetane bioisosteres that are synthetically challenging to access via traditional polar bond disconnection strategies. Mechanistic studies support a Ni(0)-mediated oxidative addition of the oxetanyl tetrafluoropyridine ester.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 82,
+      "corresponding_authors": [
+        "Tobias Ritter"
+      ],
+      "corresponding_affiliations": [
+        "Max-Planck-Institut für Kohlenforschung, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "3,3-二芳基氧杂环丁烷的模块化合成",
+      "corresponding_affiliations_zh": [
+        "Max-Planck-Institut für Kohlenforschung，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Carbon Quaternization at the α-Position of Thiazoles: Iron-Catalyzed Hydroheteroarylation Using Unactivated Alkenes",
+      "authors": [
+        "Jinwoo Lee",
+        "Chaeryn Jeong",
+        "Hyungwoo Choi",
+        "Seok Beom Lee",
+        "Joonseok Jang",
+        "Sangmyung Han",
+        "Yohan Park",
+        "Suckchang Hong"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-10-08",
+      "doi": "10.1021/acs.orglett.6c04036",
+      "url": "https://doi.org/10.1021/acs.orglett.6c04036",
+      "abstract": "Abstract Thiazoles are privileged N-heterocyclic scaffolds ubiquitous in FDA-approved drugs, yet their clinical utility can be compromised by oxidative metabolism at the heterobenzylic position. Inspired by the metabolic-blocking strategy used in dabrafenib development, herein we report an iron-catalyzed strategy for direct α-quaternization of (benzo)thiazoles using unactivated alkenes. Under the proposed pathway, alkene-derived carbon-centered radicals undergo regioselective C2 addition and oxidative rearomatization, providing α-quaternary products without heteroarene preactivation or stoichiometric Lewis acids, thereby enabling analogue diversification.",
+      "tags": [
+        "Fe Catalysis"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Suckchang Hong"
+      ],
+      "corresponding_affiliations": [
+        "Seoul National University, South Korea"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "噻唑α位碳季铵化：使用未活化烯烃的铁催化氢杂芳基化",
+      "corresponding_affiliations_zh": [
+        "毕业于巴黎国家行政学院，韩国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Breaking Scaling Relations to Achieve an Electrochemical Potential Window Strategy for Highly Selective Urea Electrosynthesis From N 2 and CO 2",
+      "authors": [
+        "Tianyi Dai",
+        "Tonghui Wang",
+        "Qing Jiang"
+      ],
+      "journal": "Advanced Functional Materials",
+      "date": "2026-10-08",
+      "doi": "10.1002/adfm.78950",
+      "url": "https://doi.org/10.1002/adfm.78950",
+      "abstract": "ABSTRACT Electrochemical co‐reduction of nitrogen (N 2 ) and carbon dioxide (CO 2 ) under ambient conditions offers a sustainable route for urea synthesis, while this desirable pathway suffers from selectivity challenge because of an inferior competition with numerous parallel reactions. Available strategy to selectively boost urea electrosynthesis and suppress the competitive reactions is absent, because they share the same intermediates which are limited by the well‐established scaling relations. Herein, we design a multi‐site NbCo 3 intermetallic compound, which imposes a dynamic strain effect on intermediates to break the scaling relations, achieving to gather radical intermediates to participate in C−N coupling while preventing their further protonation. Based on constant potential density functional theory (CP‐DFT) computations, an electrochemical potential window is evolved that NbCo 3 (001) obtains a prior selectivity toward urea electrosynthesis when the electrode potential is below −0.25 V versus the reversible hydrogen electrode (RHE). This work provides an available strategy to improve the catalytic selectivity of urea electrosynthesis, which accelerates the development of highly efficient catalysts.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Tonghui Wang",
+        "Qing Jiang"
+      ],
+      "corresponding_affiliations": [
+        "Jilin University, China",
+        "Key Laboratory of Automobile Materials, Ministry of Education, Jilin University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "打破缩放关系，实现N 2和CO 2高选择性尿素电合成的电化学潜在窗口策略",
+      "corresponding_affiliations_zh": [
+        "吉林大学，中国",
+        "吉林大学教育部汽车材料重点实验室，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
+      "authors": [
+        "Anupam Das",
+        "Nagarajan Ramkumar",
+        "Artis Kinēns",
+        "Sergey Belyakov",
+        "Andris Antuzevičš",
+        "Janis Veliks"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-07",
+      "doi": "10.26434/chemrxiv.15009392/v2",
+      "url": "https://doi.org/10.26434/chemrxiv.15009392/v2",
+      "abstract": "While conventional radical fluoroalkylation typically requires exogenous catalysts or photoactivation to overcome significant kinetic barriers, here we report bench-stable μ-oxo-bridged iodine(III) reagents that release fluoro(halo)methyl radicals upon heating without an external catalyst, additive, or light. The resulting radicals initiate cascade cyclizations of methacrylamides and methacrylohydrazides to afford fluorinated oxindoles, pyrazolones, and related heterocycles. Variation of the fluorinated carboxylate ligand within the iodine(III) reagent framework controls the identity of the transferred C1 fragment, thereby providing chlorofluoromethyl, bromofluoromethyl, difluoromethyl, and monofluoromethyl products from a common reagent architecture. The transformation is compatible with structurally diverse and natural-product-derived substrates and proceeds efficiently upon scale-up. By encoding the required bond lability directly into the iodine(III) framework, this strategy establishes a general platform for the catalyst-, additive-, and light-free generation and incorporation of fluorinated C1 radicals into complex molecular frameworks.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 75,
+      "corresponding_authors": [
+        "Janis Veliks"
+      ],
+      "corresponding_affiliations": [
+        "National Institute of Research and Innovation, LV"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "μ-氧桥碘 (III) 试剂可实现无催化剂且无光的氟（卤）甲基自由基生成",
+      "corresponding_affiliations_zh": [
+        "LV 国家研究与创新研究院"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -102,73 +315,6 @@
       "title_zh": "工艺研发化学家和工程师感兴趣的一些项目",
       "corresponding_affiliations_zh": [
         "JKonsult Ltd、Meadow View、十字键、、"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Data-Driven Discovery of Boronic Acid Catalysts for Amidation Reactions",
-      "authors": [
-        "Hanna Weller",
-        "Tobias Schnitzer"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-07",
-      "doi": "10.26434/chemrxiv.15003365/v4",
-      "url": "https://doi.org/10.26434/chemrxiv.15003365/v4",
-      "abstract": "Artificial intelligence (AI) is increasingly recognized as a powerful tool for catalyst optimization in organic synthesis. Yet, applications are often restricted by the need for large datasets, programming expertise, and specialized knowledge in model development. Boronic acidcatalyzed amidation reactions represent an attractive target for AI-guided optimization because of their synthetic relevance, detailed mechanistic understanding, and the need for improved catalysts for amidations. Here, an AI-guided workflow for catalyst optimization in boronic acidcatalyzed amidation reactions was established using the large-language model ChatGPT for code generation and workflow development. A dataset was generated by high-throughput screening of 459 arylboronic acids and combined with DFT-derived steric and electronic descriptors of the catalysts for model training. The model enabled the identification of the unprecedented catalyst FIBA with higher activity than the benchmark catalyst MIBA. In addition, detailed data analysis of the highly active but poorly predicted diboronic acid catalyst DBA led to the identification of a distinct activation mode involving higher-order boronate aggregates that activate and preorganize the amine nucleophile. Thus, improved catalyst performance and new mechanistic insight were obtained through an AI-guided workflow.",
-      "tags": [
-        "Boron Chemistry"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Tobias Schnitzer"
-      ],
-      "corresponding_affiliations": [
-        "University of Freiburg, Germany"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "数据驱动的酰胺化反应硼酸催化剂的发现",
-      "corresponding_affiliations_zh": [
-        "弗莱堡大学，德国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Cooperative Shunt Photocatalysis of Pt Single Atoms and Nanoparticles for Efficient Methanol Conversion to Hydrogen and Formaldehyde",
-      "authors": [
-        "Youyu Pang",
-        "Linjia Li",
-        "Qijing Bu",
-        "Rui Zhang",
-        "Zhihan He",
-        "Yanhong Lin",
-        "Dayang Wang",
-        "Tengfeng Xie"
-      ],
-      "journal": "Angewandte Chemie International Edition",
-      "date": "2026-10-07",
-      "doi": "10.1002/anie.7100046",
-      "url": "https://doi.org/10.1002/anie.7100046",
-      "abstract": "ABSTRACT Photocatalytic methanol dehydrogenation requires not only charge separation but, more critically, synchronized and rapid consumption of photogenerated electrons and holes—an unmet challenge in conventional Pt‐based photocatalysts. Here we report a photocatalytic platform in which Pt single atoms (Pt SA ) and Pt nanoparticles (Pt NP ) are uniformly integrated on crystalline carbon nitride (CCN), denoted CCN‐Pt SA+NP , via photoinduced reduction of chloroplatinic acid. In situ spectroscopic analyses reveal that spatially separated Pt SA /Pt NP redox pairs enable balanced and rapid photocarrier utilization, yielding closely matched TA‐derived decay time constants of photogenerated holes and electrons of 405.1 and 386.7 ps, respectively. This synchronized charge consumption effectively suppresses recombination. Meanwhile, Pt single‐atom sites enhance methanol adsorption and lower the energy barrier for the initial O─H bond cleavage, favoring the generation of alkoxy intermediates. The accelerated hole consumption and proton supply at the oxidation site further facilitate proton‐electron coupling reactions on Pt nanoparticles. Consequently, the optimized CCN‐Pt SA+NP catalyst delivers exceptional photocatalytic performance, achieving H 2 and HCHO evolution rates of 24.5 and 22.6 mmol g −1 h −1 , respectively, with an H 2 ‐to‐HCHO ratio approaching unity. This work establishes a general strategy for engineering single‐atom/nanoparticle redox pairs to realize matched electron‐hole consumption and selective, low‐carbon methanol‐to‐hydrogen conversion.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 53,
-      "corresponding_authors": [
-        "Dayang Wang",
-        "Tengfeng Xie"
-      ],
-      "corresponding_affiliations": [
-        "Jilin University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "Pt 单原子和纳米颗粒的协同并联光催化将甲醇高效转化为氢气和甲醛",
-      "corresponding_affiliations_zh": [
-        "吉林大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -244,79 +390,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Modular Synthesis of γ-Chloro Ketones through Carbochlorination of Alkenes Mediated by Copper(I) Photoredox Catalysis",
-      "authors": [
-        "Finn Hagen",
-        "Sabrina L. Simmet",
-        "Hanno Stuntebeck",
-        "Kevin T. A. Dang",
-        "Tobias Morack"
-      ],
-      "journal": "ACS Catalysis",
-      "date": "2026-10-06",
-      "doi": "10.1021/acscatal.6c06764",
-      "url": "https://doi.org/10.1021/acscatal.6c06764",
-      "abstract": "Abstract γ-Chloro ketones are multifunctional synthons that serve as versatile linchpins for the rapid assembly of molecular complexity. Despite this strategic value, their broader adoption remains conspicuously limited as a consequence of the intrinsic challenges associated with their preparation. Herein, we report a visible-light-driven, copper-catalyzed carbochlorination of alkenes that provides γ-chloro ketones from readily available α-chloro analogues. The resulting products engage as versatile building blocks, enabling direct access to a range of heterocycles, (spiro-)cyclopropanes, and γ-functionalized ketones. A key feature of this transformation is the use of heteroleptic Cu(I) photocatalysts, which combine strong reducing power in the excited state with ligand exchange processes that enable terminal bond formation at the copper center. This duality enables reactivity that is not readily accessed with common organic or iridium-based photocatalysts. Mechanistic studies support the involvement of two active photocatalytic species that together enable the challenging access to α-keto radicals from α-chloro ketones. They further underscore the role of the dmp ligand in stabilizing Cu(II) intermediates, thereby facilitating carbon−chlorine bond formation. This simple and efficient methodology provides expedient access to multifunctional building blocks, set up for downstream diversification.",
-      "tags": [
-        "Photocatalysis",
-        "Cu Catalysis"
-      ],
-      "relevance": 74,
-      "corresponding_authors": [
-        "Tobias Morack"
-      ],
-      "corresponding_affiliations": [
-        "Heidelberg University, Germany"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "铜(I)光氧化还原催化下烯烃碳氯化模块化合成γ-氯代酮",
-      "corresponding_affiliations_zh": [
-        "海德堡大学，德国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Rational Engineering of Cellobiose Dehydrogenase via Substrate Pocket Redesign and Electron Transfer Optimization for Efficient Bioelectrosynthesis of Lactobionic Acid",
-      "authors": [
-        "Xinyu Cui",
-        "Haiyan Song",
-        "Yuanming Wang",
-        "Zepeng Kang",
-        "Hao Su",
-        "Lingling Zhang",
-        "Zhiguang Zhu"
-      ],
-      "journal": "ChemElectroChem",
-      "date": "2026-10-06",
-      "doi": "10.1002/celc.70296",
-      "url": "https://doi.org/10.1002/celc.70296",
-      "abstract": "Cellobiose dehydrogenase (CDH) is a fungal extracellular flavocytochrome crucial for biomass degradation and promising for bioelectrocatalytic applications. However, its practical application remains limited by suboptimal catalytic efficiency and inefficient electron transfer. Here, an integrated engineering strategy was developed that couples substrate‐pocket modification with electron‐transfer optimization to enhance overall catalytic cycle simultaneously. Structure‐guided engineering identified beneficial substrate‐pocket mutations, which were subsequently combined with the previously validated electron‐transfer‐enhancing mutations (W316H and A165C), yielding the triple mutant A165C‐N313D‐W316H. This variant exhibited a fourfold increase in catalytic specific activity and an 8.5‐fold enhancement in electron transfer rate relative to the WT. Molecular dynamics simulations further revealed that the mutation improves the hydrogen‐bonding network within the substrate‐binding pocket. Moreover, the mutant retained high thermostability, displayed enhanced specificity toward lactose, and reduced hydrogen peroxide generation by 82% compared with the WT. When immobilized on electrodes, A165C‐N313D‐W316H showed substantially improved electrocatalytic performance. Under optimized conditions, the MET‐based bioelectrocatalytic system achieved a 94% conversion yield of lactobionic acid within 18 h. This study demonstrates that the integration of substrate‐pocket and electron‐transfer engineering effectively improves the overall catalytic cycle of CDH and provides a promising approach for engineering multidomain redox enzymes.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 56,
-      "corresponding_authors": [
-        "Zhiguang Zhu"
-      ],
-      "corresponding_affiliations": [
-        "Chinese Academy of Sciences, China",
-        "Tianjin Institute of Industrial Biotechnology, China",
-        "University of Chinese Academy of Sciences, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "通过底物袋重新设计和电子转移优化对纤维二糖脱氢酶进行合理工程，以实现乳糖酸的高效生物电合成",
-      "corresponding_affiliations_zh": [
-        "科学院，中国",
-        "天津工业生物技术研究所，中国",
-        "科学院大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Photosensitizer-free infrared-light-induced radical reactions",
       "authors": [
         "Antônio Junio Araujo Dias",
@@ -341,7 +414,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "无光敏剂的红外光诱导自由基反应",
       "corresponding_affiliations_zh": [
-        "科学技术振兴机构，日本",
+        "科学技术署，日本",
         "东京大学，日本"
       ],
       "translation_version": 2,
@@ -518,7 +591,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过硫醇介导的 Zn(CF 2 H) 2 (DMPU) 2 光活化实现烯烃的无光催化剂氢二氟甲基化",
       "corresponding_affiliations_zh": [
-        "浦项科技大学，韩国"
+        "科技大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -556,8 +629,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "不饱和羧酸盐作为亲电合成子用于无过渡金属催化剂的电还原脱氧偶联",
       "corresponding_affiliations_zh": [
-        "南京信息工程大学，中国",
-        "南京大学，中国",
+        "10115401040000228 南京信息工程大学，中国",
+        "南大，中国",
         "南京中医药大学，中国"
       ],
       "translation_version": 2,
@@ -639,42 +712,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Redox-Paired Activation of Sulfur Hexafluoride Enables Nucleophilic C(sp3)–F Bond Formation",
-      "authors": [
-        "Aniruddha Biswas",
-        "Demetra Zambardino",
-        "Tanja Gulder"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-01",
-      "doi": "10.26434/chemrxiv.15009734/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15009734/v1",
-      "abstract": "Sulfur hexafluoride (SF6) is a potent greenhouse gas whose direct use as a fluorine source in organic synthesis remains underdeveloped. Here, we disclose complementary photoredox and electrochemical strategies for nucleophilic fluorinations with SF6, merging oxidative formation of carbocation intermediated from alkoxamines, carboxylic acids, or thiols with SF6 reduction, the latter providing fluoride for C(sp3)–F bond formation. The photochemical protocol efficiently converts electronrich substrates and tolerates a broad range of functional groups, whereas paired electrolysis extends the reaction to electronically deactivated substrates. Together, the two methods enable fluorination of diverse benzylic and aliphatic substrates, including late-stage fluorination of structurally complex derivatives of pharmaceuticals, natural products, and agrochemicals.",
-      "tags": [
-        "Electrochemistry",
-        "Photocatalysis"
-      ],
-      "relevance": 70,
-      "corresponding_authors": [
-        "Tanja Gulder"
-      ],
-      "corresponding_affiliations": [
-        "Institute of Catalysis and Petrochemistry, Russia",
-        "Helmholtz Institute for Pharmaceutical Research Saarland, Germany",
-        "Saarland University, Germany"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "六氟化硫的氧化还原配对活化能够形成亲核 C(sp3)–F 键",
-      "corresponding_affiliations_zh": [
-        "催化与石油化学研究所，俄罗斯",
-        "萨尔州亥姆霍兹药物研究所，德国",
-        "萨尔大学，德国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Difluoromethylenation of Alkynes: Streamlined Access to Allyl Difluorides",
       "authors": [
         "Fabien Naullet",
@@ -703,7 +740,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "炔烃的二氟亚甲基化：简化获得烯丙基二氟化物的过程",
       "corresponding_affiliations_zh": [
-        "国家科学研究中心，法国",
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
         "普瓦捷大学，法国"
       ],
       "translation_version": 2,
@@ -739,41 +776,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
       "corresponding_affiliations_zh": [
-        "赣南师范学院，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
-      "authors": [
-        "Anupam Das",
-        "Nagarajan Ramkumar",
-        "Artis Kinēns",
-        "Sergey Belyakov",
-        "Andris Antuzevičš",
-        "Janis Veliks"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-09-23",
-      "doi": "10.26434/chemrxiv.15009392/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15009392/v1",
-      "abstract": "While conventional radical fluoroalkylation typically requires exogenous catalysts or photoactivation to overcome significant kinetic barriers, here we report bench-stable μ-oxo-bridged iodine(III) reagents that release fluoro(halo)methyl radicals upon heating without an external catalyst, additive, or light. The resulting radicals initiate cascade cyclizations of methacrylamides and methacrylohydrazides to afford fluorinated oxindoles, pyrazolones, and related heterocycles. Variation of the fluorinated carboxylate ligand within the iodine(III) reagent framework controls the identity of the transferred C1 fragment, thereby providing chlorofluoromethyl, bromofluoromethyl, difluoromethyl, and monofluoromethyl products from a common reagent architecture. The transformation is compatible with structurally diverse and natural-product-derived substrates and proceeds efficiently upon scale-up. By encoding the required bond lability directly into the iodine(III) framework, this strategy establishes a general platform for the catalyst-, additive-, and light-free generation and incorporation of fluorinated C1 radicals into complex molecular frameworks.",
-      "tags": [
-        "Difluoromethylation"
-      ],
-      "relevance": 75,
-      "corresponding_authors": [
-        "Janis Veliks"
-      ],
-      "corresponding_affiliations": [
-        "National Institute of Research and Innovation, LV"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "μ-氧桥碘 (III) 试剂可实现无催化剂且无光的氟（卤）甲基自由基生成",
-      "corresponding_affiliations_zh": [
-        "LV 国家研究与创新研究院"
+        "甘南师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -812,7 +815,7 @@
       "title_zh": "4-二氟甲基-L-苯丙氨酸的合成和体内掺入蛋白质",
       "corresponding_affiliations_zh": [
         "罗德岛大学，美国",
-        "科尔盖特大学，美国"
+        "柯盖德大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
