@@ -1,6 +1,41 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "papers": [
+    {
+      "title": "Enantioconvergent Decarboxylative Cross-Coupling for the Synthesis of α-Aryl Ketones via Metallaphotoredox Catalysis",
+      "authors": [
+        "Chen‐Qiang Deng",
+        "Peng-Pai Liu",
+        "Hui Qiu",
+        "Jin Gen Deng"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-10-10",
+      "doi": "10.1021/acs.orglett.6c04009",
+      "url": "https://doi.org/10.1021/acs.orglett.6c04009",
+      "abstract": "Abstract Photochemical enantioselective nickel catalysis has emerged as a powerful strategy for constructing stereogenic C(sp3)–C(sp2) bonds in organic synthesis and medicinal chemistry. Herein, we report a photoredox/nickel-catalyzed enantioconvergent decarboxylative cross-coupling of α-aryl carboxylic acid derivatives with aliphatic carboxylic acids, providing efficient access to enantioenriched α-aryl ketones. The reaction selectively engages two structurally distinct carboxylic acid-derived coupling partners while suppressing competing protodecarboxylation and homocoupling pathways. This protocol features broad substrate scope, good functional group tolerance, and excellent enantioselectivity (up to 98% ee), providing a modular and practical approach to chiral α-aryl ketones from readily accessible carboxylic acid feedstocks.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 100,
+      "corresponding_authors": [
+        "Jin Gen Deng"
+      ],
+      "corresponding_affiliations": [
+        "University of Science and Technology of China, China",
+        "Anhui University of Science and Technology, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "用于通过Metallaphotoredox催化合成α-芳基酮的对映体聚合脱羧交叉偶联",
+      "corresponding_affiliations_zh": [
+        "电子科技大学，中国",
+        "安徽科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Regio- and Enantioselective Functionalization of Gaseous Alkanes via Nickel-Catalyzed Alkene Dicarbofunctionalization",
       "authors": [
@@ -71,6 +106,40 @@
       "toc_kind": ""
     },
     {
+      "title": "Copper-Catalyzed Chemo- and Enantioselective Radical 1,2-Carbosulfenylation of Diverse Alkenes with Broad Radical and Sulfur Compatibility",
+      "authors": [
+        "Fu Liu",
+        "Zhichao Chen",
+        "Zhong-Liang Li",
+        "Derong Cao",
+        "Yu Tian",
+        "Xin‐Yuan Liu"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-09",
+      "doi": "10.1021/jacs.6c14452",
+      "url": "https://doi.org/10.1021/jacs.6c14452",
+      "abstract": "Abstract Enantioselective copper-catalyzed intermolecular radical 1,2-carbosulfenylation of alkenes with readily available alkyl halides provides efficient access to α-chiral alkyl organosulfur compounds, but its development has been hampered by competing side pathways and challenges in enantiocontrol. Herein, we report a general and versatile copper-catalyzed platform for chemo- and enantioselective radical 1,2-carbosulfenylation of a diverse range of alkenes. Central to this strategy is the development of a tunable and readily accessible library of multidentate anionic N,N,N(P)-ligands, which promote the desired transformation while suppressing competing radical pathways, thereby enabling broad compatibility with various alkyl radical precursors and transformable sulfur nucleophiles. The protocol exhibits a broad substrate scope, accommodating electronically diverse alkenes, including monosubstituted and 1,1-disubstituted acrylamides, as well as aryl- or heteroaryl-substituted alkenes, along with alkyl bromides and chlorides as radical precursors. The resulting products can be readily converted into a range of enantioenriched alkyl sulfur-containing building blocks of value in organic synthesis and related fields.",
+      "tags": [
+        "Cu Catalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Xin‐Yuan Liu"
+      ],
+      "corresponding_affiliations": [
+        "Southern University of Science and Technology, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "具有广泛自由基和硫相容性的多种烯烃的铜催化的化学和对映选择性自由基1,2-碳磺酰化",
+      "corresponding_affiliations_zh": [
+        "南方科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Visible-Light-Mediated Decarboxylative Coupling of Aromatic Carboxylic Acids with Aryl Methyl Ketones to Unsymmetrical 1,2-Diketones",
       "authors": [
         "Ali Akbari",
@@ -98,6 +167,108 @@
       "corresponding_affiliations_zh": [
         "",
         "伊斯兰阿扎德大学Jiroft分校， IR"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Designing organic photoredox catalysts as a fragment-based puzzle solved by reinforcement learning",
+      "authors": [
+        "Naoki Noto",
+        "Mayu Hirakata",
+        "Mikito Fujinami",
+        "Yusuke Masuda",
+        "Ryosuke Kojima",
+        "Yasunori Matsui",
+        "Hiroshi Ikeda",
+        "Hiromi Nakai"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-09",
+      "doi": "10.26434/chemrxiv.15010145/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010145/v1",
+      "abstract": "Reinforcement learning (RL) is a promising strategy for identifying optimal solutions in vast search spaces. We have developed a framework in which the design of organic photoredox catalysts (OPCs) is deliberately formulated as a fragment-based puzzle that is well suited to RL. In this framework, an RL agent sequentially selects and orders molecular fragments and attempts to identify fragment combinations that afford high rewards, as calculated based on the similarity between the properties of the generated molecules and those of 4CzIPN, a well-known OPC. In addition to the rediscovery of a previously reported high-performance OPC, experimental validation of the proposed candidates revealed a TADF emitter with redox potentials similar to those of 4CzIPN, as well as an OPC with superior catalytic activity in several photoreactions.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Susumu Saito"
+      ],
+      "corresponding_affiliations": [
+        "Nagoya University, Japan"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "将有机光氧化还原催化剂设计为基于片段的谜题，通过强化学习解决",
+      "corresponding_affiliations_zh": [
+        "名古屋大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Alkyl-BODIPYs as a Self-Photoredox Catalyst for their Oxidative Hydroxymethylation",
+      "authors": [
+        "Shaista Sultan",
+        "Praveen B. Managutti",
+        "Ahmed Abdelhady",
+        "Ramón Rios"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-09",
+      "doi": "10.26434/chemrxiv.15010141/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010141/v1",
+      "abstract": "The adoption of photocatalytic approaches for utilising small organic molecules in self‑catalysed reactions offers opportunities in green organic synthesis. We report that alkylated boron‑dipyrromethenes (BODIPYs) act as self‑photoredox catalysts for their own oxidation under mild visible‑light conditions. Using an imidazolinium salt (NHC-H) as a quencher, alkylated BODIPYs are oxidised cleanly to the corresponding hydroxymethyl derivatives in a one‑pot process. Luminescence studies, including Stern–Volmer analysis, support a reductive‑quenching pathway in which the NHC-H transfers an electron to photoexcited BODIPY to give a BODIPY radical anion. The method proceeds without external photocatalysts or stoichiometric oxidants and shows good functional‑group tolerance, highlighting the potential of these chromophores both as substrates and catalytic light absorbers. Moreover, the synthesized molecules were demonstrated to behave as effective passivating agents for layered Mn2+",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 51,
+      "corresponding_authors": [
+        "Ramón Rios"
+      ],
+      "corresponding_affiliations": [
+        "Khalifa University of Science and Technology, AE"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "烷基-BODIPYs作为其氧化羟甲基化的自我Photoredox催化剂",
+      "corresponding_affiliations_zh": [
+        "哈利法科技大学， AE"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Preparation of Amination g‐ C 3 N 4 and Enhanced Mechanism on UV Aging Resistance of WEP Coatings",
+      "authors": [
+        "Wei Li",
+        "Yongning Ma",
+        "Jiayi Zhao",
+        "Jiamin Feng",
+        "Jian‐Bo Tong"
+      ],
+      "journal": "Journal of Applied Polymer Science",
+      "date": "2026-10-09",
+      "doi": "10.1002/app.71587",
+      "url": "https://doi.org/10.1002/app.71587",
+      "abstract": "ABSTRACT Waterborne epoxy resin (WEP) coatings are widely used for metal protection, but the microcracks and micropores lead to corrosive media penetration. This study prepared aminated g‐C 3 N 4 (ACN) via ultrasonic dispersion‐assisted ammonia treatment. The prepared samples were characterized by XRD, FTIR, SEM, tensile testing, UV aging tests, and electrochemical measurements. Results showed that amino groups were successfully introduced into g‐C 3 N 4 and ACN formed stable chemical bonds with WEP, reducing the microcracks and micropores in WEP coatings. The 2‐ACN/WEP (2% ACN in composite emulsions) exhibited excellent performance on tensile strength (14.8 MPa), which enhanced 131.2% compared with that of pure WEP (6.4 MPa). After 30 min UV aging, the elongation at break only decreased about 24.8% and no obvious corrosion spots in the 720 h neutral salt spray test. The corrosion current density of 2‐ACN/WEP was 5.37 × 10 −11 A·cm −2 and low‐frequency impedance modulus was 9.530 × 10 9 Ω·cm 2 , which was increased about 3 orders than that of WEP. This study provides a reliable approach to improve anti‐corrosion and anti‐UV aging properties of WEP coatings, supporting the development of high‐performance green anti‐corrosive coatings.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Yongning Ma",
+        "Jian‐Bo Tong"
+      ],
+      "corresponding_affiliations": [
+        "Shaanxi University of Science and Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "胺化g ‐ C 3 N 4的制备和增强WEP涂层抗紫外线老化机制",
+      "corresponding_affiliations_zh": [
+        "陕西科技大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -144,6 +315,79 @@
         "青岛生物能源与生物工艺技术研究所，中国",
         "科学院大学，中国",
         "内蒙古大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Advancing chemical reaction prediction in data-scarce drug discovery with active and geometric deep learning",
+      "authors": [
+        "Mason Minot",
+        "Yannick Stenzhorn",
+        "Jens Wolfard",
+        "Sebastian Strobel",
+        "Philippe Jablonski",
+        "Daniel Zimmerli",
+        "Martin Binder",
+        "Uwe Grether"
+      ],
+      "journal": "Nature Computational Science",
+      "date": "2026-10-09",
+      "doi": "10.1038/s43588-026-01063-0",
+      "url": "https://doi.org/10.1038/s43588-026-01063-0",
+      "abstract": "The success of generative molecular design depends on the synthetic accessibility of the molecules it creates. While computational models can help predict chemical reactions, their current effectiveness is limited by a lack of reference data and the difficulty of accurately predicting reaction regioselectivity. Here, to address this, we present an integrated closed-loop workflow that combines efficient reaction data acquisition with high-accuracy deep learning. We developed an active learning strategy, driven by a tree-based ensemble, to guide the acquisition of the most informative laboratory experiments. This experimental campaign yielded a diverse benchmark for C-H borylation. The bespoke dataset allowed us to train and evaluate geometric graph neural networks. We demonstrate that augmenting these symmetry-aware models with self-supervised auxiliary tasks consistently improves performance for both reaction outcome prediction and regioselectivity prediction. Prospective tests on unseen substrates, featuring challenging N-heteroaryl motifs, pinpointed the correct borylation positions in all cases, illustrating the practical utility of our workflow for efficient drug optimization.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "David F. Nippa",
+        "Kenneth Atz",
+        "Gisbert Schneider"
+      ],
+      "corresponding_affiliations": [
+        "Roche (Switzerland), Switzerland",
+        "ETH Zurich, Switzerland"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过主动和几何深度学习推进数据稀缺药物发现中的化学反应预测",
+      "corresponding_affiliations_zh": [
+        "罗氏（），瑞士",
+        "苏黎世联邦理工学院，瑞士"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Hydrogenolysis of N-Cbz-Protected Amines Mediated by Spherical SiliaCat Pd(0)",
+      "authors": [
+        "Valerica Pandarus",
+        "Samuel Cashman-Kadri",
+        "Rosaria Ciriminna",
+        "François Béland",
+        "Mario Pagliaro"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-09",
+      "doi": "10.26434/chemrxiv.15010161/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010161/v1",
+      "abstract": "The deprotection reaction of N-benzyloxycarbonyl (N-Cbz)-protected amino groups in organic compounds can be efficiently achieved by hydrogenolysis mediated by the sol-gel-entrapped spherical catalyst SiliaCat Pd(0). The heterogeneous catalyst combines high catalytic activity and chemoselectivity with low Pd loading, a nonpyrophoric nature, and excellent reusability. Investigation of the effects of solvent, substrate concentration, Pd loading, temperature, and catalyst particle size revealed that 100 µm spherical SiliaCat Pd(0) provides a favorable balance between rapid reaction kinetics and practical catalyst properties for batch applications. The catalyst was successfully reused over ten consecutive reaction runs, maintaining complete conversion and high isolated yields. A broad substrate scope was demonstrated, with tolerance toward methyl esters, Boc-protected amines, pinacol boronate esters, and an aliphatic bromide, while debromination of an aryl bromide revealed a limitation of the method. Comparison of the 100 µm spherical sol-gel catalyst with several commercial heterogeneous Pd catalysts demonstrates its high catalytic activity and selectivity under mild reaction conditions.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Mario Pagliaro"
+      ],
+      "corresponding_affiliations": [
+        "Institute of Nanostructured Materials, Italy"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "球形SiliaCat Pd (0)介导的N-Cbz保护胺的氢解",
+      "corresponding_affiliations_zh": [
+        "纳米结构材料研究所，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -217,40 +461,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Breaking Scaling Relations to Achieve an Electrochemical Potential Window Strategy for Highly Selective Urea Electrosynthesis From N 2 and CO 2",
-      "authors": [
-        "Tianyi Dai",
-        "Tonghui Wang",
-        "Qing Jiang"
-      ],
-      "journal": "Advanced Functional Materials",
-      "date": "2026-10-08",
-      "doi": "10.1002/adfm.78950",
-      "url": "https://doi.org/10.1002/adfm.78950",
-      "abstract": "ABSTRACT Electrochemical co‐reduction of nitrogen (N 2 ) and carbon dioxide (CO 2 ) under ambient conditions offers a sustainable route for urea synthesis, while this desirable pathway suffers from selectivity challenge because of an inferior competition with numerous parallel reactions. Available strategy to selectively boost urea electrosynthesis and suppress the competitive reactions is absent, because they share the same intermediates which are limited by the well‐established scaling relations. Herein, we design a multi‐site NbCo 3 intermetallic compound, which imposes a dynamic strain effect on intermediates to break the scaling relations, achieving to gather radical intermediates to participate in C−N coupling while preventing their further protonation. Based on constant potential density functional theory (CP‐DFT) computations, an electrochemical potential window is evolved that NbCo 3 (001) obtains a prior selectivity toward urea electrosynthesis when the electrode potential is below −0.25 V versus the reversible hydrogen electrode (RHE). This work provides an available strategy to improve the catalytic selectivity of urea electrosynthesis, which accelerates the development of highly efficient catalysts.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 56,
-      "corresponding_authors": [
-        "Tonghui Wang",
-        "Qing Jiang"
-      ],
-      "corresponding_affiliations": [
-        "Jilin University, China",
-        "Key Laboratory of Automobile Materials, Ministry of Education, Jilin University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "打破缩放关系，实现N 2和CO 2高选择性尿素电合成的电化学潜在窗口策略",
-      "corresponding_affiliations_zh": [
-        "吉林大学，中国",
-        "吉林大学教育部汽车材料重点实验室，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
       "authors": [
         "Anupam Das",
@@ -279,42 +489,6 @@
       "title_zh": "μ-氧桥碘 (III) 试剂可实现无催化剂且无光的氟（卤）甲基自由基生成",
       "corresponding_affiliations_zh": [
         "LV 国家研究与创新研究院"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Some Items of Interest to Process R&D Chemists and Engineers",
-      "authors": [
-        "James A. Schwindeman",
-        "Timothy Kwok",
-        "Annabel Q. Ansel",
-        "James M. MacDougall",
-        "Jimmy Lauberteaux",
-        "Deeksha Jain",
-        "Elizabeth M. Dauncey",
-        "John Kremers"
-      ],
-      "journal": "Organic Process Research & Development",
-      "date": "2026-10-07",
-      "doi": "10.1021/acs.oprd.6c00462",
-      "url": "https://doi.org/10.1021/acs.oprd.6c00462",
-      "abstract": "Amide bond formation remains a cornerstone of pharmaceutical synthesis, with more than half of the top-selling smallmolecule drugs containing at least one amide linkage.To address the sustainability and atom economy limitations associated with conventional amide coupling strategies, Lei and co-workers contributed to the development of a novel biocatalytic approach based on engineered oxidative amidases (OxiAms) (Science, DOI: 10.1126/science.adw3365).Through multiple rounds of protein engineering, aldehyde dehydrogenases were successfully repurposed to catalyze the direct oxidative amidation of aldehydes and amines.Strategic mutations increased the hydrophobicity of the catalytic pocket, enabling selective capture of thioester intermediates by nucleophilic amines rather than water.The resulting enzyme platform demonstrated broad substrate tolerance, providing access to more than 70 amide products from diverse aldehyde and amine partners.The methodology was further expanded into a one-pot, two-step synthesis from alcohols by integrating an alcohol dehydrogenase with an NAD + recycling system.Its practical relevance was validated through gram-scale synthesis and the shortened de novo preparation of valuable pharmaceutical targets, highlighting its potential for sustainable drug manufacturing. ■ CATALYST-AND BASE-FREE ELECTROCHEMICAL ORTHO AMINATION OF PHENOLSConventional routes to N-alkyl aryl amines typically require multistep sequences usually involving nitro group reduction followed by N-alkylation, leading to lengthy processes and reduced overall sustainability.To support the identification of more efficient synthetic alternatives, Liu, Wang, and coworkers reported an electrochemical methodology enabling the direct amination of arenes under catalyst-free and base-free conditions (Chem.Commun., DOI: 10.1039/d6cc01670g).The approach leverages electrochemical activation to generate reactive intermediates without the need for additional reagents, Highlights from the Literature pubs.acs.org/OPRD",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 60,
-      "corresponding_authors": [
-        "John Knight"
-      ],
-      "corresponding_affiliations": [
-        "JKonsult Ltd , Meadow View, Cross Keys , ,"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "工艺研发化学家和工程师感兴趣的一些项目",
-      "corresponding_affiliations_zh": [
-        "JKonsult Ltd、Meadow View、十字键、、"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -632,44 +806,6 @@
         "10115401040000228 南京信息工程大学，中国",
         "南大，中国",
         "南京中医药大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Site-Selective Radical Carbonylation of Aryl Thianthrenium Salts with Gaseous CO in Flow",
-      "authors": [
-        "Zhen He",
-        "Cassandra Henderson",
-        "Julian Quévarec",
-        "Nikolaos Kaplaneris",
-        "Fabian Raymenants",
-        "Runkang Liu",
-        "Nicola Bragato",
-        "Umberto Sangalli"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-04",
-      "doi": "10.26434/chemrxiv.15009832/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15009832/v1",
-      "abstract": "Site-selective carbonylation of complex arenes remains challenging, particularly when carbon monoxide must intercept short-lived radical intermediates. Here, we report a photoredox carbonylation of aryl thianthrenium salts with gaseous CO and Michael acceptors in continuous flow. Pressurized gas–liquid flow facilitates the interception of photogenerated aryl radicals by CO, generating acyl radicals that subsequently engage diverse Michael acceptors to furnish 1,4-dicarbonyl derivatives. The method is compatible with a broad range of functional groups, heterocycles, pharmaceuticals, and natural-product-derived substrates, and its synthetic utility is demonstrated through a three-step synthesis of fenbufen from biphenyl and diversification of a salicin-derived 1,4-diketone into several heterocycles. This strategy combines siteselective arene thianthrenation with flow radical carbonylation, providing a versatile approach to the late-stage installation of carbonyl-containing motifs in complex molecules.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 56,
-      "corresponding_authors": [
-        "Timothy Noël"
-      ],
-      "corresponding_affiliations": [
-        "Flow Chemistry Group",
-        "Van ’t Hoff Institute for Molecular Sciences (HIMS), University of Amsterdam"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "芳基噻烯盐与气态 CO 在流动中的位点选择性自由基羰基化",
-      "corresponding_affiliations_zh": [
-        "流动化学组",
-        "阿姆斯特丹大学范特霍夫分子科学研究所 (HIMS)"
       ],
       "translation_version": 2,
       "toc_url": "",
