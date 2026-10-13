@@ -1,6 +1,41 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "papers": [
+    {
+      "title": "Navigating the Radical Oxo‐Functionalization of Alkenes Toward Ketones",
+      "authors": [
+        "Mattia Lepori",
+        "Luigi Dolcini",
+        "Alexander Bell",
+        "Joshua P. Barham"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-10-11",
+      "doi": "10.1002/ejoc.70840",
+      "url": "https://doi.org/10.1002/ejoc.70840",
+      "abstract": "Ketones are ubiquitous structural motifs in pharmaceuticals, natural products, agrochemicals, and functional materials, as well as indispensable building blocks in organic synthesis. This outlines the design of efficient carbonyl‐forming strategies a crucial target in methodology development. Alongside classical textbook polar, two electron (2e – ) approaches, the so‐called single‐electron (1e – ) logic has established itself as the contemporary method of choice for direct, de novo construction of structurally complex ketones from simple commodity chemicals, under mild conditions. In this context, radical 1,2‐oxo‐functionalization of alkenes represents a valuable, practical platform to rapidly enhance molecular complexity via one‐pot difunctionalization of “flat” feedstock chemicals, thereby avoiding tedious isolation and purification of intermediates en route to target ketones. This Review surveys recent advances in radical alkene oxo‐functionalization, with a particular emphasis on methodologies enabled by thermal, transition metal‐catalyzed, photochemical, and electrochemical activations. The mechanistic principles governing the finely‐tuned orchestration of sequential vicinal CX (with X = carbon or heteroatom) and CO bond formations—including single‐electron transfer, hydrogen atom transfer, and radical polar crossover—are discussed alongside the diverse carbonyl oxygen atom sources employed, such as tert ‐butyl hydroperoxide (TBHP), dimethyl sulfoxide (DMSO), and molecular oxygen (O 2 ).",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Joshua P. Barham"
+      ],
+      "corresponding_affiliations": [
+        "University of Strathclyde, United Kingdom",
+        "University of Regensburg, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "引导烯烃向酮的自由基氧化官能化",
+      "corresponding_affiliations_zh": [
+        "斯特拉斯克莱德大学，英国",
+        "雷根斯堡大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Enantioconvergent Decarboxylative Cross-Coupling for the Synthesis of α-Aryl Ketones via Metallaphotoredox Catalysis",
       "authors": [
@@ -29,7 +64,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "用于通过Metallaphotoredox催化合成α-芳基酮的对映体聚合脱羧交叉偶联",
       "corresponding_affiliations_zh": [
-        "电子科技大学，中国",
+        "科学技术大学，中国",
         "安徽科技大学，中国"
       ],
       "translation_version": 2,
@@ -67,6 +102,231 @@
       "title_zh": "通过镍催化的烯烃二碳官能化气态烷烃的区域和对映选择性官能化",
       "corresponding_affiliations_zh": [
         "圣地亚哥德孔波斯特拉大学，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A photoinduced, FeX3-catalyzed, stereo- and regio-selective halofunctionalization of olefins with MXn via a radical-polar crossover reaction",
+      "authors": [
+        "Jing Huang",
+        "Yidong Liu",
+        "Shen Li",
+        "Xia Tian",
+        "Juan Feng",
+        "Wei Su",
+        "Jia Li",
+        "Zhan‐Hui Zhang"
+      ],
+      "journal": "Communications Chemistry",
+      "date": "2026-10-10",
+      "doi": "10.1038/s42004-026-02225-x",
+      "url": "https://doi.org/10.1038/s42004-026-02225-x",
+      "abstract": "The classical reaction for the halofunctionalization of olefins involves hazardous and highly toxic molecular halogens. The goal of chemists is to establish green, inherently safe, highly efficient and sustainable synthetic methods. Here, we report a green approach for the halofunctionalization of alkenes with MXn and FeX3, as well as a nucleophile at room temperature under visible-light irradiation in AcOH/CH3CN, without strong oxidants and any ligand. This procedure provides a wide substrate scope and excellent functional-group tolerance, ranging from alkenes and conjugated dienes to medicinally active fragments. The reaction results in good to excellent yields, such as 82% and 84% for the bromoalcoholization and chlorobromination of cyclohexene, respectively. The method exhibits high stereoselectivity, regioselectivity and chemoselectivity, and mechanistic studies support the hypothesis that the reaction is a cascade process based on radical-polar crossover species, supported by DFT calculations. The classical reaction for the halofunctionalization of olefins involves hazardous and highly toxic molecular halogens. Here, the authors report the FeX3-catalyzed halofunctionalization of alkenes with MXn at room temperature, under visible-light irradiation, and without strong oxidants.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Zhan‐Hui Zhang",
+        "Andrew Whiting",
+        "Shouxin Liu"
+      ],
+      "corresponding_affiliations": [
+        "Hebei Normal University, China",
+        "Durham University, United Kingdom",
+        "Hebei University of Science and Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过自由基-极性交叉反应，利用 MXn 对烯烃进行光诱导、FeX3 催化、立体和区域选择性卤代官能化",
+      "corresponding_affiliations_zh": [
+        "河北师范大学，中国",
+        "杜伦大学，英国",
+        "河北科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "θ‐Metallacarboranes as Sustainable Photoredox Oxidation Catalysts of Unsaturated Fatty Acids From Oil and Pork Lard",
+      "authors": [
+        "Isabel Guerrero",
+        "Clara Viñas",
+        "Isabel Romero",
+        "Rosario Núñez",
+        "Francesç Teixidor"
+      ],
+      "journal": "ChemSusChem",
+      "date": "2026-10-10",
+      "doi": "10.1002/cssc.71113",
+      "url": "https://doi.org/10.1002/cssc.71113",
+      "abstract": "The sustainable management and valorization of unsaturated fatty acid‐rich lipid streams is a key challenge within circular economy strategies. Herein, we present a proof of concept for the photoredox oxidation of unsaturated fatty acids using θ‐metallacarborane complexes Na[Co(1,2‐C 2 B 9 H 11 ) 2 ] ( [Na]1 ) and Na[Fe(1,2‐C 2 B 9 H 11 ) 2 ] ( [Na]2 ) as water‐soluble, earth‐abundant photoredox catalysts. Commercial sunflower oil and pork lard served as convenient model systems mimicking waste lipid streams, while targeting future application to postconsumer used cooking oils. Under UVA irradiation in aqueous media, these complexes convert oleic‐ and linoleic‐acid derivatives into epoxides, vicinal diols and shorter‐chain oxygenated acids, with reaction selectivity finely tuned by pH, irradiation time and oxidant. Notably, [Na]1 exhibits superior oxidative power and acts as a “molecular scissor,” promoting C─C bond cleavage of vicinal diols and enabling the formation of mono‐ and dicarboxylic acids such as pelargonic and azelaic acids, valuable nonpetroleum‐based building blocks. Sodium persulfate affords high conversions with controlled over‐oxidation, while O 2 enhances diol selectivity. θ‐Metallacarboranes thus emerge as a sustainable platform for upgrading waste lipid streams into value‐added chemicals in water, advancing circular economy goals without competing with food supply chains.",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Isabel Romero",
+        "Rosario Núñez",
+        "Francesç Teixidor"
+      ],
+      "corresponding_affiliations": [
+        "Universitat de Girona, Spain",
+        "Institut de Ciència de Materials de Barcelona, Spain"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "θ-金属碳硼烷作为油和猪油中不饱和脂肪酸的可持续光氧化还原氧化催化剂",
+      "corresponding_affiliations_zh": [
+        "赫罗纳大学，西班牙",
+        "巴塞罗那材料科学研究所，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electroanalytical and Computational Investigation of Oxoammonium-Mediated Hydride Transfer",
+      "authors": [
+        "Elya Kandahari",
+        "Natalie A. Cox",
+        "Yi Wang",
+        "Song Lin"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-10",
+      "doi": "10.1021/jacs.6c10904",
+      "url": "https://doi.org/10.1021/jacs.6c10904",
+      "abstract": "Abstract Oxoammonium-mediated hydride transfer is an important yet relatively underexplored elementary step in C–H functionalization. In this work, we employed cyclic voltammetry (CV) to measure the rates of hydride transfer between electrochemically generated oxoammonium catalysts and 42 substrates including ethers, carbamates, amides, and sulfonamides. Through quantum mechanical (QM) calculations, we uncovered a new transition-state model for hydride transfer in which the N atom of the catalyst resides near a heteroatom (X = N or O) of the substrate to allow alignment of the oxoammonium’s O═N+ motif and the substrate’s forming C═X+ bond. Energy decomposition analysis was subsequently performed to elucidate the key factors that govern the kinetics of oxoammonium-mediated hydride transfer. Beyond conventional electronic and steric considerations, we identified substrate distortion, secondary orbital interactions, and noncovalent interactions as critical factors that influence hydride transfer reactivity. We anticipate that these kinetic data along with the mechanistic insights they provide will inform future catalyst development and synthetic applications to broaden the scope of oxoammonium catalysis.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Song Lin"
+      ],
+      "corresponding_affiliations": [
+        "Cornell University, United States",
+        "Stanford University, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "氧铵介导的氢化物转移的电分析和计算研究",
+      "corresponding_affiliations_zh": [
+        "康奈尔大学，美国",
+        "斯坦福大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Recent Advances in Boryl Radical Chemistry: The Rise of Visible‐Light‐Mediated Lewis Base‐Coordinated Borane Chemistry",
+      "authors": [
+        "Yuqi Miao",
+        "Xuenian Chen"
+      ],
+      "journal": "Chinese Journal of Chemistry",
+      "date": "2026-10-10",
+      "doi": "10.1002/cjoc.70671",
+      "url": "https://doi.org/10.1002/cjoc.70671",
+      "abstract": "Comprehensive Summary Lewis base‐coordinated borane is air‐stable, easy to handle, and employed as a boryl radical precursor under both thermal and photochemical conditions. Over the past few decades, the traditional ionic hydroboration method has been complemented by significant developments in radical‐based hydroboration protocols, enabling the synthesis of diverse, value‐added organoboron compounds. In this review, we have endeavored to present the state of the art in visible‐light‐driven Lewis base‐coordinated boryl radical‐promoted hydroboration, borylation, and XAT (X = halogen, H, CN) reactions, with a discussion covering reaction types, mechanisms, trends, and the distinctions between photo‐induced and thermal‐induced processes. The review presents a comprehensive overview of this theme, which has sparked significant research interest. Key Scientists",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Xuenian Chen"
+      ],
+      "corresponding_affiliations": [
+        "Zhengzhou University, China",
+        "Henan Normal University, China",
+        "Nanjing University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "硼基自由基化学的最新进展：可见光介导的路易斯碱配位硼烷化学的兴起",
+      "corresponding_affiliations_zh": [
+        "郑州大学，中国",
+        "河南师范大学，中国",
+        "南京大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Modular Construction of Cyclic and Linear Quaternary Carbon Centers through Visible‐Light‐Induced Triplet Nitrene Transfer Reaction",
+      "authors": [
+        "Minghan Yao",
+        "Xinke Zhang",
+        "Shanliang Dong",
+        "Jingjing Huang",
+        "Jiajie Liang",
+        "Cheng Zhang",
+        "Zhuofeng Ke",
+        "René M. Koenigs"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-10",
+      "doi": "10.1002/anie.7133146",
+      "url": "https://doi.org/10.1002/anie.7133146",
+      "abstract": "ABSTRACT All‐carbon quaternary centers represent a fundamental structural unit found in a wide range of functional molecules. Within the versatile synthetic toolbox, the semipinacol rearrangement (SPR) stands as one of the most powerful tools for assembling this sterically congested motif. In this context, ‌radical‐mediated SPR pathways‌, especially those entailing alkyl migrations, remain underexplored from a strategic standpoint. Herein, we report a visible light‐promoted formal SPR of tertiary allyl alcohols using in situ‐generated triplet nitrene species as the initiator under redox‐neutral conditions. This method demonstrates broad substrate scope, enabling efficient construction of all‐carbon quaternary centers across various steric environments, including rigid cyclic/spiro frameworks and flexible acyclic systems. Mechanistic investigations reveal substrate‐dependent pathways: alkenyl cyclobutanols undergo triplet nitrene addition followed by concurrent ring‐expansion and hydrogen atom transfer (HAT) to form cyclic ketones, while nonactivated allyl alcohols proceed through aziridination/ring‐opening/SPR sequences to produce linear β‐amino ketones. Preliminary biological assessments of these α‐quaternary β‐aminoketone derivatives revealed that compound 4a exhibited potent anti‐DENV‐2 activity, with an EC 50 value of 0.95 ± 0.02 µM against viral replication.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Cheng Zhang",
+        "René M. Koenigs",
+        "Xinfang Xu"
+      ],
+      "corresponding_affiliations": [
+        "Guangzhou Medical University, China",
+        "University of Bayreuth, Germany",
+        "Zhejiang Sci-Tech University, China",
+        "State Key Laboratory of Chemical Engineering, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过可见光诱导三重态氮烯转移反应模块化构建环状和线性四元碳中心",
+      "corresponding_affiliations_zh": [
+        "广州医科大学，中国",
+        "拜罗伊特大学，德国",
+        "浙江理工大学，中国",
+        "化学工程国家重点实验室，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Encapsulation of Porphyrins in Polymer Microgels and Microbeads for Heterogeneous Photooxidation",
+      "authors": [
+        "Imogen Smith",
+        "Natthakarn Olanchantarothai",
+        "Martin R. Johnston",
+        "Zhongfan Jia"
+      ],
+      "journal": "ChemSusChem",
+      "date": "2026-10-10",
+      "doi": "10.1002/cssc.71137",
+      "url": "https://doi.org/10.1002/cssc.71137",
+      "abstract": "Using porphyrin-mediated photocatalytic energy transfer to generate singlet oxygen is a premier strategy for green, selective chemical synthesis. However, such catalytic systems are mostly conducted in organic solvents. This work aims to explore the generation and utilization of singlet oxygen for photochemical oxidation in aqueous media. To this end, we prepared two porphyrins with reactive primary amines or charged quaternized ammonium groups for covalent and ionic crosslinking, producing TPP-loaded hydrophilic microgels and microbeads, respectively. We explored catalyst formulations to optimize singlet oxygen generation and the direct oxidation of various substrates. Both catalysts effectively facilitate the chemical conversion of thioethers, thiols, and aldehydes. In deuterium oxide, oxidation reactions of methionine, allyl sulfide, and benzaldehyde achieved high quantitative conversion due to a longer lifetime of singlet oxygen in deuterium oxide than that in water. Notably, the oxidation of thioethers stopped selectively at the sulfoxide stage, avoiding over-oxidation to sulfones. While this method offers an easy way to isolate the catalysts in aqueous media, the high cost of deuterium oxide and slower reaction rates in water suggest that future development of nanobeads via microfluidic devices could overcome molecular oxygen diffusion limitation and enhance reaction rates in water.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Zhongfan Jia"
+      ],
+      "corresponding_affiliations": [
+        "Flinders University, Australia"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "将卟啉封装在聚合物微凝胶和微珠中用于异相光氧化",
+      "corresponding_affiliations_zh": [
+        "弗林德斯大学，澳大利亚"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -143,7 +403,7 @@
       "title": "Visible-Light-Mediated Decarboxylative Coupling of Aromatic Carboxylic Acids with Aryl Methyl Ketones to Unsymmetrical 1,2-Diketones",
       "authors": [
         "Ali Akbari",
-        "Danial Zand Hoseinshahi"
+        "Danial Zand Hosein shahi"
       ],
       "journal": "Synthesis",
       "date": "2026-10-09",
@@ -156,7 +416,7 @@
       ],
       "relevance": 70,
       "corresponding_authors": [
-        "Danial Zand Hoseinshahi"
+        "Danial Zand Hosein shahi"
       ],
       "corresponding_affiliations": [
         "University of Jiroft, IR",
@@ -165,44 +425,8 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "芳基甲基酮与芳基羧酸的可见光介导脱羧偶联至不对称的1,2-二酮",
       "corresponding_affiliations_zh": [
-        "",
+        "IR 吉罗夫特大学",
         "伊斯兰阿扎德大学Jiroft分校， IR"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Designing organic photoredox catalysts as a fragment-based puzzle solved by reinforcement learning",
-      "authors": [
-        "Naoki Noto",
-        "Mayu Hirakata",
-        "Mikito Fujinami",
-        "Yusuke Masuda",
-        "Ryosuke Kojima",
-        "Yasunori Matsui",
-        "Hiroshi Ikeda",
-        "Hiromi Nakai"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-09",
-      "doi": "10.26434/chemrxiv.15010145/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15010145/v1",
-      "abstract": "Reinforcement learning (RL) is a promising strategy for identifying optimal solutions in vast search spaces. We have developed a framework in which the design of organic photoredox catalysts (OPCs) is deliberately formulated as a fragment-based puzzle that is well suited to RL. In this framework, an RL agent sequentially selects and orders molecular fragments and attempts to identify fragment combinations that afford high rewards, as calculated based on the similarity between the properties of the generated molecules and those of 4CzIPN, a well-known OPC. In addition to the rediscovery of a previously reported high-performance OPC, experimental validation of the proposed candidates revealed a TADF emitter with redox potentials similar to those of 4CzIPN, as well as an OPC with superior catalytic activity in several photoreactions.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 56,
-      "corresponding_authors": [
-        "Susumu Saito"
-      ],
-      "corresponding_affiliations": [
-        "Nagoya University, Japan"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "将有机光氧化还原催化剂设计为基于片段的谜题，通过强化学习解决",
-      "corresponding_affiliations_zh": [
-        "名古屋大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -235,40 +459,6 @@
       "title_zh": "烷基-BODIPYs作为其氧化羟甲基化的自我Photoredox催化剂",
       "corresponding_affiliations_zh": [
         "哈利法科技大学， AE"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Preparation of Amination g‐ C 3 N 4 and Enhanced Mechanism on UV Aging Resistance of WEP Coatings",
-      "authors": [
-        "Wei Li",
-        "Yongning Ma",
-        "Jiayi Zhao",
-        "Jiamin Feng",
-        "Jian‐Bo Tong"
-      ],
-      "journal": "Journal of Applied Polymer Science",
-      "date": "2026-10-09",
-      "doi": "10.1002/app.71587",
-      "url": "https://doi.org/10.1002/app.71587",
-      "abstract": "ABSTRACT Waterborne epoxy resin (WEP) coatings are widely used for metal protection, but the microcracks and micropores lead to corrosive media penetration. This study prepared aminated g‐C 3 N 4 (ACN) via ultrasonic dispersion‐assisted ammonia treatment. The prepared samples were characterized by XRD, FTIR, SEM, tensile testing, UV aging tests, and electrochemical measurements. Results showed that amino groups were successfully introduced into g‐C 3 N 4 and ACN formed stable chemical bonds with WEP, reducing the microcracks and micropores in WEP coatings. The 2‐ACN/WEP (2% ACN in composite emulsions) exhibited excellent performance on tensile strength (14.8 MPa), which enhanced 131.2% compared with that of pure WEP (6.4 MPa). After 30 min UV aging, the elongation at break only decreased about 24.8% and no obvious corrosion spots in the 720 h neutral salt spray test. The corrosion current density of 2‐ACN/WEP was 5.37 × 10 −11 A·cm −2 and low‐frequency impedance modulus was 9.530 × 10 9 Ω·cm 2 , which was increased about 3 orders than that of WEP. This study provides a reliable approach to improve anti‐corrosion and anti‐UV aging properties of WEP coatings, supporting the development of high‐performance green anti‐corrosive coatings.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Yongning Ma",
-        "Jian‐Bo Tong"
-      ],
-      "corresponding_affiliations": [
-        "Shaanxi University of Science and Technology, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "胺化g ‐ C 3 N 4的制备和增强WEP涂层抗紫外线老化机制",
-      "corresponding_affiliations_zh": [
-        "陕西科技大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -312,9 +502,43 @@
       "corresponding_affiliations_zh": [
         "名古屋工业大学，日本",
         "科学院，中国",
-        "青岛生物能源与生物工艺技术研究所，中国",
+        "青岛生物能源与过程技术研究所，中国",
         "科学院大学，中国",
         "内蒙古大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Preparation of Amination g‐ C 3 N 4 and Enhanced Mechanism on UV Aging Resistance of WEP Coatings",
+      "authors": [
+        "Wei Li",
+        "Yongning Ma",
+        "Jiayi Zhao",
+        "Jiamin Feng",
+        "Jian‐Bo Tong"
+      ],
+      "journal": "Journal of Applied Polymer Science",
+      "date": "2026-10-09",
+      "doi": "10.1002/app.71587",
+      "url": "https://doi.org/10.1002/app.71587",
+      "abstract": "ABSTRACT Waterborne epoxy resin (WEP) coatings are widely used for metal protection, but the microcracks and micropores lead to corrosive media penetration. This study prepared aminated g‐C 3 N 4 (ACN) via ultrasonic dispersion‐assisted ammonia treatment. The prepared samples were characterized by XRD, FTIR, SEM, tensile testing, UV aging tests, and electrochemical measurements. Results showed that amino groups were successfully introduced into g‐C 3 N 4 and ACN formed stable chemical bonds with WEP, reducing the microcracks and micropores in WEP coatings. The 2‐ACN/WEP (2% ACN in composite emulsions) exhibited excellent performance on tensile strength (14.8 MPa), which enhanced 131.2% compared with that of pure WEP (6.4 MPa). After 30 min UV aging, the elongation at break only decreased about 24.8% and no obvious corrosion spots in the 720 h neutral salt spray test. The corrosion current density of 2‐ACN/WEP was 5.37 × 10 −11 A·cm −2 and low‐frequency impedance modulus was 9.530 × 10 9 Ω·cm 2 , which was increased about 3 orders than that of WEP. This study provides a reliable approach to improve anti‐corrosion and anti‐UV aging properties of WEP coatings, supporting the development of high‐performance green anti‐corrosive coatings.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Yongning Ma",
+        "Jian‐Bo Tong"
+      ],
+      "corresponding_affiliations": [
+        "Shaanxi University of Science and Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "胺化g ‐ C 3 N 4的制备和增强WEP涂层抗紫外线老化机制",
+      "corresponding_affiliations_zh": [
+        "陕西科技大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -366,7 +590,7 @@
         "Valerica Pandarus",
         "Samuel Cashman-Kadri",
         "Rosaria Ciriminna",
-        "François Béland",
+        "Beland Francois",
         "Mario Pagliaro"
       ],
       "journal": "ChemRxiv",
@@ -418,7 +642,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "3,3-二芳基氧杂环丁烷的模块化合成",
       "corresponding_affiliations_zh": [
-        "Max-Planck-Institut für Kohlenforschung，德国"
+        "马克斯·普朗克光学研究所，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -454,7 +678,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "噻唑α位碳季铵化：使用未活化烯烃的铁催化氢杂芳基化",
       "corresponding_affiliations_zh": [
-        "毕业于巴黎国家行政学院，韩国"
+        "首尔国立大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -588,7 +812,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "无光敏剂的红外光诱导自由基反应",
       "corresponding_affiliations_zh": [
-        "科学技术署，日本",
+        "科学技术振兴机构，日本",
         "东京大学，日本"
       ],
       "translation_version": 2,
@@ -657,39 +881,6 @@
       "title_zh": "现代有机化学中的电合成：从二氧化碳固定到生物相关支架的多样化",
       "corresponding_affiliations_zh": [
         "博洛尼亚大学，意大利"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Hypoboric Acid Catecholate (HAC) Catalysis for Stereoselective Decarboxylative Borylation of Redox-Active Esters",
-      "authors": [
-        "Stefanie V. Kohlhepp",
-        "Matteo Costantini",
-        "Beatriz Meana-Baamonde",
-        "Abraham Mendoza"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-05",
-      "doi": "10.26434/chemrxiv.15009869/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15009869/v1",
-      "abstract": "The Hypoboric Acid Catecholate (HAC) is a new class of diboron reagent bearing a borylcatecholato and a boronic acid moiety. Herein, we demonstrate that HACs can also be expontaneously formed in situ from collections of catechols and hypoboric acid. These HACs catalyze the decarboxylative borylation of redox-active esters, providing superior reactivity and selectivity. Equilibrium and kinetic NMR experiments indicate that the catalytic turnover is enabled by the high affinity of catechols for hypoboric acid and their low affinity for boronic acids that is uncovered herein. The catalytic system operates in mild conditions and is robust towards air and moisture, demonstrating its utility in the synthesis of important medicinally-relevant boronates. The enhanced selectivity is sourced in the regioselective radical capture by HAC intermediates at their customized borylcatecholato moiety, which can easily be stereoelectronically tailored for specific applications. These features of the catalytic approach with unsymmetrical HACs presented herein contrast with current state-of-the-art methods based on stoichiometric symmetrical diboron reagents.",
-      "tags": [
-        "Boron Chemistry",
-        "Decarboxylative Coupling"
-      ],
-      "relevance": 76,
-      "corresponding_authors": [
-        "Abraham Mendoza"
-      ],
-      "corresponding_affiliations": [
-        "Parc Científic de la Universitat de València, Spain"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "次硼酸儿茶酚酸酯 (HAC) 催化氧化还原活性酯的立体选择性脱羧硼基化",
-      "corresponding_affiliations_zh": [
-        "瓦伦西亚大学科学公园，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -765,47 +956,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过硫醇介导的 Zn(CF 2 H) 2 (DMPU) 2 光活化实现烯烃的无光催化剂氢二氟甲基化",
       "corresponding_affiliations_zh": [
-        "科技大学，韩国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Unsaturated Carboxylates as Electrophilic Synthons for Transition‐Metal‐Catalyst‐Free Electroreductive Deoxygenative Coupling",
-      "authors": [
-        "Jianyou Zhao",
-        "Jiaoyang Liu",
-        "Zi‐Ao Zhang",
-        "Zhihui Sun",
-        "Fan Wang",
-        "Shuai Liu",
-        "Zhong‐Quan Liu"
-      ],
-      "journal": "Angewandte Chemie International Edition",
-      "date": "2026-10-04",
-      "doi": "10.1002/anie.6256116",
-      "url": "https://doi.org/10.1002/anie.6256116",
-      "abstract": "ABSTRACT The use of ester‐derived electrophiles in transition‐metal‐free electroreductive C(sp 3 )─C(sp 3 ) bond formation remains largely unexplored. Herein, we report a sacrificial‐anode‐enabled electroreductive cross‐coupling of simple unsaturated carboxylates with unactivated alkyl halides. Aryl, alkenyl, and alkynyl carboxylates are readily incorporated, affording methylene‐bridged alkylarenes together with allylic and propargylic C(sp 3 )‐rich frameworks under mild conditions. Mechanistic studies support independent single‐electron reduction of both electrophilic partners, followed by radical‐radical coupling, alkoxide elimination, and cathodic deoxygenation via a Clemmensen‐like reduction pathway. This work establishes unsaturated carboxylates as a new class of alkylating reagents for electroreductive C(sp 3 )─C(sp 3 ) bond formation.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 58,
-      "corresponding_authors": [
-        "Shuai Liu",
-        "Zhong‐Quan Liu"
-      ],
-      "corresponding_affiliations": [
-        "Nanjing University of Information Science and Technology, China",
-        "Nanjing University, China",
-        "Nanjing University of Chinese Medicine, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "不饱和羧酸盐作为亲电合成子用于无过渡金属催化剂的电还原脱氧偶联",
-      "corresponding_affiliations_zh": [
-        "10115401040000228 南京信息工程大学，中国",
-        "南大，中国",
-        "南京中医药大学，中国"
+        "浦项科技大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -876,7 +1027,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "炔烃的二氟亚甲基化：简化获得烯丙基二氟化物的过程",
       "corresponding_affiliations_zh": [
-        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "国家科学研究中心，法国",
         "普瓦捷大学，法国"
       ],
       "translation_version": 2,
@@ -912,7 +1063,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
       "corresponding_affiliations_zh": [
-        "甘南师范大学，中国"
+        "赣南师范学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -951,7 +1102,39 @@
       "title_zh": "4-二氟甲基-L-苯丙氨酸的合成和体内掺入蛋白质",
       "corresponding_affiliations_zh": [
         "罗德岛大学，美国",
-        "柯盖德大学，美国"
+        "科尔盖特大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Iron-Catalyzed Defluorinative Alkylation for Accessing Cyclic Acetal– gem -Difluoroalkenes",
+      "authors": [
+        "Xiao-Tong Wang",
+        "Pui Ying Choy",
+        "Chi Wai Cheung",
+        "Fuk Yee Kwong"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-09-22",
+      "doi": "10.1021/acs.orglett.6c03239",
+      "url": "https://doi.org/10.1021/acs.orglett.6c03239",
+      "abstract": "Abstract Cyclic acetals and gem-difluoroalkenes are proven structural motifs in medicinal chemistry, yet their modular incorporation into a densely functionalized hybrid architecture remains an uncharted frontier. Herein, we disclose an Fe-catalyzed reductive defluorinative cross-coupling between trifluoromethyl alkenes and 1,3-dioxolanyl- or 1,3-dioxepanyl-substituted alkyl iodides, enabling the rapid assembly of five- or seven-membered cyclic acetal-embodied fluorinated scaffolds, respectively. This protocol enriches defluorinative coupling versatility and offers streamlined access to structurally diverse pharmaceutically relevant scaffolds.",
+      "tags": [
+        "Fe Catalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Fuk Yee Kwong"
+      ],
+      "corresponding_affiliations": [
+        "Chinese University of Hong Kong, Hong Kong"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "铁催化脱氟烷基化反应得到环状缩醛-宝石-二氟烯烃",
+      "corresponding_affiliations_zh": [
+        "香港中文大学，中国香港"
       ],
       "translation_version": 2,
       "toc_url": "",
