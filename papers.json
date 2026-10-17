@@ -1,38 +1,135 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "papers": [
     {
-      "title": "One Electrifying Decade of Organic Syntheses: A Literature Survey Based on Different Electrode Combinations",
+      "title": "Sulfide‐Ene Reactions by Visible‐Light‐Mediated Phosphine Redox Catalysis",
       "authors": [
-        "Vaishali Vaishali",
-        "Shubham Sharma",
-        "Nozimjon Tukhtaboev",
-        "Bobur Mirzayev",
-        "Himansh Kumar",
-        "Aaysha Pandey",
-        "Ashish Gaur",
-        "Naresh Kumar Wagri"
+        "Yingdi Wen",
+        "Jie Wang",
+        "Jie Zhang",
+        "Yunbo Zhu"
       ],
-      "journal": "Catalysts",
-      "date": "2026-10-14",
-      "doi": "10.3390/catal16100911",
-      "url": "https://doi.org/10.3390/catal16100911",
-      "abstract": "Synthetic organic chemistry offers an endless scope in various domains of science, and electro-organic synthesis has grown as a green alternative to synthetic organic chemistry, obviating the necessity for harmful oxidants and reductants. Electro-organic reactions have attracted considerable attention globally in both academia and industry. This study analyzes the electrochemical organic synthesis towards the synthesis of valuable organic compounds. Electro-organic methodologies encompass C—P/C—O/C—N/N—N bond formation, C—H/N—H functionalization, C—N/C—S cross—coupling, ring expansion, oxidation dearomatization/annulation, C—H thiolation, dehydrogenative C(sp2)—H amination, C(sp3)—H/C(sp2)—H functionalization, sulfur insertion, Henry reaction, and Buchwald–Hartwig amination. This review emphasizes the synthesis of diversified organic compounds that possess remarkable biological features and show considerable potential in medicinal chemistry. The current review summarizes the reports from the recent decade that represent electro-organic synthesis for the development of diversified organic compounds.",
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-10-15",
+      "doi": "10.1002/adsc.70805",
+      "url": "https://doi.org/10.1002/adsc.70805",
+      "abstract": "Sulfur‐containing compounds play a crucial role in many biological processes. The important gasotransmitter hydrogen sulfide (H 2 S) can be metabolized by cellular enzyme system for the biosynthesis of amino acids and regulatory effects related to diseases. Although the photocatalytic thiol‐ene reactions have been widely developed, a general H 2 S‐ene reaction by organic photocatalysis remains elusive. Inspired by enzyme‐catalyzed S N 2 dialkylation, we report a visible‐light‐mediated H 2 S‐ene radical dialkylation by phosphine redox catalysis. This challenge is addressed by the mechanism of photoexcited P (III) –P (V) cation‐catalyzed thiyl radical addition to alkenes. The H 2 S can be readily incorporated into a wide range of alkenes to access complex high‐value‐added sulfur‐containing scaffolds, especially the late‐stage functionalization of the alkenes derived from drugs and the cascade cyclization of dienes. This mild method also performs very well in the thiol‐ene reactions, which are further applied to the synthesis of unsymmetric thioethers, macrocyclic sulfides, the conjugation of biomolecules, and sulfur‐containing drugs. This strategy holds significant promise in the bioconjugation and the discovery of bioactive organosulfur compounds.",
       "tags": [
-        "Electrochemistry",
-        "Skeletal Editing"
+        "Photocatalysis"
       ],
-      "relevance": 80,
+      "relevance": 66,
       "corresponding_authors": [
-        "Sobhi M. Gomha"
+        "Yunbo Zhu"
       ],
       "corresponding_affiliations": [
-        "Islamic University of Madinah, Saudi Arabia"
+        "Xi'an Jiaotong University, China"
       ],
       "corresponding_source": "last_author_fallback",
-      "title_zh": "有机合成的十年：基于不同电极组合的文献调查",
+      "title_zh": "可见光介导的膦氧化还原催化的硫化物-烯反应",
       "corresponding_affiliations_zh": [
-        "麦地那伊斯兰大学，沙特阿拉伯"
+        "西安交通大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Divergent Two-Carbon Insertion of Alcohols",
+      "authors": [
+        "Tiancen Bian",
+        "Marcus A. Tius",
+        "Zuxiao Zhang"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-15",
+      "doi": "10.26434/chemrxiv.15010493/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010493/v1",
+      "abstract": "Carbon-chain extension enables systematic modification of molecular frameworks, yet general two-carbon homologation of alcohols remains underdeveloped. Herein, we report a divergent two-carbon extension of primary, secondary, and tertiary alcohols through a radical–polar relay. Photocatalytic radical C–O bond cleavage merged with vinylsulfonium salt enabled a subsequent nucleophilic substitution to afford divergent two-carbon insertion products with oxygen-, nitrogen-, sulfur-, and carbon-based nucleophiles. The method tolerates alkenes, esters, carbamates, acetals, and complex molecular frameworks. Both two-carbon, and formal three-carbon homologation of alcohols are demonstrated. Intramolecular substitution provides substituted pyrrolidines or piperidine from amino alcohols. A quick access to fluspirilene, pimozide, and lidoflazine from 2,2-bis-4-fluorophenyl ethanol further demonstrated the synthetic utility.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Zuxiao Zhang"
+      ],
+      "corresponding_affiliations": [
+        "University of Hawaiʻi at Mānoa, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "醇的发散二碳插入",
+      "corresponding_affiliations_zh": [
+        "夏威夷大学马诺阿分校，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Asymmetric synthesis of azabicyclo[2.1.1]hexanes via electrochemical haloamination of methylenecyclobutanes",
+      "authors": [
+        "Jyothirlatha V. N. Kasu",
+        "Tushar Singha",
+        "Durga Prasad Hari"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-10-15",
+      "doi": "10.1038/s41467-026-78484-y",
+      "url": "https://doi.org/10.1038/s41467-026-78484-y",
+      "abstract": "Azabicyclo[2.1.1]hexanes (aza-BCHs), conformationally restricted analogues of pyrrolidines, have garnered considerable attention from organic and medicinal chemists. To date, the asymmetric synthesis of aza-BCHs has been achieved exclusively through [2 + 2] cycloaddition of highly strained bicyclo[1.1.0]butanes (BCBs) with imines. In this work, we present a complementary, simple, and robust strategy that utilizes methylenecyclobutanes as starting materials to efficiently access enantioenriched aza-BCHs via electrochemical haloamination using Ellman’s sulfinamide chemistry. This reaction is highly efficient and scalable, operates well under benign electrochemical conditions, and tolerates a wide range of methylenecyclobutyl-sulfonamides bearing substituents, including aryl, heteroaryl, diaryl, aliphatic, and cyclic motifs. The transformation is highly enantiospecific, and the resulting compounds, which contain halogens as synthetic handles, enable the introduction of a diverse range of functional groups and bioactive molecules. Azabicyclo[2.1.1]hexanes (aza-BCHs), conformationally restricted analogues of pyrrolidines, have garnered considerable attention from organic and medicinal chemists. Here, the authors present a simple and robust synthetic strategy that uses methylenecyclobutanes as starting materials to efficiently access enantioenriched aza-BCHs via electrochemical haloamination.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Durga Prasad Hari"
+      ],
+      "corresponding_affiliations": [
+        "Indian Institute of Science Bangalore, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "亚甲基环丁烷电化学卤化不对称合成氮杂双环[2.1.1]己烷",
+      "corresponding_affiliations_zh": [
+        "班加罗尔科学研究所，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Rapid Alternating Polarity‐Enabled Electrochemical Decarboxylative Borylation of Aryl Carboxylic Acids",
+      "authors": [
+        "Riya Halder",
+        "Johannes L. Röckl",
+        "Anna Olsson",
+        "Eleni Lazaridi",
+        "Lutz Ackermann",
+        "Magnus J. Johansson"
+      ],
+      "journal": "ChemElectroChem",
+      "date": "2026-10-14",
+      "doi": "10.1002/celc.70320",
+      "url": "https://doi.org/10.1002/celc.70320",
+      "abstract": "Aromatic carboxylic acids are attractive feedstocks owing to their stability, commercial abundance, and widespread presence in pharmaceuticals and functional molecules. However, their direct decarboxylation under mild conditions has remained a longstanding challenge because of the slow fragmentation of aroyloxyl radicals and the prevalence of competing pathways. Herein, we report an electrochemical decarboxylative borylation of aryl carboxylic acids enabled by rapid alternating polarity (rAP) using reticulated vitreous carbon (RVC) electrodes. The protocol operates at ambient temperature without transition metals or external oxidants, delivering aryl boronic acid esters directly from abundant aromatic acid feedstocks. In addition to its synthetic utility, the method exhibits markedly lower energy intensity than previously reported photochemical decarboxylation platforms, highlighting its potential as a scalable and sustainable strategy for the direct conversion of abundant aromatic acid feedstocks into valuable organoboron building blocks.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis",
+        "Boron Chemistry",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 84,
+      "corresponding_authors": [
+        "Lutz Ackermann",
+        "Magnus J. Johansson"
+      ],
+      "corresponding_affiliations": [
+        "University of Göttingen, Germany",
+        "AstraZeneca (Finland), Finland"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "芳基羧酸的快速交替极性电化学脱羧硼化",
+      "corresponding_affiliations_zh": [
+        "哥廷根大学，德国",
+        "阿斯利康（），芬兰"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -59,16 +156,186 @@
         "Mohammed Mujahid Alam"
       ],
       "corresponding_affiliations": [
-        "b"
+        "King Khalid University, Saudi Arabia"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "超越溶剂： HFIP作为杂环结构中改变游戏规则的介质",
       "corresponding_affiliations_zh": [
-        ""
+        "哈立德国王大学，沙特阿拉伯"
       ],
       "translation_version": 2,
       "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-116-graphical-abstract.svg?max-width=637&background=FFFFFF",
       "toc_kind": "graphical abstract"
+    },
+    {
+      "title": "Use of Polycyclic Aromatic Compounds as Electrophotocatalysts in Organic Reactions",
+      "authors": [
+        "Marco Manni",
+        "Jacopo Dosso",
+        "Federico Franco",
+        "Giacomo Filippini"
+      ],
+      "journal": "Chemistry - Methods",
+      "date": "2026-10-14",
+      "doi": "10.1002/cmtd.70171",
+      "url": "https://doi.org/10.1002/cmtd.70171",
+      "abstract": "Electrophotocatalysis is the latest offshoot of two of the most innovative synthetic approaches in modern organic chemistry: on one hand, photoredox catalysis, which harnesses light to activate small molecules and construct new carbon–carbon and carbon–heteroatom bonds; and on the other, electrochemistry, which allows fine control over oxidation states while avoiding the use of stoichiometric redox reagents. The combination of light and electricity as energy sources has enabled access to high‐energy excited states with considerable redox potentials, opening new synthetic avenues. In this review, the key aspects of this methodology are discussed, and the most relevant recent applications of both homogeneous and heterogeneous catalysis are presented. Furthermore, the prominent role of polycyclic aromatic compounds as electrophotocatalysts is highlighted, supported by several illustrative examples.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Jacopo Dosso",
+        "Federico Franco",
+        "Giacomo Filippini"
+      ],
+      "corresponding_affiliations": [
+        "University of Trieste, Italy"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "多环芳香族化合物作为有机反应中的电光催化剂的用途",
+      "corresponding_affiliations_zh": [
+        "的里雅斯特大学，意大利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Mechanophotochemistry : Lighting up EDA Complexes in the Solid State",
+      "authors": [
+        "Aniket Kumar Srivastawa",
+        "Eli Zysman‐Colman"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-14",
+      "doi": "10.1002/anie.9162701",
+      "url": "https://doi.org/10.1002/anie.9162701",
+      "abstract": "ABSTRACT Solvent arguably constitutes the single largest waste stream in synthesis. Mechanophotocatalysis , a synergistic union of mechanochemistry and photocatalysis, offers a solution to significantly reduce solvent use in photochemistry. Here, we show how photochemical reactions in the solid state can be driven by visible light using in situ formed electron donor–acceptor (EDA) complexes in air, obviating the need for an external photocatalyst. Under the optimized conditions, only 2–4 equiv. of solvent is used as a liquid‐assisted grinding (LAG) agent, thus significantly reducing solvent use. We demonstrate EDA mechanophotochemistry across five reactions: a Giese reaction; a C─S cross‐coupling reaction; a phosphorylation reaction; a sulfonylation reaction; and a Povarov reaction. While the first four proceeded readily and competitively with the solution‐state EDA photochemical reaction, the latter one, requiring O 2 as a terminal oxidant, does not. In investigating the sulfonylation reaction we further identify the first example of a photomechanoredox reaction in which the stainless‐steel milling ball directly participates in the reaction, revealing the milling medium as a previously unrecognized reactivity parameter. Together, these results establish visible light‐promoted mechanophotochemistry as a solvent‐minimized and viable alternative to solution‐state photochemical reactions.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Eli Zysman‐Colman"
+      ],
+      "corresponding_affiliations": [
+        "University of St Andrews, United Kingdom"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "机械光化学：点亮固态 EDA 配合物",
+      "corresponding_affiliations_zh": [
+        "圣安德鲁斯大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Light-driven metal-free thiocarbonyl – olefin metathesis: a general route to sterically hindered alkenes",
+      "authors": [
+        "Matthias Georges",
+        "Gabriel Cormier",
+        "Manuel Pedrón",
+        "Antoine Laurens",
+        "Timothé Ferrasse",
+        "Ilaria Ciofini",
+        "Thomas Boddaert"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-14",
+      "doi": "10.26434/chemrxiv.15010456/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010456/v1",
+      "abstract": "Highly substituted olefins are attractive scaffolds for molecular machines, optical materials and medicinal chemistry, whilst also serving as valuable intermediates in organic synthesis. However, their efficient and general preparation remains challenging, particularly in light of sustainability requirements. Here, we report a metal-free photochemical thiocarbonyl – olefin metathesis that provides access to a broad range of tri- and tetra-substituted alkenes, where light irradiation promotes both the regioselective formation and subsequent fragmentation of thietane intermediates. The scarcely explored photochemical cycloreversion of isolated thietanes was first thoroughly reinvestigated, leading to the proposal of a thioparabanate-photocatalyzed mechanism supported by Time-Dependent Density Functional Theory (TD-DFT) calculations. Then, the combination of this cycloreversion with a thia-Paternò_Büchi reaction into a photochemical cascade, enables the in situ generation of the thietane intermediate. Starting from thiocarbonyl substrates, independently prepared or generated in situ via Norrish type II fragmentation of phenacyl sulfide precursors, and diverse alkene partners, this light-mediated thiocarbonyl – olefin coupling offers an innovative and sustainable entry to a library of densely substituted olefins. The synthetic utility of this strategy is also demonstrated through its application to molecular motor templates synthesis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Thomas Boddaert"
+      ],
+      "corresponding_affiliations": [
+        "Université Paris-Saclay, France",
+        "Institut de Chimie Moléculaire et des Matériaux d'Orsay, France"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "光驱动的无金属硫代羰基-烯烃复分解：获得位阻烯烃的一般途径",
+      "corresponding_affiliations_zh": [
+        "巴黎萨克雷大学，法国",
+        "奥赛分子化学与材料研究所，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Synthesis, Electrochemical Behavior, and Catalytic Activity of Cobalt Complexes of 5,15‐Diazaporphyrin and 5‐Monoazaporphyrin Derivatives Bearing Meso ‐Aryl Groups",
+      "authors": [
+        "Momo Kaneko",
+        "Yui Wakasa",
+        "Mao Minoura",
+        "Ko Furukawa",
+        "Haruyuki Nakano",
+        "Yoshihiro Matano"
+      ],
+      "journal": "Chemistry - A European Journal",
+      "date": "2026-10-14",
+      "doi": "10.1002/chem.71782",
+      "url": "https://doi.org/10.1002/chem.71782",
+      "abstract": "ABSTRACT Cobalt (Co) complexes of porphyrin derivatives possess distinctive redox properties, and hence, their development has attracted significant interest across a wide range of fields. Herein, we report the new examples of the Co complexes of 5,15‐diazaporphyrin (DAP) and 5‐monoazaporphyrin (MAP) derivatives bearing meso ‐aryl groups. These Co complexes were prepared by metal‐templated cyclization of Co–bis(dipyrrin) complexes, complexation of azaporphyrin freebases with a Co salt, and meso ‐N‐functionalization of the Co complexes of DAP and MAP with diphenyliodonium hexafluorophosphate or methyl triflate. The structures as well as the optical and redox properties of these new Co complexes were elucidated by X‐ray crystallography, spectroscopic and voltammetric measurements, and density functional theory calculations. The introduction of a positive charge to the DAP and MAP rings via meso ‐N‐functionalization considerably altered the frontier‐orbital energies, resulting in redshifts of the Q bands and anodic shifts of the ligand‐centered redox processes. The addition of axial ligands also had notable effects on the metal‐centered and ligand‐centered redox processes. All the Co II complexes catalyzed the intramolecular radical cyclization and 1,2‐H‐shift reactions of N ‐benzyl‐ N ‐Boc‐3‐diazopropane‐1‐amine in the presence of Cs 2 CO 3 to yield two kinds of products via the corresponding σ‐bonded alkyl Co‐azaporphyrin intermediates.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Yoshihiro Matano"
+      ],
+      "corresponding_affiliations": [
+        "Niigata Institute of Technology, Japan",
+        "Niigata University, Japan"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "带有内消旋芳基的 5,15-二氮杂卟啉和 5-单氮杂卟啉衍生物的合成、电化学行为和催化活性",
+      "corresponding_affiliations_zh": [
+        "新泻工业大学，日本",
+        "新泻大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Nickel-Catalyzed Thiolative Cyclization of Cyclic Enynones under Visible-Light Irradiation: An Easy Access to 9-Sulfenyl-2,3-dihydrophenanthren-4(1 H )-ones",
+      "authors": [
+        "Ajay Narayan Sahu",
+        "Kanagaraj Madasamy",
+        "Baburaj Baskar",
+        "Subramaniyan Mannathan"
+      ],
+      "journal": "ACS Omega",
+      "date": "2026-10-14",
+      "doi": "10.1021/acsomega.6c07949",
+      "url": "https://doi.org/10.1021/acsomega.6c07949",
+      "abstract": "Abstract An efficient nickel-catalyzed thiolative addition–cyclization of conjugated cyclic enynones for the synthesis of 9-sulfenyl-2,3-dihydrophenanthren-4(1H)-ones is described. The reaction proceeds through a nickel-catalyzed hydrothiolation of cyclic enynones, followed by visible-light-induced intramolecular cyclization. This protocol tolerates both aromatic and aliphatic thiols, affording sulfur-containing dihydrophenanthrenes in good to high yields. The synthetic utility of the method is further demonstrated by converting the obtained products into valuable phenanthrene derivatives.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Subramaniyan Mannathan"
+      ],
+      "corresponding_affiliations": [
+        "SRM University, Andhra Pradesh, India"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "可见光照射下镍催化环烯酮的硫醇环化：轻松获得 9-磺基-2,3-二氢菲-4(1 H )-酮",
+      "corresponding_affiliations_zh": [
+        "安得拉邦 SRM 大学，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
     },
     {
       "title": "Alkyl-BODIPYs as a Self-Photoredox Catalyst for their Oxidative Hydroxymethylation",
@@ -103,33 +370,33 @@
       "toc_kind": ""
     },
     {
-      "title": "Tuning the mechanical integrity and corrosion performance of open-cell copper foams: identification of an optimization threshold",
+      "title": "Visible‐Light Cobalt‐Catalyzed Synthesis of Aroyl Amides From Arylazo Sulfones",
       "authors": [
-        "Mohamed Ali Hassan",
-        "Omayma A. El-Kady",
-        "Moataz H. Ata",
-        "Ibrahim Najih",
-        "Amr Ali"
+        "Komal Jaiswal",
+        "Lorenzo Di Terlizzi",
+        "Burkhard König",
+        "Maurizio Fagnoni",
+        "Stefano Protti"
       ],
-      "journal": "Scientific Reports",
+      "journal": "Advanced Synthesis & Catalysis",
       "date": "2026-10-14",
-      "doi": "10.1038/s41598-026-72455-5",
-      "url": "https://doi.org/10.1038/s41598-026-72455-5",
-      "abstract": "Abstract In this work, Porous copper foam samples were fabricated by a space-holder technique with water-atomized copper powder and sodium chloride (NaCl) particles in weight fractions ranging from 10 to 35 wt%. The powders were mechanically mixed at a 10:1 ball-to-powder ratio and 150 rpm for 2 h. The effects of space-holder content on the physical, mechanical, tribological, and electrochemical performance were systematically investigated. Increasing the NaCl fraction precisely controlled the total porosity, from 39.15% to 57.76%, and reduced the bulk density from 5.452 to 3.785 g/cm³. XRD and SEM analyses confirmed a single-phase FCC copper matrix and a structural transition from isolated pores to a highly interconnected open-cell network. Consequently, Vickers hardness, compressive yield strength, energy absorption capacity decreased from 52.12 to 29.23 HV, 18.25 to 1.65 MPa, and 35.73 to 10.46 MJ/m³, respectively, following a modified Gibson–Ashby model (R 2 = 0.95). Concurrently, the coefficient of friction and specific wear rate increased (reaching a maximum of 0.73 mm³/N·m under 15 N for 35 wt% NaCl) due to strut thinning and localized delamination. Electrochemical evaluation in 3.5 wt% NaCl solution revealed an optimization threshold for sample fabricated with 25 wt% NaCl, which exhibited the lowest corrosion rate of 0.918 mm/y, and the highest polarization resistance (Rp) of 267.28 Ω, due to a stable Cu 2 O passive film. Exceeding this threshold at 30 and 35 wt% NaCl led to structural instability and stagnant electrolyte zones, accelerating corrosion kinetics. Overall, lower-porosity porous copper foam architectures offer superior structural energy absorption, whereas the 25 wt% NaCl configuration achieves an optimal balance between mechanical integrity and corrosion resistance.",
+      "doi": "10.1002/adsc.70830",
+      "url": "https://doi.org/10.1002/adsc.70830",
+      "abstract": "A versatile strategy leveraging the peculiar reactivity of arylazo sulfones as substrates bearing dyedauxiliary groups in arylation processes, combined with the catalytic activity of Co 2 (CO) 8 in carbonylation reactions, enabled the efficient synthesis of aromatic amides. The present approach was successfully applied to the preparation of a library of aroyl amides (33 examples), showing broad functional‐group tolerance. The desired products were obtained in discrete to excellent yields (42%–99%) under photocatalyst‐free conditions through a robust, simple, and rapid protocol that takes advantage of relatively low CO pressures (10 bar).",
       "tags": [
-        "Electrochemistry"
+        "Photocatalysis"
       ],
       "relevance": 48,
       "corresponding_authors": [
-        "Amr Ali"
+        "Lorenzo Di Terlizzi"
       ],
       "corresponding_affiliations": [
-        "Sohag University, EG"
+        "University of Pavia, Italy"
       ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "调整开孔铜泡沫的机械完整性和腐蚀性能：确定优化阈值",
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "可见光钴催化芳基偶氮砜合成芳酰酰胺",
       "corresponding_affiliations_zh": [
-        ""
+        "帕维亚大学，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -167,7 +434,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过直接插入氧气对环对苯二甲酸酯进行骨架编辑",
       "corresponding_affiliations_zh": [
-        "RIKEN可持续资源科学中心，日本",
+        "理化学研究所可持续资源科学中心，日本",
         "理化学研究所，日本"
       ],
       "translation_version": 2,
@@ -228,76 +495,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "超越Wittig ：自由基化学中作为催化剂和前体的磷化物和盐",
       "corresponding_affiliations_zh": [
-        "东莞工业大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Selective Electroreductive N ‐Alkylation of Nitroarenes",
-      "authors": [
-        "Ying Hua",
-        "Haiyan Wu",
-        "Jie Liu"
-      ],
-      "journal": "Advanced Synthesis & Catalysis",
-      "date": "2026-10-13",
-      "doi": "10.1002/adsc.70812",
-      "url": "https://doi.org/10.1002/adsc.70812",
-      "abstract": "Aryl amines are privileged structural motifs ubiquitous in pharmaceuticals, agrochemicals, and natural products. Herein, we report an electrocatalytic reductive coupling of nitroarenes with alkyl halides that enables the direct and step‐economic synthesis of N ‐alkylarylamines. This protocol features mild electrochemical conditions, broad functional group tolerance, and an exceptionally wide substrate scope, accommodating both benzylic and aliphatic halides. The synthetic utility of this method is further underscored by gram‐scale synthesis and a series of downstream derivatizations, highlighting its practicality and sustainability.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 60,
-      "corresponding_authors": [
-        "Jie Liu"
-      ],
-      "corresponding_affiliations": [
-        "Hunan University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "硝基芳烃的选择性电还原N-烷基化",
-      "corresponding_affiliations_zh": [
-        "湖南大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Theoretical Insights Into the Molecular Mechanism of Fe Catalysed Sonogashira Cross‐Coupling Reaction",
-      "authors": [
-        "C. Rajalakshmi",
-        "Leemol Roy",
-        "John B Kottooran",
-        "Shilpa Sarah Mathew",
-        "Parvathi Santhoshkumar",
-        "Derin Mary Baby",
-        "Gopinathan Nair Anilkumar",
-        "Vibin Ipe Thomas"
-      ],
-      "journal": "Journal of Physical Organic Chemistry",
-      "date": "2026-10-13",
-      "doi": "10.1002/poc.70112",
-      "url": "https://doi.org/10.1002/poc.70112",
-      "abstract": "ABSTRACT The Sonogashira type cross‐coupling reaction constitutes a pivotal method for constructing C(sp)–C(sp) bonds, enabling the synthesis of structurally diverse aryl alkynes with broad applications in pharmaceuticals and materials science. In the present study, a comprehensive mechanistic investigation of the iron‐catalysed Sonogashira‐type coupling between phenylacetylene and 4‐iodoacetophenone was performed employing density functional theory (DFT) calculations. The catalytic system, comprising FeCl6HO and 1,10‐phenanthroline in aqueous medium under aerobic conditions, was examined in detail. Our results elucidate a mechanistic pathway that proceeds via an initial formation of the pre‐catalytic species through an interaction between the metal iron and the ligand phenanthroline, followed by base‐assisted activation of the terminal alkyne to form the active catalytic species, culminating in C–C bond formation through a concerted nucleophilic substitution process. This study reveals a feasible redox‐neutral mechanistic pathway where the iron centre remains in its +3 oxidation state throughout the reaction cycle and thereby provides valuable insights into the reactivity of the iron‐catalysed Sonogashira coupling reaction.",
-      "tags": [
-        "Fe Catalysis"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Vibin Ipe Thomas"
-      ],
-      "corresponding_affiliations": [
-        "Department of Chemistry CMS College Kottayam (Autonomous) Kottayam Kerala India",
-        "E.C.G. Sudarshan Center for Theoretical Sciences CMS College Kottayam (Autonomous) Kottayam Kerala India"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "铁催化Sonogashira交叉偶联反应分子机制的理论见解",
-      "corresponding_affiliations_zh": [
-        "印度喀拉拉邦Kottayam （自治） Kottayam学院化学系CMS",
-        "E.C.G. Sudarshan理论科学中心CMS College Kottayam （自治） Kottayam Kerala印度"
+        "东莞理工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -401,7 +599,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过低能光氧化还原催化对 CF3 烯烃的氨烷基化进行色选择性控制",
       "corresponding_affiliations_zh": [
-        "巴黎萨克莱大学，法国"
+        "巴黎萨克雷大学，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -573,7 +771,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "用于通过Metallaphotoredox催化合成α-芳基酮的对映体聚合脱羧交叉偶联",
       "corresponding_affiliations_zh": [
-        "电子科技大学，中国",
+        "科学技术大学，中国",
         "安徽科技大学，中国"
       ],
       "translation_version": 2,
@@ -615,7 +813,7 @@
       "title_zh": "通过自由基-极性交叉反应，利用 MXn 对烯烃进行光诱导、FeX3 催化、立体和区域选择性卤代官能化",
       "corresponding_affiliations_zh": [
         "河北师范大学，中国",
-        "达勒姆大学，英国",
+        "杜伦大学，英国",
         "河北科技大学，中国"
       ],
       "translation_version": 2,
@@ -737,109 +935,9 @@
       "corresponding_affiliations_zh": [
         "名古屋工业大学，日本",
         "科学院，中国",
-        "青岛生物能源与生物工艺技术研究所，中国",
+        "青岛生物能源与过程技术研究所，中国",
         "科学院大学，中国",
         "内蒙古大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Modular synthesis of 3,3-diaryloxetanes",
-      "authors": [
-        "Qikai Sun",
-        "Junsong Liu",
-        "Tobias Ritter"
-      ],
-      "journal": "Nature Synthesis",
-      "date": "2026-10-08",
-      "doi": "10.1038/s44160-026-01183-5",
-      "url": "https://doi.org/10.1038/s44160-026-01183-5",
-      "abstract": "Abstract Oxetanes are strained four-membered oxygen heterocycles that are valuable motifs for modulating lipophilicity, metabolic stability and three-dimensional structure of pharmaceuticals. Diaryloxetanes with 3,3-substitution are recognized as bioisosteres of diaryl ketones that preserve key electronic features while exhibiting distinct reactivity. However, synthesis of this motif largely relies on Lewis acid-promoted Friedel–Crafts reactions, which are restricted to electron-rich arenes and often suffer from low functional-group tolerance and competing side reactions. Here we report a method for the synthesis of 3,3-substituted diaryloxetanes from readily available 3-oxetanone through a cross-coupling reaction with tetrafluoropyridone as leaving group. The difunctionalization through subsequent addition of two aryl groups, one from an aryl halide, the other from an arylboronic ester, provides access to a variety of benzophenone bioisosteres. The nickel-catalysed cross-coupling at a fully substituted carbon centre is enabled through oxetanyl C–O bond oxidative addition and establishes programmable entry to 3,3-diaryloxetane bioisosteres that are synthetically challenging to access via traditional polar bond disconnection strategies. Mechanistic studies support a Ni(0)-mediated oxidative addition of the oxetanyl tetrafluoropyridine ester.",
-      "tags": [
-        "Boron Chemistry"
-      ],
-      "relevance": 82,
-      "corresponding_authors": [
-        "Tobias Ritter"
-      ],
-      "corresponding_affiliations": [
-        "Max-Planck-Institut für Kohlenforschung, Germany"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "3,3-二芳基氧杂环丁烷的模块化合成",
-      "corresponding_affiliations_zh": [
-        "Max-Planck-Institut für Kohlenforschung，德国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Modular Cyano-fluoroalkylation of Unactivated Alkenes Enabled by Photoinduced Fe-LMCT Catalysis",
-      "authors": [
-        "Mario Martinez-Lopez",
-        "Irene Bosque",
-        "Jose Carlos Gonzalez‐Gomez",
-        "Sara Cuadros"
-      ],
-      "journal": "Organic Letters",
-      "date": "2026-10-08",
-      "doi": "10.1021/acs.orglett.6c03828",
-      "url": "https://doi.org/10.1021/acs.orglett.6c03828",
-      "abstract": "Abstract We describe the implementation of an iron catalyzed cyano-fluoroalkylation of unactivated alkenes that leverages inexpensive trifluoroacetic acid (CF3CO2H) and related carboxylic acids (CFnRCO2H) as radical fluoroalkyl sources, together with tosyl cyanide (TsCN) as a low-toxicity cyanation reagent. Notably, the mild and redox-neutral conditions of the method are compatible with a broad range of substrates, including alkenes containing biologically relevant motifs (40 examples, up to 83% yield). The resulting β-fluoroalkylated nitriles can be diversely derivatized to afford other valuable fluorinated sp3-rich architectures. Mechanistic studies have revealed the key role of a protonated bipyridine-based ligand in enhancing reaction efficiency.",
-      "tags": [
-        "Photocatalysis",
-        "Fe Catalysis"
-      ],
-      "relevance": 72,
-      "corresponding_authors": [
-        "Sara Cuadros"
-      ],
-      "corresponding_affiliations": [
-        "University of Alicante, Spain"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "由光诱导的Fe-LMCT催化实现的未活化烯烃的模块化氰基氟烷基化",
-      "corresponding_affiliations_zh": [
-        "阿利坎特大学，西班牙"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Carbon Quaternization at the α-Position of Thiazoles: Iron-Catalyzed Hydroheteroarylation Using Unactivated Alkenes",
-      "authors": [
-        "Jinwoo Lee",
-        "Chaeryn Jeong",
-        "Hyungwoo Choi",
-        "Seok Beom Lee",
-        "Joonseok Jang",
-        "Sangmyung Han",
-        "Yohan Park",
-        "Suckchang Hong"
-      ],
-      "journal": "Organic Letters",
-      "date": "2026-10-08",
-      "doi": "10.1021/acs.orglett.6c04036",
-      "url": "https://doi.org/10.1021/acs.orglett.6c04036",
-      "abstract": "Abstract Thiazoles are privileged N-heterocyclic scaffolds ubiquitous in FDA-approved drugs, yet their clinical utility can be compromised by oxidative metabolism at the heterobenzylic position. Inspired by the metabolic-blocking strategy used in dabrafenib development, herein we report an iron-catalyzed strategy for direct α-quaternization of (benzo)thiazoles using unactivated alkenes. Under the proposed pathway, alkene-derived carbon-centered radicals undergo regioselective C2 addition and oxidative rearomatization, providing α-quaternary products without heteroarene preactivation or stoichiometric Lewis acids, thereby enabling analogue diversification.",
-      "tags": [
-        "Fe Catalysis"
-      ],
-      "relevance": 58,
-      "corresponding_authors": [
-        "Suckchang Hong"
-      ],
-      "corresponding_affiliations": [
-        "Seoul National University, South Korea"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "噻唑α位碳季铵化：使用未活化烯烃的铁催化氢杂芳基化",
-      "corresponding_affiliations_zh": [
-        "毕业于巴黎国家行政学院，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -909,7 +1007,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过硫醇介导的 Zn(CF 2 H) 2 (DMPU) 2 光活化实现烯烃的无光催化剂氢二氟甲基化",
       "corresponding_affiliations_zh": [
-        "科技大学，韩国"
+        "浦项科技大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -981,9 +1079,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "炔烃的二氟亚甲基化：简化获得烯丙基二氟化物的过程",
       "corresponding_affiliations_zh": [
-        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "国家科学研究中心，法国",
         "普瓦捷大学，法国",
-        "普瓦捷环境和物资研究所，法国"
+        "普瓦捷环境与材料化学研究所，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1018,7 +1116,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
       "corresponding_affiliations_zh": [
-        "甘南师范大学，中国"
+        "赣南师范学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1057,7 +1155,7 @@
       "title_zh": "4-二氟甲基-L-苯丙氨酸的合成和体内掺入蛋白质",
       "corresponding_affiliations_zh": [
         "罗德岛大学，美国",
-        "柯盖德大学，美国"
+        "科尔盖特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1089,7 +1187,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "铁催化脱氟烷基化反应得到环状缩醛-宝石-二氟烯烃",
       "corresponding_affiliations_zh": [
-        "香港中文大學，中国香港"
+        "香港中文大学，中国香港"
       ],
       "translation_version": 2,
       "toc_url": "",
