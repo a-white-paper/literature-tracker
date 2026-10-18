@@ -1,6 +1,113 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "papers": [
+    {
+      "title": "Electrochemical Site-Selective Aromatic C–H Amination via Bicyclic N-Radical Cations",
+      "authors": [
+        "SangHyun Lee",
+        "Trung-Kien H. Nguyen",
+        "Griffin Stewart",
+        "Christian A. Malapit"
+      ],
+      "journal": "Accounts of Chemical Research",
+      "date": "2026-10-16",
+      "doi": "10.1021/acs.accounts.6c00576",
+      "url": "https://doi.org/10.1021/acs.accounts.6c00576",
+      "abstract": "Conspectus Aromatic amination has long been a reaction of interest in organic synthesis, and aromatic amines themselves are prized for their bioactivity and their usefulness in the synthesis of organic materials. However, traditional syntheses have struggled to directly access aryl amines, going through sequences of aromatic prefunctionalization followed by reduction or cross-coupling. Modern advances in the control of radical chemistry have reopened the avenue of aromatic C–H functionalization based on electrophilic radical(s) (cations). However, radical C–H amination methods have struggled with generality in aromatic substrate, being unable to access electron poor arenes in a selective manner. Further challenges present themselves in the fundamental reactivities of amino radical(s) (cations), due to their tendency to undergo alpha elimination in oxidizing conditions, forcing the field to access such radicals reductively through activated, electrophilic precursors. Bicyclic amino radical cations, however, have proven more robust, due to their constrained geometry. In this Account, we present our efforts to broaden the utility of radical aromatic C–H amination using bicyclic amino radical cations generated via electrochemistry. We first recount the synthetic results of accessing these radicals reductively, showing selective radical amination. Computational studies help to illuminate the chemoselectivity of the amination reaction compared to other known reactivities of N-radical cations, such as hydrogen atom transfer (HAT). Next, we flipped the polarity of N-radical cation generation to oxidative, utilizing the bicyclic amine itself as an oxidizable radical cation precursor. By leveraging both electrophilicity-enhancing conditions and the inherent recyclability of bicyclic amines in anodic electrochemical systems, we were successfully able to broaden the scope of aromatic C–H amination to highly electron deficient arenes. The broader scope of the reaction was able to shed more light on the regioselectivity, showing that positional electron density is not the only determining factor in radical C–H amination. Photoelectrochemical studies revealed that arene oxidation mechanisms were operative for electron-rich arenes, explaining their preservation and efficient amination in a system otherwise expected to be too oxidizing. Lastly, we showcased that the resulting aryl-ammonium salts can (1) be transformed into an array of aryl piperazine derivatives through substitution/elimination and (2) act as synthetically useful aryl radical precursors in C–C, C–B, and C–P bond formations. We anticipate that the direct comparison between our two systems can help future synthetic efforts parse between reductive or oxidative strategies when targeting new electrophilic radicals, recognizing inherent advantages of each approach.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Christian A. Malapit"
+      ],
+      "corresponding_affiliations": [
+        "Northwestern University, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过双环 N-自由基阳离子进行电化学位点选择性芳香族 C–H 胺化",
+      "corresponding_affiliations_zh": [
+        "西北大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "One-step synthesis of α-fluoroarylacetic acids from trifluoromethyl arenes via photocatalytic reduction",
+      "authors": [
+        "Huilong Kuang",
+        "Suguru Murakami",
+        "Tatsushi Yabuta",
+        "Masahiro Higashi",
+        "Weibin Xie",
+        "Ryosuke Matsubara"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-15",
+      "doi": "10.26434/chemrxiv.15010504/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010504/v1",
+      "abstract": "A photocatalytic reduction strategy for the direct synthesis of α-fluoroarylacetic acids from readily available trifluoromethyl arenes has been developed. In contrast to conventional approaches, this reaction does not generate undesired oxidation byproducts associated with the use of fluorinating reagents. Investigation of the substrate scope revealed that the reaction tolerates a wide range of functional groups, including dimethylamino, alkynyl, alkenyl, and ether functionalities. Trifluoromethyl-substituted pyridine derivatives were also compatible with the reaction conditions. Mechanistic studies suggested that the reaction proceeds via an initial hydrodefluorination to form a difluoromethyl arene intermediate, followed by further reductive C–F bond cleavage and carboxylation. The observed selectivity for the monofluorinated products originated from the selective carboxylation during product formation together with the slow hydrodefluorination of the resulting α-fluoroarylacetic acids. The reaction proceeds without the need for an external CO2 atmosphere.",
+      "tags": [
+        "Photocatalysis",
+        "Difluoromethylation"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Ryosuke Matsubara"
+      ],
+      "corresponding_affiliations": [
+        "Kobe University, Japan"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "三氟甲基芳烃光催化还原一步合成α-氟芳基乙酸",
+      "corresponding_affiliations_zh": [
+        "神户大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Modular Synthesis of Bridge‐Disubstituted Bicyclo[3.1.1]heptanes via Stereoselective Difunctionalization of Tricyclo[4.1.0.0 2 , 7 ]heptane",
+      "authors": [
+        "Zhenda Fu",
+        "Yufei Zhou",
+        "Xiaowen Gu",
+        "Xueping Hu",
+        "Yingzi Li",
+        "Wei Deng",
+        "Xingwei Li",
+        "Songjie Yu"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-15",
+      "doi": "10.1002/anie.9614011",
+      "url": "https://doi.org/10.1002/anie.9614011",
+      "abstract": "ABSTRACT Scaffolds with flexible bond exit vectors are essential in bioisosteric design, enabling adaptive molecular recognition of conformationally dynamic targets, and fine‐tuning key physicochemical properties. Despite this potential, current benzene bioisosteres based on bicyclo[n.1.1]alkanes are confined to three‐dimensional scaffolds with fixed exit vectors at their rigid bridgehead positions. As a critical piece for mimicking substituted arenes, the development of C(sp 3 )‐enriched bioisosteres bearing two flexible vectors has been thwarted by the lack of stereoselective synthetic routes. Herein, we report a photochemical nickel‐catalyzed selective 1,7‐difunctionalization of tricyclo[4.1.0.0 2,7 ]heptane using readily available organohalides. This sequential protocol generates previously elusive anti ‐stereoselective 6,7‐difunctionalized bicyclo[3.1.1]heptanes with high stereocontrol, broad coupling‐partner scope, and built‐in handles for post‐functionalization. Biological assays and computational modeling on drug analogues demonstrate the bioisosteric potential of these dual‐flexible‐vector bicyclo[3.1.1]heptane scaffolds. This methodology unlocks previously unexplored chemical space with broad implications for drug discovery and beyond.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Xueping Hu",
+        "Yingzi Li",
+        "Songjie Yu"
+      ],
+      "corresponding_affiliations": [
+        "Shandong University, China",
+        "Institut Català d'Investigació Química, Spain"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过三环[4.1.0.0 2 , 7]庚烷的立体选择性双官能化模块化合成桥双取代的双环[3.1.1]庚烷",
+      "corresponding_affiliations_zh": [
+        "山东大学，中国",
+        "基米卡加泰罗尼亚调查研究所，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Sulfide‐Ene Reactions by Visible‐Light‐Mediated Phosphine Redox Catalysis",
       "authors": [
@@ -19,12 +126,13 @@
       ],
       "relevance": 66,
       "corresponding_authors": [
+        "Jie Zhang",
         "Yunbo Zhu"
       ],
       "corresponding_affiliations": [
         "Xi'an Jiaotong University, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "可见光介导的膦氧化还原催化的硫化物-烯反应",
       "corresponding_affiliations_zh": [
         "西安交通大学，中国"
@@ -65,6 +173,40 @@
       "toc_kind": ""
     },
     {
+      "title": "Regulating C–O bond cleavage in electrocatalytic furfural hydrodeoxygenation over Lewis acid‐promoted Cu catalysts",
+      "authors": [
+        "Yanhui Tang",
+        "Yang Xiang",
+        "Yanminzi Zhang",
+        "Xun Huang",
+        "Zidong Wei"
+      ],
+      "journal": "AIChE Journal",
+      "date": "2026-10-15",
+      "doi": "10.1002/aic.70710",
+      "url": "https://doi.org/10.1002/aic.70710",
+      "abstract": "Abstract Electrocatalytic hydrodeoxygenation of furfural (FF) to 2‐methylfuran (2‐MF) offers a mild route for biomass upgrading, but its selectivity is challenged by furfuryl alcohol formation, hydrogen evolution, and catalyst deactivation. Here, a Lewis acid‐promoted Cu‐ZnO@Al 2 O 3 catalyst is developed to regulate the interfacial FF reduction pathway in acidic electrolyte. At −0.5 V vs. the reversible hydrogen electrode (RHE), the catalyst delivers 95% 2‐MF selectivity, 77% Faradaic efficiency (FE), and 67% FF conversion. Control experiments with different supports, Al 2 O 3 phases, and Sr‐modified catalysts reveal a strong Lewis acidity–selectivity relationship. In situ Raman/Fourier‐transform infrared (FTIR) spectroscopy and density functional theory (DFT) calculations show that Lewis acid sites enhance FF adsorption, polarize C=O, stabilize oxygenated intermediates, and lower the C–O cleavage barrier from 0.54 to 0.15 eV, enabling selective electrocatalytic biomass upgrading.",
+      "tags": [
+        "Cu Catalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Xun Huang",
+        "Zidong Wei"
+      ],
+      "corresponding_affiliations": [
+        "Chongqing University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "在路易斯酸促进的铜催化剂上调节电催化糠醛加氢脱氧中的C-O键断裂",
+      "corresponding_affiliations_zh": [
+        "重庆大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Asymmetric synthesis of azabicyclo[2.1.1]hexanes via electrochemical haloamination of methylenecyclobutanes",
       "authors": [
         "Jyothirlatha V. N. Kasu",
@@ -90,6 +232,44 @@
       "title_zh": "亚甲基环丁烷电化学卤化不对称合成氮杂双环[2.1.1]己烷",
       "corresponding_affiliations_zh": [
         "班加罗尔科学研究所，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A General Suzuki–Miyaura/[2+2] Photocycloaddition Approach to 2-Oxabicyclo[2.1.1]hexane Biaryl Mimetics",
+      "authors": [
+        "David M. Whalley",
+        "Olivier Lorthioir",
+        "Niall A. Anderson",
+        "Ioannis Asproudis",
+        "Erin L. Braybrooke",
+        "S. C. Coote",
+        "James Middleton",
+        "Okky Dwichandra Putra"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-15",
+      "doi": "10.26434/chemrxiv.15010496/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010496/v1",
+      "abstract": "Herein, we report a modular approach to monosubstituted, (hetero)arylated 2-oxabicyclo[2.1.1]hexanes (oxa-BCHs). The strategy combines facile Suzuki–Miyaura cross-couplings to assemble suitable diene precursors that can undergo [2+2] photocycloadditions. Nineteen novel (hetero)aromatic building blocks and fragments are constructed from their respective (hetero)aryl boronates, conveniently accessed from commercial sources. Next, a high-throughput enabled synthetic sequence is performed, demonstrating the gram-scale conversion of 6-quinoline bromide to the corresponding 4-(quinolyl)oxa-BCH adduct. Finally, the physicochemical properties and aqueous stability of the new oxa-BCH biaryl mimetic was compared with those of other medicinally relevant substituents, demonstrating its promise as a robust, three-dimensional, polarity-enhancing motif for medicinal-chemistry applications.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Sam Staniland"
+      ],
+      "corresponding_affiliations": [
+        "AstraZeneca (Singapore), Singapore",
+        "AstraZeneca (Germany), Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "2-氧杂双环[2.1.1]己烷联芳基模拟物的通用铃木-宫浦/[2+2]光环加成方法",
+      "corresponding_affiliations_zh": [
+        "阿斯利康（），新加坡",
+        "阿斯利康（），德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -233,79 +413,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Light-driven metal-free thiocarbonyl – olefin metathesis: a general route to sterically hindered alkenes",
-      "authors": [
-        "Matthias Georges",
-        "Gabriel Cormier",
-        "Manuel Pedrón",
-        "Antoine Laurens",
-        "Timothé Ferrasse",
-        "Ilaria Ciofini",
-        "Thomas Boddaert"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-14",
-      "doi": "10.26434/chemrxiv.15010456/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15010456/v1",
-      "abstract": "Highly substituted olefins are attractive scaffolds for molecular machines, optical materials and medicinal chemistry, whilst also serving as valuable intermediates in organic synthesis. However, their efficient and general preparation remains challenging, particularly in light of sustainability requirements. Here, we report a metal-free photochemical thiocarbonyl – olefin metathesis that provides access to a broad range of tri- and tetra-substituted alkenes, where light irradiation promotes both the regioselective formation and subsequent fragmentation of thietane intermediates. The scarcely explored photochemical cycloreversion of isolated thietanes was first thoroughly reinvestigated, leading to the proposal of a thioparabanate-photocatalyzed mechanism supported by Time-Dependent Density Functional Theory (TD-DFT) calculations. Then, the combination of this cycloreversion with a thia-Paternò_Büchi reaction into a photochemical cascade, enables the in situ generation of the thietane intermediate. Starting from thiocarbonyl substrates, independently prepared or generated in situ via Norrish type II fragmentation of phenacyl sulfide precursors, and diverse alkene partners, this light-mediated thiocarbonyl – olefin coupling offers an innovative and sustainable entry to a library of densely substituted olefins. The synthetic utility of this strategy is also demonstrated through its application to molecular motor templates synthesis.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Thomas Boddaert"
-      ],
-      "corresponding_affiliations": [
-        "Université Paris-Saclay, France",
-        "Institut de Chimie Moléculaire et des Matériaux d'Orsay, France"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "光驱动的无金属硫代羰基-烯烃复分解：获得位阻烯烃的一般途径",
-      "corresponding_affiliations_zh": [
-        "巴黎萨克雷大学，法国",
-        "奥赛分子化学与材料研究所，法国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Synthesis, Electrochemical Behavior, and Catalytic Activity of Cobalt Complexes of 5,15‐Diazaporphyrin and 5‐Monoazaporphyrin Derivatives Bearing Meso ‐Aryl Groups",
-      "authors": [
-        "Momo Kaneko",
-        "Yui Wakasa",
-        "Mao Minoura",
-        "Ko Furukawa",
-        "Haruyuki Nakano",
-        "Yoshihiro Matano"
-      ],
-      "journal": "Chemistry - A European Journal",
-      "date": "2026-10-14",
-      "doi": "10.1002/chem.71782",
-      "url": "https://doi.org/10.1002/chem.71782",
-      "abstract": "ABSTRACT Cobalt (Co) complexes of porphyrin derivatives possess distinctive redox properties, and hence, their development has attracted significant interest across a wide range of fields. Herein, we report the new examples of the Co complexes of 5,15‐diazaporphyrin (DAP) and 5‐monoazaporphyrin (MAP) derivatives bearing meso ‐aryl groups. These Co complexes were prepared by metal‐templated cyclization of Co–bis(dipyrrin) complexes, complexation of azaporphyrin freebases with a Co salt, and meso ‐N‐functionalization of the Co complexes of DAP and MAP with diphenyliodonium hexafluorophosphate or methyl triflate. The structures as well as the optical and redox properties of these new Co complexes were elucidated by X‐ray crystallography, spectroscopic and voltammetric measurements, and density functional theory calculations. The introduction of a positive charge to the DAP and MAP rings via meso ‐N‐functionalization considerably altered the frontier‐orbital energies, resulting in redshifts of the Q bands and anodic shifts of the ligand‐centered redox processes. The addition of axial ligands also had notable effects on the metal‐centered and ligand‐centered redox processes. All the Co II complexes catalyzed the intramolecular radical cyclization and 1,2‐H‐shift reactions of N ‐benzyl‐ N ‐Boc‐3‐diazopropane‐1‐amine in the presence of Cs 2 CO 3 to yield two kinds of products via the corresponding σ‐bonded alkyl Co‐azaporphyrin intermediates.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Yoshihiro Matano"
-      ],
-      "corresponding_affiliations": [
-        "Niigata Institute of Technology, Japan",
-        "Niigata University, Japan"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "带有内消旋芳基的 5,15-二氮杂卟啉和 5-单氮杂卟啉衍生物的合成、电化学行为和催化活性",
-      "corresponding_affiliations_zh": [
-        "新泻工业大学，日本",
-        "新泻大学，日本"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Nickel-Catalyzed Thiolative Cyclization of Cyclic Enynones under Visible-Light Irradiation: An Easy Access to 9-Sulfenyl-2,3-dihydrophenanthren-4(1 H )-ones",
       "authors": [
         "Ajay Narayan Sahu",
@@ -397,45 +504,6 @@
       "title_zh": "可见光钴催化芳基偶氮砜合成芳酰酰胺",
       "corresponding_affiliations_zh": [
         "帕维亚大学，意大利"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Skeletal Editing of Cycloparaphenylenes by Direct Oxygen Insertion",
-      "authors": [
-        "Tomoki Kato",
-        "Siyuan Ye",
-        "Hideya Kono",
-        "Tsubasa Okumura",
-        "Hiroki Shudo",
-        "Atsushi Usami",
-        "Kazuma Amaike",
-        "Akiko Yagi"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-13",
-      "doi": "10.26434/chemrxiv.15010364/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15010364/v1",
-      "abstract": "Direct modification of the carbon framework of cycloparaphenylenes (CPPs) remains challenging despite the substantial strain stored in these carbon nanorings. Here, we report two complementary chemical methods for inserting an oxygen atom into a C–C bond of pristine [n]CPPs and the methylene-bridged [6]CPP ([6]MCPP) to give the corresponding oxylene derivatives. Treatment with m-chloroperbenzoic acid and copper(II) acetylacetonate affords mono-oxygenated products from [6]–[9]CPP in modest yields. Photocatalytically generated singlet oxygen is more efficient for smaller, more strained nanorings: [6]MCPP is converted to [6]MCPP-oxylene in 58% yield within 0.5 h, whereas the reactivity decreases sharply with increasing CPP size. Density functional theory calculations reveal that oxygen-insertion enthalpies become progressively less exothermic with increasing ring size and correlate linearly with 1/n, providing a thermodynamic context for the observed ring-size dependence. X-ray crystallography and strain analysis further reveal that oxygen insertion redistributes strain across the ring and lowers molecular symmetry. The resulting CPPoxylenes show markedly altered photophysical properties, with [9]CPP-oxylene reaching ΦF = 0.91. Prolonged photocatalysis of [6]MCPP enables a second, regioselective oxygen insertion at the most highly strained remaining C–C bond of the mono-oxylene framework. The resulting dioxylene adopts a more elongated structure and emits blue fluorescence at 414 nm with ΦF = 0.39; timeresolved measurements show that the higher fluorescence efficiency arises primarily from suppression of nonradiative decay. These results establish direct oxygen insertion as a route to skeletal editing of CPPs and connect sequential editing with changes in strain distribution, molecular geometry, and photophysical behavior.",
-      "tags": [
-        "Photocatalysis",
-        "Skeletal Editing"
-      ],
-      "relevance": 70,
-      "corresponding_authors": [
-        "Kenichiro Itami"
-      ],
-      "corresponding_affiliations": [
-        "RIKEN Center for Sustainable Resource Science, Japan",
-        "RIKEN, Japan"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "通过直接插入氧气对环对苯二甲酸酯进行骨架编辑",
-      "corresponding_affiliations_zh": [
-        "理化学研究所可持续资源科学中心，日本",
-        "理化学研究所，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -639,6 +707,41 @@
       "toc_kind": ""
     },
     {
+      "title": "Navigating the Radical Oxo‐Functionalization of Alkenes Toward Ketones",
+      "authors": [
+        "Mattia Lepori",
+        "Luigi Dolcini",
+        "Alexander Bell",
+        "Joshua P. Barham"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-10-11",
+      "doi": "10.1002/ejoc.70840",
+      "url": "https://doi.org/10.1002/ejoc.70840",
+      "abstract": "Ketones are ubiquitous structural motifs in pharmaceuticals, natural products, agrochemicals, and functional materials, as well as indispensable building blocks in organic synthesis. This outlines the design of efficient carbonyl‐forming strategies a crucial target in methodology development. Alongside classical textbook polar, two electron (2e – ) approaches, the so‐called single‐electron (1e – ) logic has established itself as the contemporary method of choice for direct, de novo construction of structurally complex ketones from simple commodity chemicals, under mild conditions. In this context, radical 1,2‐oxo‐functionalization of alkenes represents a valuable, practical platform to rapidly enhance molecular complexity via one‐pot difunctionalization of “flat” feedstock chemicals, thereby avoiding tedious isolation and purification of intermediates en route to target ketones. This Review surveys recent advances in radical alkene oxo‐functionalization, with a particular emphasis on methodologies enabled by thermal, transition metal‐catalyzed, photochemical, and electrochemical activations. The mechanistic principles governing the finely‐tuned orchestration of sequential vicinal CX (with X = carbon or heteroatom) and CO bond formations—including single‐electron transfer, hydrogen atom transfer, and radical polar crossover—are discussed alongside the diverse carbonyl oxygen atom sources employed, such as tert ‐butyl hydroperoxide (TBHP), dimethyl sulfoxide (DMSO), and molecular oxygen (O 2 ).",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Joshua P. Barham"
+      ],
+      "corresponding_affiliations": [
+        "University of Strathclyde, United Kingdom",
+        "University of Regensburg, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "引导烯烃向酮的自由基氧化官能化",
+      "corresponding_affiliations_zh": [
+        "斯特拉斯克莱德大学，英国",
+        "雷根斯堡大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Tunable Aza-BODIPY Photocatalysts for Near-Infrared Metallaphotoredox Atom Transfer Radical Polymerization",
       "authors": [
         "Jakub Piątkowski",
@@ -815,129 +918,6 @@
         "河北师范大学，中国",
         "杜伦大学，英国",
         "河北科技大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Modular Construction of Cyclic and Linear Quaternary Carbon Centers through Visible‐Light‐Induced Triplet Nitrene Transfer Reaction",
-      "authors": [
-        "Minghan Yao",
-        "Xinke Zhang",
-        "Shanliang Dong",
-        "Jingjing Huang",
-        "Jiajie Liang",
-        "Cheng Zhang",
-        "Zhuofeng Ke",
-        "René M. Koenigs"
-      ],
-      "journal": "Angewandte Chemie International Edition",
-      "date": "2026-10-10",
-      "doi": "10.1002/anie.7133146",
-      "url": "https://doi.org/10.1002/anie.7133146",
-      "abstract": "ABSTRACT All‐carbon quaternary centers represent a fundamental structural unit found in a wide range of functional molecules. Within the versatile synthetic toolbox, the semipinacol rearrangement (SPR) stands as one of the most powerful tools for assembling this sterically congested motif. In this context, ‌radical‐mediated SPR pathways‌, especially those entailing alkyl migrations, remain underexplored from a strategic standpoint. Herein, we report a visible light‐promoted formal SPR of tertiary allyl alcohols using in situ‐generated triplet nitrene species as the initiator under redox‐neutral conditions. This method demonstrates broad substrate scope, enabling efficient construction of all‐carbon quaternary centers across various steric environments, including rigid cyclic/spiro frameworks and flexible acyclic systems. Mechanistic investigations reveal substrate‐dependent pathways: alkenyl cyclobutanols undergo triplet nitrene addition followed by concurrent ring‐expansion and hydrogen atom transfer (HAT) to form cyclic ketones, while nonactivated allyl alcohols proceed through aziridination/ring‐opening/SPR sequences to produce linear β‐amino ketones. Preliminary biological assessments of these α‐quaternary β‐aminoketone derivatives revealed that compound 4a exhibited potent anti‐DENV‐2 activity, with an EC 50 value of 0.95 ± 0.02 µM against viral replication.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 64,
-      "corresponding_authors": [
-        "Cheng Zhang",
-        "René M. Koenigs",
-        "Xinfang Xu"
-      ],
-      "corresponding_affiliations": [
-        "Guangzhou Medical University, China",
-        "University of Bayreuth, Germany",
-        "Zhejiang Sci-Tech University, China",
-        "State Key Laboratory of Chemical Engineering, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "通过可见光诱导三重态氮烯转移反应模块化构建环状和线性四元碳中心",
-      "corresponding_affiliations_zh": [
-        "广州医科大学，中国",
-        "拜罗伊特大学，德国",
-        "浙江理工大学，中国",
-        "化学工程国家重点实验室，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Visible-Light-Mediated Decarboxylative Coupling of Aromatic Carboxylic Acids with Aryl Methyl Ketones to Unsymmetrical 1,2-Diketones",
-      "authors": [
-        "Ali Akbari",
-        "Danial Zand Hosein shahi"
-      ],
-      "journal": "Synthesis",
-      "date": "2026-10-09",
-      "doi": "10.1055/a-2968-4851",
-      "url": "https://doi.org/10.1055/a-2968-4851",
-      "abstract": "A transition-metal-free and operationally simple strategy has been developed for the synthesis of unsymmetrical 1,2-diketones via a visible-light-induced decarboxylative arylation–oxidation cascade. Readily available aromatic carboxylic acids serve as convenient aryl precursors, and Eosin Y acts as an inexpensive organic photocatalyst. Under mild blue-light irradiation (450 nm) at room temperature in PEG-400 and in the presence of air as the oxidant, a broad range of unsymmetrical 1,2-diketones is obtained in good to excellent yields with good functional-group tolerance. Control experiments confirmed the essential roles of light, Eosin Y, and molecular oxygen, and TEMPO inhibition was consistent with a radical pathway. The protocol avoids precious-metal catalysts and stoichiometric oxidants, providing an efficient and practical route to valuable 1,2-diketone scaffolds from abundant starting materials.",
-      "tags": [
-        "Photocatalysis",
-        "Decarboxylative Coupling"
-      ],
-      "relevance": 70,
-      "corresponding_authors": [
-        "Danial Zand Hosein shahi"
-      ],
-      "corresponding_affiliations": [
-        "University of Jiroft, IR",
-        "Islamic Azad University, Jiroft Branch, IR"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "芳基甲基酮与芳基羧酸的可见光介导脱羧偶联至不对称的1,2-二酮",
-      "corresponding_affiliations_zh": [
-        "IR 吉罗夫特大学",
-        "伊斯兰阿扎德大学Jiroft分校， IR"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Photocluster catalytic oxidation enabled by structurally precise copper-hydride nanoclusters",
-      "authors": [
-        "Xiaona Yang",
-        "Cong Fang",
-        "Zhuang Wang",
-        "Rong Huo",
-        "Yaqi Wang",
-        "Qi Li",
-        "Simin Li",
-        "Takashi Shirai"
-      ],
-      "journal": "Nature Communications",
-      "date": "2026-10-09",
-      "doi": "10.1038/s41467-026-78511-y",
-      "url": "https://doi.org/10.1038/s41467-026-78511-y",
-      "abstract": "The utilization of light energy emerges as a prominent strategy to boost nanocluster catalysis, spurring rapid growth in the field termed photocluster catalysis. In particular, structurally well-defined copper-hydride nanoclusters attract attention as promising photocluster catalysts for organic synthesis. Herein, we report Cu13H6 exhibits excellent activity for photocatalytic α-C–H oxidation, revealing great potential in oxidation chemistry. Cu13H6 is one-pot synthesized and characterized using advanced analytical techniques. Critically, machine learning tentatively identifies hydride positions, reducing dependence on neutron diffraction. The Cu13H6 nanocluster exhibits outstanding activity in the photooxidation of diverse alkyl aromatics and alcohols to ketones under mild conditions. This pathway also supports photocatalytic defluorination, deuteriation, cyclopropane ring-opening and dehydrogenative coupling. This work tentatively determines the structure of Cu13H6 using robust stochastic surface walking global optimization with neural network, and identifies the cluster as a versatile, efficient photocatalyst that broadens photocatalysis applications in organic synthesis. The utilization of light energy has emerged as a prominent strategy to boost copper nanocluster photocatalysis for organic synthesis, but the scope of transformations remains relatively narrow. Here we report the catalytic performance of a copper-hydride nanocluster, Cu13H6, for photocatalytic α-C–H oxidation.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Yunzi Xin",
-        "Xiaoyan Sun",
-        "Hui Cun Shen"
-      ],
-      "corresponding_affiliations": [
-        "Nagoya Institute of Technology, Japan",
-        "Chinese Academy of Sciences, China",
-        "Qingdao Institute of Bioenergy and Bioprocess Technology, China",
-        "University of Chinese Academy of Sciences, China",
-        "Inner Mongolia University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "由结构上精确的氢化铜纳米团簇实现的光团簇催化氧化",
-      "corresponding_affiliations_zh": [
-        "名古屋工业大学，日本",
-        "科学院，中国",
-        "青岛生物能源与过程技术研究所，中国",
-        "科学院大学，中国",
-        "内蒙古大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
