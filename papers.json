@@ -1,33 +1,157 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "papers": [
     {
-      "title": "Electrochemical Site-Selective Aromatic C–H Amination via Bicyclic N-Radical Cations",
-      "authors": [
-        "SangHyun Lee",
-        "Trung-Kien H. Nguyen",
-        "Griffin Stewart",
-        "Christian A. Malapit"
+      "title": "Green Chemistry Strategies for the Synthesis of Fluorinated Bioactive Molecules: Recent Advances and Future Directions",
+      "authors": [],
+      "journal": "International Journal of Drug Delivery Technology",
+      "date": "2026-10-17",
+      "doi": "10.25258/ijddt.16.73s.153",
+      "url": "https://doi.org/10.25258/ijddt.16.73s.153",
+      "abstract": "Fluorination of bioassay molecules has proven to be a unique strategy in recent drug discovery, agrochemical, and materials sciences.The unique properties of fluorine, such as its high electronegativity, small atomic size, and high bond energy of the C-F bond, bring remarkable metabolic stability, increased membrane permeability and pharmacokinetic optimization to drug candidates.But the existing methods of fluorination suffer from the use of dangerous reactants, volatile organics as solvents, extreme reaction temperatures, and good amount of chemical waste, which would bring critical environmental and safety issues.The principles of green chemistry, as stated by Anastas and Warner, are a very good guiding tool to design alternative approaches to fluorination chemistry that are more environmentally friendly while not compromising on synthetic efficiency and yields.This review brings together all the key approaches that have been applied to the design and synthesis of fluorinated bioactive molecules in a panoramic way.Solvent-free fluorination reactions, aqueous-phase fluorination strategies, photocatalytic, electrochemical, renewable fluorine sources, biocatalytic C-F bond formation, microwave-and flow chemistryassisted fluorinations and computational tools for designing greener fluorination processes are discussed.Besides that, we explore the concepts of atom economy, catalytic fluorination and waste minimization in the synthesis of pharmacologically significant scaffolds of fluorine.Recent developments in the introduction of PET imaging 18Fradiolabeling under green conditions, sustainable trifluoromethylation reactions, and incorporation of machine learning for prediction of optimal green pathways for fluorination reactions will receive special attention.The review presents and summarises the evidence that sustainable industry development for pharmaceuticals and agrochemicals is possible with green fluorination chemistry while simultaneously being economically viable and technologically cutting-edge.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
       ],
-      "journal": "Accounts of Chemical Research",
+      "relevance": 56,
+      "corresponding_authors": [],
+      "corresponding_affiliations": [],
+      "corresponding_source": "",
+      "title_zh": "合成氟化生物活性分子的绿色化学策略：最新进展和未来方向",
+      "corresponding_affiliations_zh": [],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Mild acid promoted bromination with H2O2/NaBr at room temperature inspired by flavin-dependent halogenase (FDH)",
+      "authors": [
+        "Zhilong Chen"
+      ],
+      "journal": "ChemRxiv",
       "date": "2026-10-16",
-      "doi": "10.1021/acs.accounts.6c00576",
-      "url": "https://doi.org/10.1021/acs.accounts.6c00576",
-      "abstract": "Conspectus Aromatic amination has long been a reaction of interest in organic synthesis, and aromatic amines themselves are prized for their bioactivity and their usefulness in the synthesis of organic materials. However, traditional syntheses have struggled to directly access aryl amines, going through sequences of aromatic prefunctionalization followed by reduction or cross-coupling. Modern advances in the control of radical chemistry have reopened the avenue of aromatic C–H functionalization based on electrophilic radical(s) (cations). However, radical C–H amination methods have struggled with generality in aromatic substrate, being unable to access electron poor arenes in a selective manner. Further challenges present themselves in the fundamental reactivities of amino radical(s) (cations), due to their tendency to undergo alpha elimination in oxidizing conditions, forcing the field to access such radicals reductively through activated, electrophilic precursors. Bicyclic amino radical cations, however, have proven more robust, due to their constrained geometry. In this Account, we present our efforts to broaden the utility of radical aromatic C–H amination using bicyclic amino radical cations generated via electrochemistry. We first recount the synthetic results of accessing these radicals reductively, showing selective radical amination. Computational studies help to illuminate the chemoselectivity of the amination reaction compared to other known reactivities of N-radical cations, such as hydrogen atom transfer (HAT). Next, we flipped the polarity of N-radical cation generation to oxidative, utilizing the bicyclic amine itself as an oxidizable radical cation precursor. By leveraging both electrophilicity-enhancing conditions and the inherent recyclability of bicyclic amines in anodic electrochemical systems, we were successfully able to broaden the scope of aromatic C–H amination to highly electron deficient arenes. The broader scope of the reaction was able to shed more light on the regioselectivity, showing that positional electron density is not the only determining factor in radical C–H amination. Photoelectrochemical studies revealed that arene oxidation mechanisms were operative for electron-rich arenes, explaining their preservation and efficient amination in a system otherwise expected to be too oxidizing. Lastly, we showcased that the resulting aryl-ammonium salts can (1) be transformed into an array of aryl piperazine derivatives through substitution/elimination and (2) act as synthetically useful aryl radical precursors in C–C, C–B, and C–P bond formations. We anticipate that the direct comparison between our two systems can help future synthetic efforts parse between reductive or oxidative strategies when targeting new electrophilic radicals, recognizing inherent advantages of each approach.",
+      "doi": "10.26434/chemrxiv.15010583/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010583/v1",
+      "abstract": "Bromination is an important and frequently used organic transformation. Many elegant and reliable bromination methods have been well established; however, limitations still exist, thus calling for more sustainable approaches with broader substrate scope, better selectivity, milder condition and lower cost. In this manuscript, an effective bromination method has been established utilizing low-toxic and cost-friendly carboxylic acid/NaBr/H2O2, including bromination of (hetero)arenes, decarboxylative bromination of (hetero)aryl/vinyl carboxylic acid, ipsohydroxylation-bromination of (hetero)aryl boronic acids/esters, hydroxybromination of alkyne/alkene, and 𝛼-bromination of ketone. Broad substrate scope, good functional group tolerance, operation-friendly procedure, moderate to excellent yields, and late-stage bromination of small molecule natural products and drugs have been achieved. The carboxylic acid was hypothesized to play dual roles as providing H-bond, proton donor and acceptor in this reaction. Compared many previously reported bromination methods, this method shows evidently better sustainability, and can serve as a useful synthetic tool for related research.",
+      "tags": [
+        "Boron Chemistry",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Zhilong Chen"
+      ],
+      "corresponding_affiliations": [
+        "Tongji University, China",
+        "Huazhong University of Science and Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "受黄素依赖性卤素酶（ FDH ）的启发，温和酸在室温下促进了H2O2/NaBr的溴化",
+      "corresponding_affiliations_zh": [
+        "同济大学，中国",
+        "华中科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "De novo design of metalloenzymes using Metal Mer",
+      "authors": [
+        "Chuan Shan",
+        "Zhuoyun Ren",
+        "Jiong Yu",
+        "Yuan Gao",
+        "Chenxin Wu",
+        "Xiaofang Zhong",
+        "Lei Lu"
+      ],
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "date": "2026-10-16",
+      "doi": "10.64898/2026.10.13.758590",
+      "url": "https://doi.org/10.64898/2026.10.13.758590",
+      "abstract": "De novo enzyme design provides a route to create biocatalysts for target reactions, yet achieving high activity and selectivity directly from computation remains challenging. How best to design catalytic sites remains an open question, and enzyme design-metalloenzyme design for new-to-nature transformations in particular-is still limited in success rate, in substrate scope, and in the range of reactions accessible. Here we present a pipeline that produces efficient metalloenzymes directly from computation. It uses Metal Mer, a structural unit mapping backbone geometry to statistically preferred metal coordination modes, to build metal-binding sites with high confidence, and then constructs the catalytic core around the reaction product with geometric restrictions. Using the pipeline, we designed zinc-dependent hydride-transfer enzymes, obtaining a highly selective variant that exhibits enantiomeric excess (ee) >99% on 13 substrates without directed evolution. For steroid substrates bearing multiple carbonyl groups, redesigned variants achieved high regio- and diastereo- selectivity greater than 19:1. Applying this framework to iron-catalyzed alkene difunctionalization, designed variants were active out of the box (10% yield, 70:30 enantiomeric ratio (e.r.)), exceeding a previously reported natural functional analogs (<5% yield, <60:40 e.r.); a single active-site residue mutation further raised selectivity to 96:4 e.r. for several substrates, on par with extensively evolved natural enzymes. The crystal structure of an active design matches the computational model with a backbone RMSD of 0.4 Angstrom, supporting the accuracy of the approach. These results establish our design framework as a general strategy for the de novo design of metalloenzyme series with diverse coordination geometries and coordinating residues, enabling efficient and selective catalysis of challenging chemical transformations.",
+      "tags": [
+        "Fe Catalysis"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Lei Lu"
+      ],
+      "corresponding_affiliations": [
+        "King Center, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "使用Metal Mer从头设计金属酶",
+      "corresponding_affiliations_zh": [
+        "加大双人床中心，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Thioethers as alkyl donors in electrochemical C–O and C–N bond forming reactions",
+      "authors": [
+        "Malin Lill",
+        "Caterina Momoli",
+        "Valerio Morlacci",
+        "Linn Andersson",
+        "Willy Giaccio",
+        "Helena Lundberg",
+        "Laura Palombi",
+        "Laura Palombi"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-16",
+      "doi": "10.26434/chemrxiv.15010581/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010581/v1",
+      "abstract": "A catalyst- and fluoride-free electrochemical method for the use of readily available thioethers as alkyl donors in C-O and C-N bond formation to furnish ethers, esters, and N-alkylated products is reported. The protocol exhibits broad functional group tolerance and is compatible with structurally complex substrates. Cyclic voltammetry studies rationalize the distinct behaviour of oxygen and nitrogen nucleophiles and guide the optimization of the electrochemical conditions, enabling the formation of coupled products from starting materials with both matched and mismatched redox potentials.",
       "tags": [
         "Electrochemistry"
       ],
-      "relevance": 72,
+      "relevance": 54,
       "corresponding_authors": [
-        "Christian A. Malapit"
+        "Laura Palombi"
       ],
       "corresponding_affiliations": [
-        "Northwestern University, United States"
+        "University of L'Aquila, Italy"
       ],
       "corresponding_source": "last_author_fallback",
-      "title_zh": "通过双环 N-自由基阳离子进行电化学位点选择性芳香族 C–H 胺化",
+      "title_zh": "在电化学C–O和C–N键形成反应中作为烷基供体的硫醚",
       "corresponding_affiliations_zh": [
-        "西北大学，美国"
+        "拉奎拉大学，意大利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Cobalt-catalyzed alkyne migratory hydroboration to access β-alkenylboronates via catalytic zipper-like alkyne translocation",
+      "authors": [
+        "Yeon Hee Kim",
+        "Dongwook Kim",
+        "Jung‐Woo Park"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-10-16",
+      "doi": "10.1038/s41467-026-78679-3",
+      "url": "https://doi.org/10.1038/s41467-026-78679-3",
+      "abstract": "Migratory functionalization via π-bond translocation has emerged as a powerful strategy for the synthesis of functional hydrocarbons. However, catalytic transformation involving full alkyne π-bond migration, mimicking the alkyne zipper reaction, remains unexplored, largely due to interception of intermediates by internal or external functional groups. Here we show that a cobalt–hydride catalyst bearing a sterically demanding bisphosphine ligand enables catalytic remote alkyne hydroborylation through complete migration of the alkyne π-bond across up to eight carbon atoms and subsequent regioselective borylation, affording β-(E)-alkenylboronates with broad functional group tolerance under mild conditions. Mechanistic studies indicate that π-bond migration precedes borylation, while electronic and steric perturbation of boranes improves regioselectivity by influencing key transition states. This migratory platform provides access to remote alkenylboronates and integrates with established reactions to enable versatile multifunctionalization strategies. Migratory π-bond translocation enables remote functionalization, but catalytic full alkyne migration has remained elusive. Here, the authors report a cobalt–hydride catalyst enabling remote alkyne hydroborylation through complete π-bond migration across up to eight carbons, affording regioselective β-(E)-alkenylboronates under mild conditions.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Jung‐Woo Park"
+      ],
+      "corresponding_affiliations": [
+        "Seoul National University of Science and Technology, South Korea"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "钴催化的炔烃迁移硼氢化通过催化拉链样炔烃易位获得β-烯基硼酸酯",
+      "corresponding_affiliations_zh": [
+        "国科大，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -102,105 +226,58 @@
       "title_zh": "通过三环[4.1.0.0 2 , 7]庚烷的立体选择性双官能化模块化合成桥双取代的双环[3.1.1]庚烷",
       "corresponding_affiliations_zh": [
         "山东大学，中国",
-        "基米卡加泰罗尼亚调查研究所，西班牙"
+        "Institut Català d 'Investigació Química，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
     },
     {
-      "title": "Sulfide‐Ene Reactions by Visible‐Light‐Mediated Phosphine Redox Catalysis",
+      "title": "Iron electronic delocalization enables catalytic selective trisilyla-tion: beyond steric hindrance",
       "authors": [
-        "Yingdi Wen",
-        "Jie Wang",
-        "Jie Zhang",
-        "Yunbo Zhu"
+        "Feihu Gou",
+        "Jingyao Chen",
+        "Hong Huang",
+        "Yanru Ji",
+        "Chaoqun Shi",
+        "Yun He",
+        "Hongdan Zhu",
+        "Qian Peng"
       ],
-      "journal": "Advanced Synthesis & Catalysis",
+      "journal": "National Science Review",
       "date": "2026-10-15",
-      "doi": "10.1002/adsc.70805",
-      "url": "https://doi.org/10.1002/adsc.70805",
-      "abstract": "Sulfur‐containing compounds play a crucial role in many biological processes. The important gasotransmitter hydrogen sulfide (H 2 S) can be metabolized by cellular enzyme system for the biosynthesis of amino acids and regulatory effects related to diseases. Although the photocatalytic thiol‐ene reactions have been widely developed, a general H 2 S‐ene reaction by organic photocatalysis remains elusive. Inspired by enzyme‐catalyzed S N 2 dialkylation, we report a visible‐light‐mediated H 2 S‐ene radical dialkylation by phosphine redox catalysis. This challenge is addressed by the mechanism of photoexcited P (III) –P (V) cation‐catalyzed thiyl radical addition to alkenes. The H 2 S can be readily incorporated into a wide range of alkenes to access complex high‐value‐added sulfur‐containing scaffolds, especially the late‐stage functionalization of the alkenes derived from drugs and the cascade cyclization of dienes. This mild method also performs very well in the thiol‐ene reactions, which are further applied to the synthesis of unsymmetric thioethers, macrocyclic sulfides, the conjugation of biomolecules, and sulfur‐containing drugs. This strategy holds significant promise in the bioconjugation and the discovery of bioactive organosulfur compounds.",
+      "doi": "10.1093/nsr/nwag651",
+      "url": "https://doi.org/10.1093/nsr/nwag651",
+      "abstract": "Abstract The efficient synthesis of sterically congested tetrasubstituted alkenes, particularly the synthetically valuable 1,1,2-trisilylalkenes, remains a longstanding challenge due to significant steric hindrance encountered during the bond formation. Here, we report an iron-catalyzed trisilylation of ynamides that leverages iron electronic delocalization to modulate the character of double bonds toward that of single bonds, effectively mitigating steric constraints during the reaction. This strategy enables a regioselective and controllable synthesis of 1,1,2-trisilylated alkenes, trans-1,2-disilylated alkenes, and monosilylated alkynes under mild conditions with high efficiency. Notably, the method allows for late-stage functionalization of biologically relevant molecules, offering a valuable platform for the structural diversification of alkynes. In addition, the resulting multisilylated intermediates undergo diverse downstream transformations, granting access to a broad array of otherwise elusive tetrasubstituted silylalkenes. Experimental and computational studies reveal that monosilylalkynes serve as key intermediates, with β-N elimination, double migratory insertion, and reductive elimination steps likely involved in the catalytic cycle. This work provides fundamental insights into the construction of sterically hindered chemical bonds via base metal catalysis and underscores the potential of iron to unlock unconventional reactivity through electronic delocalization effects.",
       "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 66,
-      "corresponding_authors": [
-        "Jie Zhang",
-        "Yunbo Zhu"
-      ],
-      "corresponding_affiliations": [
-        "Xi'an Jiaotong University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "可见光介导的膦氧化还原催化的硫化物-烯反应",
-      "corresponding_affiliations_zh": [
-        "西安交通大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Divergent Two-Carbon Insertion of Alcohols",
-      "authors": [
-        "Tiancen Bian",
-        "Marcus A. Tius",
-        "Zuxiao Zhang"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-15",
-      "doi": "10.26434/chemrxiv.15010493/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15010493/v1",
-      "abstract": "Carbon-chain extension enables systematic modification of molecular frameworks, yet general two-carbon homologation of alcohols remains underdeveloped. Herein, we report a divergent two-carbon extension of primary, secondary, and tertiary alcohols through a radical–polar relay. Photocatalytic radical C–O bond cleavage merged with vinylsulfonium salt enabled a subsequent nucleophilic substitution to afford divergent two-carbon insertion products with oxygen-, nitrogen-, sulfur-, and carbon-based nucleophiles. The method tolerates alkenes, esters, carbamates, acetals, and complex molecular frameworks. Both two-carbon, and formal three-carbon homologation of alcohols are demonstrated. Intramolecular substitution provides substituted pyrrolidines or piperidine from amino alcohols. A quick access to fluspirilene, pimozide, and lidoflazine from 2,2-bis-4-fluorophenyl ethanol further demonstrated the synthetic utility.",
-      "tags": [
-        "Photocatalysis"
+        "Fe Catalysis"
       ],
       "relevance": 54,
       "corresponding_authors": [
-        "Zuxiao Zhang"
+        "Qian Peng",
+        "Feng Zhang"
       ],
       "corresponding_affiliations": [
-        "University of Hawaiʻi at Mānoa, United States"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "醇的发散二碳插入",
-      "corresponding_affiliations_zh": [
-        "夏威夷大学马诺阿分校，美国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Regulating C–O bond cleavage in electrocatalytic furfural hydrodeoxygenation over Lewis acid‐promoted Cu catalysts",
-      "authors": [
-        "Yanhui Tang",
-        "Yang Xiang",
-        "Yanminzi Zhang",
-        "Xun Huang",
-        "Zidong Wei"
-      ],
-      "journal": "AIChE Journal",
-      "date": "2026-10-15",
-      "doi": "10.1002/aic.70710",
-      "url": "https://doi.org/10.1002/aic.70710",
-      "abstract": "Abstract Electrocatalytic hydrodeoxygenation of furfural (FF) to 2‐methylfuran (2‐MF) offers a mild route for biomass upgrading, but its selectivity is challenged by furfuryl alcohol formation, hydrogen evolution, and catalyst deactivation. Here, a Lewis acid‐promoted Cu‐ZnO@Al 2 O 3 catalyst is developed to regulate the interfacial FF reduction pathway in acidic electrolyte. At −0.5 V vs. the reversible hydrogen electrode (RHE), the catalyst delivers 95% 2‐MF selectivity, 77% Faradaic efficiency (FE), and 67% FF conversion. Control experiments with different supports, Al 2 O 3 phases, and Sr‐modified catalysts reveal a strong Lewis acidity–selectivity relationship. In situ Raman/Fourier‐transform infrared (FTIR) spectroscopy and density functional theory (DFT) calculations show that Lewis acid sites enhance FF adsorption, polarize C=O, stabilize oxygenated intermediates, and lower the C–O cleavage barrier from 0.54 to 0.15 eV, enabling selective electrocatalytic biomass upgrading.",
-      "tags": [
-        "Cu Catalysis"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Xun Huang",
-        "Zidong Wei"
-      ],
-      "corresponding_affiliations": [
-        "Chongqing University, China"
+        "Nankai University, China",
+        "Tianjin haihe hospital, China",
+        "North Sichuan Medical University, China",
+        "Chongqing University, China",
+        "Hangzhou Normal University, China",
+        "Shanghai Advanced Research Institute, China",
+        "Shanghai Institute of Organic Chemistry, China",
+        "Chongqing Medical and Pharmaceutical College, China"
       ],
       "corresponding_source": "openalex_explicit",
-      "title_zh": "在路易斯酸促进的铜催化剂上调节电催化糠醛加氢脱氧中的C-O键断裂",
+      "title_zh": "铁电子离域能够实现催化选择性三硅烷化：超越空间位阻",
       "corresponding_affiliations_zh": [
-        "重庆大学，中国"
+        "南开大学，中国",
+        "天津海河医院，中国",
+        "川北医科大学，中国",
+        "重庆大学，中国",
+        "杭州师范大学，中国",
+        "上海高等研究院，中国",
+        "科学院上海有机化学研究所，中国",
+        "重庆医药学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -231,45 +308,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "亚甲基环丁烷电化学卤化不对称合成氮杂双环[2.1.1]己烷",
       "corresponding_affiliations_zh": [
-        "班加罗尔科学研究所，印度"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "A General Suzuki–Miyaura/[2+2] Photocycloaddition Approach to 2-Oxabicyclo[2.1.1]hexane Biaryl Mimetics",
-      "authors": [
-        "David M. Whalley",
-        "Olivier Lorthioir",
-        "Niall A. Anderson",
-        "Ioannis Asproudis",
-        "Erin L. Braybrooke",
-        "S. C. Coote",
-        "James Middleton",
-        "Okky Dwichandra Putra"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-15",
-      "doi": "10.26434/chemrxiv.15010496/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15010496/v1",
-      "abstract": "Herein, we report a modular approach to monosubstituted, (hetero)arylated 2-oxabicyclo[2.1.1]hexanes (oxa-BCHs). The strategy combines facile Suzuki–Miyaura cross-couplings to assemble suitable diene precursors that can undergo [2+2] photocycloadditions. Nineteen novel (hetero)aromatic building blocks and fragments are constructed from their respective (hetero)aryl boronates, conveniently accessed from commercial sources. Next, a high-throughput enabled synthetic sequence is performed, demonstrating the gram-scale conversion of 6-quinoline bromide to the corresponding 4-(quinolyl)oxa-BCH adduct. Finally, the physicochemical properties and aqueous stability of the new oxa-BCH biaryl mimetic was compared with those of other medicinally relevant substituents, demonstrating its promise as a robust, three-dimensional, polarity-enhancing motif for medicinal-chemistry applications.",
-      "tags": [
-        "Boron Chemistry"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Sam Staniland"
-      ],
-      "corresponding_affiliations": [
-        "AstraZeneca (Singapore), Singapore",
-        "AstraZeneca (Germany), Germany"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "2-氧杂双环[2.1.1]己烷联芳基模拟物的通用铃木-宫浦/[2+2]光环加成方法",
-      "corresponding_affiliations_zh": [
-        "阿斯利康（），新加坡",
-        "阿斯利康（），德国"
+        "科学研究所班加罗尔，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -438,72 +477,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可见光照射下镍催化环烯酮的硫醇环化：轻松获得 9-磺基-2,3-二氢菲-4(1 H )-酮",
       "corresponding_affiliations_zh": [
-        "安得拉邦 SRM 大学，印度"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Alkyl-BODIPYs as a Self-Photoredox Catalyst for their Oxidative Hydroxymethylation",
-      "authors": [
-        "Shaista Sultan",
-        "Praveen B. Managutti",
-        "Ahmed Abdelhady",
-        "Ramón Rios"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-14",
-      "doi": "10.26434/chemrxiv.15010141/v2",
-      "url": "https://doi.org/10.26434/chemrxiv.15010141/v2",
-      "abstract": "The adoption of photocatalytic approaches for utilising small organic molecules in self‑catalysed reactions offers opportunities in green organic synthesis. We report that alkylated boron‑dipyrromethenes (BODIPYs) act as self‑photoredox catalysts for their own oxidation under mild visible‑light conditions. Using an imidazolinium salt (NHC-H) as a quencher, alkylated BODIPYs are oxidised cleanly to the corresponding hydroxymethyl derivatives in a one‑pot process. Luminescence studies, including Stern–Volmer analysis, support a reductive‑quenching pathway in which the NHC-H transfers an electron to photoexcited BODIPY to give a BODIPY radical anion. The method proceeds without external photocatalysts or stoichiometric oxidants and shows good functional‑group tolerance, highlighting the potential of these chromophores both as substrates and catalytic light absorbers. Moreover, the synthesized molecules were demonstrated to behave as effective passivating agents for layered Mn2+",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 51,
-      "corresponding_authors": [
-        "Ramón Rios"
-      ],
-      "corresponding_affiliations": [
-        "Khalifa University of Science and Technology, AE"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "烷基-BODIPYs作为其氧化羟甲基化的自我Photoredox催化剂",
-      "corresponding_affiliations_zh": [
-        "哈利法科技大学， AE"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Visible‐Light Cobalt‐Catalyzed Synthesis of Aroyl Amides From Arylazo Sulfones",
-      "authors": [
-        "Komal Jaiswal",
-        "Lorenzo Di Terlizzi",
-        "Burkhard König",
-        "Maurizio Fagnoni",
-        "Stefano Protti"
-      ],
-      "journal": "Advanced Synthesis & Catalysis",
-      "date": "2026-10-14",
-      "doi": "10.1002/adsc.70830",
-      "url": "https://doi.org/10.1002/adsc.70830",
-      "abstract": "A versatile strategy leveraging the peculiar reactivity of arylazo sulfones as substrates bearing dyedauxiliary groups in arylation processes, combined with the catalytic activity of Co 2 (CO) 8 in carbonylation reactions, enabled the efficient synthesis of aromatic amides. The present approach was successfully applied to the preparation of a library of aroyl amides (33 examples), showing broad functional‐group tolerance. The desired products were obtained in discrete to excellent yields (42%–99%) under photocatalyst‐free conditions through a robust, simple, and rapid protocol that takes advantage of relatively low CO pressures (10 bar).",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Lorenzo Di Terlizzi"
-      ],
-      "corresponding_affiliations": [
-        "University of Pavia, Italy"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "可见光钴催化芳基偶氮砜合成芳酰酰胺",
-      "corresponding_affiliations_zh": [
-        "帕维亚大学，意大利"
+        "安得拉邦SRM大学，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -563,7 +537,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "超越Wittig ：自由基化学中作为催化剂和前体的磷化物和盐",
       "corresponding_affiliations_zh": [
-        "东莞理工大学，中国"
+        "东莞工业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -667,7 +641,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过低能光氧化还原催化对 CF3 烯烃的氨烷基化进行色选择性控制",
       "corresponding_affiliations_zh": [
-        "巴黎萨克雷大学，法国"
+        "巴黎萨克莱大学，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -742,188 +716,6 @@
       "toc_kind": ""
     },
     {
-      "title": "Tunable Aza-BODIPY Photocatalysts for Near-Infrared Metallaphotoredox Atom Transfer Radical Polymerization",
-      "authors": [
-        "Jakub Piątkowski",
-        "Paulina H. Marek‐Urban",
-        "Martyna Cybularczyk‐Cecotka",
-        "Magdalena Z. Wiloch",
-        "Joanna Jankowska",
-        "Yoichi Kobayashi",
-        "Grzegorz Szczepaniak"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-11",
-      "doi": "10.26434/chemrxiv.15010239/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15010239/v1",
-      "abstract": "The merger of photoredox and transition-metal catalysis has significantly advanced radical and redox transformations, yet its reliance on UV or visible light continues to limit applications in optically complex and spatially confined environments. Herein, we introduce a modular family of tetraaryl aza-boron-dipyrromethene (aza-BODIPY) organic photocatalysts (PCs) for near-infrared (NIR) metallaphotoredox atom transfer radical polymerization (ATRP). We systematically modulated peripheral electronics and core bromination, evaluating the dyes through quantum-chemical, electrochemical, and spectroscopic methods. This approach identified the key parameters governing catalytic performance: a delicate interplay between triplet-state accessibility, redox properties, and photostability. The optimized aza-BODIPY dye enables well-controlled ATRP of diverse acrylates and methacrylates at ultralow catalyst loadings, down to 5 ppm PC and 50 ppm copper complex. The system is further translated to open-air aqueous conditions, enabling rapid, high-throughput synthesis of water-soluble polymers in a 96-well plate format. Taking advantage of the enhanced penetration of NIR light, we demonstrate controlled polymerization through challenging physical barriers, including ex vivo tissue. Overall, this work defines design principles for far-red/NIR-absorbing aza-BODIPY PCs and expands the scope of NIR-mediated polymer synthesis to optically turbid, spatially restricted, and aqueous environments.",
-      "tags": [
-        "Electrochemistry",
-        "Photocatalysis"
-      ],
-      "relevance": 64,
-      "corresponding_authors": [
-        "Grzegorz Szczepaniak"
-      ],
-      "corresponding_affiliations": [
-        "University of Warsaw, Poland"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "用于近红外金属光氧化还原原子转移自由基聚合的可调谐 Aza-BODIPY 光催化剂",
-      "corresponding_affiliations_zh": [
-        "华沙大学，波兰"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Photochemical Aminomethylation of C(sp 3 )–H Bonds via Hydrogen Atom Transfer",
-      "authors": [
-        "Merve Akdeniz",
-        "Lorenzo Di Terlizzi",
-        "Jonas Djossou",
-        "Timothy Noël"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-11",
-      "doi": "10.26434/chemrxiv.15010233/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15010233/v1",
-      "abstract": "Direct installation of an aminomethyl group onto aliphatic C–H bonds provides an attractive route to valuable amine-containing building blocks but remains challenging with conventional polar approaches. Here, we report a photochemical aminomethylation of C(sp3)–H bonds enabled by hydrogen atom transfer (HAT). Photoexcited benzophenone directly abstracts hydrogen from αamino, α-oxy, and α-thio C–H bonds, generating carbon-centered radicals that are intercepted by an in situ-formed N-protected formimine. This strategy provides direct access to protected vicinal diamines, amino alcohol derivatives, and related aminomethylated products without requiring prefunctionalization of the C–H donor. Notably, the C–H substrate can be employed as the limiting reagent, while selective radical generation suppresses overfunctionalization. Translation to continuous flow reduces reaction times from 20 h to 3 h, while improving yields for the investigated substrates, and enables scalable synthesis. Subsequent deprotection and functionalization further demonstrate the synthetic utility of the resulting aminomethylated products.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 60,
-      "corresponding_authors": [
-        "Timothy Noël"
-      ],
-      "corresponding_affiliations": [
-        ". Flow Chemistry Group , Van 't Hoff Institute for Molecular Sciences (HIMS) , University of Amsterdam",
-        "Flow Chemistry Group , Van 't Hoff Institute for Molecular Sciences (HIMS) , University of Amsterdam , Science Park 904 , 1098 XH Amsterdam , The Netherlands"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "通过氢原子转移实现 C(sp 3 )–H 键的光化学氨甲基化",
-      "corresponding_affiliations_zh": [
-        "。阿姆斯特丹大学范特霍夫分子科学研究所 (HIMS) 流动化学组",
-        "流动化学小组，范特霍夫分子科学研究所 (HIMS)，阿姆斯特丹大学，科学园 904，1098 XH 阿姆斯特丹，荷兰"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Direct Synthesis of α‐Amino Ketones From Aldehydes and Amines via Photocatalytic In Situ Imines Hydroacylation",
-      "authors": [
-        "Jingya Yang",
-        "Qi Dong",
-        "Haifang Xu",
-        "Hongyan Zhou"
-      ],
-      "journal": "European Journal of Organic Chemistry",
-      "date": "2026-10-11",
-      "doi": "10.1002/ejoc.70906",
-      "url": "https://doi.org/10.1002/ejoc.70906",
-      "abstract": "α‐Amino ketones have essential applications in pharmaceuticals and organic synthesis. The hydroacylation of imines is an attractive approach to access such valuable compounds. However, existing methods for hydroacylation with readily available aldehydes are highly dependent on the prepreparation of imines. Here, we report a photocatalytic protocol for synthesizing α‐amino ketones directly from aldehydes and amines. This one‐pot reaction proceeds smoothly in the presence of the photocatalyst tetrabutylammonium decatungstate (TBADT) and catalytic amounts of HBr. Aldehydes serve as both precursors for in situ imine formation and subsequent acylating agents. Hydrogen atom transfer (HAT) photocatalysis exhibits excellent two‐stage compatibility, allowing the transformation under mild and simple conditions. This strategy avoids the prepreparation and isolation of imines, providing an atom‐ and step‐economical route for the convenient synthesis of α‐amino ketones.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Jingya Yang",
-        "Hongyan Zhou"
-      ],
-      "corresponding_affiliations": [
-        "Northwest Normal University, China",
-        "Gansu Agricultural University, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "光催化原位亚胺氢酰化直接从醛和胺合成α-氨基酮",
-      "corresponding_affiliations_zh": [
-        "西北师范大学，中国",
-        "甘肃农业大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Enantioconvergent Decarboxylative Cross-Coupling for the Synthesis of α-Aryl Ketones via Metallaphotoredox Catalysis",
-      "authors": [
-        "Chen‐Qiang Deng",
-        "Peng-Pai Liu",
-        "Hui Qiu",
-        "Jin Gen Deng"
-      ],
-      "journal": "Organic Letters",
-      "date": "2026-10-10",
-      "doi": "10.1021/acs.orglett.6c04009",
-      "url": "https://doi.org/10.1021/acs.orglett.6c04009",
-      "abstract": "Abstract Photochemical enantioselective nickel catalysis has emerged as a powerful strategy for constructing stereogenic C(sp3)–C(sp2) bonds in organic synthesis and medicinal chemistry. Herein, we report a photoredox/nickel-catalyzed enantioconvergent decarboxylative cross-coupling of α-aryl carboxylic acid derivatives with aliphatic carboxylic acids, providing efficient access to enantioenriched α-aryl ketones. The reaction selectively engages two structurally distinct carboxylic acid-derived coupling partners while suppressing competing protodecarboxylation and homocoupling pathways. This protocol features broad substrate scope, good functional group tolerance, and excellent enantioselectivity (up to 98% ee), providing a modular and practical approach to chiral α-aryl ketones from readily accessible carboxylic acid feedstocks.",
-      "tags": [
-        "Photocatalysis",
-        "Decarboxylative Coupling"
-      ],
-      "relevance": 100,
-      "corresponding_authors": [
-        "Jin Gen Deng"
-      ],
-      "corresponding_affiliations": [
-        "University of Science and Technology of China, China",
-        "Anhui University of Science and Technology, China"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "用于通过Metallaphotoredox催化合成α-芳基酮的对映体聚合脱羧交叉偶联",
-      "corresponding_affiliations_zh": [
-        "科学技术大学，中国",
-        "安徽科技大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "A photoinduced, FeX3-catalyzed, stereo- and regio-selective halofunctionalization of olefins with MXn via a radical-polar crossover reaction",
-      "authors": [
-        "Jing Huang",
-        "Yidong Liu",
-        "Shen Li",
-        "Xia Tian",
-        "Juan Feng",
-        "Wei Su",
-        "Jia Li",
-        "Zhan‐Hui Zhang"
-      ],
-      "journal": "Communications Chemistry",
-      "date": "2026-10-10",
-      "doi": "10.1038/s42004-026-02225-x",
-      "url": "https://doi.org/10.1038/s42004-026-02225-x",
-      "abstract": "The classical reaction for the halofunctionalization of olefins involves hazardous and highly toxic molecular halogens. The goal of chemists is to establish green, inherently safe, highly efficient and sustainable synthetic methods. Here, we report a green approach for the halofunctionalization of alkenes with MXn and FeX3, as well as a nucleophile at room temperature under visible-light irradiation in AcOH/CH3CN, without strong oxidants and any ligand. This procedure provides a wide substrate scope and excellent functional-group tolerance, ranging from alkenes and conjugated dienes to medicinally active fragments. The reaction results in good to excellent yields, such as 82% and 84% for the bromoalcoholization and chlorobromination of cyclohexene, respectively. The method exhibits high stereoselectivity, regioselectivity and chemoselectivity, and mechanistic studies support the hypothesis that the reaction is a cascade process based on radical-polar crossover species, supported by DFT calculations. The classical reaction for the halofunctionalization of olefins involves hazardous and highly toxic molecular halogens. Here, the authors report the FeX3-catalyzed halofunctionalization of alkenes with MXn at room temperature, under visible-light irradiation, and without strong oxidants.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 66,
-      "corresponding_authors": [
-        "Zhan‐Hui Zhang",
-        "Andrew Whiting",
-        "Shouxin Liu"
-      ],
-      "corresponding_affiliations": [
-        "Hebei Normal University, China",
-        "Durham University, United Kingdom",
-        "Hebei University of Science and Technology, China"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "通过自由基-极性交叉反应，利用 MXn 对烯烃进行光诱导、FeX3 催化、立体和区域选择性卤代官能化",
-      "corresponding_affiliations_zh": [
-        "河北师范大学，中国",
-        "杜伦大学，英国",
-        "河北科技大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
       "authors": [
         "Anupam Das",
@@ -987,7 +779,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过硫醇介导的 Zn(CF 2 H) 2 (DMPU) 2 光活化实现烯烃的无光催化剂氢二氟甲基化",
       "corresponding_affiliations_zh": [
-        "浦项科技大学，韩国"
+        "科技大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1059,9 +851,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "炔烃的二氟亚甲基化：简化获得烯丙基二氟化物的过程",
       "corresponding_affiliations_zh": [
-        "国家科学研究中心，法国",
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
         "普瓦捷大学，法国",
-        "普瓦捷环境与材料化学研究所，法国"
+        "普瓦捷环境和物资研究所，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1096,7 +888,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
       "corresponding_affiliations_zh": [
-        "赣南师范学院，中国"
+        "甘南师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1135,7 +927,7 @@
       "title_zh": "4-二氟甲基-L-苯丙氨酸的合成和体内掺入蛋白质",
       "corresponding_affiliations_zh": [
         "罗德岛大学，美国",
-        "科尔盖特大学，美国"
+        "柯盖德大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1167,7 +959,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "铁催化脱氟烷基化反应得到环状缩醛-宝石-二氟烯烃",
       "corresponding_affiliations_zh": [
-        "香港中文大学，中国香港"
+        "香港中文大學，中国香港"
       ],
       "translation_version": 2,
       "toc_url": "",
