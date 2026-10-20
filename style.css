@@ -125,9 +125,111 @@ body {
 }
 
 .search-wrap input:focus,
-.toolbar select:focus {
+.toolbar select:focus,
+.date-input-wrap input:focus {
   border-color: #668bb4;
   box-shadow: 0 0 0 3px rgba(74, 116, 158, 0.1);
+}
+
+/* ---------- Publication-date browser ---------- */
+.date-browser {
+  background: #fff;
+  border: 1px solid #e3e8ef;
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin: 0 0 18px;
+  box-shadow: 0 6px 20px rgba(29, 47, 76, 0.035);
+}
+
+.date-browser-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.date-browser-heading h2 {
+  margin: 0 0 5px;
+  font-size: 16px;
+}
+
+.date-browser-heading p {
+  margin: 0;
+  color: #7a879b;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.date-presets {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.date-preset {
+  border: 1px solid #d7dee9;
+  background: #fff;
+  color: #506078;
+  padding: 7px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+}
+
+.date-preset:hover {
+  border-color: #9fb3ca;
+}
+
+.date-preset.active {
+  background: #213e63;
+  color: #fff;
+  border-color: #213e63;
+}
+
+.date-controls {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.8fr) minmax(150px, 0.8fr) minmax(240px, 1.5fr);
+  gap: 12px;
+  align-items: end;
+}
+
+.date-input-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #617086;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.date-input-wrap input {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #d7dee9;
+  background: #fff;
+  border-radius: 10px;
+  padding: 11px 12px;
+  font: inherit;
+  color: #172033;
+  outline: none;
+}
+
+.date-filter-status {
+  margin: 0;
+  align-self: center;
+  color: #617086;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.archive-coverage {
+  margin: 12px 0 0;
+  color: #8490a3;
+  font-size: 11px;
+  line-height: 1.55;
 }
 
 .filters {
@@ -468,6 +570,26 @@ footer {
 
   .toolbar select {
     width: 100%;
+  }
+
+  .date-browser {
+    padding: 16px;
+  }
+
+  .date-browser-heading {
+    display: block;
+  }
+
+  .date-presets {
+    margin-top: 12px;
+  }
+
+  .date-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .date-filter-status {
+    align-self: start;
   }
 
   .paper-grid {
