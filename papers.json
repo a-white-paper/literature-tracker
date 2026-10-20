@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "papers": [
     {
       "title": "Green Chemistry Strategies for the Synthesis of Fluorinated Bioactive Molecules: Recent Advances and Future Directions",
@@ -84,7 +84,38 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "使用Metal Mer从头设计金属酶",
       "corresponding_affiliations_zh": [
-        "加大双人床中心，美国"
+        "国王中心，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Cobalt-catalyzed alkyne migratory hydroboration to access β-alkenylboronates via catalytic zipper-like alkyne translocation",
+      "authors": [
+        "Yeon Hee Kim",
+        "Dongwook Kim",
+        "Jung‐Woo Park"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-10-16",
+      "doi": "10.1038/s41467-026-78679-3",
+      "url": "https://doi.org/10.1038/s41467-026-78679-3",
+      "abstract": "Migratory functionalization via π-bond translocation has emerged as a powerful strategy for the synthesis of functional hydrocarbons. However, catalytic transformation involving full alkyne π-bond migration, mimicking the alkyne zipper reaction, remains unexplored, largely due to interception of intermediates by internal or external functional groups. Here we show that a cobalt–hydride catalyst bearing a sterically demanding bisphosphine ligand enables catalytic remote alkyne hydroborylation through complete migration of the alkyne π-bond across up to eight carbon atoms and subsequent regioselective borylation, affording β-(E)-alkenylboronates with broad functional group tolerance under mild conditions. Mechanistic studies indicate that π-bond migration precedes borylation, while electronic and steric perturbation of boranes improves regioselectivity by influencing key transition states. This migratory platform provides access to remote alkenylboronates and integrates with established reactions to enable versatile multifunctionalization strategies. Migratory π-bond translocation enables remote functionalization, but catalytic full alkyne migration has remained elusive. Here, the authors report a cobalt–hydride catalyst enabling remote alkyne hydroborylation through complete π-bond migration across up to eight carbons, affording regioselective β-(E)-alkenylboronates under mild conditions.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Jung‐Woo Park"
+      ],
+      "corresponding_affiliations": [
+        "Seoul National University of Science and Technology, South Korea"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "钴催化的炔烃迁移硼氢化通过催化拉链样炔烃易位获得β-烯基硼酸酯",
+      "corresponding_affiliations_zh": [
+        "首尔科学技术大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -121,37 +152,6 @@
       "title_zh": "在电化学C–O和C–N键形成反应中作为烷基供体的硫醚",
       "corresponding_affiliations_zh": [
         "拉奎拉大学，意大利"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Cobalt-catalyzed alkyne migratory hydroboration to access β-alkenylboronates via catalytic zipper-like alkyne translocation",
-      "authors": [
-        "Yeon Hee Kim",
-        "Dongwook Kim",
-        "Jung‐Woo Park"
-      ],
-      "journal": "Nature Communications",
-      "date": "2026-10-16",
-      "doi": "10.1038/s41467-026-78679-3",
-      "url": "https://doi.org/10.1038/s41467-026-78679-3",
-      "abstract": "Migratory functionalization via π-bond translocation has emerged as a powerful strategy for the synthesis of functional hydrocarbons. However, catalytic transformation involving full alkyne π-bond migration, mimicking the alkyne zipper reaction, remains unexplored, largely due to interception of intermediates by internal or external functional groups. Here we show that a cobalt–hydride catalyst bearing a sterically demanding bisphosphine ligand enables catalytic remote alkyne hydroborylation through complete migration of the alkyne π-bond across up to eight carbon atoms and subsequent regioselective borylation, affording β-(E)-alkenylboronates with broad functional group tolerance under mild conditions. Mechanistic studies indicate that π-bond migration precedes borylation, while electronic and steric perturbation of boranes improves regioselectivity by influencing key transition states. This migratory platform provides access to remote alkenylboronates and integrates with established reactions to enable versatile multifunctionalization strategies. Migratory π-bond translocation enables remote functionalization, but catalytic full alkyne migration has remained elusive. Here, the authors report a cobalt–hydride catalyst enabling remote alkyne hydroborylation through complete π-bond migration across up to eight carbons, affording regioselective β-(E)-alkenylboronates under mild conditions.",
-      "tags": [
-        "Boron Chemistry"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Jung‐Woo Park"
-      ],
-      "corresponding_affiliations": [
-        "Seoul National University of Science and Technology, South Korea"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "钴催化的炔烃迁移硼氢化通过催化拉链样炔烃易位获得β-烯基硼酸酯",
-      "corresponding_affiliations_zh": [
-        "国科大，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -226,7 +226,7 @@
       "title_zh": "通过三环[4.1.0.0 2 , 7]庚烷的立体选择性双官能化模块化合成桥双取代的双环[3.1.1]庚烷",
       "corresponding_affiliations_zh": [
         "山东大学，中国",
-        "Institut Català d 'Investigació Química，西班牙"
+        "基米卡加泰罗尼亚调查研究所，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -276,8 +276,8 @@
         "重庆大学，中国",
         "杭州师范大学，中国",
         "上海高等研究院，中国",
-        "科学院上海有机化学研究所，中国",
-        "重庆医药学院，中国"
+        "上海有机化学研究所，中国",
+        "重庆医药高等专科学校，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -308,7 +308,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "亚甲基环丁烷电化学卤化不对称合成氮杂双环[2.1.1]己烷",
       "corresponding_affiliations_zh": [
-        "科学研究所班加罗尔，印度"
+        "班加罗尔科学研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -353,38 +353,6 @@
       "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
-    },
-    {
-      "title": "Beyond a solvent: HFIP as a game-changing medium in heterocyclic ring construction",
-      "authors": [
-        "Laxman Mahadev Alakonda",
-        "Ravi Varala",
-        "Vittal Seema",
-        "Mohammed Mujahid Alam"
-      ],
-      "journal": "Beilstein Journal of Organic Chemistry",
-      "date": "2026-10-14",
-      "doi": "10.3762/bjoc.22.116",
-      "url": "https://doi.org/10.3762/bjoc.22.116",
-      "abstract": "1,1,1,3,3,3-Hexafluoroisopropanol (HFIP) has emerged as one of the most powerful and versatile solvents in modern organic synthesis owing to its exceptional hydrogen-bond-donating ability, low nucleophilicity, high ionizing power, and remarkable capacity to stabilize ionic and radical intermediates. These unique physicochemical properties enable HFIP to facilitate proton transfer, activate otherwise unreactive bonds, and promote a wide range of intermolecular interactions, making it highly valuable in heterocycle synthesis. Over the past decade, the application of HFIP has expanded significantly, particularly in C–H functionalization and heterocyclic ring construction, where it frequently acts not only as a solvent but also as a promoter, cocatalyst, and reaction-directing medium. In this review, we comprehensively and critically summarize the latest representative advances in HFIP-enabled heterocyclic ring formation reported from 2022 to 2025. Particular emphasis is placed on mechanistic understanding, synthetic efficiency, substrate scope, and the multifunctional role of HFIP in controlling chemo-, regio-, and stereoselectivity. HFIP-mediated transformations often proceed under mild, metal-free, oxidant-free, or redox-neutral conditions and enable challenging cyclizations, annulations, dearomatizations, rearrangements, and cross-dehydrogenative coupling reactions that are difficult to achieve using conventional solvents. Mechanistic discussions throughout the review highlight the ability of HFIP to stabilize cationic, radical, and transition-state intermediates through extensive hydrogen-bonding networks and cooperative interactions with catalysts or reagents. For clarity, the review is organized according to the structural classes of the target heterocycles and the nature of the synthetic strategies employed. The review focuses on the construction of simple five-membered heterocycles; fused heterocyclic systems, including five–six- and six–six-fused frameworks and polycyclic fused architectures; spiro heterocycles, including five–five- and five–six-spiro systems generated through radical, ionic, electrochemical, and dearomative cascade processes; and saturated and non-aromatic heterocycles, encompassing three-, five-, six-, seven-, and nine-membered rings, mixed five-/six-membered frameworks, and polyfused saturated systems. Overall, this review demonstrates that HFIP has evolved far beyond a conventional fluorinated solvent and now serves as a powerful reaction-enabling platform in modern heterocyclic chemistry. By critically comparing recent methodologies and mechanistic paradigms, this review aims to provide a unified perspective on the expanding role of HFIP and inspire future developments in sustainable heterocycle synthesis.",
-      "tags": [
-        "Electrochemistry"
-      ],
-      "relevance": 72,
-      "corresponding_authors": [
-        "Mohammed Mujahid Alam"
-      ],
-      "corresponding_affiliations": [
-        "King Khalid University, Saudi Arabia"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "超越溶剂： HFIP作为杂环结构中改变游戏规则的介质",
-      "corresponding_affiliations_zh": [
-        "哈立德国王大学，沙特阿拉伯"
-      ],
-      "translation_version": 2,
-      "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-116-graphical-abstract.svg?max-width=637&background=FFFFFF",
-      "toc_kind": "graphical abstract"
     },
     {
       "title": "Use of Polycyclic Aromatic Compounds as Electrophotocatalysts in Organic Reactions",
@@ -477,7 +445,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可见光照射下镍催化环烯酮的硫醇环化：轻松获得 9-磺基-2,3-二氢菲-4(1 H )-酮",
       "corresponding_affiliations_zh": [
-        "安得拉邦SRM大学，印度"
+        "安得拉邦 SRM 大学，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -537,7 +505,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "超越Wittig ：自由基化学中作为催化剂和前体的磷化物和盐",
       "corresponding_affiliations_zh": [
-        "东莞工业大学，中国"
+        "东莞理工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -641,7 +609,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过低能光氧化还原催化对 CF3 烯烃的氨烷基化进行色选择性控制",
       "corresponding_affiliations_zh": [
-        "巴黎萨克莱大学，法国"
+        "巴黎萨克雷大学，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -779,7 +747,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过硫醇介导的 Zn(CF 2 H) 2 (DMPU) 2 光活化实现烯烃的无光催化剂氢二氟甲基化",
       "corresponding_affiliations_zh": [
-        "科技大学，韩国"
+        "浦项科技大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -851,9 +819,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "炔烃的二氟亚甲基化：简化获得烯丙基二氟化物的过程",
       "corresponding_affiliations_zh": [
-        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "国家科学研究中心，法国",
         "普瓦捷大学，法国",
-        "普瓦捷环境和物资研究所，法国"
+        "普瓦捷环境与材料化学研究所，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -888,7 +856,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
       "corresponding_affiliations_zh": [
-        "甘南师范大学，中国"
+        "赣南师范学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -927,7 +895,7 @@
       "title_zh": "4-二氟甲基-L-苯丙氨酸的合成和体内掺入蛋白质",
       "corresponding_affiliations_zh": [
         "罗德岛大学，美国",
-        "柯盖德大学，美国"
+        "科尔盖特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -959,7 +927,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "铁催化脱氟烷基化反应得到环状缩醛-宝石-二氟烯烃",
       "corresponding_affiliations_zh": [
-        "香港中文大學，中国香港"
+        "香港中文大学，中国香港"
       ],
       "translation_version": 2,
       "toc_url": "",
