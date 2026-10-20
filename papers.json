@@ -2,6 +2,78 @@
   "updated": "2026-10-20",
   "papers": [
     {
+      "title": "Catalytic Si/B Exchange Condensation Enables Modular Synthesis of Alkynyl-Spaced Conjugated Oligo- and Polyboranes",
+      "authors": [
+        "Philipp Schneider",
+        "Maximilian Fest",
+        "Muhammed Edirneli",
+        "Alexandra Friedrich",
+        "Jonas Klopf",
+        "Manuel Buckel",
+        "Johannes Chorbacher",
+        "Holger Helten"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-19",
+      "doi": "10.1021/jacs.6c15776",
+      "url": "https://doi.org/10.1021/jacs.6c15776",
+      "abstract": "Abstract Cyclolinear oligo- and polyboranes are an emerging class of π-conjugated materials with potential use in organic (opto)-electronic devices and sensors. The range of boron-linked π-building blocks that can be effectively incorporated, however, is quite limited, since even a slight increase in their steric bulk leads to significant deviations from the planar molecular backbone required for effective charge delocalization. This can be mitigated by inserting an alkynyl spacer between the boron atom and one of these groups. However, such alkynylboranes have been scarcely studied to date, which is due to a lack of efficient synthetic methods. Here, we report on a catalytic silicon/boron exchange condensation process as a versatile synthetic route to alkynyl-spaced monoboranes 5, bisboranes 9, and polyboranes 13. This modular approach enables the variation of both the boron- and alkynyl-bound aryl substituent, while introduction of 2,6-bis(trifluoromethyl)phenyl (FXyl) as the third substituent on boron renders the resulting compounds air- and moisture-stable. The obtained conjugated boranes display a high degree of coplanarity of the central BC3 plane(s) with both the boron- and alkynyl-bound aryl or arylene substituents, respectively. This architecture allows effective conjugation over the entire molecular backbone, which is supported by single-crystal X-ray diffraction analysis, photophysical and electrochemical studies, and time-dependent density functional theory (TD-DFT) calculations. The obtained compounds generally exhibit favorable photophysical properties; some of them show very high quantum yields both in solution and as thin films in a polymer matrix, as well as solid-state emission.",
+      "tags": [
+        "Electrochemistry",
+        "Boron Chemistry"
+      ],
+      "relevance": 61,
+      "corresponding_authors": [
+        "Holger Helten"
+      ],
+      "corresponding_affiliations": [
+        "University of Würzburg, Germany",
+        "Bavarian Polymer Institute, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "催化 Si/B 交换缩合能够模块化合成炔基间隔共轭低聚硼烷和聚硼烷",
+      "corresponding_affiliations_zh": [
+        "维尔茨堡大学，德国",
+        "巴伐利亚聚合物研究所，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Lewis Acid‐Catalyzed Strain‐Enabled (3+3) Annulation of Bicyclo[1.1.0]Butanes With Indolylalcohols: Synthesis of Indole‐Fused Aza‐Bicyclo[3.1.1]Heptanes",
+      "authors": [
+        "Mainak Dey",
+        "Tuhin Subhra Das Mahapatra",
+        "Pragya Sharma",
+        "Manoj V. Mane",
+        "Chinmoy Kumar Hazra"
+      ],
+      "journal": "Advanced Science",
+      "date": "2026-10-18",
+      "doi": "10.1002/advs.78354",
+      "url": "https://doi.org/10.1002/advs.78354",
+      "abstract": "ABSTRACT Strain release has long inspired the discovery of unique reactivity, enabling diverse synthetically valuable transformations. Bicyclo[1.1.0]butanes (BCBs), due to their high ring strain, have emerged as versatile building blocks for constructing complex bicyclic architectures. Herein, we report a Lewis acid‐catalyzed formal (3 + 3) annulation of BCBs with indolyl alcohols, providing rapid access to indole‐fused aza‐bicyclo[3.1.1]heptanes. The reaction proceeds under mild conditions, tolerates a broad range of functional groups, and delivers rigid, sp 3 ‐rich scaffolds efficiently. Mechanistic studies, including control experiments and computational analysis, indicate a stepwise pathway in which Lewis acid activation of indolyl alcohols generates reactive intermediates, while strain‐release of BCBs drives C–C bond formation, followed by C–N bond formation via ring expansion to furnish the fused Aza‐bicyclic products.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Chinmoy Kumar Hazra"
+      ],
+      "corresponding_affiliations": [
+        "Indian Institute of Technology Delhi, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "路易斯酸催化应变使双环[1.1.0]丁烷与吲哚醇的(3+3)环化：吲哚稠合氮杂双环[3.1.1]庚烷的合成",
+      "corresponding_affiliations_zh": [
+        "理工学院德里分校，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Green Chemistry Strategies for the Synthesis of Fluorinated Bioactive Molecules: Recent Advances and Future Directions",
       "authors": [],
       "journal": "International Journal of Drug Delivery Technology",
@@ -70,7 +142,7 @@
       "date": "2026-10-16",
       "doi": "10.64898/2026.10.13.758590",
       "url": "https://doi.org/10.64898/2026.10.13.758590",
-      "abstract": "De novo enzyme design provides a route to create biocatalysts for target reactions, yet achieving high activity and selectivity directly from computation remains challenging. How best to design catalytic sites remains an open question, and enzyme design-metalloenzyme design for new-to-nature transformations in particular-is still limited in success rate, in substrate scope, and in the range of reactions accessible. Here we present a pipeline that produces efficient metalloenzymes directly from computation. It uses Metal Mer, a structural unit mapping backbone geometry to statistically preferred metal coordination modes, to build metal-binding sites with high confidence, and then constructs the catalytic core around the reaction product with geometric restrictions. Using the pipeline, we designed zinc-dependent hydride-transfer enzymes, obtaining a highly selective variant that exhibits enantiomeric excess (ee) >99% on 13 substrates without directed evolution. For steroid substrates bearing multiple carbonyl groups, redesigned variants achieved high regio- and diastereo- selectivity greater than 19:1. Applying this framework to iron-catalyzed alkene difunctionalization, designed variants were active out of the box (10% yield, 70:30 enantiomeric ratio (e.r.)), exceeding a previously reported natural functional analogs (<5% yield, <60:40 e.r.); a single active-site residue mutation further raised selectivity to 96:4 e.r. for several substrates, on par with extensively evolved natural enzymes. The crystal structure of an active design matches the computational model with a backbone RMSD of 0.4 Angstrom, supporting the accuracy of the approach. These results establish our design framework as a general strategy for the de novo design of metalloenzyme series with diverse coordination geometries and coordinating residues, enabling efficient and selective catalysis of challenging chemical transformations.",
+      "abstract": "Abstract De novo enzyme design provides a route to create biocatalysts for target reactions, yet achieving high activity and selectivity directly from computation remains challenging. How best to design catalytic sites remains an open question, and enzyme design—metalloenzyme design for new-to-nature transformations in particular—is still limited in success rate, in substrate scope, and in the range of reactions accessible. Here we present a pipeline that produces efficient metalloenzymes directly from computation. It uses Metal Mer, a structural unit mapping backbone geometry to statistically preferred metal coordination modes, to build metal-binding sites with high confidence, and then constructs the catalytic core around the reaction product with geometric restrictions. Using the pipeline, we designed zinc-dependent hydride-transfer enzymes, obtaining a highly selective variant that exhibits enantiomeric excess (ee) >99% on 13 substrates without directed evolution. For steroid substrates bearing multiple carbonyl groups, redesigned variants achieved high regio- and diastereo-selectivity greater than 19:1. Applying this framework to iron-catalyzed alkene difunctionalization, designed variants were active out of the box (10% yield, 70:30 enantiomeric ratio (e.r.)), exceeding a previously reported natural functional analogs (<5% yield, <60:40 e.r.); a single active-site residue mutation further raised selectivity to 96:4 e.r. for several substrates, on par with extensively evolved natural enzymes. The crystal structure of an active design matches the computational model with a backbone RMSD of 0.4 Å, supporting the accuracy of the approach. These results establish our design framework as a general strategy for the de novo design of metalloenzyme series with diverse coordination geometries and coordinating residues, enabling efficient and selective catalysis of challenging chemical transformations. One Sentence Summary We present a protein structure unit Metal Mer that enables the de novo creation of highly selective metalloenzymes for new-to-nature reactions with no directed evolution.",
       "tags": [
         "Fe Catalysis"
       ],
@@ -79,12 +151,14 @@
         "Lei Lu"
       ],
       "corresponding_affiliations": [
-        "King Center, United States"
+        "Center for Life Sciences, China",
+        "Tsinghua University, China"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "使用Metal Mer从头设计金属酶",
       "corresponding_affiliations_zh": [
-        "国王中心，美国"
+        "生命科学中心，中国",
+        "清华大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -152,6 +226,35 @@
       "title_zh": "在电化学C–O和C–N键形成反应中作为烷基供体的硫醚",
       "corresponding_affiliations_zh": [
         "拉奎拉大学，意大利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrochemical Methods for Removal of Nitrate and Heavy Metals from Wastewater",
+      "authors": [
+        "Md. Nuruddin"
+      ],
+      "journal": "Australian Journal of Engineering and Innovative Technology",
+      "date": "2026-10-16",
+      "doi": "10.34104/ajeit.026.03660383",
+      "url": "https://doi.org/10.34104/ajeit.026.03660383",
+      "abstract": "The contamination of water bodies with nitrate and heavy metals has become a severe threat to the safety of public health and the environment. Traditional treatment technologies, including ion exchange, reverse osmosis (RO), precipitation processes, or the like, are effective in treating these wastes but encounter high costs, chemical usage, and creation of secondary wastes. The present work deals with the electrochemical process as an environmentally friendly approach to remove nitrate and heavy metals simultaneously from the benchmark stream. These were investigated in an electrochemical reactor with various electrode plans (stainless steel, copper, Pd–Cu, and Fe–N–C composites) applied on a lab scale. Synthetic wastewater and actual effluent were examined at different conditions (pH, current density, and treatment time). The nitrate removal efficiencies were 90–95% with Pd–Cu and Fe–N–C electrodes accompanied by increased N₂ selectivity, and the stainless steel and copper electrodes led to incomplete reduction, producing either NO₂⁻ or ammonium. Meanwhile, heavy metals (Pb²⁺, Cd²⁺, Cr⁶⁺) were treated effectively over 90% by electrocoagulation and electrodeposition with a smaller volume of sludge as compared to the chemical precipitation. Energy consumption was minimized at 20–25 mA/cm², resulting in 1.2–1.6 kWh/m³, which corresponded to a treatment cost of ∼0.13 USD/m³ and was competitive with ordinary technologies. Comparison showed that electrochemical processes had better performance, generated less waste, and had the possibility of resource recovery than others, which were more promising, but challenges including scaling up, electrode fouling, and sludge disposal still exist. Altogether, electrochemical remediation is a promising green and affordable approach for the removal of industrial wastewater. Keywords",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Md. Nuruddin"
+      ],
+      "corresponding_affiliations": [
+        "Baluchara Ibrahim Mia High School, National University, Begumganj, Noakhali, Bangladesh"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "电化学方法去除废水中的硝酸盐和重金属",
+      "corresponding_affiliations_zh": [
+        "孟加拉国诺阿卡利Begumganj国立大学Baluchara Ibrahim Mia高中"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -684,40 +787,6 @@
       "toc_kind": ""
     },
     {
-      "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
-      "authors": [
-        "Anupam Das",
-        "Nagarajan Ramkumar",
-        "Artis Kinēns",
-        "Sergey Belyakov",
-        "Andris Antuzevičš",
-        "Janis Veliks"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-07",
-      "doi": "10.26434/chemrxiv.15009392/v2",
-      "url": "https://doi.org/10.26434/chemrxiv.15009392/v2",
-      "abstract": "While conventional radical fluoroalkylation typically requires exogenous catalysts or photoactivation to overcome significant kinetic barriers, here we report bench-stable μ-oxo-bridged iodine(III) reagents that release fluoro(halo)methyl radicals upon heating without an external catalyst, additive, or light. The resulting radicals initiate cascade cyclizations of methacrylamides and methacrylohydrazides to afford fluorinated oxindoles, pyrazolones, and related heterocycles. Variation of the fluorinated carboxylate ligand within the iodine(III) reagent framework controls the identity of the transferred C1 fragment, thereby providing chlorofluoromethyl, bromofluoromethyl, difluoromethyl, and monofluoromethyl products from a common reagent architecture. The transformation is compatible with structurally diverse and natural-product-derived substrates and proceeds efficiently upon scale-up. By encoding the required bond lability directly into the iodine(III) framework, this strategy establishes a general platform for the catalyst-, additive-, and light-free generation and incorporation of fluorinated C1 radicals into complex molecular frameworks.",
-      "tags": [
-        "Difluoromethylation"
-      ],
-      "relevance": 75,
-      "corresponding_authors": [
-        "Janis Veliks"
-      ],
-      "corresponding_affiliations": [
-        "National Institute of Research and Innovation, LV"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "μ-氧桥碘 (III) 试剂可实现无催化剂且无光的氟（卤）甲基自由基生成",
-      "corresponding_affiliations_zh": [
-        "LV 国家研究与创新研究院"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
       "title": "Photocatalyst‐Free Hydrodifluoromethylation of Alkenes via Thiol‐Mediated Photoactivation of Zn(CF 2 H) 2 (DMPU) 2",
       "authors": [
         "Hyunsu Kim",
@@ -857,6 +926,40 @@
       "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
       "corresponding_affiliations_zh": [
         "赣南师范学院，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
+      "authors": [
+        "Anupam Das",
+        "Nagarajan Ramkumar",
+        "Artis Kinēns",
+        "Sergey Belyakov",
+        "Andris Antuzevičš",
+        "Janis Veliks"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-09-23",
+      "doi": "10.26434/chemrxiv.15009392/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15009392/v1",
+      "abstract": "While conventional radical fluoroalkylation typically requires exogenous catalysts or photoactivation to overcome significant kinetic barriers, here we report bench-stable μ-oxo-bridged iodine(III) reagents that release fluoro(halo)methyl radicals upon heating without an external catalyst, additive, or light. The resulting radicals initiate cascade cyclizations of methacrylamides and methacrylohydrazides to afford fluorinated oxindoles, pyrazolones, and related heterocycles. Variation of the fluorinated carboxylate ligand within the iodine(III) reagent framework controls the identity of the transferred C1 fragment, thereby providing chlorofluoromethyl, bromofluoromethyl, difluoromethyl, and monofluoromethyl products from a common reagent architecture. The transformation is compatible with structurally diverse and natural-product-derived substrates and proceeds efficiently upon scale-up. By encoding the required bond lability directly into the iodine(III) framework, this strategy establishes a general platform for the catalyst-, additive-, and light-free generation and incorporation of fluorinated C1 radicals into complex molecular frameworks.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 75,
+      "corresponding_authors": [
+        "Janis Veliks"
+      ],
+      "corresponding_affiliations": [
+        "National Institute of Research and Innovation, LV"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "μ-氧桥碘 (III) 试剂可实现无催化剂且无光的氟（卤）甲基自由基生成",
+      "corresponding_affiliations_zh": [
+        "LV 国家研究与创新研究院"
       ],
       "translation_version": 2,
       "toc_url": "",
