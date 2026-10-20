@@ -1,4 +1,4 @@
-"""Fetch, filter, score, and normalize recent synthetic-organic literature.
+"""Fetch, filter, score, normalize, and archive recent synthetic-organic literature.
 
 This script is the data-ingestion layer for the Literature Tracker website.
 It performs six main tasks:
@@ -10,7 +10,8 @@ It performs six main tasks:
 4. Require a positive synthetic-organic chemistry signal before admission.
 5. Classify admitted papers into the tracked topics and assign a transparent
    relevance score.
-6. Deduplicate records and save the final dataset to papers.json.
+6. Deduplicate new records against the existing archive and save papers.json
+   without discarding previously collected literature.
 
 The filtering philosophy is intentionally conservative: for this tracker,
 showing fewer papers is preferable to flooding the website with irrelevant
@@ -284,12 +285,61 @@ def normalize_title(title):
 
 
 def main():
-    """Run searches, filter candidates, deduplicate papers, and write JSON."""
+    """Run searches, merge recent results into the archive, and write JSON."""
     from_date = (datetime.now(timezone.utc) - timedelta(days=30)).date().isoformat()
 
+    # Seed the working dataset with the existing archive. Without this step,
+    # each 30-day refresh would replace papers.json and older papers would vanish.
     accepted_by_id = {}
     id_by_title = {}
     id_by_doi = {}
+
+    if OUTPUT.exists():
+        try:
+            previous_payload = json.loads(OUTPUT.read_text(encoding="utf-8"))
+            previous_papers = previous_payload.get("papers", [])
+            if not isinstance(previous_papers, list):
+                raise ValueError("The existing papers.json does not contain a paper list.")
+        except (OSError, json.JSONDecodeError, ValueError) as exc:
+            # Fail safely rather than overwrite an archive that could not be read.
+            raise RuntimeError(f"Cannot safely load the existing archive at {OUTPUT}") from exc
+
+        for previous_paper in previous_papers:
+            if not isinstance(previous_paper, dict):
+                continue
+
+            doi_key = (previous_paper.get("doi") or "").strip().lower()
+            doi_key = doi_key.replace("https://doi.org/", "")
+            title_key = normalize_title(previous_paper.get("title"))
+
+            # Deduplicate the archive itself in case older versions already contain duplicates.
+            existing_id = None
+            if doi_key and doi_key in id_by_doi:
+                existing_id = id_by_doi[doi_key]
+            elif title_key and title_key in id_by_title:
+                existing_id = id_by_title[title_key]
+
+            if existing_id is not None:
+                prior = accepted_by_id[existing_id]
+                merged = {**prior, **previous_paper}
+                merged["relevance"] = max(
+                    prior.get("relevance") or 0,
+                    previous_paper.get("relevance") or 0,
+                )
+                accepted_by_id[existing_id] = merged
+                if doi_key:
+                    id_by_doi[doi_key] = existing_id
+                if title_key:
+                    id_by_title[title_key] = existing_id
+                continue
+
+            record_id = len(accepted_by_id)
+            accepted_by_id[record_id] = previous_paper
+            if doi_key:
+                id_by_doi[doi_key] = record_id
+            if title_key:
+                id_by_title[title_key] = record_id
+
     rejected_count = 0
     candidate_count = 0
 
@@ -329,8 +379,21 @@ def main():
 
                 if existing_id is not None:
                     existing = accepted_by_id[existing_id]
-                    if paper["relevance"] > existing["relevance"]:
-                        accepted_by_id[existing_id] = paper
+
+                    # Refresh bibliographic fields while retaining enrichment
+                    # fields (Chinese title, affiliations, TOC metadata) already
+                    # present in the archived record.
+                    merged = {**existing, **paper}
+                    merged["relevance"] = max(
+                        existing.get("relevance") or 0,
+                        paper.get("relevance") or 0,
+                    )
+                    accepted_by_id[existing_id] = merged
+
+                    if doi_key:
+                        id_by_doi[doi_key] = existing_id
+                    if title_key:
+                        id_by_title[title_key] = existing_id
                     continue
 
                 record_id = len(accepted_by_id)
