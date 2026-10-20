@@ -21,7 +21,7 @@
       <div>
         <p class="eyebrow">CHEMISTRY LITERATURE DASHBOARD</p>
         <h1>Literature Tracker</h1>
-        <p class="subtitle">Track recent papers in electrochemistry, photocatalysis, transition-metal catalysis and synthetic methodology.</p>
+        <p class="subtitle">Browse and track literature in electrochemistry, photocatalysis, transition-metal catalysis and synthetic methodology.</p>
       </div>
 
       <!-- app.js replaces this placeholder with the date from papers.json. -->
@@ -60,12 +60,42 @@
       </select>
     </section>
 
+    <!-- Date controls let visitors browse papers by a specific day or a publication-date range. -->
+    <section class="date-browser" aria-label="Browse by publication date">
+      <div class="date-browser-heading">
+        <div>
+          <h2>Browse by publication date</h2>
+          <p>Select a single day or a date range to explore the available literature archive.</p>
+        </div>
+        <div class="date-presets" role="group" aria-label="Quick date ranges">
+          <button type="button" class="date-preset" data-range="today">Today</button>
+          <button type="button" class="date-preset" data-range="7">Last 7 days</button>
+          <button type="button" class="date-preset" data-range="30">Last 30 days</button>
+          <button type="button" class="date-preset" data-range="year">This year</button>
+          <button type="button" class="date-preset" data-range="all">All dates</button>
+        </div>
+      </div>
+
+      <div class="date-controls">
+        <label class="date-input-wrap" for="startDate">
+          <span>From</span>
+          <input id="startDate" type="date" aria-label="Start publication date" />
+        </label>
+        <label class="date-input-wrap" for="endDate">
+          <span>To</span>
+          <input id="endDate" type="date" aria-label="End publication date" />
+        </label>
+        <p id="dateFilterStatus" class="date-filter-status" role="status" aria-live="polite">Showing all dates available in the archive.</p>
+      </div>
+      <p id="archiveCoverage" class="archive-coverage">Loading archive coverage…</p>
+    </section>
+
     <!-- Topic buttons are generated dynamically from TOPICS in app.js. -->
     <section class="filters" id="filters" aria-label="Topic filters"></section>
 
     <!-- Result count reflects the currently filtered paper list. -->
     <section class="results-head">
-      <h2>Recent papers</h2>
+      <h2 id="resultsTitle">Papers</h2>
       <span id="resultCount">0 papers</span>
     </section>
 
