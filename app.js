@@ -277,7 +277,7 @@ function paperCard(paper) {
 function renderArchiveCoverage() {
   const dates = papers
     .map(paper => paper.date || "")
-    .filter(date => /^\\d{4}-\\d{2}-\\d{2}$/.test(date))
+    .filter(date => /^\d{4}-\d{2}-\d{2}$/.test(date))
     .sort();
   const coverage = el("archiveCoverage");
 
@@ -379,7 +379,7 @@ function render() {
   const result = filteredPapers();
   const archiveDates = papers
     .map(paper => paper.date || "")
-    .filter(date => /^\\d{4}-\\d{2}-\\d{2}$/.test(date))
+    .filter(date => /^\d{4}-\d{2}-\d{2}$/.test(date))
     .sort();
 
   updateResultsHeading(startDate, endDate, invalidRange);
