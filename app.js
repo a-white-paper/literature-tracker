@@ -7,7 +7,8 @@
  * 3. Apply keyword search and sorting in the browser.
  * 4. Show bilingual title / corresponding-author affiliation metadata.
  * 5. Show verified publisher-provided TOC graphics when available.
- * 6. Keep all dynamic page updates in one place.
+ * 6. Browse the accumulated archive by publication date or date range.
+ * 7. Keep all dynamic page updates in one place.
  *
  * The frontend deliberately does not fetch papers from external APIs directly.
  * External literature retrieval and enrichment are handled by the Python
@@ -68,6 +69,7 @@ async function loadPapers() {
   }
 
   renderFilters();
+  renderArchiveCoverage();
   render();
 }
 
@@ -101,9 +103,21 @@ function renderFilters() {
 function filteredPapers() {
   const query = el("searchInput").value.trim().toLowerCase();
   const sort = el("sortSelect").value;
+  const startDate = el("startDate").value;
+  const endDate = el("endDate").value;
+
+  // Reject an invalid range instead of silently returning misleading results.
+  if (startDate && endDate && startDate > endDate) {
+    return [];
+  }
 
   const result = papers.filter(paper => {
     const topicMatch = activeTopic === "All" || (paper.tags || []).includes(activeTopic);
+    const paperDate = paper.date || "";
+    // Publication dates use ISO YYYY-MM-DD strings, so inclusive string comparisons are safe.
+    const dateMatch =
+      (!startDate || (paperDate && paperDate >= startDate)) &&
+      (!endDate || (paperDate && paperDate <= endDate));
 
     const haystack = [
       paper.title,
@@ -117,7 +131,7 @@ function filteredPapers() {
       (paper.tags || []).join(" ")
     ].join(" ").toLowerCase();
 
-    return topicMatch && (!query || haystack.includes(query));
+    return topicMatch && dateMatch && (!query || haystack.includes(query));
   });
 
   if (sort === "relevance-desc") {
@@ -254,6 +268,96 @@ function paperCard(paper) {
 }
 
 /**
+ * Show the date span currently represented in papers.json.
+ *
+ * The website can filter only records that exist in the archive. The daily
+ * data pipeline now preserves previously collected records so this span grows
+ * over time instead of shrinking to the most recent 30 days.
+ */
+function renderArchiveCoverage() {
+  const dates = papers
+    .map(paper => paper.date || "")
+    .filter(date => /^\\d{4}-\\d{2}-\\d{2}$/.test(date))
+    .sort();
+  const coverage = el("archiveCoverage");
+
+  if (!dates.length) {
+    coverage.textContent = "No publication dates are currently available.";
+    return;
+  }
+
+  coverage.textContent =
+    `Available archive: ${dates[0]} to ${dates[dates.length - 1]} (${papers.length} papers). Dates outside this range are not currently stored; daily updates will retain older records as the archive grows.`;
+}
+
+/**
+ * Format a Date as a local YYYY-MM-DD string without UTC timezone shifts.
+ *
+ * @param {Date} date - Date to format.
+ * @returns {string} Local calendar date in ISO format.
+ */
+function localDateString(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+/**
+ * Apply a quick date preset. "All dates" clears both date inputs.
+ *
+ * @param {string} range - One of today, 7, 30, year, or all.
+ */
+function setDatePreset(range) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const todayString = localDateString(today);
+  let startDate = "";
+  let endDate = "";
+
+  if (range === "today") {
+    startDate = todayString;
+    endDate = todayString;
+  } else if (range === "7" || range === "30") {
+    const start = new Date(today);
+    start.setDate(start.getDate() - (range === "7" ? 6 : 29));
+    startDate = localDateString(start);
+    endDate = todayString;
+  } else if (range === "year") {
+    startDate = `${today.getFullYear()}-01-01`;
+    endDate = todayString;
+  }
+
+  el("startDate").value = startDate;
+  el("endDate").value = endDate;
+
+  document.querySelectorAll(".date-preset").forEach(button => {
+    button.classList.toggle("active", button.dataset.range === range);
+  });
+
+  render();
+}
+
+/**
+ * Update the heading so the selected publication-date scope is clear.
+ */
+function updateResultsHeading(startDate, endDate, invalidRange) {
+  const heading = el("resultsTitle");
+
+  if (invalidRange || (!startDate && !endDate)) {
+    heading.textContent = "Papers";
+  } else if (startDate && endDate) {
+    heading.textContent = startDate === endDate
+      ? `Papers published on ${startDate}`
+      : `Papers published ${startDate} – ${endDate}`;
+  } else if (startDate) {
+    heading.textContent = `Papers published from ${startDate}`;
+  } else {
+    heading.textContent = `Papers published through ${endDate}`;
+  }
+}
+
+/**
  * Update summary counters shown above the search controls.
  */
 function renderStats() {
@@ -269,16 +373,65 @@ function renderStats() {
  * Render the current filtered paper list and associated summary UI.
  */
 function render() {
+  const startDate = el("startDate").value;
+  const endDate = el("endDate").value;
+  const invalidRange = Boolean(startDate && endDate && startDate > endDate);
   const result = filteredPapers();
+  const archiveDates = papers
+    .map(paper => paper.date || "")
+    .filter(date => /^\\d{4}-\\d{2}-\\d{2}$/.test(date))
+    .sort();
 
+  updateResultsHeading(startDate, endDate, invalidRange);
   el("resultCount").textContent = `${result.length} paper${result.length === 1 ? "" : "s"}`;
   el("paperGrid").innerHTML = result.map(paperCard).join("");
   el("emptyState").hidden = result.length > 0;
+
+  if (invalidRange) {
+    el("dateFilterStatus").textContent = "Start date must be on or before end date.";
+    el("emptyState").textContent = "Please choose a valid date range.";
+  } else {
+    if (startDate && endDate) {
+      el("dateFilterStatus").textContent = startDate === endDate
+        ? `Date filter: ${startDate}.`
+        : `Date filter: ${startDate} through ${endDate}.`;
+    } else if (startDate) {
+      el("dateFilterStatus").textContent = `Date filter: from ${startDate} onward.`;
+    } else if (endDate) {
+      el("dateFilterStatus").textContent = `Date filter: through ${endDate}.`;
+    } else {
+      el("dateFilterStatus").textContent = "Showing all dates available in the archive.";
+    }
+
+    let emptyMessage = "No matching papers found for the current filters.";
+    const outsideArchive = archiveDates.length > 0 && (
+      (startDate && startDate > archiveDates[archiveDates.length - 1]) ||
+      (endDate && endDate < archiveDates[0])
+    );
+
+    if (result.length === 0 && (startDate || endDate) && outsideArchive) {
+      emptyMessage =
+        `No papers match this selection. The current archive spans ${archiveDates[0]} to ${archiveDates[archiveDates.length - 1]}; dates outside this range are not currently stored.`;
+    }
+    el("emptyState").textContent = emptyMessage;
+  }
 
   renderStats();
 }
 
 el("searchInput").addEventListener("input", render);
 el("sortSelect").addEventListener("change", render);
+
+// Date inputs filter immediately; quick presets update both inputs together.
+["startDate", "endDate"].forEach(id => {
+  el(id).addEventListener("change", () => {
+    document.querySelectorAll(".date-preset").forEach(button => button.classList.remove("active"));
+    render();
+  });
+});
+
+document.querySelectorAll(".date-preset").forEach(button => {
+  button.addEventListener("click", () => setDatePreset(button.dataset.range));
+});
 
 loadPapers();
