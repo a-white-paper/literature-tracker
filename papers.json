@@ -1,6 +1,108 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "papers": [
+    {
+      "title": "Microbial CO2 bioconversion: integrating carbon fixation pathways and sustainable biomanufacturing",
+      "authors": [
+        "Elison de Souza Sevalho",
+        "Desireé Soares da Silva",
+        "Kamila de Sousa Gomes",
+        "Leandro da Conceição",
+        "Layssa Aline Okamura",
+        "Jessica Carolina Medina-Gallardo"
+      ],
+      "journal": "Frontiers in Microbiology",
+      "date": "2026-10-21",
+      "doi": "10.3389/fmicb.2026.1961758",
+      "url": "https://doi.org/10.3389/fmicb.2026.1961758",
+      "abstract": "The continued rise in atmospheric carbon dioxide (CO 2 ) concentrations has intensified the need for sustainable technologies capable of mitigating greenhouse gas emissions while generating value-added products. In this context, microbial CO 2 bioconversion has emerged as a promising biological strategy within broader carbon capture, utilization, and storage (CCUS) frameworks, particularly through biological carbon capture and utilization (bio-CCU). These approaches enable the conversion of inorganic carbon into fuels, chemicals, biomaterials, proteins, and other value-added products. This review provides a comprehensive assessment of recent advances in microbial CO 2 bioconversion by bridging biological, technological, and industrial perspectives. Unlike previous reviews focusing on individual topics, such as carbon fixation pathways, gas fermentation, or metabolic engineering, this work presents an integrated framework connecting natural and synthetic carbon fixation pathways, microbial production platforms, metabolic engineering strategies, product diversification, and techno-economic considerations. To support this analysis, we conducted a systematic bibliometric assessment of 913 publications indexed in the Web of Science Core Collection, revealing sustained growth in scientific output, increasing interdisciplinarity, structured collaboration networks, and strong thematic interconnections across microbial ecology, carbon fixation, metabolism, and carbon utilization. Recent advances in synthetic biology, systems-level metabolic engineering, microbial electrosynthesis, bioelectrochemical systems, synthetic microbial consortia, and artificial intelligence-assisted strain engineering are discussed as important drivers of microbial carbon utilization. The review also critically examines major barriers to industrial implementation, including CO 2 mass transfer, carbon fixation efficiency, energy constraints, process scale-up, downstream processing, and economic feasibility. By integrating systematic bibliometric evidence with a critical assessment of microbial CO 2 biomanufacturing, this review identifies the convergence of microbial physiology, metabolic engineering, bioprocess development, renewable energy, and data-driven approaches as central to advancing biological CO 2 conversion toward scalable, sustainable biomanufacturing.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Jessica Carolina Medina-Gallardo"
+      ],
+      "corresponding_affiliations": [
+        "Serviço Nacional de Aprendizagem Comercial, Brazil"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "微生物二氧化碳生物转化：整合碳固定途径和可持续生物制造",
+      "corresponding_affiliations_zh": [
+        "国家预售商业服务公司，巴西"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "An open-source electrosynthesis platform for reaction screening enables a nickel-catalyzed electroreductive aryl cyanation",
+      "authors": [
+        "B Chiu",
+        "Alexei Kieran",
+        "Sophie A. L. Rousseaux"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-21",
+      "doi": "10.26434/chemrxiv.15010748/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010748/v1",
+      "abstract": "The application of electrochemistry to synthetic organic chemistry has resulted in the development of more efficient and sustainable synthesis methodologies. However, the costs and technical burdens of electrochemical instrumentation impose barriers towards the wider adoption of electrochemistry. Herein, we report a modular, open-source platform for electrosynthesis screening built around a low-cost miniaturized potentiostat. The platform supports electrosynthesis and electroanalytic methods, and its open design readily allows for customization. We demonstrate this utility of the platform by the development of a zinc-free, nickel-catalyzed reductive cyanation of aryl bromides with an electrophilic cyanating agent (2-methyl-2-phenylmalononitrile, MPMN). Replacing stoichiometric zinc reductant with a sacrificial tertiary amine allows the cyanation of aryl bromides incompatible with the original zinc-based conditions. In addition, acetonitrile can be used in place of typical hazardous amide solvents. This work provides a blueprint for non-expert practitioners to integrate electrochemistry as an accessible and affordable technique in their research programs.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Sophie A. L. Rousseaux"
+      ],
+      "corresponding_affiliations": [
+        "University of Toronto, Canada"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "用于反应筛选的开源电合成平台实现镍催化电还原芳基氰化",
+      "corresponding_affiliations_zh": [
+        "多伦多大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photoinduced Charge-Transfer Complex-Mediated Decarboxylative Phosphoniumation",
+      "authors": [
+        "Hailong He",
+        "Jiajin Chen",
+        "Hongyao Wang",
+        "Wenlong He",
+        "Tao Zhou",
+        "Zihao Chen",
+        "Zhiyan Xue",
+        "Qilong Wu"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-10-20",
+      "doi": "10.1021/acs.orglett.6c04068",
+      "url": "https://doi.org/10.1021/acs.orglett.6c04068",
+      "abstract": "Abstract Phosphonium salts are valuable intermediates in organic synthesis, but their preparation often requires harsh conditions and specific carbon precursors. Herein, we report a photoinduced decarboxylative phosphoniumation of redox-active esters (RAEs) for the direct synthesis of alkyl and benzyl phosphonium salts. A photoresponsive ternary charge-transfer complex (CTC) formed from NaI, tertiary phosphines, and RAEs enables the reaction under transition-metal- and external-photocatalyst-free conditions. The method tolerates diverse benzyl and aliphatic RAEs and tertiary phosphines, including commercial phosphine ligand frameworks, and enables the late-stage phosphoniumation of complex carboxylic-acid-derived substrates.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 80,
+      "corresponding_authors": [
+        "Yunhe Jin"
+      ],
+      "corresponding_affiliations": [
+        "Dalian University of Technology, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "光诱导电荷转移复合物介导的脱羧磷鏻化",
+      "corresponding_affiliations_zh": [
+        "大连理工大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Catalytic Si/B Exchange Condensation Enables Modular Synthesis of Alkynyl-Spaced Conjugated Oligo- and Polyboranes",
       "authors": [
@@ -41,9 +143,34 @@
       "toc_kind": ""
     },
     {
+      "title": "Ionic Liquids: Synthetic Methodology and ApplicationsA Chronological and Sustainability-Focused Review (2019-2026)",
+      "authors": [
+        "Annual Methodological Archive Research Review (AMARR)"
+      ],
+      "journal": "Annual Methodological Archive Research Review",
+      "date": "2026-10-19",
+      "doi": "10.5281/zenodo.23480135",
+      "url": "https://doi.org/10.5281/zenodo.23480135",
+      "abstract": "Ionic liquids (ILs) - salts that melt below 100 degC - have been recognised as highly versatile and customisable materials, exhibiting negligible vapour pressure, broad electrochemical windows, and outstanding solvation characteristics. This review consolidates advancements in synthetic methodology and diverse applications reported between 2019 and 2026, organising the synthetic literature chronologically to make the pace and direction of the field explicit, and emphasising the transition toward fourth-generation bio-based, biodegradable, and multifunctional ionic liquids sourced from renewable precursors. Traditional synthesis methods - quaternization, neutralisation, and metathesis - continue to serve as essential techniques, while green methodologies including microwave- and ultrasound-assisted processes, mechanochemical (ball-milling) techniques, one-pot reactions, and bio-derived approaches offer efficient, high-yield, halide-free alternatives. Task-specific functionalisation enables precise applications across catalysis (heterocycle synthesis, biomass valorisation), energy storage (high-voltage battery and supercapacitor electrolytes, CO2 electroreduction), environmental separations (CO2 capture exceeding 1 mol/mol, metal and rare-earth-element extraction), biomedicine (drug solubilisation, transdermal delivery, antimicrobial agents), and industrial processes (alkylation, lubricants, cellulose fibres). Persistent challenges - high production cost, viscosity-limited mass transfer, variable toxicity, and regulatory hurdles - are weighed against a projected market growth to USD 110-136 million by 2032-2034 (CAGR 8-13.5%). Future progress is expected to depend on AI-driven molecular design, hybrid solvent systems, and circular-economy principles to realise the potential of ILs in sustainable, low-carbon technologies.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Annual Methodological Archive Research Review (AMARR)"
+      ],
+      "corresponding_affiliations": [],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "离子液体：合成方法和应用按时间顺序和可持续性为重点的回顾（2019-2026）",
+      "corresponding_affiliations_zh": [],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Regioselective Diversification of Aminopyrazoles via Ir‐Catalyzed C─H Borylation",
       "authors": [
-        "Jay S. Wright",
+        "Jay Samuel Wright",
         "Felipe M. Nogueira",
         "Andrew C. Hones",
         "Mingyan Ding",
@@ -62,7 +189,7 @@
       ],
       "relevance": 54,
       "corresponding_authors": [
-        "Jay S. Wright",
+        "Jay Samuel Wright",
         "Patrick G. Steel"
       ],
       "corresponding_affiliations": [
@@ -144,6 +271,40 @@
       "title_zh": "具有基因编程敏化剂的选择性光酶的整体设计",
       "corresponding_affiliations_zh": [
         "华盛顿大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Triple Atom Transfer-Enabled α-C(sp3)-H Aminomethylation of Aliphatic Amines: General and Modular Access to Vicinal Diamines",
+      "authors": [
+        "Yu Chen",
+        "Caiyun He",
+        "Huanyu Xiao",
+        "Zhaoyang Xu",
+        "Weiran Yang",
+        "Tao Yang"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-19",
+      "doi": "10.26434/chemrxiv.15010434/v2",
+      "url": "https://doi.org/10.26434/chemrxiv.15010434/v2",
+      "abstract": "Vicinal diamines are prevalent structural elements in organic molecules. In particular, those featuring a tertiary alkylamine motif are commonly found in biologically active molecules and therapeutic agents. However, methods for the efficient construction of these architectures from inexpensive and readily available feedstocks remain scarce. Here, we report a mild photocatalytic protocol for the modular synthesis of vicinal alkyl diamines via triple atom transfer-enabled α-C(sp3)–H aminomethylation. This transformation integrates halogen-atom transfer (XAT) and intramolecular 1,5-hydrogen-atom transfer (HAT) processes to furnish key α-amido alkyl radicals, which subsequently add to in situ-generated iminium ions. Critical to the success of the reaction is the cooperative action of a nickel complex and a zinc salt, which jointly promote the aminomethylation process. Utility of this method is demonstrated through late-stage modification of complex amine molecules, scale-up experiments, and ready access to scaffold-diverse free vicinal diamines. In addition, compatibility with aromatic aldehydes and the ability to functionalize alternative C–H sites further expand the chemical space of diamine architectures, highlighting the robustness and synthetic versatility of this protocol.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Tao Yang"
+      ],
+      "corresponding_affiliations": [
+        "Nanchang University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "脂肪族胺的α-C (sp3) -H氨基甲基化：对邻位二胺的一般和模块化访问",
+      "corresponding_affiliations_zh": [
+        "南昌大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -751,40 +912,6 @@
       "title_zh": "有机电还原变换",
       "corresponding_affiliations_zh": [
         "南开大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Triple Atom Transfer-Enabled α-C(sp3)-H Aminomethylation of Aliphatic Amines: General and Modular Access to Vicinal Diamines",
-      "authors": [
-        "Yu Chen",
-        "Caiyun He",
-        "Huanyu Xiao",
-        "Zhaoyang Xu",
-        "Weiran Yang",
-        "Tao Yang"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-10-13",
-      "doi": "10.26434/chemrxiv.15010434/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15010434/v1",
-      "abstract": "Vicinal diamines are prevalent structural elements in organic molecules. In particular, those featuring a tertiary alkylamine motif are commonly found in biologically active molecules and therapeutic agents. However, methods for the efficient construction of these architectures from inexpensive and readily available feedstocks remain scarce. Here, we report a mild photocatalytic protocol for the modular synthesis of vicinal alkyl diamines via triple atom transfer-enabled α-C(sp3)–H aminomethylation. This transformation integrates halogen-atom transfer (XAT) and intramolecular 1,5-hydrogen-atom transfer (HAT) processes to furnish key α-amido alkyl radicals, which subsequently add to in situ-generated iminium ions. Critical to the success of the reaction is the cooperative action of a nickel complex and a zinc salt, which jointly promote the aminomethylation process. Utility of this method is demonstrated through late-stage modification of complex amine molecules, scale-up experiments, and ready access to scaffold-diverse free vicinal diamines. In addition, compatibility with aromatic aldehydes and the ability to functionalize alternative C–H sites further expand the chemical space of diamine architectures, highlighting the robustness and synthetic versatility of this protocol.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 48,
-      "corresponding_authors": [
-        "Tao Yang"
-      ],
-      "corresponding_affiliations": [
-        "Nanchang University, China"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "脂肪族胺的α-C (sp3) -H氨基甲基化：对邻位二胺的一般和模块化访问",
-      "corresponding_affiliations_zh": [
-        "南昌大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
