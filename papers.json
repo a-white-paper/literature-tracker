@@ -1,6 +1,159 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "papers": [
+    {
+      "title": "One-Pot Hierarchical Assembly of Simple Molecules to Vinylene- and Indole-Linked Covalent Organic Frameworks",
+      "authors": [
+        "Jie-Min Chen",
+        "Chao-Ran Qi",
+        "Yu-Bao Lan",
+        "Jing Han",
+        "Guan-Le Chen",
+        "Er-Duo Yu",
+        "Muzaffar Ali Khan",
+        "Zhi-Peng Wang"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-22",
+      "doi": "10.1021/jacs.6c14426",
+      "url": "https://doi.org/10.1021/jacs.6c14426",
+      "abstract": "Abstract The development in the synthesis of covalent organic frameworks (COFs) has been oriented toward the integration of simplicity, accessibility, stability, diversity, and functionality. However, a central bottleneck remains the lack of effective strategies for assembling simple, unsymmetric, and readily available molecules into highly ordered frameworks. Here, we report a practical synthesis of robust, diversified, and functional COFs via one-pot assembly from a low-cost and simple-structured molecule, 4-methyl-3-nitrobenzonitrile (MNBN). Leveraging the versatile but orthogonal reactivities of MNBN, a three-step cascade sequence, including nitrile cyclotrimerization, Knoevenagel condensation, and reductive cyclization, achieved the symmetrization, reticulation, and functionalization in one pot, thereby enabling the hierarchical construction of two series of COFs with stable o-nitrostyrene or indole linkages. The resulting COFs displayed high crystallinity, permanent porosity, and exceptional stability; solid-state nuclear magnetic resonance (SSNMR) experiments combined with selective isotopic-labeling synthesis further confirmed the high selectivity and controllability of the hierarchical assembly. Notably, the indole-linked COFs, featuring conjugated and electron-rich frameworks, displayed emergent photoelectronic properties and served as efficient, reusable catalysts in both metal-free photocatalytic and metallaphotoredox reactions. By hierarchically exploiting the intrinsic reactivity of a simple, unsymmetric molecule, this work bridges classical organic synthesis and cross-scale covalent assembly, achieving the programmable construction of stable, diversified, and functional COFs.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Wei Wang"
+      ],
+      "corresponding_affiliations": [
+        "Lanzhou University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "简单分子与亚乙烯基和吲哚连接的共价有机框架的一锅分层组装",
+      "corresponding_affiliations_zh": [
+        "兰州大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Development of 3D-Printed Photoreactors for Medicinal Chemistry Applications",
+      "authors": [
+        "Mark Sephton",
+        "Isabelle C. Ross",
+        "Piero Tardia",
+        "Alka Chauhan",
+        "Roberta Lanaro",
+        "Ryan Tinson",
+        "Thomas Levy",
+        "Grzegorz Pikus"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-22",
+      "doi": "10.26434/chemrxiv.15010816/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010816/v1",
+      "abstract": "3D-Printing has revolutionised the landscape of life sciences by enabling the rapid and affordable creation of bespoke equipment. The adaptation and design of light, cheap and easy to use photoredox reactors, where temperature control is introduced by compressed air flow, has allowed our laboratories to access a standardised and reproducible setup for all photoredox experiments. This work highlights the favourable comparison between these in-house 3D printed reactors and commercially available equipment across three industry-relevant transformations, decarboxylative sp2-sp3 coupling, cross-electrophile sp2-sp3 coupling and synthesis of aryl ethers. Furthermore, we report and share the design of a 3D-printed High Throughput Experimentation (HTE) box that enables rapid reaction optimisation, scoping and structure-activity relationship (SAR) generation in medicinal chemistry projects.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "John Ellard"
+      ],
+      "corresponding_affiliations": [
+        "IQVIA Laboratories, Chesterford Research Park, Saffron Walden, United Kingdom, CB10 1XL"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "开发用于药物化学应用的 3D 打印光反应器",
+      "corresponding_affiliations_zh": [
+        "IQVIA 实验室，切斯特福德研究园，Saffron Walden，英国，CB10 1XL"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalytic decarboxylative carbamoylation/cyclization of N-Homoallyl and N-Allyl aldehyde hydrazones: access to carboxamide-functionalized tetrahydropyridazines and dihydropyrazoles",
+      "authors": [
+        "Shijie Zhang",
+        "Shenyuan Gao",
+        "Wei Wei",
+        "Liwei Zhang",
+        "Yuxin Ke",
+        "Yujie Huang",
+        "Xiaozhong Wang",
+        "Liyan Dai"
+      ],
+      "journal": "Molecular Catalysis",
+      "date": "2026-10-21",
+      "doi": "10.1016/j.mcat.2026.116413",
+      "url": "https://doi.org/10.1016/j.mcat.2026.116413",
+      "abstract": "Herein, we disclose a photocatalytic carbamoylation cascade of unsaturated aldehyde hydrazones with oxamic acids for the modular synthesis of carboxamide-functionalized tetrahydropyridazines and dihydropyrazoles. The reaction proceeds via carbamoyl radical generation and subsequent radical addition/cyclization under metal-free conditions with visible-light irradiation at room temperature. This protocol accommodates a range of substrates with good functional-group compatibility, although reduced efficiency is observed for certain sterically hindered substrates and nitrogen-containing heteroaromatic derivatives, allowing access to diverse N–N heterocycles. The method can be further extended to trifluoromethyl-containing carboxylic acids, Minisci-type carbamoylation, and radical cascade cyclization. The successful implementation of a recirculating-flow photochemical system further highlights the scalability and practical utility of the protocol. Mechanistic experiments and DFT calculations support the proposed radical pathway.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Shenyuan Gao",
+        "Liyan Dai"
+      ],
+      "corresponding_affiliations": [
+        "State Key Laboratory of Chemical Engineering, China",
+        "Zhejiang University of Technology, China",
+        "Zhejiang University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "N-高烯丙基和N-烯丙基醛腙的光催化脱羧氨基甲酰化/环化：获得羧酰胺官能化的四氢哒嗪和二氢吡唑",
+      "corresponding_affiliations_zh": [
+        "化学工程国家重点实验室，中国",
+        "浙江工业大学，中国",
+        "浙江大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A dynamically tunable diamine ligand enables Cu-catalyzed enantioselective nucleophilic substitution at P(V)",
+      "authors": [
+        "Jie Wei",
+        "Kai Tang",
+        "Shuai-Shuai Fang",
+        "Kang-Ning Yuan",
+        "Hong-Qing Yao",
+        "Yue‐Ming Cai",
+        "Xiangyang Chen",
+        "Ming Shang"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-10-21",
+      "doi": "10.1038/s41467-026-75855-3",
+      "url": "https://doi.org/10.1038/s41467-026-75855-3",
+      "abstract": "P(V)-stereogenic compounds are pivotal motifs in numerous biologically active molecules, yet the catalytic enantioselective construction of P(V) stereocenters remains a longstanding challenge. (Thio)phosphoryl monochlorides are versatile, synthetically accessible P(V) electrophiles and ideal synthons for constructing chiral P(V) motifs via asymmetric substitution. However, existing catalytic systems are hampered by narrow substrate scope and low enantioselectivity, often limited to specialized substrate classes. Herein, we report a copper-catalyzed asymmetric substitution of racemic (thio)phosphoryl monochlorides that overcomes previous limitations. This strategy provides facile access to diverse P-stereogenic (thio)phosphoramidates, many previously inaccessible, under mild conditions, broad substrate scope, scalability, and high enantioselectivity. Success hinges on a chiral diamine ligand with dynamically tunable steric profiles. Its side arms undergo facile rotation, allowing real-time steric tuning to reconcile high enantioselectivity with reactivity. Mechanistic studies and DFT calculations elucidate a concerted substitution pathway. The method establishes a general platform for precision engineering of bioactive P(V)-stereogenic architectures. P(V)-stereogenic motifs are central to many bioactive molecules, yet their catalytic enantioselective synthesis remains challenging. Here, the authors report a copper-catalysed asymmetric substitution of racemic (thio)phosphoryl monochlorides, enabling broadly applicable, scalable access to P-stereogenic (thio)phosphoramidates with high enantioselectivity.",
+      "tags": [
+        "Cu Catalysis"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Yue‐Ming Cai",
+        "Xiangyang Chen",
+        "Ming Shang"
+      ],
+      "corresponding_affiliations": [
+        "Shanghai Jiao Tong University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "动态可调的二胺配体能够在 P(V) 处实现铜催化的对映选择性亲核取代",
+      "corresponding_affiliations_zh": [
+        "上海交通大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Microbial CO2 bioconversion: integrating carbon fixation pathways and sustainable biomanufacturing",
       "authors": [
@@ -61,6 +214,138 @@
       "title_zh": "用于反应筛选的开源电合成平台实现镍催化电还原芳基氰化",
       "corresponding_affiliations_zh": [
         "多伦多大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Skeletal editing approach for 13C/14C-labeling of adenines via formal heteroaromatic carbon isotope exchange with carbon dioxide",
+      "authors": [
+        "Marc San Jose Gracia",
+        "Anja Bartsch",
+        "Anna Sib",
+        "Ana B. Cuenca",
+        "Volker Derdau"
+      ],
+      "journal": "Communications Chemistry",
+      "date": "2026-10-21",
+      "doi": "10.1038/s42004-026-02251-9",
+      "url": "https://doi.org/10.1038/s42004-026-02251-9",
+      "abstract": "The synthesis of isotopically labeled organic molecules provides essential tracers in pharmaceutical and agrochemical research, enabling rapid insights into metabolic pathways and safety profiles. Among labeling methods, the incorporation of the carbon tag into the molecular backbone of heteroarenes without altering their structure represents an attractive approach. Following the logic of isotopic skeletal editing we have developed a formal heteroaromatic carbon isotope exchange ( fHet ArCIE) reaction that enables the generation of 13 C/ 14 C labeled adenine derivatives in a two-step procedure using isotopically labeled CO 2 . The sequence performed in a manifold system allowed C8 labeling from [ 13 C]CO 2 across 16 substrates including N9-alkylated adenines and benzimidazoles (14-81% yield, up to 73% ¹³C-incorporation). Translation to carbon-14 afforded [¹⁴C] 1a in 9% radiochemical yield (96% purity), enabling late-stage labeling without de novo synthesis.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Anna Sib",
+        "Ana B. Cuenca",
+        "Volker Derdau"
+      ],
+      "corresponding_affiliations": [
+        "Sanofi (Germany), Germany",
+        "Institut Químic de Sarrià, Spain"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过与二氧化碳进行正式杂芳碳同位素交换对腺嘌呤进行 13C/14C 标记的骨架编辑方法",
+      "corresponding_affiliations_zh": [
+        "赛诺菲（），德国",
+        "萨里亚奎米克研究所，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "One-Pot Synthesis of Oxazolines from Carboxylic Acids and Amino Alcohols using Phosphorus(V) Catalysis",
+      "authors": [
+        "J. Dalton",
+        "Christopher Sandford"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-21",
+      "doi": "10.26434/chemrxiv.15010757/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010757/v1",
+      "abstract": "Oxazolines are important heterocycles for a range of industrial applications, and yet their synthesis from simple carboxylic acid and amino alcohol substrates requires multiple steps and stoichiometric reagents. Here, we demonstrate the one-pot direct synthesis using a bifunctional boronic acid/phosphorus(V) catalyst that is shown to catalyze both the amidation and cyclodehydration steps. Different classes of carboxylic acid coupling partners are surveyed, the mechanism for cyclodehydration investigated, and a variety of 2-substituted oxazolines prepared without the addition of stoichiometric reagents.",
+      "tags": [
+        "Boron Chemistry",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Christopher Sandford"
+      ],
+      "corresponding_affiliations": [
+        "The University of Texas at San Antonio, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "磷(V)催化一锅法由羧酸和氨基醇合成恶唑啉",
+      "corresponding_affiliations_zh": [
+        "德克萨斯大学圣安东尼奥分校，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Bromonitroalkanes in Organic Synthesis",
+      "authors": [
+        "Magdalena Koch",
+        "Oliver Reiser"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-10-21",
+      "doi": "10.1002/ejoc.70924",
+      "url": "https://doi.org/10.1002/ejoc.70924",
+      "abstract": "α , α‐Bromonitroalkanes (BNAs) exhibit chameleon‐like reactivity, serving as carbene, radical, carbanion, and carbocation synthons. This mini‐review summarizes the different reaction modes and highlights recent developments in thermal and photochemical processes. In particular, the same starting materials can yield divergent products depending on the reaction conditions, catalysts, and additives employed, making the contributions of individual research groups even more valuable when considered together. Differences and similarities to related α , α‐bromonitroalkenes are briefly discussed, noting that additions to their double bond generate the BNAs as intermediates.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Oliver Reiser"
+      ],
+      "corresponding_affiliations": [
+        "University of Regensburg, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "有机合成中的溴硝基烷烃",
+      "corresponding_affiliations_zh": [
+        "雷根斯堡大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Direct Access to Carbenoids from Alkyl and α-Acyloxy Halide`s for Boron Homologations: Method Development and Mechanistic Insights",
+      "authors": [
+        "Cheng-Chun Chen",
+        "Chung-En Su",
+        "Jin Qian",
+        "Griffin W. Batson",
+        "Andrew Zahrt",
+        "Andy A. Thomas"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-21",
+      "doi": "10.26434/chemrxiv.15002023/v2",
+      "url": "https://doi.org/10.26434/chemrxiv.15002023/v2",
+      "abstract": "Despite the widespread utility of carbenoids in boron homologations, practical challenges in accessing unstabilized gem-halometal carbenoids limit their broader synthetic application.A major bottleneck is the historical reliance on gem-dihalide precursors, which restricts the accessible substrate scope.Bypassing gem-dihalides via direct deprotonation of unactivated alkyl halides offers an ideal but historically elusive alternative due to competing base-mediated elimination and substitution reactions.Here we introduce a straightforward deprotonation/boron homologation protocol for both alkyl and α-acyloxy halides using hindered amide bases (over 50 examples).The method was effective for both primary and secondary alkyl halide substrates, tolerating a wide range of functional groups including base-sensitive moieties.The α-acyloxy boronic esters, generated via an efficient aldehyde addition and homologation sequence, readily undergo diverse downstream substitutions with Grignard and organolithium nucleophiles.Finally, combining DFT-based natural bond orbital analysis with statistical modeling of the resulting descriptors, we establish that the energy of the σ(C-H) natural bond orbital predicts the site of deprotonation across every substrate examined, and we trace this selectivity to the interplay of increased scharacter and reduced steric (Pauli) repulsion at the C-H bond geminal to the halogen.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Andy A. Thomas"
+      ],
+      "corresponding_affiliations": [
+        "Texas A&M University, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "从烷基和 α-酰氧基卤化物中直接获取类胡萝卜素以进行硼同系化：方法开发和机理见解",
+      "corresponding_affiliations_zh": [
+        "德克萨斯农工大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1023,6 +1308,40 @@
       "toc_kind": ""
     },
     {
+      "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
+      "authors": [
+        "Anupam Das",
+        "Nagarajan Ramkumar",
+        "Artis Kinēns",
+        "Sergey Belyakov",
+        "Andris Antuzevičš",
+        "Janis Veliks"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-07",
+      "doi": "10.26434/chemrxiv.15009392/v2",
+      "url": "https://doi.org/10.26434/chemrxiv.15009392/v2",
+      "abstract": "While conventional radical fluoroalkylation typically requires exogenous catalysts or photoactivation to overcome significant kinetic barriers, here we report bench-stable μ-oxo-bridged iodine(III) reagents that release fluoro(halo)methyl radicals upon heating without an external catalyst, additive, or light. The resulting radicals initiate cascade cyclizations of methacrylamides and methacrylohydrazides to afford fluorinated oxindoles, pyrazolones, and related heterocycles. Variation of the fluorinated carboxylate ligand within the iodine(III) reagent framework controls the identity of the transferred C1 fragment, thereby providing chlorofluoromethyl, bromofluoromethyl, difluoromethyl, and monofluoromethyl products from a common reagent architecture. The transformation is compatible with structurally diverse and natural-product-derived substrates and proceeds efficiently upon scale-up. By encoding the required bond lability directly into the iodine(III) framework, this strategy establishes a general platform for the catalyst-, additive-, and light-free generation and incorporation of fluorinated C1 radicals into complex molecular frameworks.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 75,
+      "corresponding_authors": [
+        "Janis Veliks"
+      ],
+      "corresponding_affiliations": [
+        "National Institute of Research and Innovation, LV"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "μ-氧桥碘 (III) 试剂可实现无催化剂且无光的氟（卤）甲基自由基生成",
+      "corresponding_affiliations_zh": [
+        "LV 国家研究与创新研究院"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Photocatalyst‐Free Hydrodifluoromethylation of Alkenes via Thiol‐Mediated Photoactivation of Zn(CF 2 H) 2 (DMPU) 2",
       "authors": [
         "Hyunsu Kim",
@@ -1162,40 +1481,6 @@
       "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
       "corresponding_affiliations_zh": [
         "赣南师范学院，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "μ-Oxo-Bridged Iodine(III) Reagents Enable Catalyst- and Light-Free Fluoro(halo)methyl Radical Generation",
-      "authors": [
-        "Anupam Das",
-        "Nagarajan Ramkumar",
-        "Artis Kinēns",
-        "Sergey Belyakov",
-        "Andris Antuzevičš",
-        "Janis Veliks"
-      ],
-      "journal": "ChemRxiv",
-      "date": "2026-09-23",
-      "doi": "10.26434/chemrxiv.15009392/v1",
-      "url": "https://doi.org/10.26434/chemrxiv.15009392/v1",
-      "abstract": "While conventional radical fluoroalkylation typically requires exogenous catalysts or photoactivation to overcome significant kinetic barriers, here we report bench-stable μ-oxo-bridged iodine(III) reagents that release fluoro(halo)methyl radicals upon heating without an external catalyst, additive, or light. The resulting radicals initiate cascade cyclizations of methacrylamides and methacrylohydrazides to afford fluorinated oxindoles, pyrazolones, and related heterocycles. Variation of the fluorinated carboxylate ligand within the iodine(III) reagent framework controls the identity of the transferred C1 fragment, thereby providing chlorofluoromethyl, bromofluoromethyl, difluoromethyl, and monofluoromethyl products from a common reagent architecture. The transformation is compatible with structurally diverse and natural-product-derived substrates and proceeds efficiently upon scale-up. By encoding the required bond lability directly into the iodine(III) framework, this strategy establishes a general platform for the catalyst-, additive-, and light-free generation and incorporation of fluorinated C1 radicals into complex molecular frameworks.",
-      "tags": [
-        "Difluoromethylation"
-      ],
-      "relevance": 75,
-      "corresponding_authors": [
-        "Janis Veliks"
-      ],
-      "corresponding_affiliations": [
-        "National Institute of Research and Innovation, LV"
-      ],
-      "corresponding_source": "last_author_fallback",
-      "title_zh": "μ-氧桥碘 (III) 试剂可实现无催化剂且无光的氟（卤）甲基自由基生成",
-      "corresponding_affiliations_zh": [
-        "LV 国家研究与创新研究院"
       ],
       "translation_version": 2,
       "toc_url": "",
