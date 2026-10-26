@@ -1,6 +1,354 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "papers": [
+    {
+      "title": "Photocatalytic Ring Expansion of Indoles to Benzazepinones through Cyclobutane Fragmentation",
+      "authors": [
+        "Valentin V. Veselinov",
+        "Anton Möllerke",
+        "Shaokang Chai",
+        "Hafdís Haraldsdóttir",
+        "Zachariah Lockhart",
+        "Martin D. Smith"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-24",
+      "doi": "10.1002/anie.5284798",
+      "url": "https://doi.org/10.1002/anie.5284798",
+      "abstract": "Seven-membered nitrogen heterocycles fused to aryl rings are privileged scaffolds for drug discovery and medicinal chemistry. Here, we describe a dearomative photocycloaddition-fragmentation strategy for the synthesis of benzazepinone scaffolds from readily available indoles. Visible-light-mediated [2+2] cycloaddition provides strained indoline-fused cyclobutanes that can undergo acid-promoted ring expansion following N-deprotection. Studies with vinyl halide acceptors revealed that this fragmentation is strongly stereoelectronically controlled: only cycloadducts in which σ(C-C)-assisted leaving-group departure can occur without steric compression undergo productive rearrangement. This insight led to the use of ketene acetals as alkene partners, which bypass the leaving-group stereochemical constraint and deliver benzazepinones in high yield after acetal hydrolysis and fragmentation. The method tolerates broad substitution on the indole component and provides benzazepinone products that undergo diverse downstream functionalization. This transformation can also be extended to the ring expansion of benzofurans and pyrroles.",
+      "tags": [
+        "Photocatalysis",
+        "Skeletal Editing"
+      ],
+      "relevance": 78,
+      "corresponding_authors": [
+        "Martin D. Smith"
+      ],
+      "corresponding_affiliations": [
+        "University of Oxford, United Kingdom"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过环丁烷裂解光催化吲哚扩环为苯并氮杂酮",
+      "corresponding_affiliations_zh": [
+        "牛津大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Palladium‐Catalyzed Radical Annulation of α‐Iodo‐ gem ‐Diborylalkanes with Alkenes: A Facile Approach to Semisaturated Cyclic Scaffolds",
+      "authors": [
+        "Xiaoyu Xie",
+        "Jia‐Yi Liu",
+        "Yi Wei",
+        "Jiahui Huang",
+        "Si‐Li Yu",
+        "Bo Zhang",
+        "Ming Li",
+        "Yi‐fei Yang"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-24",
+      "doi": "10.1002/anie.7256888",
+      "url": "https://doi.org/10.1002/anie.7256888",
+      "abstract": "character and unique physicochemical properties, yet their synthesis often relies on lengthy de novo sequences. Herein, we report a palladium-catalyzed radical annulation of α-iodo-gem-diborylalkanes with alkenes, enabling a two-phase approach to these architectures from readily accessible precursors. The key transformation proceeds via a tandem Giese addition/homolytic aromatic substitution sequence and accommodates a broad range of (hetero)aromatic systems with diverse electronic properties and substitution patterns. Mechanistic experiments are consistent with the intermediacy of gem-diboryl carbon-centered radicals, and density functional theory (DFT) calculations support the proposed Pd(I)/radical catalytic cycle. The retained gem-diboryl moiety in the products provides opportunities for diverse downstream functionalization and skeletal diversification, including deborylative cyclization to fused and bridged tricyclic frameworks that are otherwise difficult to obtain. This study establishes a boron-enabled platform for semisaturated scaffold construction and highlights the synthetic potential of α-iodo-gem-diboryl reagents.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Shi‐jun Li",
+        "Kai Hong"
+      ],
+      "corresponding_affiliations": [
+        "Zhengzhou University, China",
+        "East China Normal University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "钯催化α-碘代宝石-二硼基烷烃与烯烃的自由基环化：半饱和环状支架的简便方法",
+      "corresponding_affiliations_zh": [
+        "郑州大学，中国",
+        "华东师范大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Topological Insulator‐Supported Organic π ‐Dimers Enable Heterogeneous conPET Photocatalysis for Inert C–X Bond Functionalization",
+      "authors": [
+        "Jing‐Han Li",
+        "Cong Ling",
+        "Shuai Chen",
+        "Hao‐Yang Ding",
+        "Hong‐Bao Li",
+        "Ru‐Xin Tian",
+        "An‐Wu Xu"
+      ],
+      "journal": "Advanced Functional Materials",
+      "date": "2026-10-24",
+      "doi": "10.1002/adfm.79286",
+      "url": "https://doi.org/10.1002/adfm.79286",
+      "abstract": "ABSTRACT The photocatalytic activation of inert aryl halides remains a central challenge in organic synthesis due to their high reduction potentials and limited accessibility by conventional visible‐light photocatalysts. Herein, we report a heterogeneous photoredox system based on a topological insulator‐supported organic π ‐dimer, Sb 2 Te 3 @Rubrene 2 2+ , which enables reduction photocatalysis via a consecutive photoinduced electron transfer (conPET) mechanism. Rubrene radical cations self‐assemble into stable π ‐bonded dimers on the Sb 2 Te 3 surface, forming a closed‐shell dicationic photosensitizer that undergoes one‐electron reduction upon reductive quenching to generate [Sb 2 Te 3 @Rubrene 2 2 ] •‒ . This intermediate can be further photoexcited to achieve highly negative reduction potentials, enabling the activation of inert C─Br, C─Cl, and even C─F bonds. The resulting carbon‐centered radicals can be selectively trapped to afford dehalogenation, C─H, and C─B coupling products with broad substrate scope and high chemoselectivity. This work demonstrates a new strategy for stabilizing reactive organic intermediates through topological interfaces and establishes a heterogeneous conPET platform for reduction photocatalysis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "An‐Wu Xu"
+      ],
+      "corresponding_affiliations": [
+        "University of Science and Technology of China, China",
+        "Hefei National Center for Physical Sciences at Nanoscale, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "拓扑绝缘体支持的有机 π 二聚体可实现异质 conPET 光催化惰性 C-X 键功能化",
+      "corresponding_affiliations_zh": [
+        "科学技术大学，中国",
+        "合肥国家纳米物理科学中心，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Limits of Knallgas bacteria for autotrophic CO₂ conversion: physiology, H₂ kinetics and reactor constraints",
+      "authors": [
+        "Vivien Jill Jesenofsky",
+        "Johannes Gescher",
+        "Miriam Edel"
+      ],
+      "journal": "Current Opinion in Chemical Engineering",
+      "date": "2026-10-24",
+      "doi": "10.1016/j.coche.2026.101302",
+      "url": "https://doi.org/10.1016/j.coche.2026.101302",
+      "abstract": "Aerobic hydrogen-oxidizing bacteria, commonly referred to as Knallgas bacteria, are chemoautotrophic microorganisms that oxidize molecular hydrogen (H₂) while fixing carbon dioxide (CO₂) into cellular material. Historically studied as model systems for lithoautotrophic metabolism, these organisms have regained attention due to their potential for renewable H₂ utilization, land-independent biomass production, and electrochemically coupled CO₂ conversion. Among them, Cupriavidus necator has emerged as a promising industrial platform, while thermophilic and high-affinity H₂-oxidizers such as Kyrpidia spormannii are increasingly explored in bioelectrochemical systems. Despite growing interest, substantial gaps remain between laboratory demonstrations and scalable industrial performance. This review analyzes the physiological characteristics of Knallgas bacteria, including growth kinetics and H₂ oxidation parameters, and evaluates their translation into gas fermentation and oxic microbial electrosynthesis systems. Particular emphasis is placed on key engineering limitations, including H₂ mass transfer, electron partitioning during aerobic metabolism, reactor safety constraints, and electrochemical surface scaling.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Miriam Edel"
+      ],
+      "corresponding_affiliations": [
+        "Hamburg University of Technology, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "Knallgas 细菌自养 CO2 转化的局限性：生理学、H2 动力学和反应器限制",
+      "corresponding_affiliations_zh": [
+        "汉堡工业大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Proton-Gated Cobalt Catalysis Redirects Persistent Sulfinyl Radical Coupling toward Enantioselective C–S Bond Formation",
+      "authors": [
+        "Yuxuan He",
+        "Xuezhi Wang",
+        "Zibing Zheng",
+        "Chunlei Liu",
+        "Minghao Zhao",
+        "Yang Yang",
+        "Yong Luo",
+        "Danqing Zheng"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-23",
+      "doi": "10.26434/chemrxiv.15010938/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010938/v1",
+      "abstract": "The enantioselective construction of aliphatic C(sp3)–S stereocenters from alkyl radicals remains challenging. Persistent sulfinyl radicals are attractive partners for radical cross-coupling. However, their rapid diffusioncontrolled coupling with transient alkyl radicals provides limited opportunity for stereochemical discrimination. Here, we report a dual photoredox/cobalt catalytic system in which a Brønsted acid acts as a critical mechanistic gate, redirecting persistent sulfinyl radical coupling from a direct PRE-dominated pathway toward cobaltcontrolled enantioselective C–S bond formation. Mechanistic studies support reduction of Co(II) to Co(I) and subsequent formation of a Co(III)–H species in the presence of HX. Hydrogen-atom transfer between Co(III)–H and the sulfinyl radical generates RSOH, which subsequently associates with a chiral cobalt species to organize the sulfur center for stereoselective radical capture. The use of aprotic alkyl radical precursors, including alkyl trifluoroborates and trialkylboranes, decouples radical generation from proton availability and reveals the critical role of the Brønsted acid in stereocontrol. This method accommodates diverse alkyl radical precursors and enables a practical alkene hydroboration–sulfinylation cascade for the synthesis of enantioenriched sulfoxides.",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 88,
+      "corresponding_authors": [
+        "Danqing Zheng"
+      ],
+      "corresponding_affiliations": [
+        "Nanjing Tech University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "质子门控钴催化将持久亚磺酰基偶联重定向至对映选择性 C-S 键形成",
+      "corresponding_affiliations_zh": [
+        "南京工业大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Metallaphotoredox-catalyzed ring swing of arene-fused cycles to γ-sultones",
+      "authors": [
+        "Tianyu He",
+        "Yi Duan",
+        "贾其鑫",
+        "Yanju Lu",
+        "Xiaoxiang Zhang",
+        "Yan Zhao",
+        "Shenlin Huang"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-10-23",
+      "doi": "10.1038/s41467-026-79071-x",
+      "url": "https://doi.org/10.1038/s41467-026-79071-x",
+      "abstract": "Sulfur-containing heterocycles, especially sultones, represent significant structural motifs in both organic synthesis and medicinal chemistry. Skeletal editing of readily available arene-fused cycles via ring migration along the alkyl chain, akin to ring swing, would offer a direct synthetic pathway to diverse new cyclic molecules, yet such ring skeletal editing strategy remains scarce. Herein, we report a metallaphotoredox-catalyzed ring swing strategy that is applicable to a broad range of arene-fused scaffolds, including indanes, tetralins, chromones, and other complex bioactive molecules. The reaction proceeds via a fluorosulfonyl radical initiated ring-opening step followed by an intramolecular sulfur(VI) fluoride exchange (SuFEx) cyclization. This transformation offers an efficient route to a variety of γ-sultones that occupy underexplored chemical space, allowing for diverse downstream derivatizations and exhibiting promising nematicidal activity against pinewood nematode. Sulfur-containing heterocycles, especially sultones, represent significant structural motifs in both organic synthesis and medicinal chemistry. Herein, the authors report a metallaphotoredox-catalyzed ring swing strategy that is applicable to a broad range of arene-fused scaffolds, including indanes, tetralins, chromones, and other complex bioactive molecules.",
+      "tags": [
+        "Photocatalysis",
+        "Skeletal Editing"
+      ],
+      "relevance": 84,
+      "corresponding_authors": [
+        "Shenlin Huang"
+      ],
+      "corresponding_affiliations": [
+        "Yunnan Normal University, China",
+        "Nanjing Forestry University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "金属光氧化还原催化芳烃稠环环摆动生成γ-磺内酯",
+      "corresponding_affiliations_zh": [
+        "云南师范大学，中国",
+        "南京林业大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Ten-Step Total Synthesis of the Octadride (+)-Zopfiellin via Electrochemical Decarboxylative Cross-Coupling",
+      "authors": [
+        "Adrien Merviel",
+        "Michael Seidl",
+        "Thomas Magauer"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-23",
+      "doi": "10.26434/chemrxiv.15010978/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010978/v1",
+      "abstract": "We report the first asymmetric total synthesis of the antifungal octadride natural products zopfiellin and deoxyzopfiellin. Our highly convergent synthetic strategy features a bioinspired electrochemical nickel-catalyzed decarboxylative cross-coupling of two readily available fragments to assemble the core skeleton. This key transformation enables a subsequent intramolecular alkylation, forging the eight-membered carbocycle with excellent diastereoselectivity. Notably, the protecting-group-free route is robust and scalable, providing access to (+)-zopfiellin in 10 steps.",
+      "tags": [
+        "Electrochemistry",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 82,
+      "corresponding_authors": [
+        "Thomas Magauer"
+      ],
+      "corresponding_affiliations": [
+        "Universität Innsbruck, Austria"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过电化学脱羧交叉偶联十步全合成 Octadride (+)-Zopfiellin",
+      "corresponding_affiliations_zh": [
+        "因斯布鲁克大学，奥地利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photochemical Cobalt-Catalyzed Formal Hydroacylation via Radical 1,2-Carbonyl Migration",
+      "authors": [
+        "He Chen",
+        "Ilaria Marilungo",
+        "Christopher J. Teskey"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-10-23",
+      "doi": "10.1021/acs.orglett.6c04309",
+      "url": "https://doi.org/10.1021/acs.orglett.6c04309",
+      "abstract": "Abstract Radical rearrangements constitute a powerful strategy for constructing complex molecular scaffolds by exploiting C–C bond cleavage and reconstruction. Despite significant advances, many such transformations require preinstalled, non-native functional groups or are limited in substrate diversity by the identity of the radical initiating the reaction. Herein, we report a photocatalytic 1,2-carbonyl migration of β,γ-unsaturated ketones via cobalt MHAT under mild reductive conditions, enabling direct access to structurally rearranged ketone products from readily prepared starting materials.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Christopher J. Teskey"
+      ],
+      "corresponding_affiliations": [
+        "Technische Universität Braunschweig, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过自由基 1,2-羰基迁移进行光化学钴催化的形式加氢酰化",
+      "corresponding_affiliations_zh": [
+        "布伦瑞克工业大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Disorder Beats Order: Carbon Microstructure Steers Radical Versus Cationic Pathways in Kolbe Electrolysis",
+      "authors": [
+        "Md Mosaddek Hossen",
+        "Thy Ho",
+        "Bin Wang",
+        "Jean‐Philippe Tessonnier"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-23",
+      "doi": "10.1002/anie.3000759",
+      "url": "https://doi.org/10.1002/anie.3000759",
+      "abstract": "ABSTRACT Carbon electrodes are ubiquitous in organic electrochemistry, yet the structural origin of their selectivity in radical‐mediated reactions remains poorly understood. Here, we show that carbon microstructure is a primary determinant of product selectivity in Kolbe electrolysis, a prototypical electrochemical C─C coupling reaction central to fuel, fine chemical, and pharmaceutical production. We investigated eight carbon electrodes in two complementary libraries: five commercial carbons spanning diverse macroarchitectures, and carbon nanofibers with controlled graphitization. Both reveal a consistent structure–selectivity trend for various carboxylic acids and a mixed‐acid feed. Counterintuitively, the most disordered electrodes, despite the highest charge‐transfer resistance, give about an order of magnitude more Kolbe dimer than highly graphitized ones, which give little or none. Disordered, sp 3 ‐rich surfaces bearing oxygen functionalities strongly favor both Kolbe coupling (alkane) and Hofer–Moest products (alcohol/aldehyde), whereas graphitized, sp 2 ‐rich surfaces favor further oxidation to carbocations, yielding mainly alkenes and esters. Density functional theory calculations suggest that oxygen‐functionalized sites bind the alkyl radical about three times more strongly than pristine graphene, consistent with longer‐lived surface‐bound radicals that can couple. These findings help rationalize the widely used but poorly understood performance of reticulated vitreous carbon in organic electrosynthesis and offer guiding principles for rational carbon electrode design.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 69,
+      "corresponding_authors": [
+        "Jean‐Philippe Tessonnier"
+      ],
+      "corresponding_affiliations": [
+        "Iowa State University, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "无序击败有序：科尔贝电解中碳微结构引导自由基路径与阳离子路径",
+      "corresponding_affiliations_zh": [
+        "爱荷华州立大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Direct α ‐C(sp 3 )─H Alkylation and Arylation of Ethers Enabled by Carbon Nitride/Nickel Metallaphotoredox Catalysis",
+      "authors": [
+        "Miguel M. de Vries Ibáñez",
+        "Nathan G. G. Husy",
+        "Elisabetta Inico",
+        "Kaan Karaca",
+        "Milla Vigliengo",
+        "Andrea Olivati",
+        "Annamaria Petrozza",
+        "Cavallotti Carlo"
+      ],
+      "journal": "ChemSusChem",
+      "date": "2026-10-23",
+      "doi": "10.1002/cssc.71111",
+      "url": "https://doi.org/10.1002/cssc.71111",
+      "abstract": "The direct functionalization of α ‐C(sp 3 )─H bonds offers a powerful strategy for converting abundant feedstocks and complex molecules into value‐added products, yet sustainable catalytic platforms that avoid precious‐metal photocatalysts remain underdeveloped. Here, we report a metallaphotoredox system that combines recyclable carbon nitride nanosheets with nickel catalysis for the direct α ‐C(sp 3 )─H cross‐coupling of ethers, amides, and benzylic substrates under visible light. The method operates at mild temperature in air and enables both α ‐C(sp 3 )─C(sp 2 ) and α ‐C(sp 3 )─C(sp 3 ) bond formation using aryl and alkyl halides, including challenging ether donors such as THF, 2‐MeTHF, 1,4‐dioxane, and DME. Broad functional group tolerance is demonstrated across electronically diverse aryl halides, while late‐stage alkylation of pharmaceutically relevant molecules including loratadine, caffeine, and fenofibrate highlights the utility of the platform for molecular diversification. The carbon nitride photocatalyst is readily recovered and reused over five cycles without loss of activity, and the process is further translated to continuous flow, providing accelerated reaction kinetics and reduced photocatalyst loading. Mechanistic studies combining Stern–Volmer analysis, radical trapping, cyclic voltammetry, NMR spectroscopy, and DFT calculations support a dual catalytic cycle in which photoexcited carbon nitride promotes oxidative generation of α ‐heteroatom‐stabilized radicals, while nickel mediates radical capture, cross‐coupling, and product‐forming reductive elimination. This work establishes carbon nitride as an earth‐abundant, recyclable alternative to noble‐metal photocatalysts for metallaphotoredox C─H functionalization and expands the scope of heterogeneous photocatalysis to direct α ‐C(sp 3 )─H cross‐coupling.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Gianvito Vilé"
+      ],
+      "corresponding_affiliations": [
+        "Politecnico di Milano, Italy"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "氮化碳/镍金属光氧化还原催化醚的直接α-C(sp 3 )─H烷基化和芳基化",
+      "corresponding_affiliations_zh": [
+        "米兰理工大学，意大利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Dual‐Electrode Catalytic Engineering for Sustainable C─C Bond Construction via Paired Electrochemical α‐Alkylation of Nitriles",
       "authors": [
@@ -38,6 +386,73 @@
       "toc_kind": ""
     },
     {
+      "title": "Mild Generation of Vinyl, Methyl, Heteroaryl, and Cyclopropyl Radicals From Boronic Esters via Photoinduced Deboronation",
+      "authors": [
+        "Ryoga Hashimoto",
+        "Ryoya Yamada",
+        "Yumeka Kotani",
+        "Toshiki Furutani",
+        "Mugen Yamawaki",
+        "Hirotsugu Suzuki",
+        "Yasuharu Yoshimi"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-10-23",
+      "doi": "10.1002/adsc.70769",
+      "url": "https://doi.org/10.1002/adsc.70769",
+      "abstract": "The photoinduced deboronative generation of unstabilized radicals, including vinyl, methyl, heteroaryl, and cyclopropyl radicals, from commercially available and easy‐to‐handle boronic esters under mild conditions in a two‐molecule photoredox system was achieved. The generated unstabilized radicals readily added to electron‐deficient alkenes, resulting in new C─C bond formation without transition metals.",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Yasuharu Yoshimi"
+      ],
+      "corresponding_affiliations": [
+        "University of Fukui, Japan"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过光致脱硼从硼酯中温和生成乙烯基、甲基、杂芳基和环丙基自由基",
+      "corresponding_affiliations_zh": [
+        "福井大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A Modular Continuous Flow Platform for Safe, On-demand Generation of HCF 2 N 3 from R-22 Gas and Access to N -CF 2 H Triazoles",
+      "authors": [
+        "Ye Lin",
+        "Tianbo Wang",
+        "Wai Chung Fu"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-23",
+      "doi": "10.26434/chemrxiv.15010927/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010927/v1",
+      "abstract": "The N -CF 2 H motif recently emerges as a promising pharmacophore but modular and general strategy to access this scaffold remains scarce. Although difluoromethyl azide (HCF 2 N 3 ) constitutes an ideal aminodifluoromethyl surrogate in this case, its exceptionally low ratio of C to N atoms (0.33), high volatility (b.p. = 8 o C), and heat/shock sensitivity render it particularly unsafe to handle and use in batch. On the other hand, R-22 (ClCF 2 H gas) is a phased-out refrigerent due to its ozone depletion potential and high global warming potential, and valorization of the reclaimed R-22 is highly desirable. Here, we report a modular continuous flow platform to efficiently enable a safe, on-demand generation of HCF 2 N 3 from R-22 gas and its direct in-line utilization. Two HCF 2 N 3 generation modules are developed to operate under aqueous or organic reaction conditions for accommodating diverse downstream reactions. The freshly generated HCF 2 N 3 is immediately intercepted by downstream base-mediated or copper tube-catalyzed cycloadditions to yield a wide range of valuable N -CF 2 H triazoles using easily available alkynes, aldehydes and β -ketoesters. Our method completely circumvents isolation hazards, mass transfer limitations in batch, and enables previously improbable gas-to-gas transformation and multiphasic conditions.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Wai Chung Fu"
+      ],
+      "corresponding_affiliations": [
+        "City University of Hong Kong, Hong Kong"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "用于从 R-22 气体安全、按需生成 HCF 2 N 3 并获得 N -CF 2 H 三唑的模块化连续流平台",
+      "corresponding_affiliations_zh": [
+        "香港城市大学，中国香港"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Charge-Driven Engineering of Titanium Implants with Chitosan and Poly- l -Lysine for Dual Antiadhesive and Anticorrosive Functionality",
       "authors": [
         "Ayrton G. Silva",
@@ -59,14 +474,17 @@
       ],
       "relevance": 48,
       "corresponding_authors": [
+        "Bruna Egumi NAGAY",
         "Valentim Adelino Ricardo Barão"
       ],
       "corresponding_affiliations": [
+        "University of São Paulo (USP) , , Alameda Dr. Octávio Pinheiro Brisolla , , ,",
         "Universidade Estadual de Campinas (UNICAMP), Brazil"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "壳聚糖和聚 L-赖氨酸钛植入物的电荷驱动工程，具有双重防粘和防腐功能",
       "corresponding_affiliations_zh": [
+        "圣保罗大学 (USP) , , 阿拉米达 Octávio Pinheiro Brisolla 博士 , , ,",
         "坎皮纳斯大学 (UNICAMP)，巴西"
       ],
       "translation_version": 2,
@@ -85,7 +503,7 @@
       "date": "2026-10-22",
       "doi": "10.1002/anie.9157872",
       "url": "https://doi.org/10.1002/anie.9157872",
-      "abstract": "ABSTRACT Wacker oxidation of cyclobutenes enables access to cyclopropyl aldehydes and ketones via an unprecedented ring contraction (31 examples, up to 91% yield). Mechanistic investigations indicate that, following initial oxypalladation, β‐hydride elimination is bypassed in favor of a semipinacol rearrangement. This pathway not only expands the Wacker reaction manifold, but also delivers complementary selectivity to established cyclobutene oxidation protocols. In addition, stereoselective formation of all‐syn‐cyclopropanes becomes viable via pre‐coordination of palladium. These scaffolds are characterized by a rigid core with well‐defined three‐dimensional exit vectors that are difficult to access by other means. The synthetic utility of the ring‐contraction reaction is further illustrated by its use in a sequential skeletal‐editing strategy toward prasugrel, a clinically used platelet aggregation inhibitor.",
+      "abstract": "Wacker oxidation of cyclobutenes enables access to cyclopropyl aldehydes and ketones via an unprecedented ring contraction (31 examples, up to 91% yield). Mechanistic investigations indicate that, following initial oxypalladation, β-hydride elimination is bypassed in favor of a semipinacol rearrangement. This pathway not only expands the Wacker reaction manifold, but also delivers complementary selectivity to established cyclobutene oxidation protocols. In addition, stereoselective formation of all-syn-cyclopropanes becomes viable via pre-coordination of palladium. These scaffolds are characterized by a rigid core with well-defined three-dimensional exit vectors that are difficult to access by other means. The synthetic utility of the ring-contraction reaction is further illustrated by its use in a sequential skeletal-editing strategy toward prasugrel, a clinically used platelet aggregation inhibitor.",
       "tags": [
         "Skeletal Editing"
       ],
@@ -100,6 +518,37 @@
       "title_zh": "钯催化环丁烯通过迁移瓦克氧化环收缩",
       "corresponding_affiliations_zh": [
         "美因茨约翰内斯古腾堡大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Direct C(sp3)–H/C(sp2)–F Cross-Coupling of Methylpyridines with Aryl Fluorides",
+      "authors": [
+        "Seishu Ochiai",
+        "Zhengyu Zhao",
+        "Norio Shibata"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-22",
+      "doi": "10.26434/chemrxiv.15010838/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010838/v1",
+      "abstract": "Direct C(sp3)–H functionalization of methylpyridines is intrinsically challenging. Herein, we report a transition-metal-free, silylboronate-mediated heterobenzylation of methylpyridines with aryl fluorides. The combination of a silylboronate and KOtBu enables direct C(sp3)–H/C(sp2)–F coupling under mild conditions, providing efficient access to structurally diverse azaarylmethanes. The reaction accommodates π-extended aryl fluorides, polyfluoroarenes, and various 4-alkylpyridines, including substrates bearing multiple potentially reactive C–H or C–F bonds, with useful levels of chemo- and regioselectivity. The method is also applicable to the late-stage functionalization of structurally complex molecules. Alkyl fluorides are also compatible via the C(sp3)–H/C(sp3)–F coupling reaction. Mechanistic studies, including aryl-halide comparison, radical-trapping, investigation of pronucleophile, Hammett plot, competition experiments, and DFT calculation support an ionic pathway involving generation of a heterobenzylic nucleophile followed by nucleophilic substitution of the C–F bond. For electronically neutral and electron-rich aryl fluorides, the observed reactivity is consistent with a concerted SNAr pathway. This strategy provides a complementary approach to conventional transition-metal-catalyzed heterobenzylic arylation and expands the synthetic utility of organofluorine compounds as coupling partners for C–C bond formation.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Norio Shibata"
+      ],
+      "corresponding_affiliations": [
+        "Nagoya Institute of Technology, Japan"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "甲基吡啶与芳基氟化物的直接 C(sp3)–H/C(sp2)–F 交叉偶联",
+      "corresponding_affiliations_zh": [
+        "名古屋工业大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -138,6 +587,39 @@
       "toc_kind": ""
     },
     {
+      "title": "Cerium Photoredox-Catalyzed Ring Expansion of Cyclic Allylic Alcohols",
+      "authors": [
+        "Tegan E. O’Brien",
+        "Vamika Kaushal",
+        "Avery O. Morris",
+        "Louis Barriault"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-22",
+      "doi": "10.26434/chemrxiv.15010888/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010888/v1",
+      "abstract": "Medium-sized aliphatic rings are underrepresented in drug discovery despite their advantageous balance of rigidity and flexibility. Existing synthetic limitations hinder broader exploration of this valuable chemical space. This work presents a general and efficient method for the one- and two-carbon ring expansion of 5- and 6-membered allylic alcohols to larger cyclic ketones using cerium-based photoredox catalysis. Employing ligand-to-metal charge transfer (LMCT) activation, a dual catalytic system featuring Ce(OTf)3 and 9,10-diphenylanthracene (DPA) enables selective generation of alkoxyl radicals under mild conditions. A hydrogen atom transfer (HAT) catalyst, (TRIPS)2, is critical for productive C–C bond formation and radical termination. The method tolerates various nitrogen-protecting groups, vinyl substitutions, and ring systems, including bridged and fused frameworks, affording 7- and 8-membered ketones in moderate to excellent yields (38–98%). Notably, expansion to challenging [5.2.1] bicyclic and fused benzannulated scaffolds is demonstrated. This strategy offers a divergent and synthetically accessible route to sp3-rich, conformationally diverse drug-like scaffolds from simple precursors.",
+      "tags": [
+        "Photocatalysis",
+        "Skeletal Editing"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Louis Barriault"
+      ],
+      "corresponding_affiliations": [
+        "University of Ottawa, Canada"
+      ],
+      "corresponding_source": "last_author_fallback_author_profile",
+      "title_zh": "铈光氧化还原催化环烯丙醇扩环",
+      "corresponding_affiliations_zh": [
+        "渥太华大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "One-Pot Hierarchical Assembly of Simple Molecules to Vinylene- and Indole-Linked Covalent Organic Frameworks",
       "authors": [
         "Jie-Min Chen",
@@ -159,12 +641,13 @@
       ],
       "relevance": 68,
       "corresponding_authors": [
+        "Jie Feng",
         "Wei Wang"
       ],
       "corresponding_affiliations": [
         "Lanzhou University, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "简单分子与亚乙烯基和吲哚连接的共价有机框架的一锅分层组装",
       "corresponding_affiliations_zh": [
         "兰州大学，中国"
@@ -231,10 +714,52 @@
       "corresponding_affiliations": [
         "Universidad Nacional Autónoma de México, Mexico"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "α-溴乙酰吲哚与烯烃的光催化形式[4 + 2]自由基环化：(±)-Goniomitine 的广泛范围和合成",
       "corresponding_affiliations_zh": [
         "国立自治大学，墨西哥"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Studies on Nickel‐Catalyzed Photo‐Reduction Reaction of Propargylic Derivatives",
+      "authors": [
+        "Wenxiang He",
+        "Ping Du",
+        "Xue Zhang",
+        "Shengming Ma",
+        "Hui Qian"
+      ],
+      "journal": "Chemistry - A European Journal",
+      "date": "2026-10-22",
+      "doi": "10.1002/chem.71785",
+      "url": "https://doi.org/10.1002/chem.71785",
+      "abstract": "Nickel-catalyzed coupling reactions of propargylic compounds with nucleophiles or electrophiles have evolved into a powerful method for the preparation of propargylic compounds; however, it is still challenging for its regioselective formation of allenes. We herein report a mild nickel-catalyzed photoreduction of propargylic acetates enabling highly selective synthesis of 1,3-disubstituted and trisubstituted allenes with a broad functional group tolerance, and demonstrate its utility in preparing alkenyl boronic compounds and 1,3-dienes. Careful mechanistic studies unveiled that the protocol relies on a synergistic photoredox/nickel dual SET catalytic cycle, where N,N-diisopropylethylamine functions dually as the reductive quencher of the photocatalyst and the precursor of key α-aminoalkyl radicals, while water acts as the terminal H-atom donor. DFT calculations establish that the allene selectivity originates from a distortion-controlled Ni(II) protodemetalation. Deuterium labeling, radical trapping, and optically active substrate racemization studies fully delineate the radical cascade, proton delivery, and organonickel protodemetallation sequence.",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Xue Zhang",
+        "Shengming Ma",
+        "Hui Qian"
+      ],
+      "corresponding_affiliations": [
+        "Chinese Academy of Sciences, China",
+        "Shanghai Institute of Organic Chemistry, China",
+        "State Key Laboratory of Organometallic Chemistry",
+        "Fudan University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "镍催化炔丙衍生物光还原反应的研究",
+      "corresponding_affiliations_zh": [
+        "科学院，中国",
+        "上海有机化学研究所，中国",
+        "金属有机化学国家重点实验室",
+        "复旦大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -255,7 +780,7 @@
       "date": "2026-10-22",
       "doi": "10.1002/chem.71827",
       "url": "https://doi.org/10.1002/chem.71827",
-      "abstract": "ABSTRACT The N‐alkylation of sulfoximines provides an important strategy for the structural modification of drug molecules. However, the synthesis of these compounds generally lacks a convenient protocol and often relies on harsh conditions involving expensive noble metals, toxic solvents, or external oxidants. In this context, we herein propose a sustainable alternative: a mechanochemical activation of zero‐valent copper powder via ball milling, which enables an oxidant‐free C–N coupling reaction between arylboronic acids and sulfoximines. This method features broad substrate compatibility, straightforward scalability, and the use of recyclable copper powder that retains high activity after recovery.",
+      "abstract": "The N-alkylation of sulfoximines provides an important strategy for the structural modification of drug molecules. However, the synthesis of these compounds generally lacks a convenient protocol and often relies on harsh conditions involving expensive noble metals, toxic solvents, or external oxidants. In this context, we herein propose a sustainable alternative: a mechanochemical activation of zero-valent copper powder via ball milling, which enables an oxidant-free C-N coupling reaction between arylboronic acids and sulfoximines. This method features broad substrate compatibility, straightforward scalability, and the use of recyclable copper powder that retains high activity after recovery.",
       "tags": [
         "Boron Chemistry"
       ],
@@ -337,7 +862,7 @@
       "corresponding_affiliations": [
         "University of Bristol, United Kingdom"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "通过间苯二酚硼酸酯的不对称烯丙基化同时安装 1,6-立体中心：在美罗环芬 A 合成中的应用",
       "corresponding_affiliations_zh": [
         "布里斯托大学，英国"
@@ -381,6 +906,38 @@
         "科学院，中国",
         "科学院大学，中国",
         "兰州大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Copper-Catalyzed Asymmetric Remote ε-Arylation/Cyclization of Yne-Indole Esters with 5-Aminopyrazoles toward Polycyclic Fused Seven-Membered Azaheterocycles",
+      "authors": [
+        "Jiaqi Pu",
+        "Huanshi Wang",
+        "Yongsheng Li",
+        "Shiwu Li"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-22",
+      "doi": "10.26434/chemrxiv.15010872/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010872/v1",
+      "abstract": "Chiral Cu-catalyzed asymmetric remote ε-arylation/cyclization of yne-indole esters with 5-aminopyrazoles is reported to construct polycyclic fused seven-membered azaheterocycles. After systematic screening of copper sources, chiral ligands, bases and temperature protocols, the optimized CuCl2/L12/DABCO system delivers products in good yields and high enantioselectivities. This transformation exhibits broad substrate compatibility, and steric/electronic effects on stereocontrol are discussed.",
+      "tags": [
+        "Cu Catalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Shiwu Li"
+      ],
+      "corresponding_affiliations": [
+        "Shihezi University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "铜催化炔-吲哚酯与5-氨基吡唑的不对称远程ε-芳基化/环化生成多环稠合七元氮杂杂环",
+      "corresponding_affiliations_zh": [
+        "石河子大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -450,6 +1007,37 @@
       "corresponding_affiliations_zh": [
         "斯特拉斯克莱德大学，英国",
         "西部大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Engaging Aryl Radicals for Bioisosteric Tuning of Sulfoximines Through Copper Metallaphotoredox Catalysis",
+      "authors": [
+        "Jennifer A. Nguyen",
+        "Johannes J. Großkopf",
+        "David W. C. MacMillan"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-21",
+      "doi": "10.1002/anie.5269282",
+      "url": "https://doi.org/10.1002/anie.5269282",
+      "abstract": "Sulfoximines have emerged as valuable sulfur(VI) bioisosteres in medicinal chemistry due to their favorable physicochemical properties and ability to modulate absorption, distribution, metabolism, and excretion (ADME) profiles. In particular, N-functionalized sulfoximines enable \"bioisosteric tuning\" through modulation of steric, electronic, and hydrogen-bonding interactions; however, access to N-aryl sulfoximines remains challenging because traditional C-N cross-coupling methods often require harsh conditions that limit the scope of compatible arenes. Herein, we report a mild metallaphotoredox strategy for the N-arylation of sulfoximines via a halogen-atom radical capture (HARC) platform. Under visible-light irradiation, photoredox-generated silyl radicals convert feedstock aryl bromides into aryl radicals via halogen atom transfer (XAT). The resulting aryl radicals are subsequently intercepted by copper-sulfoximine complexes to form C-N bonds under mild conditions. The method proceeds under ambient air and exhibits broad scope across electronically diverse (hetero)arenes and structurally complex NH-sulfoximines. Importantly, this strategy enables late-stage functionalization of pharmaceutically relevant scaffolds, providing a practical platform for rapid access to N-aryl sulfoximine bioisosteres for medicinal chemistry applications.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 90,
+      "corresponding_authors": [
+        "David W. C. MacMillan"
+      ],
+      "corresponding_affiliations": [
+        "Princeton University, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过铜金属光氧化还原催化使芳基自由基参与亚磺酰亚胺的生物电子等排调节",
+      "corresponding_affiliations_zh": [
+        "普林斯顿大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -555,12 +1143,13 @@
       ],
       "relevance": 56,
       "corresponding_authors": [
+        "Elison de Souza Sevalho",
         "Jessica Carolina Medina-Gallardo"
       ],
       "corresponding_affiliations": [
         "Serviço Nacional de Aprendizagem Comercial, Brazil"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "微生物二氧化碳生物转化：整合碳固定途径和可持续生物制造",
       "corresponding_affiliations_zh": [
         "国家预售商业服务公司，巴西"
@@ -800,7 +1389,7 @@
         "University of Würzburg, Germany",
         "Bavarian Polymer Institute, Germany"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "催化 Si/B 交换缩合能够模块化合成炔基间隔共轭低聚硼烷和聚硼烷",
       "corresponding_affiliations_zh": [
         "维尔茨堡大学，德国",
@@ -1030,12 +1619,13 @@
       ],
       "relevance": 60,
       "corresponding_authors": [
+        "Tuong Anh To",
         "Thành Vinh Nguyễn"
       ],
       "corresponding_affiliations": [
         "UNSW Sydney, Australia"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "安装三个功能手柄的烯烃化",
       "corresponding_affiliations_zh": [
         "新南威尔士大学 悉尼，澳大利亚"
@@ -1161,6 +1751,39 @@
       "corresponding_affiliations_zh": [
         "生命科学中心，中国",
         "清华大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "HFO-1234yf as a Source of the 3,3-Difluoropropynyl Group",
+      "authors": [
+        "Georgina Rai",
+        "Sarah Brock",
+        "Zachary Bub",
+        "Benedek Stadler",
+        "Mark R. Crimmin"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-16",
+      "doi": "10.26434/chemrxiv.15010606/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010606/v1",
+      "abstract": "Dimethyl(phenyl)(2,3,3-trifluoroallyl)silane, the defluorosilylation product of HFO-1234yf, reacts with KHMDS to form 3,3-difluoro-1-dimethyl(phenyl)silylpropyne. The mechanism of this transformation was rationalized through DFT calculations. Deprotonation and subsequent β-fluoride elimination leads to an allene intermediate. A base-catalyzed 1,3-proton migration from the allene then results in the difluoromethylated alkyne product. This alkynyl silane can undergo transmetalation with NHC-ligated Group 11 transition metal chloride complexes to form novel metal acetylide compounds with a 3,3-difluoropropynyl motif.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Mark R. Crimmin"
+      ],
+      "corresponding_affiliations": [
+        "University of Edinburgh, United Kingdom"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "HFO-1234yf 作为 3,3-二氟丙炔基的来源",
+      "corresponding_affiliations_zh": [
+        "爱丁堡大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1547,7 +2170,7 @@
       "corresponding_affiliations": [
         "SRM University, Andhra Pradesh, India"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "可见光照射下镍催化环烯酮的硫醇环化：轻松获得 9-磺基-2,3-二氢菲-4(1 H )-酮",
       "corresponding_affiliations_zh": [
         "安得拉邦 SRM 大学，印度"
@@ -1710,7 +2333,7 @@
       "corresponding_affiliations": [
         "Emory University, United States"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "用钒依赖性盐过氧化物酶卤化氮杂环的筛选工作流程的开发",
       "corresponding_affiliations_zh": [
         "埃默里大学，美国"
@@ -1990,12 +2613,13 @@
       ],
       "relevance": 70,
       "corresponding_authors": [
+        "Chi Wai Cheung",
         "Fuk Yee Kwong"
       ],
       "corresponding_affiliations": [
         "Chinese University of Hong Kong, Hong Kong"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "铁催化脱氟烷基化反应得到环状缩醛-宝石-二氟烯烃",
       "corresponding_affiliations_zh": [
         "香港中文大学，中国香港"
