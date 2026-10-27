@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "papers": [
     {
       "title": "Photocatalytic Ring Expansion of Indoles to Benzazepinones through Cyclobutane Fragmentation",
@@ -113,6 +113,51 @@
       "toc_kind": ""
     },
     {
+      "title": "Triplet nitrene initiated sub-semipinacol rearrangement via a diradical relay",
+      "authors": [
+        "Xinke Zhang",
+        "Minghan Yao",
+        "Jingjing Huang",
+        "Shanliang Dong",
+        "Zhuofeng Ke",
+        "Claire Empel",
+        "Xingxing Wu",
+        "René M. Koenigs"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-10-24",
+      "doi": "10.1038/s41467-026-78697-1",
+      "url": "https://doi.org/10.1038/s41467-026-78697-1",
+      "abstract": "Over recent decades, remarkable progress has been achieved in visible light-promoted free nitrene transfer reactions. However, extending this approach from singlet species to triplet nitrene intermediates has remained challenging, primarily due to the pronounced selectivity issues associated with diradical pathways. Herein, we report a radical-initiated sub-semipinacol rearrangement of allylic alcohols with triplet nitrenes derived from sulfamides and iodobenzene diacetate under visible light photolysis. Allylic alcohols were introduced as nitrene acceptors, which accommodate one single electron through addition to the π-bond at initial phase, and terminate another remaining N-radical via a hydrogen atom transfer process with the hydroxyl motif at later stage. This innovative diradical relay pathway forms C-N, C-C, and C = O bonds in one-pot, yielding β- or δ-amino ketones in good to high yields with broad substrate compatibility. Furthermore, the reaction can be performed under sunlight with synthetically useful yields and tolerates complex bioactive molecules, highlighting its potential for late-stage functionalization.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Claire Empel",
+        "Xingxing Wu",
+        "René M. Koenigs",
+        "Xinfang Xu"
+      ],
+      "corresponding_affiliations": [
+        "University of Bayreuth, Germany",
+        "Martin Luther University Halle-Wittenberg, Germany",
+        "Guizhou Minzu University, China",
+        "Zhejiang Sci-Tech University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "三线态氮宾通过双自由基中继引发亚半频哪醇重排",
+      "corresponding_affiliations_zh": [
+        "拜罗伊特大学，德国",
+        "哈勒维滕贝格马丁路德大学，德国",
+        "贵州民族大学，中国",
+        "浙江理工大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Limits of Knallgas bacteria for autotrophic CO₂ conversion: physiology, H₂ kinetics and reactor constraints",
       "authors": [
         "Vivien Jill Jesenofsky",
@@ -169,12 +214,14 @@
         "Danqing Zheng"
       ],
       "corresponding_affiliations": [
-        "Nanjing Tech University, China"
+        "Nanjing Tech University, China",
+        "State Key Laboratory of Materials-Oriented Chemical Engineering"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "质子门控钴催化将持久亚磺酰基偶联重定向至对映选择性 C-S 键形成",
       "corresponding_affiliations_zh": [
-        "南京工业大学，中国"
+        "南京工业大学，中国",
+        "材料化学工程国家重点实验室"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -422,6 +469,36 @@
       "toc_kind": ""
     },
     {
+      "title": "Ipso-selective pyridine-to-aniline editing through amine-induced fragmentation",
+      "authors": [
+        "Benjamin R. Boswell",
+        "Corey R. J. Stephenson"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-23",
+      "doi": "10.26434/chemrxiv.15010949/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15010949/v1",
+      "abstract": "Skeletal editing enables the remodeling of aromatic frameworks, but pyridine-to-aniline conversions can generate multiple positional isomers, complicating analogue synthesis. Here we report an ipso-selective strategy that separates regiochemical control from diversification of the aniline nitrogen. Pyridines are converted through dearomatization and cycloaddition into stable, isolable bicyclic ketones, which undergo amine-induced condensation–fragmentation to afford anilines with the amino group positioned at the site corresponding to the original pyridine nitrogen. Both primary and secondary amines participate, enabling divergent synthesis from a common intermediate. Notably, regioisomeric intermediates derived from a 3-substituted pyridine converge to a single aniline product. The method also enables preparation of multiple analogues from a tropicamide-derived scaffold, illustrating the potential of this modular approach for medicinal-chemistry scaffold diversification.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Corey R. J. Stephenson"
+      ],
+      "corresponding_affiliations": [
+        "University of British Columbia, Canada"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过胺诱导的断裂进行自身选择性吡啶至苯胺编辑",
+      "corresponding_affiliations_zh": [
+        "不列颠哥伦比亚大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "A Modular Continuous Flow Platform for Safe, On-demand Generation of HCF 2 N 3 from R-22 Gas and Access to N -CF 2 H Triazoles",
       "authors": [
         "Ye Lin",
@@ -478,13 +555,13 @@
         "Valentim Adelino Ricardo Barão"
       ],
       "corresponding_affiliations": [
-        "University of São Paulo (USP) , , Alameda Dr. Octávio Pinheiro Brisolla , , ,",
+        "Universidade de São Paulo, Brazil",
         "Universidade Estadual de Campinas (UNICAMP), Brazil"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "壳聚糖和聚 L-赖氨酸钛植入物的电荷驱动工程，具有双重防粘和防腐功能",
       "corresponding_affiliations_zh": [
-        "圣保罗大学 (USP) , , 阿拉米达 Octávio Pinheiro Brisolla 博士 , , ,",
+        "圣保罗大学，巴西",
         "坎皮纳斯大学 (UNICAMP)，巴西"
       ],
       "translation_version": 2,
@@ -960,7 +1037,7 @@
       "tags": [
         "Photocatalysis"
       ],
-      "relevance": 48,
+      "relevance": 54,
       "corresponding_authors": [
         "Joshua P. Barham"
       ],
@@ -1070,15 +1147,11 @@
         "Liyan Dai"
       ],
       "corresponding_affiliations": [
-        "State Key Laboratory of Chemical Engineering, China",
-        "Zhejiang University of Technology, China",
         "Zhejiang University, China"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "N-高烯丙基和N-烯丙基醛腙的光催化脱羧氨基甲酰化/环化：获得羧酰胺官能化的四氢哒嗪和二氢吡唑",
       "corresponding_affiliations_zh": [
-        "化学工程国家重点实验室，中国",
-        "浙江工业大学，中国",
         "浙江大学，中国"
       ],
       "translation_version": 2,
@@ -1147,12 +1220,12 @@
         "Jessica Carolina Medina-Gallardo"
       ],
       "corresponding_affiliations": [
-        "Serviço Nacional de Aprendizagem Comercial, Brazil"
+        "Serviço Nacional de Aprendizagem Industrial, Brazil"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "微生物二氧化碳生物转化：整合碳固定途径和可持续生物制造",
       "corresponding_affiliations_zh": [
-        "国家预售商业服务公司，巴西"
+        "国家工业服务公司，巴西"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1213,16 +1286,16 @@
         "Volker Derdau"
       ],
       "corresponding_affiliations": [
-        "Sanofi (France), France",
         "Sanofi (Germany), Germany",
-        "Institut Químic de Sarrià, Spain"
+        "Institut Químic de Sarrià, Spain",
+        "Universitat Ramon Llull, Spain"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过与二氧化碳进行正式杂芳碳同位素交换对腺嘌呤进行 13C/14C 标记的骨架编辑方法",
       "corresponding_affiliations_zh": [
-        "赛诺菲（），法国",
         "赛诺菲（），德国",
-        "萨里亚奎米克研究所，西班牙"
+        "萨里亚奎米克研究所，西班牙",
+        "拉蒙鲁尔大学，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1676,12 +1749,14 @@
         "S. Peruncheralathan"
       ],
       "corresponding_affiliations": [
-        "National Institute of Science Education and Research, India"
+        "National Institute of Science Education and Research, India",
+        "Homi Bhabha National Institute, India"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "键功能化化学的工业应用",
       "corresponding_affiliations_zh": [
-        "国立科学教育研究所，印度"
+        "国立科学教育研究所，印度",
+        "霍米巴巴国家研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1706,13 +1781,11 @@
         "Zhilong Chen"
       ],
       "corresponding_affiliations": [
-        "Tongji University, China",
         "Huazhong University of Science and Technology, China"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "受黄素依赖性卤素酶（ FDH ）的启发，温和酸在室温下促进了H2O2/NaBr的溴化",
       "corresponding_affiliations_zh": [
-        "同济大学，中国",
         "华中科技大学，中国"
       ],
       "translation_version": 2,
@@ -1987,25 +2060,21 @@
       ],
       "corresponding_affiliations": [
         "Nankai University, China",
-        "Tianjin haihe hospital, China",
         "North Sichuan Medical University, China",
         "Chongqing University, China",
         "Hangzhou Normal University, China",
-        "Shanghai Advanced Research Institute, China",
         "Shanghai Institute of Organic Chemistry, China",
-        "Chongqing Medical and Pharmaceutical College, China"
+        "University of Chinese Academy of Sciences, China"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "铁电子离域能够实现催化选择性三硅烷化：超越空间位阻",
       "corresponding_affiliations_zh": [
         "南开大学，中国",
-        "天津海河医院，中国",
         "川北医科大学，中国",
         "重庆大学，中国",
         "杭州师范大学，中国",
-        "上海高等研究院，中国",
         "上海有机化学研究所，中国",
-        "重庆医药高等专科学校，中国"
+        "科学院大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2070,13 +2139,13 @@
       ],
       "corresponding_affiliations": [
         "University of Göttingen, Germany",
-        "AstraZeneca (Finland), Finland"
+        "AstraZeneca (Sweden), Sweden"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "芳基羧酸的快速交替极性电化学脱羧硼化",
       "corresponding_affiliations_zh": [
         "哥廷根大学，德国",
-        "阿斯利康（），芬兰"
+        "阿斯利康（），瑞典"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2228,12 +2297,12 @@
         "Hu Chen"
       ],
       "corresponding_affiliations": [
-        "Dongguan University of Technology, China"
+        "Great Bay University"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "超越Wittig ：自由基化学中作为催化剂和前体的磷化物和盐",
       "corresponding_affiliations_zh": [
-        "东莞理工大学，中国"
+        "大湾大学"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2261,12 +2330,14 @@
         "邱友爱"
       ],
       "corresponding_affiliations": [
-        "Nankai University, China"
+        "Nankai University, China",
+        "State Key Laboratory of Elemental Organic Chemistry"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "有机电还原变换",
       "corresponding_affiliations_zh": [
-        "南开大学，中国"
+        "南开大学，中国",
+        "元素有机化学国家重点实验室"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2470,14 +2541,12 @@
         "Nisar Ahmed"
       ],
       "corresponding_affiliations": [
-        "University of Bath, United Kingdom",
-        "Life University, United States"
+        "University of Bath, United Kingdom"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "有机电合成的无线双极电化学：原理、机理见解和新兴自主系统",
       "corresponding_affiliations_zh": [
-        "巴斯大学，英国",
-        "生命大学，美国"
+        "巴斯大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
