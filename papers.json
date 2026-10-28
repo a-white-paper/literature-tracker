@@ -1,6 +1,168 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "papers": [
+    {
+      "title": "Sustainable Electron Donor‐Acceptor Complex‐Mediated Decarboxylative C─C Coupling of Cinnamic Acids",
+      "authors": [
+        "Akash Balu Tambe",
+        "Yihan Tang",
+        "Eun Jin Cho"
+      ],
+      "journal": "ChemSusChem",
+      "date": "2026-10-26",
+      "doi": "10.1002/cssc.71176",
+      "url": "https://doi.org/10.1002/cssc.71176",
+      "abstract": "Developing catalyst‐free photochemical transformations that efficiently harness visible light remains an important challenge in sustainable organic synthesis. Herein, we report a visible‐light‐induced decarboxylative C─C coupling of readily available cinnamic acids with aryl diazonium salts for the stereoselective synthesis of stilbene derivatives. The reaction proceeds under transition‐metal‐ and photosensitizer‐free conditions using ethanol as a green solvent and K 2 CO 3 as an inexpensive base, providing a broad range of stilbenes in good to excellent yields with excellent E ‐selectivity. Remarkably, simply changing the irradiation wavelength enables access to the corresponding Z ‐stilbenes as the major stereoisomer, providing a convenient wavelength‐controlled stereodivergent protocol. The synthetic utility is further enhanced by gram‐scale synthesis and chromatographic purification‐free product isolation through simple recrystallization. Experimental studies combined with DFT calculations support an electron donor–acceptor (EDA)‐complex‐mediated photoinduced single‐electron‐transfer process that generates alkenyl and aryl radicals for subsequent radical–radical coupling. This work demonstrates the potential of EDA‐complex photochemistry as a practical and sustainable platform for catalyst‐free C─C bond formation.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 80,
+      "corresponding_authors": [
+        "Eun Jin Cho"
+      ],
+      "corresponding_affiliations": [
+        "Chung-Ang University, South Korea"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "可持续电子供体-受体复合物介导的肉桂酸脱羧 C─C 偶联",
+      "corresponding_affiliations_zh": [
+        "中央大学，韩国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Catalyst Control Over Alkoxyl Radical Reactivity by Electronically Tuned Titanium Photocatalysis",
+      "authors": [
+        "Yetong Lin",
+        "Jeffrey M. Lipshultz"
+      ],
+      "journal": "Synlett",
+      "date": "2026-10-26",
+      "doi": "10.1055/a-2983-0886",
+      "url": "https://doi.org/10.1055/a-2983-0886",
+      "abstract": "Abstract Alkoxyl radicals are versatile, high-energy intermediates in organic synthesis, whose reaction fate is typically dictated by intrinsic substrate electronics and geometry, leading to difficulties in reactivity control. Here, we describe the development of a strategy for catalyst-controlled alkoxyl radical reactivity via divergent ligand-to-metal charge-transfer (LMCT) excited state pathways of titanium alkoxide complexes. By electronically tuning features of Ti catalysts, the reaction course can be rationally switched between free alkoxyl radical generation via visible-light-induced homolysis (VLIH) and direct excited-state β-scission from a formally metal-bound alkoxyl radical species. This dual-pathway platform enables tandem β-scission/Giese addition of both scission-amenable and scission-recalcitrant alcohols, with intramolecular competition studies demonstrating a 102–103-fold rate enhancement of β-scission under catalyst-enforced conditions.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Jeffrey M. Lipshultz"
+      ],
+      "corresponding_affiliations": [
+        "Stony Brook University, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过电子调谐钛光催化控制烷氧基自由基反应性",
+      "corresponding_affiliations_zh": [
+        "石溪大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "EL-RAKHAWI QUANTUM-BIOMIMETIC CIRCULAR ECONOMY AND PROGRAMMABLE MATERIALS FRAMEWORK (QBCE-PM) A Unified Architecture for Zero-Waste Chemical Synthesis, Topologically Programmable Biopolymers, and Resonant Depolymerization for Absolute Material Circularity",
+      "authors": [
+        "mohamed kamal arafa el-rakhawi"
+      ],
+      "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+      "date": "2026-10-26",
+      "doi": "10.5281/zenodo.23659349",
+      "url": "https://doi.org/10.5281/zenodo.23659349",
+      "abstract": "The El-Rakhawi Quantum-Biomimetic Circular Economy and Programmable Materials Framework (QBCE-PM) revolutionizes materials science by transitioning from linear \"cradle-to-grave\" consumption to perpetual \"cradle-to-cradle\" regeneration through four integrated pillars: (1) Quantum-Enzymatic Hybrid Catalysts achieving near-perfect atom economy (>99.5%) through quantum tunneling-enhanced enzymatic selectivity, eliminating toxic by-products with E-factor ≈ 0; (2) Topologically Programmable Biopolymers synthesized from nano-cellulose and chitin with dynamic covalent bonds (Diels-Alder, disulfide, boronic ester) that maintain petroleum-plastic performance (tensile 30-70 MPa) during use but decompose into benign organic matter within 4-12 weeks when exposed to specific environmental triggers; (3) Targeted Resonant Depolymerization using frequency-tuned electromagnetic fields guided by Digital Molecular Passports to break polymer chains at characteristic vibrational frequencies, recovering >99.9% pure monomers at 100-150°C (70-90% energy reduction vs. pyrolysis); (4) Digital Molecular Passports via non-toxic carbon/silicon quantum dots with non-leaching siloxane shells enabling automated frequency-locked recycling. Mathematical models prove: degradation kinetics follows advanced Michaelis-Menten equation $\\frac{dM}{dt} = - \\frac{V_{max} \\cdot [S]}{K_m + [S]} \\cdot f(T, pH) \\cdot \\left(1 + \\alpha \\cdot \\frac{I_{trigger}}{I_{threshold}}\\right)$, ensuring accurate saturation and diffusion modeling; resonant depolymerization efficiency $E_{activation\\_effective} = E_{bond} \\cdot \\left(1 - \\frac{I_{resonance}}{I_{threshold}}\\right) - \\Delta G_{catalyst}$ enables selective bond cleavage; monomer recovery yield $Y_{mono} > 99.9\\%$ through frequency-lock guidance. Empirical projections demonstrate: atom economy >99.5% vs. 40-60% conventional synthesis; E-factor ≈ 0 vs. 25-100 pharmaceutical waste; biopolymer degradation 4-12 weeks vs. 400-1000 years petroleum plastic; infinite recycling cycles with >99.9% purity vs. 3-5 cycles mechanical recycling; carbon footprint 0.2-0.5 kg CO2/kg recycled monomer vs. 3.5-6.0 kg CO2/kg petroleum plastic, achieving 80-90% reduction. Protected by 7 comprehensive PCT claims covering quantum-enzymatic catalysis, topologically programmable biopolymers, frequency-locked resonant depolymerization, non-toxic molecular passports, integrated circular system, and net-negative carbon lifecycle, QBCE-PM enables complete petroleum plastic replacement, absolute material circularity, and perpetual regeneration. The framework transitions chemistry from waste generation to zero-waste synthesis, from persistent pollution to intelligent degradation, from inefficient recycling to absolute monomer recovery, honoring the sacred cycle of matter that transforms but never destroys, creating a clean planet where every atom is respected and reused indefinitely.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "mohamed kamal arafa el-rakhawi"
+      ],
+      "corresponding_affiliations": [],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "EL-RAKHAWI 量子仿生循环经济和可编程材料框架 (QBCE-PM) 零废物化学合成、拓扑可编程生物聚合物和绝对材料循环共振解聚的统一架构",
+      "corresponding_affiliations_zh": [],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Data-Driven Investigation of Asymmetric Photo-Organocatalyzed Alkylation of Indoles",
+      "authors": [
+        "Raymond Z. Lo",
+        "Simone Baldon",
+        "Luca Dell’Amico",
+        "Matthew S. Sigman",
+        "Cristian Rosso"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-10-25",
+      "doi": "10.1021/acscatal.6c06766",
+      "url": "https://doi.org/10.1021/acscatal.6c06766",
+      "abstract": "Abstract Enantioselective dual catalysis represents a powerful strategy for the preparation of functionally dense optically active compounds. Photocatalysis, paired with organocatalysis, undeniably represents a popular choice that takes advantage of radical and polar reactivity for crafting challenging bonds. Despite the interest in this methodology, the detailed analysis of the effects governing selectivity between the two catalytic cycles has not been extensively studied. Herein, we report a data-driven mechanistic study campaign to disclose the factors that influence the enantioselectivity of a photo-organocatalytic alkylation of indoles. Data science tools were used to generate a virtual library of potential substrates, thus ensuring the selection of a statistically diverse training set. Subsequent multivariate linear regression (MLR) analysis led to the identification of substrate electronic features as the key factor affecting the stereochemical outcome. Moreover, comprehensive mechanistic experiments unveiled the key role of the in situ generated oxindole intermediate that connects the two catalytic cycles in determining the observed selectivity. These findings lay the foundation for developing asymmetric dual catalytic transformations of synthetic relevance and provide a general platform for interrogating other complex catalytic systems.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Luca Dell’Amico",
+        "Matthew S. Sigman",
+        "Cristian Rosso"
+      ],
+      "corresponding_affiliations": [
+        "University of Padua, Italy",
+        "University of Utah, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "吲哚不对称光有机催化烷基化的数据驱动研究",
+      "corresponding_affiliations_zh": [
+        "帕多瓦大学，意大利",
+        "犹他大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Chiroptical Signatures and Asymmetric Electrosynthesis in Intrinsically Chiral B20 PtGa Crystals",
+      "authors": [
+        "Yudi Zhang",
+        "Qiunan Xu",
+        "孙文",
+        "Hanyang Qian",
+        "Yuzhe Ma",
+        "Jian Liu",
+        "Claudia Felser",
+        "Guowei Li"
+      ],
+      "journal": "Unknown journal",
+      "date": "2026-10-25",
+      "doi": "10.22541/authorea.15010994/v1",
+      "url": "https://doi.org/10.22541/authorea.15010994/v1",
+      "abstract": "Intrinsic chirality in inorganic crystals offers a direct way to couple lattice handedness with chiral optical, electronic, and surface chemical responses. Unlike chiral molecules, the handedness of such crystals is built into their atomic arrangement, making them attractive ligand-free platforms for stereoselective chemistry. However, whether this crystallographic chirality can drive asymmetric electrosynthesis remains unclear. Here, we report the emergence of chiroptical signatures and asymmetric electrosynthesis in monodisperse intrinsically chiral intermetallic nanoparticles. Structural analyses confirm the formation of cubic chiral PtGa, in which helically arranged Pt atoms create handed surface environments. Circular dichroism (CD) and circularly polarized Raman spectroscopy (CP-Raman) reveal clear chiroptical and chirality-dependent vibrational responses, confirming the intrinsic chiral character of PtGa. Using electrosynthesis of 1-phenylethanol (1-PE) as a probe reaction, PtGa achieves 98.5% conversion under optimized conditions and gives S-enriched 1-PE with an enantiomeric excess of about 55%. Chiral-recognition experiments and theoretical calculations indicate that the PtGa surface preferentially stabilizes S-configured intermediates and (S)-1-phenylethanol (S-PE) adsorption states by up to 0.2 eV. These results demonstrate that the intrinsic lattice chirality of PtGa can be translated into both measurable chiroptical signatures and enantioselective electrochemical reactivity, offering a model system to explore how mineral-like chiral surfaces may have contributed to the emergence of molecular handedness.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 57,
+      "corresponding_authors": [
+        "Guowei Li"
+      ],
+      "corresponding_affiliations": [
+        "Chinese Academy of Sciences, China",
+        "Ningbo Institute of Industrial Technology, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "本征手性 B20 PtGa 晶体中的手性光学特征和不对称电合成",
+      "corresponding_affiliations_zh": [
+        "科学院，中国",
+        "宁波工业技术学院，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Photocatalytic Ring Expansion of Indoles to Benzazepinones through Cyclobutane Fragmentation",
       "authors": [
@@ -142,7 +304,7 @@
       "corresponding_affiliations": [
         "University of Bayreuth, Germany",
         "Martin Luther University Halle-Wittenberg, Germany",
-        "Guizhou Minzu University, China",
+        "Guizhou University, China",
         "Zhejiang Sci-Tech University, China"
       ],
       "corresponding_source": "openalex_explicit",
@@ -150,7 +312,7 @@
       "corresponding_affiliations_zh": [
         "拜罗伊特大学，德国",
         "哈勒维滕贝格马丁路德大学，德国",
-        "贵州民族大学，中国",
+        "贵州大学，中国",
         "浙江理工大学，中国"
       ],
       "translation_version": 2,
@@ -215,13 +377,13 @@
       ],
       "corresponding_affiliations": [
         "Nanjing Tech University, China",
-        "State Key Laboratory of Materials-Oriented Chemical Engineering"
+        "State Key Laboratory of Materials-Oriented Chemical Engineering, China"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "质子门控钴催化将持久亚磺酰基偶联重定向至对映选择性 C-S 键形成",
       "corresponding_affiliations_zh": [
         "南京工业大学，中国",
-        "材料化学工程国家重点实验室"
+        "材料化学工程国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -322,7 +484,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过自由基 1,2-羰基迁移进行光化学钴催化的形式加氢酰化",
       "corresponding_affiliations_zh": [
-        "布伦瑞克工业大学，德国"
+        "不伦瑞克工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -827,7 +989,7 @@
       "corresponding_affiliations": [
         "Chinese Academy of Sciences, China",
         "Shanghai Institute of Organic Chemistry, China",
-        "State Key Laboratory of Organometallic Chemistry",
+        "State Key Laboratory of Organometallic Chemistry, China",
         "Fudan University, China"
       ],
       "corresponding_source": "openalex_explicit",
@@ -835,7 +997,7 @@
       "corresponding_affiliations_zh": [
         "科学院，中国",
         "上海有机化学研究所，中国",
-        "金属有机化学国家重点实验室",
+        "金属有机化学国家重点实验室，中国",
         "复旦大学，中国"
       ],
       "translation_version": 2,
@@ -1084,6 +1246,39 @@
       "corresponding_affiliations_zh": [
         "斯特拉斯克莱德大学，英国",
         "西部大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Automated DNA-Encoded Library Synthesis on Magnetic Anion Exchange Resin",
+      "authors": [
+        "Valerie J. Cavett",
+        "Santino L DeGirolamo",
+        "Erika Černá",
+        "Robert D. Damoiseaux",
+        "Brian M. Paegel"
+      ],
+      "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
+      "date": "2026-10-22",
+      "doi": "10.64898/2026.10.21.760614",
+      "url": "https://doi.org/10.64898/2026.10.21.760614",
+      "abstract": "Abstract DNA-encoded libraries (DELs) access vast chemical spaces for drug discovery, but split-and-pool DEL synthesis remains the sole and very manual portion of the DEL workflow. Here, we automate DEL construction using diethylaminoethyl-functionalized weak anion exchange (WAX) magnetic resin and a KingFisher Apex particle-handling instrument. DNA encoding occurs in solution, followed by selective immobilization of DNA conjugates under low-salt conditions that exclude > 95% of unused encoding oligonucleotides. On-DNA chemistry then proceeds using the WAX resin-adsorbed “WAX-ON” DNA substrate in neat organic solvent. The platform supports amide formation, reductive amination, copper-catalyzed azide–alkyne cycloaddition, and Fmoc removal. Automated bead transfer enables iterative reaction and washing cycles. We synthesized two-cycle 9,216-member DELs from 96 Fmoc-protected amino acids and 96 carboxylic acids. Control selections reproducibly enriched the carbonic anhydrase ligand sulfamoylbenzoic acid. Magnetic WAX-ON DEL synthesis is compatible with diverse chemistries and uses the same instrumentation to automate DEL construction and affinity screening.",
+      "tags": [
+        "Cu Catalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Brian M. Paegel"
+      ],
+      "corresponding_affiliations": [
+        "University of California, Irvine, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "在磁性阴离子交换树脂上自动合成 DNA 编码文库",
+      "corresponding_affiliations_zh": [
+        "加州大学欧文分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1419,12 +1614,13 @@
       ],
       "relevance": 80,
       "corresponding_authors": [
+        "S Liu",
         "Yunhe Jin"
       ],
       "corresponding_affiliations": [
         "Dalian University of Technology, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "光诱导电荷转移复合物介导的脱羧磷鏻化",
       "corresponding_affiliations_zh": [
         "大连理工大学，中国"
@@ -2297,12 +2493,12 @@
         "Hu Chen"
       ],
       "corresponding_affiliations": [
-        "Great Bay University"
+        "Great Bay University, China"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "超越Wittig ：自由基化学中作为催化剂和前体的磷化物和盐",
       "corresponding_affiliations_zh": [
-        "大湾大学"
+        "大湾大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2331,13 +2527,13 @@
       ],
       "corresponding_affiliations": [
         "Nankai University, China",
-        "State Key Laboratory of Elemental Organic Chemistry"
+        "State Key Laboratory of Elemental Organic Chemistry, China"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "有机电还原变换",
       "corresponding_affiliations_zh": [
         "南开大学，中国",
-        "元素有机化学国家重点实验室"
+        "元素有机化学国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2487,9 +2683,7 @@
       "authors": [
         "Hyunsu Kim",
         "Hyunsu Kim",
-        "Seonyoung Kim",
-        "Hyunwoo Kim",
-        "Hyunwoo Kim"
+        "Seonyoung Kim"
       ],
       "journal": "Advanced Synthesis & Catalysis",
       "date": "2026-10-05",
@@ -2503,8 +2697,7 @@
       "relevance": 70,
       "corresponding_authors": [
         "Hyunsu Kim",
-        "Seonyoung Kim",
-        "Hyunwoo Kim"
+        "Seonyoung Kim"
       ],
       "corresponding_affiliations": [
         "Pohang University of Science and Technology, South Korea"
@@ -2547,6 +2740,38 @@
       "title_zh": "有机电合成的无线双极电化学：原理、机理见解和新兴自主系统",
       "corresponding_affiliations_zh": [
         "巴斯大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Radical Hydrofunctionalization Using Light Driven, Reductive Cobalt Hydride Catalysis",
+      "authors": [
+        "Hanqi Zhou",
+        "He Chen",
+        "Christopher J. Teskey"
+      ],
+      "journal": "Accounts of Chemical Research",
+      "date": "2026-09-30",
+      "doi": "10.1021/acs.accounts.6c00516",
+      "url": "https://doi.org/10.1021/acs.accounts.6c00516",
+      "abstract": "First row transition metals such as iron, cobalt and manganese with weak-field ligands are able to form metal hydride species in situ which have a weak M-H bond. In these cases, the formal addition of a hydrogen atom to an olefin is thermodynamically favored. The high regio and chemoselectivity of this process, termed metal hydride hydrogen-atom-transfer (MHAT) catalysis, together with the broad availability of olefins and the divergent reaction pathways from the carbon centered radical that is formed, has resulted in a wide range of radical hydrofunctionalization strategies that have been used extensively in complex synthetic settings. Until around 5 years ago, a typical catalytic cycle for forming the metal hydride relied on oxidation as a first step, followed by reaction with a hydride equivalent. The requirement to find compatible oxidant/reductant pairs defined and limited the scope of this chemistry. However, several groups including our own recognized that it would instead be possible to first reduce the metal and then protonate the low-valent form to yield the same metal hydride species. This net reductive approach would unlock new avenues for onward reactivity, circumventing the compatibility issues associated with the reagents used previously. A number of different approaches to this reductive MHAT paradigm have been reported, using chemical reductants, electrochemistry or photochemistry. Our group has focused on the merger of cobalt catalysis and photocatalysis to enable new hydrofunctionalization reactivity. Under reductive reaction conditions, it is possible to simultaneously form a persistent radical via single electron reduction and couple this with the radical formed from the alkene. We have used this concept to couple alkenes with cyanoarenes, pyridyl phosphonium salts, ketones and imines. Radical rearrangements, initiated by MHAT, can take place that were previously inefficient or not possible under oxidative MHAT conditions. We have used this to promote aryl migration reactions, building new C-C bonds with sterically demanding aromatic groups. And most recently, we have reported the combination of MHAT catalysis with reductive radical polar crossover, a new type of reactivity that enables the use of an electrophile as a coupling partner, contrasting with the commonly reported oxidative radical polar crossover pathway where hydrofunctionalization takes place with nucleophiles. In summary, the reductive MHAT concept has reinvigorated interest in radical hydrofunctionalization reactions. Here, we present our journey in uncovering new reactivities accessible only through this catalytic paradigm, enabled by photochemistry. We are confident that both the synthetic utility and the broader appeal of this modern approach to classical MHAT reactivity will continue to increase in the coming years, driven by the growing demand for catalytic systems that employ earth-abundant transition metals and which enable direct functionalization of native olefin functionality.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 80,
+      "corresponding_authors": [
+        "Christopher J. Teskey"
+      ],
+      "corresponding_affiliations": [
+        "Technische Universität Braunschweig, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "使用光驱动还原氢化钴催化进行自由基氢官能化",
+      "corresponding_affiliations_zh": [
+        "不伦瑞克工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
