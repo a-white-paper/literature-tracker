@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "papers": [
     {
       "title": "Sustainable Electron Donor‐Acceptor Complex‐Mediated Decarboxylative C─C Coupling of Cinnamic Acids",
@@ -28,6 +28,73 @@
       "title_zh": "可持续电子供体-受体复合物介导的肉桂酸脱羧 C─C 偶联",
       "corresponding_affiliations_zh": [
         "中央大学，韩国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Stereoselective N-Glycosylation by Iron-Catalyzed Cross-Coupling of Glycosyl Phosphates",
+      "authors": [
+        "Shubhi Dwivedi",
+        "Sumeli Dasgupta",
+        "Abhijit Sau"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-26",
+      "doi": "10.26434/chemrxiv.15011051/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011051/v1",
+      "abstract": "Herein, we report an iron-catalyzed glycosyl cross-coupling strategy for stereoselective β-N-glycosylation through activation of glycosyl phosphate donors under mild conditions. Inspired by the reactivity of enzymes and the biological relevance of phosphate leaving groups, this biomimetic glycosyl phosphate enables efficient coupling of diverse Naglycones with both armed and disarmed sugars. The methodology exhibits broad substrate scope with excellent functional-group tolerance and high β-stereoselectivity. The synthetic utility of the protocol is demonstrated with over 58 examples, including late-stage functionalization of pharmaceutical and biologically relevant scaffolds, offering new opportunities to advance chemical biology, glycochemistry, and therapeutic discovery.",
+      "tags": [
+        "Fe Catalysis"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Abhijit Sau"
+      ],
+      "corresponding_affiliations": [
+        "Indian Institute of Technology Hyderabad, India"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "铁催化糖基磷酸酯交叉偶联的立体选择性 N-糖基化",
+      "corresponding_affiliations_zh": [
+        "理工学院海得拉巴分校，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Controlling dissociation equilibrium enables selective desalting of alkaline electrosynthetic formate by Donnan dialysis",
+      "authors": [
+        "Feng Wang",
+        "Le Zhang",
+        "Chengjun Peng",
+        "Liqun Shen",
+        "Jinna Huang",
+        "Ru Chen",
+        "Tao Li",
+        "Tehua Wang"
+      ],
+      "journal": "AIChE Journal",
+      "date": "2026-10-26",
+      "doi": "10.1002/aic.70735",
+      "url": "https://doi.org/10.1002/aic.70735",
+      "abstract": "Abstract Aqueous alkaline electrosynthesis enables production of formic acid (HCOOH) or formate (HCOO − ) using renewable electricity under mild conditions, but coexisting of alkaline electrolyte and organic product hinders downstream separation. Although membrane‐based desalination technologies are efficient, these processes suffer from product loss from transmembrane organic migration. Here, we propose that controlling the dissociation equilibrium of HCOOH/ HCOO − enables selective desalination of alkaline electrosynthetic formate by cation‐exchange membrane‐based Donnan dialysis. By simply controlling the feed pH, HCOOH/HCOO − exists exclusively as negatively charged HCOO − , exhibiting strong Donnan repulsion from the membrane surface and a high diffusion barrier within the membrane. Furthermore, using industrial waste acid as the receiver, combined with a monovalent‐cation‐selective membrane, improves the economic viability of formate desalination. This strategy converts the alkaline formate stream into a neutral solution compatible with established downstream processes, providing an energy‐efficient, scalable separation route for alkaline electrosynthesis.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Tehua Wang"
+      ],
+      "corresponding_affiliations": [
+        "Hunan University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "控制解离平衡可以通过唐南透析对碱性电合成甲酸盐进行选择性脱盐",
+      "corresponding_affiliations_zh": [
+        "湖南大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -84,6 +151,42 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "EL-RAKHAWI 量子仿生循环经济和可编程材料框架 (QBCE-PM) 零废物化学合成、拓扑可编程生物聚合物和绝对材料循环共振解聚的统一架构",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photochemical Synthesis of Planar-to-Helical BN Acenes",
+      "authors": [
+        "Lijie Liu",
+        "Xingxiao Wang",
+        "Wanjin Wu",
+        "Wang Jinjin",
+        "Yu Zhang",
+        "Lu Lin",
+        "Yan Tang",
+        "Tianjing Wu"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-26",
+      "doi": "10.26434/chemrxiv.15011043/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011043/v1",
+      "abstract": "BN-isosteric acenes offer new opportunities for structural and property modulation, but the synthesis and conformational control of highly fused BN acenes remain challenging. Here we develop a photochemical strategy to convert BN heterocyclic precursors into highly fused BN acenes. By varying substituent positions and ring-fusion orientations, we achieve a conformational evolution from planar to double-helical structures. Despite pronounced backbone distortion, the six-membered BN rings retain substantial local aromaticity. Conformational modulation gives rise to diverse photophysical properties, including long-lived phosphorescence and persistent afterglow. Enhanced air stability arises from the synergistic effects of steric shielding of the boron centres by the double-helical architecture and HOMO energy lowering upon π-extension. This work establishes a new route to highly fused BN acenes and provides opportunities for tuning their three-dimensional structures and properties.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "B Z Tang"
+      ],
+      "corresponding_affiliations": [
+        "Henan Agricultural University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "平面螺旋BN并苯的光化学合成",
+      "corresponding_affiliations_zh": [
+        "河南农业大学，中国"
+      ],
       "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
@@ -158,6 +261,44 @@
       "corresponding_affiliations_zh": [
         "科学院，中国",
         "宁波工业技术学院，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Constructive chemical discovery through autonomous reasoning and experiment",
+      "authors": [
+        "Yuzhi Xu",
+        "Max Wang",
+        "Zilong Yan",
+        "Yu Jiang",
+        "Yong Lu",
+        "Yuting Wang",
+        "Haohui Que",
+        "Zhengming Zhang"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-25",
+      "doi": "10.26434/chemrxiv.15011027/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011027/v1",
+      "abstract": "Making a new reaction often requires chemical knowledge that does not yet exist. Self-driving laboratories and language-model agents now plan, run and optimize experiments rapidly1–3, but deciding what to ask next still requires a chemist in the loop4. Here we report AIChemist, a robotic chemist for what we call constructive chemical discovery. It decides what to ask next from its own results, settles each question by calculation or experiment, and builds the next design on the answer. Given a silyl-radical-relay concept, AIChemist developed an asymmetric three-component silylcyanation: it established that the solvent effect depended on the oxidant formulation and built the next formulation on this finding, raising the yield from 20% to 67% at 88% enantiomeric excess. For an intermediate of the insecticide broflanilide, it designed a photoredox/nickel C–N coupling route free of nitro-group transformations, at lower estimated cost than the conventional route. When the base favoured by calculation performed poorly, it withdrew that premise and rebuilt the search around the reaction medium, where non-polar toluene raised the product's HPLC yield from 43% to 86%. In both cases, each conclusion extended what the system knew and became the starting point for the next. These results demonstrate a framework for autonomous chemical discovery in which chemical understanding and experimental design evolve together within a closed loop.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Tong Zhu"
+      ],
+      "corresponding_affiliations": [
+        "Shanghai Innovation Institute, China",
+        "East China Normal University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过自主推理和实验进行建设性的化学发现",
+      "corresponding_affiliations_zh": [
+        "上海创新研究院，中国",
+        "华东师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -484,7 +625,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过自由基 1,2-羰基迁移进行光化学钴催化的形式加氢酰化",
       "corresponding_affiliations_zh": [
-        "不伦瑞克工业大学，德国"
+        "布伦瑞克工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -725,6 +866,43 @@
       "corresponding_affiliations_zh": [
         "圣保罗大学，巴西",
         "坎皮纳斯大学 (UNICAMP)，巴西"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photoinduced Consecutive Ferrous‐ and Ferric‐Catalyzed Single‐Electron Transfers",
+      "authors": [
+        "Jiaqian Zhang",
+        "Na Zhang",
+        "Jinye Wu",
+        "Youhong Wang",
+        "Zhiqiang Pan",
+        "Chengfeng Xia"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-10-22",
+      "doi": "10.1002/anie.7397933",
+      "url": "https://doi.org/10.1002/anie.7397933",
+      "abstract": "Photoredox catalysis driven by iron has attracted substantial attention due to environmental and economic benefits. Current research predominantly focuses separately on the photoinduced ferric-catalyzed ligand-to-metal charge transfer (LMCT) and photoinduced ferrous-catalyzed electron transfer (ET) pathways, both of which require exogenous oxidants or reductants. Herein, we report a redox-neutral consecutive photoinduced ferric-catalyzed LMCT and ferrous-catalyzed ET for 1,2-dialkylation of alkenes. We find that the ferrous and ferric catalytic species are interconvertible within the reaction system to separately mediate decarboxylation and dehalogenation via the LMCT and ET pathways. The photoinduced iron-catalyzed consecutive LMCT and ET pathways simultaneously generate one alkyl radical and one benzyl radical, enabling regioselective dialkylation of alkenes via radical carbometallation and outer-sphere cross-coupling.",
+      "tags": [
+        "Photocatalysis",
+        "Fe Catalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 88,
+      "corresponding_authors": [
+        "Zhiqiang Pan",
+        "Chengfeng Xia"
+      ],
+      "corresponding_affiliations": [
+        "Yunnan University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光诱导连续亚铁和三价铁催化单电子转移",
+      "corresponding_affiliations_zh": [
+        "云南大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1195,7 +1373,7 @@
       "date": "2026-10-22",
       "doi": "10.1002/adsc.70783",
       "url": "https://doi.org/10.1002/adsc.70783",
-      "abstract": "Herein, we present a photocatalytic route that exploits a redox‐neutral tandem hydrogen atom transfer (HAT) and oxidative radical polar crossover (RPC) manifold. This method enables the efficient synthesis of valuable allylic amides and ethers through the valorization of three classes of ubiquitous feedstock chemicals: carboxylic acids as precursors to hydrogen atom abstractors, amides or ethers as C(sp 3 )─H donors, and olefins as radical acceptors. The protocol operates under mild conditions, exhibits broad functional group tolerance, and is readily scalable. The redox‐neutral nature of this transformation mechanistically distinguishes it from traditional net‐oxidative approaches associated with exogenous stoichiometric oxidants. Crucially, it allows HAT substrates bearing “hydridic” C─H bonds (e.g., α ‐ to heteroatom: X─C H R 1 R 2 ) to be engaged in Giese‐type addition reactions and subsequent oxidative RPC/nucleophilic trapping, where traditional net‐oxidative approaches inevitably result in Shono‐type further oxidation of the HAT‐derived radical (e.g ., α ‐ to heteroatom: X + ═CR 1 R 2 ) and nucleophilic interception prior to intermolecular radical addition.",
+      "abstract": "Herein, we present a photocatalytic route that exploits a redox-neutral tandem hydrogen atom transfer (HAT) and oxidative radical polar crossover (RPC) manifold. This method enables the efficient synthesis of valuable allylic amides and ethers through the valorization of three classes of ubiquitous feedstock chemicals: carboxylic acids as precursors to hydrogen atom abstractors, amides or ethers as C(sp 3 )–H donors, and olefins as radical acceptors. The protocol operates under mild conditions, exhibits broad functional group tolerance, and is readily scalable. The redox-neutral nature of this transformation mechanistically distinguishes it from traditional net-oxidative approaches associated with exogenous stoichiometric oxidants. Crucially, it allows the engagement of HAT substrates with ‘hydridic’ C−H bonds (e.g. α- to heteroatom: X−CHR 1 R 2 ) to be engaged in Giese-type addition reactions and subsequent oxidative RPC/nucleophilic trapping, where traditional netoxidative approaches inevitably result in Shono-type further oxidation of the HAT-derived radical (e.g. α- to heteroatom: X+=CR 1 R 2 ) and nucleophilic interception prior to intermolecular radical addition.",
       "tags": [
         "Photocatalysis"
       ],
@@ -1522,6 +1700,41 @@
       "title_zh": "磷(V)催化一锅法由羧酸和氨基醇合成恶唑啉",
       "corresponding_affiliations_zh": [
         "德克萨斯大学圣安东尼奥分校，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Visible‐Light‐Promoted Radical Tetrafluoroethylation/Cyclization of N ‐Alkenyl Indoles: Access to Tetrafluoroethylated Pyrrolo[1,2‐ a ]indoles",
+      "authors": [
+        "Siping Lin",
+        "Yecong Chang",
+        "Wencheng Luo",
+        "Kaiting Shen",
+        "Lili Xie",
+        "Yi Li"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-10-21",
+      "doi": "10.1002/adsc.70808",
+      "url": "https://doi.org/10.1002/adsc.70808",
+      "abstract": "Tetrafluoroethylated motifs are increasingly widespread in pharmaceuticals, agrochemicals, and functional materials. However, efficient and sustainable methods for their incorporation into complex polycyclic frameworks remain underdeveloped. Herein, we report a visible‐light‐promoted radical cascade cyclization of N ‐alkenyl indoles using readily available 1,2‐dibromotetrafluoroethane (BrCF 2 CF 2 Br) as a tetrafluoroethyl radical source. This mild protocol enables a facile one‐step construction of tetrafluoroethylated pyrrolo[1,2‐ a ]indoles bearing a quaternary carbon center. The reaction exhibits broad functional group tolerance, delivering the desired products in up to 95% isolated yield. Mechanistic studies support a photoredox radical cascade pathway. This work offers a sustainable and operationally simple approach to pharmaceutically relevant fluorinated polycyclic indoles from easily accessible starting materials.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Lili Xie",
+        "Yi Li"
+      ],
+      "corresponding_affiliations": [
+        "Fuzhou University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "可见光促进N-烯基吲哚的自由基四氟乙基化/环化：获得四氟乙基化吡咯并[1,2-a]吲哚",
+      "corresponding_affiliations_zh": [
+        "福州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1865,7 +2078,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "路易斯酸催化应变使双环[1.1.0]丁烷与吲哚醇的(3+3)环化：吲哚稠合氮杂双环[3.1.1]庚烷的合成",
       "corresponding_affiliations_zh": [
-        "理工学院德里分校，印度"
+        "理工学院德里，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1952,7 +2165,7 @@
       "title_zh": "键功能化化学的工业应用",
       "corresponding_affiliations_zh": [
         "国立科学教育研究所，印度",
-        "霍米巴巴国家研究所，印度"
+        "Homi Bhabha国家研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2224,6 +2437,56 @@
       "corresponding_affiliations_zh": [
         "山东大学，中国",
         "基米卡加泰罗尼亚调查研究所，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Enantioselective assembly of chiral α-perfluoroalkyl boranes bearing vicinal boron/carbon stereogenic centers via copper catalysis",
+      "authors": [
+        "Xinping Cai",
+        "Junyi Jia",
+        "Bofan Feng",
+        "Guan Zhang",
+        "Longlong Li",
+        "Bo-Han Zhu",
+        "Qiuling Song"
+      ],
+      "journal": "Chiral Chemistry",
+      "date": "2026-10-15",
+      "doi": "10.70401/cc.2026.0043",
+      "url": "https://doi.org/10.70401/cc.2026.0043",
+      "abstract": "Enantioselective assembly of chiral α-perfluoroalkylated organoboron compounds is a significant challenge in synthetic chemistry. Herein, a copper-catalyzed asymmetric B-H insertion reaction was employed to couple 2-arylpyridine-boranes with α-aryl-α-perfluoroalkyl diazomethanes, delivering over 40 novel chiral α-perfluoroalkylated organoboron compounds bearing boron/carbon vicinal stereogenic centers. This protocol accommodates a range of perfluoroalkyl substituents, including CF3, C2F5, C3F7, and C4F9. The reaction affords products in up to 85% yield, 99% ee, and dr > 20:1 for longer-chain perfluoroalkyl substrates. Mechanistic insights are provided by deuterium-labeling and KIE experiments, together with reference to previous related precedents. The scalability and further transformations of the reaction products demonstrate their potential usefulness in the synthetic community.",
+      "tags": [
+        "Cu Catalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Qiuling Song"
+      ],
+      "corresponding_affiliations": [
+        "Henan University, China",
+        "Chinese Academy of Sciences, China",
+        "Shanghai Institute of Organic Chemistry, China",
+        "University of Chinese Academy of Sciences, China",
+        "State Key Laboratory of Organometallic Chemistry, China",
+        "Henan Normal University, China",
+        "Fuzhou University, China",
+        "Nanjing University, China"
+      ],
+      "corresponding_source": "last_author_fallback_author_profile",
+      "title_zh": "通过铜催化对映选择性组装带有邻位硼/碳立构中心的手性α-全氟烷基硼烷",
+      "corresponding_affiliations_zh": [
+        "河南大学，中国",
+        "科学院，中国",
+        "上海有机化学研究所，中国",
+        "科学院大学，中国",
+        "金属有机化学国家重点实验室，中国",
+        "河南师范大学，中国",
+        "福州大学，中国",
+        "南京大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2682,8 +2945,8 @@
       "title": "Photocatalyst‐Free Hydrodifluoromethylation of Alkenes via Thiol‐Mediated Photoactivation of Zn(CF 2 H) 2 (DMPU) 2",
       "authors": [
         "Hyunsu Kim",
-        "Hyunsu Kim",
-        "Seonyoung Kim"
+        "Seonyoung Kim",
+        "Hyunwoo Kim"
       ],
       "journal": "Advanced Synthesis & Catalysis",
       "date": "2026-10-05",
@@ -2696,8 +2959,8 @@
       ],
       "relevance": 70,
       "corresponding_authors": [
-        "Hyunsu Kim",
-        "Seonyoung Kim"
+        "Seonyoung Kim",
+        "Hyunwoo Kim"
       ],
       "corresponding_affiliations": [
         "Pohang University of Science and Technology, South Korea"
@@ -2768,10 +3031,10 @@
       "corresponding_affiliations": [
         "Technische Universität Braunschweig, Germany"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "使用光驱动还原氢化钴催化进行自由基氢官能化",
       "corresponding_affiliations_zh": [
-        "不伦瑞克工业大学，德国"
+        "布伦瑞克工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
