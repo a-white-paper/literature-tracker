@@ -1,6 +1,139 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "papers": [
+    {
+      "title": "Diazonium Salts: Applications in Modern Bond Formations and Classical Named Reactions",
+      "authors": [
+        "Amima Yasmeen",
+        "Rashid Ali",
+        "Mohammad Shaheer"
+      ],
+      "journal": "Asian Journal of Organic Chemistry",
+      "date": "2026-10-28",
+      "doi": "10.1002/ajoc.70570",
+      "url": "https://doi.org/10.1002/ajoc.70570",
+      "abstract": "ABSTRACT Diazonium salts are remarkable intermediates and building blocks in synthetic organic chemistry and have developed into valuable partners in cross‐coupling reactions. By virtue of their ability to generate radicals, participation in metal‐catalyzed cross‐coupling as well as photoredox reactions etc., they enable in both construction of carbon‐heteroatom and carbon‐carbon bonds. Since their discovery by Peter Griess in 1858, numerous classical transformations have been developed over the years. In this particular review article, we provide a comprehensive overview of aryldiazonium salts as electrophilic coupling partners in modern organic synthesis. The discussion begins with the fundamental reactivity patterns of aryldiazonium salts and their mechanistic behavior. Subsequently, recent developments in C─C and C‐heteroatom bond‐forming reactions are being highlighted, with particularly emphasis on transition‐metal catalysis, photoredox catalysis, metal‐free methodologies, electrochemical approaches, and sustainable reaction platforms. Finally, the last revisits key organic named reactions involving diazonium salts from a modern perspective to illustrate their continuing significant medicinal and other applications in contemporary synthetic chemistry.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Rashid Ali"
+      ],
+      "corresponding_affiliations": [
+        "Jamia Millia Islamia, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "重氮盐：在现代键形成和经典命名反应中的应用",
+      "corresponding_affiliations_zh": [
+        "贾米亚·米利亚·伊斯兰，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A Diazaborolidine Nitronyl Nitroxide: Synthesis, Structure, and Electronic Properties",
+      "authors": [
+        "Igor Zayakin",
+        "Г.В. Романенко",
+        "Pavel G. Shangin",
+        "Mikhail A. Syroeshkin",
+        "E.V. Tretyakov"
+      ],
+      "journal": "Organometallics",
+      "date": "2026-10-28",
+      "doi": "10.1021/acs.organomet.6c00342",
+      "url": "https://doi.org/10.1021/acs.organomet.6c00342",
+      "abstract": "Abstract In this paper, we report the nitronyl nitroxide organoboron derivative, namely, 1,3-bis(2,6-diisopropylphenyl)-2-(4,4,5,5-tetramethyl-3-oxide-1-oxyl-4,5-dihydro-1H-imidazole-2-yl)-1,3,2-diazaborolidine. The paramagnet is stable under ambient conditions. It was characterized by electron spin resonance (ESR), cyclic voltammetry (CV), infrared (IR), and UV–vis spectroscopy, supported by quantum chemical calculations. The molecular and crystal structure of the diazaborolidine nitronyl nitroxide was determined by X-ray diffraction analysis. ESR spectroscopy combined with DFT calculations revealed spin density delocalization onto the boron atom. Cyclic voltammetry showed a reversible oxidation wave attributed to the nitronyl nitroxide moiety at E1/2 = 303 mV and an irreversible reduction process at Ep = −1815 mV (vs Fc/Fc+). This work expands the family of functional paramagnetic systems and opens new prospects for the design of high-spin organic magnets based on the chemistry of organoboron compounds.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "E.V. Tretyakov"
+      ],
+      "corresponding_affiliations": [
+        "Russian Academy of Sciences, Russia",
+        "N.D. Zelinsky Institute of Organic Chemistry, Russia"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "二氮杂硼烷硝基氮氧化物：合成、结构和电子性质",
+      "corresponding_affiliations_zh": [
+        "科学院，俄罗斯",
+        "N.D.泽林斯基有机化学研究所，俄罗斯"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Sustainable and Scalable Electrochemical Decarboxylative Cyanation of an Amino Acid Using KCN as Both Cyanide Source and Base",
+      "authors": [
+        "Peter D. Giang",
+        "Cristóbal Hormazábal-Campos",
+        "David Cantillo"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-27",
+      "doi": "10.26434/chemrxiv.15011156/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011156/v1",
+      "abstract": "Organic nitriles are an important class of compounds found in pharmaceuticals and agrochemicals, as well as useful intermediates in synthesis. Decarboxylative cyanation as a method to generate nitriles enables the use of widely available carboxylic acids as starting materials. Although this method has been well-explored synthetically, current methodologies often feature poor atom economy or require harsh reaction conditions. Herein, an electrochemical method for the decarboxylative cyanation of Cbz-protected alanine that uses inexpensive KCN as the cyanide source has been developed. The operationally simple procedure only requires electrolyzing a mixture of the amino acid with the cyanide in DMSO/EtOH as the solvent, without any additional chemicals such as base or supporting electrolyte, resulting in excellent green chemistry metrics. Using inexpensive graphite and stainless-steel as electrodes, excellent conversion and selectivity towards the desired nitrile product were obtained. Translation of the process to a flow electrolysis cell confirmed that the electrochemical protocol is scalable. Thus, gram amounts of material were obtained in a parallel plate reactor, with a space-time yield of 1026 g L-1 h-1. The space-time yield in the flow system was ca. 70 times larger than its batch counterpart, confirming the suitability of flow electrolysis cells for scale-up purposes.",
+      "tags": [
+        "Electrochemistry",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "David Cantillo"
+      ],
+      "corresponding_affiliations": [
+        "The University of Queensland, Australia"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "使用 KCN 作为氰化物源和碱对氨基酸进行可持续且可扩展的电化学脱羧氰化",
+      "corresponding_affiliations_zh": [
+        "昆士兰大学，澳大利亚"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Autonomous Experimentation Enables Rapid Optimization of Photochemical Continuous-Flow Synthesis of Diazaxanthilidene Fluorophores",
+      "authors": [
+        "Joao Luiz P. de Albuquerque",
+        "Scott Laverty",
+        "Mao Niimura",
+        "Ari Bortman",
+        "David M. Chenoweth",
+        "Andrew F. Zahrt"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-27",
+      "doi": "10.26434/chemrxiv.15011155/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011155/v1",
+      "abstract": "Photoconvertible diazaxanthilidene dyes enable optical labeling and tracking in live cells, but the batch photocyclization that generates them requires days of irradiation and analog-specific optimization. Here we report a closed-loop continuous-flow platform that uses Bayesian optimization to tune light intensity, temperature, flow rate, and concentration. In campaigns on the parent diazaxanthilidene and four analogs, the platform improved throughput for four of five compounds. For the parent diazaxanthilidene, photoconversion yield rose from approximately 69% in batch to 79%, while throughput increased from 0.52 to 87 nmol min-1. The platform autonomously performs >40 optimization experiments to turn a multiday, analog-specific batch synthesis into a same-day flow synthesis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Andrew F. Zahrt"
+      ],
+      "corresponding_affiliations": [
+        "University of Pennsylvania, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "自主实验能够快速优化二氮杂蒽基荧光团的光化学连续流合成",
+      "corresponding_affiliations_zh": [
+        "宾夕法尼亚大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Sustainable Electron Donor‐Acceptor Complex‐Mediated Decarboxylative C─C Coupling of Cinnamic Acids",
       "authors": [
@@ -24,7 +157,7 @@
       "corresponding_affiliations": [
         "Chung-Ang University, South Korea"
       ],
-      "corresponding_source": "openalex_explicit",
+      "corresponding_source": "last_author_fallback",
       "title_zh": "可持续电子供体-受体复合物介导的肉桂酸脱羧 C─C 偶联",
       "corresponding_affiliations_zh": [
         "中央大学，韩国"
@@ -934,7 +1067,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钯催化环丁烯通过迁移瓦克氧化环收缩",
       "corresponding_affiliations_zh": [
-        "美因茨约翰内斯古腾堡大学，德国"
+        "美因茨约翰内斯·古腾堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2078,7 +2211,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "路易斯酸催化应变使双环[1.1.0]丁烷与吲哚醇的(3+3)环化：吲哚稠合氮杂双环[3.1.1]庚烷的合成",
       "corresponding_affiliations_zh": [
-        "理工学院德里，印度"
+        "理工学院德里分校，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2165,7 +2298,7 @@
       "title_zh": "键功能化化学的工业应用",
       "corresponding_affiliations_zh": [
         "国立科学教育研究所，印度",
-        "Homi Bhabha国家研究所，印度"
+        "霍米巴巴国家研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2296,7 +2429,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钴催化的炔烃迁移硼氢化通过催化拉链样炔烃易位获得β-烯基硼酸酯",
       "corresponding_affiliations_zh": [
-        "首尔科学技术大学，韩国"
+        "国科大，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
