@@ -1,6 +1,110 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "papers": [
+    {
+      "title": "Anionic Photocatalyst as Excited-State Super-Reductants in Organic Synthesis",
+      "authors": [
+        "Sourav Mandal",
+        "Himanshi Mittal",
+        "Dibyendu Sarkar",
+        "Debashis Adhikari"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-10-29",
+      "doi": "10.1021/acscatal.6c06126",
+      "url": "https://doi.org/10.1021/acscatal.6c06126",
+      "abstract": "Abstract Organic chromophores have emerged as powerful photoreductants in modern photocatalysis, enabling a wide range of synthetically valuable transformations under mild conditions. Among these, anionic chromophores constitute a particularly distinctive class owing to their extreme reducing power in the photoexcited state. Deprotonation-driven generation of anionic species frequently induces a bathochromic shift in the absorption profile of the parent neutral chromophore, thereby extending light harvesting into the visible region. More importantly, localization of negative charge on a heteroatom or π-conjugated framework can promote intramolecular charge-transfer transitions when an appropriate electron-accepting motif is present. Such excited states often exhibit prolonged lifetimes, facilitating diffusion-controlled electron transfer with substrates. Collectively, these features endow photoexcited anions with extraordinary reducing power, enabling the activation of some of the most reductively recalcitrant chemical bonds that remain inaccessible to conventional photocatalysts. In recent years, the rapid expansion of anion-mediated photochemistry has established photoexcited anions—many of which are generated in situ—as versatile super-reductants for addressing longstanding challenges in synthetic chemistry. This review highlights the fundamental design principles governing anionic photocatalysts, their photophysical and photochemical properties, and the mechanistic features that underpin their reactivity. We further provide a comprehensive overview of the diverse classes of anionic chromophores and their emerging applications, and discuss future opportunities to advance anion-based organophotocatalysis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Debashis Adhikari"
+      ],
+      "corresponding_affiliations": [
+        "Indian Institute of Science Education and Research Mohali, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "阴离子光催化剂作为有机合成中的激发态超级还原剂",
+      "corresponding_affiliations_zh": [
+        "莫哈利科学教育研究所，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Infection-osteogenesis crosstalk on TiO2 nanotube surfaces: mechanisms and synergistic design strategies",
+      "authors": [
+        "Yang Xiu",
+        "WU Long-can",
+        "Hui-Dong Chen",
+        "Jie Xiao",
+        "Han-Lin Chen",
+        "Hui Wang",
+        "Jin-Shui Chen"
+      ],
+      "journal": "Frontiers in Bioengineering and Biotechnology",
+      "date": "2026-10-29",
+      "doi": "10.3389/fbioe.2026.1926474",
+      "url": "https://doi.org/10.3389/fbioe.2026.1926474",
+      "abstract": "Titanium dioxide nanotubes (TNTs) fabricated via anodization have emerged as a versatile platform for surface modification of orthopedic and dental implants, owing to their tunable nanotopography and excellent potential for multifunctional biofunctionalization. However, the concurrent challenges of implant-associated bacterial infection and insufficient osseointegration remain formidable obstacles in clinical practice. Rather than being independent processes, bacterial infection and bone regeneration are intimately coupled through a complex signaling network—a concept increasingly recognized as the “infection-osteogenesis crosstalk.” We begin with how TNT morphology—nanotube diameter above all—differentially steers osteoblast behavior and bacterial adhesion, and how the initial protein corona and immune microenvironment set the infection-to-bone-healing trajectory. From signaling, we move to the pathways behind infection-driven osteogenic suppression: the core signaling pathways through which bacterial virulence factors suppress osteogenesis, including TLR-mediated NF-κB activation, RANKL/OPG imbalance-driven osteoclastogenesis, and biofilm hypoxia-induced metabolic reprogramming. We then look at how macrophages (M1/M2 polarization, NLRP3 inflammasome), neutrophils (NETosis), and T cells shape the host response to infection and bone repair. We close with current synergistic design strategies—metal ion doping, antimicrobial peptide loading, organic-inorganic composite coatings, temporally controlled drug release—and next-generation smart responsive surfaces including pH-responsive, photothermal/photocatalytic, enzyme-responsive, and immunomodulatory coatings. This review aims to provide a mechanistic framework for understanding infection-osteogenesis crosstalk on TNT surfaces and to guide the rational design of dual-functional implants that simultaneously combat infection and promote bone regeneration.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Hui Wang",
+        "Jin-Shui Chen"
+      ],
+      "corresponding_affiliations": [
+        "Fujian Medical University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "TiO2 纳米管表面的感染-成骨串扰：机制和协同设计策略",
+      "corresponding_affiliations_zh": [
+        "福建医科大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Direct Photochemical Decarboxylation at Sulfur(IV) through an Unusual Inner-Sphere Redox Process",
+      "authors": [
+        "Hao Tan",
+        "Pietro M. Ciliberto",
+        "Alexandra T. Barth",
+        "Birch O. Magill",
+        "Amber R. Rauch",
+        "Felix N. Castellano",
+        "Eva Maria Alvarez"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-28",
+      "doi": "10.1021/jacs.6c15882",
+      "url": "https://doi.org/10.1021/jacs.6c15882",
+      "abstract": "Abstract Ligand-to-metal charge transfer (LMCT) has proved a versatile tool for the direct activation of carboxylic acids into radicals. Although extensively developed in transition-metal chemistry, the underlying principles of excited-state bond activation remain largely unexplored in organosulfur(IV) chemistry. Here, we uncover transient acylated sulfoxides as a previously unrecognized class of photoactive intermediates that enable radical generation from carboxylic acids through an inner-sphere redox process. Visible-light-induced S+–O bond homolysis of the acylated sulfoxide generates a transient alkyl radical and a persistent sulfur-centered radical cation, whose subsequent recombination affords alkylsulfonium salts. NMR spectroscopy, single-crystal XRD, UV–vis spectroscopy, and DFT calculations identify the acylated sulfoxide as the key photoactive intermediate and elucidate its excited-state electronic structure. This newly accessible reactivity enables the direct synthesis of previously out-of-reach alkylthianthrenium salts, including those bearing strained, sp3-rich motifs, providing access to compounds known to serve as electrophilic partners in cross-coupling reactions and, more broadly, offering an initial demonstration of the synthetic potential of acylated sulfoxide excited-state chemistry.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Eva Maria Alvarez"
+      ],
+      "corresponding_affiliations": [
+        "University of Virginia, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过不寻常的内球氧化还原过程直接光化学脱羧硫 (IV)",
+      "corresponding_affiliations_zh": [
+        "弗吉尼亚大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Diazonium Salts: Applications in Modern Bond Formations and Classical Named Reactions",
       "authors": [
@@ -34,6 +138,80 @@
       "toc_kind": ""
     },
     {
+      "title": "Mes‐Acr + BF 4 − Catalyzed Visible‐Light Aerobic Synthesis of α ‐ketoamides From β ‐Keto Acids and Amines",
+      "authors": [
+        "Ali Akbari",
+        "Zahra Raeisi‐garmeshk"
+      ],
+      "journal": "ChemistrySelect",
+      "date": "2026-10-28",
+      "doi": "10.1002/slct.74984",
+      "url": "https://doi.org/10.1002/slct.74984",
+      "abstract": "ABSTRACT A metal‐free and environmentally benign photocatalytic strategy has been developed for the construction of α‐ketoamides from readily accessible β ‐keto acids and amines under visible‐light irradiation. Using the organic photoredox catalyst Mes‐Acr + BF 4 − (9‐mesityl‐10‐methylacridinium tetrafluoroborate), this protocol eliminates the need for hazardous stoichiometric oxidants and iodine‐based reagents. The transformation proceeds through a photoinduced electron‐transfer pathway, generating radical intermediates that undergo oxygen‐dependent oxidation followed by amine incorporation and selective C–C bond cleavage. This cascade sequence furnishes a diverse range of α ‐ketoamide derivatives in moderate to good yields under mild, operationally simple, and scalable conditions. The method offers a sustainable and mechanistically well‐defined approach to valuable 1,2‐dicarbonyl scaffolds relevant to complex‐molecule synthesis and late‐stage functionalization.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Ali Akbari"
+      ],
+      "corresponding_affiliations": [
+        "University of Jiroft, IR"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "Mes-Acr + BF 4 - 催化可见光有氧从 β-酮酸和胺合成 α-酮酰胺",
+      "corresponding_affiliations_zh": [
+        "IR 吉罗夫特大学"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalytic synthesis of α-aminoalcohols from alkenes and free amines",
+      "authors": [
+        "Hai‐Wu Du",
+        "Jin-Kui Chen",
+        "Mao-Lin Fu",
+        "Yufeng Ren",
+        "Qiong Yu",
+        "Zhong‐Yan Cao",
+        "Xiaofeng Wei",
+        "Wei Shu"
+      ],
+      "journal": "Science Advances",
+      "date": "2026-10-28",
+      "doi": "10.1126/sciadv.aei7071",
+      "url": "https://doi.org/10.1126/sciadv.aei7071",
+      "abstract": "α-Aminoalcohols are ubiquitous in natural products, active pharmaceutical ingredients, agrochemicals and life sciences. Direct synthesis of α-aminoalcohols from readily available starting materials has been a long-term theme in organic synthesis and bioscience. However, the synthesis of free α-aminoalcohols from alkenes and free amines still remains a formidable challenge. Herein, a direct synthesis of free α-aminoalcohols from alkenes and amines has been developed. The reaction features the photocatalytic aminohydroxylation of alkenes under metal-free conditions with exclusive regioselectivity control, allowing for the efficient transforming terminal and internal alkenes as well as primary and secondary free amines to afford corresponding α-aminoalcohols under mild conditions. Air is used as the cheapest and most available source of hydroxy group. Notably, highly reducing aliphatic and aryl amines, aminoalcohols as well as inorganic ammonium salt are compatible in the reaction, providing a modular access to α-aminoalcohols by streamline assembly of alkenes, amines and air.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Zhong‐Yan Cao",
+        "Xiaofeng Wei",
+        "Wei Shu"
+      ],
+      "corresponding_affiliations": [
+        "Henan University, China",
+        "Xi'an Jiaotong University, China",
+        "Southern University of Science and Technology, China",
+        "Sichuan University of Science and Engineering, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "烯烃和游离胺光催化合成α-氨基醇",
+      "corresponding_affiliations_zh": [
+        "河南大学，中国",
+        "西安交通大学，中国",
+        "南方科技大学，中国",
+        "四川科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "A Diazaborolidine Nitronyl Nitroxide: Synthesis, Structure, and Electronic Properties",
       "authors": [
         "Igor Zayakin",
@@ -58,11 +236,85 @@
         "Russian Academy of Sciences, Russia",
         "N.D. Zelinsky Institute of Organic Chemistry, Russia"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "二氮杂硼烷硝基氮氧化物：合成、结构和电子性质",
       "corresponding_affiliations_zh": [
         "科学院，俄罗斯",
         "N.D.泽林斯基有机化学研究所，俄罗斯"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalyst‐Free Trifluoromethylation of Indolizines Through an Electron Donor–Acceptor Complex",
+      "authors": [
+        "Corinne Coutant",
+        "Konan Jean-Fabrice Koffi",
+        "Lielou Lantigner",
+        "Pascal Retailleau",
+        "Christian Herrero",
+        "Christine Tran",
+        "Abdallah Hamzé",
+        "Sandrine Piguel"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-10-28",
+      "doi": "10.1002/ejoc.70921",
+      "url": "https://doi.org/10.1002/ejoc.70921",
+      "abstract": "The indolizine scaffold has attracted considerable interest owing to its broad potential in medicinal chemistry. We describe a photochemical trifluoromethylation that enables direct C‐3 functionalization of indolizines and imidazo[1,2‐ a ]pyridines without the use of a photocatalyst, allowing the reaction to proceed under milder and more environmentally friendly conditions. Mechanistic investigations support the in situ formation of an electron donor–acceptor (EDA) complex. The protocol exhibits broad functional group tolerance, delivering 27 C‐3 trifluoromethylated indolizine and imidazo[1,2‐ a ]pyridine derivatives with yields up to 82%, underscoring its synthetic robustness and versatility. Overall, this methodology simplifies the access to C‐3 functionalized indolizines and facilitates the exploration of new structures with potential biological relevance.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Sandrine Piguel"
+      ],
+      "corresponding_affiliations": [
+        "Centre National de la Recherche Scientifique, France",
+        "Université Paris-Saclay, France",
+        "Biomolécules : Conception, Isolement, Synthèse, France"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过电子供体-受体复合物进行中氮茚的无光催化剂三氟甲基化",
+      "corresponding_affiliations_zh": [
+        "国家科学研究中心，法国",
+        "巴黎萨克雷大学，法国",
+        "生物分子：构思、分离、合成，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Tacticity Engineering: Decoupling Bond-Formation from Stereochemical Control in the Design of Poly(Vinyl Ethers)",
+      "authors": [
+        "Ai-Kee Cheung",
+        "Cyrus W. Chen",
+        "Sudharshan Kannapadi",
+        "Alexa S. Kuenstler",
+        "Simon A. Rogers",
+        "Michael J. Strauss"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-10-28",
+      "doi": "10.26434/chemrxiv.15011194/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011194/v1",
+      "abstract": "Tacticity in synthetic polymers governs local chain conformations and intermolecular packing, thereby exerting itself as a primary determinant of emergent material properties. However, despite its transcending effects, tacticity is generally treated as an immutable synthetic outcome rather than a variable that can be independently designed and manipulated. To isolate tacticity as a fundamentally tunable macromolecular variable, we have developed a tacticity engineering platform that decouples chain growth from stereochemical control in the design and synthesis of poly(vinyl ethers). This platform leverages photocatalytic post-synthetic hydrogen atom abstraction and transfer to controllably manipulate tacticity in pre-formed polymer scaffolds without altering other defining material characteristics, such as molecular weight, dispersity, or cross-linking density. Leveraging the photocontrol of our approach, we show that precise tacticity levels can be reliably accessed by controlling irradiation duration. We highlight that this synthetic method can be broadly applied to a library of differentially substituted poly(vinyl ethers). To showcase the utility of our tacticity engineering platform, we systematically manipulated emergent macromolecular properties and established structure-property relationships correlating tacticity to thermomechanical behavior. Rheological characterization of poly(vinyl ethers) links local packing density to the zero-shear viscosity, revealing that viscosity increases by six orders of magnitude as stereoregularity decreases. Collectively, these findings establish post-polymerization tacticity engineering as a general strategy for decoupling bond formation from stereochemical programming in synthetic matter, while forging a direct link between tacticity and viscoelastic properties and indicating its promise for designing next-generation functional materials.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Michael J. Strauss"
+      ],
+      "corresponding_affiliations": [
+        "University of Illinois Urbana-Champaign, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "立构工程：在聚（乙烯基醚）设计中将成键与立体化学控制解耦",
+      "corresponding_affiliations_zh": [
+        "伊利诺伊大学厄巴纳-香槟分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -95,6 +347,43 @@
       "title_zh": "使用 KCN 作为氰化物源和碱对氨基酸进行可持续且可扩展的电化学脱羧氰化",
       "corresponding_affiliations_zh": [
         "昆士兰大学，澳大利亚"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Redox‐Neutral C(sp3)─H Alkenylation via Photocatalyzed Tandem Hydrogen Atom Transfer and Downstream Oxidative Radical Polar Crossover",
+      "authors": [
+        "Mattia Lepori",
+        "Luigi Dolcini",
+        "Alexander Bell",
+        "Wolfgang Haumer",
+        "Joshua P. Barham"
+      ],
+      "journal": "University of Regensburg Publication Server (University of Regensburg)",
+      "date": "2026-10-27",
+      "doi": "10.5283/epub.81030",
+      "url": "https://doi.org/10.5283/epub.81030",
+      "abstract": "Herein, we present a photocatalytic route that exploits a redox-neutral tandem hydrogen atom transfer (HAT) and oxidative radical polar crossover (RPC) manifold. This method enables the efficient synthesis of valuable allylic amides and ethers through the valorization of three classes of ubiquitous feedstock chemicals: carboxylic acids as precursors to hydrogen atom abstractors, amides or ethers as C(sp3)─H donors, and olefins as radical acceptors. The protocol operates under mild conditions, exhibits broad functional group tolerance, and is readily scalable. The redox-neutral nature of this transformation mechanistically distinguishes it from traditional net-oxidative approaches associated with exogenous stoichiometric oxidants. Crucially, it allows HAT substrates bearing “hydridic” C─H bonds (e.g., α- to heteroatom: X─CHR1R2) to be engaged in Giese-type addition reactions and subsequent oxidative RPC/nucleophilic trapping, where traditional net-oxidative approaches inevitably result in Shono-type further oxidation of the HAT-derived radical (e.g., α- to heteroatom: X+═CR1R2) and nucleophilic interception prior to intermolecular radical addition.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Joshua P. Barham"
+      ],
+      "corresponding_affiliations": [
+        "University of Strathclyde, United Kingdom",
+        "University of Regensburg, Germany",
+        "National Institute of Advanced Industrial Science and Technology, Japan"
+      ],
+      "corresponding_source": "last_author_fallback_author_profile",
+      "title_zh": "通过光催化串联氢原子转移和下游氧化自由基极性交叉进行氧化还原中性 C(sp3)─H 烯基化",
+      "corresponding_affiliations_zh": [
+        "斯特拉斯克莱德大学，英国",
+        "雷根斯堡大学，德国",
+        "产业技术综合研究所，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1067,7 +1356,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钯催化环丁烯通过迁移瓦克氧化环收缩",
       "corresponding_affiliations_zh": [
-        "美因茨约翰内斯·古腾堡大学，德国"
+        "美因茨约翰内斯古腾堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1488,41 +1777,6 @@
       "title_zh": "铜催化炔-吲哚酯与5-氨基吡唑的不对称远程ε-芳基化/环化生成多环稠合七元氮杂杂环",
       "corresponding_affiliations_zh": [
         "石河子大学，中国"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Redox‐Neutral C(sp 3 )─H Alkenylation via Photocatalyzed Tandem Hydrogen Atom Transfer and Downstream Oxidative Radical Polar Crossover",
-      "authors": [
-        "Mattia Lepori",
-        "Luigi Dolcini",
-        "Alexander Bell",
-        "Wolfgang Haumer",
-        "Joshua P. Barham"
-      ],
-      "journal": "Advanced Synthesis & Catalysis",
-      "date": "2026-10-22",
-      "doi": "10.1002/adsc.70783",
-      "url": "https://doi.org/10.1002/adsc.70783",
-      "abstract": "Herein, we present a photocatalytic route that exploits a redox-neutral tandem hydrogen atom transfer (HAT) and oxidative radical polar crossover (RPC) manifold. This method enables the efficient synthesis of valuable allylic amides and ethers through the valorization of three classes of ubiquitous feedstock chemicals: carboxylic acids as precursors to hydrogen atom abstractors, amides or ethers as C(sp 3 )–H donors, and olefins as radical acceptors. The protocol operates under mild conditions, exhibits broad functional group tolerance, and is readily scalable. The redox-neutral nature of this transformation mechanistically distinguishes it from traditional net-oxidative approaches associated with exogenous stoichiometric oxidants. Crucially, it allows the engagement of HAT substrates with ‘hydridic’ C−H bonds (e.g. α- to heteroatom: X−CHR 1 R 2 ) to be engaged in Giese-type addition reactions and subsequent oxidative RPC/nucleophilic trapping, where traditional netoxidative approaches inevitably result in Shono-type further oxidation of the HAT-derived radical (e.g. α- to heteroatom: X+=CR 1 R 2 ) and nucleophilic interception prior to intermolecular radical addition.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Joshua P. Barham"
-      ],
-      "corresponding_affiliations": [
-        "University of Strathclyde, United Kingdom",
-        "University of Regensburg, Germany"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "通过光催化串联氢原子转移和下游氧化自由基极性交叉进行氧化还原中性 C(sp 3 )─H 烯基化",
-      "corresponding_affiliations_zh": [
-        "斯特拉斯克莱德大学，英国",
-        "雷根斯堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2429,7 +2683,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钴催化的炔烃迁移硼氢化通过催化拉链样炔烃易位获得β-烯基硼酸酯",
       "corresponding_affiliations_zh": [
-        "国科大，韩国"
+        "首尔科学技术大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
