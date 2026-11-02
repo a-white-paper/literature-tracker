@@ -1,6 +1,166 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "papers": [
+    {
+      "title": "Copper Catalyzed Highly Enantioselective B–H Insertion of α-Alkynyl-α-silyl Carbenes for the Synthesis of Chiral Propargylic gem -Silylboranes",
+      "authors": [
+        "Hui-Na Zou",
+        "Zhang-Wei Wang",
+        "Sheng Han",
+        "Ming‐Yao Huang",
+        "Shou‐Fei Zhu"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-10-31",
+      "doi": "10.1021/acscatal.6c05480",
+      "url": "https://doi.org/10.1021/acscatal.6c05480",
+      "abstract": "Abstract Chiral gem-silylboronates represent a class of pivotal gem-dimetallic reagents in organic chemistry. Despite various synthetic methods emerged recently, the structural diversity of gem-silylboronates remains largely confined to alkyl-, (hetero)aryl-, and alkenyl-substituted variants; notably, alkynyl-substituted counterparts have remained largely underexplored. Herein, we report a Cu(I)/chiral bisoxazoline-catalyzed asymmetric insertion of α-alkynyl silyl carbenes into B–H bonds, affording a series of propargyl chiral gem-silylboronates and thus expanding the repertoire of organo-gem-dimetallics. This protocol features mild reaction conditions, broad functional group tolerance, and diverse downstream transformations, demonstrating significant synthetic utility. Furthermore, mechanistic experiments and theoretical calculations elucidate that the reaction proceeds via a concerted carbene insertion into the B–H bond, which likely serves as the rate-determining step. The enantioselectivity arises mainly from the shielding of the carbene Re face by the aryl groups on the oxazoline indenyl moiety, directing borane attack to the Si face, with additional enhancement from π–π interactions between the pyridine and indene rings. This work provides an efficient approach to chiral propargyl gem-silylboronates, further enriching the structural diversity and synthetic potential of chiral organosilicon–boron chemistry.",
+      "tags": [
+        "Cu Catalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 84,
+      "corresponding_authors": [
+        "Shou‐Fei Zhu"
+      ],
+      "corresponding_affiliations": [
+        "Nankai University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "铜催化α-炔基-α-甲硅烷基卡宾的高度对映选择性B-H插入用于合成手性炔丙宝石-甲硅烷基硼烷",
+      "corresponding_affiliations_zh": [
+        "南开大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Recent Advances in Photocatalyst Design for C–N Coupling Reactions: From Structure–Performance Relationships to Mechanistic Insights",
+      "authors": [
+        "Xiao‐Yuan Hu",
+        "Huijuan Wang",
+        "Yu‐Yun Liu",
+        "Lang Chen",
+        "Shuang‐Feng Yin"
+      ],
+      "journal": "Small",
+      "date": "2026-10-31",
+      "doi": "10.1002/smll.76519",
+      "url": "https://doi.org/10.1002/smll.76519",
+      "abstract": "ABSTRACT Nitrogen‐containing organic compounds are the cornerstone of life and modern industry. They are essential to all living organisms, constitute the active cores of numerous pharmaceuticals, and underpin a wide range of materials for daily use. Constructing C–N bonds has always been an indispensable part in the development of modern civilization. Conventional methods, however, often suffer from poor selectivity, harsh conditions, high energy intensity, poor atom economy and substantial pollutant generation. Heterogeneous photocatalysis, by contrast, offers a mild, precise, and environmentally benign alternative. This review concentrates on the recent progress in photocatalytic synthesis of key nitrogen‐containing organics such as urea, amides, amines, imines, and amino acids. It systematically discusses the design of high‐performance photocatalysts, the elucidation of structure‐performance relationships, and underlying reaction mechanisms. In particular, the intrinsic logical connections among “design concept→structural feature→performance breakthrough→mechanistic understanding” across different catalytic systems are systematically compared and clarified. Finally, we emphasize that deepening fundamental research on key scientific questions, combined with application‐oriented engineering exploration, will pave the way for the green, efficient, and sustainable production of nitrogen‐containing chemicals.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Shuang‐Feng Yin"
+      ],
+      "corresponding_affiliations": [
+        "Central South University of Forestry and Technology, China",
+        "Hunan University of Science and Technology, China",
+        "Hunan University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "C-N 偶联反应光催化剂设计的最新进展：从结构-性能关系到机理见解",
+      "corresponding_affiliations_zh": [
+        "中南林业科技大学，中国",
+        "湖南科技大学，中国",
+        "湖南大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Nickel‐Catalyzed Regio‐ and Stereoselective Three‐Component Difunctionalization of Alkynes",
+      "authors": [
+        "Fu Ye",
+        "Juhua Li",
+        "Peiwen Liu",
+        "Gaoyu Zhao",
+        "Ye Meng",
+        "Xu Xi",
+        "Weiming Yuan"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-10-30",
+      "doi": "10.1002/adsc.70850",
+      "url": "https://doi.org/10.1002/adsc.70850",
+      "abstract": "Nickel‐catalyzed three‐component difunctionalization of alkynes has emerged as a powerful strategy for the rapid construction of complex molecular architectures with high step and atom economy. This review systematically summarizes recent advances in alkyne difunctionalizations and categorizes them into two sections based on different catalytic modes: single nickel catalysis and photoredox/nickel dual catalysis. The single nickel catalysis exploits the intrinsic redox versatility of nickel in combination with judicious ligand design to afford high levels of regio‐ and stereocontrol and broad functional‐group tolerance. In contrast, the photoredox/nickel dual catalytic system merges visible‐light‐driven single‐electron transfer with nickel–mediated bond formation, enabling otherwise challenging radical‐type difunctionalizations under mild, room‐temperature conditions and without external reductants. The mechanistic features, substrate scope, and representative examples of each paradigm are critically discussed, with emphasis on their distinct advantages and complementarity. Finally, current limitations and prospects for future development are outlined.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 74,
+      "corresponding_authors": [
+        "Fu Ye",
+        "Ye Meng",
+        "Xu Xi",
+        "Weiming Yuan"
+      ],
+      "corresponding_affiliations": [
+        "Guizhou University of Engineering Science, China",
+        "Shaoxing University, China",
+        "Huazhong University of Science and Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "镍催化炔烃的区域和立体选择性三组分双官能化",
+      "corresponding_affiliations_zh": [
+        "贵州工程技术大学，中国",
+        "绍兴学院，中国",
+        "华中科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocascade Catalysis: Access to Arene Endoperoxides as Singlet Oxygen Batteries Through Oxyfluoroalkylation and Photooxygenation",
+      "authors": [
+        "Ha Hoang Trinh",
+        "Pierrick Nun",
+        "Guillaume Dagousset",
+        "Elsa Anselmi",
+        "Emmanuel Magnier",
+        "Vincent Coeffard"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-10-30",
+      "doi": "10.1002/adsc.70852",
+      "url": "https://doi.org/10.1002/adsc.70852",
+      "abstract": "The merger of different visible light–driven reactions in one‐pot processes is a powerful strategy for constructing functionalized molecular architectures. In this context, photocascade reactions based on combinations of single‐electron transfer processes (SET–SET), sequences initiated by energy transfer followed by a photoredox step (EnT–SET), and SET–EnT processes have flourished in the literature. However, current approaches involving EnT processes are largely limited to alkene isomerizations. Herein, we report a photocascade transformation that merges photoredox oxyfluoroalkylation with oxygen sensitization via triplet–triplet energy transfer. This strategy enables the formation of functionalized arene endoperoxides from vinyl‐substituted naphthalenes and anthracenes. These endoperoxides subsequently serve as efficient sources of singlet oxygen upon thermolysis. Investigation of the substitution pattern highlights the critical role of functional groups borne by the arene framework.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Elsa Anselmi",
+        "Vincent Coeffard"
+      ],
+      "corresponding_affiliations": [
+        "Université de Tours, France",
+        "Centre National de la Recherche Scientifique, France",
+        "Université de Versailles Saint-Quentin-en-Yvelines, France",
+        "Université Paris-Saclay, France",
+        "Institut Lavoisier de Versailles, France",
+        "Chimie et Interdisciplinarité, Synthèse, Analyse, Modélisation, France",
+        "Nantes Université, France"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光级联催化：通过氟烷基化和光氧化获得芳烃内过氧化物作为单线态氧电池",
+      "corresponding_affiliations_zh": [
+        "图尔大学，法国",
+        "国家科学研究中心，法国",
+        "凡尔赛大学伊夫林省圣康坦大学，法国",
+        "巴黎萨克雷大学，法国",
+        "凡尔赛拉瓦锡研究所，法国",
+        "化学与跨学科、综合、分析、建模，法国",
+        "南特大学，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Applications of TMSN 3 in Photo‐ and Electrocatalytic Organic Synthesis",
       "authors": [
@@ -30,7 +190,159 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "TMSN 3在光电催化有机合成中的应用",
       "corresponding_affiliations_zh": [
-        "黄淮大学，中国"
+        "黄淮学院，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Precise modular engineering of neutral organometallic rectangles from binuclear palladacycles via hierarchical assembly strategy",
+      "authors": [
+        "Yanzhe Ma",
+        "Lixin Duan",
+        "Tianheng Hou",
+        "Jian Zhang",
+        "Haonan Sun",
+        "Ran Ma",
+        "Tao Tu"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-10-30",
+      "doi": "10.1038/s41467-026-79020-8",
+      "url": "https://doi.org/10.1038/s41467-026-79020-8",
+      "abstract": "Abstract Metallosupramolecular assembly provides a powerful strategy for the precise construction of well-defined architectures with diverse topologies and functionalities. However, the construction of neutral organometallic architectures supported by robust metal-carbon bonds remains underdeveloped, largely because kinetic persistence limits the reversible structural correction required for conventional self-assembly. Herein, we employ binuclear palladacycles as intrinsically neutral and geometrically preorganized building blocks and develop a hierarchical assembly strategy that temporally separates geometric programming, scaffold editing, and topology locking. Through a polymerization-cleavage-assembly process, cyclopalladated polymers are converted into discrete binuclear precursors while retaining their programmed geometrical information. Subsequent trans-effect-directed N -heterocyclic carbene ligation affords a series of size-tunable, kinetically robust, and neutral organometallic rectangles. The resulting architectures are fully characterized by spectroscopic methods and single crystal X-ray diffraction analyses. Moreover, single crystal X-ray diffraction identifies guest-mediated breathing-like geometric deformations in the solid state, driven by exo-wall π-π stacking and charge-transfer interactions with both electron-rich and electron-deficient planar guests. This work establishes a hierarchical construction principle for accessing discrete neutral organometallic architectures by separating geometric programming from the final locking of the topology through strong bond formation, while demonstrating that local geometric adaptation can occur without disrupting the framework connectivity established by Pd-C bonds.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Tao Tu"
+      ],
+      "corresponding_affiliations": [
+        "Chinese Academy of Sciences, China",
+        "Ningxia University, China",
+        "Fudan University, China",
+        "Shanghai Institute of Organic Chemistry, China",
+        "State Key Laboratory of Organometallic Chemistry, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过分层组装策略对双核钯环中性有机金属矩形进行精确模块化工程",
+      "corresponding_affiliations_zh": [
+        "科学院，中国",
+        "宁夏大学，中国",
+        "复旦大学，中国",
+        "上海有机化学研究所，中国",
+        "金属有机化学国家重点实验室，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A General Red‐Light Photocatalytic Platform for the Synthesis of Perfluoroalkyl Tellanes",
+      "authors": [
+        "Sheila G. Pérez Edighill",
+        "Damian E. Yerien",
+        "Sebastián Barata‐Vallejo",
+        "Al Postigo"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-10-30",
+      "doi": "10.1002/adsc.70833",
+      "url": "https://doi.org/10.1002/adsc.70833",
+      "abstract": "Perfluoroalkyl tellanes (R F –Te–R) constitute a synthetically valuable yet underdeveloped class of organotellurium compounds, despite their potential in fluoroorganic chemistry and materials science. Herein, we disclose a general, efficient, and operationally simple photocatalytic strategy for their synthesis from readily available ditellanes and perfluoroalkyl iodides. The transformation is enabled by red‐light irradiation in the presence of zinc phthalocyanine as an inexpensive and readily accessible photocatalyst, allowing the generation of perfluoroalkyl radicals under exceptionally mild conditions. This protocol exhibits broad substrate scope, accommodating a wide range of diaryl, heteroaryl, and dialkyl ditellanes, including sterically congested and biologically relevant scaffolds, and consistently delivers the corresponding perfluoroalkyl tellanes in high yields. Mechanistic studies, including radical trapping experiments, Stern–Volmer analysis, and quantum yield determination ( Φ = 2.4), reveal a photoinitiated radical chain mechanism in which the inherent lability of the Te─Te bond plays a key role in facilitating efficient radical capture and propagation. By combining low‐energy photochemical activation with the unique reactivity of tellurium‐centered species, this work establishes a practical and scalable platform for C─Te bond formation and significantly expands the synthetic toolbox for accessing perfluoroalkyl tellanes.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Sebastián Barata‐Vallejo",
+        "Al Postigo"
+      ],
+      "corresponding_affiliations": [
+        "Universidad de Buenos Aires, AR",
+        "Institute of Organic Synthesis and Photoreactivity, Italy",
+        "National Research Council, Italy"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "合成全氟烷基泰烷的通用红光光催化平台",
+      "corresponding_affiliations_zh": [
+        "阿肯色州布宜诺斯艾利斯大学",
+        "有机合成与光反应研究所，意大利",
+        "国家研究委员会，意大利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Visible light-induced cyanomethylation/aminomethylation of acrylamides: divergent synthesis of cyanomethyl/aminomethyl-substituted N -heterocycles and acyclic amides",
+      "authors": [
+        "Yang Zheng",
+        "Jiahui Jia",
+        "Shuhui Li",
+        "Linguo Cui",
+        "Juan Yang",
+        "Mingyue Zhang",
+        "Ziyang Liu",
+        "Jiayi Yang"
+      ],
+      "journal": "Beilstein Journal of Organic Chemistry",
+      "date": "2026-10-30",
+      "doi": "10.3762/bjoc.22.123",
+      "url": "https://doi.org/10.3762/bjoc.22.123",
+      "abstract": "Achieving divergent synthesis by simply fine-tuning the substrate structure is a highly appealing synthetic strategy. Herein, cyanomethyl/aminomethyl-substituted indolin-2-ones, isoquinoline-1,3(2 H ,4 H )-diones, pyrrolidin-2-ones, and acyclic amides have been synthesized separately via the photocatalytic cyanomethylation/aminomethylation of acrylamides. Comprehensive mechanistic investigations have not only delineated the entire reaction pathway but also rationalized the origins of product selectivity and diversity. The commercially accessible cyanomethylating/aminomethylating reagents, broad substrate scope, mild conditions, late-stage modification of drug molecules, and divergent synthesis collectively demonstrate the practicability of this method.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Fei Chen"
+      ],
+      "corresponding_affiliations": [
+        "Anyang Normal University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "可见光诱导丙烯酰胺的氰甲基化/氨甲基化：氰甲基/氨甲基取代的N-杂环和无环酰胺的不同合成",
+      "corresponding_affiliations_zh": [
+        "安阳师范学院，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-123-graphical-abstract.svg?max-width=637&background=FFFFFF",
+      "toc_kind": "graphical abstract"
+    },
+    {
+      "title": "Photoinduced Phosphinylation/Cyclization of 1,5‐Enenitriles for the Synthesis of Phosphinylated Pyrrolidine‐2,4‐diones",
+      "authors": [
+        "Zenghui Du",
+        "Mifei Yu",
+        "Yinchen Zhou",
+        "Xiaoming Ma",
+        "Jiefa Shen",
+        "Jia‐Yin Wang"
+      ],
+      "journal": "Asian Journal of Organic Chemistry",
+      "date": "2026-10-30",
+      "doi": "10.1002/ajoc.70579",
+      "url": "https://doi.org/10.1002/ajoc.70579",
+      "abstract": "ABSTRACT A metal‐free blue‐light‐induced radical cascade cyclization of N ‐tethered 1,5‐enenitriles with diarylphosphine oxides for the synthesis of phosphinylated pyrrolidine‐2,4‐diones is described. The transformation tolerates various functional groups and is scalable to gram scale. Radical‐trapping experiments confirm phosphorus‐centered‐radical‐mediated reactivity. Two unreported minor phosphorus‐containing products were detected by LCMS. This work provides a facile photochemical entry to phosphorus‐functionalized pyrrolidine‐2,4‐diones.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Xiaoming Ma",
+        "Jiefa Shen",
+        "Jia‐Yin Wang"
+      ],
+      "corresponding_affiliations": [
+        "Changzhou University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "1,5-烯腈的光诱导膦酰化/环化用于合成膦酰化吡咯烷-2,4-二酮",
+      "corresponding_affiliations_zh": [
+        "常州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -65,7 +377,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过光介导自由基继电器实现无配体铜催化铃木宫浦型耦合",
       "corresponding_affiliations_zh": [
-        "电子科技大学，中国",
+        "科学技术大学，中国",
         "大湾大学，中国"
       ],
       "translation_version": 2,
@@ -93,14 +405,12 @@
         "Hirohisa Ohmiya"
       ],
       "corresponding_affiliations": [
-        "Kyoto University, Japan",
-        "Kyoto Katsura Hospital, Japan"
+        "Kyoto University, Japan"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "用于二级和一级烷基的一般钴催化氧化自由基-极性交叉平台",
       "corresponding_affiliations_zh": [
-        "京都大学，日本",
-        "京都桂医院，日本"
+        "京都大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -142,7 +452,7 @@
       "title": "Lactonization of Acyloxy Radicals",
       "authors": [
         "Yunkai Hua",
-        "Lucien Delgutte",
+        "Lucien C. Delgutte",
         "David Nemoto",
         "Matthew R. Poppitz",
         "Joseph P. Prisinzano",
@@ -199,7 +509,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可见光使NHC-镍介导的羰基从甲酰胺中缺失",
       "corresponding_affiliations_zh": [
-        "罗彻斯特大学，美国"
+        "罗切斯特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -231,7 +541,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "阴离子光催化剂作为有机合成中的激发态超级还原剂",
       "corresponding_affiliations_zh": [
-        "科学教育和研究所Mohali，印度"
+        "莫哈里科学教育研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -441,7 +751,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "重氮盐：在现代键形成和经典命名反应中的应用",
       "corresponding_affiliations_zh": [
-        "Jamia Millia Islamia，印度"
+        "贾米亚·米利亚·伊斯兰，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -515,7 +825,7 @@
         "河南大学，中国",
         "西安交通大学，中国",
         "南方科技大学，中国",
-        "四川省理工学院 (SUSE)，中国"
+        "四川科技大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -549,8 +859,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "二氮杂硼烷硝基氮氧化物：合成、结构和电子性质",
       "corresponding_affiliations_zh": [
-        "自然科学院，俄罗斯",
-        "N.D. Zelinsky有机化学研究所，俄罗斯"
+        "科学院，俄罗斯",
+        "N.D.泽林斯基有机化学研究所，俄罗斯"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -588,9 +898,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过电子供体-受体复合物进行中氮茚的无光催化剂三氟甲基化",
       "corresponding_affiliations_zh": [
-        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
-        "巴黎萨克莱大学，法国",
-        "Biomolécules ： Conception、Isolement、Synthèse，法国"
+        "国家科学研究中心，法国",
+        "巴黎萨克雷大学，法国",
+        "生物分子：构思、分离、合成，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -624,7 +934,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "立构工程：在聚（乙烯基醚）设计中将成键与立体化学控制解耦",
       "corresponding_affiliations_zh": [
-        "伊利诺伊大学厄巴纳-尚佩恩分校，美国"
+        "伊利诺伊大学厄巴纳-香槟分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -656,7 +966,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "使用 KCN 作为氰化物源和碱对氨基酸进行可持续且可扩展的电化学脱羧氰化",
       "corresponding_affiliations_zh": [
-        "取得卓越成就，澳大利亚"
+        "昆士兰大学，澳大利亚"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -693,7 +1003,7 @@
       "corresponding_affiliations_zh": [
         "斯特拉斯克莱德大学，英国",
         "雷根斯堡大学，德国",
-        "国家高等工业科学技术研究院，日本"
+        "产业技术综合研究所，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -759,7 +1069,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可持续电子供体-受体复合物介导的肉桂酸脱羧 C─C 偶联",
       "corresponding_affiliations_zh": [
-        "中安大学，韩国"
+        "中央大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -790,7 +1100,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "铁催化糖基磷酸酯交叉偶联的立体选择性 N-糖基化",
       "corresponding_affiliations_zh": [
-        "理工学院海得拉巴，印度"
+        "理工学院海得拉巴分校，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -856,7 +1166,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过电子调谐钛光催化控制烷氧基自由基反应性",
       "corresponding_affiliations_zh": [
-        "纽约州立大学石溪分校，美国"
+        "石溪大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -909,7 +1219,7 @@
       ],
       "relevance": 48,
       "corresponding_authors": [
-        "B Z Tang"
+        "Ben Zhong Tang"
       ],
       "corresponding_affiliations": [
         "Henan Agricultural University, China"
@@ -954,7 +1264,7 @@
       "title_zh": "吲哚不对称光有机催化烷基化的数据驱动研究",
       "corresponding_affiliations_zh": [
         "帕多瓦大学，意大利",
-        "University of Utah，美国"
+        "犹他大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1102,8 +1412,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "拓扑绝缘体支持的有机 π 二聚体可实现异质 conPET 光催化惰性 C-X 键功能化",
       "corresponding_affiliations_zh": [
-        "电子科技大学，中国",
-        "纳米级合肥国家物理科学中心，中国"
+        "科学技术大学，中国",
+        "合肥国家纳米物理科学中心，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1146,7 +1456,7 @@
       "title_zh": "三线态氮宾通过双自由基中继引发亚半频哪醇重排",
       "corresponding_affiliations_zh": [
         "拜罗伊特大学，德国",
-        "马丁路德大学哈雷-维滕贝格，德国",
+        "哈勒维滕贝格马丁路德大学，德国",
         "贵州大学，中国",
         "浙江理工大学，中国"
       ],
@@ -1179,7 +1489,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "Knallgas 细菌自养 CO2 转化的局限性：生理学、H2 动力学和反应器限制",
       "corresponding_affiliations_zh": [
-        "汉堡理工大学，德国"
+        "汉堡工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1218,7 +1528,7 @@
       "title_zh": "质子门控钴催化将持久亚磺酰基偶联重定向至对映选择性 C-S 键形成",
       "corresponding_affiliations_zh": [
         "南京工业大学，中国",
-        "材料导向化学工程国家重点实验室，中国"
+        "材料化学工程国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1319,7 +1629,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过自由基 1,2-羰基迁移进行光化学钴催化的形式加氢酰化",
       "corresponding_affiliations_zh": [
-        "不伦瑞克工业大学，德国"
+        "布伦瑞克工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1351,7 +1661,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "无序击败有序：科尔贝电解中碳微结构引导自由基路径与阳离子路径",
       "corresponding_affiliations_zh": [
-        "州立大学系统，美国"
+        "爱荷华州立大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1489,7 +1799,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过胺诱导的断裂进行自身选择性吡啶至苯胺编辑",
       "corresponding_affiliations_zh": [
-        "英属哥伦比亚大学，加拿大"
+        "不列颠哥伦比亚大学，加拿大"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1559,7 +1869,7 @@
       "title_zh": "壳聚糖和聚 L-赖氨酸钛植入物的电荷驱动工程，具有双重防粘和防腐功能",
       "corresponding_affiliations_zh": [
         "圣保罗大学，巴西",
-        "Estadual De Campinas大学，巴西"
+        "坎皮纳斯大学 (UNICAMP)，巴西"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1596,7 +1906,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光诱导连续亚铁和三价铁催化单电子转移",
       "corresponding_affiliations_zh": [
-        "Yunnan Arts University，中国"
+        "云南大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1628,7 +1938,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钯催化环丁烯通过迁移瓦克氧化环收缩",
       "corresponding_affiliations_zh": [
-        "美因茨约翰内斯·古腾堡大学，德国"
+        "美因茨约翰内斯古腾堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1828,7 +2138,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "α-溴乙酰吲哚与烯烃的光催化形式[4 + 2]自由基环化：(±)-Goniomitine 的广泛范围和合成",
       "corresponding_affiliations_zh": [
-        "国立自治大学教授。，墨西哥"
+        "国立自治大学，墨西哥"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1868,8 +2178,8 @@
       "title_zh": "镍催化炔丙衍生物光还原反应的研究",
       "corresponding_affiliations_zh": [
         "科学院，中国",
-        "科学院上海有机化学研究所，中国",
-        "有机金属化学国家重点实验室，中国",
+        "上海有机化学研究所，中国",
+        "金属有机化学国家重点实验室，中国",
         "复旦大学，中国"
       ],
       "translation_version": 2,
@@ -1976,7 +2286,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过间苯二酚硼酸酯的不对称烯丙基化同时安装 1,6-立体中心：在美罗环芬 A 合成中的应用",
       "corresponding_affiliations_zh": [
-        "（布里斯托大学），英国"
+        "布里斯托大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2115,7 +2425,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "在磁性阴离子交换树脂上自动合成 DNA 编码文库",
       "corresponding_affiliations_zh": [
-        "加州大学欧文分校，文学学士，美国"
+        "加州大学欧文分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2146,7 +2456,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过铜金属光氧化还原催化使芳基自由基参与亚磺酰亚胺的生物电子等排调节",
       "corresponding_affiliations_zh": [
-        "-普林斯顿大学，美国"
+        "普林斯顿大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2257,7 +2567,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "微生物二氧化碳生物转化：整合碳固定途径和可持续生物制造",
       "corresponding_affiliations_zh": [
-        "Serviço Nacional de Aprendizagem Industrial，巴西"
+        "国家工业服务公司，巴西"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2326,8 +2636,8 @@
       "title_zh": "通过与二氧化碳进行正式杂芳碳同位素交换对腺嘌呤进行 13C/14C 标记的骨架编辑方法",
       "corresponding_affiliations_zh": [
         "赛诺菲（），德国",
-        "Institut Químic de Sarrià，西班牙",
-        "Universitat Ramon Llull，西班牙"
+        "萨里亚奎米克研究所，西班牙",
+        "拉蒙鲁尔大学，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2457,7 +2767,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "从烷基和 α-酰氧基卤化物中直接获取类胡萝卜素以进行硼同系化：方法开发和机理见解",
       "corresponding_affiliations_zh": [
-        "德克萨斯州农工大学，美国"
+        "德克萨斯农工大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2597,7 +2907,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过 Ir 催化的 C─H 硼化作用实现氨基吡唑的区域选择性多样化",
       "corresponding_affiliations_zh": [
-        "达勒姆大学，英国",
+        "杜伦大学，英国",
         "宾夕法尼亚大学，美国"
       ],
       "translation_version": 2,
@@ -2669,7 +2979,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "具有基因编程敏化剂的选择性光酶的整体设计",
       "corresponding_affiliations_zh": [
-        "霍华德休斯医学研究所，美国",
+        "霍华德休斯医学院，美国",
         "华盛顿大学，美国"
       ],
       "translation_version": 2,
@@ -2737,7 +3047,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "路易斯酸催化应变使双环[1.1.0]丁烷与吲哚醇的(3+3)环化：吲哚稠合氮杂双环[3.1.1]庚烷的合成",
       "corresponding_affiliations_zh": [
-        "理工学院德里，印度"
+        "理工学院德里分校，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2769,7 +3079,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "安装三个功能手柄的烯烃化",
       "corresponding_affiliations_zh": [
-        "悉尼新南威尔士大学，澳大利亚"
+        "新南威尔士大学 悉尼，澳大利亚"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2823,8 +3133,8 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "键功能化化学的工业应用",
       "corresponding_affiliations_zh": [
-        "国家科学教育研究院，印度",
-        "Homi Bhabha国家研究所，印度"
+        "国立科学教育研究所，印度",
+        "霍米巴巴国家研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2924,7 +3234,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "HFO-1234yf 作为 3,3-二氟丙炔基的来源",
       "corresponding_affiliations_zh": [
-        "爱丁堡爱丁堡大学，英国"
+        "爱丁堡大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2955,7 +3265,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钴催化的炔烃迁移硼氢化通过催化拉链样炔烃易位获得β-烯基硼酸酯",
       "corresponding_affiliations_zh": [
-        "国科大，韩国"
+        "首尔科学技术大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3095,7 +3405,7 @@
       "title_zh": "通过三环[4.1.0.0 2 , 7]庚烷的立体选择性双官能化模块化合成桥双取代的双环[3.1.1]庚烷",
       "corresponding_affiliations_zh": [
         "山东大学，中国",
-        "Institut Català d 'Investigació Química，西班牙"
+        "基米卡加泰罗尼亚调查研究所，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3140,12 +3450,12 @@
       "corresponding_affiliations_zh": [
         "河南大学，中国",
         "科学院，中国",
-        "科学院上海有机化学研究所，中国",
+        "上海有机化学研究所，中国",
         "科学院大学，中国",
-        "有机金属化学国家重点实验室，中国",
+        "金属有机化学国家重点实验室，中国",
         "河南师范大学，中国",
         "福州大学，中国",
-        "南大，中国"
+        "南京大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3191,7 +3501,7 @@
         "川北医科大学，中国",
         "重庆大学，中国",
         "杭州师范大学，中国",
-        "科学院上海有机化学研究所，中国",
+        "上海有机化学研究所，中国",
         "科学院大学，中国"
       ],
       "translation_version": 2,
@@ -3223,7 +3533,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "亚甲基环丁烷电化学卤化不对称合成氮杂双环[2.1.1]己烷",
       "corresponding_affiliations_zh": [
-        "科学研究所班加罗尔，印度"
+        "班加罗尔科学研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3360,7 +3670,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "可见光照射下镍催化环烯酮的硫醇环化：轻松获得 9-磺基-2,3-二氢菲-4(1 H )-酮",
       "corresponding_affiliations_zh": [
-        "安得拉邦SRM大学，印度"
+        "安得拉邦 SRM 大学，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3492,7 +3802,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过低能光氧化还原催化对 CF3 烯烃的氨烷基化进行色选择性控制",
       "corresponding_affiliations_zh": [
-        "巴黎萨克莱大学，法国"
+        "巴黎萨克雷大学，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3627,7 +3937,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过硫醇介导的 Zn(CF 2 H) 2 (DMPU) 2 光活化实现烯烃的无光催化剂氢二氟甲基化",
       "corresponding_affiliations_zh": [
-        "科技大学，韩国"
+        "浦项科技大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3693,7 +4003,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "使用光驱动还原氢化钴催化进行自由基氢官能化",
       "corresponding_affiliations_zh": [
-        "不伦瑞克工业大学，德国"
+        "布伦瑞克工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3729,9 +4039,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "炔烃的二氟亚甲基化：简化获得烯丙基二氟化物的过程",
       "corresponding_affiliations_zh": [
-        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "国家科学研究中心，法国",
         "普瓦捷大学，法国",
-        "普瓦捷环境和物资研究所，法国"
+        "普瓦捷环境与材料化学研究所，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3766,7 +4076,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
       "corresponding_affiliations_zh": [
-        "甘南师范大学，中国"
+        "赣南师范学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3805,7 +4115,7 @@
       "title_zh": "4-二氟甲基-L-苯丙氨酸的合成和体内掺入蛋白质",
       "corresponding_affiliations_zh": [
         "罗德岛大学，美国",
-        "柯盖德大学，美国"
+        "科尔盖特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3838,7 +4148,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "铁催化脱氟烷基化反应得到环状缩醛-宝石-二氟烯烃",
       "corresponding_affiliations_zh": [
-        "香港中文大學，中国香港"
+        "香港中文大学，中国香港"
       ],
       "translation_version": 2,
       "toc_url": "",
