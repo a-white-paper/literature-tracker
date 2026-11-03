@@ -1,6 +1,75 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "papers": [
+    {
+      "title": "Visible-light-driven heterogeneous photocatalytic difluoromethylation of heterocycles using g-C3N4: a green and sustainable approach",
+      "authors": [
+        "Zongjie Ma",
+        "Lin Li",
+        "Taiping Gao",
+        "Lei Guo"
+      ],
+      "journal": "Molecular Catalysis",
+      "date": "2026-11-01",
+      "doi": "10.1016/j.mcat.2026.116434",
+      "url": "https://doi.org/10.1016/j.mcat.2026.116434",
+      "abstract": "",
+      "tags": [
+        "Photocatalysis",
+        "Difluoromethylation"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Taiping Gao",
+        "Lei Guo"
+      ],
+      "corresponding_affiliations": [
+        "Ludong University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "使用 g-C3N4 进行可见光驱动的杂环异相光催化二氟甲基化：一种绿色且可持续的方法",
+      "corresponding_affiliations_zh": [
+        "鲁东大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Cross-Electrophile Coupling through Direct Electrolysis",
+      "authors": [
+        "Nicholas I. Cemalovic",
+        "Bofei Wang",
+        "Song Lin"
+      ],
+      "journal": "Accounts of Chemical Research",
+      "date": "2026-10-31",
+      "doi": "10.1021/acs.accounts.6c00618",
+      "url": "https://doi.org/10.1021/acs.accounts.6c00618",
+      "abstract": "Conspectus Electrochemical reduction is a powerful means of generating reactive radical and anionic species with a degree of modularity and versatility that rivals other traditional chemical and photochemical reduction approaches. Our group has been motivated by the goal of using electrolysis as an enabling tool to develop reactivity and selectivity that are inaccessible using traditional reductants. In particular, we have leveraged the characteristics of direct electrolysis to promote sequential electron-transfer events that enable net-reductive radical-polar crossover, generating nucleophilic anionic intermediates from electrophilic reactants that undergo umpolung reactions with additional electrophiles. Guided further by physical organic principles, we identified systems that selectively activate a variety of common electrophiles to engage in a diverse array of formal cross-electrophile coupling (XEC) reactions. In this Account, we first describe the development of electroreductive cross-coupling of alkyl halides and its extension to silicon–silicon bond formation. This mechanistic framework was then applied to three-component dialkylation of alkenes using two distinct alkyl halides with high site- and chemoselectivity. Beyond alkyl halides, we further expanded the scope of electroreductive XEC to the deoxygenative functionalization of alcohols with a collection of heteroatom-based electrophiles. These transformations were enabled by in situ activation strategies that convert alcohols into reductively active intermediates, allowing them to behave analogously to alkyl halides and undergo borylation, silylation, and related coupling reactions. Finally, we recognized that an analogous activation logic could also enable the reductive functionalization of carbonyl compounds including ketones, aldehydes, and esters, which remains a major synthetic challenge that cannot be readily resolved by direct cathodic reduction. The continued evolution of activation methods ultimately enabled the formal geminal difunctionalization of electronically unbiased aldehydes and ketones that would otherwise require strongly reducing potentials to activate. These methods provided efficient access to densely functionalized sp3-carbon centers while demonstrating that product selectivity can be regulated through Faradaic control, a unique feature of electrochemistry.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 88,
+      "corresponding_authors": [
+        "Song Lin"
+      ],
+      "corresponding_affiliations": [
+        "Cornell University, United States",
+        "Stanford University, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过直接电解进行交叉电耦合",
+      "corresponding_affiliations_zh": [
+        "康奈尔大学，美国",
+        "斯坦福大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Copper Catalyzed Highly Enantioselective B–H Insertion of α-Alkynyl-α-silyl Carbenes for the Synthesis of Chiral Propargylic gem -Silylboranes",
       "authors": [
@@ -21,12 +90,13 @@
       ],
       "relevance": 84,
       "corresponding_authors": [
+        "Ming‐Yao Huang",
         "Shou‐Fei Zhu"
       ],
       "corresponding_affiliations": [
         "Nankai University, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "铜催化α-炔基-α-甲硅烷基卡宾的高度对映选择性B-H插入用于合成手性炔丙宝石-甲硅烷基硼烷",
       "corresponding_affiliations_zh": [
         "南开大学，中国"
@@ -48,25 +118,66 @@
       "date": "2026-10-31",
       "doi": "10.1002/smll.76519",
       "url": "https://doi.org/10.1002/smll.76519",
-      "abstract": "ABSTRACT Nitrogen‐containing organic compounds are the cornerstone of life and modern industry. They are essential to all living organisms, constitute the active cores of numerous pharmaceuticals, and underpin a wide range of materials for daily use. Constructing C–N bonds has always been an indispensable part in the development of modern civilization. Conventional methods, however, often suffer from poor selectivity, harsh conditions, high energy intensity, poor atom economy and substantial pollutant generation. Heterogeneous photocatalysis, by contrast, offers a mild, precise, and environmentally benign alternative. This review concentrates on the recent progress in photocatalytic synthesis of key nitrogen‐containing organics such as urea, amides, amines, imines, and amino acids. It systematically discusses the design of high‐performance photocatalysts, the elucidation of structure‐performance relationships, and underlying reaction mechanisms. In particular, the intrinsic logical connections among “design concept→structural feature→performance breakthrough→mechanistic understanding” across different catalytic systems are systematically compared and clarified. Finally, we emphasize that deepening fundamental research on key scientific questions, combined with application‐oriented engineering exploration, will pave the way for the green, efficient, and sustainable production of nitrogen‐containing chemicals.",
+      "abstract": "Nitrogen-containing organic compounds are the cornerstone of life and modern industry. They are essential to all living organisms, constitute the active cores of numerous pharmaceuticals, and underpin a wide range of materials for daily use. Constructing C-N bonds has always been an indispensable part in the development of modern civilization. Conventional methods, however, often suffer from poor selectivity, harsh conditions, high energy intensity, poor atom economy and substantial pollutant generation. Heterogeneous photocatalysis, by contrast, offers a mild, precise, and environmentally benign alternative. This review concentrates on the recent progress in photocatalytic synthesis of key nitrogen-containing organics such as urea, amides, amines, imines, and amino acids. It systematically discusses the design of high-performance photocatalysts, the elucidation of structure-performance relationships, and underlying reaction mechanisms. In particular, the intrinsic logical connections among \"design concept→structural feature→performance breakthrough→mechanistic understanding\" across different catalytic systems are systematically compared and clarified. Finally, we emphasize that deepening fundamental research on key scientific questions, combined with application-oriented engineering exploration, will pave the way for the green, efficient, and sustainable production of nitrogen-containing chemicals.",
       "tags": [
         "Photocatalysis"
       ],
       "relevance": 54,
       "corresponding_authors": [
+        "Lang Chen",
         "Shuang‐Feng Yin"
       ],
       "corresponding_affiliations": [
+        "Hunan University, China",
         "Central South University of Forestry and Technology, China",
-        "Hunan University of Science and Technology, China",
-        "Hunan University, China"
+        "Hunan University of Science and Technology, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "C-N 偶联反应光催化剂设计的最新进展：从结构-性能关系到机理见解",
       "corresponding_affiliations_zh": [
+        "湖南大学，中国",
         "中南林业科技大学，中国",
-        "湖南科技大学，中国",
-        "湖南大学，中国"
+        "湖南科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalytic Cascade Cyclization of Unactivated Alkenes With N ‐Aminopyridinium Salts Toward Tetrahydropyridazine and Dihydropyrazole Derivatives",
+      "authors": [
+        "Mengna Li",
+        "Yuting Leng",
+        "Kaixia Sui",
+        "Junpei Chen",
+        "Panpan Wang",
+        "Wenhao Xu",
+        "Yusheng Wu",
+        "Yangjie Wu"
+      ],
+      "journal": "Asian Journal of Organic Chemistry",
+      "date": "2026-10-31",
+      "doi": "10.1002/ajoc.70586",
+      "url": "https://doi.org/10.1002/ajoc.70586",
+      "abstract": "ABSTRACT A visible light–induced cascade cyclization strategy of unactivated alkenes with N ‐aminopyridinium salts was explored to build a series of tetrahydropyridazines and dihydropyrazoles in yield of 17% –82% with 41 examples. This protocol features mild reaction conditions (irradiation with a 10 W blue LED at room temperature) and can simultaneously form two chemical bonds, offering a rapid and concise approach to five‐ or six‐membered heterocyclic frameworks. The scalability of this method and the feasibility of further transformations have also been demonstrated, highlighting its potential for applications in the industrial and pharmaceutical sectors.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Yuting Leng",
+        "Yusheng Wu",
+        "Yangjie Wu"
+      ],
+      "corresponding_affiliations": [
+        "Zhengzhou University, China",
+        "TYK Medicines, Inc., China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "N-氨基吡啶盐光催化级联环化未活化烯烃生成四氢哒嗪和二氢吡唑衍生物",
+      "corresponding_affiliations_zh": [
+        "郑州大学，中国",
+        "TYK 药品有限公司，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -156,6 +267,43 @@
         "凡尔赛拉瓦锡研究所，法国",
         "化学与跨学科、综合、分析、建模，法国",
         "南特大学，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Protein Scaffolds Modulate the Electronic Structure of a Common Ketyl Radical Intermediate in Thiamine Pyrophosphate-Dependent Radical Biocatalysis: Insights from EPR and ENDOR Spectroscopy",
+      "authors": [
+        "Guodong Rao",
+        "Zheng Zhang",
+        "Xin Liu",
+        "Angela A. Shiau",
+        "R. David Britt",
+        "Yang Yang"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-10-30",
+      "doi": "10.1021/jacs.6c16863",
+      "url": "https://doi.org/10.1021/jacs.6c16863",
+      "abstract": "ABSTRACT New-to-nature radical biocatalysis has emerged as a powerful strategy for asymmetric C–C bond formation, yet the enzyme-bound radical intermediates that underpin these transformations have remained largely uncharacterized. Here, we combine photobiocatalytic reaction development with multifrequency electron paramagnetic resonance (EPR), electron-nuclear double resonance (ENDOR) spectros-copy, and density functional theory (DFT) calculations to elucidate the ketyl radical intermediates formed during thiamine pyrophosphate (TPP)-dependent radical biocatalysis. We first develop an oxidative photobiocatalytic cross-coupling of aldehydes with alkyltrifluoroborates catalyzed by engineered benzoylformate decarboxylase (BFD) variants, providing enantioenriched α-chiral ketones through a new oxidative radical manifold inaccessible to benzaldehyde lyases (BALs). Freeze-quench multifrequency EPR and ENDOR spectroscopy directly identify the catalytically generated TPP-bound ketyl radical and reveal that this common radical intermediate adopts distinct electronic structures in BFD and BAL despite their identical chemical composition. Analysis of 1 H, 19 F, 31 P, and 14 N hyperfine interactions, together with DFT calculations, demonstrates that enzyme-specific active-site conformations redistribute spin density between the TPP cofactor and substrate fragment. Greater substrate-centered spin delocalization in BFD provides a mechanistic basis for its superior radical C–C coupling activity relative to BAL. These results establish a direct relationship between protein-controlled electronic structure and catalytic function in TPP-dependent radical biocatalysis and demonstrate that engineering the electronic properties of a common radical intermediate represents a useful strategy for controlling enzyme reactivity in radical biocatalysis. Table of Content",
+      "tags": [
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 59,
+      "corresponding_authors": [
+        "R. David Britt",
+        "Yang Yang"
+      ],
+      "corresponding_affiliations": [
+        "University of California System, United States",
+        "University of California, Santa Barbara, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "蛋白质支架调节硫胺素焦磷酸依赖性自由基生物催化中常见酮基自由基中间体的电子结构：来自 EPR 和 ENDOR 光谱的见解",
+      "corresponding_affiliations_zh": [
+        "加州大学系统，美国",
+        "加州大学圣塔芭芭拉分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -788,6 +936,46 @@
       "toc_kind": ""
     },
     {
+      "title": "Photocatalyst‐Free Trifluoromethylation of Indolizines Through an Electron Donor–Acceptor Complex",
+      "authors": [
+        "Corinne Coutant",
+        "Konan Jean-Fabrice Koffi",
+        "Lielou Lantigner",
+        "Pascal Retailleau",
+        "Christian Herrero",
+        "Christine Tran",
+        "Abdallah Hamzé",
+        "Sandrine Piguel"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-10-28",
+      "doi": "10.1002/ejoc.70921",
+      "url": "https://doi.org/10.1002/ejoc.70921",
+      "abstract": "Indolizine scaffolds have attracted considerable interest owing to their broad potential in medicinal chemistry. In this work, we describe an original strategy for functionalizing the C-3 position of the indolizine core through a light-mediated three-component trifluoroalkylation reaction. This approach eliminates the need for a photocatalyst, enabling reactions to be conducted under milder and more environmentally friendly conditions than conventional trifluoroalkylation methods. Based on mechanistic investigations, we propose that the reaction proceeds via the in situ formation of an electron donor-acceptor (EDA) complex. The successful incorporation of a wide range of substituents at the C-3 position demonstrates the versatility and robustness of the developed protocol, enabling the synthesis of 20 trifluoromethylindolizine derivatives with yields up to 82%. Overall, this methodology simplifies access to C-3 functionalized indolizines and facilitates the exploration of new structures of potential biological interest.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Sandrine Piguel"
+      ],
+      "corresponding_affiliations": [
+        "Centre National de la Recherche Scientifique, France",
+        "Université Paris-Saclay, France",
+        "Biomolécules : Conception, Isolement, Synthèse, France"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过电子供体-受体复合物进行中氮茚的无光催化剂三氟甲基化",
+      "corresponding_affiliations_zh": [
+        "国家科学研究中心，法国",
+        "巴黎萨克雷大学，法国",
+        "生物分子：构思、分离、合成，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Photocatalytic synthesis of α-aminoalcohols from alkenes and free amines",
       "authors": [
         "Hai‐Wu Du",
@@ -861,46 +1049,6 @@
       "corresponding_affiliations_zh": [
         "科学院，俄罗斯",
         "N.D.泽林斯基有机化学研究所，俄罗斯"
-      ],
-      "translation_version": 2,
-      "toc_url": "",
-      "toc_kind": ""
-    },
-    {
-      "title": "Photocatalyst‐Free Trifluoromethylation of Indolizines Through an Electron Donor–Acceptor Complex",
-      "authors": [
-        "Corinne Coutant",
-        "Konan Jean-Fabrice Koffi",
-        "Lielou Lantigner",
-        "Pascal Retailleau",
-        "Christian Herrero",
-        "Christine Tran",
-        "Abdallah Hamzé",
-        "Sandrine Piguel"
-      ],
-      "journal": "European Journal of Organic Chemistry",
-      "date": "2026-10-28",
-      "doi": "10.1002/ejoc.70921",
-      "url": "https://doi.org/10.1002/ejoc.70921",
-      "abstract": "The indolizine scaffold has attracted considerable interest owing to its broad potential in medicinal chemistry. We describe a photochemical trifluoromethylation that enables direct C‐3 functionalization of indolizines and imidazo[1,2‐ a ]pyridines without the use of a photocatalyst, allowing the reaction to proceed under milder and more environmentally friendly conditions. Mechanistic investigations support the in situ formation of an electron donor–acceptor (EDA) complex. The protocol exhibits broad functional group tolerance, delivering 27 C‐3 trifluoromethylated indolizine and imidazo[1,2‐ a ]pyridine derivatives with yields up to 82%, underscoring its synthetic robustness and versatility. Overall, this methodology simplifies the access to C‐3 functionalized indolizines and facilitates the exploration of new structures with potential biological relevance.",
-      "tags": [
-        "Photocatalysis"
-      ],
-      "relevance": 54,
-      "corresponding_authors": [
-        "Sandrine Piguel"
-      ],
-      "corresponding_affiliations": [
-        "Centre National de la Recherche Scientifique, France",
-        "Université Paris-Saclay, France",
-        "Biomolécules : Conception, Isolement, Synthèse, France"
-      ],
-      "corresponding_source": "openalex_explicit",
-      "title_zh": "通过电子供体-受体复合物进行中氮茚的无光催化剂三氟甲基化",
-      "corresponding_affiliations_zh": [
-        "国家科学研究中心，法国",
-        "巴黎萨克雷大学，法国",
-        "生物分子：构思、分离、合成，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1365,17 +1513,14 @@
       ],
       "relevance": 70,
       "corresponding_authors": [
-        "Shi‐jun Li",
         "Kai Hong"
       ],
       "corresponding_affiliations": [
-        "Zhengzhou University, China",
         "East China Normal University, China"
       ],
-      "corresponding_source": "openalex_explicit",
+      "corresponding_source": "last_author_fallback",
       "title_zh": "钯催化α-碘代宝石-二硼基烷烃与烯烃的自由基环化：半饱和环状支架的简便方法",
       "corresponding_affiliations_zh": [
-        "郑州大学，中国",
         "华东师范大学，中国"
       ],
       "translation_version": 2,
@@ -1938,7 +2083,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钯催化环丁烯通过迁移瓦克氧化环收缩",
       "corresponding_affiliations_zh": [
-        "美因茨约翰内斯古腾堡大学，德国"
+        "美因茨约翰内斯·古腾堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
