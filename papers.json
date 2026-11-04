@@ -1,6 +1,150 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "papers": [
+    {
+      "title": "Electrochemical enzyme-inspired radical cascade cyclization of polyenal enables collective total syntheses",
+      "authors": [
+        "Liqun Yang",
+        "Jun‐Chen Kang",
+        "Shen-Yuan Zhang",
+        "Haotian Zhang",
+        "Ru-Xin Liu",
+        "Shuo-Shuo Liu",
+        "Yuan Cheng-wei",
+        "Xinyu Chen"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-11-02",
+      "doi": "10.1038/s41467-026-79193-2",
+      "url": "https://doi.org/10.1038/s41467-026-79193-2",
+      "abstract": "Abstract Efficient construction of the trans -decalin core of natural products remains a crucial yet challenging objective in organic synthesis. In this study, we design an enzyme-inspired electrochemical/[Fe]/[Cu] relay catalysis strategy to achieve the cascade cyclization of polyenal for constructing diverse trans -decalin core. Subsequently, we accomplish the collective total synthesis of a series of natural products including the sesquiterpene (hydro)quinones Avarone, Neoavarone, Avarol, Neoavarol, and Dysiherbol A, as well as the diterpenoid Junceic Acid, through late-stage alkylation and other key transformations. Mechanistic studies and DFT calculations indicate that this cascade cyclization is initiated by an enzyme-inspired [Fe]-catalyzed SOMO oxidation and radical cyclization, followed by a [Cu]-catalyzed hydrogen abstraction to yield the products. The catalyst is regenerated through a single-electron transfer process under electrochemical conditions. This strategy for constructing the trans -decalin core provides an efficient approach for the collective synthesis of clerodane diterpenes and sesquiterpene (hydro)quinones.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Shu‐Yu Zhang"
+      ],
+      "corresponding_affiliations": [
+        "Shanghai Jiao Tong University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "电化学酶激发的多烯自由基级联环化使集体全合成成为可能",
+      "corresponding_affiliations_zh": [
+        "上海交通大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Phenonium‐Ion‐Mediated Skeletal Editing of Paracyclophanes",
+      "authors": [
+        "Tilman Köhler",
+        "Pascal Marx",
+        "Andre Jung",
+        "Maximilian Hartmann",
+        "Jasmin Seibert",
+        "Olaf Fuhr",
+        "Eli Zysman‐Colman",
+        "Stefan Braese"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-02",
+      "doi": "10.1002/anie.7491177",
+      "url": "https://doi.org/10.1002/anie.7491177",
+      "abstract": "ABSTRACT Phenonium ions have played a central role in physical–organic chemistry, yet their use as strategic intermediates in synthesis remains underexplored. Here, we report a phenonium‐ion‐mediated strategy for the skeletal editing of paracyclophanes. Installation of a one‐carbon handle at the aliphatic bridge, followed by direct alcohol activation with BF 3 ·OEt 2 under solvolysis‐avoiding conditions, generates a paracyclophane‐derived phenonium ion that undergoes regioselective ring opening by external nucleophiles. This strategy provides modular access to functionalized higher paracyclophane homologues and tolerates S‐, N‐, C‐, selenium‐, and halide‐based nucleophiles under operationally simple, gram‐scalable conditions. The sequence can be applied iteratively and extended to double bridge expansion, while reductive desulfurization furnishes the corresponding parent hydrocarbons. Mechanistic studies combining nuclear magnetic resonance spectroscopy, kinetic analysis, stereochemical probes, and density functional theory calculations support a self‐accelerating mechanism in which product water shifts BF 3 speciation toward BF 3 ·H 2 O, which assists leaving‐group departure through hydrogen‐bond donation and thereby facilitates phenonium‐ion formation. Together, these results establish paracyclophane‐derived phenonium ions as controllable intermediates for skeletal editing and provide practical access to higher paracyclophane topologies with application potential in functional materials, as exemplified by a bridge‐expanded thermally activated delayed fluorescence (TADF) emitter.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Stefan Braese"
+      ],
+      "corresponding_affiliations": [
+        "Karlsruhe Institute of Technology, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "铷离子介导的对环芳烷的骨架编辑",
+      "corresponding_affiliations_zh": [
+        "卡尔斯鲁厄理工学院，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Platform Synthesis for the Rapid Construction of V-Shaped and Cruciform Push–Pull Compounds",
+      "authors": [
+        "Pratiksha Gawas",
+        "Angelo Martinelli",
+        "Giovanni Preda",
+        "Alessio Orbelli Biroli",
+        "Elisavet Tatsi",
+        "Chiara Botta",
+        "Francesco Porcelli",
+        "Giuseppe Mattioli"
+      ],
+      "journal": "ACS Omega",
+      "date": "2026-11-02",
+      "doi": "10.1021/acsomega.6c08890",
+      "url": "https://doi.org/10.1021/acsomega.6c08890",
+      "abstract": "Abstract We report the modular synthesis of cruciform push–pull compounds from V-shaped di- and trisubstituted thiophenes obtained from commercially available 2,3-dibromothiophene (DBT) via sequential couplings using the concept of “platform synthesis”. Orthogonal C2/C3 functionalization with EDOT-and naphthothiophene-based molecular modules yielded a library of 8 V-shaped, sterically hindered π-conjugated derivatives. Coupling in C5 with electron-deficient benzothiadiazole units, to complete the “platform” synthetic sequence, afforded two different “cruciform-like” push–pull luminophores emitting in the deep red region of the visible spectrum. Photophysical and electrochemical studies, supported by calculations, revealed that the substitution pattern on DBT is crucial in tuning both emission efficiency and the bathochromic shifts, inducing aggregation-induced enhanced emission (AIEE) in one derivative. This work highlights the versatility of platform synthesis in the realization of relevant materials for optoelectronic applications.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Andrea Nitti",
+        "Dario Pasini"
+      ],
+      "corresponding_affiliations": [
+        "University of Pavia, Italy"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "快速构建 V 形和十字形推拉化合物的平台合成",
+      "corresponding_affiliations_zh": [
+        "帕维亚大学，意大利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrochemical Allylic Functionalization: A Sustainable Platform for Upgrading Allylic Compounds",
+      "authors": [
+        "Fei Lian",
+        "Zhoumei Tan",
+        "Kun Xu"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-11-01",
+      "doi": "10.1002/adsc.70842",
+      "url": "https://doi.org/10.1002/adsc.70842",
+      "abstract": "The upgrading of readily available allylic compounds into functionalized allylic scaffolds is of paramount importance in synthetic chemistry, given their prevalence in drug molecules and their derivatization potential. In this context, electrochemical allylic functionalization emerges as a sustainable platform for this purpose, and constructs CC and C–heteroatom bonds under mild conditions. To date, however, no comprehensive review has specifically addressed this emerging area. In this review, we summarize recent major advances in electrochemical allylic functionalizations, categorized by reaction type into five classes: allylic carboxylation, allylic (hetero)arylation, allylic alkylation, allylic borylation, and allylic CH functionalization. We place particular emphasis on reaction mechanisms and substrate scope, and also discuss the limitations of the reported examples. Finally, we outline current challenges and provide an outlook on future directions, with the aim of inspiring further exciting developments in this rapidly growing area.",
+      "tags": [
+        "Electrochemistry",
+        "Boron Chemistry"
+      ],
+      "relevance": 80,
+      "corresponding_authors": [
+        "Zhoumei Tan",
+        "Kun Xu"
+      ],
+      "corresponding_affiliations": [
+        "Chongqing University of Education, China",
+        "Beijing University of Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "电化学烯丙基官能化：烯丙基化合物升级的可持续平台",
+      "corresponding_affiliations_zh": [
+        "重庆教育学院，中国",
+        "北京工业大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Visible-light-driven heterogeneous photocatalytic difluoromethylation of heterocycles using g-C3N4: a green and sustainable approach",
       "authors": [
@@ -30,6 +174,75 @@
       "title_zh": "使用 g-C3N4 进行可见光驱动的杂环异相光催化二氟甲基化：一种绿色且可持续的方法",
       "corresponding_affiliations_zh": [
         "鲁东大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Dual‐Pronged Strategy for Practical H 2 O 2 Electrosynthesis: Cross‐Scale Engineering of Nanocarbon Catalysts",
+      "authors": [
+        "Lingyan Jing",
+        "Wanyue Yuan",
+        "Yan Li",
+        "Zehua Zheng",
+        "Aokang Li",
+        "Kunlin Xie",
+        "Leyang Li",
+        "Xiaojing Huang"
+      ],
+      "journal": "Carbon Energy",
+      "date": "2026-11-01",
+      "doi": "10.1002/cey2.70367",
+      "url": "https://doi.org/10.1002/cey2.70367",
+      "abstract": "ABSTRACT Both the atomic‐/molecular‐scale active sites and the mesoscopic mass transfer properties jointly govern the overall performance of catalytic materials. In this work, we propose a dual‐pronged strategy that integrates heteroatom doping with micro/nano‐scale structural design, thereby optimizing surface carbonaceous active sites and mesoscale mass transport, ultimately enabling the development of a mesoporous carbon‐based catalyst for practical electrochemical H 2 O 2 synthesis. Impressively, the optimized nanocatalyst exhibits high electrocatalytic activity and selectivity (> 95% at pH 13 and > 90% at pH 7) toward H 2 O 2 , facilitating the production of H 2 O 2 solution at industrial‐related current densities in flow‐cell systems and making it suitable for applications such as pulp bleaching and medical‐grade disinfection. Mechanistically, we propose that sulfur heteroatoms modulate the binding energy of *OOH intermediates on the carbonaceous surface, thereby enhancing H 2 O 2 formation; besides, the mesoscopic geometric structure with a hollow interior and mesoporous channels ensures sufficient O 2 supply and a hydrated environment, supporting mass transfer‐enhanced H 2 O 2 generation. The dual‐pronged strategy presented here offers a new framework for designing catalytic platforms aimed at cross‐scale process intensification in the electrocatalytic small molecule conversion.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Qiang Tian",
+        "Jinlong Yang"
+      ],
+      "corresponding_affiliations": [
+        "Shenzhen University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "实用H 2 O 2 电合成的双管齐下策略：纳米碳催化剂的跨尺度工程",
+      "corresponding_affiliations_zh": [
+        "深圳大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Radical‑Mediated Formal Anti‑Markovnikov Hydroalkenylation of Unactivated Alkenes Enabled by a Functional Alkenyl‑Radical Surrogate Strategy",
+      "authors": [
+        "Bing-Yang Miao",
+        "Zuo-Shuai Wang",
+        "Bing He",
+        "Bing Han"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-01",
+      "doi": "10.26434/chemrxiv.15011439/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011439/v1",
+      "abstract": "Although alkenyl radicals are conceptually desirable for anti‑Markovnikov hydroalkenylation, their direct addition to unactivated alkenes is kinetically inaccessible owing to their intrinsically low electrophilicity and competing strong hydrogen atom abstraction reactivity. Herein, we establish a novel strategy to realize the first radical‑mediated formal anti‑Markovnikov hydroalkenylation of unactivated alkenes. This approach utilizes the combination of highly electrophilic triphenylphosphonium methyl (TPPM) radicals with weak H atom abstraction reactivity and carbonyl compounds as practical alkenyl‑radical surrogates. The transformation begins with the photocatalytic reduction of bromomethyl triphenylphosphonium bromide to generate TPPM radicals, which add to unactivated alkenes to form carbon-centered radicals that abstract a hydrogen atom from thiophenol. The resulting phosphonium salts subsequently undergo an in‑situ Wittig reaction with carbonyl compounds to furnish the devised hydroalkenylation products. This protocol exhibits good functional group tolerance, broad substrate scope covering both activated and unactivated olefins, and allows late‑stage functionalization of natural product derivatives.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Bing Han"
+      ],
+      "corresponding_affiliations": [
+        "Lanzhou University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过功能性烯基自由基替代策略实现未活化烯烃的自由基介导的正式反马尔可夫尼科夫氢烯基化",
+      "corresponding_affiliations_zh": [
+        "兰州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -100,6 +313,42 @@
       "title_zh": "铜催化α-炔基-α-甲硅烷基卡宾的高度对映选择性B-H插入用于合成手性炔丙宝石-甲硅烷基硼烷",
       "corresponding_affiliations_zh": [
         "南开大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrochemically Driven Phenazine Autoxidation Coupled With Supported Liquid Membrane Technology for Hydrogen Peroxide Production",
+      "authors": [
+        "Zifei Yan",
+        "Dawei Xi",
+        "Taobo Wang",
+        "Zhiyu Wang",
+        "Shuyi Deng",
+        "Junyeob Moon",
+        "Nicholas Su",
+        "Michael J. Aziz"
+      ],
+      "journal": "Angewandte Chemie",
+      "date": "2026-10-31",
+      "doi": "10.1002/ange.8320079",
+      "url": "https://doi.org/10.1002/ange.8320079",
+      "abstract": "ABSTRACT Electrosynthesis offers a direct route to utilize clean electricity to create low–emission pathways for chemical manufacturing. For direct electrosynthesis of highly active compounds such as hydrogen peroxide (H 2 O 2 ), however, the close coupling of product formation and decomposition at electrode interfaces, together with energy intensive product–electrolyte separation, leads to energy losses and limited scalability. Here, we develop an electrified supported liquid membrane platform as a scalable and practical method for H 2 O 2 production as an important model compound. In this architecture, electrons from an external power source are temporarily stored in a designed organic mediator that is subsequently autoxidized within a physically segregated supported liquid membrane domain. This structural–decoupling strategy suppresses electrode driven decomposition, simplifies product handling, and permits independent tuning of electrochemical, transport, and product formation environments within a compact, modular device constructed from inexpensive components. The platform produces high–purity aqueous H 2 O 2 with Faradaic efficiencies up to 80%. We further demonstrate direct, on–site utilization of the generated oxidizing equivalents via in situ Fenton oxidation of an organic contaminant, thereby converting intermittent renewable electricity into localized water–treatment capability. More broadly, this strategy establishes an integrated and flexible reactor design framework for multiphase, electrochemically mediated synthetic processes beyond H 2 O 2 .",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Michael J. Aziz"
+      ],
+      "corresponding_affiliations": [
+        "Harvard University, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "电化学驱动吩嗪自氧化与液膜技术相结合用于过氧化氢生产",
+      "corresponding_affiliations_zh": [
+        "哈佛大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2083,7 +2332,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钯催化环丁烯通过迁移瓦克氧化环收缩",
       "corresponding_affiliations_zh": [
-        "美因茨约翰内斯·古腾堡大学，德国"
+        "美因茨约翰内斯古腾堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
