@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "papers": [
+    {
+      "title": "Tracking and Tuning the C 1 /C 2 Pathway: In Situ Spectroscopy and Mechanistic Insights Into Ethylene Glycol Oxidation on Metal‐Based Catalysts",
+      "authors": [
+        "Chaoqun Chang",
+        "Lu Zhao",
+        "Qi An"
+      ],
+      "journal": "ChemSusChem",
+      "date": "2026-11-03",
+      "doi": "10.1002/cssc.71186",
+      "url": "https://doi.org/10.1002/cssc.71186",
+      "abstract": "The electrocatalytic ethylene glycol oxidation reaction (EGOR), using ethylene glycol (EG) obtained from hydrolyzed polyethylene terephthalate (PET) waste, offers a route for converting this plastic into valuable chemicals. However, steering selectivity between the C 1 and C 2 pathways remains challenging. This Review focuses on in situ spectroscopy for tracking interfacial reaction dynamics under operating conditions. We summarize how in situ Raman and Fourier transform infrared spectroscopy enable real‐time identification of adsorbed intermediates and active species, providing mechanistic insights inaccessible to ex situ methods. We then evaluate noble‐metal and non‐noble‐metal catalysts and discuss how their structural characteristics regulate EG adsorption, OH − activation, and intermediate conversion. Particular attention is given to tuning C 1 /C 2 branching to improve activity, selectivity, and poisoning resistance. We further survey EGOR applications in electrolysis systems, including pairing with hydrogen evolution for coproduction of value‐added chemicals and hydrogen and coupling with CO 2 reduction or organic synthesis to construct energy‐efficient electrochemical cells. Ultimately, such mechanistic understanding offers guidance for rational catalyst design and sustainable PET upcycling.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Lu Zhao",
+        "Qi An"
+      ],
+      "corresponding_affiliations": [
+        "China University of Geosciences (Beijing), China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "跟踪和调节 C 1 /C 2 途径：金属催化剂上乙二醇氧化的原位光谱学和机理见解",
+      "corresponding_affiliations_zh": [
+        "地质大学（北京），中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Electrochemical enzyme-inspired radical cascade cyclization of polyenal enables collective total syntheses",
       "authors": [
@@ -906,7 +938,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可见光使NHC-镍介导的羰基从甲酰胺中缺失",
       "corresponding_affiliations_zh": [
-        "罗切斯特大学，美国"
+        "罗彻斯特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1392,15 +1424,13 @@
       ],
       "corresponding_affiliations": [
         "University of Strathclyde, United Kingdom",
-        "University of Regensburg, Germany",
-        "National Institute of Advanced Industrial Science and Technology, Japan"
+        "University of Regensburg, Germany"
       ],
-      "corresponding_source": "last_author_fallback_author_profile",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "通过光催化串联氢原子转移和下游氧化自由基极性交叉进行氧化还原中性 C(sp3)─H 烯基化",
       "corresponding_affiliations_zh": [
         "斯特拉斯克莱德大学，英国",
-        "雷根斯堡大学，德国",
-        "产业技术综合研究所，日本"
+        "雷根斯堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
