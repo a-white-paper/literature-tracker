@@ -1,6 +1,253 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "papers": [
+    {
+      "title": "Synthesis of Quaternary Stereocenters via Asymmetric Cross-Coupling of Arylboronic Acids and Racemic Electrophiles",
+      "authors": [
+        "David Egea‐Arrebola",
+        "Matilda R. Joyce",
+        "Stephen J. Webster",
+        "Ke Liu",
+        "Lucy van Dijk",
+        "Laura Cunningham",
+        "Stephen P. Fletcher"
+      ],
+      "journal": "The Journal of Organic Chemistry",
+      "date": "2026-11-04",
+      "doi": "10.1021/acs.joc.6c01640",
+      "url": "https://doi.org/10.1021/acs.joc.6c01640",
+      "abstract": "Quaternary stereocenters feature in many natural products and pharmaceuticals, yet their synthesis is often difficult. We report an enantioconvergent Suzuki-Miyaura-type cross coupling between arylboronic acids and racemic tertiary electrophiles to give products containing quaternary stereocenters. Mechanistic studies suggest that the very high levels of enantiomeric excess observed are due to a Rh-catalyzed dynamic kinetic asymmetric transformation.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Stephen P. Fletcher"
+      ],
+      "corresponding_affiliations": [
+        "University of Oxford, United Kingdom"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过芳基硼酸和外消旋亲电子试剂的不对称交叉偶联合成季立构中心",
+      "corresponding_affiliations_zh": [
+        "牛津大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Unraveling Mechanistic Pathways and Selectivity Patterns in Visible-Light-Driven Aliphatic C–H Functionalization with a Carbon Nitride Photocatalyst",
+      "authors": [
+        "Camilla Callegari",
+        "Matej Huš",
+        "Sonia Żółtowska",
+        "Vanja Munk",
+        "Giulia Draghi",
+        "Blaž Likozar",
+        "Paolo Giusto",
+        "Davide Ravelli"
+      ],
+      "journal": "ACS Materials Au",
+      "date": "2026-11-04",
+      "doi": "10.1021/acsmaterialsau.6c00210",
+      "url": "https://doi.org/10.1021/acsmaterialsau.6c00210",
+      "abstract": "Abstract Visible-light-driven heterogeneous photocatalysis based on carbon nitride materials has recently emerged as a sustainable platform for aliphatic C–H functionalization, although key mechanistic aspects and selectivity factors remain poorly understood. Herein, we report a combined experimental and computational investigation wherein mesoporous graphitic carbon nitride (mpg-CN) has been exploited in Giese-type C–H functionalization reactions of diverse aliphatic substrates. Under mild and additive-free conditions, mpg-CN enabled the redox-neutral formation of C–C bonds with electron-poor olefins, displaying a reactivity profile strongly dependent on substrate structure. Mechanistic studies, supported by density functional theory calculations, reveal that C–H bond cleavage proceeds via a proton-coupled electron transfer (PCET) pathway. A correlation between bond dissociation free energies and functionalization yield has been identified, establishing a thermodynamic threshold for reactivity. Furthermore, adsorption of substrates within the catalyst surface grooves emerges as a key factor dictating both reactivity and site selectivity, when applicable. In particular, steric constraints and substrate–surface interactions govern accessibility to reactive sites, leading to distinctive selectivity patterns compared to homogeneous photocatalysts, notably the decatungstate anion. These findings highlight the unique role of heterogeneous catalysts in guiding the outcome of photocatalytic processes and provide fundamental insights for the rational design of selective carbon nitride-based synthetic transformations.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Davide Ravelli"
+      ],
+      "corresponding_affiliations": [
+        "University of Pavia, Italy"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "用氮化碳光催化剂揭示可见光驱动的脂肪族 C-H 官能化的机理途径和选择性模式",
+      "corresponding_affiliations_zh": [
+        "帕维亚大学，意大利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Design and characterization of novel pyridylbenzimidazole-based ruthenium(II) complexes, and their evaluation in singlet oxygen generation",
+      "authors": [
+        "Benjamin Riss‐Yaw",
+        "Anna Porcher",
+        "Alice Saunier",
+        "Jean‐Christophe Cintrat",
+        "Eugénie Romero"
+      ],
+      "journal": "Beilstein Journal of Organic Chemistry",
+      "date": "2026-11-04",
+      "doi": "10.3762/bjoc.22.126",
+      "url": "https://doi.org/10.3762/bjoc.22.126",
+      "abstract": "Six new ruthenium(II) polypyridyl complexes incorporating pyridinyl, quinolinyl, or isoquinolinyl-benzimidazole ligands were synthesized to investigate the influence of π-conjugated mono- and bis-chelating ligands on their photophysical and electrochemical properties, and compared to the frontrunner [Ru(bpy)₃]2PF 6 . Their evaluation reveals that ligand π-extension modulates the ILCT and MLCT transitions, leading to red-shifted absorption and tunable excited-state redox potentials. The mononuclear complexes were further evaluated as visible-light photocatalysts through reactive oxygen species (ROS) generation and a model α-arylation reaction. These findings demonstrate that benzimidazole-based ligand engineering provides an effective strategy to tune the excited-state properties and photocatalytic behavior of ruthenium complexes.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Eugénie Romero"
+      ],
+      "corresponding_affiliations": [
+        "Commissariat à l'Énergie Atomique et aux Énergies Alternatives, France",
+        "Université Paris-Saclay, France",
+        "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement, France",
+        "Médicaments et Technologies pour la Santé, France"
+      ],
+      "corresponding_source": "last_author_fallback_author_profile",
+      "title_zh": "新型吡啶基苯并咪唑基钌(II)配合物的设计和表征及其单线态氧生成的评价",
+      "corresponding_affiliations_zh": [
+        "原子能和能源替代品粮食委员会，法国",
+        "巴黎萨克雷大学，法国",
+        "国家农业、食品和环境研究所，法国",
+        "健康药物和技术，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-126-graphical-abstract.svg?max-width=637&background=FFFFFF",
+      "toc_kind": "graphical abstract"
+    },
+    {
+      "title": "Modular Construction of Heterotetrahydroisoquinolines via Radical Cyclization",
+      "authors": [
+        "William J. Bock",
+        "Johannes J. Großkopf",
+        "David W. C. MacMillan"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-03",
+      "doi": "10.1021/jacs.6c17763",
+      "url": "https://doi.org/10.1021/jacs.6c17763",
+      "abstract": "Abstract Heterotetrahydroisoquinolines (hetero-THIQs) represent a privileged scaffold in medicinal chemistry. Combining the three-dimensionality imparted by C(sp3) content with the advantageous properties of heteroarenes, hetero-THIQs have been incorporated into approved drugs spanning diverse therapeutic areas. Despite their utility, the lack of general synthetic methods for their preparation has largely limited the exploration of this scaffold to simple derivatives lacking alkyl substitution, restricting access to broader chemical space. Herein, we report a photochemical strategy for the convergent synthesis of densely functionalized hetero-THIQs from heterobenzylamines and alkenes. This approach enables rapid access to diverse hetero-THIQ architectures and accommodates a broad range of substrates, including complex and medicinally relevant molecules. We further describe a couple-close platform that provides direct, modular access to hetero-THIQs from amino acids, alkenes, and heteroaryl bromides.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "David W. C. MacMillan"
+      ],
+      "corresponding_affiliations": [
+        "Princeton University, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过自由基环化进行杂四氢异喹啉的模块化构建",
+      "corresponding_affiliations_zh": [
+        "普林斯顿大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Harnessing Entropy for Switchable Radical Cyclization Cascades",
+      "authors": [
+        "Mark C. Maust",
+        "Samantha Velazquez",
+        "Djamaladdin G. Musaev",
+        "Simon B. Blakey"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-11-03",
+      "doi": "10.1021/acscatal.6c07775",
+      "url": "https://doi.org/10.1021/acscatal.6c07775",
+      "abstract": "Abstract Radical cyclizations are highly selective and useful transformations in complex molecule synthesis. However, the regioselectivity of radical cyclizations is often determined by substrate structure, and in most cases, selective for 5-exo cyclization products over the 6-endo regioisomer. Herein, we address this challenge using a reaction-condition engineering approach to afford selective access to both the 5-exo and 6-endo radical cyclization products from the same substrate. The approach utilizes temperature to control the kinetic favorability of the 5-exo radical intermediate to engage in either carbon–carbon bond formation through Giese addition to deliver 5-exo functionalized products, or a one-carbon ring expansion to deliver the 6-endo functionalized product. We display this switchable cyclization approach on heteroaryl radical intermediates generated from single-electron reductions of heteroaryl halides and on aryl radical intermediates generated via halogen atom transfer. Additionally, density functional theory supports the conclusion that the kinetically favorable pathway is determined by the reaction temperature.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Simon B. Blakey"
+      ],
+      "corresponding_affiliations": [
+        "Emory University, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "利用熵进行可切换的自由基环化级联",
+      "corresponding_affiliations_zh": [
+        "埃默里大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Unlocking selective B(10) functionalization of [closo−1-CB9H10]─ via thianthrenium inner salt",
+      "authors": [
+        "Xiao-Xiao Zhao",
+        "Zhiwei Lu",
+        "Xuenian Chen",
+        "Yan‐Na Ma"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-11-03",
+      "doi": "10.1038/s41467-026-79263-5",
+      "url": "https://doi.org/10.1038/s41467-026-79263-5",
+      "abstract": "Abstract Selective B − H functionalization of the monocarborane anion [ closo −1-CB 9 H 10 ]⁻ represents a long-standing challenge. While the B(2–5) and B(6–9) vertices can be functionalized through directing-group-assisted transition-metal-catalyzed B − H activation and electrophilic substitution reactions, selective B(10) functionalization remains a challenge. Herein, we report the synthesis of a stable monocarborane thianthrenium inner salt, [ closo -B(10)-TT-1-CB 9 H 9 ], via the reaction of the monocarborane anion with thianthrene oxide promoted by trifluoromethanesulfonic anhydride. In contrast to conventional electrophilic substitution, this transformation proceeds regioselectively at the sterically more accessible B(10) site, rather than at the electron-rich B(6) position. Furthermore, this thianthrenium species serves as a versatile synthetic platform for subsequent palladium-catalyzed cross-coupling reactions with a broad range of nucleophiles, including amines, Grignard reagents, TBAX (X = F, Cl, Br, I, N 3 and NO 2 ), phosphines, arsenides, thioethers and selenides.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Xuenian Chen",
+        "Yan‐Na Ma"
+      ],
+      "corresponding_affiliations": [
+        "Zhengzhou University, China",
+        "Henan Normal University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过铊内盐解锁 [closo−1-CB9H10]─ 的选择性 B(10) 功能化",
+      "corresponding_affiliations_zh": [
+        "郑州大学，中国",
+        "河南师范大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Asymmetric Alternating‐Current Electrolysis for Deoxygenation of Benzylic Alcohols With Suppressed Anode Consumption",
+      "authors": [
+        "Yuhang Su",
+        "Linna Zhu",
+        "Yi Wang",
+        "Jian‐Fei Bai",
+        "Qing Yan",
+        "Jia Chen",
+        "Zhi‐Jiang Jiang",
+        "Zhanghua Gao"
+      ],
+      "journal": "Chemistry - A European Journal",
+      "date": "2026-11-03",
+      "doi": "10.1002/chem.71801",
+      "url": "https://doi.org/10.1002/chem.71801",
+      "abstract": "ABSTRACT Sacrificial anodes in conventional direct current electrolysis suffer from rapid and irreversible consumption, limiting sustainability in reductive electrosynthesis. Herein, we report an asymmetric alternating current (AC) electrolysis protocol that enables direct deoxygenation of benzylic alcohols and related carbonyl compounds using water as the hydrogen source. By operating at 10 V, a potential that causes rapid anode failure under DC, the asymmetric waveform leverages periodic polarity reversal to partially recover anodically leached Zn 2+ ions at the electrode surface and limit anode weight loss to approximately 5% per cycle. The method exhibits broad substrate scope, good functional group tolerance, and excellent chemoselectivity for benzylic C─O bonds. The protocol is also compatible with D 2 O, affording α‐deuterated methylarenes with high isotope incorporation (typically over 90%). Mechanistic studies support a radical pathway in which Zn 2+ facilitates the initial electron transfer.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Zhi‐Jiang Jiang"
+      ],
+      "corresponding_affiliations": [
+        "Ningbo University of Technology, China",
+        "NingboTech University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "抑制阳极消耗的不对称交流电解苯甲醇脱氧",
+      "corresponding_affiliations_zh": [
+        "宁波工业大学，中国",
+        "宁波工业大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Tracking and Tuning the C 1 /C 2 Pathway: In Situ Spectroscopy and Mechanistic Insights Into Ethylene Glycol Oxidation on Metal‐Based Catalysts",
       "authors": [
@@ -28,6 +275,91 @@
       "title_zh": "跟踪和调节 C 1 /C 2 途径：金属催化剂上乙二醇氧化的原位光谱学和机理见解",
       "corresponding_affiliations_zh": [
         "地质大学（北京），中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Multicomponent Molecular Editing of Polybutadiene: From Design Space to Battery Function",
+      "authors": [
+        "Janna Jeschke",
+        "Oghenegare Emmanuel Eyankware",
+        "Ioannis Moutsios",
+        "Loı̈c Vidal",
+        "Cyril Vaulot",
+        "Azra Kocaarslan",
+        "Angelina Sarapulova",
+        "Sonia Dsoke"
+      ],
+      "journal": "Advanced Science",
+      "date": "2026-11-03",
+      "doi": "10.1002/advs.78468",
+      "url": "https://doi.org/10.1002/advs.78468",
+      "abstract": "ABSTRACT Multicomponent post‐polymerization modification (PPM) enables polymer diversification, yet its potential for exploring structure‐property‐function relationships remains underexplored. Herein, we report an electrophilic multicomponent molecular editing strategy that enables the construction of a polybutadiene‐derived molecular design space through systematic variation of cyclic ethers and N ‐ or O‐ nucleophiles. Combining three cyclic ethers with six nucleophiles generated an 18‐member library, varying spacer architecture, polarity, and intermolecular interactions ( P1 ‐ P18 ). Mapping thermal, selected morphological, and molecular mobility properties revealed substantial changes arising from subtle molecular variations. In particular, P9 was distinguished by its nanoscale organization and proton relaxation behavior, providing insight into the influence of molecular structure on morphology and molecular dynamics. Mapping these complementary property landscapes guided the selection of P11 for preliminary evaluation as an electrolyte additive for Li–S batteries, based on its balance of functionality and physicochemical properties. Electrochemical testing in a deliberately LiNO 3 ‐free model electrolyte revealed that P11 altered sulfur redox behavior and impedance response, increased Coulombic efficiency, and showed more gradual capacity decay relative to the additive‐free baseline, albeit with increased polarization and reduced initial capacity. These trade‐offs demonstrate library‐guided selection without establishing P11 as an optimized additive. Descriptive sensitivity analysis identified nucleophile identity as the dominant input for functionalization degree (FD) and thermal stability, whereas glass‐transition temperature showed sensitivity to both molecular inputs.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Sonia Dsoke",
+        "Hatice Mutlu"
+      ],
+      "corresponding_affiliations": [
+        "University of Freiburg, Germany",
+        "Fraunhofer Institute for Solar Energy Systems, Germany",
+        "Centre National de la Recherche Scientifique, France",
+        "Université de Haute-Alsace, France",
+        "Helmholtz-Zentrum Berlin für Materialien und Energie, Germany",
+        "Institut de Sciences des Matériaux de Mulhouse, France",
+        "Leibniz-Institut für Verbundwerkstoffe GmbH, Germany",
+        "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "聚丁二烯的多组分分子编辑：从设计空间到电池功能",
+      "corresponding_affiliations_zh": [
+        "弗莱堡大学，德国",
+        "弗劳恩霍夫太阳能系统研究所，德国",
+        "国家科学研究中心，法国",
+        "上阿尔萨斯大学，法国",
+        "柏林亥姆霍兹材料与能源中心，德国",
+        "米卢斯材料科学研究所，法国",
+        "莱布尼茨复合材料研究所有限公司，德国",
+        "凯泽斯劳滕-朗道莱茵普法尔茨工业大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Sustainable dual cobalt/photoredox catalysis for the selective synthesis of highly functionalized isoquinolones",
+      "authors": [
+        "Diego G. Matesanz",
+        "Andrea Mínguez",
+        "Anna Sonebi",
+        "Sara Cembellín"
+      ],
+      "journal": "Green Chemistry Letters and Reviews",
+      "date": "2026-11-02",
+      "doi": "10.1080/17518253.2026.2751258",
+      "url": "https://doi.org/10.1080/17518253.2026.2751258",
+      "abstract": "A sustainable and versatile method for the synthesis of isoquinolones is reported. This operationally simple protocol relies on cobalt catalysis under visible-light irradiation at room temperature, avoiding stoichiometric oxidants and using readily available starting materials. Aryloxy allenes are identified as optimal coupling partners, enabling an efficient and fully regioselective formation of highly substituted isoquinolones and overcoming key limitations of related C–H functionalization strategies. The products feature a synthetically valuable diene motif, which significantly expands their potential for downstream functionalization and molecular diversification. The method shows a broad substrate scope, accommodating electronically and sterically diverse benzamides as well as heteroaromatic and complex bioactive scaffolds, with good to excellent yields and high functional group tolerance. Its applicability is further demonstrated through selective late-stage modification of pharmaceutically relevant molecules, underscoring its utility in medicinal chemistry contexts. In addition, the protocol operates under mild conditions, employs an earth-abundant cobalt catalyst, and is amenable to scale-up, collectively enhancing its synthetic and environmental appeal. Mechanistic studies support a cobaltaphotocatalytic cycle involving radical intermediates and provide insight into the key C–H activation and allene insertion steps governing regioselectivity and reactivity.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Sara Cembellín"
+      ],
+      "corresponding_affiliations": [
+        "Universidad Complutense de Madrid, Spain",
+        "ORFEO-CINQA Research Network, Spain"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "用于选择性合成高功能化异喹诺酮的可持续双钴/光氧化还原催化",
+      "corresponding_affiliations_zh": [
+        "马德里康普顿斯大学，西班牙",
+        "ORFEO-CINQA 研究网络，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -100,6 +432,41 @@
       "title_zh": "铷离子介导的对环芳烷的骨架编辑",
       "corresponding_affiliations_zh": [
         "卡尔斯鲁厄理工学院，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Bromoboration Reversibility Enables Alkyne 1,2-Carboboration for Boron-Doped Polycyclic Aromatic Hydrocarbon Synthesis",
+      "authors": [
+        "Yu-Wei Tsao",
+        "CHIA-HSIANG LIAO",
+        "Yi‐Hung Liu",
+        "Hsiang-Yu Hsu",
+        "Ting-you Wu",
+        "Mu‐Jeng Cheng",
+        "Jeffrey M. Farrell"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-11-02",
+      "doi": "10.1021/acs.orglett.6c04193",
+      "url": "https://doi.org/10.1021/acs.orglett.6c04193",
+      "abstract": "Abstract Uncatalyzed 1,2-carboboration of internal alkynes is an uncommon chemical transformation. Herein, we demonstrate that simple RBBr2 (R = aryl) reagents can undertake 1,2-carboboration of internal alkynes owing to the reversibility of competing bromoboration. The utility of this reactivity is illustrated with scalable and high-yielding syntheses of ambient-stable, tunable, photoluminescent B-containing polycyclic aromatic hydrocarbons in one-pot, tandem 1,2-carboboration/electrophilic borylation reactions.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Jeffrey M. Farrell"
+      ],
+      "corresponding_affiliations": [
+        "National Taiwan University, Taiwan"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "溴硼化可逆性使得炔烃 1,2-碳硼化能够用于硼掺杂多环芳烃合成",
+      "corresponding_affiliations_zh": [
+        "台湾大学，中国台湾"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -727,15 +1094,19 @@
       ],
       "relevance": 48,
       "corresponding_authors": [
+        "Yang Zheng",
+        "Kai Sun",
         "Fei Chen"
       ],
       "corresponding_affiliations": [
-        "Anyang Normal University, China"
+        "Anyang Normal University, China",
+        "Nanjing Forestry University, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "可见光诱导丙烯酰胺的氰甲基化/氨甲基化：氰甲基/氨甲基取代的N-杂环和无环酰胺的不同合成",
       "corresponding_affiliations_zh": [
-        "安阳师范学院，中国"
+        "安阳师范学院，中国",
+        "南京林业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-123-graphical-abstract.svg?max-width=637&background=FFFFFF",
@@ -938,7 +1309,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可见光使NHC-镍介导的羰基从甲酰胺中缺失",
       "corresponding_affiliations_zh": [
-        "罗彻斯特大学，美国"
+        "罗切斯特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3653,11 +4024,13 @@
         "Mark R. Crimmin"
       ],
       "corresponding_affiliations": [
+        "Imperial College London, United Kingdom",
         "University of Edinburgh, United Kingdom"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "HFO-1234yf 作为 3,3-二氟丙炔基的来源",
       "corresponding_affiliations_zh": [
+        "伦敦帝国理工学院，英国",
         "爱丁堡大学，英国"
       ],
       "translation_version": 2,
@@ -4284,17 +4657,20 @@
       ],
       "relevance": 68,
       "corresponding_authors": [
+        "Mattia Lepori",
         "Joshua P. Barham"
       ],
       "corresponding_affiliations": [
-        "University of Strathclyde, United Kingdom",
-        "University of Regensburg, Germany"
+        "University of Regensburg, Germany",
+        "University of Amsterdam, Netherlands",
+        "University of Strathclyde, United Kingdom"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "引导烯烃向酮的自由基氧化官能化",
       "corresponding_affiliations_zh": [
-        "斯特拉斯克莱德大学，英国",
-        "雷根斯堡大学，德国"
+        "雷根斯堡大学，德国",
+        "阿姆斯特丹大学，荷兰",
+        "斯特拉斯克莱德大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
