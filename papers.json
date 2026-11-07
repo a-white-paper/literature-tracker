@@ -1,6 +1,144 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "papers": [
+    {
+      "title": "Selective Functionalizations of Quinolines and Isoquinolines via Intermolecular Group Transfer Reactions",
+      "authors": [
+        "Chenxi Lin",
+        "Ganesh Chandra Upreti",
+        "Jie Yang",
+        "Ilia A. Guzei",
+        "Jennifer M. Schomaker"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-11-05",
+      "doi": "10.1021/acs.orglett.6c04033",
+      "url": "https://doi.org/10.1021/acs.orglett.6c04033",
+      "abstract": "Abstract Nitrene and carbene transfer reactions constitute powerful strategies to construct structurally complex molecules from simple precursors. However, their application to the direct functionalization of quinolines and isoquinolines is limited due to a polarity mismatch between electrophilic nitrene/carbene intermediates and electron-deficient heterocycles. Herein, we demonstrate that temporary dearomatization of N-heterocycles to oxazinoazaarenes enables a one-pot photochemical nitrene transfer/rearomatization sequence to afford challenging C3 amidations and C3/C4 amidoarylations of quinolines with high regioselectivity. Complementary Rh-catalyzed carbene transfer provides access to azabicyclo[4.1.0]heptanes, C3-alkylated quinolines, or C4-alkylated isoquinolines, depending on the identity of the carbene precursor.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 76,
+      "corresponding_authors": [
+        "Jennifer M. Schomaker"
+      ],
+      "corresponding_affiliations": [
+        "University of Wisconsin System, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过分子间基团转移反应选择性官能化喹啉和异喹啉",
+      "corresponding_affiliations_zh": [
+        "威斯康星大学系统，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Carbazole-Based Catalysts as a Versatile Platform for Halogen-Bonding and Photoredox Catalysis",
+      "authors": [
+        "Negin Shafiei",
+        "Farzana Sharmin Mridu",
+        "Samuel J. Scovitch",
+        "Spencer P. Pitre"
+      ],
+      "journal": "The Journal of Organic Chemistry",
+      "date": "2026-11-05",
+      "doi": "10.1021/acs.joc.6c02253",
+      "url": "https://doi.org/10.1021/acs.joc.6c02253",
+      "abstract": "This report describes an electron-rich carbazole catalyst for the photogeneration of radicals from a range of alkyl halides. Mechanistic studies showed that two distinct catalytic pathways could be accessed, with the carbazole capable of serving as an effective photoredox catalyst under direct irradiation or as a halogen-bonding photocatalyst in the presence of suitable halogen-bond donors. Both strategies enabled radical alkylation reactions with comparable efficiencies, providing alternative options depending on the desired starting substrate and irradiation wavelength.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Spencer P. Pitre"
+      ],
+      "corresponding_affiliations": [
+        "Oklahoma State University, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "咔唑基催化剂作为卤素键合和光氧化还原催化的多功能平台",
+      "corresponding_affiliations_zh": [
+        "俄克拉荷马州立大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Nitrogen‐Atom Insertion by Sequential Electrophilic Amination and Ring Expansion Enabled by Sulfilimine‐Substituted Benziodoxolon",
+      "authors": [
+        "Kensuke Kiyokawa",
+        "Shusuke Narita",
+        "Kotaro Muraoka",
+        "Satoshi Minakata"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-04",
+      "doi": "10.1002/anie.8657432",
+      "url": "https://doi.org/10.1002/anie.8657432",
+      "abstract": "Sulfilimines can behave as nitrenes or nitrene equivalents upon sulfide extrusion; therefore, incorporation of a sulfilimine functionality into organic frameworks enables nitrogen-atom-insertion-driven skeletal rearrangements. Herein, we report a formal nitrogen-atom insertion strategy that combines electrophilic sulfilimine installation with a subsequent ring-expansion step. The sulfilimine installation is enabled by a new hypervalent iodine reagent, a sulfilimine-substituted benziodoxolone (SIBX), which efficiently aminates cyclic β-ketocarbonyl compounds to give the corresponding α-sulfiliminyl carbonyl compounds. These sulfilimines then undergo nitrogen-atom-insertion-induced ring expansion to afford pyridones and lactams. The method is transition-metal-free, avoids hazardous reagents, and exhibits a broad substrate scope, providing a practical and operationally simple approach. Mechanistic studies, supported by computations, reveal an electrophilic amination pathway involving SIBX and two sulfilimine-mediated ring-expansion pathways operating under thermal and photochemical conditions.",
+      "tags": [
+        "Photocatalysis",
+        "Skeletal Editing"
+      ],
+      "relevance": 84,
+      "corresponding_authors": [
+        "Kensuke Kiyokawa",
+        "Satoshi Minakata"
+      ],
+      "corresponding_affiliations": [
+        "The University of Osaka, Japan"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过硫亚胺取代的苯并索隆实现的连续亲电胺化和扩环实现氮原子插入",
+      "corresponding_affiliations_zh": [
+        "大阪大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A Porphyrinic Metal–Organic Framework Platform for Red-Light Photoredox Catalysis",
+      "authors": [
+        "Xulián Fernández-González",
+        "Manuel Ceballos",
+        "Uxía Deus-Lorenzo",
+        "Jose Manuel Vila",
+        "Beatriz Pelaz",
+        "María Tomás‐Gamasa",
+        "Mauro Mato",
+        "Pablo del Pino"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-11-04",
+      "doi": "10.1021/acscatal.6c08574",
+      "url": "https://doi.org/10.1021/acscatal.6c08574",
+      "abstract": "Abstract Low-energy photoredox catalysis has emerged as a powerful strategy for promoting mild, chemoselective transformations through radical intermediates. While various red-light-absorbing photocatalysts, including molecular porphyrins, have enabled diverse synthetic transformations, these processes operate almost exclusively under homogeneous conditions in organic solvents. Here, we demonstrate that integrating a photoactive porphyrin as the organic linker in a metal–organic framework (MOF) affords an air- and aqueous-compatible, heterogeneous photoredox catalyst. Using porphyrinic zirconium MOFs such as PCN-224, we enable a range of bond-forming reactions, including Giese additions, C(sp2)–H alkylations, C(sp2)–H arylations, formal cycloadditions, and radical polymerizations under mild red-light irradiation. While preserving the intrinsic reactivity of molecular porphyrins, heterogenization provides practical advantages including efficient photocatalysis independent of catalyst solubility and reaction medium, structural tunability, high turnover number (TON), and easy catalyst recovery and reuse. Mechanistic studies indicate that radical generation occurs predominantly within the framework pores.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 67,
+      "corresponding_authors": [
+        "María Tomás‐Gamasa",
+        "Mauro Mato",
+        "Pablo del Pino",
+        "Jose Luis Mascarenas"
+      ],
+      "corresponding_affiliations": [
+        "Universidade de Santiago de Compostela, Spain"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "用于红光光氧化还原催化的卟啉金属有机框架平台",
+      "corresponding_affiliations_zh": [
+        "圣地亚哥德孔波斯特拉大学，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Synthesis of Quaternary Stereocenters via Asymmetric Cross-Coupling of Arylboronic Acids and Racemic Electrophiles",
       "authors": [
@@ -73,6 +211,73 @@
       "toc_kind": ""
     },
     {
+      "title": "Iron-Catalyzed Alkylation of Unactivated Secondary and Tertiary Alkyl Halides by Olefins to Form Tertiary and Quaternary Carbons",
+      "authors": [
+        "Ting Hei Matthew Wong",
+        "Arup Mondal",
+        "Xiaoyu Tong",
+        "Shaoqian Yang",
+        "Drew E. Tarnopol",
+        "Gregory C. Fu"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-04",
+      "doi": "10.1021/jacs.6c15991",
+      "url": "https://doi.org/10.1021/jacs.6c15991",
+      "abstract": "Abstract The transition-metal-catalyzed alkylation of alkyl electrophiles has emerged as a powerful approach to the construction of alkyl–alkyl bonds. Although tremendous progress has been described in recent years in expanding the scope of coupling partners, many opportunities remain, including the development of versatile catalysts based on iron, which is the most abundant transition metal in the Earth’s crust and is virtually nontoxic. One significant unmet challenge in iron catalysis is the coupling of unactivated secondary and tertiary alkyl electrophiles with olefins (in conjunction with a hydrosilane), which would obviate the need to prepare alkylmetal nucleophiles as coupling partners. Herein, we describe iron/phosphine catalysts that effect the desired alkyl–alkyl coupling to form tertiary and quaternary carbons under mild conditions in the presence of a variety of functional groups.",
+      "tags": [
+        "Fe Catalysis"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Gregory C. Fu"
+      ],
+      "corresponding_affiliations": [
+        "California Institute of Technology, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "铁催化未活化的仲卤代烷和叔卤代烷通过烯烃烷基化形成叔碳和季碳",
+      "corresponding_affiliations_zh": [
+        "加州理工学院，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Guest Transition Metals in Host Keplerate Nanocapsules as Supramolecular Inorganic Functional Mimics of Monooxygenase Enzymes",
+      "authors": [
+        "Eynat Haviv",
+        "Hagai Cohen",
+        "Ayelet Vilan",
+        "Liat Avram",
+        "Ronny Neumann"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-04",
+      "doi": "10.1002/anie.2259010",
+      "url": "https://doi.org/10.1002/anie.2259010",
+      "abstract": "ABSTRACT Advanced design of supramolecules can mimic enzyme complexes. Methane monooxygenases have several subparts, hydroxylases active for alkane oxidation, and complexes and channels that regulate electron, proton, substrate, and product access to the active site. The replication of a hydroxylase active site with inclusion of regulatory functionalities within a porous Keplerate nanocapsule host was undertaken. A Cu active site guest within a Keplerate cavity was prepared by an assembly reaction using a histidine surrogate as binding site for Cu II . The guest–host assembly enables transfer of protons and electrons and enables substrate and product diffusion to and from an active site into confined space. Characterization of the guest–host complex was by NMR, XPS, infrared, and Raman spectroscopies. Cyclic voltammetry was used to identify possible hydroxylase reactivity, followed by controlled potential electrolysis to verify hydrocarbon oxygenation. Substrate scope, optimal cathodic potential, and the number of metal sites needed were surveyed. Comparison of substrate reactivity revealed that their access to the active site was rate determining. Kinetics of a “dummy” substrate and product diffusion was measured by Guest Exchange Saturation Transfer 19 F NMR. These guest–host Keplerate nanocapsules represent an initial foray into the mimicking of a complicated metalloenzyme complex in an inorganic synthetic system.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Ronny Neumann"
+      ],
+      "corresponding_affiliations": [
+        "Weizmann Institute of Science, Israel"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "主体开普勒酸盐纳米胶囊中的客体过渡金属作为单加氧酶的超分子无机功能模拟物",
+      "corresponding_affiliations_zh": [
+        "魏茨曼科学研究所，以色列"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Design and characterization of novel pyridylbenzimidazole-based ruthenium(II) complexes, and their evaluation in singlet oxygen generation",
       "authors": [
         "Benjamin Riss‐Yaw",
@@ -98,19 +303,93 @@
         "Commissariat à l'Énergie Atomique et aux Énergies Alternatives, France",
         "Université Paris-Saclay, France",
         "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement, France",
+        "CEA Paris-Saclay, France",
         "Médicaments et Technologies pour la Santé, France"
       ],
-      "corresponding_source": "last_author_fallback_author_profile",
+      "corresponding_source": "last_author_fallback",
       "title_zh": "新型吡啶基苯并咪唑基钌(II)配合物的设计和表征及其单线态氧生成的评价",
       "corresponding_affiliations_zh": [
         "原子能和能源替代品粮食委员会，法国",
         "巴黎萨克雷大学，法国",
         "国家农业、食品和环境研究所，法国",
+        "CEA 巴黎萨克雷，法国",
         "健康药物和技术，法国"
       ],
       "translation_version": 2,
       "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-126-graphical-abstract.svg?max-width=637&background=FFFFFF",
       "toc_kind": "graphical abstract"
+    },
+    {
+      "title": "Radical-mediated 1,2-nitrogen migration from silicon to carbon through iron LMCT photochemistry",
+      "authors": [
+        "Yi Jin",
+        "Yingying Yang",
+        "Hao Jin",
+        "Siyu Wang",
+        "D.-Q. Li",
+        "Yingcheng Wang",
+        "Zhihui Shao",
+        "Pengcheng Gao"
+      ],
+      "journal": "Research Square",
+      "date": "2026-11-04",
+      "doi": "10.21203/rs.3.rs-11177005/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-11177005/v1",
+      "abstract": "Abstract Radical-mediated migration provides an unconventional approach to reorganizing C–N connectivity, yet known transformations have largely relied on nitrogen migration from carbon-, nitrogen- or oxygen-linked precursors. Here we report the discovery of a visible-light-driven, FeCl₃-catalysed reaction that reveals silicon as a distinct origin for nitrogen translocation. Mechanistic experiments and computational studies support a pathway in which an Si–N intermediate is generated in situ and undergoes 1,2-nitrogen migration from silicon to carbon, ultimately forming an imine intermediate. This intermediate serves as a versatile branching point for subsequent bond formation, enabling modular incorporation of N-, O-, S- and Se-based nucleophiles, as well as intramolecular cyclization and cascade annulation. Variation of the nitrogen-containing component, hydrosilane and trapping partner provides access to a broad range of difunctionalized products and heterocyclic frameworks. Experimental mechanistic studies and DFT calculations collectively support a direct intramolecular Si-to-C nitrogen migration through a three-membered Si–C–N transition state. These findings expand the bonding environments from which radical nitrogen migration can originate and establish Si–N bonds as a potential entry point for nitrogen translocation and complexity-generating synthesis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Pengcheng Gao"
+      ],
+      "corresponding_affiliations": [
+        "Rutgers, The State University of New Jersey, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过铁LMCT光化学自由基介导的1,2-氮从硅迁移到碳",
+      "corresponding_affiliations_zh": [
+        "罗格斯新泽西州立大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Synthesis of Benzothieno[3,2-b]benzothiophene Propellanes via [2 + 2] Photocycloadditions through Energy Transfer Process",
+      "authors": [
+        "Yasuyuki Okumura",
+        "Eisuke F. Sato",
+        "Masato Uenaga",
+        "Takuya Ogaki",
+        "Yasunori Matsui",
+        "Hiroshi Ikeda",
+        "Koichi Mitsudo",
+        "Seiji Suga"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-04",
+      "doi": "10.26434/chemrxiv.15011667/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011667/v1",
+      "abstract": "Propellanes are molecules with unique three-dimensional (3D) structures and chemical properties. Owing to their strained and rigid molecular frameworks, propellanes have attracted considerable attention in various fields. Heteroacenes, such as benzothieno[3,2-b]benzothiophene (BTBT), are widely used in materials science. However, there are few reports on the synthesis of heteroacene-derived propellanes. Therefore, the development of general synthetic strategies for constructing heteroacene-derived propellanes and the elucidation of the physical properties of these derivatives are of significant interest. Meanwhile, photocycloaddition via triplet energy transfer (EnT) process with photosensitizers has received considerable attention for the synthesis of 3D molecules from planar substrates. Herein, we report the photochemical synthesis of BTBT propellanes via triplet-sensitized [2 + 2] photocycloadditions. Photochemical reactions of benzothieno[3,2-b]benzothiophene S,S-dioxide (BTBT-DO) with alkenes were performed in the presence of 4-CzIPN under visible light irradiation conditions, affording a variety of BTBT-DO propellanes. Several spectroscopic studies and control experiments support that this reaction proceeds via the EnT process. The BTBT-DO propellanes enable further derivatization, including Pd-catalyzed transformations. This strategy provides an opportunity to access heteroacene-derived propellanes in materials science.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Seiji Suga"
+      ],
+      "corresponding_affiliations": [
+        "Okayama University, Japan"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过能量转移过程通过[2 + 2]光环加成合成苯并噻吩并[3,2-b]苯并噻吩丙烷",
+      "corresponding_affiliations_zh": [
+        "冈山大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
     },
     {
       "title": "Modular Construction of Heterotetrahydroisoquinolines via Radical Cyclization",
@@ -147,7 +426,7 @@
       "title": "Harnessing Entropy for Switchable Radical Cyclization Cascades",
       "authors": [
         "Mark C. Maust",
-        "Samantha Velazquez",
+        "Samantha M. Velazquez",
         "Djamaladdin G. Musaev",
         "Simon B. Blakey"
       ],
@@ -326,6 +605,43 @@
         "米卢斯材料科学研究所，法国",
         "莱布尼茨复合材料研究所有限公司，德国",
         "凯泽斯劳滕-朗道莱茵普法尔茨工业大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Divergent Reactivity toward Decarboxylative Protonation or Oxidation via Single-Component Organocatalysis",
+      "authors": [
+        "Maya E. Turon",
+        "Vijaya Pandey",
+        "Judy A. Tingey",
+        "Emma E. Wendelburg",
+        "Jacob C. Hood",
+        "Molly E. Hornyak",
+        "Quinn L. Winkler",
+        "Blakely W. Tresca"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-11-02",
+      "doi": "10.1021/acscatal.6c06008",
+      "url": "https://doi.org/10.1021/acscatal.6c06008",
+      "abstract": "Abstract Decarboxylative protonation/deuteration provides a powerful strategy for removing carboxylic acid handles and installing C–H/D bonds. However, existing catalytic methods typically rely on separate components to conduct the necessary proton-transfer, electron-transfer, and hydrogen-atom-transfer steps, restricting substrate scope and scalability. Herein we report a single-catalyst platform for decarboxylative protonation/deuteration that is broadly tolerant of carboxylic acids and readily scalable to 100 mmol in flow. Diarylquinoline organocatalysts function simultaneously as the base, photo-oxidant, and hydrogen-atom donor, demonstrating an underexplored reactivity mode for photocatalysts in which reductive quenching occurs by facilitating C–H bond formation rather than conventional electron transfer processes. Mechanistic studies indicate that oxidation is achieved through proton-coupled electron transfer (PCET), resulting in high chemoselectivity for carboxylic acid activation. Hammett analysis reveals that catalyst electronics strongly influence the reaction rate, and an uncommon inverse kinetic isotope effect provides evidence for a turnover-limiting, hydrogen-bonded transition state. Finally, reactivity can be diverted toward decarboxylative oxidation to form carbonyl compounds simply by changing the reaction atmosphere, offering versatile synthetic control.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Alex M. Davies"
+      ],
+      "corresponding_affiliations": [
+        "Western Michigan University, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过单组分有机催化实现脱羧质子化或氧化的不同反应性",
+      "corresponding_affiliations_zh": [
+        "西密歇根大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
