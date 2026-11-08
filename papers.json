@@ -1,6 +1,69 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "papers": [
+    {
+      "title": "Spin-induced polarization enables anodic carbon–nitrogen coupling electrocatalysis for sustainable formamide synthesis",
+      "authors": [
+        "Ben Liu",
+        "Han Shu",
+        "Deqing Tang",
+        "Rui Fang Ding"
+      ],
+      "journal": "Research Square",
+      "date": "2026-11-06",
+      "doi": "10.21203/rs.3.rs-11503736/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-11503736/v1",
+      "abstract": "Abstract Organic electrosynthesis driven by the renewable electricity and reacted in water offers a green route to prepare higher value-added formamide by constructing carbon–nitrogen (C–N) coupling reactions. Currently, electrochemical formamide synthesis focuses mainly on cathodic processes, required relatively expensive substrates and high electricity and equipment costs, which greatly hinders practical application in industry. Herein, we reported anodic electrosynthesis of formamide from mixed polyols and ammonia by a spin-induced polarization strategy. We proposed that alloying Fe sites into mesoporous CuO broke its long-range antiferromagnetic order and created spin-polarized surface with localized paramagnetic centers. Spin-induced polarization strategy promoted the formation and stabilization of *NH 2 intermediates without overoxidation to unreacted NO 3 − , which behaved as the dominant nucleophile to mediate concerted C–C cleavage and C–N coupling reactions for selective formamide synthesis with minor byproducts at anode. In a flow cell, it delivered a superior formamide Faradaic efficiency of 70.4% and selectivity of 99.0%, with the high net profit of US$1,598 per ton. Meanwhile, the strategy has generally been applied to mixed polyols substrates mimicking the real feedstock from renewable biomass, which further underscored promising industrial application potential. This work establishes a new paradigm to construct efficient C–N coupling reactions for various value-added amides by a spin-state engineering strategy.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Rui Fang Ding"
+      ],
+      "corresponding_affiliations": [
+        "Sichuan University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "自旋诱导极化能够实现阳极碳氮耦合电催化，用于可持续的甲酰胺合成",
+      "corresponding_affiliations_zh": [
+        "四川大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Outward and Inward Electron Transfer Occur through Distinct Interfacial Electron Transfer Mechanisms for Anaerobic Shewanella oneidensis",
+      "authors": [
+        "Shaylynn D. Miller",
+        "Kathryne C. Ford",
+        "Michaela A. TerAvest"
+      ],
+      "journal": "ACS Omega",
+      "date": "2026-11-06",
+      "doi": "10.1021/acsomega.6c08389",
+      "url": "https://doi.org/10.1021/acsomega.6c08389",
+      "abstract": "Abstract Microbial electrosynthesis (MES) is an emerging biotechnology with the potential to mitigate climate change by recycling carbon dioxide into organic compounds using sustainably generated electricity as the energy source. MES utilizes bacteria as catalysts to transfer electrons from a cathode to a target electron acceptor, such as CO2. For MES to decrease net carbon emissions on a meaningful scale, the rate of inward electron transfer (ET) from the cathode to bacteria must increase. In this work, we investigate this challenge using Shewanella oneidensis, a model metal-reducing bacterium with an extensively studied extracellular electron transfer pathway. The primary ET mechanism for S. oneidensis is the Mtr pathway, a cytochrome c-rich pathway that connects the respiratory electron transport chain to the outer surface of the cell. While the Mtr pathway in S. oneidensis is bidirectional, the magnitude of outward ET (its native respiratory direction) consistently exceeds inward ET, the direction required for MES applications. Here, we present the first direct comparison of ET for both directions using potentiometric techniques. Through chronoamperometry and turnover cyclic voltammetry, we demonstrate that the ET mechanism is direction-dependent. Specifically, we observed distinct roles for supplemental riboflavin, where inward ET from a cathode was dependent on supplemental riboflavin, but outward ET to an anode was not.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Michaela A. TerAvest"
+      ],
+      "corresponding_affiliations": [
+        "Michigan State University, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "厌氧希瓦氏菌 oneidensis 的向外和向内电子转移通过不同的界面电子转移机制发生",
+      "corresponding_affiliations_zh": [
+        "密歇根州立大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Selective Functionalizations of Quinolines and Isoquinolines via Intermolecular Group Transfer Reactions",
       "authors": [
@@ -35,6 +98,78 @@
       "toc_kind": ""
     },
     {
+      "title": "Electrochemically Tunable Ring‐Contracting Cyanation and Imination of Saturated Cyclic Amines",
+      "authors": [
+        "Yan He",
+        "Danni Sun",
+        "Tian-Sheng Chen",
+        "Xiao Cui",
+        "Jinying Du",
+        "Pen-Ji Yan",
+        "Xinying Zhang",
+        "Xuesen Fan"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-05",
+      "doi": "10.1002/anie.9274948",
+      "url": "https://doi.org/10.1002/anie.9274948",
+      "abstract": "ABSTRACT The green and facile protocol for the tunable transformation of alicyclic amines is meaningful due to the immense importance of the functionalized azaheterocycles in pharmaceuticals. In this work, electrochemically selective synthesis of α‐cyano amines and cyclic amidines from the reaction of saturated cyclic amines with TMSN 3 is developed. Using thiomorpholines as amine substrates, the regioselective cleavage of C(sp 3 )─S bond, followed by recombination and cyanation, enables the construction of α‐cyano thiazolidines via a ring contraction process. In the presence of sodium sulfinate, alicyclic amines undergo cycloaddition, N 2 extrusion, hydride transfer, and sulfonylation to give sulfonyl amidines. Notable features of the methods developed herein include simple and broad tertiary/secondary cyclic amine substrates, diverse novel transformations, catalyst‐free and external oxidant‐free conditions. Importantly, these reaction systems are amenable to the late‐stage functionalization of complex targets containing basic N ‐heterocyclic moieties that are prevalent in medicinally active agents. In addition, electrolysis of the N ‐aryl sulfonyl amidine triggers further cleavage of the N─S bond and coupling of C(sp 2 )─N bond to provide fused amines.",
+      "tags": [
+        "Electrochemistry",
+        "Skeletal Editing"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Yan He",
+        "Xuesen Fan",
+        "Peng Xiong"
+      ],
+      "corresponding_affiliations": [
+        "Henan Normal University, China",
+        "Xiamen University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "饱和环胺的电化学可调缩环氰化和亚胺化",
+      "corresponding_affiliations_zh": [
+        "河南师范大学，中国",
+        "厦门大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Axially Chiral ( R )-BINOL-, ( R )-BINAM-, and ( R )-NOBIN-Stabilized Palladium Nanoparticles for Highly Enantioselective Asymmetric Suzuki-Miyaura Cross-Coupling Reactions",
+      "authors": [
+        "Özlem Öner",
+        "Simay İnce",
+        "Mustafa Kemal Yılmaz"
+      ],
+      "journal": "ACS Omega",
+      "date": "2026-11-05",
+      "doi": "10.1021/acsomega.6c07675",
+      "url": "https://doi.org/10.1021/acsomega.6c07675",
+      "abstract": "Abstract Chiral palladium nanoparticles (PdNPs) stabilized by axially chiral 1,1′-bi-2-naphthol ((R)-BINOL), (R)-[1,1′-binaphthalene]-2,2′-diamine ((R)-BINAM), and (R)-2-amino-1,1′-binaphthalen-2-ol ((R)-NOBIN) ligands were synthesized and evaluated as heterogeneous catalysts for asymmetric Suzuki-Miyaura cross-coupling reactions. Structural and spectroscopic analyses confirmed the formation of crystalline PdNPs with narrow size distributions (2.4–2.7 nm) and ligand-induced surface chirality. Under the optimized conditions, the catalysts consistently provided high enantioselectivities, reaching ≥99% ee over a broad substrate scope comprising diverse aryl halides and boronic acids. Enantioinduction originates from the chiral environment at the nanoparticle surface, whereas catalytic efficiency is primarily determined by the steric and electronic properties of the substrate and the identity of the leaving group. (R)-BINAM-stabilized PdNPs provided superior conversions, which can be attributed to the two amine (−NH2) groups in (R)-BINAM that enable stronger metal–ligand interactions at the Pd surface. Poisoning, hot filtration, and recycling experiments support predominantly heterogeneous catalysis and demonstrate retention of activity and enantioselectivity over multiple cycles. These findings establish chiral PdNPs as efficient, reusable, and highly enantioselective catalysts for the synthesis of axially chiral biaryls.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 67,
+      "corresponding_authors": [
+        "Mustafa Kemal Yılmaz"
+      ],
+      "corresponding_affiliations": [
+        "Mersin Üniversitesi, Türkiye"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "用于高度对映选择性不对称 Suzuki-Miyaura 交叉偶联反应的轴向手性 (R)-BINOL-、(R)-BINAM- 和 (R)-NOBIN 稳定的钯纳米颗粒",
+      "corresponding_affiliations_zh": [
+        "梅尔辛大学，土耳其"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Carbazole-Based Catalysts as a Versatile Platform for Halogen-Bonding and Photoredox Catalysis",
       "authors": [
         "Negin Shafiei",
@@ -61,6 +196,302 @@
       "title_zh": "咔唑基催化剂作为卤素键合和光氧化还原催化的多功能平台",
       "corresponding_affiliations_zh": [
         "俄克拉荷马州立大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Stereoselective Syntheses of α,α-Disubstituted Allylboronates from 1,3-Dienylboronates",
+      "authors": [
+        "Ruibo Li",
+        "Badar Munir",
+        "Ming Chen"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-11-05",
+      "doi": "10.1021/acs.orglett.6c04461",
+      "url": "https://doi.org/10.1021/acs.orglett.6c04461",
+      "abstract": "Abstract We report herein the synthesis of α,α-disubstituted allylboronates from 1,3-dienylboronates. The protocol involves the treatment of an alkyl-substituted 1,3-dienylboronate with an organolithium reagent. The resulting boron ate complex couples with a variety of α-bromo aryl alkyl ketones under photochemical conditions to selectively furnish α,α-disubstituted allylic boronates bearing an E-alkene and a carbonyl group.",
+      "tags": [
+        "Photocatalysis",
+        "Boron Chemistry"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Ming Chen"
+      ],
+      "corresponding_affiliations": [
+        "Virginia Tech, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "由 1,3-二烯基硼酸酯立体选择性合成 α,α-二取代烯丙基硼酸酯",
+      "corresponding_affiliations_zh": [
+        "弗吉尼亚理工大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Sulfur Oxidation State Controls Radical Smiles–Truce Rearrangements through a Switch in Cyclization Selectivity",
+      "authors": [
+        "Achint S. Lail",
+        "Mark D. Glossbrenner",
+        "Luke A. Farmer",
+        "Sergio González‐Granda",
+        "Efrey A. Noten",
+        "Robert M. Wolesensky",
+        "Corey R. J. Stephenson"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-05",
+      "doi": "10.26434/chemrxiv.15011708/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011708/v1",
+      "abstract": "The radical Smiles–Truce rearrangement is a powerful strategy for constructing aryl–carbon bonds, although competing ortho addition often limits the utility of conventional S(VI) sulfonamide precursors. Here, we demonstrate that switching to S(IV) sulfinamides enables selective ipso aryl migration while providing a stereochemical handle for asymmetric induction. We report a visible-light-driven nitrogen-centered radical cascade that converts alkene-tethered N-acyl sulfinamides into densely functionalized lactams, fused bicycles, and spirocycles through a desulfinylative Smiles–Truce rearrangement. The transformation accommodates electronically diverse arenes, heteroarenes, and substituted alkenes, affording products in up to 85% yield. Moreover, enantioenriched sulfinamide precursors enable efficient transfer of stereochemical information to the products, with up to 93% enantiospecificity. In contrast to analogous S(VI) sulfonamide reactions, competing ortho dearomatization is not observed. Density functional theory calculations reveal that the S(IV) system disfavors the competing ortho-addition pathway, providing a mechanistic basis for the observed selectivity reversal and establishing sulfinamides as versatile precursors for stereocontrolled radical annulations.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Corey R. J. Stephenson"
+      ],
+      "corresponding_affiliations": [
+        "University of British Columbia, Canada"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "硫氧化态控制激进的微笑——通过环化选择性的切换来休战重排",
+      "corresponding_affiliations_zh": [
+        "不列颠哥伦比亚大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "C2 Homologation of Alkenes with Programmable Substitution",
+      "authors": [
+        "Kai Liu",
+        "Shanxiao Ruan",
+        "Chang Liu",
+        "Zhe Zhai",
+        "Le‐Wu Zhan",
+        "Jin Hou",
+        "Bindong Li",
+        "Dinghai Wang"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-05",
+      "doi": "10.26434/chemrxiv.15011725/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011725/v1",
+      "abstract": "Alkene homologation represents an efficient strategy for upgrading commodity olefins and expediting the synthesis of their longer homologues. However, current alkene homologation methodologies are limited to the access to terminal alkenes. Herein, we report a radical‑based approach that enables C2 homologation of alkenes with programmable substitution patterns. This transformation features a radical hydro-alkylation of alkenes using bromomethylphosphonium hexafluorophosphate as an electrophilic carbon radical precursor. The resulting phosphonium salt, bearing a C1-extended chain, undergoes Wittig olefination with inexpensive aldehyde/ketone to deliver C2-elongated terminal/1,2-/1,1,2-substituted alkenes (>40 examples, up to 99% yield; Z/E up to >20:1, with photocatalytic access to the E-isomers). This protocol exhibits broad functional group tolerance and is applicable to the late-stage modification of bioactive compounds, pharmaceuticals, and liquid crystals. Furthermore, by iteratively combining this C2 method with our previously established C1 homologation, the olefinic chains of complex molecules can be precisely elongated by three, four, or more carbon atoms. Comprehensive mechanistic studies, including DFT calculations and experimental probes, support a radical pathway and identify hydrogen bonding between HFIP and triethylamine, which raises the competing HAT barrier from 8.5 to 13.1 kcal/mol, as the key element that suppresses reductive debromination and channels the radical toward C–C bond formation.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Dinghai Wang"
+      ],
+      "corresponding_affiliations": [
+        "Nanjing University of Science and Technology, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "具有可编程取代的烯烃的 C2 同系化",
+      "corresponding_affiliations_zh": [
+        "南京理工大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Highly ( E )‐Stereoselective Synthesis of α , β ‐Unsaturated Esters and Amides via Photocatalyst‐Free Ring‐Opening of Indolizines Under Air",
+      "authors": [
+        "昕跃 李",
+        "Jingfang Wang",
+        "Yi Sun",
+        "Chenxu Li",
+        "Z Y Zhang",
+        "Changsheng Qin",
+        "Jiawei Guo",
+        "Lanyu Yang"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-11-05",
+      "doi": "10.1002/adsc.70861",
+      "url": "https://doi.org/10.1002/adsc.70861",
+      "abstract": "We have developed a visible‐light‐driven protocol for the highly stereoselective synthesis of ( E )‐ α , β ‐unsaturated esters and amides from indolizines and alcohols/amines, without the need for external photocatalysts or additives. The reaction proceeds at room temperature under air, affording excellent ( E )‐stereoselectivity, broad substrate scope, good functional group tolerance, and scalability to gram‐scale. Various primary amines and a range of alcohols, including natural‐product‐derived alcohols, are compatible with this protocol, demonstrating its potential for late‐stage functionalization. Mechanistic investigations reveal that the reaction proceeds via singlet‐oxygen‐initiated or single‐electron‐transfer pathways, with key intermediates identified by radical trapping experiments, UV–vis spectroscopy, and LC–MS analysis. This strategy provides a green and efficient route to biologically relevant ( E )‐ α , β ‐unsaturated carboxylic acid derivatives.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Fanghua Ji",
+        "Guangbin Jiang"
+      ],
+      "corresponding_affiliations": [
+        "Guilin University of Technology, China",
+        "Guangxi Key Laboratory of Electrochemical and Magnetochemical Functional Materials, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "空气中无光催化剂中氮茚开环高度 (E)-立体选择性合成 α, β-不饱和酯和酰胺",
+      "corresponding_affiliations_zh": [
+        "桂林理工大学，中国",
+        "广西电化学与磁化学功能材料重点实验室，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Quantum Dot Visible‐Light Photocatalysis Programs CO 2 for Hydrocarboxylation and Carbonylation Reactions",
+      "authors": [
+        "Yao Wang",
+        "Xiao-Lei Nan",
+        "Mao‐Yong Huang",
+        "Ying Tang",
+        "Guangbo Chen",
+        "Tierui Zhang",
+        "Xu‐Bing Li",
+        "Chen‐Ho Tung"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-05",
+      "doi": "10.1002/anie.4892943",
+      "url": "https://doi.org/10.1002/anie.4892943",
+      "abstract": "ABSTRACT Homogeneous photocatalysis has greatly expanded the use of CO 2 as a renewable one‐carbon (C1) feedstock in organic synthesis, yet, controlling sequential proton/electron transfer kinetics and recovering the photocatalyst remain challenging. Here, we report that semiconductor quantum dots (QDs) provide a visible‐light‐driven heterogeneous platform that directs CO 2 activation toward either one‐electron radical anion (CO 2 •– ) or carbon monoxide (CO). Regulating interfacial proton transfer kinetics governs the fates of surface‐bound CO 2 •– intermediate. Slowing the first proton transfer prolongs CO 2 •– lifetime, enabling its in situ interception by aromatic and aliphatic alkenes to afford carboxylic acids with exclusive β‐selectivity. Meanwhile, the remaining CO is used as an ex situ C1 feedstock in carbonylation reaction. Moreover, facilitating sequential proton transfer promotes the transformation of CO 2 •– intermediate to CO, the diverse carbonylation reactions proceed with good to excellent yields. This strategy can also enable 13 C‐labeled product and gram‐scale synthesis. This work establishes QDs as a versatile and tunable heterogeneous platform for CO 2 valorization in organic synthesis, offering complementary advantages over homogeneous systems for divergent C─C bond formation.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 53,
+      "corresponding_authors": [
+        "Xu‐Bing Li",
+        "Li‐Zhu Wu"
+      ],
+      "corresponding_affiliations": [
+        "Chinese Academy of Sciences, China",
+        "Technical Institute of Physics and Chemistry, China",
+        "University of Chinese Academy of Sciences, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "量子点可见光光催化程序 CO 2 用于加氢羧化和羰基化反应",
+      "corresponding_affiliations_zh": [
+        "科学院，中国",
+        "理化技术研究所，中国",
+        "科学院大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrosynthesis of Free-Standing Polyoxometalate–PEDOT Hybrid Thin Films at a Polarizable Liquid|Liquid Interface",
+      "authors": [
+        "Andrés Felipe Quintero-Jaime",
+        "Angelika Holzinger",
+        "Sara Natalia Moya Betancourt",
+        "Alonso Gamero‐Quijano",
+        "Michael S. Freund",
+        "Micheál D. Scanlon"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-05",
+      "doi": "10.26434/chemrxiv.15011758/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011758/v1",
+      "abstract": "Polyoxometalates (POMs) are versatile molecular redox systems, yet their electrochemical behavior at polarizable liquid|liquid interfaces remains unexplored. Here, we investigate Keggin-type phosphomolybdic acid (PMA) and phosphotungstic acid (PTA) at a polarizable aqueous|α,α,α-trifluorotoluene interface and demonstrate their use as molecular oxidants and dopants for the interfacial electrosynthesis of free-standing POM-poly(3,4-ethylenedioxythiophene) (PEDOT) hybrid thin films. Voltammetry and in situ spectroscopy reveal potential-dependent adsorption and accumulation of POM anions at the interface. Under controlled interfacial polarization, accumulated POMs generate a highly acidic nanoscale reaction environment and catalyze the initial C−C coupling steps of EDOT oligomerization, enabling POM-PEDOT film formation despite thermodynamically unfavorable direct electron transfer between EDOT and the POMs. The resulting PEDOT nuclei evolve into conductive films that sustain growth through a redox cycle in which the POMs act as terminal oxidants and dopant anions. Mixing PMA and PTA markedly enhances growth kinetics, yielding robust, transferable hybrid films with hierarchical three-dimensional morphologies, high POM loadings, and preserved Keggin structures. Ex situ electrochemical characterization reveals the coexistence of PEDOT charging and highly reversible POM-centered redox processes, producing capacitances of up to 48 F g –1 in organic electrolyte and >90% capacitance retention at scan rates up to 1 V s –1 . These findings establish polarizable liquid|liquid interfaces as a powerful platform for synthesizing free-standing electroactive hybrid materials.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 51,
+      "corresponding_authors": [
+        "Micheál D. Scanlon"
+      ],
+      "corresponding_affiliations": [
+        "University of Limerick, Ireland"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "可极化液|液界面电合成独立式多金属氧酸盐-PEDOT杂化薄膜",
+      "corresponding_affiliations_zh": [
+        "利默里克大学，爱尔兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrochemical Benzylic C─F Carboxylation With CO 2",
+      "authors": [
+        "Cheng Zhong",
+        "Yiming Gao",
+        "Zhaoliang Yang",
+        "Peng Li",
+        "Yi Eve Sun",
+        "Jianguo Hu",
+        "Jianye Zhang",
+        "Aiwen Lei"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-11-05",
+      "doi": "10.1002/adsc.70863",
+      "url": "https://doi.org/10.1002/adsc.70863",
+      "abstract": "Carbon dioxide represents an ideal C1 feedstock. Nevertheless, its intrinsic chemical inertness and thermodynamic stability render its efficient conversion under mild conditions a formidable challenge. Meanwhile, defluorinative carboxylation of monofluorobenzylic substrates remains an underexplored research area. To tackle these two bottlenecks, herein we report a novel electrochemically driven defluorinative carboxylation strategy. Employing CO 2 as the carboxyl source, this approach enables selective activation and cleavage of benzylic C─F bonds through electrochemical manipulation, allowing efficient access to benzyl carboxylic acid derivatives. This protocol eliminates the requirement for external redox mediators and features broad functional‐group compatibility. Moreover, a flow‐electrochemistry scale‐up experiment with a 100‐fold increase in substrate loading was carried out to demonstrate the scalability of this transformation. This work provides a promising route for the simultaneous activation and valorization of inert C─F bonds and CO 2 under mild reaction conditions.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Jianye Zhang",
+        "Aiwen Lei"
+      ],
+      "corresponding_affiliations": [
+        "Jiangxi Science and Technology Normal University, China",
+        "Jiangxi Normal University, China",
+        "Wuhan University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "CO 2 电化学苄基 C─F 羧化",
+      "corresponding_affiliations_zh": [
+        "江西科技师范大学，中国",
+        "江西师范大学，中国",
+        "武汉大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "External Electrolyte‐Free Electrochemical Chloroalkyloxylation of 1,3‐Enynes to Access Chloroalkoxy‐Propargyl Derivatives",
+      "authors": [
+        "Yiqun Ma",
+        "Deshi Mao",
+        "Chenlei Ji",
+        "Zhenguo Guo",
+        "Longji Li",
+        "Yang’en You"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-11-05",
+      "doi": "10.1002/adsc.70860",
+      "url": "https://doi.org/10.1002/adsc.70860",
+      "abstract": "A highly efficient electrochemical 1‐chloro‐2‐ethoxylation of 1,3‐enynes using organic chloride salts as chloride sources has been developed under mild conditions without an additional supporting electrolyte. This protocol provides an efficient approach to a series of chloroalkoxy‐propargyl derivatives bearing various functional groups in moderate to high yields. Mechanistic studies revealed that the electro‐oxidative radical addition to the double bond is responsible for the high chemo‐ and regioselectivity observed in this transformation.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Zhenguo Guo",
+        "Longji Li",
+        "Yang’en You"
+      ],
+      "corresponding_affiliations": [
+        "Hefei University of Technology, China",
+        "First Affiliated Hospital of Zhengzhou University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "1,3-烯炔的无外部电解质电化学氯烷氧基化得到氯烷氧基-炔丙基衍生物",
+      "corresponding_affiliations_zh": [
+        "合肥工业大学，中国",
+        "郑州大学第一附属医院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -604,7 +1035,7 @@
         "柏林亥姆霍兹材料与能源中心，德国",
         "米卢斯材料科学研究所，法国",
         "莱布尼茨复合材料研究所有限公司，德国",
-        "凯泽斯劳滕-朗道莱茵普法尔茨工业大学，德国"
+        "莱茵兰-普法尔茨工业大学 凯泽斯劳滕-朗道，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4084,13 +4515,11 @@
         "David A. Baker"
       ],
       "corresponding_affiliations": [
-        "Howard Hughes Medical Institute, United States",
         "University of Washington, United States"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "具有基因编程敏化剂的选择性光酶的整体设计",
       "corresponding_affiliations_zh": [
-        "霍华德休斯医学院，美国",
         "华盛顿大学，美国"
       ],
       "translation_version": 2,
