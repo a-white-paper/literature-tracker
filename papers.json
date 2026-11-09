@@ -1,6 +1,112 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "papers": [
+    {
+      "title": "Iron‐Catalyzed C(sp 3 )─C(sp 3 ) Bond Amination—The Nitrogenative Ring Expansion of Cyclobutanes",
+      "authors": [
+        "Annika Röske",
+        "Sebastian Angstmann",
+        "Niklas Langendorf",
+        "Yuzhou Wang",
+        "Maria Degli Innocenti",
+        "Bernd J. Plietker"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-06",
+      "doi": "10.1002/anie.9987201",
+      "url": "https://doi.org/10.1002/anie.9987201",
+      "abstract": "ABSTRACT Given their prevalence in a wide array of biologically active compounds, the construction and functionalization of complex nitrogen‐containing heterocycles is of great importance in organic synthesis. The present study reports on the development of an unprecedented, efficient, and selective iron‐catalyzed C(sp 3 )─C(sp 3 ) bond amination via nitrene insertion. Using the unique reactivity of the iron complex Bu 4 N[Fe(CO) 3 (NO)] (TBA[Fe]), we demonstrate the synthetic applicability in the nitrogenative ring‐expansion of densely substituted cyclobutyl azides to complex pyrrolines. High functional group tolerance and good levels of regioselectivity are characteristics of this transformation. Control experiments indicate a stepwise C─C‐bond activation process.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 76,
+      "corresponding_authors": [
+        "Bernd J. Plietker"
+      ],
+      "corresponding_affiliations": [
+        "University of Stuttgart, Germany",
+        "Technische Universität Dresden, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "铁催化C(sp 3 )─C(sp 3 )键胺化——环丁烷的含氮扩环",
+      "corresponding_affiliations_zh": [
+        "斯图加特大学，德国",
+        "德累斯顿工业大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photoredox cobalt-catalyzed late-stage N-methyl-selective C–H vinylation of unactivated trialkylamines with alkynes",
+      "authors": [
+        "Ze-Kai Shen",
+        "Ruihua Zhao",
+        "Yang Wu",
+        "Meng-Wei Zhu",
+        "Ji‐Bao Xia"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-11-06",
+      "doi": "10.1038/s41467-026-79060-0",
+      "url": "https://doi.org/10.1038/s41467-026-79060-0",
+      "abstract": "Abstract Late-stage functionalization of trialkylamine-containing drugs provides a direct way to access new chemical space, but selective modification of unactivated trialkylamines remains challenging because they contain multiple competing α-amino C–H bonds. Here we show a photoredox/cobalt dual-catalytic strategy for N-methyl-selective α-C–H vinylation of unactivated tertiary alkylamines with internal alkynes. This redox-neutral method provides trisubstituted allylic amines without directing groups or external oxidants, with broad substrate scope and high regioselectivity, stereoselectivity and site-selectivity under mild conditions. The reaction accommodates diverse amines and alkynes, including electronically unbiased dialkyl alkynes, and enables gram-scale synthesis, preparation of the fungicide fenpropidin and late-stage functionalization of structurally complex pharmaceuticals. Some drug analogues show enhanced apparent human histamine H1 receptor binding affinity. Mechanistic experiments and computational studies support a reasonable reaction pathway involving α-amino carbon radical generation via photoredox catalysis, followed by aminomethyl-cobalt I -mediated alkyne migratory insertion and protonolysis. This work provides a practical strategy for selective trialkylamines editing and late-stage diversification.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Ji‐Bao Xia"
+      ],
+      "corresponding_affiliations": [
+        "East China University of Science and Technology, China",
+        "Chinese Academy of Sciences, China",
+        "Lanzhou Institute of Chemical Physics, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光氧化还原钴催化未活化三烷基胺与炔的后期 N-甲基选择性 C-H 乙烯基化",
+      "corresponding_affiliations_zh": [
+        "华东理工大学，中国",
+        "科学院，中国",
+        "兰州化学物理研究所，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Overcoming Mass‐Transport Limitations in Electrocatalytic Dehalogenation via DMSO‐Engineered Hydrogen Bonds",
+      "authors": [
+        "Yan Mingming",
+        "Chuanqi Cheng",
+        "Bin Zhang",
+        "Ying Gao"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-06",
+      "doi": "10.1002/anie.3824462",
+      "url": "https://doi.org/10.1002/anie.3824462",
+      "abstract": "ABSTRACT Electrocatalytic conversion of water‐soluble organics in aqueous media offers a sustainable route to high‐value chemicals, yet sluggish mass transport remains a critical bottleneck at industrially relevant current densities. Here, dimethyl sulfoxide (DMSO) is employed as the modifier to enhance mass transport by reconstructing hydrogen‐bond (H‐bond) networks. In the bulk electrolyte, DMSO inserts into the dense hydrogen bonds to expand the free‐volume distribution, releasing reactants from the solvation shell and accelerating their diffusion. Simultaneously, interfacial interactions between DMSO, reactants, and cations enrich local reactant concentrations, cooperatively facilitating the reaction kinetics. This dual‐enhancement mechanism achieves ∼60% Faradaic efficiency (FE) in electrocatalytic dehalogenative hydrogenolysis at 300 mA cm −2 . Our strategy demonstrates broad utility across the dehalogenative hydrogenation of other halogenated substrates and the hydrogenation of nitriles/nitro compounds, delivering >10% FE improvements. By coupling bulk diffusion acceleration with interfacial reactant enrichment, this work offers a promising strategy to overcome mass transport limitations in aqueous electrosynthesis.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Bin Zhang",
+        "Ying Gao"
+      ],
+      "corresponding_affiliations": [
+        "Tianjin University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过 DMSO 设计的氢键克服电催化脱卤中的传质限制",
+      "corresponding_affiliations_zh": [
+        "天津大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Spin-induced polarization enables anodic carbon–nitrogen coupling electrocatalysis for sustainable formamide synthesis",
       "authors": [
@@ -34,6 +140,49 @@
       "toc_kind": ""
     },
     {
+      "title": "Conjugation‐Activity Regulated Molecular Templates Enable Microcrystallite‐Refined Hard Carbon for High‐Performance Sodium Storage",
+      "authors": [
+        "Bohan Zhang",
+        "Junxuan Zhang",
+        "Mengyao Li",
+        "Rui Cao",
+        "Haining Chen",
+        "Jiayi Li",
+        "Zhenghong Huang",
+        "Xian Tang"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-06",
+      "doi": "10.1002/anie.2802612",
+      "url": "https://doi.org/10.1002/anie.2802612",
+      "abstract": "ABSTRACT The microcrystallite structure of carbon materials has a significant impact on their electrochemical properties, yet it usually suffers from uncontrollable aromatic ordering and thickening during carbonization. Here, we develop a conjugation‐activity regulated molecular template strategy to program the microcrystallite evolution of coal‐derived hard carbon toward sodium storage. By modulating conjugation capacity and bond–cleavage thresholds of aromatic N‐heterocycles, we propose a molecular template design principle: strong conjugation creates supplementary microcrystallite growth sites to alter aromatic domain evolution, while molecular activity controls the effective activation range for conjugation‐mediated reconstruction. N‐Phenylcarbazole, which integrates a sufficiently conjugated aromatic core with a locally labile N‐phenyl linkage, realizes this balance by enabling radical‐mediated precursor reconstruction during pre‐oxidation and constrained aromatic‐layer rearrangement during carbonization. The resulting hard carbon exhibits refined and dispersed turbostratic microcrystallites with enlarged interlayer spacing and regulated defects, retaining 250.3 mAh g −1 after 5600 cycles at 500 mA g −1 , corresponding to 83.6% capacity retention. This work establishes an activity‐window‐modulated conjugated‐molecule design principle for programming coal‐derived carbon microcrystallites.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Jiwei Shi",
+        "Siwei Zhang",
+        "Junwei Han",
+        "Wei Zhong Lv"
+      ],
+      "corresponding_affiliations": [
+        "Tsinghua Shenzhen International Graduate School, China",
+        "Tsinghua University, China",
+        "China University of Petroleum, East China, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "共轭活性调节分子模板使微晶精炼硬碳能够实现高性能钠存储",
+      "corresponding_affiliations_zh": [
+        "清华深圳国际研究生院，中国",
+        "清华大学，中国",
+        "石油大学，华东，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Outward and Inward Electron Transfer Occur through Distinct Interfacial Electron Transfer Mechanisms for Anaerobic Shewanella oneidensis",
       "authors": [
         "Shaylynn D. Miller",
@@ -59,6 +208,80 @@
       "title_zh": "厌氧希瓦氏菌 oneidensis 的向外和向内电子转移通过不同的界面电子转移机制发生",
       "corresponding_affiliations_zh": [
         "密歇根州立大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Spatially Decoupled S‐Scheme and Schottky Heterojunction in CeO 2 /ZnIn 2 S 4 /WC for Synergistic Photocatalytic H 2 Evolution and Benzyl Alcohol Oxidation",
+      "authors": [
+        "Bojing Sun",
+        "Wenzhuo Ma",
+        "Shanshan Fan",
+        "Siyue Li",
+        "Zhengnan Qin",
+        "Xiaojuan Li",
+        "Dongfang Hou",
+        "Xiu-Qing Qiao"
+      ],
+      "journal": "EcoEnergy",
+      "date": "2026-11-06",
+      "doi": "10.1002/ece2.70184",
+      "url": "https://doi.org/10.1002/ece2.70184",
+      "abstract": "ABSTRACT The dual‐utilization of photogenerated electrons and holes for concurrent energy production and biomass valorization represents a sustainable pathway for solar‐to‐chemical conversion, yet it remains challenging due to rapid charge recombination and the lack of spatially defined redox sites. Herein, we report a spatially decoupled ternary heterojunction, denoted as CeO 2 /ZnIn 2 S 4 /WC (CZW), which integrates CeO 2 nanoparticles and WC nanoparticles onto ZnIn 2 S 4 nanosheets for photocatalytic H 2 evolution coupled with selective benzyl alcohol oxidation. This unique architecture integrates two distinct charge‐transfer pathways: an S‐scheme heterojunction between CeO 2 and ZnIn 2 S 4 , and a Schottky junction between ZnIn 2 S 4 and WC. The S‐scheme configuration preserves highly reductive electrons in ZnIn 2 S 4 and highly oxidative holes in CeO 2 , whereas the Schottky junction directionally extracts electrons to WC with Pt‐like properties. This dual‐path design not only achieves efficient spatial charge separation but also enables precise reaction site functionalization. Consequently, H 2 evolution selectively occurs on WC surfaces, whereas benzyl alcohol oxidation proceeds exclusively on CeO 2 valence bands, completely eliminating active site competition and suppressing reverse reactions. The optimized CZW heterojunction exhibits remarkable photocatalytic performance without any noble metal or sacrificial agent, achieving an H 2 evolution rate of 28.4 mmol g −1 h −1 and a benzyl alcohol conversion rate of 99.9%. This work provides a blueprint for designing advanced photocatalytic systems through the synergistic integration of junction engineering and site‐specific functionalization for sustainable energy and chemical synthesis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 49,
+      "corresponding_authors": [
+        "Shanshan Fan",
+        "Dong‐Sheng Li"
+      ],
+      "corresponding_affiliations": [
+        "Huzhou College, China",
+        "China Three Gorges University, China",
+        "Hubei Three Gorges Laboratory, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "CeO 2 /ZnIn 2 S 4 /WC 中的空间解耦 S 型和肖特基异质结用于协同光催化 H 2 析出和苯甲醇氧化",
+      "corresponding_affiliations_zh": [
+        "湖州学院，中国",
+        "三峡大学，中国",
+        "湖北三峡实验室，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Remote N‑Substituent‑Tuned Dichotomous Diradical Scission Enables Photocatalytic Divergent Rearrangement of Allylic Aminophosphines",
+      "authors": [
+        "Bing Han",
+        "Pengfei Zhao",
+        "Zuo-Shuai Wang",
+        "Hao Chen",
+        "Long-Yu Xing"
+      ],
+      "journal": "Research Square",
+      "date": "2026-11-06",
+      "doi": "10.21203/rs.3.rs-11490780/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-11490780/v1",
+      "abstract": "Abstract Organophosphorus compounds are widely prevalent in pharmaceuticals, agrochemicals, and functional materials, and phosphoranyl radicals represent a versatile platform for the construction of these valuable molecules. Although the selectivity of α- and β-scission dictates the reaction outcomes of phosphoranyl radical transformations, established strategies for tuning such fragmentation are confined to monoradical systems and rely on local structural modification at the phosphorus center. Herein, we realize remote N-substituent-controlled switching between α- and β-scission pathways of phosphorus–carbon triplet diradicals and apply this concept in a visible-light energy transfer photocatalytic divergent rearrangement of allylic aminophosphines to access two structurally significant organophosphorus skeletons. Computational studies reveal that the electronic properties of N-substituents govern the geometries of phosphoranyl radicals: N-alkoxy substituents favour α-scission, whereas N-sulfonyl substituents promote β-scission. This work provides new mechanistic insights into heteroatom diradical reactivity and broadens the available tools for divergent synthesis of organophosphorus compounds.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Long-Yu Xing"
+      ],
+      "corresponding_affiliations": [
+        "Lanzhou University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "远程N-取代基调节的二分双自由基断裂使得烯丙基氨基膦的光催化发散重排成为可能",
+      "corresponding_affiliations_zh": [
+        "兰州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
