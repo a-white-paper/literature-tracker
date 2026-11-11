@@ -1,13 +1,158 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "papers": [
+    {
+      "title": "Tunable Aza-BODIPY Photocatalysts for Near-Infrared Metallaphotoredox Atom Transfer Radical Polymerization",
+      "authors": [
+        "Jakub Piątkowski",
+        "Paulina H. Marek‐Urban",
+        "Martyna Cybularczyk‐Cecotka",
+        "Magdalena Z. Wiloch",
+        "Joanna Jankowska",
+        "Yoichi Kobayashi",
+        "Grzegorz Szczepaniak"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-09",
+      "doi": "10.1021/jacs.6c14724",
+      "url": "https://doi.org/10.1021/jacs.6c14724",
+      "abstract": "Abstract The merger of photoredox and transition-metal catalysis has significantly advanced radical and redox transformations, yet its reliance on UV or visible light continues to limit applications in optically complex and spatially confined environments. Herein, we introduce a modular family of tetraaryl aza-boron-dipyrromethene (aza-BODIPY) organic photocatalysts (PCs) for near-infrared (NIR) metallaphotoredox atom transfer radical polymerization (ATRP). We systematically modulated peripheral electronics and core bromination, evaluating the dyes through quantum-chemical, electrochemical, and spectroscopic methods. This approach identified the key parameters governing catalytic performance: a delicate interplay between triplet-state accessibility, redox properties, and photostability. The optimized aza-BODIPY dye enables well-controlled ATRP of diverse acrylates and methacrylates at ultralow catalyst loadings, down to 5 ppm PC and 50 ppm copper complex. The system is further translated to open-air aqueous conditions, enabling rapid, high-throughput synthesis of water-soluble polymers in a 96-well plate format. Taking advantage of the enhanced penetration of NIR light, we demonstrate controlled polymerization through challenging physical barriers, including ex vivo tissue. Overall, this work defines design principles for far-red/NIR-absorbing aza-BODIPY PCs and expands the scope of NIR-mediated polymer synthesis to optically turbid, spatially restricted, and aqueous environments.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 74,
+      "corresponding_authors": [
+        "Grzegorz Szczepaniak"
+      ],
+      "corresponding_affiliations": [
+        "University of Warsaw, Poland"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "用于近红外金属光氧化还原原子转移自由基聚合的可调谐 Aza-BODIPY 光催化剂",
+      "corresponding_affiliations_zh": [
+        "华沙大学，波兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Interfacial Electronic Regulation in N-Doped Carbon-Encapsulated NiCo Alloy Enables High-Current Nitrate-to-Ammonia Electrosynthesis",
+      "authors": [
+        "Qizhi Hu",
+        "Siyu Zhu",
+        "Biao Meng",
+        "Mingdong Sun",
+        "Ming Wang",
+        "Xiaoling Liu",
+        "Shibo Xi",
+        "Xiao Chi"
+      ],
+      "journal": "Nano-Micro Letters",
+      "date": "2026-11-09",
+      "doi": "10.1007/s40820-026-02359-6",
+      "url": "https://doi.org/10.1007/s40820-026-02359-6",
+      "abstract": "Abstract Electrochemical nitrate reduction (NO 3 − RR) offers a route to couple wastewater remediation with green ammonia (NH 3 ) synthesis, but remains kinetically and mechanistically challenging under high-current-density operation. Herein, an N-doped carbon-encapsulated NiCo alloy catalyst (NiCo@NC) is derived from a NiCo-ZB precursor supported on conductive carbon black. The cathodic NO 3 − RR over NiCo@NC achieves an NH 3 yield rate of 187 mol h −1 g cat −1 with 95% Faradaic efficiency (FE) at −0.6 V RHE in an H-type cell and sustains ~92% FE at 2.0 A cm −2 under a cell voltage of 3.3 V in a membrane–electrode assembly. Pairing this cathodic NO 3 − RR with anodic methanol oxidation to formate enables simultaneous NH 3 and formate production at 2.1 A cm −2 under a cell voltage of 2.8 V, while maintaining NH 3 and formate FEs above 90% and 96%, respectively. In situ Fourier transform infrared and operando X-ray absorption fine structure spectra reveal preferential *NO stabilization and reversible Co valence/coordination, while theoretical calculations disclose interfacial charge polarization between NiCo alloy core and N-doped carbon shell, fabricating dual sites, comprising electron-deficient graphitic carbon and electron-rich pyridinic-N domains, that accelerate water dissociation/proton supply and lower the barrier of the rate-determining *NO → *NOH step. These insights establish alloy@NC interface regulation as a general strategy for high-rate NO 3 − RR.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Yu Zhou",
+        "Yizhong Huang",
+        "Jun Wang"
+      ],
+      "corresponding_affiliations": [
+        "Nanjing Tech University, China",
+        "State Key Laboratory of Materials-Oriented Chemical Engineering, China",
+        "Nanyang Technological University, Singapore"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "氮掺杂碳封装镍钴合金中的界面电子调节可实现高电流硝酸盐到氨的电合成",
+      "corresponding_affiliations_zh": [
+        "南京工业大学，中国",
+        "材料化学工程国家重点实验室，中国",
+        "南洋理工大学，新加坡"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "α-Diimine Ligand Modulated Direct Arylation Polycondensation for Ultrahigh μC* Organic Mixed Conductors",
+      "authors": [
+        "Mingxuan Zheng",
+        "Congze Xu",
+        "Jiahao Zhao",
+        "Chenzhan Wang",
+        "Lianyu Guan",
+        "Jiajun Chang",
+        "Xuening Li",
+        "Yaokun Wang"
+      ],
+      "journal": "Macromolecules",
+      "date": "2026-11-09",
+      "doi": "10.1021/acs.macromol.6c01922",
+      "url": "https://doi.org/10.1021/acs.macromol.6c01922",
+      "abstract": "Abstract Direct arylation polycondensation (DArP) has attracted extensive attention due to its simplified procedures and reduced chemical wastes in polymer synthesis. However, DArP for organic mixed ionic-electronic conductors (OMIECs) has remained a challenge due to scarcity of efficient ligands. Existing ligands, phosphines display inferior reactivity towards oligo(ethylene) glycol (OEG)-functionalised monomers due to competing coordination. Herein, to address this challenge, we innovate α-diimine modulated DArP, employing ligands that are readily synthesized by condensation of simple aromatic amines with glyoxal. The α-diimine ligands exhibit high catalytic reactivity in the DArP of OMIECs with a variety of chalconophenes, irrespective of their degree of aromaticity and electron density achieving yields over 80% and molecular weights higher than established DArP. More importantly, the realistic applicability of our α-diimine modulated DArP was validated by a furan-thiophene flanked, unsymmetric OMIEC was synthesized to exhibit a remarkable transconductance of 8.2 mS and a μC* value of 702.6 F cm−1 V−1 s−1. These results establish our α-diimine-Pd system as a robust platform for exploring electrochemically active conjugated polymers.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Zhenjie Ni"
+      ],
+      "corresponding_affiliations": [
+        "University of Chinese Academy of Sciences, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "α-二亚胺配体调制的直接芳基化缩聚反应用于超高 μC* 有机混合导体",
+      "corresponding_affiliations_zh": [
+        "科学院大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Addition–Migration Cascade for Ortho ‐Selective Carbon Functionalization of Phenols",
+      "authors": [
+        "Manoj Kumar",
+        "Brijesh Kumar",
+        "Parthasarathi Subramanian"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-08",
+      "doi": "10.1002/anie.1249515",
+      "url": "https://doi.org/10.1002/anie.1249515",
+      "abstract": "ABSTRACT Ortho ‐ and para ‐carbon‐disubstituted phenols are prevalent in natural products and pharmaceuticals, yet their selective synthesis remains challenging. The strong resonance‐donating effect of the hydroxyl group renders phenols electron‐rich, activates both ortho and para positions, and limits their direct functionalization with external nucleophiles. Herein, we report an addition–migration–rearomatization strategy for the ortho ‐selective carbon functionalization of phenols using readily accessible para ‐quinol carbonates and diverse organometallic nucleophiles. The transformation proceeds through nucleophilic 1,2‐addition to the dienone carbonyl, followed by C1‐to‐C2 group migration and rearomatization, thereby enabling the formal installation of carbon nucleophilic substituents at the enone α‐position. A broad range of sp 3 ‐, sp 2 ‐, and sp ‐hybridized nucleophiles, including alkyl, vinyl, aryl, heteroaryl, polyaromatic, and alkynyl reagents, participate efficiently under mild conditions. DFT calculations identify syn ‐methyl facial attack as kinetically preferred over syn ‐Boc facial attack by 24.72 kcal mol − 1 , establish that both S N 2′ manifolds are noncompetitive, and show that aromatization proceeds via a Mg‐assisted decarboxylation/deprotonation pathway rather than an unassisted route. Synthetic utility is demonstrated through a concise five step synthesis of the bioactive natural product honokiol from commercially available allyl anisole.",
+      "tags": [
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Parthasarathi Subramanian"
+      ],
+      "corresponding_affiliations": [
+        "Indian Institute of Technology Kanpur, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "苯酚邻位选择性碳官能化的加成-迁移级联",
+      "corresponding_affiliations_zh": [
+        "坎普尔理工学院，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Solvent-Controlled Switching between Electron Transfer and Type II Photosensitization in a Zinc Phthalocyanine–Flavonol Pair",
       "authors": [
         "Filip Svěrák",
         "Jana Okoročenkova",
         "Josef Filgas",
-        "Petr Slavı́ček",
+        "Petr Slavíček",
         "Petr Klán"
       ],
       "journal": "The Journal of Organic Chemistry",
@@ -20,7 +165,7 @@
       ],
       "relevance": 58,
       "corresponding_authors": [
-        "Petr Slavı́ček",
+        "Petr Slavíček",
         "Petr Klán"
       ],
       "corresponding_affiliations": [
@@ -1367,7 +1512,7 @@
         "柏林亥姆霍兹材料与能源中心，德国",
         "米卢斯材料科学研究所，法国",
         "莱布尼茨复合材料研究所有限公司，德国",
-        "凯泽斯劳滕-朗道莱茵普法尔茨工业大学，德国"
+        "莱茵兰-普法尔茨工业大学 凯泽斯劳滕-朗道，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2388,7 +2533,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可见光使NHC-镍介导的羰基从甲酰胺中缺失",
       "corresponding_affiliations_zh": [
-        "罗彻斯特大学，美国"
+        "罗切斯特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2420,7 +2565,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "阴离子光催化剂作为有机合成中的激发态超级还原剂",
       "corresponding_affiliations_zh": [
-        "莫哈利科学教育研究所，印度"
+        "莫哈里科学教育研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
