@@ -1,6 +1,45 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "papers": [
+    {
+      "title": "Mechanistic Insights into CO2 Photoreduction to HCOOH on BH- and NH-Modified g-C3N4-Based Photocatalysts",
+      "authors": [
+        "Leticia C.S. Faria",
+        "Letícia M. S. V. Queiroz",
+        "Josiane C. R. Silva",
+        "Adélia J. A. Aquino",
+        "Francisco B. C. Machado",
+        "Leonardo T. Ueno",
+        "Hans Lischka",
+        "Luiz F. A. Ferrão"
+      ],
+      "journal": "ACS Omega",
+      "date": "2026-11-10",
+      "doi": "10.1021/acsomega.6c09052",
+      "url": "https://doi.org/10.1021/acsomega.6c09052",
+      "abstract": "Abstract Graphitic carbon nitride (g-C3N4) is an attractive metal-free platform for the photocatalytic conversion of CO2 into value-added products, but its activity is limited by poor visible-light absorption, fast electron–hole recombination, and the intrinsic inertness of the CO2 molecule. This computational study employs density functional theory (DFT) and its time-dependent formulation (TD-DFT), complemented by multistate CASPT2 calculations, to map a complete CO2 photoreduction pathway toward formic acid (HCOOH) on a triheptazine (THZ) model bearing BH and NH substitutions. CO2 activation is found to occur spontaneously in the electronic ground state (S0), but only under cooperative adsorption, in which the boron-containing fragment binds H2O while the NH-substituted fragment accepts an electron from the photocatalyst, producing a bent CO2– radical anion; no activation is observed on the unsubstituted THZ. Along the reaction pathway, three energy barriers are too high to be surmounted thermally, namely C–C bond cleavage (2.05 eV), C–O bond cleavage (0.69 eV), and water reformation at the boron site (1.18 eV). These barriers are surmounted by light excitation to the S1 state. For each of them, a conical intersection between the S0 and S1 potential energy surfaces was located in the vicinity of the preceding intermediate. These crossings provide efficient nonradiative funnels driving the system over each barrier. The results show that controlled BH and NH substitution couples visible-light absorption, charge separation, and excited-state energy funneling within a single metal-free model, while preserving the substitution pattern responsible for absorption throughout the catalytic cycle.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Hans Lischka",
+        "Luiz F. A. Ferrão"
+      ],
+      "corresponding_affiliations": [
+        "Texas Tech University, United States",
+        "Instituto Tecnológico de Aeronáutica, Brazil"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "BH 和 NH 改性 g-C3N4 光催化剂上 CO2 光还原生成 HCOOH 的机理见解",
+      "corresponding_affiliations_zh": [
+        "德克萨斯理工大学，美国",
+        "航空技术研究所，巴西"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Tunable Aza-BODIPY Photocatalysts for Near-Infrared Metallaphotoredox Atom Transfer Radical Polymerization",
       "authors": [
@@ -32,6 +71,71 @@
       "title_zh": "用于近红外金属光氧化还原原子转移自由基聚合的可调谐 Aza-BODIPY 光催化剂",
       "corresponding_affiliations_zh": [
         "华沙大学，波兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Catalytic Substitution Reactions for the Introduction of Hydrogen, Carbon, Fluorine and Iodine Isotopes",
+      "authors": [
+        "Tim Langschwager",
+        "Volker Derdau"
+      ],
+      "journal": "ACS Applied Catalysis",
+      "date": "2026-11-09",
+      "doi": "10.1021/acsappcat.6c00150",
+      "url": "https://doi.org/10.1021/acsappcat.6c00150",
+      "abstract": "Abstract This perspective examines catalytic strategies for late-stage isotope incorporation into complex molecules, with an emphasis on hydrogen, carbon, and halogen isotope exchange and substitution reactions relevant to pharmaceutical, radiochemical, and analytical applications. It highlights how transition-metal catalysis, photoredox catalysis, electrochemistry, and heterogeneous or biocatalytic platforms enable selective isotopic labeling at advanced synthetic stages, while systematically assessing their scope, operational practicality, scalability, isotope economy, and remaining limitations. By connecting mechanistic innovation with applied requirements such as high isotopic incorporation, minimal radioactive waste, robust substrate tolerance, and transferability from deuterium to tritium or radiocarbon labeling, the article frames catalytic isotope chemistry as an enabling technology for ADME studies, PET imaging, quantitative bioanalysis, metabolic tracing, and isotopically optimized drug design. Isotope incorporation should be evaluated not only as a labeling problem but as an applied catalysis challenge. For catalytic isotope methods to become routine in pharmaceutical and radiochemical workflows, they must combine predictable selectivity, broad substrate tolerance, safe and efficient isotope handling, low catalyst and isotope loading, compatibility with complex molecules, and demonstrable scalability. This applied framework guides the comparison of hydrogen, carbon, and heteroatom isotope exchange methods throughout the article.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Volker Derdau"
+      ],
+      "corresponding_affiliations": [
+        "Sanofi (Germany), Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "引入氢、碳、氟和碘同位素的催化取代反应",
+      "corresponding_affiliations_zh": [
+        "赛诺菲（），德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Desulfurative Tandem Cyclization of 1,6‐Enynes and Thiols via Photoredox Catalysis: Access to Polysubstituted Piperidines",
+      "authors": [
+        "Hongda Xia",
+        "Jiangna Yue",
+        "Xike Wang",
+        "Zeye Han",
+        "Siliang You",
+        "Rongshun Chen"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-09",
+      "doi": "10.1002/ejoc.70969",
+      "url": "https://doi.org/10.1002/ejoc.70969",
+      "abstract": "A visible‐light photoredox‐catalyzed radical cascade cyclization of 1,6‐enynes 1 with thiols 2 has been developed, enabling the efficient synthesis of polysubstituted piperidines 3 in good to excellent yields with high regioselectivity. Mechanistically, the reaction proceeds through a desulfurative/cyclization/hydrogen atom transfer (HAT) cascade, and features broad functional group compatibility, a wide substrate scope, high bond‐formation efficiency, and scalability to gram‐scale synthesis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Rongshun Chen"
+      ],
+      "corresponding_affiliations": [
+        "Nanjing Agricultural University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过光氧化还原催化 1,6-烯炔和硫醇的脱硫串联环化：获得多取代哌啶",
+      "corresponding_affiliations_zh": [
+        "南京农业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -80,6 +184,45 @@
       "toc_kind": ""
     },
     {
+      "title": "Effects of Cyclopentadienyl Ligand Structure on Rhodium(III)‐Catalyzed Ortho ‐C─H Arylation of Aryl Ketones",
+      "authors": [
+        "Laura Thirion",
+        "Fatima Meziani",
+        "Jean‐François Soulé"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-09",
+      "doi": "10.1002/ejoc.70964",
+      "url": "https://doi.org/10.1002/ejoc.70964",
+      "abstract": "Ketones are attractive innate directing groups for C─H bond functionalization, but their weak coordination to transition metals often necessitates harsh conditions. We report a cyclopentadienyl‐ligand‐controlled rhodium(III)‐catalyzed ortho ‐arylation of aryl ketones with arylboronic acid pinacol esters. Comparison of electronically and sterically differentiated ligands identified an electron‐rich, anisotropic 3,4,5‐trimethoxyphenyl‐substituted cyclopentadienyl ligand (Cp TMP *) as the most effective catalyst platform at 80 °C. A preformed cationic rhodium(III) complex containing Cp TMP * afforded the model biaryl ketone in 65% isolated yield, whereas the conventional pentamethylcyclopentadienyl rhodium(III) catalyst was substantially less effective under the same conditions. The reaction accommodates electron‐rich, electron‐deficient, and halogenated arylboronic acid pinacol esters, together with aryl ketones bearing varied alkyl substituents, providing the corresponding biaryl ketones in yields of up to 79%.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Jean‐François Soulé"
+      ],
+      "corresponding_affiliations": [
+        "Centre National de la Recherche Scientifique, France",
+        "Chimie ParisTech - PSL, France",
+        "Institut Universitaire de France, France",
+        "Université Paris Sciences et Lettres, France",
+        "Institute of Chemistry for Life and Health Sciences, France"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "环戊二烯基配体结构对铑(III)催化芳基酮邻位-C─H芳基化的影响",
+      "corresponding_affiliations_zh": [
+        "国家科学研究中心，法国",
+        "巴黎高科化学学院 - PSL，法国",
+        "大学学院，法国",
+        "巴黎科学与文学大学，法国",
+        "生命与健康科学化学研究所，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "α-Diimine Ligand Modulated Direct Arylation Polycondensation for Ultrahigh μC* Organic Mixed Conductors",
       "authors": [
         "Mingxuan Zheng",
@@ -110,6 +253,76 @@
       "title_zh": "α-二亚胺配体调制的直接芳基化缩聚反应用于超高 μC* 有机混合导体",
       "corresponding_affiliations_zh": [
         "科学院大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Transition Metal‐Free C(sp 2 )─Ge Bond Construction and Downstream Functionalization",
+      "authors": [
+        "Baptiste Neil",
+        "Maxence Bonnevial",
+        "Guillaume Berionni"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-09",
+      "doi": "10.1002/ejoc.70916",
+      "url": "https://doi.org/10.1002/ejoc.70916",
+      "abstract": "Organogermanes have emerged as versatile, orthogonal handles for transition metal‐free electrophilic ipso ‐substitutions. This review highlights protocols enabling the synthesis of aryl‐ and vinylgermanes and their downstream functionalization through halodegermylation and acyldegermylation to form new C─X and C─C bonds, as well as C─B bonds via borodegermylation. These reactions deliver aryl halides, ketones, and organoboranes with high chemo‐ and regioselectivity, orthogonal to boronic esters and silanes. Applications span traceless solid‐phase synthesis of π‐oligomers and the preparation of BN‐fused polycyclic aromatics for optoelectronic materials. These transition metal‐free transformations emphasize the synthetic potential of organogermanium compounds in complex molecule assembly and advanced functional materials.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Guillaume Berionni"
+      ],
+      "corresponding_affiliations": [
+        "University of Namur, Belgium",
+        "Namur Institute of Structured Matter, Belgium"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "无过渡金属的C(sp 2 )─Ge键构建和下游功能化",
+      "corresponding_affiliations_zh": [
+        "那慕尔大学，比利时",
+        "那慕尔结构物质研究所，比利时"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Chiral Copper(II) Complex‐Catalyzes Site‐Selective Monofunctionalization of Levoglucosan Analogs",
+      "authors": [
+        "Christina Leclerc",
+        "Sam Bahadori",
+        "Dylan Yorga",
+        "Jérôme Désiré",
+        "Yves Blériot",
+        "Paul A. Johnson",
+        "Denis Giguère"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-09",
+      "doi": "10.1002/ejoc.70940",
+      "url": "https://doi.org/10.1002/ejoc.70940",
+      "abstract": "In this work, we report the development of a chiral copper‐catalyzed, site‐selective monofunctionalization of levoglucosan and analogs. This strategy employs CuCl 2 in combination with a BOX ligand to achieve regioselective functionalization at the O2 or O4 positions. The method proved effective with a range of electrophiles, exhibiting optimal performance for the regioselective installation of benzyl and tosyl groups. The protocol was also successfully applied to an aminosugar analog. However, in the case of an iminosugar analog, functionalization mediated by a zinc diamine complex afforded superior results. Moreover, an unprecedented reaction sequence enabled the selective synthesis of complex azidosugars, including the rapid preparation of the key intermediate 3‐azidogalactose. Overall, this approach represents a rare and valuable example of copper catalysis applied to the selective functionalization of carbohydrates.",
+      "tags": [
+        "Cu Catalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Denis Giguère"
+      ],
+      "corresponding_affiliations": [
+        "PROTEO, Canada",
+        "Université Laval, Canada"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "手性铜(II)络合物-催化左旋葡聚糖类似物的位点选择性单官能化",
+      "corresponding_affiliations_zh": [
+        "普罗泰奥，加拿大",
+        "拉瓦尔大学，加拿大"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1211,7 +1424,6 @@
         "Commissariat à l'Énergie Atomique et aux Énergies Alternatives, France",
         "Université Paris-Saclay, France",
         "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement, France",
-        "CEA Paris-Saclay, France",
         "Médicaments et Technologies pour la Santé, France"
       ],
       "corresponding_source": "last_author_fallback",
@@ -1220,7 +1432,6 @@
         "原子能和能源替代品粮食委员会，法国",
         "巴黎萨克雷大学，法国",
         "国家农业、食品和环境研究所，法国",
-        "CEA 巴黎萨克雷，法国",
         "健康药物和技术，法国"
       ],
       "translation_version": 2,
@@ -2827,7 +3038,7 @@
       "date": "2026-10-28",
       "doi": "10.1002/ejoc.70921",
       "url": "https://doi.org/10.1002/ejoc.70921",
-      "abstract": "Indolizine scaffolds have attracted considerable interest owing to their broad potential in medicinal chemistry. In this work, we describe an original strategy for functionalizing the C-3 position of the indolizine core through a light-mediated three-component trifluoroalkylation reaction. This approach eliminates the need for a photocatalyst, enabling reactions to be conducted under milder and more environmentally friendly conditions than conventional trifluoroalkylation methods. Based on mechanistic investigations, we propose that the reaction proceeds via the in situ formation of an electron donor-acceptor (EDA) complex. The successful incorporation of a wide range of substituents at the C-3 position demonstrates the versatility and robustness of the developed protocol, enabling the synthesis of 20 trifluoromethylindolizine derivatives with yields up to 82%. Overall, this methodology simplifies access to C-3 functionalized indolizines and facilitates the exploration of new structures of potential biological interest.",
+      "abstract": "The indolizine scaffold has attracted considerable interest owing to its broad potential in medicinal chemistry. We describe a photochemical trifluoromethylation that enables direct C‐3 functionalization of indolizines and imidazo[1,2‐ a ]pyridines without the use of a photocatalyst, allowing the reaction to proceed under milder and more environmentally friendly conditions. Mechanistic investigations support the in situ formation of an electron donor–acceptor (EDA) complex. The protocol exhibits broad functional group tolerance, delivering 27 C‐3 trifluoromethylated indolizine and imidazo[1,2‐ a ]pyridine derivatives with yields up to 82%, underscoring its synthetic robustness and versatility. Overall, this methodology simplifies the access to C‐3 functionalized indolizines and facilitates the exploration of new structures with potential biological relevance.",
       "tags": [
         "Photocatalysis"
       ],
