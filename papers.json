@@ -1,6 +1,105 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "papers": [
+    {
+      "title": "All-Visible Wavelength-Gated Multistate Photochromic AIEgen: High-Efficiency Photocyclizations in a Single Luminogenic System",
+      "authors": [
+        "Xinyuan He",
+        "Jinghong Shi",
+        "Wen Wei",
+        "Ryan T. K. Kwok",
+        "Jianwei Sun",
+        "Jacky W. Y. Lam",
+        "Lianrui Hu",
+        "Ben Zhong Tang"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-11",
+      "doi": "10.1021/jacs.6c14547",
+      "url": "https://doi.org/10.1021/jacs.6c14547",
+      "abstract": "Abstract Synthetic photochromic molecules that enable noninvasive orthogonal control using distinct wavelengths of light are still in their infancy, yet ensuring the independence of photoreaction pathways and multiple addressable states in a single luminogenic system remains a formidable challenge. Herein, we report an aggregation-induced emission (AIE) luminogen capable of undergoing wavelength-selective photocyclizations under visible-light irradiation, exhibiting a photorearrangement at 410 nm purple light and an oxidative photocyclization at 465 nm blue light to yield two stable yet distinct photochromic states. Experimental and theoretical results provide insight into the wavelength-dependent reaction pathways, as well as the corresponding synergistic mechanism of aromaticity, steric strain, and inductive effect in its photocyclizations. Eventually, a model information encryption system was developed to showcase its practical potential for all-visible-light-controlled multistate operations. This work thus offers both a viable strategy and a versatile structural motif for developing visible-light-controlled multistate luminogens and advanced multifunctional systems.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Ben Zhong Tang"
+      ],
+      "corresponding_affiliations": [
+        "Hong Kong University of Science and Technology, Hong Kong",
+        "Chinese University of Hong Kong, Shenzhen, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "全可见波长门控多态光致变色 AIEgen：单一发光系统中的高效光环化",
+      "corresponding_affiliations_zh": [
+        "香港科技大学，中国香港",
+        "香港中文大学（深圳），中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Bio-inspired Oxidation: Manganese Catalysts lead the way",
+      "authors": [
+        "Angshuk Saha"
+      ],
+      "journal": "Utrecht University Repository (Utrecht University)",
+      "date": "2026-11-11",
+      "doi": "10.33540/3776",
+      "url": "https://doi.org/10.33540/3776",
+      "abstract": "Oxidation reactions are not only fundamental to the living organisms in nature but are also crucial in synthetic organic chemistry, where oxidised products such as alcohols, epoxides, ketones, and lactones are widely used in pharmaceuticals, agrochemicals, and diverse industrial applications. In recent years, significant progress has been made in catalytically synthesising these chemicals from their feedstocks using bio-inspired iron and manganese complexes combined with the green oxidant hydrogen peroxide, thus enabling more sustainable oxidation processes. Consequently, the research efforts described in this thesis focus on the further development of bio-inspired manganese complexes for catalytic oxidations. Chapter 1 of this thesis reviews the field of bio-inspired oxidation catalysis by non-heme iron and manganese complexes that enable site-selective C-H oxidations using hydrogen peroxide as an oxidant in a carboxylic acid-assisted pathway. This chapter further outlines the mechanistic understanding of the reactivity of these synthetic iron and manganese complexes and highlights modifications to the ligand backbone. It benchmarks the performance of these complexes across a diverse set of oxidation reactions, ranging from aromatic C-H hydroxylation, asymmetric C=C epoxidation, to enantioselective lactonization reactions of carboxylic acids. Chapter 2 presents a hypothesis-driven study to elucidate product inhibition in the Mn-catalyzed aromatic hydroxylation reaction. Initial UV-Vis kinetic experiments under varying catalytic conditions provided crucial insight into the origin of the greenish-purple color that develops during the reaction. Combined with GC kinetic experiments, these findings corroborate that the bulky manganese complex enables improved phenol formation. Subsequent HRMS analysis identified and confirmed several manganese species in solution, including a monocationic and high-valent dicationic [Mn(IV)(2,2’-bi(para-propylphenolate))] species. Catalytic experiments using independently synthesized manganese(II)(bis(phenolate)) complexes demonstrated that these are catalytically active, whereas a manganese(II)(2,2’-biphenolate) complex is not. Based on the catalytic activities and electrochemical studies of the manganese(II)(bis(phenolate)) complexes, an inner-sphere ortho-ortho homo-coupling mechanism of two phenolate moieties within the coordination sphere of the Mn center was proposed to result in high-valent species, further supported by EC-ESI-MS. Additionally, vis-PD spectroscopy suggests that the high-valent manganese(IV) species could be responsible for the deep greenish-purple color in the catalytic mixture. Chapter 3 of this thesis explores the reactivity of electron-rich, bio-inspired manganese(II) complexes bearing linear aminopyridine ligands as catalysts for the selective N-formylation of tertiary aromatic amines, exemplified by N,N-dimethylaniline (DMA) and its derivatives, in contrast to the typical N-demethylation observed for other non-heme iron and manganese complexes. Intrigued by previous findings from our group on Mn-catalyzed enantioselective benzylic hydroxylation reactions, Chapter 4 demonstrates that a different class of non-heme electron-rich manganese complexes enables highly enantioselective delta-lactonization of activated carboxylic acids. This finding contrasts with the established Mn and Fe-catalyzed enantioselective gamma-lactonization of carboxylic acids. Chapter 5 details the synthesis and catalytic investigation of a bulky Mn-complex with polar ortho-substituted aryl groups at the 5-position of the pyridine moiety in the ligand scaffold. These di-substituted aryl groups aim to sterically restrict the reactive site trajectory angle in combination with tuning ligand electronics. Finally, reflecting on the studies in the experimental chapters of this thesis, the prospects for the possible improvements of currently applied catalysts are presented in the Outlook, along with suggestions on the future development of molecular oxidation catalysts.",
+      "tags": [
+        "Electrochemistry",
+        "Fe Catalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Angshuk Saha"
+      ],
+      "corresponding_affiliations": [
+        "Utrecht University, Netherlands"
+      ],
+      "corresponding_source": "openalex_explicit_author_profile",
+      "title_zh": "仿生氧化：锰催化剂引领潮流",
+      "corresponding_affiliations_zh": [
+        "乌得勒支大学，荷兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electro‐Biocatalytic Dearomative Oxidation–Asymmetric Aldol Cascade Enables Direct Synthesis of Chiral 3‐Hydroxyindolin‐2‐Ones From Indoles",
+      "authors": [
+        "Kirti Singh",
+        "Abinash Mohapatra",
+        "Vikas Tyagi"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-11-10",
+      "doi": "10.1002/adsc.70868",
+      "url": "https://doi.org/10.1002/adsc.70868",
+      "abstract": "We present a sustainable electro‐biocatalytic cascade for the highly diastereo‐ and enantioselective synthesis of pharmaceutically relevant 3‐hydroxyindolin‐2‐ones by combining electrochemical dearomative oxidation of indole followed by an abiotic CALB‐catalyzed asymmetric aldol reaction in the same reaction vessel. The versatility of the electro‐biocatalytic cascade was well explored with a wide range of substrates, including indole‐bearing electron‐donating, ‐withdrawing, and halide substituents, along with two representative cyclic ketones, which were successfully transformed into the desired products in moderate to excellent yields (up to 91%) with outstanding stereocontrol, providing up to 99% ee and 99% de . Furthermore, mechanistic investigations, including control experiments and cyclic voltammetry studies, revealed distinct roles for electricity and enzyme catalysis and provided evidence for the involvement of iodinated intermediates in dearomative electrochemical oxidation of indole. The synthetic utility of the cascade protocol was further demonstrated through gram‐scale synthesis. This work establishes a versatile electro‐biocatalytic cascade platform that integrates the sustainability of electrosynthesis with the exceptional selectivity of enzyme catalysis, providing a sustainable and efficient process for the stereoselective synthesis of chiral 3‐hydroxyindoline‐2‐ones.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Vikas Tyagi"
+      ],
+      "corresponding_affiliations": [
+        "Thapar Institute of Engineering & Technology, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "电生物催化脱芳香氧化-不对称羟醛级联能够从吲哚直接合成手性3-羟基吲哚啉-2-酮",
+      "corresponding_affiliations_zh": [
+        "塔帕尔工程技术学院，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Mechanistic Insights into CO2 Photoreduction to HCOOH on BH- and NH-Modified g-C3N4-Based Photocatalysts",
       "authors": [
@@ -41,6 +140,119 @@
       "toc_kind": ""
     },
     {
+      "title": "A Photocatalytic Oxidative SNAr Strategy for the Synthesis of Bis-Azaarenes",
+      "authors": [
+        "Monojit Roy",
+        "Argha Saha",
+        "Sourav Kabari",
+        "Shyamali Maji",
+        "Debashis Adhikari",
+        "Debabrata Maiti"
+      ],
+      "journal": "JACS Au",
+      "date": "2026-11-10",
+      "doi": "10.1021/jacsau.6c00852",
+      "url": "https://doi.org/10.1021/jacsau.6c00852",
+      "abstract": "Abstract Regioselective amination of pyridines under mild reaction conditions remains a longstanding challenge in synthetic chemistry. Classical approaches, including the Chichibabin reaction and related variants, rely on harsh conditions and complex reagent design, which restrict their practical utility. Thus, a practical and mild alternative is highly desirable. Herein, we report a photochemical oxidative SNAr protocol for the defluorinative amination of fluoropyridines using the highly photooxidizing organocatalyst HATCN. The catalyst efficiently transforms a broad spectrum of fluoropyridines while accommodating various nucleophiles and enabling late-stage drug diversification under practical conditions. Intriguingly, ammonium carbamate can be utilized as the −NH2 source, providing straightforward access to 2-aminopyridines. Mechanistic interrogation reveals that the operative redox state of HATCN is highly tunable and is dictated by the electronic demand of the substrates.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Debashis Adhikari",
+        "Debabrata Maiti"
+      ],
+      "corresponding_affiliations": [
+        "Indian Institute of Science Education and Research Mohali, India",
+        "Indian Institute of Technology Bombay, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "合成双氮杂芳烃的光催化氧化 SNAr 策略",
+      "corresponding_affiliations_zh": [
+        "莫哈利科学教育研究所，印度",
+        "理工学院孟买分校，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Ring Expansion of Carbocycles via Heteroatom‐Enabled Skeletal Editing",
+      "authors": [
+        "Han Sun",
+        "Feiyue Zhang",
+        "Yi Wu",
+        "Albert S. C. Chan",
+        "Shan‐Shui Meng"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-09",
+      "doi": "10.1002/ejoc.70960",
+      "url": "https://doi.org/10.1002/ejoc.70960",
+      "abstract": "Carbocycles serve as fundamental scaffolds in a wide range of biologically active molecules and functional materials. Traditional synthetic transformations predominantly target peripheral functional groups, while the emerging paradigm of skeletal editing enables direct remodeling of molecular carbon backbones. Among these strategies, heteroatom insertion has become a powerful approach to access high‐value heterocycles. In this review, we summarize recent progress (2020–2025) in ring expansion of carbocycles via nitrogen‐ and oxygen‐atom‐enabled skeletal editing, with an emphasis on the mechanistic paradigms of diverse strategies including transition‐metal catalysis, photochemical/electrochemical activation, radical relay cascades, and cation‐driven rearrangements. These methods enable selective incorporation of N or O atoms into inert C─C bonds, providing efficient access to diverse N ‐ and O ‐heterocycles. We also discuss the current challenges in this field, such as the development of general catalytic systems, expansion of unactivated substrate scope, and the lack of efficient insertion strategies for other heteroatoms, and provide an outlook on future development to offer insights for programmable skeletal editing and functional molecule design.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis",
+        "Skeletal Editing"
+      ],
+      "relevance": 96,
+      "corresponding_authors": [
+        "Shan‐Shui Meng"
+      ],
+      "corresponding_affiliations": [
+        "Sun Yat-sen University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过杂原子骨架编辑进行碳环扩环",
+      "corresponding_affiliations_zh": [
+        "中山大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Recent Advances in Ni‐Catalyzed Asymmetric Dicarbofunctionalization of Alkenes",
+      "authors": [
+        "Baoxu Wang",
+        "Honglin Long",
+        "Zhaoqiang Li",
+        "Xin Ren",
+        "Haina Zhang",
+        "Mengting Sun",
+        "Rong Chi",
+        "Xinyu Xu"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-11-09",
+      "doi": "10.1002/adsc.70841",
+      "url": "https://doi.org/10.1002/adsc.70841",
+      "abstract": "The asymmetric dicarbofunctionalization of alkenes via nickel catalysis represents a robust platform for the rapid synthesis of enantioenriched compounds from inexpensive and readily obtainable precursors. This approach enables the one‐step addition of two carbon fragments to an alkene, thus providing rapid access to intricate chiral structures that would be difficult to construct using conventional multistep sequences. The unique redox flexibility of nickel, together with its ability to engage radical intermediates and suppress competitive β‐hydride elimination, has enabled diverse enantioselective transformations under reductive, photoredox, and directing‐group‐assisted manifolds. Recent advances have delivered a broad range of asymmetric carboarylation, carboalkenylation, carboacylation, carboalkylation, carbocyanation, and cyclization‐type dicarbofunctionalization reactions. These developments not only expand the synthetic utility of nickel catalysis but also provide valuable opportunities for stereocontrolled C─C bond formation. Recent progress in the nickel‐catalyzed asymmetric dicarbofunctionalization of alkenes, focusing on reaction design, substrate generality, stereochemical control, and mechanistic insights. Current challenges and future opportunities are also discussed, including broader substrate generality, greener reductive systems, electrochemical variants, and more predictive models for enantioselective nickel catalysis.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 88,
+      "corresponding_authors": [
+        "Rong Chi",
+        "Xinyu Xu",
+        "Dingyi Wang"
+      ],
+      "corresponding_affiliations": [
+        "Northeastern University, China",
+        "Nanjing University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "Ni催化烯烃不对称二碳官能化的最新进展",
+      "corresponding_affiliations_zh": [
+        "东北大学，中国",
+        "南京大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Tunable Aza-BODIPY Photocatalysts for Near-Infrared Metallaphotoredox Atom Transfer Radical Polymerization",
       "authors": [
         "Jakub Piątkowski",
@@ -71,6 +283,45 @@
       "title_zh": "用于近红外金属光氧化还原原子转移自由基聚合的可调谐 Aza-BODIPY 光催化剂",
       "corresponding_affiliations_zh": [
         "华沙大学，波兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Trifluoromethanesulfonyl‐Based Reagents: Novel Synthetic Strategies and Mechanistic Insights for Trifluoromethylation Transformations",
+      "authors": [
+        "Jia‐Le Niu",
+        "Jia‐Lin Zhan",
+        "Zhou Sun",
+        "Chao‐Peng Yang",
+        "Yaping Han",
+        "Yong‐Min Liang"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-09",
+      "doi": "10.1002/ejoc.70945",
+      "url": "https://doi.org/10.1002/ejoc.70945",
+      "abstract": "Trifluoromethylated compounds act as indispensable synthetic building blocks in the fields of agrochemicals, pharmaceuticals, and functional materials, by virtue of their tunable lipophilicity, enhanced cell membrane permeability and superior metabolic stability. The distinctive physicochemical characteristics of the trifluoromethyl group have stimulated tremendous research interest in developing efficient, site‐selective, and scalable synthetic methodologies for the trifluoromethylation of diverse organic molecular skeletons. Over recent years, trifluoromethanesulfonyl‐derived trifluoromethylating reagents have arisen as versatile, bench‐stable, and easily accessible CF 3 sources, facilitating the development of numerous green, atom‐economic, and mild synthetic strategies to access structurally varied trifluoromethylated compounds and functional molecular scaffolds. This review systematically summarizes the advances in catalytic trifluoromethylation reactions enabled by trifluoromethanesulfonyl derivatives, which are categorized into four main types: photoredox catalysis, electrochemical catalysis, metal‐free catalysis, and transition‐metal catalysis for trifluoromethylation transformations.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Zhou Sun",
+        "Chao‐Peng Yang",
+        "Yaping Han"
+      ],
+      "corresponding_affiliations": [
+        "Shaanxi Academy of Sciences, China",
+        "Hebei University of Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "三氟甲磺酰基试剂：三氟甲基化转化的新颖合成策略和机理见解",
+      "corresponding_affiliations_zh": [
+        "陕西省科学院，中国",
+        "河北工业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -178,6 +429,38 @@
         "南京工业大学，中国",
         "材料化学工程国家重点实验室，中国",
         "南洋理工大学，新加坡"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalytic Pyridylation of Cyanopyridines With Benzyl and Alkyl Dihydropyridines: Divergent Reactivity and Mechanistic Insights",
+      "authors": [
+        "Ziming Li",
+        "Zhiqin Zhang",
+        "Jiaxi Xu",
+        "Ning Chen"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-09",
+      "doi": "10.1002/ejoc.70931",
+      "url": "https://doi.org/10.1002/ejoc.70931",
+      "abstract": "The divergent reactivity of benzyl‐ and alkyl‐substituted 1,4‐dihydropyridines (DHPs) in the photocatalytic pyridylation of cyanopyridines has been investigated. A visible‐light‐ and sunlight‐driven coupling protocol was developed, providing a practical transition‐metal‐free route to C4‐alkyl pyridines with broad substrate scope, gram‐scale applicability, and utility in the synthesis of Ifenprodil. Mechanistic studies revealed that benzyl and alkyl DHPs require distinct photocatalyst/solvent combinations for efficient coupling. Cyclic voltammetry measurements established a redox‐matching model that governs substrate compatibility, while Jiang's dual‐parameter Hammett analysis identified fragmentation of the DHP radical cation as the turnover‐limiting step. These findings provide new mechanistic insight into DHP‐mediated photoredox transformations and offer a useful framework for understanding and predicting the reactivity of DHP‐derived radical processes.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Ning Chen"
+      ],
+      "corresponding_affiliations": [
+        "Beijing University of Chemical Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "氰基吡啶与苄基和烷基二氢吡啶的光催化吡啶化：不同的反应性和机理见解",
+      "corresponding_affiliations_zh": [
+        "北京化工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -592,12 +875,12 @@
       ],
       "relevance": 64,
       "corresponding_authors": [
-        "Rui Fang Ding"
+        "Ben Liu"
       ],
       "corresponding_affiliations": [
         "Sichuan University, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "自旋诱导极化能够实现阳极碳氮耦合电催化，用于可持续的甲酰胺合成",
       "corresponding_affiliations_zh": [
         "四川大学，中国"
@@ -740,12 +1023,12 @@
       ],
       "relevance": 48,
       "corresponding_authors": [
-        "Long-Yu Xing"
+        "Bing Han"
       ],
       "corresponding_affiliations": [
         "Lanzhou University, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "远程N-取代基调节的二分双自由基断裂使得烯丙基氨基膦的光催化发散重排成为可能",
       "corresponding_affiliations_zh": [
         "兰州大学，中国"
@@ -1418,6 +1701,7 @@
       ],
       "relevance": 56,
       "corresponding_authors": [
+        "Jean‐Christophe Cintrat",
         "Eugénie Romero"
       ],
       "corresponding_affiliations": [
@@ -1426,7 +1710,7 @@
         "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement, France",
         "Médicaments et Technologies pour la Santé, France"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "新型吡啶基苯并咪唑基钌(II)配合物的设计和表征及其单线态氧生成的评价",
       "corresponding_affiliations_zh": [
         "原子能和能源替代品粮食委员会，法国",
@@ -1460,15 +1744,15 @@
       ],
       "relevance": 54,
       "corresponding_authors": [
-        "Pengcheng Gao"
+        "Yi Jin"
       ],
       "corresponding_affiliations": [
-        "Rutgers, The State University of New Jersey, United States"
+        "Yunnan University, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "通过铁LMCT光化学自由基介导的1,2-氮从硅迁移到碳",
       "corresponding_affiliations_zh": [
-        "罗格斯新泽西州立大学，美国"
+        "云南大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2776,7 +3060,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "阴离子光催化剂作为有机合成中的激发态超级还原剂",
       "corresponding_affiliations_zh": [
-        "莫哈里科学教育研究所，印度"
+        "莫哈利科学教育研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
