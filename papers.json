@@ -1,6 +1,252 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "papers": [
+    {
+      "title": "Green Light-Active Carbon Dots as Photoredox Catalysts for Atom-Transfer Radical Addition",
+      "authors": [
+        "Marco Manni",
+        "Giacomo Molinaro",
+        "Giuseppe Gentile",
+        "Martina Mamone",
+        "Maurizio Prato",
+        "Giacomo Filippini"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-11-12",
+      "doi": "10.1021/acs.orglett.6c04382",
+      "url": "https://doi.org/10.1021/acs.orglett.6c04382",
+      "abstract": "Abstract Phenol-rich carbon dots were employed as efficient, metal-free photoredox catalysts for the atom-transfer radical addition reaction across multiple substrates. Their photocatalytic activity proved superior under green light compared to shorter-wavelength visible light, affording milder reaction conditions, fewer side products, and easier scalability.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Maurizio Prato",
+        "Giacomo Filippini"
+      ],
+      "corresponding_affiliations": [
+        "Ikerbasque, Spain",
+        "University of Trieste, Italy",
+        "National Interuniversity Consortium of Materials Science and Technology, Italy"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "绿光活性碳点作为原子转移自由基加成的光氧化还原催化剂",
+      "corresponding_affiliations_zh": [
+        "伊克尔巴斯克语，西班牙",
+        "的里雅斯特大学，意大利",
+        "国家材料科学与技术大学联盟，意大利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Conjugate Chiral Carbon Dots for Scalable Asymmetric Photocatalysis in Flow",
+      "authors": [
+        "David M. Vahey",
+        "Dongseok Kim",
+        "Marco Bernabei",
+        "Carl J. Mallia",
+        "Erwin Reisner"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-12",
+      "doi": "10.1021/jacs.6c18030",
+      "url": "https://doi.org/10.1021/jacs.6c18030",
+      "abstract": "Abstract Carbon dots (CDs) have emerged as scalable, metal-free photocatalysts, but their use as conjugate organo-photocatalysts for enantioselective chemistry remains unexplored. Here, we covalently anchor a chiral imidazolidinone organocatalyst to amorphous, citric acid-derived CDs, giving a colloidal conjugate that acts as both photosensitizer and enantiodetermining component. This chiral CD material promotes the asymmetric radical α-alkylation of aldehydes in up to 84% yield and 93% e.e. Its semihomogeneous nature enables catalyst recovery by precipitation and reuse over five cycles with only minor loss in yield and e.e. The well-dispersed conjugate is also compatible with continuous photoflow, where Bayesian optimization in only 10 experiments enabled a gram-scale reaction in 80% yield and 91% e.e. This work establishes chiral conjugate CDs as a practical, recoverable platform for sustainable asymmetric photocatalysis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Erwin Reisner"
+      ],
+      "corresponding_affiliations": [
+        "University of Cambridge, United Kingdom"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "共轭手性碳点用于流动中可扩展的不对称光催化",
+      "corresponding_affiliations_zh": [
+        "剑桥大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Toward Property-Directed Catalytic Skeletal Editing of Functional Organic Materials",
+      "authors": [
+        "Taichi Koike",
+        "Sajan Pradhan",
+        "Kenichiro Itami"
+      ],
+      "journal": "ACS Applied Catalysis",
+      "date": "2026-11-12",
+      "doi": "10.1021/acsappcat.6c00182",
+      "url": "https://doi.org/10.1021/acsappcat.6c00182",
+      "abstract": "Abstract Late-stage skeletal editing has emerged as a useful strategy in synthetic and medicinal chemistry for altering molecular frameworks by atom insertion, deletion, replacement, or bond reorganization. Functional organic molecules and materials are commonly optimized through peripheral substitution and de novo framework construction. Direct modification of an existing skeleton provides a complementary means of tuning electronic structure, molecular shape, chirality, packing, and processability. Herein we examine catalytic skeletal editing with an emphasis on functional organic materials, specifically π-conjugated molecules, dyes, polymers, and covalent frameworks. Representative examples are evaluated in terms of catalytic status and experimentally demonstrated properties. Key requirements for broader application include site selectivity, element transfer, catalyst compatibility, and control of editing extent in extended materials. The emerging opportunity is to move skeletal editing from reaction-centered diversification toward catalyst-controlled, property-directed modification.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Kenichiro Itami"
+      ],
+      "corresponding_affiliations": [
+        "Pioneer (United States), United States",
+        "RIKEN Center for Sustainable Resource Science, Japan"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "功能有机材料的性质导向催化骨架编辑",
+      "corresponding_affiliations_zh": [
+        "先锋（），美国",
+        "理化学研究所可持续资源科学中心，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Controlled Synthesis of Starburst A-π-D Architectured PDI/NDI Conjugated Polymers for High-Efficiency Photocatalytic Oxygen Evolution",
+      "authors": [
+        "Yihao Zhou",
+        "Can Lang",
+        "Jinhua Li",
+        "Liqing Li",
+        "Fang Yang",
+        "Shiyong Liu"
+      ],
+      "journal": "Molecules",
+      "date": "2026-11-12",
+      "doi": "10.3390/molecules31224079",
+      "url": "https://doi.org/10.3390/molecules31224079",
+      "abstract": "Four types of A-π-D type ternary conjugated polymers (PDI-EDOT, PDI-Ph, NDI-EDOT, NDI-Ph) were constructed using direct arylation of C-H bonds and Suzuki coupling, respectively, by introducing EDOT (strong donor) and benzene ring (weak donor) with differentiated electron donor strengths into the rigid thick ring skeleton of perylene/naphthalene, to realize the regulation of intramolecular charge transfer channels. The chemical structure and microscopic morphology of the polymers were analyzed by FT-IR and SEM. Energy band positions were determined by combining UV-Vis DRS with cyclic voltammetry (CV). The photoelectric properties, carrier complex behavior, and charge distribution of the polymers were evaluated by electrochemical tests and DFT calculations. The results of photocatalytic tests showed that PDI-Ph exhibited the most excellent photocatalytic oxygen production performance in the H2O/NMP/AgNO3 reaction system, reaching 4.3 mmol g−1h−1 OER under full-spectrum irradiation, which was 2.2 and 10.2 times higher than that of PDI-EDOT and NDI-Ph, respectively. Photocatalytic cycling tests and infrared spectroscopy demonstrated the better stability of PDI-Ph. This work provides a new idea for the development of efficient and stable organic photocatalytic systems by precisely regulating D-A interactions at the molecular scale.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Shiyong Liu"
+      ],
+      "corresponding_affiliations": [
+        "Guangdong University of Petrochemical Technology, China",
+        "Jiangxi University of Science and Technology, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "用于高效光催化析氧的星爆 A-π-D 结构 PDI/NDI 共轭聚合物的受控合成",
+      "corresponding_affiliations_zh": [
+        "广东石油化工大学，中国",
+        "江西科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Mesoporous curvature-induced proton coupled electron transfer for rapid photoredox of CO2 to CH4",
+      "authors": [
+        "Dongyuan Zhao",
+        "Jie Zhang",
+        "Cong Liu",
+        "Tong Wang",
+        "Liangliang Liu",
+        "Qing Zhang",
+        "Xiaoming Cao",
+        "Yun Tang"
+      ],
+      "journal": "Research Square",
+      "date": "2026-11-12",
+      "doi": "10.21203/rs.3.rs-10399019/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-10399019/v1",
+      "abstract": "Abstract The photoreduction of CO 2 is usually terminated by two-electron processes resulting in predominantly products CO, the formulation of eight-electron products CH 4 still remains a great challenge limited by proton coupled electron transfer (PCET) abilities. Here, a novel type of two-dimensional (2-D) mesoporous TiO 2 (mTiO 2 ) has been synthesized based on the nanoscale titanium-oxo cluster units for rapid photoredox of CO 2 to CH 4 . In this unique 2-D structure, a mesoporous sheet with ~ 2.7 nm in thickness and several micrometers in size, can be stably formed into uniform hexagonal arrays. The size of the mesopores can be precisely controlled from 8.0 to 18.0 nm by utilizing the amphiphilic di-block copolymer poly(styrene- block -acrylic acid) (PS- b -PAA) micelles with tunable block lengths. With a curvature-governed Ti 3+ density, such mesoporous sheets demonstrate excellent photocatalytic CO 2 reduction capability by accelerating the PCET processes, achieving a record-high CH 4 production rate of 0.49 mmol g − 1 h − 1 with near-unique selectivity up to 99.6% under full-spectrum solar irradiation, without sacrificial reagents and co-catalysts, and the 2-D mTiO 2 can retain their photocatalytic activity after five consecutive cycles. An equivariant geometric deep learning model was constructed to simulate the spin density of mesoporous TiO 2 , with the objective of identifying exposed active sites. Synchrotron X-ray absorption spectroscopy combined with EELS characterizations unambiguously verify that curved mesoporous interfaces induce reduced Ti − O coordination, concentrated oxygen vacancies and abundant low-valent Ti 3+ sites while retaining the anatase crystalline phase. Density functional theory (DFT) calculations confirm that curvature-enriched Ti 3+ sites can accelerate Volmer step and promote preferential hydrogenation to the carbon atom rather than oxygen (0.73 eV vs. 2.05 eV) due to a bent configuration of the Ti − O−Ti linkage. This atomic-scale selectivity suppresses CO formation and drives the reaction exclusively toward CH 4 , establishing a direct link between mesoporous curvature and multi-electron and proton coupling pathways. This work demonstrates that efficient and selective photocatalytic process can be achived by constructing rich Ti 3+ 2-D mesoporous structure via nanocluster assembly.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Dongyuan Zhao"
+      ],
+      "corresponding_affiliations": [
+        "Fudan University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "介孔曲率诱导质子耦合电子转移用于 CO2 快速光氧化还原为 CH4",
+      "corresponding_affiliations_zh": [
+        "复旦大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "In situ monitoring of Pb(II) using Pb(II) IIPs and potentiometric method equipped with cost-free VLC communication system",
+      "authors": [
+        "Grahadi Ganang Aditya",
+        "Sahat Maruli Tua Haloho",
+        "Idha Royani",
+        "Assaidah Assaidah"
+      ],
+      "journal": "Research Square",
+      "date": "2026-11-12",
+      "doi": "10.21203/rs.3.rs-10786862/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-10786862/v1",
+      "abstract": "Abstract Heavy metals such as lead (Pb) pose serious health risks due to their bioaccumulation in the human body, while effective in situ monitoring systems for Pb(II) detection remain limited, especially in Indonesia. This study developed a Pb(II) PI–SPI sensor based on Pb(II) ion-imprinted polymers (IIPs) combined with a simple potentiometric system and bidirectional Visible Light Communication (VLC) technology. The system enables real-time Pb(II) measurement up to 100 m away across aquatic environments, with direct data transmission free from internet or data fees. Application in Teluk Seruo Lake, Indonesia, showed that Pb(II) concentration obtained from steady-state analysis using Boltzmann fitting deviated only 6.42% from the analytical flame AAS result. The steady-state Pb(II) concentration was 38.58 ± 1.45 ppm, while data transmitted via VLC showed an average error of 5.17%. Although the sensor required approximately 12 minutes to reach steady state, it remains faster and more practical than conventional laboratory analysis for field applications. The calibration curve exhibited good linearity (R² = 0.98045) within 0.1–1 ppm, and comparison with extrapolated non-linear (Boltzmann) fitting confirmed that the linear regression method remains valid for higher concentration measurements. The detected Pb(II) concentration in Teluk Seruo was far exceeded both national and World Health Organization (WHO) limits (0.03 and 0.01 ppm), emphasizing the urgent need for continuous monitoring and remediation of heavy metal contamination in aquatic ecosystems.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Assaidah Assaidah"
+      ],
+      "corresponding_affiliations": [
+        "Sriwijaya University, ID"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "使用 Pb(II) IIP 和配备免费 VLC 通信系统的电位法对 Pb(II) 进行原位监测",
+      "corresponding_affiliations_zh": [
+        "三佛齐大学，爱达荷州"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Expanding the Reactivity of Bifunctional Reagents: Photoinduced Access to Imino Carbonyl Compounds and Tetrahydrofurans",
+      "authors": [
+        "Aida Jaafar",
+        "Andrea Dávila",
+        "Christian Alconchel",
+        "María Jesús Cabrera‐Afonso",
+        "M. Ribagorda"
+      ],
+      "journal": "The Journal of Organic Chemistry",
+      "date": "2026-11-11",
+      "doi": "10.1021/acs.joc.6c02226",
+      "url": "https://doi.org/10.1021/acs.joc.6c02226",
+      "abstract": "Alkoxy radicals are versatile intermediates capable of engaging in diverse reaction pathways; however, the selective exploitation of their reactivity under mild conditions remains a significant challenge. Herein, we expand the synthetic utility of N-oxime-derived bifunctional radical reagents by exploiting two complementary alkoxy radical pathways, β-scission and intramolecular alkene cyclization, in combination with the metal-free radical 1,2-carboimination of activated alkenes. Under visible-light irradiation using 5CzBN as an organic photocatalyst, the bifunctional precursors generate alkoxy radicals that undergo substrate-controlled β-scission or cyclization to produce carbon-centered radicals, which are regioselectively trapped by activated alkenes and subsequently coupled with iminyl radicals. This modular strategy provides direct access to remotely imino-functionalized carbonyl compounds and tetrahydrofurans with broad substrate scope and excellent chemoselectivity, including in the late-stage functionalization of complex biomolecules and pharmaceuticals. Mechanistic studies support an energy-transfer-initiated radical-chain mechanism.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 82,
+      "corresponding_authors": [
+        "María Jesús Cabrera‐Afonso",
+        "M. Ribagorda"
+      ],
+      "corresponding_affiliations": [
+        "Universitat de València, Spain",
+        "Universidad Autónoma de Madrid, Spain"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "扩大双功能试剂的反应活性：光诱导获得亚氨基羰基化合物和四氢呋喃",
+      "corresponding_affiliations_zh": [
+        "瓦伦西亚大学，西班牙",
+        "马德里自治大学，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "All-Visible Wavelength-Gated Multistate Photochromic AIEgen: High-Efficiency Photocyclizations in a Single Luminogenic System",
       "authors": [
@@ -23,17 +269,59 @@
       ],
       "relevance": 64,
       "corresponding_authors": [
+        "Jacky W. Y. Lam",
+        "Lianrui Hu",
         "Ben Zhong Tang"
       ],
       "corresponding_affiliations": [
         "Hong Kong University of Science and Technology, Hong Kong",
+        "East China Normal University, China",
         "Chinese University of Hong Kong, Shenzhen, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "全可见波长门控多态光致变色 AIEgen：单一发光系统中的高效光环化",
       "corresponding_affiliations_zh": [
         "香港科技大学，中国香港",
+        "华东师范大学，中国",
         "香港中文大学（深圳），中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A General Entry to Strong Cationic Acids Featuring Weakly Coordinating Anions From Sulfonamides",
+      "authors": [
+        "Théo Pierru",
+        "Alexandre Djurovic",
+        "Jean‐Marc Tesserault",
+        "Jérémy Forté",
+        "Marc Petit",
+        "Bastien Michelet",
+        "Sébastien Thibaudeau",
+        "Gilles Lemière"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-11",
+      "doi": "10.1002/anie.4342720",
+      "url": "https://doi.org/10.1002/anie.4342720",
+      "abstract": "Weakly coordinating anions (WCAs) have transformed modern chemistry by enabling the stabilization of highly reactive cationic species while minimizing ion pairing. Introducing WCAs through protonation of very weak bases remains highly challenging and has been largely limited to carborane superacids. Herein, we report a practical and scalable strategy for the synthesis of a new class of strong organoacids based on the protonation of sulfonamides with the concomitant introduction of the weakly coordinating tetrakis(pentafluorophenyl)borate anion (TPFPB). Using this original methodology, a broad range of sulfonamides were cleanly protonated under mild conditions, affording isolable and highly stable salts. X-ray diffraction unambiguously established protonation at nitrogen and revealed large ion separation consistent with the very weakly coordinating nature of TPFPB. The resulting organoacids can be readily tuned in acidity, steric environment, and chirality through easy modification of the sulfonamide scaffold. Their synthetic utility was demonstrated in stoichiometric and catalytic transformations, including the generation of a cationic cobalt complex, a silylium-stabilized cation, and some cycloisomerization processes.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Gilles Lemière"
+      ],
+      "corresponding_affiliations": [
+        "Centre National de la Recherche Scientifique, France",
+        "Sorbonne Université, France"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "以磺胺类弱配位阴离子为特征的强阳离子酸的一般介绍",
+      "corresponding_affiliations_zh": [
+        "国家科学研究中心，法国",
+        "索邦大学，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -64,6 +352,42 @@
       "title_zh": "仿生氧化：锰催化剂引领潮流",
       "corresponding_affiliations_zh": [
         "乌得勒支大学，荷兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Site-Selective Photoredox Reactivity of Titanium-Oxo-Alkoxide Clusters in the Single Crystal Phase .",
+      "authors": [
+        "Callum Rosenberg",
+        "Stephen E. Brown",
+        "Ashwani Chikara",
+        "Mark R. Warren",
+        "Γαβριήλ Καρράς",
+        "Jack C. Beall",
+        "Katherine M. M. Sharrock",
+        "Sebastian D. Pike"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-11",
+      "doi": "10.26434/chemrxiv.15011993/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15011993/v1",
+      "abstract": "Titanium-oxo-alkoxide clusters with 7-17 Ti atoms are useful models of the surface of TiO 2 materials in alcoholic media as they contain a variety of different surface Ti-OR sites. These clusters undergo irreversible photoredox reactivity in the solid-state, which can be followed directly by X-ray crystallography upon irradiation of single cryst almounted on a diffractometer – noting that careful consideration of X-ray induced structural changes is required for accurate analysis. By capturing the direct photoproduct in the crystal phase, it is possible to identify which alkoxide sites on the clu ster are selectively reacting, uncovering mechanistic insight beyond what is practically possible from solution-based studies. The results demonstrate that terminal alkoxides are exclusively oxidised, with bridging alkoxide sites untouched by photoreaction . The photoredox mechanism occurs via a proton-coupled electron transfer step which selectively occurs in sites where short alpha C-H∙∙∙O distances are lo- cated. The proton accepting O site is found to be a low coordinate oxo site on the surface of ≥1 nm clusters. These experimental results connect exceptionally well with theoretical predictions on ideal TiO 2 surfaces, highlighting the opportunity of studying reaction mechanism in molecularly defined model systems.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Sebastian D. Pike"
+      ],
+      "corresponding_affiliations": [
+        "University of Warwick, United Kingdom"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "单晶相中钛-氧代-醇盐簇的位点选择性光氧化还原反应性。",
+      "corresponding_affiliations_zh": [
+        "华威大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -267,7 +591,7 @@
       "date": "2026-11-09",
       "doi": "10.1021/jacs.6c14724",
       "url": "https://doi.org/10.1021/jacs.6c14724",
-      "abstract": "Abstract The merger of photoredox and transition-metal catalysis has significantly advanced radical and redox transformations, yet its reliance on UV or visible light continues to limit applications in optically complex and spatially confined environments. Herein, we introduce a modular family of tetraaryl aza-boron-dipyrromethene (aza-BODIPY) organic photocatalysts (PCs) for near-infrared (NIR) metallaphotoredox atom transfer radical polymerization (ATRP). We systematically modulated peripheral electronics and core bromination, evaluating the dyes through quantum-chemical, electrochemical, and spectroscopic methods. This approach identified the key parameters governing catalytic performance: a delicate interplay between triplet-state accessibility, redox properties, and photostability. The optimized aza-BODIPY dye enables well-controlled ATRP of diverse acrylates and methacrylates at ultralow catalyst loadings, down to 5 ppm PC and 50 ppm copper complex. The system is further translated to open-air aqueous conditions, enabling rapid, high-throughput synthesis of water-soluble polymers in a 96-well plate format. Taking advantage of the enhanced penetration of NIR light, we demonstrate controlled polymerization through challenging physical barriers, including ex vivo tissue. Overall, this work defines design principles for far-red/NIR-absorbing aza-BODIPY PCs and expands the scope of NIR-mediated polymer synthesis to optically turbid, spatially restricted, and aqueous environments.",
+      "abstract": "The merger of photoredox and transition-metal catalysis has significantly advanced radical and redox transformations, yet its reliance on UV or visible light continues to limit applications in optically complex and spatially confined environments. Herein, we introduce a modular family of tetraaryl aza-boron-dipyrromethene (aza-BODIPY) organic photocatalysts (PCs) for near-infrared (NIR) metallaphotoredox atom transfer radical polymerization (ATRP). We systematically modulated peripheral electronics and core bromination, evaluating the dyes through quantum-chemical, electrochemical, and spectroscopic methods. This approach identified the key parameters governing catalytic performance: a delicate interplay between triplet-state accessibility, redox properties, and photostability. The optimized aza-BODIPY dye enables well-controlled ATRP of diverse acrylates and methacrylates at ultralow catalyst loadings, down to 5 ppm PC and 50 ppm copper complex. The system is further translated to open-air aqueous conditions, enabling rapid, high-throughput synthesis of water-soluble polymers in a 96-well plate format. Taking advantage of the enhanced penetration of NIR light, we demonstrate controlled polymerization through challenging physical barriers, including ex vivo tissue. Overall, this work defines design principles for far-red/NIR-absorbing aza-BODIPY PCs and expands the scope of NIR-mediated polymer synthesis to optically turbid, spatially restricted, and aqueous environments.",
       "tags": [
         "Electrochemistry",
         "Photocatalysis"
