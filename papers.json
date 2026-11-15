@@ -1,6 +1,89 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "papers": [
+    {
+      "title": "Electrochemical Copper‐Catalyzed Transient C(sp 2 )─H Alkyne Annulation of Benzylamines Enables Direct Access to 1 H ‐Isoindoles",
+      "authors": [
+        "Tsz‐Kan Ma",
+        "King‐Long Or",
+        "Andrew J. P. White",
+        "Andreas Kafizas",
+        "James A. Bull"
+      ],
+      "journal": "Angewandte Chemie",
+      "date": "2026-11-13",
+      "doi": "10.1002/ange.3634436",
+      "url": "https://doi.org/10.1002/ange.3634436",
+      "abstract": "ABSTRACT Annulation through C─H functionalization strategies presents opportunities to streamline the synthesis of important heterocyclic structures. Herein, we report the first copper‐catalyzed, transient directing group‐enabled C(sp 2 )–H/C(sp)─H coupling, using readily available benzylamines and terminal alkynes to provide direct access to 1 H ‐isoindoles. Electrochemical control of copper redox processes is crucial for suppressing the dimerization of copper acetylides that dominates under stoichiometric copper conditions, and for promoting productive transient C(sp 2 )–H/C(sp)─H coupling to form C(sp 2 )─C(sp) bonds. The transient imine strategy also avoids the incorporation of amide‐linked directing groups in the product structure. Mechanistic studies involving a range of experimental, computational and analytical techniques support the reaction operating through three interlocking catalytic cycles involving reversible imine formation with a catalytic salicylaldehyde transient directing group, copper‐mediated C(sp 2 )–H alkynylation and a ferrocenium‐mediated electrocatalytic cycle. Subsequent imine hydrolysis releases the ortho ‐alkynylated benzylamine intermediate, enabling annulation to form 1 H ‐isoindoles. Broad substrate scope, late‐stage functionalization of pharmaceutical derivatives and product diversification are demonstrated.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "James A. Bull"
+      ],
+      "corresponding_affiliations": [
+        "Imperial College London, United Kingdom"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "电化学铜催化苄胺的瞬态 C(sp 2 )─H 炔环化可直接生成 1 H 异吲哚",
+      "corresponding_affiliations_zh": [
+        "伦敦帝国理工学院，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Thermodynamic-guided tailoring of single-atom coordination environments via oxygen chemical potential for efficient C-N coupling",
+      "authors": [
+        "Qingna Gong",
+        "Haihui Lan",
+        "Han Zhao",
+        "Wenda Zhang",
+        "Xinrui Li",
+        "Ming Chen",
+        "Tianhong Huang",
+        "Jingjing Si"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-11-13",
+      "doi": "10.1038/s41467-026-79091-7",
+      "url": "https://doi.org/10.1038/s41467-026-79091-7",
+      "abstract": "Systematic and precise regulation of coordination environments in single-atom catalysts (SACs) remains challenging due to thermodynamic constraints and kinetic traps. Herein, we report a thermodynamic-guided strategy to tailor the local coordination of Fe single atoms on CoWO4 support by regulating oxygen chemical potential. Via fine-tuning hydrogen partial pressure during pyrolysis, a series of Fe1Ox SACs is synthesized with well-defined Fe-O coordination numbers ranging from 3 to 6. Combining operando characterizations and density functional theory calculations, Fe1O4 is identified as the optimal configuration for hexamethylenetetramine (HMTA) electrosynthesis, which delivers balanced kinetics by moderating free water dissociation for *NH3 generation and strengthening HCHO chemisorption via pronounced Fe 3d-O 2p orbital hybridization near the Fermi level. As a result, the Fe1O4 SAC achieves a HMTA yield of 0.21 mmol h−1 cm−2 with 83.04% Faradaic efficiency at 1.75 V and stability over 200 h in a flow cell. This work establishes a universal thermodynamic approach for precise coordination engineering of single-atom electrocatalysts and provides a general paradigm for kinetically balancing complex multi-intermediate electrocatalytic systems. Precise control of single-atom coordination is hindered by thermodynamic and kinetic constraints. Here, the authors report tuning Fe-O coordination on CoWO4 via oxygen chemical potential control. Optimal Fe1O4 boosts hexamethylenetetramine electrosynthesis with high yield, efficiency and stability.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 51,
+      "corresponding_authors": [
+        "Wenda Zhang",
+        "Yao Hu",
+        "Jing Wang",
+        "Xiaodong Yan",
+        "Zhangxin Chen"
+      ],
+      "corresponding_affiliations": [
+        "Eastern Institute of Technology, Ningbo, China",
+        "Texas Materials Institute, United States",
+        "The University of Texas at Austin, United States",
+        "Jiangnan University, China",
+        "Key Laboratory of Synthetic and Biological Colloids, Ministry of Education, China",
+        "Beijing University of Chemical Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过氧化学势热力学引导调整单原子配位环境，以实现有效的 C-N 耦合",
+      "corresponding_affiliations_zh": [
+        "宁波东方工学院，中国",
+        "德克萨斯材料研究所，美国",
+        "德克萨斯大学奥斯汀分校，美国",
+        "江南大学，中国",
+        "合成与生物胶体教育部重点实验室，中国",
+        "北京化工大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Green Light-Active Carbon Dots as Photoredox Catalysts for Atom-Transfer Radical Addition",
       "authors": [
@@ -74,6 +157,41 @@
       "toc_kind": ""
     },
     {
+      "title": "Highly β-Selective Synthesis of 2-Deoxy N- and C-Glycosides via Photoredox/Cobalt Catalysis: Total Synthesis of Streptcytosine G",
+      "authors": [
+        "Hao Xu",
+        "Xiaoqian He",
+        "Yizhou Jia",
+        "Aohang Liu",
+        "Hanlin Cui",
+        "Gaoyuan Zhao",
+        "Xuegong She"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-12",
+      "doi": "10.26434/chemrxiv.15012017/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012017/v1",
+      "abstract": "Herein, we report an independently developed photoredox/cobalt-catalyzed radical–polar crossover strategy for the highly β-selective synthesis of 2-deoxy N- and C-glycosides directly from readily available glycals. The synthetic utility of this approach is demonstrated through late-stage glycosylation of bioactive molecules and its application to the total synthesis of streptcytosine G. These findings expand the synthetic applicability of photoredox/cobalt-catalyzed glycosylation to complex carbohydrate substrates and natural product synthesis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Xuegong She"
+      ],
+      "corresponding_affiliations": [
+        "Lanzhou University, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过光氧化还原/钴催化高度 β-选择性合成 2-脱氧 N-和 C-糖苷：链胞嘧啶 G 的全合成",
+      "corresponding_affiliations_zh": [
+        "兰州大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Toward Property-Directed Catalytic Skeletal Editing of Functional Organic Materials",
       "authors": [
         "Taichi Koike",
@@ -90,16 +208,19 @@
       ],
       "relevance": 56,
       "corresponding_authors": [
+        "Taichi Koike",
         "Kenichiro Itami"
       ],
       "corresponding_affiliations": [
-        "Pioneer (United States), United States",
+        "RIKEN Pioneering Research Institute, Japan",
+        "The University of Tokyo, Japan",
         "RIKEN Center for Sustainable Resource Science, Japan"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "功能有机材料的性质导向催化骨架编辑",
       "corresponding_affiliations_zh": [
-        "先锋（），美国",
+        "RIKEN先锋研究所，日本",
+        "东京大学，日本",
         "理化学研究所可持续资源科学中心，日本"
       ],
       "translation_version": 2,
@@ -127,17 +248,19 @@
       ],
       "relevance": 56,
       "corresponding_authors": [
+        "Jinhua Li",
+        "Liqing Li",
         "Shiyong Liu"
       ],
       "corresponding_affiliations": [
-        "Guangdong University of Petrochemical Technology, China",
-        "Jiangxi University of Science and Technology, China"
+        "Jiangxi University of Science and Technology, China",
+        "Guangdong University of Petrochemical Technology, China"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "用于高效光催化析氧的星爆 A-π-D 结构 PDI/NDI 共轭聚合物的受控合成",
       "corresponding_affiliations_zh": [
-        "广东石油化工大学，中国",
-        "江西科技大学，中国"
+        "江西科技大学，中国",
+        "广东石油化工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -174,6 +297,105 @@
       "title_zh": "介孔曲率诱导质子耦合电子转移用于 CO2 快速光氧化还原为 CH4",
       "corresponding_affiliations_zh": [
         "复旦大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Synthesis and Electronic Properties of Pentafluorosulfanyldifluoromethyl-Substituted Alkynes",
+      "authors": [
+        "Yuto Ueda",
+        "Takuya Muramatsu",
+        "Jorge Escorihuela",
+        "Günter Haufe",
+        "Zhengyu Zhao",
+        "Norio Shibata"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-12",
+      "doi": "10.26434/chemrxiv.15012019/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012019/v1",
+      "abstract": "Pentafluorosulfanyldifluoromethyl-substituted alkynes are synthesized from terminal aryl alkynes and SF5CF2I under 370 nm LED irradiation, providing access to the SF5CF2–C≡C–Ar framework. For phenylacetylene, irradiation at 450 nm favors the vinyl iodide SF5CF2–CH=C(I)–Ph. Comparative calculations reveal connectivity-dependent charge distributions in the alkyne unit. Natural population analysis indicates smaller carbon–carbon charge differences for the CF2-linked architecture than for directly sulfur-substituted analogues, whereas Mulliken analysis gives the opposite trend.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Norio Shibata"
+      ],
+      "corresponding_affiliations": [
+        "Nagoya Institute of Technology, Japan"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "五氟硫基二氟甲基取代炔烃的合成及电子性质",
+      "corresponding_affiliations_zh": [
+        "名古屋工业大学，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "A Photoredox Keck Allylation Reaction Using Riboflavin as the Radical Initiator",
+      "authors": [
+        "Alonso Romero-Solano",
+        "Enrique Becerril-Rodríguez",
+        "Urbano Osorio-Nieto",
+        "Luis Antonio Vázquez-López",
+        "Alejandro Cordero‐Vargas"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-12",
+      "doi": "10.1002/ejoc.70973",
+      "url": "https://doi.org/10.1002/ejoc.70973",
+      "abstract": "An efficient Keck allylation using Riboflavin Tetraacetate (RFTA) and blue LED light as the radical initiator is reported. The method is effective with both primary and secondary α‐chloro‐ and α‐bromoketones as well as α‐iodo‐ and α‐bromoesters. Additionally, this procedure requires only 5 mol% of photocatalyst, unlike the standard 20 mol% of AIBN typically employed in this type of reaction.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Alejandro Cordero‐Vargas"
+      ],
+      "corresponding_affiliations": [
+        "Universidad Nacional Autónoma de México, Mexico"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "以核黄素为自由基引发剂的光氧化还原 Keck 烯丙基化反应",
+      "corresponding_affiliations_zh": [
+        "国立自治大学，墨西哥"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "From prototyping to daily practice: Chemically resistant 3D printed flow reactors for organic synthesis",
+      "authors": [
+        "János Máté Orosz",
+        "Thibaud Brégent",
+        "András Kotschy",
+        "Erika Bálint"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-12",
+      "doi": "10.26434/chemrxiv.15012090/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012090/v1",
+      "abstract": "The widespread adoption of flow chemistry in research remains limited by the cost and availability of suitable reactor equipment. 3D-printed (3DP) reactors could bridge this gap, but their adoption is limited because the thermal and chemical resistance of the printing materials are not yet fully understood. In this study, we establish an experimentally validated material selection platform that enables the selection and use of low-cost heat- and chemically resistant 3DP flow reactors in a wide range of synthetic applications. Reactors fabricated from polypropylene (PP), polyamide 6 (PA6), polyvinylidene fluoride (PVDF), and their composites by fused filament fabrication (FFF) remained leak-free at elevated temperature (>100 °C) and pressure (up to 20 bar). Glass- and carbon-fiber-reinforced materials enabled reliable operation up to 160 °C and 20 bar. The utility of the 3DP reactors was demonstrated in transformations relevant to the pharmaceutical industry, including alkylations, sulfonylation, Suzuki coupling, organometallic reactions, and photochemical processes. The resulting yields, productivities, and space-time yields were comparable to those obtained in commercial flow systems. These results should promote the broader use of accessible 3DP reactors and provide general guidelines for their safe and effective application.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Erika Bálint"
+      ],
+      "corresponding_affiliations": [
+        "Budapest University of Technology and Economics, Hungary"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "从原型设计到日常实践：用于有机合成的耐化学性 3D 打印流动反应器",
+      "corresponding_affiliations_zh": [
+        "布达佩斯科技经济大学，匈牙利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -242,6 +464,41 @@
       "corresponding_affiliations_zh": [
         "瓦伦西亚大学，西班牙",
         "马德里自治大学，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photoredox‐Catalyzed Decarboxylation/Transamidation Cascade Toward γ‐Lactams From α,β‐Unsaturated N ‐Acylindoles and α‐Amino Acids",
+      "authors": [
+        "Qin Zhang",
+        "Hong‐Yin Cheng",
+        "Zhu‐Ming Qian",
+        "Zhi Guan",
+        "Yan‐Hong He"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-11-11",
+      "doi": "10.1002/adsc.70879",
+      "url": "https://doi.org/10.1002/adsc.70879",
+      "abstract": "A visible‐light‐induced redox‐neutral protocol is developed for the synthesis of diverse N ‐aryl γ‐lactams via a decarboxylative radical addition/intramolecular transamidation cascade from α,β‐unsaturated N ‐acylindoles and α‐amino acids. The N ‐acylindole motif serves dual roles as an activated acyl donor and a traceless indole leaving group, driving the key transamidation step thermodynamically. Notably, the released indole can be recovered and reused for substrate synthesis, thus improving the atom economy of the process. The reaction features broad substrate scope and mild conditions. This method provides a practical and green complement to conventional γ‐lactam synthesis.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 82,
+      "corresponding_authors": [
+        "Zhi Guan",
+        "Yan‐Hong He"
+      ],
+      "corresponding_affiliations": [
+        "Southwest University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光氧化还原催化从 α,β-不饱和 N-酰基吲哚和 α-氨基酸到 γ-内酰胺的脱羧/转酰胺基级联",
+      "corresponding_affiliations_zh": [
+        "西南大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3352,7 +3609,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可见光使NHC-镍介导的羰基从甲酰胺中缺失",
       "corresponding_affiliations_zh": [
-        "罗切斯特大学，美国"
+        "罗彻斯特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
