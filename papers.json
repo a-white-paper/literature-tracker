@@ -1,6 +1,117 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "papers": [
+    {
+      "title": "Bimolecular Homolytic Substitution Catalysis with a Europium Photocatalyst for Single Functional Group Cross-Coupling",
+      "authors": [
+        "Zhongzhen Wang",
+        "Wenchao Yan",
+        "Dajiang Huang",
+        "Jinxiao Yang",
+        "Tianming Zhong",
+        "Shuangji Song",
+        "Zhiqiang Hao",
+        "Junnian Wei"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-14",
+      "doi": "10.1021/jacs.6c18958",
+      "url": "https://doi.org/10.1021/jacs.6c18958",
+      "abstract": "Abstract Lanthanide photocatalysis has emerged as a promising alternative to precious-metal systems due to its earth abundance, low toxicity, and unique photophysical properties. However, reported lanthanide-based photocatalysts have primarily focused on the generation of reactive radical species, with limited ability to control product selectivity in bond-forming processes. Here we report a single europium-cryptate catalyst that enables selective C(sp3)–C(sp3) cross-coupling of benzyl chlorides by combining single-electron transfer-driven radical generation with bimolecular homolytic substitution reactivity. The reaction proceeds through a Eu(II)-benzyl intermediate that initiates single-electron transfer to form a benzyl radical, followed by SH2 with a Eu(III)-benzyl species to forge the cross-coupling product. Our findings provide a mechanistic framework for designing selective C(sp3)–C(sp3) cross-coupling reactions using lanthanide metals, paving the way for the broader application of lanthanide-based photocatalysts in organic synthesis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 76,
+      "corresponding_authors": [
+        "Wei Liu",
+        "Hao Zhang",
+        "Zhiwei Liu",
+        "Wen‐Xiong Zhang"
+      ],
+      "corresponding_affiliations": [
+        "Peking University, China",
+        "Inner Mongolia University, China",
+        "Guizhou Minzu University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "铕光催化剂的双分子均质取代催化用于单官能团交叉偶联",
+      "corresponding_affiliations_zh": [
+        "北京大学，中国",
+        "内蒙古大学，中国",
+        "贵州民族大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Expedient Photochemical Synthesis of syn‐Ladderanes",
+      "authors": [
+        "Guillaume Roland",
+        "1 Andrea Minutti-Simoni",
+        "Bernard D'Onofrio",
+        "Rebecca L. Davis",
+        "Alexandre Lemire",
+        "Shawn Collins"
+      ],
+      "journal": "Angewandte Chemie",
+      "date": "2026-11-14",
+      "doi": "10.1002/ange.5898788",
+      "url": "https://doi.org/10.1002/ange.5898788",
+      "abstract": "The synthesis of highly strained, three-dimensional molecular architectures remains a significant challenge. Syn-ladderanes are a rare class of cubane-related hydrocarbons, with only isolated examples reported over the past several decades. Herein, we demonstrate that readily available 4- and 5-substituted 2-pyridones undergo a previously unexplored photochemical cascade to furnish syn-ladderanes in a single step. The reaction provides access to a diverse collection of syn-ladderanes (22 examples, 25%-97% yield), including unsymmetrical derivatives and products that can be further diversified through oxidation, esterification, and decarboxylative functionalization. The resulting structures provide direct access to a previously underexplored family of highly strained, three-dimensional molecular architectures. Mechanistic studies support a stepwise sequence of radical bond-forming events that selectively generates the syn-trans intermediate required for ladderane formation. The work establishes a practical and conceptually simple approach to syn-ladderanes and provides a foundation for systematic investigation of a strained hydrocarbon framework that has remained largely unexplored.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Shawn Collins"
+      ],
+      "corresponding_affiliations": [
+        "Centre in Green Chemistry and Catalysis, Canada",
+        "Université de Montréal, Canada"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "顺式梯烷的便捷光化学合成",
+      "corresponding_affiliations_zh": [
+        "绿色化学与催化中心，加拿大",
+        "蒙特利尔大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalytic radical hydrogenation of unactivated alkenes via an intermolecular hydrogen-atom-transfer relay",
+      "authors": [
+        "Weiqiao Lan",
+        "Ziyuan Wei",
+        "Zhao Wu"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-11-14",
+      "doi": "10.1038/s41467-026-79704-1",
+      "url": "https://doi.org/10.1038/s41467-026-79704-1",
+      "abstract": "Despite the ubiquity of alkene reduction in chemical synthesis, developing safe, general, and chemoselective hydrogenation methods that avoid pressurized hydrogen gas or precious metals remains a significant challenge. Herein, we report a redox-neutral photocatalytic radical transfer hydrogenation strategy that addresses these constraints via an intermolecular hydrogen-atom-transfer (HAT) relay. This approach leverages a synergistic diaryl ketone–cobalt–thiol triple catalytic system to utilize naturally abundant γ-terpinene as a sustainable hydrogen donor. Driven by visible light, the reaction proceeds through a HAT cascade to generate a reactive cobalt–hydride species, enabling the efficient hydrogenation of a broad spectrum of unactivated alkenes—ranging from terminal to sterically demanding tetrasubstituted variants—under mild, additive-free conditions. The protocol exhibits excellent chemoselectivity, preserving sensitive functionalities such as aldehydes, epoxides, carboxylic acids, and Lewis basic heterocycles. The practical utility of this protocol is demonstrated through gram-scale synthesis with low catalyst loadings, establishing a versatile and environmentally benign platform for alkene reduction. Cross-electrophile coupling between unactivated alkyl halides and alkynyl halides has long been challenged by reactivity mismatch and poor chemoselectivity. Here the authors report nickel-catalyzed crosselectrophile coupling enabled by a tridentate ligand that controls the sequence of electrophile activation, allowing direct construction of alkynyl–alkyl bonds.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Zhao Wu"
+      ],
+      "corresponding_affiliations": [
+        "South China University of Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过分子间氢原子转移中继未活化烯烃的光催化自由基氢化",
+      "corresponding_affiliations_zh": [
+        "华南理工大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Electrochemical Copper‐Catalyzed Transient C(sp 2 )─H Alkyne Annulation of Benzylamines Enables Direct Access to 1 H ‐Isoindoles",
       "authors": [
@@ -752,6 +863,42 @@
       "corresponding_affiliations_zh": [
         "莫哈利科学教育研究所，印度",
         "理工学院孟买分校，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Adaptive catalyst discovery emerges from composable scientific intelligence",
+      "authors": [
+        "Wentao Li",
+        "Qilong Cai",
+        "Qi Lei",
+        "Jinxing Chen",
+        "Ruixuan Chen",
+        "Jiangjie Qiu",
+        "Botian Wang",
+        "Kai Zhao"
+      ],
+      "journal": "arXiv (Cornell University)",
+      "date": "2026-11-10",
+      "doi": "10.48550/arxiv.2611.13536",
+      "url": "https://doi.org/10.48550/arxiv.2611.13536",
+      "abstract": "Catalysis underpins chemical manufacturing, yet knowledge for catalyst design remains dispersed across experimental observations, computational data and catalysis subdisciplines. To overcome this challenge, we present Composable Catalytic Intelligence (CatAI), a physics-grounded modular AI framework that learns 1.8 million structure-property relations and organizes them into 30 physicochemical encoders. This reusable intermediate layer enables task-specific models to guide catalyst discovery for targeted reactions and objectives. Across benchmark tasks, CatAI achieves a 7.8% lower task-averaged prediction error than the next-best models. In experimental validation, CatAI identified a new confined-passable pocket catalyst applicable in industrial homogeneous polymer synthesis with 9 times the activity of the commercial benchmark. In parallel, it guided autonomous closed-loop optimization of a highly active Cu-based geminal-atom photocatalyst for C-O coupling reactions surpassing the traditional Ni-based systems. This approach connects property-level data to catalytic objectives, supporting physicochemical knowledge reuse across mechanistically distinct systems through computational screening and iterative model-experiment feedback.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Xiaonan Wang"
+      ],
+      "corresponding_affiliations": [
+        "Beijing University of Chemical Technology, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "自适应催化剂的发现源于可组合的科学智能",
+      "corresponding_affiliations_zh": [
+        "北京化工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
