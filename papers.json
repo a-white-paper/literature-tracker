@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "papers": [
     {
       "title": "Bimolecular Homolytic Substitution Catalysis with a Europium Photocatalyst for Single Functional Group Cross-Coupling",
@@ -82,6 +82,40 @@
       "toc_kind": ""
     },
     {
+      "title": "The Kinetic Origins of Photoredox Efficiency",
+      "authors": [
+        "Pengju Li",
+        "Joffrey Scriven",
+        "Benjamin Elias",
+        "Ludovic Troian‐Gautier"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-14",
+      "doi": "10.1002/anie.2063270",
+      "url": "https://doi.org/10.1002/anie.2063270",
+      "abstract": "The overall efficiency of photoredox catalysis is determined by a sequence of elementary steps spanning photoexcitation, excited-state quenching, cage escape of the geminate radical pair, and the subsequent electron transfer that initiates the product-forming pathway. Although each step is now recognized to contribute, their individual roles are difficult to separate because the molecular changes that tune one, most often the choice of photosensitizer or donor, simultaneously alter the others. Here we disentangle two parameters beyond the quenching step: The cage-escape yield and the driving force (and rate) of the secondary electron transfer. Using a rationally designed series of seven photosensitizers, we either hold the cage-escape yield constant while varying the follow-up driving force or, conversely, tune cage escape at fixed driving force, determining the relevant electron-transfer rate constants directly by transient absorption spectroscopy. This decoupling reveals that cage escape and downstream electron-transfer kinetics exert distinct, quantitatively separable, and non-interchangeable control over reaction rates and yields, such that optimizing one cannot compensate for a deficit in the other. The approach provides a route to measure, model, and independently optimize the elementary steps that follow excited-state quenching.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Ludovic Troian‐Gautier"
+      ],
+      "corresponding_affiliations": [
+        "Walloon Excellence in Lifesciences and Biotechnology, Belgium",
+        "UCLouvain, Belgium"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光氧化还原效率的动力学起源",
+      "corresponding_affiliations_zh": [
+        "瓦隆生命科学和生物技术领域的卓越成就，比利时",
+        "加州大学鲁汶分校，比利时"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Photocatalytic radical hydrogenation of unactivated alkenes via an intermolecular hydrogen-atom-transfer relay",
       "authors": [
         "Weiqiao Lan",
@@ -107,6 +141,43 @@
       "title_zh": "通过分子间氢原子转移中继未活化烯烃的光催化自由基氢化",
       "corresponding_affiliations_zh": [
         "华南理工大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrochemical Hydrocarboxylation of Unactivated Alkyl Alkenes",
+      "authors": [
+        "Weimei Zeng",
+        "Guoqing Yang",
+        "Youai Qiu"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-13",
+      "doi": "10.1002/anie.1949347",
+      "url": "https://doi.org/10.1002/anie.1949347",
+      "abstract": "ABSTRACT Alkyl carboxylic acids are fundamental building blocks in pharmaceuticals and functional materials. The direct electrochemical hydrocarboxylation of unactivated alkyl alkenes with CO 2 offers an atom‐economical route to these valuable compounds, avoiding prefunctionalized substrates and harsh reaction conditions. However, the inherently negative reduction potentials of both unactivated alkenes and CO 2 pose substantial barriers to their direct transformation. To date, most electrochemical hydrocarboxylation methods are restricted to activated alkenes, as these substrates can form stabilized intermediates that facilitate the reaction. In sharp contrast, the hydrocarboxylation of unactivated alkyl alkenes remains a formidable challenge, largely due to their electronic neutrality and the lack of efficient pathways to stabilize the key intermediates. Herein, we report a direct electrochemical hydrocarboxylation of unactivated alkyl alkenes under transition metal‐ and base‐free conditions. This protocol not only maximizes atom utilization, but also accommodates a broad range of substrates, including sensitive halides, esters, N ‐heterocycles, and even synthetically challenging 1,1‐disubstituted unactivated alkyl alkenes. The synthetic utility is further demonstrated by the preparation of value‐added products, such as monomethyl adipate and undecanoic acid. Mechanistic studies, including EPR spectroscopy and radical ring‐opening experiments, support the generation of the CO 2 radical anion and its subsequent selective radical addition to the unactivated C═C bond.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Youai Qiu"
+      ],
+      "corresponding_affiliations": [
+        "Nankai University, China",
+        "Guangxi Normal University, China",
+        "State Key Laboratory of Elemental Organic Chemistry, China",
+        "Nanjing University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "未活化烷基烯烃的电化学加氢羧化",
+      "corresponding_affiliations_zh": [
+        "南开大学，中国",
+        "广西师范大学，中国",
+        "元素有机化学国家重点实验室，中国",
+        "南京大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -513,6 +584,35 @@
       "toc_kind": ""
     },
     {
+      "title": "Beyond porosity: emerging design principles in photocatalytic polymers for organic synthesis",
+      "authors": [
+        "Calum T. J. Ferguson"
+      ],
+      "journal": "Chemical Communications",
+      "date": "2026-11-12",
+      "doi": "10.1039/d6cc05155c",
+      "url": "https://doi.org/10.1039/d6cc05155c",
+      "abstract": "Photocatalytic polymers have emerged as promising materials for the synthesis of high-value chemicals through photoredox transformations. Over the past few decades, a wide range of polymer architectures have been developed, spanning linear polymers to conjugated polymer networks. Porous polymer networks were initially designed to maximise photocatalytic performance by increasing surface area and, consequently, the number of accessible reactive sites. However, recent studies, including our own, have demonstrated that porosity is not a prerequisite for high photocatalytic activity. In porous materials, a significant fraction of reactive centres can reside within the bulk of the network, where they can be inaccessible to substrates, creating a \"dead zone\". The extent of this inactive region is governed by factors such as exciton diffusion length, substrate mass transport into the material, and diffusion rates within the pores. Consequently, photocatalytic reactions often predominantly occur at or near the material surface, limiting the benefits of internal porosity. This feature article therefore addresses a key question: what alternative design principles should be prioritised instead of porosity to maximise photocatalytic efficiency? Specifically, in this review I will discuss approaches to enhance the accessibility of reactive sites and improve charge-carrier generation, separation, and transport. Highlighting how these material design parameters can be systematically tuned to maximise photocatalytic reaction rates and overall performance.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 51,
+      "corresponding_authors": [
+        "Calum T. J. Ferguson"
+      ],
+      "corresponding_affiliations": [
+        "University of Birmingham, United Kingdom"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "超越孔隙率：有机合成光催化聚合物的新兴设计原理",
+      "corresponding_affiliations_zh": [
+        "伯明翰大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "In situ monitoring of Pb(II) using Pb(II) IIPs and potentiometric method equipped with cost-free VLC communication system",
       "authors": [
         "Grahadi Ganang Aditya",
@@ -893,12 +993,14 @@
         "Xiaonan Wang"
       ],
       "corresponding_affiliations": [
-        "Beijing University of Chemical Technology, China"
+        "State Key Laboratory of Chemical Engineering, China",
+        "Tsinghua University, China"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "自适应催化剂的发现源于可组合的科学智能",
       "corresponding_affiliations_zh": [
-        "北京化工大学，中国"
+        "化学工程国家重点实验室，中国",
+        "清华大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3756,7 +3858,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可见光使NHC-镍介导的羰基从甲酰胺中缺失",
       "corresponding_affiliations_zh": [
-        "罗彻斯特大学，美国"
+        "罗切斯特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
