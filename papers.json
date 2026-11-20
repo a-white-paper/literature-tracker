@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "papers": [
     {
       "title": "Mechanophotocatalysis: Towards a generalisable methodology for solvent-minimised light-driven organic synthesis reactions (thesis data)",
@@ -27,6 +27,109 @@
       "toc_kind": ""
     },
     {
+      "title": "Electrochemistry Goes Mainstream: Applications in Modern Total Synthesis",
+      "authors": [
+        "Alexandros S. Pollatos",
+        "Yu Kawamata",
+        "Phil S. Baran"
+      ],
+      "journal": "Accounts of Chemical Research",
+      "date": "2026-11-18",
+      "doi": "10.1021/acs.accounts.6c00419",
+      "url": "https://doi.org/10.1021/acs.accounts.6c00419",
+      "abstract": "Conspectus For more than a century, synthetic organic electrochemistry has held out the promise of using electrons and holes─the universe’s cheapest and most tunable redox reagents─to orchestrate bond construction and functional-group interconversion with unparalleled precision and sustainability. Yet, for decades, its role in total synthesis remained peripheral, usually invoked when all else failed or as an alternative to reactions with a chemical counterpart. Why did a technique whose industrial pedigree includes multi-ton processes at BASF languish at the margins of academic complex molecule synthesis until the past ten years? The reasons are as familiar as they are frustrating: bespoke equipment, a steep learning curve, and the comforting (if often illusory) notion that “chemical reagents can do that, too.” Our laboratory’s entry into the field was pragmatically rather than philosophically driven. During the total synthesis of dixiamycin, exhaustive screening of chemical oxidants failed to forge the requisite N–N bond; constant-potential electrolysis succeeded cleanly. That single, necessity-driven success in 2014 marked the beginning of a deliberate campaign to move electrochemistry from workaround to strategic centerpiece. What followed was a convergence of two enabling developments: (1) the commercialization of standardized, user-friendly potentiostats that removed the engineering barrier, and (2) the invention of fundamentally novel reactivity─most notably, electrochemical radical cross-couplings─that unlocked intermolecular C–C bond formations between late-stage, densely functionalized fragments in manners hardly accessible using classic two-electron methods. In this Account, we illustrate how these advances have rippled across every major natural-product class and bond type. Strategic functionalizations such as decarboxylative borylations (jawsamycin) and site-selective C–H oxidations (valencene, sclareolide, mitrephorone) now deliver gram-scale intermediates with minimal concession steps. Electrochemical C–N and C–O constructions have powered protecting-group-sparing routes to teleocidins, dragocins, and bipolarolides. The real paradigm shift, however, lies in intermolecular radical cross-couplings. C(sp2)–C(sp3) unions have enabled modular, scalable entries to polyene cores (progesterone, celastrol, isosteviol, vitamin D analogues) and complex macrocycles (bipinnatin J, micitide 982), while doubly decarboxylative C(sp3)–C(sp3) couplings have delivered 15 natural products, including polyrhacitide A and PF1163A, both stemming from a single, inexpensive building block with ligand-controlled diastereoselectivity. Most strikingly, two sequential electrochemical couplings furnished over a gram of the intricate antibiotic nonthmicin, tolerating epoxides and free diols that would have derailed any conventional tactic. Electrochemistry has therefore ceased to be a niche curiosity and has become standard practice in our laboratory (64 syntheses to date)─and, increasingly, in the broader community. It offers an orthogonal retrosynthetic logic that maximizes convergence, minimizes redox fluctuations and protecting groups, and leverages inexpensive electricity rather than stoichiometric metals or pyrophoric reagents. The field now stands at an inflection point: practical paired electrolyses, direct reductive transformations, and mediator systems capable of engaging ever more complex substrates are within reach. For the synthetic chemist who has contemplated a stubborn redox problem or a chemoselectivity impasse, electrochemistry is no longer a last resort─it is an obvious tool to consider employing.",
+      "tags": [
+        "Electrochemistry",
+        "Boron Chemistry",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 88,
+      "corresponding_authors": [
+        "Phil S. Baran"
+      ],
+      "corresponding_affiliations": [
+        "Scripps Research, La Jolla, California, United States, 92037"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "电化学成为主流：在现代全合成中的应用",
+      "corresponding_affiliations_zh": [
+        "美国加利福尼亚州拉荷亚斯克里普斯研究所，邮编：92037"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Paired Synthesis of Polycyclic Constitutional Isomers via Solvent-Controlled Skeletal Disproportionation",
+      "authors": [
+        "An‐Xin Wu",
+        "Tong Lei",
+        "Chensen Xu",
+        "Yilin Liu",
+        "Min Zhang",
+        "Jia-Cheng He",
+        "Zhao-Rui Cao",
+        "Zhi‐Xin Liao"
+      ],
+      "journal": "Research Square",
+      "date": "2026-11-18",
+      "doi": "10.21203/rs.3.rs-11713394/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-11713394/v1",
+      "abstract": "Abstract The paired synthesis of skeletally distinct polycyclic isomers has traditionally relied on separate and tailored synthetic designs, whereas their direct interconversion ranks among the most challenging transformations even within the realm of skeletal editing. However, we introduce that solvent‑controlled skeletal disproportionation, despite its scarcity, offers a convenient means to formally achieve such atom‑conserving skeletal reorganization. We exemplify this strategy with the copper‑catalyzed aerobic oxidation of readily available diarylamines, arylglyoxals, and alkenes: the addition of a few drops of hexafluoroisopropanol (HFIP) to a 1,2-dichloroethane (DCE, 2.0 mL) suffice to trigger a complete selectivity flip in product skeletons. This “butterfly effect” leverages a switchable synthesis of two non-interconvertible, yet pharmaceutically privileged isomers—6/5/6/6 tetracyclic indolo[1,2- a ]quinolines and 6/6 semi-saturated 2-acyl-1,4-dihydroquinolines, whose structural divergence is quantified by an average Tanimoto coefficient of 0.45. DFT calculations reveal that HFIP resolves the inherent regioselectivity conundrum between electron-rich arylamines and dicarbonyl electrophiles by reshaping the ring-size of competing transition states through hydrogen bonding, thereby redirecting chemoselectivity at the onset of the domino process. Biological evaluation across three cancer cell lines shows that this solvent-controlled skeletal divergence directly yields pronounced bioactivity bifurcation between the two isomers. This strategy allows the parallel expansion of compound libraries and would accelerate biological evaluation through a single synthetic design.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "An‐Xin Wu"
+      ],
+      "corresponding_affiliations": [
+        "Central China Normal University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过溶剂控制的骨架歧化实现多环同分异构体的成对合成",
+      "corresponding_affiliations_zh": [
+        "10511 华中师范大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Accessing Stable Pyridinium Nanohoops with Low-Lying LUMOs by Pyridine-Directed C – H Activation",
+      "authors": [
+        "Tavis W. Price",
+        "Victor M. Salpino",
+        "Dylan D Nguyen",
+        "Luca J. Zocchi",
+        "Lev N. Zakharov",
+        "Ramesh Jasti"
+      ],
+      "journal": "ACS Central Science",
+      "date": "2026-11-18",
+      "doi": "10.1021/acscentsci.6c01402",
+      "url": "https://doi.org/10.1021/acscentsci.6c01402",
+      "abstract": "Abstract Designing stable organic molecules with tailored electronic properties is key to advancing next-generation electronic materials. Cycloparaphenylenes (CPPs) and related nanohoops have emerged as promising p-type semiconductors, yet their use as n-type materials remains limited due to inherently high-lying LUMO levels. While pyridine-containing CPPs can be alkylated to lower the LUMO, the resulting pyridinium species are often unstable and unsuitable for practical applications. In this study, we report two complementary synthetic strategies to access bridged-pyridinium[n]CPPs as stable, electron-accepting organic molecules. A bottom-up approach enables intramolecular cyclization to form the bridged architecture, confirming the stability of this new motif. To streamline access and facilitate structural diversification, we developed a second strategy employing pyridine-directed C–H activation─marking the first example of pyridine-directed C–H functionalization directly on the CPP backbone. The resulting pyridinium-functionalized nanohoops were thoroughly characterized. Electrochemical and spectroscopic studies revealed low reduction potentials (as low as −0.84 V) and red-shifted optical absorption edges for the doubly functionalized di(bridged-pyridinium)[10]CPP. Density functional theory calculations corroborate the observed trends in LUMO energies and support the utility of these molecules as electron-accepting building blocks. Together, these results establish bridged-pyridinium[n]CPPs as a new class of stable, tunable materials with potential for organic electronic applications.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 55,
+      "corresponding_authors": [
+        "Ramesh Jasti"
+      ],
+      "corresponding_affiliations": [
+        "University of Oregon, United States"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过吡啶导向的C – H活化获得具有低能LUMO的稳定吡啶鎓纳米环",
+      "corresponding_affiliations_zh": [
+        "俄勒冈大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Direct Functionalization of Alcohols via Hemiboronic Acid Catalysis: New Strategies in Nucleophilic Activation, Photochemistry, and Stereoselective Synthesis",
       "authors": [
         "Geneviève F. O'Keefe"
@@ -48,9 +151,47 @@
         "University of Alberta, Canada"
       ],
       "corresponding_source": "openalex_explicit_author_profile",
-      "title_zh": "",
+      "title_zh": "通过半硼酸催化实现醇的直接官能化：亲核活化、光化学和立体选择性合成的新策略",
       "corresponding_affiliations_zh": [
-        "University of Alberta，加拿大"
+        "多伦多大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Radical Sorting Enables Semiconductor-Driven Redox-Neutral C(sp 3 )–C(sp 3 ) Cross-Coupling",
+      "authors": [
+        "Florian Lukas",
+        "Michael T. Findlay",
+        "Cassian Desmons",
+        "Guillaume Hopsort",
+        "Andreas Ehlers",
+        "Benjamin R. Martin",
+        "Simon Allmendinger",
+        "Markus Furegati"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-17",
+      "doi": "10.26434/chemrxiv.15012335/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012335/v1",
+      "abstract": "Selective formation of C(sp3)–C(sp3) bonds from carbon-centered radicals is inherently challenging, because competing radical homocoupling can compromise product selectivity. Here, we combine heterogeneous semiconductor photocatalysis with nickel-mediated radical sorting to achieve redox-neutral C(sp3)–C(sp3) bond formation. Under irradiation, graphitic carbon nitride (gCN) generates alkyl radicals from carboxylic acids and redox-active esters (RAEs) through complementary oxidative and reductive single-electron transfer, respectively, without the need for stoichiometric oxidants or reductants. A nickel catalyst channels these intermediates towards cross-coupling, providing access to a range of products bearing primary and secondary alkyl fragments, including saturated heterocycles, unnatural amino acids, and late-stage functionalization products. Kinetic modelling, radical-clock experiments, electrochemical measurements, and DFT calculations provide insight into the origin of radical sorting. The results are consistent with sequential radical capture at nickel and identify the suppression of homocoupling between RAE-derived radicals as a key kinetic feature.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 85,
+      "corresponding_authors": [
+        "Timothy Noël"
+      ],
+      "corresponding_affiliations": [
+        "University of Amsterdam, Netherlands"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "自由基分选实现半导体驱动的氧化还原中性C(sp 3 )–C(sp 3 )交叉偶联",
+      "corresponding_affiliations_zh": [
+        "阿姆斯特丹大学，荷兰"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -84,9 +225,124 @@
         "University of Oxford, United Kingdom"
       ],
       "corresponding_source": "openalex_explicit",
-      "title_zh": "",
+      "title_zh": "用于天然产物全合成的当代合成工具",
       "corresponding_affiliations_zh": [
-        "University of Oxford，英国"
+        "牛津大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Deoxofluorination of Formyl-Substituted Boronates: A Practical Entry to Difluoromethyl-Containing Organoboron Building Blocks",
+      "authors": [
+        "Ярослав Андрійович Мельник",
+        "Oleksandr S. Liashuk",
+        "Denys V. Kliukovskyi",
+        "Aleksandr V. Golovchenko",
+        "Oleksandr O. Grygorenko"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-17",
+      "doi": "10.26434/chemrxiv.15012389/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012389/v1",
+      "abstract": "A synthetic approach to CHF 2 -substituted aromatic, heteroaromatic, alkenyl, and cyclopropyl boronates was described, based on deoxofluorination of the corresponding aldehydes with the boron atom temporarily masked as a trifluoroborate. In a telescoped sequence, formylsubstituted pinacol boronates were converted into triethylammonium trifluoroborates with Et 3 N·3HF, deoxofluorinated with Deoxo-Fluor and Et 3 N·3HF in CH 2 Cl 2 or CH 2 Cl 2 – THF, and re-esterified with pinacol in the presence of TMSCl; isolated potassium trifluoroborates could be used as well. Two complementary sets of conditions, selected according to the electronic nature of the substrate, provided 36 target difluoromethyl-substituted boronates in 26–82% yield on up to 5 g scale. Pyridine, quinoline, thiophene, benzothiophene, thiazole, and pyrazole derivatives were obtained, including a boron analog of the 3-(difluoromethyl)-1-methylpyrazole core of succinate dehydrogenase inhibitor (SDHI) fungicides. The products underwent oxidation, Suzuki – Miyaura coupling, and metal-free amination to give difluoromethyl-substituted phenols, biaryls, and (hetero)aromatic amines; in this way, biaryls bearing ketone and aliphatic hydroxy groups, which are not compatible with deoxofluorination, were obtained.",
+      "tags": [
+        "Boron Chemistry",
+        "Difluoromethylation"
+      ],
+      "relevance": 78,
+      "corresponding_authors": [
+        "Oleksandr O. Grygorenko"
+      ],
+      "corresponding_affiliations": [
+        "Taras Shevchenko National University of Kyiv, UA",
+        "Enamine (Ukraine), UA"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "甲酰基取代硼酸酯的脱氧氟化：合成含二氟甲基有机硼砌块的实用方法",
+      "corresponding_affiliations_zh": [
+        "乌克兰基辅塔拉斯·舍甫琴科国立大学",
+        "Enamine（乌克兰），乌克兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Rewriting Copper-Catalyzed ATRA Reactions through a Cu(II)/Cu(III) Pathway",
+      "authors": [
+        "Isabell Reinberger",
+        "Max Schadenfroh",
+        "Artem Chayka",
+        "Patrick Nuernberger",
+        "Oliver Reiser"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-11-17",
+      "doi": "10.1021/acscatal.6c06590",
+      "url": "https://doi.org/10.1021/acscatal.6c06590",
+      "abstract": "Abstract Atom transfer radical addition (ATRA) reactions are typically mediated by photocatalytic Cu(I)/Cu(II) redox cycles, whereas Cu(II) complexes generally serve as precursors to the catalytically active Cu(I) species. Herein, we report a Cu(II) complex supported by the rigid tridentate ligand 3,6-di-tert-butyl-1,8-di(pyridin-2-yl)-9H-carbazole (dpc) that displays an unexpected photocatalytic reactivity. While [Cu(dpc)OAc] exhibits low or no activity in established Cu(II)-mediated transformations, it efficiently catalyzes ATRA reactions, such as the chlorosulfonylation of alkenes, that are typical for Cu(I). Electrochemical and spectroscopic studies revealed that the rigid ligand framework suppresses conventional Cu(II)/Cu(I) photochemistry, instead enabling a Cu(II)/Cu(III) photocycle. Mechanistic investigations support the preassembly of a photoactive Cu(II)-sulfonyl chloride complex followed by light-induced radical generation and Cu(III)-mediated product formation. These findings establish a strategy for promoting ATRA reactivity through Cu(II)/Cu(III) catalysis and underline ligand design as a tool for controlling copper photochemistry.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis",
+        "Cu Catalysis"
+      ],
+      "relevance": 74,
+      "corresponding_authors": [
+        "Patrick Nuernberger",
+        "Oliver Reiser"
+      ],
+      "corresponding_affiliations": [
+        "University of Regensburg, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过Cu(II)/Cu(III)途径重写铜催化的ATRA反应",
+      "corresponding_affiliations_zh": [
+        "雷根斯堡大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photoredox‐Catalyzed Dearomative Spirocyclization of Biaryl Ynones With Fluoroalkyl Carboxylic Anhydrides to Access Fluoroalkylated Spiro[5.5]trienones",
+      "authors": [
+        "Yuxuan Liu",
+        "Lujie Shen",
+        "Sirou Jia",
+        "Jian Kan",
+        "Min Zhang",
+        "Weiping Su"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-11-17",
+      "doi": "10.1002/adsc.70901",
+      "url": "https://doi.org/10.1002/adsc.70901",
+      "abstract": "We developed an efficient and practical photoredox‐catalyzed protocol for the synthesis of CF 2 H/CF 2 Cl‐substituted spiro[5.5]trienones via radical‐induced dearomative spirocyclization of biaryl ynones, employing inexpensive fluoroalkyl carboxylic anhydrides as difluoroalkyl radical sources and acetoxime as the activator under redox‐neutral conditions. This method features broad substrate scope, delivering over 50 structurally diverse fluoroalkylated spiro[5.5]trienones in good yields, and is readily scalable to gram‐scale synthesis. Furthermore, successful derivatization of the spiro scaffolds and chemoselective transformations of the CF 2 Cl group highlight the potential synthetic utility of this approach.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Min Zhang",
+        "Weiping Su"
+      ],
+      "corresponding_affiliations": [
+        "Fujian Normal University, China",
+        "Chinese Academy of Sciences, China",
+        "Fujian Institute of Research on the Structure of Matter, China",
+        "University of Chinese Academy of Sciences, China",
+        "State Key Laboratory of Structural Chemistry, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "双芳基炔酮与氟烷基羧酸酐的光氧化还原催化脱芳构化螺环化以合成氟烷基化螺[5.5]三烯酮",
+      "corresponding_affiliations_zh": [
+        "福建师范大学，中国",
+        "科学院，中国",
+        "福建物质结构研究所，中国",
+        "科学院大学，中国",
+        "结构化学国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -120,9 +376,9 @@
         "Fuzhou University, China"
       ],
       "corresponding_source": "openalex_explicit",
-      "title_zh": "",
+      "title_zh": "合成氮杂茚并苯的电化学流动Scholl反应三（二芳基氨基）苯",
       "corresponding_affiliations_zh": [
-        "Fuzhou University，中国"
+        "福州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -150,9 +406,153 @@
         "RIKEN, Japan"
       ],
       "corresponding_source": "last_author_fallback",
-      "title_zh": "",
+      "title_zh": "拓宽LMCT光催化的应用范围：通过氯自由基介导的继电器过程实现烯烃官能化",
       "corresponding_affiliations_zh": [
-        "RIKEN，日本"
+        "理化学研究所，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Collective Stereodivergent Synthesis of the [13]Graphanyl Isomers: Applications as Drug Analogues",
+      "authors": [
+        "Alex K.H. Chu",
+        "Matthew W.L. Lam",
+        "Loïs Solberghe",
+        "Elvis W.H. Ng",
+        "Antonio Rizzo",
+        "Pauline Chiu"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-17",
+      "doi": "10.26434/chemrxiv.15012396/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012396/v1",
+      "abstract": "Conformationally locked polycycles represent an attractive class of compounds in drug discovery campaigns for medicinal chemists. The three-dimensionality of these scaffolds can result in unique topologies and well-defined exit vectors, enhancing pharmacokinetic profiles and protein interactions that lead to the development of clinically approved therapeutics. One such scaffold that has remained largely underexplored is [13]Graphane, as the synthesis of its four stereoisomers is nontrivial. Herein, we describe a collective stereodivergent synthesis of all the stereoisomers of the [13]Graphane, their central derivatization with diverse functional groups for downstream functionalization. From a common epoxide precursor, we exploit dienyne ring closing cascade metathesis and stereospecific hydrogenation to build each isomer. By performing a decarboxylative radical coupling study on all the [13]G–COOH stereoisomers, we report ring inversions of the ccc- and ctt-[13]G radicals and study these by density functional theory calculations. Finally, we leveraged the different centrally functionalized [13]Graphanes to synthesize Adamantane-based drug analogues as examples of applications in drug design.",
+      "tags": [
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Pauline Chiu"
+      ],
+      "corresponding_affiliations": [
+        "State Key Laboratory of Synthetic Chemistry, China",
+        "University of Hong Kong, Hong Kong"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "[13]石墨烯异构体的集体立体异构合成：作为药物类似物的应用",
+      "corresponding_affiliations_zh": [
+        "合成化学国家重点实验室，中国",
+        "香港大学，中国香港"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Ligand-Mediated Long-Range Interactions Enable Selective Activation of H2O2 for Efficient Water Decontamination",
+      "authors": [
+        "Teng Cai",
+        "Yang Li",
+        "Wei Shi",
+        "Xueye Wang",
+        "Lehui Ren",
+        "Zhiwei Wang"
+      ],
+      "journal": "Nature Communications",
+      "date": "2026-11-17",
+      "doi": "10.1038/s41467-026-79498-2",
+      "url": "https://doi.org/10.1038/s41467-026-79498-2",
+      "abstract": "Steering hydrogen peroxide (H2O2) activation to selectively generate superoxide radicals (O2•−) offers a potent solution for water decontamination, especially under neutral or even alkaline conditions. However, the practical potential of this approach has long been constrained by inefficient O2•− generation due to non-selective O–H bond cleavage during H2O2 activation. Here, we develop a biomimetic second coordination sphere engineering (BSCSE) strategy to synthesize a meso-tetra(4-carboxyphenyl)porphyrin iron (TCPP-Fe) catalyst that directs heterolytic O–H bond cleavage during H2O2 activation, leading to predominant O2•− generation with an apparent O2•− generative selectivity of 90.3% among the quantified reactive oxygen species. The TCPP-Fe catalyst exhibits exceptional catalytic performance, achieving a normalized apparent rate constant of $$40.6\\,{{{{\\rm{L}}}}}^{2}\\,{\\min }^{-1}\\,{{{{{\\rm{g}}}}}_{{{{{\\rm{H}}}}}_{2}{{{{\\rm{O}}}}}_{2}}}^{-1}\\,{{{{{\\rm{g}}}}}_{{{{\\rm{cat}}}}.}}^{-1}$$, which is approximately 2.1-fold higher than the next-highest value in the compiled dataset of representative Fe-based, Fe-alloy, and related catalysts. This remarkable reactivity and selectivity arise from BSCSE-induced modulation of the electronic structure of Fe sites, which facilitates efficient electron transfer between H2O2 and Fe centers while electrostatically stabilizing the Fe–*OOH intermediate to steer O2•− generation. Integrated into a continuous-flow catalytic membrane filtration system treating real secondary effluent, TCPP-Fe enables >96% bisphenol A removal with negligible Fe leaching and sustained removal performance during 120 h of operation. This work bridges biomimetic principles with heterogeneous catalysis, providing a generalizable design strategy for next-generation catalysts toward sustainable water decontamination. Biomimetic second coordination sphere engineering (BSCSE) steers H2O2 activation toward superoxide generation, enabling efficient and durable contaminant removal in complex water matrices.",
+      "tags": [
+        "Fe Catalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Xueye Wang",
+        "Zhiwei Wang"
+      ],
+      "corresponding_affiliations": [
+        "Tongji University, China",
+        "Shanghai Institute of Pollution Control and Ecological Security, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "配体介导的长程相互作用实现H2O2的选择性活化，从而高效净化水",
+      "corresponding_affiliations_zh": [
+        "同济大学，中国",
+        "上海市环境污染控制与生态安全研究院，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Catalytic upcycling of aliphatic polyethers and polyurethanes into α,ω-dichloroalkanes",
+      "authors": [
+        "Nam Đức Vũ",
+        "Jordan François",
+        "Aurélie Boulègue-Mondière",
+        "Marie-Eve L. Perrin",
+        "Vincent Monteil",
+        "Jean Raynaud"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-17",
+      "doi": "10.26434/chemrxiv.15012390/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012390/v1",
+      "abstract": "Aliphatic polyethers are ubiquitous polymers in pharmaceutics and essential building blocks for polyurethanes production. Yet their recycling is underexploited, owing to their strong C-O bond (BDE of ~85 kcal mol-1) as challenging reactive handle. Herein, we highlight the exceptional reactivity of gallium or iron catalysis to upcycle these aliphatic polyethers using boron trichloride as a chlorinating reagent, to offset the thermodynamic cost of creating a C-Cl bond from a C-O bond. The reaction can be carried out under mild conditions (low temperature, low catalytic amount of Lewis Acid such as [Fe] or [Ga] salts) to yield the corresponding α,ω-dichloroalkanes (up to 95% isolated). These intermediates are useful organic solvents and essential industrial key intermediates. In particular, dichloroethane gives access to vinyl chloride, whereas dichlorobutane affords adiponitrile upon cyanation: those are versatile precursors of the polymer industry.",
+      "tags": [
+        "Fe Catalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Jean Raynaud"
+      ],
+      "corresponding_affiliations": [
+        "École d'Ingénieurs en Chimie et Sciences du Numérique, France"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "脂肪族聚醚和聚氨酯催化升级回收为α,ω-二氯烷",
+      "corresponding_affiliations_zh": [
+        "化学与数字科学工程师学院，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalytic 1,2‐Boron Migrative Alkene Homologation to Access 1,3‐Difunctionalized Alkenes",
+      "authors": [
+        "Yuyang Ni",
+        "Sangxuan Xu",
+        "Jingjing Lv",
+        "Hanliang Zheng",
+        "Yulu Zhou",
+        "Gangguo Zhu"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-16",
+      "doi": "10.1002/anie.1454878",
+      "url": "https://doi.org/10.1002/anie.1454878",
+      "abstract": "ABSTRACT In contrast to well‐established methods for vicinal di‐functionalization of alkenes, remote di‐functionalization is much more challenging and has achieved limited success. Herein, we disclose a visible light photocatalytic boron‐directed alkene homologation with alkyl halides activated by a traceless tert ‐butylsulfonyl (Bus) leaving group. The reaction produces a myriad of 1,3‐difunctionalized alkenes under mild conditions with excellent functional group tolerance. β‐Elimination of the Bus group not only drives the contra‐thermodynamic 1,2‐boron migration, but also regenerates a C─C double bond, thus transforming the sulfone‐based alkyl halide into a vinylidene precursor, rather than a traditional alkyl source. The synthetic utility of this method is well demonstrated by gram‐scale synthesis, downstream transformations, and the formal total synthesis of 24‐fluoro‐25‐hydroxyvitamin D 3 analogues. This work represents a very rare example of one‐carbon homologation of ubiquitous alkenes, thus establishing a new strategic paradigm for chemical synthesis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 76,
+      "corresponding_authors": [
+        "Yulu Zhou",
+        "Gangguo Zhu"
+      ],
+      "corresponding_affiliations": [
+        "Zhejiang Normal University, China",
+        "Jinhua University of Vocational Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光催化1,2-硼迁移烯烃同源化合成1,3-双官能化烯烃",
+      "corresponding_affiliations_zh": [
+        "浙江师范大学，中国",
+        "金华职业技术大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -189,11 +589,11 @@
         "University of Brawijaya, ID"
       ],
       "corresponding_source": "openalex_explicit",
-      "title_zh": "",
+      "title_zh": "黄烷酮合成的最新进展：金属和非金属策略",
       "corresponding_affiliations_zh": [
-        "",
-        "",
-        ""
+        "巴基斯坦费萨拉巴德政府学院大学",
+        "马来西亚沙巴大学，马来西亚",
+        "印度尼西亚布朗维加亚大学"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -230,8 +630,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "吲哚基苯基丙烯酮衍生物的辐照波长调谐逐步[2+2]环加成作为光-机械能转换的平台",
       "corresponding_affiliations_zh": [
-        "Jilin University，中国",
-        "State Key Laboratory of Supramolecular Structure and Materials，中国"
+        "吉林大学，中国",
+        "超分子结构与材料国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -261,7 +661,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "水微环境决定烯烃基阳离子自由基反应在BMIM/BF4离子液体中亲核性进攻与去质子化途径的动力学控制",
       "corresponding_affiliations_zh": [
-        "Georgia Institute of Technology，美国"
+        "佐治亚理工学院，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -299,8 +699,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过CO 2 衍生碳上的钴单原子对硼位点进行原子级调制，实现高效H 2 O 2 电合成",
       "corresponding_affiliations_zh": [
-        "Hanyang University，韩国",
-        "Korea Advanced Institute of Science and Technology，韩国"
+        "汉阳大学，韩国",
+        "科学技术院，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -340,9 +740,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "异螯合供体-受体金属笼中可编程电荷分离用于高效可见光驱动的交叉脱氢偶联",
       "corresponding_affiliations_zh": [
-        "State Key Laboratory of Metal Porous Materials，中国",
-        "Xi'an Jiaotong University，中国",
-        "Shaanxi Normal University，中国"
+        "金属多孔材料国家重点实验室，中国",
+        "西安交通大学，中国",
+        "陕西师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -383,9 +783,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "铕光催化剂的双分子均质取代催化用于单官能团交叉偶联",
       "corresponding_affiliations_zh": [
-        "Peking University，中国",
-        "Inner Mongolia University，中国",
-        "Guizhou Minzu University，中国"
+        "北京大学，中国",
+        "内蒙古大学，中国",
+        "贵州民族大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -425,10 +825,10 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "顺式梯烷的便捷光化学合成",
       "corresponding_affiliations_zh": [
-        "University of Manitoba，加拿大",
-        "Paraza Pharma (Canada)，加拿大",
-        "Centre in Green Chemistry and Catalysis，加拿大",
-        "Université de Montréal，加拿大"
+        "马尼托巴大学，加拿大",
+        "Paraza Pharma（），加拿大",
+        "绿色化学与催化中心，加拿大",
+        "蒙特利尔大学，加拿大"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -461,8 +861,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光氧化还原效率的动力学起源",
       "corresponding_affiliations_zh": [
-        "Walloon Excellence in Lifesciences and Biotechnology，比利时",
-        "UCLouvain，比利时"
+        "瓦隆大区在生命科学和生物技术领域的卓越表现，比利时",
+        "鲁汶天主教大学，比利时"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -493,7 +893,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过分子间氢原子转移中继未活化烯烃的光催化自由基氢化",
       "corresponding_affiliations_zh": [
-        "South China University of Technology，中国"
+        "华南理工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -527,10 +927,10 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "未活化烷基烯烃的电化学加氢羧化",
       "corresponding_affiliations_zh": [
-        "Nankai University，中国",
-        "Guangxi Normal University，中国",
-        "State Key Laboratory of Elemental Organic Chemistry，中国",
-        "Nanjing University，中国"
+        "南开大学，中国",
+        "广西师范大学，中国",
+        "元素有机化学国家重点实验室，中国",
+        "南大，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -564,7 +964,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学铜催化苄胺的瞬态 C(sp 2 )─H 炔环化可直接生成 1 H 异吲哚",
       "corresponding_affiliations_zh": [
-        "Imperial College London，英国"
+        "伦敦帝国理工学院，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -609,12 +1009,12 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过氧化学势热力学引导调整单原子配位环境，以实现有效的 C-N 耦合",
       "corresponding_affiliations_zh": [
-        "Eastern Institute of Technology, Ningbo，中国",
-        "Texas Materials Institute，美国",
-        "The University of Texas at Austin，美国",
-        "Jiangnan University，中国",
-        "Key Laboratory of Synthetic and Biological Colloids, Ministry of Education，中国",
-        "Beijing University of Chemical Technology，中国"
+        "宁波东方理工大学，中国",
+        "德州材料研究所，美国",
+        "德克萨斯大学奥斯汀分校，美国",
+        "江南大学，中国",
+        "教育部合成与生物胶体重点实验室，中国",
+        "北京化工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -652,8 +1052,8 @@
       "title_zh": "绿光活性碳点作为原子转移自由基加成的光氧化还原催化剂",
       "corresponding_affiliations_zh": [
         "Ikerbasque，西班牙",
-        "University of Trieste，意大利",
-        "National Interuniversity Consortium of Materials Science and Technology，意大利"
+        "的里雅斯特大学，意大利",
+        "国家材料科学与技术大学间联合体，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -686,7 +1086,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "共轭手性碳点用于流动中可扩展的不对称光催化",
       "corresponding_affiliations_zh": [
-        "University of Cambridge，英国"
+        "剑桥大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -721,7 +1121,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过光氧化还原/钴催化高度 β-选择性合成 2-脱氧 N-和 C-糖苷：链胞嘧啶 G 的全合成",
       "corresponding_affiliations_zh": [
-        "Lanzhou University，中国"
+        "兰州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -755,9 +1155,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "功能有机材料的性质导向催化骨架编辑",
       "corresponding_affiliations_zh": [
-        "RIKEN Pioneering Research Institute，日本",
-        "The University of Tokyo，日本",
-        "RIKEN Center for Sustainable Resource Science，日本"
+        "理研先导研究机构，日本",
+        "东京大学，日本",
+        "理研可持续资源科学中心，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -795,8 +1195,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "用于高效光催化析氧的星爆 A-π-D 结构 PDI/NDI 共轭聚合物的受控合成",
       "corresponding_affiliations_zh": [
-        "Jiangxi University of Science and Technology，中国",
-        "Guangdong University of Petrochemical Technology，中国"
+        "科技大学，中国",
+        "Guangdong University of Petrochemical Technology Transcript，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -832,7 +1232,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "介孔曲率诱导质子耦合电子转移用于 CO2 快速光氧化还原为 CH4",
       "corresponding_affiliations_zh": [
-        "Fudan University，中国"
+        "复旦大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -866,7 +1266,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "五氟硫基二氟甲基取代炔烃的合成及电子性质",
       "corresponding_affiliations_zh": [
-        "Nagoya Institute of Technology，日本"
+        "名古屋工业大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -899,7 +1299,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "以核黄素为自由基引发剂的光氧化还原 Keck 烯丙基化反应",
       "corresponding_affiliations_zh": [
-        "Universidad Nacional Autónoma de México，墨西哥"
+        "国立自治大学教授。，墨西哥"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -931,7 +1331,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "从原型设计到日常实践：用于有机合成的耐化学性 3D 打印流动反应器",
       "corresponding_affiliations_zh": [
-        "Budapest University of Technology and Economics，匈牙利"
+        "布达佩斯理工大学，匈牙利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -960,7 +1360,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "超越孔隙率：有机合成光催化聚合物的新兴设计原理",
       "corresponding_affiliations_zh": [
-        "University of Birmingham，英国"
+        "伯明翰大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1027,8 +1427,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "扩大双功能试剂的反应活性：光诱导获得亚氨基羰基化合物和四氢呋喃",
       "corresponding_affiliations_zh": [
-        "Universitat de València，西班牙",
-        "Universidad Autónoma de Madrid，西班牙"
+        "巴伦西亚大学，西班牙",
+        "马德里自治大学，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1063,7 +1463,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光氧化还原催化从 α,β-不饱和 N-酰基吲哚和 α-氨基酸到 γ-内酰胺的脱羧/转酰胺基级联",
       "corresponding_affiliations_zh": [
-        "Southwest University，中国"
+        "西南大学堂，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1103,9 +1503,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "全可见波长门控多态光致变色 AIEgen：单一发光系统中的高效光环化",
       "corresponding_affiliations_zh": [
-        "Hong Kong University of Science and Technology，中国香港",
-        "East China Normal University，中国",
-        "Chinese University of Hong Kong, Shenzhen，中国"
+        "香港科技大学，中国香港",
+        "华东师范大学，中国",
+        "香港中文大學，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1142,8 +1542,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "以磺胺类弱配位阴离子为特征的强阳离子酸的一般介绍",
       "corresponding_affiliations_zh": [
-        "Centre National de la Recherche Scientifique，法国",
-        "Sorbonne Université，法国"
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "索邦大学，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1173,7 +1573,7 @@
       "corresponding_source": "openalex_explicit_author_profile",
       "title_zh": "仿生氧化：锰催化剂引领潮流",
       "corresponding_affiliations_zh": [
-        "Utrecht University，荷兰"
+        "乌特勒支大学，荷兰"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1240,7 +1640,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电生物催化脱芳香氧化-不对称羟醛级联能够从吲哚直接合成手性3-羟基吲哚啉-2-酮",
       "corresponding_affiliations_zh": [
-        "Thapar Institute of Engineering & Technology，印度"
+        "塔帕尔工程技术学院，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1278,8 +1678,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "BH 和 NH 改性 g-C3N4 光催化剂上 CO2 光还原生成 HCOOH 的机理见解",
       "corresponding_affiliations_zh": [
-        "Texas Tech University，美国",
-        "Instituto Tecnológico de Aeronáutica，巴西"
+        "德克萨斯理工大学，美国",
+        "航空技术学院，巴西"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1315,8 +1715,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "合成双氮杂芳烃的光催化氧化 SNAr 策略",
       "corresponding_affiliations_zh": [
-        "Indian Institute of Science Education and Research Mohali，印度",
-        "Indian Institute of Technology Bombay，印度"
+        "莫哈里科学教育与研究学院，印度",
+        "理工学院孟买分校，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1353,8 +1753,8 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "自适应催化剂的发现源于可组合的科学智能",
       "corresponding_affiliations_zh": [
-        "State Key Laboratory of Chemical Engineering，中国",
-        "Tsinghua University，中国"
+        "化学工程国家重点实验室，中国",
+        "清华大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1389,7 +1789,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过杂原子骨架编辑进行碳环扩环",
       "corresponding_affiliations_zh": [
-        "Sun Yat-sen University，中国"
+        "广州中山大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1429,8 +1829,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "Ni催化烯烃不对称二碳官能化的最新进展",
       "corresponding_affiliations_zh": [
-        "Northeastern University，中国",
-        "Nanjing University，中国"
+        "东北大学，中国",
+        "南大，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1466,7 +1866,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "用于近红外金属光氧化还原原子转移自由基聚合的可调谐 Aza-BODIPY 光催化剂",
       "corresponding_affiliations_zh": [
-        "University of Warsaw，波兰"
+        "华沙大学，波兰"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1504,8 +1904,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "三氟甲磺酰基试剂：三氟甲基化转化的新颖合成策略和机理见解",
       "corresponding_affiliations_zh": [
-        "Shaanxi Academy of Sciences，中国",
-        "Hebei University of Technology，中国"
+        "陕西省科学院，中国",
+        "河北工业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1536,7 +1936,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "引入氢、碳、氟和碘同位素的催化取代反应",
       "corresponding_affiliations_zh": [
-        "Sanofi (Germany)，德国"
+        "赛诺菲（），德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1570,7 +1970,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过光氧化还原催化 1,6-烯炔和硫醇的脱硫串联环化：获得多取代哌啶",
       "corresponding_affiliations_zh": [
-        "Nanjing Agricultural University，中国"
+        "南京农业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1610,9 +2010,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "氮掺杂碳封装镍钴合金中的界面电子调节可实现高电流硝酸盐到氨的电合成",
       "corresponding_affiliations_zh": [
-        "Nanjing Tech University，中国",
-        "State Key Laboratory of Materials-Oriented Chemical Engineering，中国",
-        "Nanyang Technological University，新加坡"
+        "南京工业大学，中国",
+        "材料化工国家重点实验室，中国",
+        "南洋理工大学，新加坡"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1644,7 +2044,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "氰基吡啶与苄基和烷基二氢吡啶的光催化吡啶化：不同的反应性和机理见解",
       "corresponding_affiliations_zh": [
-        "Beijing University of Chemical Technology，中国"
+        "北京化工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1679,11 +2079,11 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "环戊二烯基配体结构对铑(III)催化芳基酮邻位-C─H芳基化的影响",
       "corresponding_affiliations_zh": [
-        "Centre National de la Recherche Scientifique，法国",
-        "Chimie ParisTech - PSL，法国",
-        "Institut Universitaire de France，法国",
-        "Université Paris Sciences et Lettres，法国",
-        "Institute of Chemistry for Life and Health Sciences，法国"
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "巴黎高科化学学院 - PSL，法国",
+        "大学研究院，法国",
+        "巴黎文理哲学与人文大学，法国",
+        "生命与健康科学化学研究所，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1719,7 +2119,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "α-二亚胺配体调制的直接芳基化缩聚反应用于超高 μC* 有机混合导体",
       "corresponding_affiliations_zh": [
-        "University of Chinese Academy of Sciences，中国"
+        "科学院大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1751,8 +2151,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "无过渡金属的C(sp 2 )─Ge键构建和下游功能化",
       "corresponding_affiliations_zh": [
-        "University of Namur，比利时",
-        "Namur Institute of Structured Matter，比利时"
+        "那慕尔大学，比利时",
+        "那慕尔结构物质研究所，比利时"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1789,7 +2189,7 @@
       "title_zh": "手性铜(II)络合物-催化左旋葡聚糖类似物的位点选择性单官能化",
       "corresponding_affiliations_zh": [
         "PROTEO，加拿大",
-        "Université Laval，加拿大"
+        "拉瓦尔大学，加拿大"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1820,7 +2220,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "苯酚邻位选择性碳官能化的加成-迁移级联",
       "corresponding_affiliations_zh": [
-        "Indian Institute of Technology Kanpur，印度"
+        "5. 坎普尔的理工学院。，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1855,8 +2255,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "锌酞菁-黄酮醇对中电子转移和 II 型光敏化之间的溶剂控制转换",
       "corresponding_affiliations_zh": [
-        "University of Chemistry and Technology, Prague，捷克",
-        "Masaryk University，捷克"
+        "布拉格化工大学，捷克",
+        "马萨里克大学，捷克"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1895,8 +2295,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "差异化界面质子传递实现持久的 CO 2 转化为甲酸盐的电合成",
       "corresponding_affiliations_zh": [
-        "University of California San Diego，美国",
-        "King Abdullah University of Science and Technology，沙特阿拉伯"
+        "加州大学圣地亚哥分校，美国",
+        "阿卜杜拉国王科技大学，沙特阿拉伯"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1931,8 +2331,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "铁催化C(sp 3 )─C(sp 3 )键胺化——环丁烷的含氮扩环",
       "corresponding_affiliations_zh": [
-        "University of Stuttgart，德国",
-        "Technische Universität Dresden，德国"
+        "斯图加特大学，德国",
+        "德累斯顿工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1965,7 +2365,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学骨骼编辑",
       "corresponding_affiliations_zh": [
-        "University of Göttingen，德国"
+        "哥廷根大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2000,9 +2400,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光氧化还原钴催化未活化三烷基胺与炔的后期 N-甲基选择性 C-H 乙烯基化",
       "corresponding_affiliations_zh": [
-        "East China University of Science and Technology，中国",
-        "Chinese Academy of Sciences，中国",
-        "Lanzhou Institute of Chemical Physics，中国"
+        "华东理工大学，中国",
+        "科学院，中国",
+        "兰州化学物理研究所，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2035,7 +2435,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过 DMSO 设计的氢键克服电催化脱卤中的传质限制",
       "corresponding_affiliations_zh": [
-        "Tianjin University，中国"
+        "天津大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2067,7 +2467,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "自旋诱导极化能够实现阳极碳氮耦合电催化，用于可持续的甲酰胺合成",
       "corresponding_affiliations_zh": [
-        "Sichuan University，中国"
+        "四川大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2108,9 +2508,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "共轭活性调节分子模板使微晶精炼硬碳能够实现高性能钠存储",
       "corresponding_affiliations_zh": [
-        "Tsinghua Shenzhen International Graduate School，中国",
-        "Tsinghua University，中国",
-        "China University of Petroleum, East China，中国"
+        "清华大学深圳国际研究生院，中国",
+        "清华大学，中国",
+        "石油大学（华东），中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2141,7 +2541,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "厌氧希瓦氏菌 oneidensis 的向外和向内电子转移通过不同的界面电子转移机制发生",
       "corresponding_affiliations_zh": [
-        "Michigan State University，美国"
+        "密歇根州立大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2180,9 +2580,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "CeO 2 /ZnIn 2 S 4 /WC 中的空间解耦 S 型和肖特基异质结用于协同光催化 H 2 析出和苯甲醇氧化",
       "corresponding_affiliations_zh": [
-        "Huzhou College，中国",
-        "China Three Gorges University，中国",
-        "Hubei Three Gorges Laboratory，中国"
+        "湖州学院，中国",
+        "三峡大学，中国",
+        "湖北三峡实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2215,7 +2615,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "远程N-取代基调节的二分双自由基断裂使得烯丙基氨基膦的光催化发散重排成为可能",
       "corresponding_affiliations_zh": [
-        "Lanzhou University，中国"
+        "兰州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2248,7 +2648,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过分子间基团转移反应选择性官能化喹啉和异喹啉",
       "corresponding_affiliations_zh": [
-        "University of Wisconsin–Madison，美国"
+        "威斯康星大学麦迪逊分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2288,8 +2688,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "饱和环胺的电化学可调缩环氰化和亚胺化",
       "corresponding_affiliations_zh": [
-        "Henan Normal University，中国",
-        "Xiamen University，中国"
+        "河南师范大学，中国",
+        "厦门大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2320,7 +2720,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "用于高度对映选择性不对称 Suzuki-Miyaura 交叉偶联反应的轴向手性 (R)-BINOL-、(R)-BINAM- 和 (R)-NOBIN 稳定的钯纳米颗粒",
       "corresponding_affiliations_zh": [
-        "Mersin Üniversitesi，土耳其"
+        "梅尔辛大学，土耳其"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2352,7 +2752,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "咔唑基催化剂作为卤素键合和光氧化还原催化的多功能平台",
       "corresponding_affiliations_zh": [
-        "Oklahoma State University，美国"
+        "俄克拉荷马州立大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2384,7 +2784,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "由 1,3-二烯基硼酸酯立体选择性合成 α,α-二取代烯丙基硼酸酯",
       "corresponding_affiliations_zh": [
-        "Virginia Tech，美国"
+        "弗吉尼亚理工大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2419,7 +2819,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "硫氧化态控制激进的微笑——通过环化选择性的切换来休战重排",
       "corresponding_affiliations_zh": [
-        "University of British Columbia，加拿大"
+        "英属哥伦比亚大学，加拿大"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2455,7 +2855,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "具有可编程取代的烯烃的 C2 同系化",
       "corresponding_affiliations_zh": [
-        "Nanjing University of Science and Technology，中国"
+        "科技大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2493,8 +2893,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "空气中无光催化剂中氮茚开环高度 (E)-立体选择性合成 α, β-不饱和酯和酰胺",
       "corresponding_affiliations_zh": [
-        "Guilin University of Technology，中国",
-        "Guangxi Key Laboratory of Electrochemical and Magnetochemical Functional Materials，中国"
+        "桂林理工大学，中国",
+        "广西电化学与磁化学功能材料重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2533,9 +2933,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "量子点可见光光催化程序 CO 2 用于加氢羧化和羰基化反应",
       "corresponding_affiliations_zh": [
-        "Chinese Academy of Sciences，中国",
-        "Technical Institute of Physics and Chemistry，中国",
-        "University of Chinese Academy of Sciences，中国"
+        "科学院，中国",
+        "科学院理化技术研究所，中国",
+        "科学院大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2569,7 +2969,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可极化液|液界面电合成独立式多金属氧酸盐-PEDOT杂化薄膜",
       "corresponding_affiliations_zh": [
-        "University of Limerick，爱尔兰"
+        "利莫瑞克大学，爱尔兰"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2608,9 +3008,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "CO 2 电化学苄基 C─F 羧化",
       "corresponding_affiliations_zh": [
-        "Jiangxi Science and Technology Normal University，中国",
-        "Jiangxi Normal University，中国",
-        "Wuhan University，中国"
+        "江西科技师范大学，中国",
+        "江西师范大学，中国",
+        "武汉大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2647,8 +3047,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "1,3-烯炔的无外部电解质电化学氯烷氧基化得到氯烷氧基-炔丙基衍生物",
       "corresponding_affiliations_zh": [
-        "Hefei University of Technology，中国",
-        "First Affiliated Hospital of Zhengzhou University，中国"
+        "合肥工业大学，中国",
+        "郑州大学附属第一医院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2682,7 +3082,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过硫亚胺取代的苯并索隆实现的连续亲电胺化和扩环实现氮原子插入",
       "corresponding_affiliations_zh": [
-        "The University of Osaka，日本"
+        "大阪大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2721,7 +3121,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "用于红光光氧化还原催化的卟啉金属有机框架平台",
       "corresponding_affiliations_zh": [
-        "Universidade de Santiago de Compostela，西班牙"
+        "圣地亚哥-德孔波斯特拉大学，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2756,7 +3156,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过芳基硼酸和外消旋亲电子试剂的不对称交叉偶联合成季立构中心",
       "corresponding_affiliations_zh": [
-        "University of Oxford，英国"
+        "牛津大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2792,7 +3192,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "用氮化碳光催化剂揭示可见光驱动的脂肪族 C-H 官能化的机理途径和选择性模式",
       "corresponding_affiliations_zh": [
-        "University of Pavia，意大利"
+        "帕维亚大学，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2826,7 +3226,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "铁催化未活化的仲卤代烷和叔卤代烷通过烯烃烷基化形成叔碳和季碳",
       "corresponding_affiliations_zh": [
-        "California Institute of Technology，美国"
+        "加利福尼亚理工学院，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2859,7 +3259,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "主体开普勒酸盐纳米胶囊中的客体过渡金属作为单加氧酶的超分子无机功能模拟物",
       "corresponding_affiliations_zh": [
-        "Weizmann Institute of Science，以色列"
+        "魏茨曼科学研究所，以色列"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2897,10 +3297,10 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "新型吡啶基苯并咪唑基钌(II)配合物的设计和表征及其单线态氧生成的评价",
       "corresponding_affiliations_zh": [
-        "Commissariat à l'Énergie Atomique et aux Énergies Alternatives，法国",
-        "Université Paris-Saclay，法国",
-        "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement，法国",
-        "Médicaments et Technologies pour la Santé，法国"
+        "原子能与替代能源委员会，法国",
+        "巴黎-萨克雷大学，法国",
+        "国家农业、食品与环境研究所，法国",
+        "药品和健康技术，法国"
       ],
       "translation_version": 2,
       "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-126-graphical-abstract.svg?max-width=637&background=FFFFFF",
@@ -2936,7 +3336,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过铁LMCT光化学自由基介导的1,2-氮从硅迁移到碳",
       "corresponding_affiliations_zh": [
-        "Yunnan University，中国"
+        "Yunnan Arts University，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2972,7 +3372,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过能量转移过程通过[2 + 2]光环加成合成苯并噻吩并[3,2-b]苯并噻吩丙烷",
       "corresponding_affiliations_zh": [
-        "Okayama University，日本"
+        "冈山大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3003,7 +3403,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过自由基环化进行杂四氢异喹啉的模块化构建",
       "corresponding_affiliations_zh": [
-        "Princeton University，美国"
+        "-普林斯顿大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3035,7 +3435,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "利用熵进行可切换的自由基环化级联",
       "corresponding_affiliations_zh": [
-        "Emory University，美国"
+        "埃默里大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3069,8 +3469,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过铊内盐解锁 [closo−1-CB9H10]─ 的选择性 B(10) 功能化",
       "corresponding_affiliations_zh": [
-        "Zhengzhou University，中国",
-        "Henan Normal University，中国"
+        "郑州大学，中国",
+        "河南师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3107,8 +3507,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "抑制阳极消耗的不对称交流电解苯甲醇脱氧",
       "corresponding_affiliations_zh": [
-        "Ningbo University of Technology，中国",
-        "NingboTech University，中国"
+        "宁波工程学院，中国",
+        "宁波理工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3140,7 +3540,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "跟踪和调节 C 1 /C 2 途径：金属催化剂上乙二醇氧化的原位光谱学和机理见解",
       "corresponding_affiliations_zh": [
-        "China University of Geosciences (Beijing)，中国"
+        "地质大学，北京，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3184,14 +3584,14 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "聚丁二烯的多组分分子编辑：从设计空间到电池功能",
       "corresponding_affiliations_zh": [
-        "University of Freiburg，德国",
-        "Fraunhofer Institute for Solar Energy Systems，德国",
-        "Centre National de la Recherche Scientifique，法国",
-        "Université de Haute-Alsace，法国",
-        "Helmholtz-Zentrum Berlin für Materialien und Energie，德国",
-        "Institut de Sciences des Matériaux de Mulhouse，法国",
-        "Leibniz-Institut für Verbundwerkstoffe GmbH，德国",
-        "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau，德国"
+        "弗莱堡大学，德国",
+        "弗劳恩霍夫太阳能系统研究所，德国",
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "上莱茵大学，法国",
+        "柏林亥姆霍兹材料与能源中心，德国",
+        "米卢斯材料科学研究所，法国",
+        "莱布尼茨复合材料研究所有限公司，德国",
+        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道理工大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3228,7 +3628,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过单组分有机催化实现脱羧质子化或氧化的不同反应性",
       "corresponding_affiliations_zh": [
-        "Western Michigan University，美国"
+        "西密歇根大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3261,8 +3661,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "用于选择性合成高功能化异喹诺酮的可持续双钴/光氧化还原催化",
       "corresponding_affiliations_zh": [
-        "Universidad Complutense de Madrid，西班牙",
-        "ORFEO-CINQA Research Network，西班牙"
+        "马德里百年大学，西班牙",
+        "ORFEO-CINQA 研究网络，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3298,7 +3698,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学酶激发的多烯自由基级联环化使集体全合成成为可能",
       "corresponding_affiliations_zh": [
-        "Shanghai Jiao Tong University，中国"
+        "上海交通大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3334,7 +3734,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "铷离子介导的对环芳烷的骨架编辑",
       "corresponding_affiliations_zh": [
-        "Karlsruhe Institute of Technology，德国"
+        "卡尔斯鲁厄理工学院，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3369,7 +3769,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "溴硼化可逆性使得炔烃 1,2-碳硼化能够用于硼掺杂多环芳烃合成",
       "corresponding_affiliations_zh": [
-        "National Taiwan University，中国台湾"
+        "台大，中国台湾"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3406,7 +3806,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "快速构建 V 形和十字形推拉化合物的平台合成",
       "corresponding_affiliations_zh": [
-        "University of Pavia，意大利"
+        "帕维亚大学，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3440,8 +3840,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学烯丙基官能化：烯丙基化合物升级的可持续平台",
       "corresponding_affiliations_zh": [
-        "Chongqing University of Education，中国",
-        "Beijing University of Technology，中国"
+        "重庆师范大学，中国",
+        "北京工业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3478,9 +3878,9 @@
         "University of Manchester, United Kingdom"
       ],
       "corresponding_source": "openalex_explicit",
-      "title_zh": "",
+      "title_zh": "基于磷(V)的红光光氧化还原催化",
       "corresponding_affiliations_zh": [
-        "University of Manchester，英国"
+        "曼彻斯特大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3514,7 +3914,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "使用 g-C3N4 进行可见光驱动的杂环异相光催化二氟甲基化：一种绿色且可持续的方法",
       "corresponding_affiliations_zh": [
-        "Ludong University，中国"
+        "鲁东大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3551,7 +3951,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "实用H 2 O 2 电合成的双管齐下策略：纳米碳催化剂的跨尺度工程",
       "corresponding_affiliations_zh": [
-        "Shenzhen University，中国"
+        "深圳大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3583,7 +3983,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过功能性烯基自由基替代策略实现未活化烯烃的自由基介导的正式反马尔可夫尼科夫氢烯基化",
       "corresponding_affiliations_zh": [
-        "Lanzhou University，中国"
+        "兰州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3617,8 +4017,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过直接电解进行交叉电耦合",
       "corresponding_affiliations_zh": [
-        "Cornell University，美国",
-        "Stanford University，美国"
+        "康乃尔大学，美国",
+        "斯坦福大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3653,7 +4053,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "铜催化α-炔基-α-甲硅烷基卡宾的高度对映选择性B-H插入用于合成手性炔丙宝石-甲硅烷基硼烷",
       "corresponding_affiliations_zh": [
-        "Nankai University，中国"
+        "南开大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3691,7 +4091,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学驱动吩嗪自氧化与液膜技术相结合用于过氧化氢生产",
       "corresponding_affiliations_zh": [
-        "Harvard University，美国"
+        "哈佛大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3727,9 +4127,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "C-N 偶联反应光催化剂设计的最新进展：从结构-性能关系到机理见解",
       "corresponding_affiliations_zh": [
-        "Hunan University，中国",
-        "Central South University of Forestry and Technology，中国",
-        "Hunan University of Science and Technology，中国"
+        "湖南大学，中国",
+        "中南林业科技大学，中国",
+        "10534 湖南科技大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3768,7 +4168,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "N-氨基吡啶盐光催化级联环化未活化烯烃生成四氢哒嗪和二氢吡唑衍生物",
       "corresponding_affiliations_zh": [
-        "Zhengzhou University，中国",
+        "郑州大学，中国",
         "TYK Medicines, Inc.，中国"
       ],
       "translation_version": 2,
@@ -3809,9 +4209,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "镍催化炔烃的区域和立体选择性三组分双官能化",
       "corresponding_affiliations_zh": [
-        "Guizhou University of Engineering Science，中国",
-        "Shaoxing University，中国",
-        "Huazhong University of Science and Technology，中国"
+        "贵州工程职业学院，中国",
+        "绍兴文理学院，中国",
+        "华中科技大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3852,13 +4252,13 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光级联催化：通过氟烷基化和光氧化获得芳烃内过氧化物作为单线态氧电池",
       "corresponding_affiliations_zh": [
-        "Université de Tours，法国",
-        "Centre National de la Recherche Scientifique，法国",
-        "Université de Versailles Saint-Quentin-en-Yvelines，法国",
-        "Université Paris-Saclay，法国",
-        "Institut Lavoisier de Versailles，法国",
-        "Chimie et Interdisciplinarité, Synthèse, Analyse, Modélisation，法国",
-        "Nantes Université，法国"
+        "图尔大学，法国",
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "凡尔赛-圣康坦-昂伊夫林大学，法国",
+        "巴黎-萨克雷大学，法国",
+        "凡尔赛拉瓦锡学院，法国",
+        "化学与跨学科性、合成、分析、建模，法国",
+        "南特大学，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3894,8 +4294,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "蛋白质支架调节硫胺素焦磷酸依赖性自由基生物催化中常见酮基自由基中间体的电子结构：来自 EPR 和 ENDOR 光谱的见解",
       "corresponding_affiliations_zh": [
-        "University of California, Davis，美国",
-        "University of California, Santa Barbara，美国"
+        "加利福尼亞大學戴維斯分校，美国",
+        "加州大学圣塔芭芭拉分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3930,7 +4330,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "TMSN 3在光电催化有机合成中的应用",
       "corresponding_affiliations_zh": [
-        "Huanghuai University，中国"
+        "黄淮学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3969,11 +4369,11 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过分层组装策略对双核钯环中性有机金属矩形进行精确模块化工程",
       "corresponding_affiliations_zh": [
-        "Chinese Academy of Sciences，中国",
-        "Ningxia University，中国",
-        "Fudan University，中国",
-        "Shanghai Institute of Organic Chemistry，中国",
-        "State Key Laboratory of Organometallic Chemistry，中国"
+        "科学院，中国",
+        "宁夏大学，中国",
+        "复旦大学，中国",
+        "科学院上海有机化学研究所，中国",
+        "有机金属化学国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4009,8 +4409,8 @@
       "title_zh": "合成全氟烷基泰烷的通用红光光催化平台",
       "corresponding_affiliations_zh": [
         "阿肯色州布宜诺斯艾利斯大学",
-        "Institute of Organic Synthesis and Photoreactivity，意大利",
-        "National Research Council，意大利"
+        "有机合成与光反应研究所，意大利",
+        "National Research Council.，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4049,8 +4449,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "可见光诱导丙烯酰胺的氰甲基化/氨甲基化：氰甲基/氨甲基取代的N-杂环和无环酰胺的不同合成",
       "corresponding_affiliations_zh": [
-        "Anyang Normal University，中国",
-        "Nanjing Forestry University，中国"
+        "安阳师范大学，中国",
+        "南京林业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-123-graphical-abstract.svg?max-width=637&background=FFFFFF",
@@ -4086,7 +4486,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "1,5-烯腈的光诱导膦酰化/环化用于合成膦酰化吡咯烷-2,4-二酮",
       "corresponding_affiliations_zh": [
-        "Changzhou University，中国"
+        "常州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4121,8 +4521,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过光介导自由基继电器实现无配体铜催化铃木宫浦型耦合",
       "corresponding_affiliations_zh": [
-        "University of Science and Technology of China，中国",
-        "Great Bay University，中国"
+        "电子科技大学，中国",
+        "大湾区大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4154,7 +4554,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "用于二级和一级烷基的一般钴催化氧化自由基-极性交叉平台",
       "corresponding_affiliations_zh": [
-        "Kyoto University，日本"
+        "京都大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4186,7 +4586,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "无保护肽的晚期催化硼酸化",
       "corresponding_affiliations_zh": [
-        "Rice University，美国"
+        "莱斯大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4220,7 +4620,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "酰氧基自由基的内酯化",
       "corresponding_affiliations_zh": [
-        "Vanderbilt University，美国"
+        "范德比尔特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4253,7 +4653,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "可见光使NHC-镍介导的羰基从甲酰胺中缺失",
       "corresponding_affiliations_zh": [
-        "University of Rochester，美国"
+        "罗彻斯特大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4285,7 +4685,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "阴离子光催化剂作为有机合成中的激发态超级还原剂",
       "corresponding_affiliations_zh": [
-        "Indian Institute of Science Education and Research Mohali，印度"
+        "莫哈里科学教育与研究学院，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4322,8 +4722,8 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过自主推理和实验进行建设性的化学发现",
       "corresponding_affiliations_zh": [
-        "Shanghai Innovation Institute，中国",
-        "East China Normal University，中国"
+        "上海创新研究院，中国",
+        "华东师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4356,7 +4756,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "用于可持续能源和环境应用的生物光电化学系统中的电极架构",
       "corresponding_affiliations_zh": [
-        "Tohoku University，日本"
+        "东北大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4392,7 +4792,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "TiO2 纳米管表面的感染-成骨串扰：机制和协同设计策略",
       "corresponding_affiliations_zh": [
-        "Fujian Medical University，中国"
+        "福建医科大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4426,8 +4826,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "用于调节基于庚嗪的D-A多孔有机聚合物中的空间电荷分布以实现高效光催化的供体几何工程",
       "corresponding_affiliations_zh": [
-        "Nankai University，中国",
-        "State Key Laboratory of Elemental Organic Chemistry，中国"
+        "南开大学，中国",
+        "元素有机化学国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4463,7 +4863,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过不寻常的内球氧化还原过程直接光化学脱羧硫 (IV)",
       "corresponding_affiliations_zh": [
-        "University of Virginia，美国"
+        "弗吉尼亚大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4495,7 +4895,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "重氮盐：在现代键形成和经典命名反应中的应用",
       "corresponding_affiliations_zh": [
-        "Jamia Millia Islamia，印度"
+        "贾米亚·米利亚·伊斯兰亚大学，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4563,9 +4963,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过电子供体-受体复合物进行中氮茚的无光催化剂三氟甲基化",
       "corresponding_affiliations_zh": [
-        "Centre National de la Recherche Scientifique，法国",
-        "Université Paris-Saclay，法国",
-        "Biomolécules : Conception, Isolement, Synthèse，法国"
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "巴黎-萨克雷大学，法国",
+        "生物分子：概念、分离、合成，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4606,10 +5006,10 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "烯烃和游离胺光催化合成α-氨基醇",
       "corresponding_affiliations_zh": [
-        "Henan University，中国",
-        "Xi'an Jiaotong University，中国",
-        "Southern University of Science and Technology，中国",
-        "Sichuan University of Science and Engineering，中国"
+        "河南大学，中国",
+        "西安交通大学，中国",
+        "南方科技大学，中国",
+        "四川省理工学院 (SUSE)，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4643,8 +5043,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "二氮杂硼烷硝基氮氧化物：合成、结构和电子性质",
       "corresponding_affiliations_zh": [
-        "Russian Academy of Sciences，俄罗斯",
-        "N.D. Zelinsky Institute of Organic Chemistry，俄罗斯"
+        "自然科学院，俄罗斯",
+        "N.D. 泽林斯基有机化学研究所，俄罗斯"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4678,7 +5078,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "立构工程：在聚（乙烯基醚）设计中将成键与立体化学控制解耦",
       "corresponding_affiliations_zh": [
-        "University of Illinois Urbana-Champaign，美国"
+        "伊利诺伊大学厄巴纳-尚佩恩分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4710,7 +5110,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "使用 KCN 作为氰化物源和碱对氨基酸进行可持续且可扩展的电化学脱羧氰化",
       "corresponding_affiliations_zh": [
-        "The University of Queensland，澳大利亚"
+        "取得卓越成就，澳大利亚"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4744,8 +5144,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过光催化串联氢原子转移和下游氧化自由基极性交叉进行氧化还原中性 C(sp3)─H 烯基化",
       "corresponding_affiliations_zh": [
-        "University of Strathclyde，英国",
-        "University of Regensburg，德国"
+        "斯特拉斯克莱德大学，英国",
+        "雷根斯堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4779,7 +5179,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "自主实验能够快速优化二氮杂蒽基荧光团的光化学连续流合成",
       "corresponding_affiliations_zh": [
-        "University of Pennsylvania，美国"
+        "宾夕法尼亚大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4811,7 +5211,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "可持续电子供体-受体复合物介导的肉桂酸脱羧 C─C 偶联",
       "corresponding_affiliations_zh": [
-        "Chung-Ang University，韩国"
+        "中央大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4842,7 +5242,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "铁催化糖基磷酸酯交叉偶联的立体选择性 N-糖基化",
       "corresponding_affiliations_zh": [
-        "Indian Institute of Technology Hyderabad，印度"
+        "理工学院海得拉巴分校，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4878,7 +5278,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "控制解离平衡可以通过唐南透析对碱性电合成甲酸盐进行选择性脱盐",
       "corresponding_affiliations_zh": [
-        "Hunan University，中国"
+        "湖南大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4908,7 +5308,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过电子调谐钛光催化控制烷氧基自由基反应性",
       "corresponding_affiliations_zh": [
-        "Stony Brook University，美国"
+        "纽约州立大学石溪分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4969,7 +5369,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "平面螺旋BN并苯的光化学合成",
       "corresponding_affiliations_zh": [
-        "Henan Agricultural University，中国"
+        "河南农业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5005,7 +5405,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "吲哚不对称光有机催化烷基化的数据驱动研究",
       "corresponding_affiliations_zh": [
-        "University of Padua，意大利",
+        "帕多瓦大学，意大利",
         "University of Utah，美国"
       ],
       "translation_version": 2,
@@ -5043,8 +5443,8 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "本征手性 B20 PtGa 晶体中的手性光学特征和不对称电合成",
       "corresponding_affiliations_zh": [
-        "Chinese Academy of Sciences，中国",
-        "Ningbo Institute of Industrial Technology，中国"
+        "科学院，中国",
+        "宁波工业技术研究院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5079,7 +5479,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过环丁烷裂解光催化吲哚扩环为苯并氮杂酮",
       "corresponding_affiliations_zh": [
-        "University of Oxford，英国"
+        "牛津大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5117,8 +5517,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钯催化α-碘代宝石-二硼基烷烃与烯烃的自由基环化：半饱和环状支架的简便方法",
       "corresponding_affiliations_zh": [
-        "Zhengzhou University，中国",
-        "East China Normal University，中国"
+        "郑州大学，中国",
+        "华东师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5154,8 +5554,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "拓扑绝缘体支持的有机 π 二聚体可实现异质 conPET 光催化惰性 C-X 键功能化",
       "corresponding_affiliations_zh": [
-        "University of Science and Technology of China，中国",
-        "Hefei National Center for Physical Sciences at Nanoscale，中国"
+        "电子科技大学，中国",
+        "合肥微尺度物质科学国家研究中心，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5197,10 +5597,10 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "三线态氮宾通过双自由基中继引发亚半频哪醇重排",
       "corresponding_affiliations_zh": [
-        "University of Bayreuth，德国",
-        "Martin Luther University Halle-Wittenberg，德国",
-        "Guizhou University，中国",
-        "Zhejiang Sci-Tech University，中国"
+        "拜罗伊特大学，德国",
+        "哈雷-维滕贝格马丁·路德大学，德国",
+        "贵州大学，中国",
+        "浙江理工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5231,7 +5631,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "Knallgas 细菌自养 CO2 转化的局限性：生理学、H2 动力学和反应器限制",
       "corresponding_affiliations_zh": [
-        "Hamburg University of Technology，德国"
+        "汉堡工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5269,8 +5669,8 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "质子门控钴催化将持久亚磺酰基偶联重定向至对映选择性 C-S 键形成",
       "corresponding_affiliations_zh": [
-        "Nanjing Tech University，中国",
-        "State Key Laboratory of Materials-Oriented Chemical Engineering，中国"
+        "南京工业大学，中国",
+        "材料化工国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5307,8 +5707,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "金属光氧化还原催化芳烃稠环环摆动生成γ-磺内酯",
       "corresponding_affiliations_zh": [
-        "Yunnan Normal University，中国",
-        "Nanjing Forestry University，中国"
+        "云南师范大学，中国",
+        "南京林业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5340,7 +5740,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过电化学脱羧交叉偶联十步全合成 Octadride (+)-Zopfiellin",
       "corresponding_affiliations_zh": [
-        "Universität Innsbruck，奥地利"
+        "因斯布鲁克大学，奥地利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5371,7 +5771,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过自由基 1,2-羰基迁移进行光化学钴催化的形式加氢酰化",
       "corresponding_affiliations_zh": [
-        "Technische Universität Braunschweig，德国"
+        "不伦瑞克工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5403,7 +5803,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "无序击败有序：科尔贝电解中碳微结构引导自由基路径与阳离子路径",
       "corresponding_affiliations_zh": [
-        "Iowa State University，美国"
+        "州立大学系统，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5439,7 +5839,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "氮化碳/镍金属光氧化还原催化醚的直接α-C(sp 3 )─H烷基化和芳基化",
       "corresponding_affiliations_zh": [
-        "Politecnico di Milano，意大利"
+        "米兰理工大学，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5475,7 +5875,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过腈的配对电化学 α-烷基化实现可持续 C─C 键构建的双电极催化工程",
       "corresponding_affiliations_zh": [
-        "Hunan University，中国"
+        "湖南大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5511,7 +5911,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过光致脱硼从硼酯中温和生成乙烯基、甲基、杂芳基和环丙基自由基",
       "corresponding_affiliations_zh": [
-        "University of Fukui，日本"
+        "福井大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5541,7 +5941,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过胺诱导的断裂进行自身选择性吡啶至苯胺编辑",
       "corresponding_affiliations_zh": [
-        "University of British Columbia，加拿大"
+        "英属哥伦比亚大学，加拿大"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5572,7 +5972,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "用于从 R-22 气体安全、按需生成 HCF 2 N 3 并获得 N -CF 2 H 三唑的模块化连续流平台",
       "corresponding_affiliations_zh": [
-        "City University of Hong Kong，中国香港"
+        "香港城市大学，中国香港"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5610,8 +6010,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "壳聚糖和聚 L-赖氨酸钛植入物的电荷驱动工程，具有双重防粘和防腐功能",
       "corresponding_affiliations_zh": [
-        "Universidade de São Paulo，巴西",
-        "Universidade Estadual de Campinas (UNICAMP)，巴西"
+        "圣保罗大学，巴西",
+        "Estadual De Campinas大学，巴西"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5648,7 +6048,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光诱导连续亚铁和三价铁催化单电子转移",
       "corresponding_affiliations_zh": [
-        "Yunnan University，中国"
+        "Yunnan Arts University，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5680,7 +6080,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钯催化环丁烯通过迁移瓦克氧化环收缩",
       "corresponding_affiliations_zh": [
-        "Johannes Gutenberg University Mainz，德国"
+        "美因茨约翰内斯·古腾堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5711,7 +6111,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "甲基吡啶与芳基氟化物的直接 C(sp3)–H/C(sp2)–F 交叉偶联",
       "corresponding_affiliations_zh": [
-        "Nagoya Institute of Technology，日本"
+        "名古屋工业大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5743,7 +6143,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "Lewis 酸激活红菲绕啉光氧化还原系统用于氯自由基介导的 C(sp3)–H 烷基化",
       "corresponding_affiliations_zh": [
-        "Okayama University，日本"
+        "冈山大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5776,7 +6176,7 @@
       "corresponding_source": "last_author_fallback_author_profile",
       "title_zh": "铈光氧化还原催化环烯丙醇扩环",
       "corresponding_affiliations_zh": [
-        "University of Ottawa，加拿大"
+        "渥太华大学，加拿大"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5813,7 +6213,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "简单分子与亚乙烯基和吲哚连接的共价有机框架的一锅分层组装",
       "corresponding_affiliations_zh": [
-        "Lanzhou University，中国"
+        "兰州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5880,7 +6280,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "α-溴乙酰吲哚与烯烃的光催化形式[4 + 2]自由基环化：(±)-Goniomitine 的广泛范围和合成",
       "corresponding_affiliations_zh": [
-        "Universidad Nacional Autónoma de México，墨西哥"
+        "国立自治大学教授。，墨西哥"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5919,10 +6319,10 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "镍催化炔丙衍生物光还原反应的研究",
       "corresponding_affiliations_zh": [
-        "Chinese Academy of Sciences，中国",
-        "Shanghai Institute of Organic Chemistry，中国",
-        "State Key Laboratory of Organometallic Chemistry，中国",
-        "Fudan University，中国"
+        "科学院，中国",
+        "科学院上海有机化学研究所，中国",
+        "有机金属化学国家重点实验室，中国",
+        "复旦大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5958,7 +6358,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "使用零价铜粉和芳基硼酸对亚磺酰亚胺进行无氧化剂机械化学 N 芳基化",
       "corresponding_affiliations_zh": [
-        "Zunyi Medical University，中国"
+        "遵义医科大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5994,7 +6394,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "维拉氟利嗪、贝亚胺和贝亚胺的不对称全合成",
       "corresponding_affiliations_zh": [
-        "East China Normal University，中国"
+        "华东师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6028,7 +6428,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过间苯二酚硼酸酯的不对称烯丙基化同时安装 1,6-立体中心：在美罗环芬 A 合成中的应用",
       "corresponding_affiliations_zh": [
-        "University of Bristol，英国"
+        "（布里斯托大学），英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6066,9 +6466,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "喹啉与芳基酮的光化学区域发散官能化",
       "corresponding_affiliations_zh": [
-        "Chinese Academy of Sciences，中国",
-        "University of Chinese Academy of Sciences，中国",
-        "Lanzhou University，中国"
+        "科学院，中国",
+        "科学院大学，中国",
+        "兰州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6100,7 +6500,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "铜催化炔-吲哚酯与5-氨基吡唑的不对称远程ε-芳基化/环化生成多环稠合七元氮杂杂环",
       "corresponding_affiliations_zh": [
-        "Shihezi University，中国"
+        "石河子大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6133,8 +6533,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "选择性形成 1,2-乙硼烷(4) 和酒精驱动的 B─B 键断裂生成 H 2",
       "corresponding_affiliations_zh": [
-        "University of Strathclyde，英国",
-        "Western University，加拿大"
+        "斯特拉斯克莱德大学，英国",
+        "西安大略大学，加拿大"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6167,7 +6567,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "在磁性阴离子交换树脂上自动合成 DNA 编码文库",
       "corresponding_affiliations_zh": [
-        "University of California, Irvine，美国"
+        "加州大学欧文分校，文学学士，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6198,7 +6598,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过铜金属光氧化还原催化使芳基自由基参与亚磺酰亚胺的生物电子等排调节",
       "corresponding_affiliations_zh": [
-        "Princeton University，美国"
+        "-普林斯顿大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6236,7 +6636,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "N-高烯丙基和N-烯丙基醛腙的光催化脱羧氨基甲酰化/环化：获得羧酰胺官能化的四氢哒嗪和二氢吡唑",
       "corresponding_affiliations_zh": [
-        "Zhejiang University，中国"
+        "浙江大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6274,7 +6674,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "动态可调的二胺配体能够在 P(V) 处实现铜催化的对映选择性亲核取代",
       "corresponding_affiliations_zh": [
-        "Shanghai Jiao Tong University，中国"
+        "上海交通大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6340,7 +6740,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "用于反应筛选的开源电合成平台实现镍催化电还原芳基氰化",
       "corresponding_affiliations_zh": [
-        "University of Toronto，加拿大"
+        "多伦多大学，加拿大"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6377,9 +6777,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过与二氧化碳进行正式杂芳碳同位素交换对腺嘌呤进行 13C/14C 标记的骨架编辑方法",
       "corresponding_affiliations_zh": [
-        "Sanofi (Germany)，德国",
-        "Institut Químic de Sarrià，西班牙",
-        "Universitat Ramon Llull，西班牙"
+        "赛诺菲（），德国",
+        "萨里亚化学学院，西班牙",
+        "拉蒙·柳利大学，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6410,7 +6810,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "磷(V)催化一锅法由羧酸和氨基醇合成恶唑啉",
       "corresponding_affiliations_zh": [
-        "The University of Texas at San Antonio，美国"
+        "德克萨斯大学圣安东尼奥分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6445,7 +6845,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "可见光促进N-烯基吲哚的自由基四氟乙基化/环化：获得四氟乙基化吡咯并[1,2-a]吲哚",
       "corresponding_affiliations_zh": [
-        "Fuzhou University，中国"
+        "福州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6475,7 +6875,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "有机合成中的溴硝基烷烃",
       "corresponding_affiliations_zh": [
-        "University of Regensburg，德国"
+        "雷根斯堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6509,7 +6909,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "从烷基和 α-酰氧基卤化物中直接获取类胡萝卜素以进行硼同系化：方法开发和机理见解",
       "corresponding_affiliations_zh": [
-        "Texas A&M University，美国"
+        "德克萨斯州农工大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6547,7 +6947,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光诱导电荷转移复合物介导的脱羧磷鏻化",
       "corresponding_affiliations_zh": [
-        "Dalian University of Technology，中国"
+        "大连理工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6585,8 +6985,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "催化 Si/B 交换缩合能够模块化合成炔基间隔共轭低聚硼烷和聚硼烷",
       "corresponding_affiliations_zh": [
-        "University of Würzburg，德国",
-        "Bavarian Polymer Institute，德国"
+        "维尔茨堡大学，德国",
+        "巴伐利亚州聚合物研究所，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6649,8 +7049,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过 Ir 催化的 C─H 硼化作用实现氨基吡唑的区域选择性多样化",
       "corresponding_affiliations_zh": [
-        "Durham University，英国",
-        "University of Pennsylvania，美国"
+        "杜伦大学，英国",
+        "宾夕法尼亚大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6684,7 +7084,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "由机器学习和数字孪生实现的闭环光反应器设计",
       "corresponding_affiliations_zh": [
-        "University of Amsterdam，荷兰"
+        "阿姆斯特丹大学，荷兰"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6721,8 +7121,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "具有基因编程敏化剂的选择性光酶的整体设计",
       "corresponding_affiliations_zh": [
-        "Howard Hughes Medical Institute，美国",
-        "University of Washington，美国"
+        "霍华德·休斯医学研究所，美国",
+        "华盛顿大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6756,7 +7156,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "脂肪族胺的α-C (sp3) -H氨基甲基化：对邻位二胺的一般和模块化访问",
       "corresponding_affiliations_zh": [
-        "Nanchang University，中国"
+        "南昌大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6789,7 +7189,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "路易斯酸催化应变使双环[1.1.0]丁烷与吲哚醇的(3+3)环化：吲哚稠合氮杂双环[3.1.1]庚烷的合成",
       "corresponding_affiliations_zh": [
-        "Indian Institute of Technology Delhi，印度"
+        "理工学院德里分校，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6821,7 +7221,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "安装三个功能手柄的烯烃化",
       "corresponding_affiliations_zh": [
-        "UNSW Sydney，澳大利亚"
+        "新南威尔士大学（悉尼），澳大利亚"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6875,8 +7275,8 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "键功能化化学的工业应用",
       "corresponding_affiliations_zh": [
-        "National Institute of Science Education and Research，印度",
-        "Homi Bhabha National Institute，印度"
+        "国家科学教育与研究学院，印度",
+        "霍米·巴巴国家研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6906,7 +7306,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "受黄素依赖性卤素酶（ FDH ）的启发，温和酸在室温下促进了H2O2/NaBr的溴化",
       "corresponding_affiliations_zh": [
-        "Huazhong University of Science and Technology，中国"
+        "华中科技大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6942,8 +7342,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "使用Metal Mer从头设计金属酶",
       "corresponding_affiliations_zh": [
-        "Center for Life Sciences，中国",
-        "Tsinghua University，中国"
+        "生命科学中心，中国",
+        "清华大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6977,8 +7377,8 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "HFO-1234yf 作为 3,3-二氟丙炔基的来源",
       "corresponding_affiliations_zh": [
-        "Imperial College London，英国",
-        "University of Edinburgh，英国"
+        "伦敦帝国理工学院，英国",
+        "爱丁堡爱丁堡大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7009,7 +7409,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钴催化的炔烃迁移硼氢化通过催化拉链样炔烃易位获得β-烯基硼酸酯",
       "corresponding_affiliations_zh": [
-        "Seoul National University of Science and Technology，韩国"
+        "国科大，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7045,7 +7445,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "在电化学C–O和C–N键形成反应中作为烷基供体的硫醚",
       "corresponding_affiliations_zh": [
-        "University of L'Aquila，意大利"
+        "拉奎拉大学，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7109,7 +7509,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "三氟甲基芳烃光催化还原一步合成α-氟芳基乙酸",
       "corresponding_affiliations_zh": [
-        "Kobe University，日本"
+        "神户大学，日本"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7148,8 +7548,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过三环[4.1.0.0 2 , 7]庚烷的立体选择性双官能化模块化合成桥双取代的双环[3.1.1]庚烷",
       "corresponding_affiliations_zh": [
-        "Shandong University，中国",
-        "Institut Català d'Investigació Química，西班牙"
+        "山东大学，中国",
+        "加泰罗尼亚化学研究所，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7192,14 +7592,14 @@
       "corresponding_source": "openalex_explicit_author_profile",
       "title_zh": "通过铜催化对映选择性组装带有邻位硼/碳立构中心的手性α-全氟烷基硼烷",
       "corresponding_affiliations_zh": [
-        "Henan University，中国",
-        "Chinese Academy of Sciences，中国",
-        "Shanghai Institute of Organic Chemistry，中国",
-        "University of Chinese Academy of Sciences，中国",
-        "State Key Laboratory of Organometallic Chemistry，中国",
-        "Henan Normal University，中国",
-        "Fuzhou University，中国",
-        "Nanjing University，中国"
+        "河南大学，中国",
+        "科学院，中国",
+        "科学院上海有机化学研究所，中国",
+        "科学院大学，中国",
+        "有机金属化学国家重点实验室，中国",
+        "河南师范大学，中国",
+        "福州大学，中国",
+        "南大，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7241,12 +7641,12 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "铁电子离域能够实现催化选择性三硅烷化：超越空间位阻",
       "corresponding_affiliations_zh": [
-        "Nankai University，中国",
-        "North Sichuan Medical University，中国",
-        "Chongqing University，中国",
-        "Hangzhou Normal University，中国",
-        "Shanghai Institute of Organic Chemistry，中国",
-        "University of Chinese Academy of Sciences，中国"
+        "南开大学，中国",
+        "川北医学院，中国",
+        "重庆大学，中国",
+        "杭州师范大学，中国",
+        "科学院上海有机化学研究所，中国",
+        "科学院大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7277,7 +7677,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "亚甲基环丁烷电化学卤化不对称合成氮杂双环[2.1.1]己烷",
       "corresponding_affiliations_zh": [
-        "Indian Institute of Science Bangalore，印度"
+        "班加罗尔科学研究所，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7316,8 +7716,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "芳基羧酸的快速交替极性电化学脱羧硼化",
       "corresponding_affiliations_zh": [
-        "University of Göttingen，德国",
-        "AstraZeneca (Sweden)，瑞典"
+        "哥廷根大学，德国",
+        "阿斯利康（），瑞典"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7352,7 +7752,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "多环芳香族化合物作为有机反应中的电光催化剂的用途",
       "corresponding_affiliations_zh": [
-        "University of Trieste，意大利"
+        "的里雅斯特大学，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7382,7 +7782,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "机械光化学：点亮固态 EDA 配合物",
       "corresponding_affiliations_zh": [
-        "University of St Andrews，英国"
+        "圣安德鲁斯大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7414,7 +7814,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "可见光照射下镍催化环烯酮的硫醇环化：轻松获得 9-磺基-2,3-二氢菲-4(1 H )-酮",
       "corresponding_affiliations_zh": [
-        "SRM University, Andhra Pradesh，印度"
+        "安得拉邦SRM大学，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7443,7 +7843,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "手性膦盐制备和转化、氢膦化和化学振荡的发展",
       "corresponding_affiliations_zh": [
-        "University of Groningen，荷兰"
+        "格罗宁根大学，荷兰"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7474,7 +7874,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "超越Wittig ：自由基化学中作为催化剂和前体的磷化物和盐",
       "corresponding_affiliations_zh": [
-        "Great Bay University，中国"
+        "大湾区大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7508,8 +7908,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "有机电还原变换",
       "corresponding_affiliations_zh": [
-        "Nankai University，中国",
-        "State Key Laboratory of Elemental Organic Chemistry，中国"
+        "南开大学，中国",
+        "元素有机化学国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7546,7 +7946,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "通过低能光氧化还原催化对 CF3 烯烃的氨烷基化进行色选择性控制",
       "corresponding_affiliations_zh": [
-        "Université Paris-Saclay，法国"
+        "巴黎-萨克雷大学，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7579,7 +7979,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "用钒依赖性盐过氧化物酶卤化氮杂环的筛选工作流程的开发",
       "corresponding_affiliations_zh": [
-        "Emory University，美国"
+        "埃默里大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7615,9 +8015,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "引导烯烃向酮的自由基氧化官能化",
       "corresponding_affiliations_zh": [
-        "University of Regensburg，德国",
-        "University of Amsterdam，荷兰",
-        "University of Strathclyde，英国"
+        "雷根斯堡大学，德国",
+        "阿姆斯特丹大学，荷兰",
+        "斯特拉斯克莱德大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7684,7 +8084,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过硫醇介导的 Zn(CF 2 H) 2 (DMPU) 2 光活化实现烯烃的无光催化剂氢二氟甲基化",
       "corresponding_affiliations_zh": [
-        "Pohang University of Science and Technology，韩国"
+        "科技大学，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7718,7 +8118,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "有机电合成的无线双极电化学：原理、机理见解和新兴自主系统",
       "corresponding_affiliations_zh": [
-        "University of Bath，英国"
+        "巴斯大学，英国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7750,7 +8150,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "使用光驱动还原氢化钴催化进行自由基氢官能化",
       "corresponding_affiliations_zh": [
-        "Technische Universität Braunschweig，德国"
+        "不伦瑞克工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7786,9 +8186,9 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "炔烃的二氟亚甲基化：简化获得烯丙基二氟化物的过程",
       "corresponding_affiliations_zh": [
-        "Centre National de la Recherche Scientifique，法国",
-        "Université de Poitiers，法国",
-        "Institut de Chimie des Milieux et des Matériaux de Poitiers，法国"
+        "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
+        "普瓦捷大学，法国",
+        "普瓦捷环境与材料化学研究所，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7823,7 +8223,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "电化学诱导烯酰胺与卡巴甲酸酯的区域和立体选择性 (E )-β-C(sp 2 )─H 烷氧基羰基化",
       "corresponding_affiliations_zh": [
-        "Gannan Normal University，中国"
+        "赣南师范大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7861,8 +8261,8 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "4-二氟甲基-L-苯丙氨酸的合成和体内掺入蛋白质",
       "corresponding_affiliations_zh": [
-        "University of Rhode Island，美国",
-        "Colgate University，美国"
+        "罗德岛大学，美国",
+        "柯盖德大学，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7895,7 +8295,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "铁催化脱氟烷基化反应得到环状缩醛-宝石-二氟烯烃",
       "corresponding_affiliations_zh": [
-        "Chinese University of Hong Kong，中国香港"
+        "香港中文大學，中国香港"
       ],
       "translation_version": 2,
       "toc_url": "",
