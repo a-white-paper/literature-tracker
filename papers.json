@@ -1,6 +1,37 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "papers": [
+    {
+      "title": "SYNTHESIS, SPECTROSCOPIC CHARACTERIZATION, SOLVENT-DEPENDENT KETO–ENOL TAUTOMERISM, AND ELECTROCHEMICAL BEHAVIOR OF OXADIAZOLE- AND TRIAZOLE-LINKED β-KETO ESTERS",
+      "authors": [
+        "Khalid Kamil Shaker",
+        "Athraa Hameed Mekky",
+        "Wathiq Sattar Abdul‐Hassan"
+      ],
+      "journal": "Chemical Problems",
+      "date": "2027-01-01",
+      "doi": "10.65382/2221-8688-2027-1-149-169",
+      "url": "https://doi.org/10.65382/2221-8688-2027-1-149-169",
+      "abstract": "Four β-keto ester derivatives containing 1,2,4-triazole (A7 and A8) or 1,3,4-oxadiazole (A13 and A14) thioether units were synthesized by S-alkylation of the corresponding thiol/thione precursors with ethyl 4-chloro-3-oxobutanoate in ethanol using sodium acetate as a stoichiometric basic additive. The proposed structures are supported by FT-IR, 1H NMR, and 13C NMR data, including disappearance of the precursor S–H resonances and appearance of signals attributable to the β-keto ester fragment. Solvent-dependent keto–enol behavior was examined qualitatively by 1H NMR spectroscopy in DMSO-d6 and CDCl3 at 298 K. Only keto-form diagnostic resonances were resolved in DMSO-d6. In CDCl₃, A7 displayed signals of both keto and enol species; A8 and A14 displayed resolved enol-form signals without a resolved keto methylene signal; and A13 retained a resolved keto methylene signal without detectable enol resonances. UV/Vis spectra showed intense absorptions mainly in the ultraviolet region and weaker solvent- and concentration-sensitive features at longer wavelengths. Cyclic voltammetry in DMF containing 0.10 M tetrabutylammonium perchlorate revealed multiple cathodic processes that were predominantly irreversible on the experimental time scale. Because the Ag quasi-reference electrode was not calibrated against an internal ferrocene standard, the electrochemical results are interpreted comparatively within this data set rather than as absolute formal potentials. The combined results demonstrate qualitative relationships among heterocycle identity, methoxy substitution, solvent-dependent tautomeric signatures, and electrochemical response.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Wathiq Sattar Abdul‐Hassan"
+      ],
+      "corresponding_affiliations": [
+        "Thi Qar University, IQ"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "噁二唑和三唑连接的β-酮酯的合成、光谱表征、溶剂依赖性酮–烯醇互变异构和电化学行为",
+      "corresponding_affiliations_zh": [
+        "伊拉克济加尔大学"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "Mechanophotocatalysis: Towards a generalisable methodology for solvent-minimised light-driven organic synthesis reactions (thesis data)",
       "authors": [
@@ -60,6 +91,77 @@
       "toc_kind": ""
     },
     {
+      "title": "Universal Transfer Reagents for the Synthesis of Carbon‐Labeled Methyl, Fluoromethyl, and Difluoromethyl Motifs",
+      "authors": [
+        "Louise Fogel",
+        "Dorian Dupommier",
+        "Antoine Sallustrau",
+        "Olivier Loreau",
+        "Frédéric Taran",
+        "Davide Audisio"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-18",
+      "doi": "10.1002/anie.7446308",
+      "url": "https://doi.org/10.1002/anie.7446308",
+      "abstract": "The preparation of 13 C‐ and 14 C‐labeled difluoromethyl compounds remains a major challenge despite the growing importance of the CF 2 H group in medicinal chemistry. Here, we report a practical and sustainable solution based on carbon‐labeled sulfoximines readily prepared from primary isotopic sources. These stable reagents act as versatile C1‐transfer agents and provide access not only to difluoromethyl derivatives, but also to cyclopropanes, epoxides, and monofluoromethyl compounds. The strategy enables the efficient synthesis of valuable labeled building blocks and pharmaceutical motifs under mild conditions. By unifying multiple labeling transformations around a common precursor class, this work significantly broadens the scope of carbon‐isotope chemistry for life‐science applications.",
+      "tags": [
+        "Difluoromethylation"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Davide Audisio"
+      ],
+      "corresponding_affiliations": [
+        "Commissariat à l'Énergie Atomique et aux Énergies Alternatives, France",
+        "Université Paris-Saclay, France",
+        "CEA Paris-Saclay, France",
+        "Médicaments et Technologies pour la Santé, France"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "用于合成碳标记甲基、氟甲基和二氟甲基基序的通用转移试剂",
+      "corresponding_affiliations_zh": [
+        "原子能与替代能源委员会，法国",
+        "巴黎-萨克雷大学，法国",
+        "原子能与替代能源委员会（CEA）巴黎-萨克雷中心，法国",
+        "药品与健康技术，法国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Standalone photoactive chiral copper complexes for light-driven asymmetric organic transformations",
+      "authors": [
+        "A. Hameed Ibrahim",
+        "Pasupulety Laxmi Kant",
+        "Anjan Das"
+      ],
+      "journal": "Chemical Communications",
+      "date": "2026-11-18",
+      "doi": "10.1039/d6cc05924d",
+      "url": "https://doi.org/10.1039/d6cc05924d",
+      "abstract": "The integration of visible-light photocatalysis with asymmetric catalysis has opened new avenues for synthesizing enantioenriched molecules under mild and sustainable conditions. While most asymmetric photochemical reactions rely on dual-catalytic systems, standalone photoactive chiral catalysts offer an attractive alternative by combining photoredox activity and stereocontrol within a single catalytic entity. Among these, photoactive chiral copper complexes have attracted considerable attention owing to their ability to absorb visible light, mediate single-electron transfer, and induce high enantioselectivity. Recent advances have demonstrated the potential of copper complexes bearing phosphine, bis(oxazoline), and related chiral ligands in promoting asymmetric transformations through radical intermediates. In this review, we highlight recent developments in light-driven asymmetric reactions catalysed by standalone photoactive chiral copper complexes, focusing on catalyst design, mechanistic insights, and synthetic applications. We also discuss the key challenges and future prospects of this emerging catalytic approach for sustainable asymmetric synthesis.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 62,
+      "corresponding_authors": [
+        "Anjan Das"
+      ],
+      "corresponding_affiliations": [
+        "SRM Institute of Science and Technology, India"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "用于光驱动不对称有机转化的独立光活性手性铜络合物",
+      "corresponding_affiliations_zh": [
+        "SRM科学技术学院，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Paired Synthesis of Polycyclic Constitutional Isomers via Solvent-Controlled Skeletal Disproportionation",
       "authors": [
         "An‐Xin Wu",
@@ -75,7 +177,7 @@
       "date": "2026-11-18",
       "doi": "10.21203/rs.3.rs-11713394/v1",
       "url": "https://doi.org/10.21203/rs.3.rs-11713394/v1",
-      "abstract": "Abstract The paired synthesis of skeletally distinct polycyclic isomers has traditionally relied on separate and tailored synthetic designs, whereas their direct interconversion ranks among the most challenging transformations even within the realm of skeletal editing. However, we introduce that solvent‑controlled skeletal disproportionation, despite its scarcity, offers a convenient means to formally achieve such atom‑conserving skeletal reorganization. We exemplify this strategy with the copper‑catalyzed aerobic oxidation of readily available diarylamines, arylglyoxals, and alkenes: the addition of a few drops of hexafluoroisopropanol (HFIP) to a 1,2-dichloroethane (DCE, 2.0 mL) suffice to trigger a complete selectivity flip in product skeletons. This “butterfly effect” leverages a switchable synthesis of two non-interconvertible, yet pharmaceutically privileged isomers—6/5/6/6 tetracyclic indolo[1,2- a ]quinolines and 6/6 semi-saturated 2-acyl-1,4-dihydroquinolines, whose structural divergence is quantified by an average Tanimoto coefficient of 0.45. DFT calculations reveal that HFIP resolves the inherent regioselectivity conundrum between electron-rich arylamines and dicarbonyl electrophiles by reshaping the ring-size of competing transition states through hydrogen bonding, thereby redirecting chemoselectivity at the onset of the domino process. Biological evaluation across three cancer cell lines shows that this solvent-controlled skeletal divergence directly yields pronounced bioactivity bifurcation between the two isomers. This strategy allows the parallel expansion of compound libraries and would accelerate biological evaluation through a single synthetic design.",
+      "abstract": "The paired synthesis of skeletally distinct polycyclic isomers has traditionally relied on separate and tailored synthetic designs, whereas their direct interconversion ranks among the most challenging transformations even within the realm of skeletal editing. However, we introduce that solvent‑controlled skeletal disproportionation, despite its scarcity, offers a convenient means to formally achieve such atom‑conserving skeletal reorganization. We exemplify this strategy with the copper‑catalyzed aerobic oxidation of readily available diarylamines, arylglyoxals, and alkenes: the addition of a few drops of hexafluoroisopropanol (HFIP) to a 1,2-dichloroethane (DCE, 2.0 mL) suffice to trigger a complete selectivity flip in product skeletons. This “butterfly effect” leverages a switchable synthesis of two non-interconvertible, yet pharmaceutically privileged isomers—6/5/6/6 tetracyclic indolo[1,2- a ]quinolines and 6/6 semi-saturated 2-acyl-1,4-dihydroquinolines, whose structural divergence is quantified by an average Tanimoto coefficient of 0.45. DFT calculations reveal that HFIP resolves the inherent regioselectivity conundrum between electron-rich arylamines and dicarbonyl electrophiles by reshaping the ring-size of competing transition states through hydrogen bonding, thereby redirecting chemoselectivity at the onset of the domino process. Biological evaluation across three cancer cell lines shows that this solvent-controlled skeletal divergence directly yields pronounced bioactivity bifurcation between the two isomers. This strategy allows the parallel expansion of compound libraries and would accelerate biological evaluation through a single synthetic design.",
       "tags": [
         "Skeletal Editing"
       ],
@@ -96,6 +198,38 @@
       "toc_kind": ""
     },
     {
+      "title": "On-DNA photochemical methods for expanding DNA-encoded library (DEL) chemical space",
+      "authors": [
+        "Oliver J Corrigan",
+        "Sarah L. Allinson",
+        "Jamie H. Docherty"
+      ],
+      "journal": "RSC Medicinal Chemistry",
+      "date": "2026-11-18",
+      "doi": "10.1039/d6md00764c",
+      "url": "https://doi.org/10.1039/d6md00764c",
+      "abstract": "-rich scaffolds. This review surveys the field of on-DNA photochemistry, looking at different activation modes including photoredox single-electron transfer (SET), hydrogen-atom transfer (HAT), metallaphotoredox dual catalysis, electron donor-acceptor (EDA) complexes, energy-transfer (EnT) catalysis, and direct photolysis. Collectively, these methods have translated a broad range of useful transformations to be amenable to on-DNA synthesis and unlocked access to many medicinally valuable motifs.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Sarah L. Allinson",
+        "Jamie H. Docherty"
+      ],
+      "corresponding_affiliations": [
+        "Lancaster University, United Kingdom"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "用于扩展DNA编码文库（DEL）化学空间的DNA上光化学方法",
+      "corresponding_affiliations_zh": [
+        "联合王国，兰卡斯特大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Accessing Stable Pyridinium Nanohoops with Low-Lying LUMOs by Pyridine-Directed C – H Activation",
       "authors": [
         "Tavis W. Price",
@@ -109,7 +243,7 @@
       "date": "2026-11-18",
       "doi": "10.1021/acscentsci.6c01402",
       "url": "https://doi.org/10.1021/acscentsci.6c01402",
-      "abstract": "Abstract Designing stable organic molecules with tailored electronic properties is key to advancing next-generation electronic materials. Cycloparaphenylenes (CPPs) and related nanohoops have emerged as promising p-type semiconductors, yet their use as n-type materials remains limited due to inherently high-lying LUMO levels. While pyridine-containing CPPs can be alkylated to lower the LUMO, the resulting pyridinium species are often unstable and unsuitable for practical applications. In this study, we report two complementary synthetic strategies to access bridged-pyridinium[n]CPPs as stable, electron-accepting organic molecules. A bottom-up approach enables intramolecular cyclization to form the bridged architecture, confirming the stability of this new motif. To streamline access and facilitate structural diversification, we developed a second strategy employing pyridine-directed C–H activation─marking the first example of pyridine-directed C–H functionalization directly on the CPP backbone. The resulting pyridinium-functionalized nanohoops were thoroughly characterized. Electrochemical and spectroscopic studies revealed low reduction potentials (as low as −0.84 V) and red-shifted optical absorption edges for the doubly functionalized di(bridged-pyridinium)[10]CPP. Density functional theory calculations corroborate the observed trends in LUMO energies and support the utility of these molecules as electron-accepting building blocks. Together, these results establish bridged-pyridinium[n]CPPs as a new class of stable, tunable materials with potential for organic electronic applications.",
+      "abstract": "Designing stable organic molecules with tailored electronic properties is key to advancing next-generation electronic materials. Cycloparaphenylenes (CPPs) and related nanohoops have emerged as promising p-type semiconductors, yet their use as n-type materials remains limited due to inherently high-lying LUMO levels. While pyridine-containing CPPs can be alkylated to lower the LUMO, the resulting pyridinium species are often unstable and unsuitable for practical applications. In this study, we report two complementary synthetic strategies to access bridged-pyridinium[n]CPPs as stable, electron-accepting organic molecules. A bottom-up approach enables intramolecular cyclization to form the bridged architecture, confirming the stability of this new motif. To streamline access and facilitate structural diversification, we developed a second strategy employing pyridine-directed C–H activation─marking the first example of pyridine-directed C–H functionalization directly on the CPP backbone. The resulting pyridinium-functionalized nanohoops were thoroughly characterized. Electrochemical and spectroscopic studies revealed low reduction potentials (as low as −0.84 V) and red-shifted optical absorption edges for the doubly functionalized di(bridged-pyridinium)[10]CPP. Density functional theory calculations corroborate the observed trends in LUMO energies and support the utility of these molecules as electron-accepting building blocks. Together, these results establish bridged-pyridinium[n]CPPs as a new class of stable, tunable materials with potential for organic electronic applications.",
       "tags": [
         "Electrochemistry"
       ],
@@ -120,7 +254,7 @@
       "corresponding_affiliations": [
         "University of Oregon, United States"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "通过吡啶导向的C – H活化获得具有低能LUMO的稳定吡啶鎓纳米环",
       "corresponding_affiliations_zh": [
         "俄勒冈大学，美国"
@@ -510,12 +644,12 @@
         "Jean Raynaud"
       ],
       "corresponding_affiliations": [
-        "École d'Ingénieurs en Chimie et Sciences du Numérique, France"
+        "Catalyse, Polymérisation, Procédés et Matériaux, France"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "脂肪族聚醚和聚氨酯催化升级回收为α,ω-二氯烷",
       "corresponding_affiliations_zh": [
-        "化学与数字科学工程师学院，法国"
+        "催化、聚合、工艺和材料，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -535,7 +669,7 @@
       "date": "2026-11-16",
       "doi": "10.1002/anie.1454878",
       "url": "https://doi.org/10.1002/anie.1454878",
-      "abstract": "ABSTRACT In contrast to well‐established methods for vicinal di‐functionalization of alkenes, remote di‐functionalization is much more challenging and has achieved limited success. Herein, we disclose a visible light photocatalytic boron‐directed alkene homologation with alkyl halides activated by a traceless tert ‐butylsulfonyl (Bus) leaving group. The reaction produces a myriad of 1,3‐difunctionalized alkenes under mild conditions with excellent functional group tolerance. β‐Elimination of the Bus group not only drives the contra‐thermodynamic 1,2‐boron migration, but also regenerates a C─C double bond, thus transforming the sulfone‐based alkyl halide into a vinylidene precursor, rather than a traditional alkyl source. The synthetic utility of this method is well demonstrated by gram‐scale synthesis, downstream transformations, and the formal total synthesis of 24‐fluoro‐25‐hydroxyvitamin D 3 analogues. This work represents a very rare example of one‐carbon homologation of ubiquitous alkenes, thus establishing a new strategic paradigm for chemical synthesis.",
+      "abstract": "In contrast to well‐established methods for vicinal di‐functionalization of alkenes, remote di‐functionalization is much more challenging and has achieved limited success. Herein, we disclose a visible light photocatalytic boron‐directed alkene homologation with alkyl halides activated by a traceless tert ‐butylsulfonyl (Bus) leaving group. The reaction produces a myriad of 1,3‐difunctionalized alkenes under mild conditions with excellent functional group tolerance. β‐Elimination of the Bus group not only drives the contra‐thermodynamic 1,2‐boron migration, but also regenerates a C─C double bond, thus transforming the sulfone‐based alkyl halide into a vinylidene precursor, rather than a traditional alkyl source. The synthetic utility of this method is well demonstrated by gram‐scale synthesis, downstream transformations, and the formal total synthesis of 24‐fluoro‐25‐hydroxyvitamin D 3 analogues. This work represents a very rare example of one‐carbon homologation of ubiquitous alkenes, thus establishing a new strategic paradigm for chemical synthesis.",
       "tags": [
         "Photocatalysis"
       ],
@@ -861,7 +995,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光氧化还原效率的动力学起源",
       "corresponding_affiliations_zh": [
-        "瓦隆大区在生命科学和生物技术领域的卓越表现，比利时",
+        "瓦隆大区在生命科学和生物技术领域的卓越成就，比利时",
         "鲁汶天主教大学，比利时"
       ],
       "translation_version": 2,
@@ -1155,7 +1289,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "功能有机材料的性质导向催化骨架编辑",
       "corresponding_affiliations_zh": [
-        "理研先导研究机构，日本",
+        "理化学研究所先导研究机构，日本",
         "东京大学，日本",
         "理研可持续资源科学中心，日本"
       ],
@@ -1331,7 +1465,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "从原型设计到日常实践：用于有机合成的耐化学性 3D 打印流动反应器",
       "corresponding_affiliations_zh": [
-        "布达佩斯理工大学，匈牙利"
+        "布达佩斯理工经济大学，匈牙利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1678,7 +1812,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "BH 和 NH 改性 g-C3N4 光催化剂上 CO2 光还原生成 HCOOH 的机理见解",
       "corresponding_affiliations_zh": [
-        "德克萨斯理工大学，美国",
+        "德州理工大学，美国",
         "航空技术学院，巴西"
       ],
       "translation_version": 2,
@@ -3299,8 +3433,8 @@
       "corresponding_affiliations_zh": [
         "原子能与替代能源委员会，法国",
         "巴黎-萨克雷大学，法国",
-        "国家农业、食品与环境研究所，法国",
-        "药品和健康技术，法国"
+        "国家农业、粮食与环境研究所，法国",
+        "药品与健康技术，法国"
       ],
       "translation_version": 2,
       "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-126-graphical-abstract.svg?max-width=637&background=FFFFFF",
@@ -3508,7 +3642,7 @@
       "title_zh": "抑制阳极消耗的不对称交流电解苯甲醇脱氧",
       "corresponding_affiliations_zh": [
         "宁波工程学院，中国",
-        "宁波理工大学，中国"
+        "宁波理工学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4254,7 +4388,7 @@
       "corresponding_affiliations_zh": [
         "图尔大学，法国",
         "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
-        "凡尔赛-圣康坦-昂伊夫林大学，法国",
+        "凡尔赛-圣康坦昂伊夫林大学，法国",
         "巴黎-萨克雷大学，法国",
         "凡尔赛拉瓦锡学院，法国",
         "化学与跨学科性、合成、分析、建模，法国",
@@ -4295,7 +4429,7 @@
       "title_zh": "蛋白质支架调节硫胺素焦磷酸依赖性自由基生物催化中常见酮基自由基中间体的电子结构：来自 EPR 和 ENDOR 光谱的见解",
       "corresponding_affiliations_zh": [
         "加利福尼亞大學戴維斯分校，美国",
-        "加州大学圣塔芭芭拉分校，美国"
+        "加州大学圣巴巴拉分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4330,7 +4464,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "TMSN 3在光电催化有机合成中的应用",
       "corresponding_affiliations_zh": [
-        "黄淮学院，中国"
+        "黄淮海大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4470,7 +4604,7 @@
       "date": "2026-10-30",
       "doi": "10.1002/ajoc.70579",
       "url": "https://doi.org/10.1002/ajoc.70579",
-      "abstract": "ABSTRACT A metal‐free blue‐light‐induced radical cascade cyclization of N ‐tethered 1,5‐enenitriles with diarylphosphine oxides for the synthesis of phosphinylated pyrrolidine‐2,4‐diones is described. The transformation tolerates various functional groups and is scalable to gram scale. Radical‐trapping experiments confirm phosphorus‐centered‐radical‐mediated reactivity. Two unreported minor phosphorus‐containing products were detected by LCMS. This work provides a facile photochemical entry to phosphorus‐functionalized pyrrolidine‐2,4‐diones.",
+      "abstract": "A metal‐free blue‐light‐induced radical cascade cyclization of N ‐tethered 1,5‐enenitriles with diarylphosphine oxides for the synthesis of phosphinylated pyrrolidine‐2,4‐diones is described. The transformation tolerates various functional groups and is scalable to gram scale. Radical‐trapping experiments confirm phosphorus‐centered‐radical‐mediated reactivity. Two unreported minor phosphorus‐containing products were detected by LCMS. This work provides a facile photochemical entry to phosphorus‐functionalized pyrrolidine‐2,4‐diones.",
       "tags": [
         "Photocatalysis"
       ],
@@ -5598,7 +5732,7 @@
       "title_zh": "三线态氮宾通过双自由基中继引发亚半频哪醇重排",
       "corresponding_affiliations_zh": [
         "拜罗伊特大学，德国",
-        "哈雷-维滕贝格马丁·路德大学，德国",
+        "哈勒-维滕贝格马丁·路德大学，德国",
         "贵州大学，中国",
         "浙江理工大学，中国"
       ],
