@@ -1,6 +1,74 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "papers": [
+    {
+      "title": "Supporting-electrolyte-free electrosynthesis of hydroquinone in solid polymer electrolyte electrolyzers",
+      "authors": [
+        "Kou Kikuchi",
+        "Mahito Atobe",
+        "Naoki Shida"
+      ],
+      "journal": "Faraday Discussions",
+      "date": "2027-01-01",
+      "doi": "10.1039/d6fd00074f",
+      "url": "https://doi.org/10.1039/d6fd00074f",
+      "abstract": "The electrification of chemical manufacturing requires electrochemical processes that are not only selective, but also simple in composition, energy-efficient, and scalable. In organic electrosynthesis, however, the use of supporting electrolytes often complicates product isolation and reduces process practicality. Herein, we demonstrate the supporting-electrolyte-free electrochemical synthesis of hydroquinone (HQ) from benzoquinone (BQ) in solid polymer electrolyte (SPE) electrolyzers coupled with water oxidation. In a proton exchange membrane (PEM) electrolyzer, BQ was efficiently reduced to HQ without any added supporting electrolyte, and Ketjenblack outperformed carbon-supported metal catalysts as the cathode material. This result indicates that outer-sphere electron transfer at the carbon surface is sufficient for quinone reduction, whereas supported metals instead may promote competing hydrogen evolution. The PEM electrolyzer also enabled substantially lower-voltage electrolysis than a conventional batch-type divided cell, and gram-scale synthesis of HQ was achieved in 97% gravimetric yield with >99% purity by simply removing solvent after the electrolysis. In addition, the operating current density could be tuned according to the desired balance between productivity and energy efficiency. By contrast, an anion exchange membrane (AEM) electrolyzer showed markedly different behaviour: less hindered benzoquinones underwent side reactions under the basic interfacial environment, causing membrane fouling and cell-voltage increase, whereas a sterically protected quinone was reduced smoothly. These results demonstrate that SPE electrolyzers provide a practical platform for supporting-electrolyte-free organic electrosynthesis and, more importantly, that the membrane-defined reaction environment is a decisive factor governing substrate compatibility.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Mahito Atobe",
+        "Naoki Shida"
+      ],
+      "corresponding_affiliations": [
+        "Yokohama National University, Japan",
+        "Japan Science and Technology Agency, Japan"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "在固体聚合物电解质电解槽中进行对苯二酚的无支撑电解质电合成",
+      "corresponding_affiliations_zh": [
+        "横滨国立大学，日本",
+        "科学技术署，日本"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Electrolyte and gas flow rate balance in flow cells for lithium-mediated ammonia electrosynthesis",
+      "authors": [
+        "Anna Mangini",
+        "Giulia Zagatti",
+        "Julia Amici",
+        "Sara García-Ballesteros",
+        "Federico Bella"
+      ],
+      "journal": "Faraday Discussions",
+      "date": "2027-01-01",
+      "doi": "10.1039/d6fd00090h",
+      "url": "https://doi.org/10.1039/d6fd00090h",
+      "abstract": "), allowing for a complete exchange of the electrolyte in the liquid chamber twice per minute. This electrolyte flow rate results in a simultaneous improvement of Faradaic efficiency, productivity, and ammonia recovery in the gas phase. Overall, our results highlight the critical influence of cell-architecture-related parameters on Li-NRR and emphasize the need to disentangle device engineering from electrolyte tailoring and electrochemical performance optimisation to enable a rational understanding of the mechanism understanding towards the translation of Li-NRR to a scalable process.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Sara García-Ballesteros",
+        "Federico Bella"
+      ],
+      "corresponding_affiliations": [
+        "Politecnico di Torino, Italy"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "锂介导的氨电合成用流式电池中的电解质和气体流量平衡",
+      "corresponding_affiliations_zh": [
+        "都灵理工大学，意大利"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
     {
       "title": "SYNTHESIS, SPECTROSCOPIC CHARACTERIZATION, SOLVENT-DEPENDENT KETO–ENOL TAUTOMERISM, AND ELECTROCHEMICAL BEHAVIOR OF OXADIAZOLE- AND TRIAZOLE-LINKED β-KETO ESTERS",
       "authors": [
@@ -53,6 +121,216 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "机械光催化：迈向一种可推广的方法，用于溶剂用量最小化的光驱动有机合成反应（论文数据）",
       "corresponding_affiliations_zh": [],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Continuous and sustainable multicarbon acids electrosynthesis",
+      "authors": [
+        "Zhongshuo Zhang",
+        "Yuying Zhao",
+        "Zhenhao Wang",
+        "Jieshan Qiu",
+        "Ifan E. L. Stephens",
+        "Jie Zeng",
+        "Shaofeng Li"
+      ],
+      "journal": "Research Square",
+      "date": "2026-11-20",
+      "doi": "10.21203/rs.3.rs-11795109/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-11795109/v1",
+      "abstract": "Electrochemical CO 2 reduction offers a route to produce fuels and chemicals using renewable electricity. Multicarbon electrosynthesis has predominantly relied on Cu-based catalysts in aqueous electrolytes, achieving high multicarbon faradaic efficiencies but facing broad product distributions and substantial carbon loss through carbonate formation. Nonaqueous CO 2 electrolysis offers an alternative pathway to multicarbon synthesis through radical C–C coupling while suppressing carbonate formation. However, the full-cell operation remains limited by sacrificial anodic reactions and poorly controlled proton delivery. Here, we introduce a hydrogen-oxidation-enabled full-cell architecture that couples nonsacrificial anodic H 2 oxidation with continuous nonaqueous CO 2 reduction. Hydrogen oxidation provides a regulated proton flux without disrupting the low-water environment required for radical chemistry. Pairing a PtAu anode with an oxide-derived Pb cathode enables continuous conversion of CO 2 and H 2 to oxalic and glyoxylic acids, achieving a C 2 acid faradaic efficiency of 97 ± 2% at 30 milliamperes per square centimeter and a single-pass carbon utilization efficiency of 72 ± 2%. In contrast, anodic water oxidation promotes water accumulation and shifts cathodic selectivity towards hydrogen and single-carbon products. This approach establishes anodic reaction engineering as a route to continuous, carbon-efficient nonaqueous multicarbon electrosynthesis.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Jie Zeng",
+        "Shaofeng Li"
+      ],
+      "corresponding_affiliations": [
+        "University of Science and Technology of China, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "连续和可持续的多碳酸电合成",
+      "corresponding_affiliations_zh": [
+        "电子科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Decoding C–O versus C–C Bond Selectivity in Nickel–Metallaphotoredox Carboxylic Acid Cross-Couplings",
+      "authors": [
+        "Michael T. Findlay",
+        "Florian Lukas",
+        "Ken Yamazaki",
+        "Guillaume Hopsort",
+        "Benjamin R. Martin",
+        "Simon Allmendinger",
+        "Markus Furegati",
+        "Pablo Gabriel"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-11-19",
+      "doi": "10.1021/acscatal.6c08368",
+      "url": "https://doi.org/10.1021/acscatal.6c08368",
+      "abstract": "Understanding how catalytic systems dictate product selectivity is crucial for advancing cross-coupling chemistry. While nickel–photoredox dual catalysis has enabled both C─C and C─O bond formation from carboxylic acids and aryl halides under deceptively similar conditions, the mechanistic origins of this divergence have remained elusive. Here, we combine systematic experimentation with density functional theory (DFT) calculations and electrochemical analysis to uncover the key parameters that govern whether C─C or C─O bonds are formed. We show that the halide identity of the aryl electrophile exerts an influence: iodides strongly favor esterification via a low-barrier reductive elimination pathway, bromides promote decarboxylative C─C coupling, and chlorides, with higher C─O reductive elimination barriers, yield exclusively C─C products. Complementary experiments reveal that both photocatalyst loading and halide additives modulate selectivity, consistent with the computed energy landscapes. Together, these insights explain the divergent reactivity observed under seemingly similar conditions. By demonstrating how subtle changes in halide, photocatalyst, and additives toggle reaction outcomes, our study provides predictive design principles for exploiting carboxylic acids in nickel–photoredox catalysis.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 94,
+      "corresponding_authors": [
+        "Trevor A. Hamlin",
+        "Timothy Noël"
+      ],
+      "corresponding_affiliations": [
+        "Vrije Universiteit Amsterdam, Netherlands",
+        "University of Amsterdam, Netherlands"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "揭示镍-金属光氧化还原羧酸交叉偶联中的C–O与C–C键选择性",
+      "corresponding_affiliations_zh": [
+        "阿姆斯特丹自由大学，荷兰",
+        "阿姆斯特丹大学，荷兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Recent Advances in the Preparation and Application of Sultams (2017–2026)",
+      "authors": [
+        "Yafei Zhang",
+        "Huamao Wei",
+        "Sichun Ai",
+        "Xuan Wang",
+        "Min Wang"
+      ],
+      "journal": "The Chemical Record",
+      "date": "2026-11-19",
+      "doi": "10.1002/tcr.70275",
+      "url": "https://doi.org/10.1002/tcr.70275",
+      "abstract": "Sultams-cyclic sulfonamides in which both the sulfur(VI) center and the nitrogen atom are endocyclic-are a privileged class of heterocycles in medicinal chemistry, agrochemistry, and asymmetric synthesis. Classical routes to these rings rely predominantly on two-electron disconnections: intramolecular nucleophilic substitution, carbanion-mediated sulfonamide intramolecular cyclization (CSIC), and base- or acid-promoted cyclizations. Although effective, these approaches are often limited in substrate scope and functional-group tolerance. Since 2017, the field has been reshaped by catalytic strategies that construct the sultam ring directly through bond formation: transition-metal-catalyzed C─H functionalization and annulation, metalloporphyrin- and metalloradical-mediated intramolecular nitrene transfer, visible-light photoredox and energy-transfer radical cascades, electrochemical cyclization, sulfur(VI) fluoride exchange (SuFEx) ligation, and flow photochemistry. In this Review, we organize these developments by ring size-four- and five-membered (β- and γ-), six-membered (δ-), seven-membered and medium-sized, and spiro-, bridged, and polycyclic sultams-because ring size, more than any other variable, determines which disconnections are viable. For each class, we summarize the substrate scope, yields, and stereochemical performance and delineate the mechanistic basis of the observed selectivity; each section concludes with a comparative table and a critical assessment designed to help readers choose among competing methods rather than merely enumerate them. We then survey applications in drug discovery, crop protection, chiral auxiliary and ligand design, directing-group chemistry, and functional polymers, and we close by identifying the remaining challenges: stereocontrol in polycyclic systems, general access to medium rings, and the scale-up of photochemical and electrochemical methods.",
+      "tags": [
+        "Electrochemistry",
+        "Photocatalysis"
+      ],
+      "relevance": 82,
+      "corresponding_authors": [
+        "Min Wang"
+      ],
+      "corresponding_affiliations": [
+        "Beijing Institute of Petrochemical Technology, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "磺酰胺的制备和应用最新进展（2017–2026）",
+      "corresponding_affiliations_zh": [
+        "北京理工大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Organic Heterogeneous Electrosynthesis: Interfacial Catalysis for Selective Organic Transformations",
+      "authors": [
+        "Xue‐Jia Zhang",
+        "Meng‐Ting Zhu",
+        "He‐Yang Zhou",
+        "Ying‐Ming Pan",
+        "Haibo Wu",
+        "Hai‐Tao Tang"
+      ],
+      "journal": "Chinese Journal of Chemistry",
+      "date": "2026-11-19",
+      "doi": "10.1002/cjoc.70818",
+      "url": "https://doi.org/10.1002/cjoc.70818",
+      "abstract": "Comprehensive Summary Organic heterogeneous electrosynthesis has emerged as a versatile platform for sustainable organic synthesis, yet its rapidly expanding chemistry remains difficult to interpret using conventional classifications based on catalyst materials or reaction types. This review introduces a unified Site‐Interface‐Pathway framework to understand how heterogeneous catalytic interfaces regulate reactive intermediates and determine reaction selectivity. Four representative interfacial reaction modes are identified to connect catalyst design with synthetic applications across diverse anodic and cathodic transformations. This framework provides a mechanistic foundation for rational catalyst design and highlights the evolution of heterogeneous organic electrosynthesis from empirical catalyst optimization toward interface‐programmed molecular synthesis. Key Scientists Since the emergence of heterogeneous organic electrosynthesis in the mid‐2010s, the electrode has evolved from a passive electron source into a catalytic interface that controls substrate adsorption, electron and proton transfer, intermediate conversion, and product desorption, with these interfacial processes central to reaction efficiency and selectivity. In 2015, Kubiak and co‐workers incorporated Fe‐porphyrin molecular catalysts into metal‐organic‐framework films for electrochemical CO₂ reduction, demonstrating how molecular active sites could be integrated into solid electrode architectures. [1] Stahl subsequently immobilized a pyrene–TEMPO electrocatalyst on carbon cloth for preparative alcohol oxidation in 2017, providing an early example of reusable molecular catalysis at a heterogeneous interface. [2] Bin Zhang further advanced solid‐electrocatalyst strategies for primary‐amine oxidation to nitriles and selective alkyne semihydrogenation at sulfur‐modified copper interfaces. [3‐4] Mechanistic studies by Shuangyin Wang established design principles for nickel‐based nucleophile electrooxidation and revealed how activated Ni–OH motifs regulate interfacial proton‐coupled electron transfer and subsequent chemical steps. [5‐6] In parallel, Jian Zhang developed Cu nanoarray electrodes for high‐current‐density alkynol semihydrogenation and continuous alkenol production in flow electrolyzers, [7] while Yongwen Tan combined Cu–Au alloying with nanopore confinement to control hydrogen generation, substrate adsorption, product desorption, and over‐hydrogenation. [8] More recently, Dingsheng Wang designed a CuN₃P₁ single‐atom catalyst as a heterogeneous cathodic redox mediator for quinazolinone ring opening and late‐stage natural‐product modification. [9] Collectively, these advances have established heterogeneous organic electrosynthesis as a powerful platform bridging molecular catalyst design with active‐site, interface, microenvironment, and reactor engineering.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 59,
+      "corresponding_authors": [
+        "Haibo Wu",
+        "Hai‐Tao Tang"
+      ],
+      "corresponding_affiliations": [
+        "Guangxi Normal University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "有机非均相电合成：用于选择性有机转化的界面催化",
+      "corresponding_affiliations_zh": [
+        "广西师范大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Direct Access to 5-Aryl-2-Pyrones via Palladium-Catalyzed Decarbonylative Cross-Coupling of Coumalic Acid",
+      "authors": [
+        "Valerio Chionna",
+        "Tobias S. Wehrspohn",
+        "Julia Svetličić",
+        "Frank Röminger",
+        "Tobias Morack"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-19",
+      "doi": "10.26434/chemrxiv.15012465/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012465/v1",
+      "abstract": "The selective synthesis of 5-substituted 2-pyrones remains challenging despite their synthetic potential. Herein, we report a palladium-catalyzed decarbonylative Suzuki–Miyaura cross-coupling of simple coumalic acid, providing direct access to 5aryl-2-pyrones in up to 58% yield. Enabled by DPEphos, the transformation accommodates diverse arylboronic acids while preserving the reactive heterocyclic framework. Subsequent cycloaddition chemistry exploits the localized diene motif to furnish stereodefined cyclohexenes and highly substituted arenes, highlighting their versatility as synthetic building blocks.",
+      "tags": [
+        "Boron Chemistry"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Tobias Morack"
+      ],
+      "corresponding_affiliations": [
+        "Heidelberg University, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "通过钯催化的香豆酸脱羰基交叉偶联直接合成5-芳基-2-吡酮",
+      "corresponding_affiliations_zh": [
+        "海德堡大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "(Arylsulfonyl)acetonitrile as an Efficient Unified Reagent for the Photocatalyzed Hydrosulfonylation of Alkenes",
+      "authors": [
+        "Prithwa Das",
+        "Sunaina Sardana",
+        "Oliver Reiser"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-19",
+      "doi": "10.26434/chemrxiv.15012504/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012504/v1",
+      "abstract": "We report the organophotocatalyzed hydrosulfonylation of alkenes using (arylsulfonyl)acetonitriles (AACN) as a unified reagent acting both as a sulfonyl radical precursor, via photocatalytic C-S bond cleavage and as an intrinsic hydrogen-atom donor. This strategy expands the sulfonyl radical toolbox, offering broad substrate scope and enabling efficient synthesis of structurally diverse sulfones with excellent functional group tolerance.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Oliver Reiser"
+      ],
+      "corresponding_affiliations": [
+        "University of Regensburg, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "(芳基磺酰基)乙腈作为烯烃光催化氢磺酰化的高效统一试剂",
+      "corresponding_affiliations_zh": [
+        "雷根斯堡大学，德国"
+      ],
       "translation_version": 2,
       "toc_url": "",
       "toc_kind": ""
@@ -124,7 +402,7 @@
         "原子能与替代能源委员会，法国",
         "巴黎-萨克雷大学，法国",
         "原子能与替代能源委员会（CEA）巴黎-萨克雷中心，法国",
-        "药品与健康技术，法国"
+        "药品和健康技术，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -995,7 +1273,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光氧化还原效率的动力学起源",
       "corresponding_affiliations_zh": [
-        "瓦隆大区在生命科学和生物技术领域的卓越成就，比利时",
+        "瓦隆大区在生命科学和生物技术领域的卓越表现，比利时",
         "鲁汶天主教大学，比利时"
       ],
       "translation_version": 2,
@@ -1465,7 +1743,7 @@
       "corresponding_source": "last_author_fallback",
       "title_zh": "从原型设计到日常实践：用于有机合成的耐化学性 3D 打印流动反应器",
       "corresponding_affiliations_zh": [
-        "布达佩斯理工经济大学，匈牙利"
+        "布达佩斯理工大学，匈牙利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3433,8 +3711,8 @@
       "corresponding_affiliations_zh": [
         "原子能与替代能源委员会，法国",
         "巴黎-萨克雷大学，法国",
-        "国家农业、粮食与环境研究所，法国",
-        "药品与健康技术，法国"
+        "国家农业、食品与环境研究所，法国",
+        "药品和健康技术，法国"
       ],
       "translation_version": 2,
       "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-126-graphical-abstract.svg?max-width=637&background=FFFFFF",
@@ -3725,7 +4003,7 @@
         "柏林亥姆霍兹材料与能源中心，德国",
         "米卢斯材料科学研究所，法国",
         "莱布尼茨复合材料研究所有限公司，德国",
-        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道理工大学，德国"
+        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道工业大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4388,7 +4666,7 @@
       "corresponding_affiliations_zh": [
         "图尔大学，法国",
         "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
-        "凡尔赛-圣康坦昂伊夫林大学，法国",
+        "凡尔赛-圣康坦-昂伊夫林大学，法国",
         "巴黎-萨克雷大学，法国",
         "凡尔赛拉瓦锡学院，法国",
         "化学与跨学科性、合成、分析、建模，法国",
@@ -4429,7 +4707,7 @@
       "title_zh": "蛋白质支架调节硫胺素焦磷酸依赖性自由基生物催化中常见酮基自由基中间体的电子结构：来自 EPR 和 ENDOR 光谱的见解",
       "corresponding_affiliations_zh": [
         "加利福尼亞大學戴維斯分校，美国",
-        "加州大学圣巴巴拉分校，美国"
+        "加州大学圣塔芭芭拉分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4464,7 +4742,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "TMSN 3在光电催化有机合成中的应用",
       "corresponding_affiliations_zh": [
-        "黄淮海大学，中国"
+        "黄淮学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5241,7 +5519,7 @@
       "corresponding_affiliations": [
         "The University of Queensland, Australia"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "last_author_fallback_author_profile",
       "title_zh": "使用 KCN 作为氰化物源和碱对氨基酸进行可持续且可扩展的电化学脱羧氰化",
       "corresponding_affiliations_zh": [
         "取得卓越成就，澳大利亚"
@@ -5732,7 +6010,7 @@
       "title_zh": "三线态氮宾通过双自由基中继引发亚半频哪醇重排",
       "corresponding_affiliations_zh": [
         "拜罗伊特大学，德国",
-        "哈勒-维滕贝格马丁·路德大学，德国",
+        "哈雷-维滕贝格马丁·路德大学，德国",
         "贵州大学，中国",
         "浙江理工大学，中国"
       ],
@@ -6214,7 +6492,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钯催化环丁烯通过迁移瓦克氧化环收缩",
       "corresponding_affiliations_zh": [
-        "美因茨约翰内斯·古腾堡大学，德国"
+        "美因茨约翰内斯·古腾贝格大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7776,7 +8054,7 @@
       "title_zh": "铁电子离域能够实现催化选择性三硅烷化：超越空间位阻",
       "corresponding_affiliations_zh": [
         "南开大学，中国",
-        "川北医学院，中国",
+        "北川医科大学，中国",
         "重庆大学，中国",
         "杭州师范大学，中国",
         "科学院上海有机化学研究所，中国",
