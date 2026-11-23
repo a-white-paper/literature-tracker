@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "papers": [
     {
       "title": "Supporting-electrolyte-free electrosynthesis of hydroquinone in solid polymer electrolyte electrolyzers",
@@ -126,6 +126,265 @@
       "toc_kind": ""
     },
     {
+      "title": "LMCT-Enabled Ferrioxalate Reductive C–O Bond Cleavage of Activated Aldehydes and Ketones",
+      "authors": [
+        "Hui Zhang",
+        "Wen-Bo He",
+        "Yingjie Wang",
+        "Hao-Wen Jiang",
+        "Xu-Gang Zhang",
+        "Peng‐Fei Xu"
+      ],
+      "journal": "Organic Letters",
+      "date": "2026-11-21",
+      "doi": "10.1021/acs.orglett.6c04689",
+      "url": "https://doi.org/10.1021/acs.orglett.6c04689",
+      "abstract": "The reductive cleavage of C–O bonds in activated carbonyl derivatives remains a formidable challenge in organic synthesis. Herein we report a ligand-to-metal charge transfer (LMCT)-enabled photocatalytic strategy for the deoxycyanation of aldehydes and ketones. Photoexcitation of ferrioxalate triggers LMCT and decarboxylation to generate highly reducing Fe(I) species, which are proposed to promote single electron transfer (SET) and subsequent C–O bond cleavage. This mild protocol converts a broad range of aliphatic and aromatic aldehydes as well as aliphatic ketones into structurally diverse nitriles with good functional group tolerance. Mechanistic studies support a radical pathway consistent with Fe(I)-mediated reduction, highlighting the potential of ferrioxalate photochemistry for challenging reductive bond activation.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Hao-Wen Jiang",
+        "Peng‐Fei Xu"
+      ],
+      "corresponding_affiliations": [
+        "Lanzhou University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "活化醛和酮的LMCT介导的草酸铁还原性C–O键断裂",
+      "corresponding_affiliations_zh": [
+        "兰州大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Enantioselective Radical Hydrosilylation of Electron‐Deficient Alkenes Enabled by Metallaphotoredox Catalysis",
+      "authors": [
+        "Yongliang Huang",
+        "Chengyang Li",
+        "Yu Ding",
+        "Haoran Wu",
+        "Zhen Xu",
+        "Yupeng Zhang",
+        "Gan He",
+        "Haohua Huo"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-20",
+      "doi": "10.1002/anie.9261601",
+      "url": "https://doi.org/10.1002/anie.9261601",
+      "abstract": "Catalytic enantioselective hydrosilylation of electron-deficient alkenes remains an outstanding challenge due to difficulties in simultaneously controlling chemo-, regio-, and enantioselectivity. Herein, we report a general and practical strategy enabling the first enantioselective radical hydrosilylation of α,β-unsaturated esters via metallaphotoredox catalysis. This approach integrates photocatalytically generated bromine radical-facilitated hydrogen atom transfer to convert hydrosilanes into silyl radicals with a chiral nickel catalyst that stabilizes carbon-centered radical intermediates and directs asymmetric protonation. The method circumvents alkene coordination and migratory insertion steps, and effectively overrides racemic background radical addition. By decoupling Si─C bond formation from the enantioselectivity-determining step, it accommodates a broad substrate scope. The redox-neutral, fully atom-economical protocol proceeds under mild conditions without stoichiometric organometallic reagents or external oxidants/reductants, delivering β-silylated carbonyl compounds with high chemo-, regio-, and enantioselectivity. Furthermore, the strategy extends to enantioselective hydrogermylation and is amenable to gram-scale synthesis. This work provides a conceptually distinct blueprint for enantioselective hydrosilylation and establishes a mechanistic rationale for controlling enantioselectivity in radical conjugate addition.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 84,
+      "corresponding_authors": [
+        "Chengyang Li",
+        "Haohua Huo"
+      ],
+      "corresponding_affiliations": [
+        "Xiamen University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "由金属光氧化还原催化实现的缺电子烯烃的对映选择性自由基氢化硅烷化反应",
+      "corresponding_affiliations_zh": [
+        "厦门大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Programmable Amino Migration−Enabled Diversification of Allylamines",
+      "authors": [
+        "Mingshuo Chen",
+        "Zhou Yang",
+        "Yuang Cui",
+        "Yizhou Chen",
+        "Rao Liang",
+        "Huida Qian",
+        "Xiaoping Chen",
+        "Xiaheng Zhang"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-20",
+      "doi": "10.1002/anie.9101626",
+      "url": "https://doi.org/10.1002/anie.9101626",
+      "abstract": "Migration−enabled alkene functionalization offers an attractive strategy for accessing molecular architectures beyond the reach of conventional alkene transformations. Yet existing approaches typically channel translocated radical intermediates into a single reaction manifold, limiting the broader potential of migration chemistry for divergent synthesis. Here, we establish a programmable migration−enabled synthesis platform that redirects allylamines from passive alkene substrates into versatile synthons for divergent molecular construction. Through the integration of radical functionalization with amino migration, this strategy generates a migratory radical intermediate that undergoes selective diversification via complementary radical−trapping, atom−transfer radical addition (ATRA), and radical−polar crossover (RPC) pathways under mild photocatalytic conditions, enabling divergent 1,2,3−trifunctionalization of allylamines. Broad compatibility with radical precursors, bifunctional reagents, nucleophiles, and diverse allylamine scaffolds provides access to more than 70 densely functionalized, C(sp 3 )−rich amino architectures, including molecules bearing quaternary carbon centers. More broadly, this work establishes radical migration as a programmable design principle for molecular diversification and expands the synthetic utility of allylamines as modular synthons for the systematic exploration of structure−function relationships.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Xiaoping Chen",
+        "Xiaheng Zhang"
+      ],
+      "corresponding_affiliations": [
+        "University of Chinese Academy of Sciences, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "可编程氨基迁移实现烯丙胺的多样化",
+      "corresponding_affiliations_zh": [
+        "科学院大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Synergistic Lewis Base Organocatalysis and Electrocatalysis for the Enantioselective Construction of α‐Fluorinated Quaternary Stereocenters",
+      "authors": [
+        "Qian‐Wei Gong",
+        "Yu‐Hua Wen",
+        "Qiannan Wang",
+        "Zhou Wu",
+        "Ning Li",
+        "Chang Guo",
+        "Jin Song",
+        "Liu‐Zhu Gong"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-20",
+      "doi": "10.1002/anie.7391422",
+      "url": "https://doi.org/10.1002/anie.7391422",
+      "abstract": "The construction of α-fluorinated quaternary stereocenters-a structural motif of high value in pharmaceuticals and bioactive molecules-remains a formidable synthetic challenge due to inherent steric and stereoelectronic constraints. Herein, we report a synergistic strategy combining chiral isothiourea (ITU) organocatalysis with electrochemistry, enabling the direct and highly enantioselective α-alkylation of bench-stable fluorinated acetic esters with both silyl enol ethers and allylsilanes. This approach integrates anodic single-electron oxidation with asymmetric Lewis base catalysis, converting in situ-generated disubstituted C1-ammonium enolates into configurationally well-defined, chiral ITU-bound α-carbonyl tertiary radical intermediates. Subsequent stereocontrolled radical cross-coupling with SOMOphilic partners furnishes a broad range of esters bearing α-fluorinated quaternary stereocenters in high yields (up to 95%) and excellent enantioselectivities (up to 99% ee). This work not only fills a significant gap in the single-electron chemistry of disubstituted C1-ammonium enolates but also provides a versatile platform for the rapid assembly of optically active α-fluorinated quaternary carbonyl compounds, with significant potential in drug discovery and complex molecule synthesis.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Chang Guo",
+        "Jin Song",
+        "Liu‐Zhu Gong"
+      ],
+      "corresponding_affiliations": [
+        "Hefei National Center for Physical Sciences at Nanoscale, China",
+        "Anhui University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "用于α-氟化季立体中心的对映选择性构建的协同路易斯碱有机催化和电催化",
+      "corresponding_affiliations_zh": [
+        "合肥微尺度物质科学国家研究中心，中国",
+        "安徽大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Selective Oxidation of Toluene to Benzaldehyde Driven by Electroreduction of Oxygen to Hydrogen Peroxide Coupled With In Situ Electro‐Fenton Reaction",
+      "authors": [
+        "Zhanshuo Cao",
+        "Yichen Zhang",
+        "Jinyang Ma",
+        "Yifan Jiang",
+        "Yangjie Yi",
+        "Lang Qin",
+        "Maoyu Wang",
+        "Angelo Vicini"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-20",
+      "doi": "10.1002/anie.1330012",
+      "url": "https://doi.org/10.1002/anie.1330012",
+      "abstract": "Selective toluene oxidation is a pivotal reaction in the fine chemical industry. While electrooxidation at high anodic potentials shows promise, the low efficiency of the generation of reactive oxygen species limits the product yield. Herein, we describe a cathodic strategy for selective oxidation of toluene to benzaldehyde via coupling the electrosynthesis of hydrogen peroxide from oxygen reduction with an in situ electro‐Fenton reaction (eH 2 O 2 ‐EF). Among the different metal–nitrogen–carbon single‐atom catalysts (M‐NC SAC, M = Fe, Co, and Ni), Co‐NC SAC stands out as the best catalyst, featuring a benzaldehyde selectivity of 90.63% and a yield of 21.9 mmol h −1 at −0.3 V versus RHE with stable operation over 23 cycles. In situ spectroscopy and radical scavenging and quantification experiments indicate that the eH 2 O 2 ‐EF proceeds via toluene adsorption, ·OH‐mediated oxidation, and desorption of products, where the ·OH generation and intermediate adsorption/desorption jointly determine the benzaldehyde yield. Theoretical analysis indicates that the Co‐NC SAC thermodynamically facilitates H 2 O 2 generation, accompanied by moderate benzaldehyde adsorption and an uphill further‐oxidation step, leading to selective benzaldehyde production. This work establishes a novel cathodic paradigm for the selective oxidation of inert aromatic ‐H bonds under mild conditions.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 66,
+      "corresponding_authors": [
+        "Shaowei W. Chen",
+        "Shanyong Chen"
+      ],
+      "corresponding_affiliations": [
+        "University of California, Santa Cruz, United States",
+        "Central South University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过氧气电还原为过氧化氢并耦合原位电芬顿反应驱动甲苯选择性氧化为苯甲醛",
+      "corresponding_affiliations_zh": [
+        "加州大学圣克鲁兹分校，美国",
+        "中南大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photoinduced Homolytic Carbon–Palladium Bond Cleavage of Zwitterionic π ‐Allylpalladium Species and Annulation with 1,3‐Dienes and 1,3‐Enynes",
+      "authors": [
+        "Bao‐Xin Liu",
+        "Shi‐Cun Li",
+        "Han-Wen Rao",
+        "Zhi‐Chao Chen",
+        "Wei Du",
+        "Ying‐Chun Chen"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-20",
+      "doi": "10.1002/anie.1618909",
+      "url": "https://doi.org/10.1002/anie.1618909",
+      "abstract": "The zwitterionic π-allylpalladium species are versatile intermediates in modern annulation chemistry, yet their assembling partners have been largely limited to electrophilic reagents or dipolarophiles. Herein, we report a previously inaccessible (4 + 2) annulation reaction of common π-allylpalladium(II) dipoles with electron-neutral 1,3-dienes and 1-aryl-substituted 1,3-enynes via a distinct cooperative photo-induced pathway. Mechanistic studies indicate that the process proceeds through visible light-promoted homolytic cleavage of the allylic C-Pd bond to generate Pd(I) and allylic radicals, which undergo addition to polyunsaturated systems. Subsequent Pd(I)-radical recombination and intramolecular allylic substitution furnish a broad array of multifunctional oxa- and aza-heterocycles, as well as carbocyclic frameworks, in moderate to good yields. In addition, their assemblies with electron-poor dienes are also applicable, whereas the regioselectivity is distinct from that observed in traditional dipole-based annulations. Furthermore, the asymmetric version is successful by employing chiral bisphosphine ligands, with fair to good enantioselectivity achieved.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 64,
+      "corresponding_authors": [
+        "Zhi‐Chao Chen",
+        "Ying‐Chun Chen"
+      ],
+      "corresponding_affiliations": [
+        "Key Laboratory of Drug‐Targeting and Drug Delivery System of the Education Ministry and Sichuan Province West China School of Pharmacy Sichuan University Chengdu China",
+        "Frontiers Medical Center Tianfu Jincheng Laboratory Chengdu China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "双性离子π-烯丙基钯的碳-钯键光诱导均裂及其与1,3-二烯和1,3-烯炔的环合反应",
+      "corresponding_affiliations_zh": [
+        "教育部和四川省药物靶向与药物递送系统重点实验室四川大学华西药学院中国成都",
+        "中国成都天府锦城实验室前沿医学中心"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Beyond Conventional Chemistry: Unlocking the Potential of Thioamides Through Photo‐, Electro‐, and Photoelectrochemical Approaches",
+      "authors": [
+        "Ijaz Khan",
+        "Pooja Sah",
+        "Katarzyna Rybicka‐Jasińska"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-20",
+      "doi": "10.1002/ejoc.70830",
+      "url": "https://doi.org/10.1002/ejoc.70830",
+      "abstract": "Thioamides, as indispensable isosteres of classical amides, feature distinct electronic profiles, unique geometries, pronounced sulfur nucleophilicity, and versatile redox behavior. These characteristics render them highly attractive building blocks in modern organic synthesis and crucial structural motifs in pharmaceutical and agrochemical design. While conventional strategies for thioamide activation typically rely on harsh reaction conditions, elevated temperatures, and stoichiometric amounts of hazardous chemical oxidants or unstable radical initiators, recent paradigms have shifted toward cleaner, more sustainable alternatives. This review comprehensively summarizes thioamide transformation through the lens of photochemistry, electrochemistry, and photoelectrochemistry from 1974 to 2026. Special emphasis is placed on comparing the reaction efficiencies, mechanistic pathways, environmental footprints, and substrate scopes of these enabling methodologies in driving intramolecular and intermolecular cyclizations—such as the synthesis of indoles, benzothiazoles, thiazoles, and 1,2,4‐thiadiazoles via oxidative dimerization. By highlighting the generation and reactivity patterns of key radical and radical‐ion intermediates under mild conditions, this review outlines the transition of thioamide chemistry into the era of green synthesis and provides a forward‐looking perspective on its future applications.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Katarzyna Rybicka‐Jasińska"
+      ],
+      "corresponding_affiliations": [
+        "Institute of Organic Chemistry, Poland",
+        "Polish Academy of Sciences, Poland"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "超越传统化学：通过光化学、电化学和光电化学方法释放硫酰胺的潜力",
+      "corresponding_affiliations_zh": [
+        "有机化学研究所，波兰",
+        "科学院，波兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Continuous and sustainable multicarbon acids electrosynthesis",
       "authors": [
         "Zhongshuo Zhang",
@@ -156,6 +415,114 @@
       "title_zh": "连续和可持续的多碳酸电合成",
       "corresponding_affiliations_zh": [
         "电子科技大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "[2 + 2]‐Cycloaddition: An Approach to Cyclobutane‐/Azetidine‐Containing Bicyclic Amines and Lactams",
+      "authors": [
+        "Bohdan S. Sosunovych",
+        "Anastasiia Ye. Hoida",
+        "Yevhen O. Skalenko",
+        "Bohdan V. Vashchenko"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-20",
+      "doi": "10.1002/ejoc.70983",
+      "url": "https://doi.org/10.1002/ejoc.70983",
+      "abstract": "[2 + 2]‐Cycloaddition reactions enable direct access to strained four‐membered rings and constitute valuable strategies for the synthesis of conformationally constrained bicyclic amines. Conceptually, reported approaches can be divided into intermolecular and intramolecular reactions. Intermolecular variants most commonly involve imines, unsaturated cyclic amines, or maleimides reacting with alkenes or alkynes under photochemical, thermal, or catalytic conditions. Intramolecular reactions are predominantly applied to bisallylamines and typically proceed through “head‐to‐head” or “head‐to‐tail” cyclization modes. This review surveys both reaction classes leading to cyclobutane‐ and azetidine‐containing bicyclic amines, as well as related lactams. Key scaffold families, including 3‐azabicyclo[3.2.0]heptanes, 3‐azabicyclo[3.1.1]heptanes, and higher homologs, are examined with respect to reaction design, regio‐ and stereochemical outcomes, and substrate scope. Methodological limitations and underexplored reaction modes are highlighted for further development of the [2 + 2]‐cycloaddition‐based routes to bicyclic amines.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 54,
+      "corresponding_authors": [
+        "Bohdan V. Vashchenko"
+      ],
+      "corresponding_affiliations": [
+        "Taras Shevchenko National University of Kyiv, UA",
+        "Enamine (Ukraine), UA"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "[2 + 2]‐环加成：合成含环丁烷/氮杂环丁烷的双环胺和内酰胺的方法",
+      "corresponding_affiliations_zh": [
+        "乌克兰基辅塔拉斯·舍甫琴科国立大学",
+        "Enamine（乌克兰），乌克兰"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Activating N = O Bond Cleavage Via Geometrically Matched Co‐C Atomic Pairs for Nitrate‐to‐Ammonia Electrosynthesis",
+      "authors": [
+        "Xinhui Wang",
+        "Han Xue",
+        "Dengke Wang",
+        "Lanqing Deng",
+        "Chu Chu",
+        "Yuefei Li",
+        "Jiayuan Li",
+        "Lei Tian"
+      ],
+      "journal": "Small",
+      "date": "2026-11-20",
+      "doi": "10.1002/smll.76501",
+      "url": "https://doi.org/10.1002/smll.76501",
+      "abstract": "The electrochemical reduction of nitrate (NO 3 − ) to ammonia (NH 3 ) is an attractive synthesis route, yet its efficiency is fundamentally limited by sluggish N = O bond cleavage due to insufficient N = O bond stretching and slow electron transfer. Here, we report that cobalt oxide supported on oxygen‐functionalized carbon felt (CoO/O‐CF) overcomes these limitations. In this catalyst, the Co–C atomic pairs exhibit an interatomic distance that geometrically matches the O–O spacing in NO 3 − , stabilizing an O‐bridged bidentate adsorption configuration. Characterizations and theoretical calculations indicate that this geometry concomitantly elongates the N = O bonds and enhances electron donation from active sites to their antibonding orbitals, accelerating N = O bond cleavage. Consequently, CoO/O‐CF delivers a high NH 3 yield rate of 16.8 mmol g cat −1 h −1 and a Faradaic efficiency of 93.2% at –0.7 V vs. RHE in neutral wastewater. The outstanding performance of CoO/O‐CF surpasses that of previously reported state‐of‐the‐art catalysts. Furthermore, CoO/O‐CF operates as a high‐performance cathode in a Zn‐NO 3 − battery, achieving simultaneous NH 3 electrosynthesis and energy output with a power density of 13.98 mW cm −2 . This work reveals how geometric correspondence in atomic pairs can be leveraged to activate challenging oxyanions, offering a promising design paradigm for advanced electrocatalysis in sustainable nitrogen cycling.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 51,
+      "corresponding_authors": [
+        "Dengke Wang",
+        "Jiayuan Li",
+        "Jian‐Ping Zou"
+      ],
+      "corresponding_affiliations": [
+        "Nanchang Hangkong University, China",
+        "Northwestern Polytechnical University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过几何匹配的Co‐C原子对活化N = O键断裂，实现硝酸盐电合成氨",
+      "corresponding_affiliations_zh": [
+        "南昌航空大学，中国",
+        "西北工业大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "PCET beyond p K a : Disaggregation and Additional Base Effects as Neglected Key Factors for Unlocking Inaccessible Substrates in Direct Intermolecular Photocatalytic Ring‐Opening Remote Alkylation of Cycloalkanols",
+      "authors": [
+        "Michael Klimkait",
+        "Nele Berg",
+        "Silvan Allerbeck",
+        "Wagner Silva",
+        "Ruth M. Gschwind",
+        "Kirsten Zeitler"
+      ],
+      "journal": "Angewandte Chemie",
+      "date": "2026-11-20",
+      "doi": "10.1002/ange.5474223",
+      "url": "https://doi.org/10.1002/ange.5474223",
+      "abstract": "Photocatalytic oxidative multisite proton‐coupled electron transfer (MS‐PCET) reactions have emerged as a promising tool for the activation of strong O─H bonds in (cyclo)alkanols. However, these methods often require the use of e‐rich arene‐containing derivatives ( para ‐methoxyphenyl (PMP), etc.) — a factor that greatly restricts their broader applicability. In this study, we report the successful implementation of targeted modulation of the base partner in photocatalytic cascade reactions of cyclic alcohols, unlocking previously rather inaccessible, nonactivated substrates. This approach successfully bypasses the prevalent limitations of ring‐opening transformations of cycloalkanols by disaggregation of the bulk alcohol and strategic base selection. As a result, we here demonstrate an operationally simple and widely applicable protocol for the redox‐neutral transformations of cycloalkanols into terminally C(sp 3 )‐C(sp 3 )‐coupled, functionalized open‐chain products. NMR‐based mechanistic studies, comprising in‐depth H‐bond analysis as well as DOSY and ROESY experiments, have elucidated the previously unrecognized crucial role of substrate disaggregation in this multisite PCET, along with (pyridine) base effects surpassing typical p K a ‐related and/or steric effects. Ultimately, our insights, for the first time, reveal the critical importance of the aggregation state and the design of productive alcohol‐base pre‐organization beyond p K a and enabled us to successfully pioneer remote alkylative Giese‐type C─C‐bond formations of previously challenging alkyl‐substituted cycloalkanols.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Kirsten Zeitler"
+      ],
+      "corresponding_affiliations": [
+        "Leipzig University, Germany"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "超越p K a的PCET：解聚和额外碱效应作为解锁环醇直接分子间光催化开环远程烷基化中不可及底物的被忽视的关键因素",
+      "corresponding_affiliations_zh": [
+        "莱比锡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -402,7 +769,7 @@
         "原子能与替代能源委员会，法国",
         "巴黎-萨克雷大学，法国",
         "原子能与替代能源委员会（CEA）巴黎-萨克雷中心，法国",
-        "药品和健康技术，法国"
+        "药品与健康技术，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -893,7 +1260,7 @@
       "title_zh": "配体介导的长程相互作用实现H2O2的选择性活化，从而高效净化水",
       "corresponding_affiliations_zh": [
         "同济大学，中国",
-        "上海市环境污染控制与生态安全研究院，中国"
+        "上海环境污染控制与生态安全研究院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1567,7 +1934,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "功能有机材料的性质导向催化骨架编辑",
       "corresponding_affiliations_zh": [
-        "理化学研究所先导研究机构，日本",
+        "理研先导研究机构，日本",
         "东京大学，日本",
         "理研可持续资源科学中心，日本"
       ],
@@ -2423,7 +2790,7 @@
       "title_zh": "氮掺杂碳封装镍钴合金中的界面电子调节可实现高电流硝酸盐到氨的电合成",
       "corresponding_affiliations_zh": [
         "南京工业大学，中国",
-        "材料化工国家重点实验室，中国",
+        "材料化学工程国家重点实验室，中国",
         "南洋理工大学，新加坡"
       ],
       "translation_version": 2,
@@ -3711,8 +4078,8 @@
       "corresponding_affiliations_zh": [
         "原子能与替代能源委员会，法国",
         "巴黎-萨克雷大学，法国",
-        "国家农业、食品与环境研究所，法国",
-        "药品和健康技术，法国"
+        "国家农业、粮食与环境研究所，法国",
+        "药品与健康技术，法国"
       ],
       "translation_version": 2,
       "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-126-graphical-abstract.svg?max-width=637&background=FFFFFF",
@@ -3920,7 +4287,7 @@
       "title_zh": "抑制阳极消耗的不对称交流电解苯甲醇脱氧",
       "corresponding_affiliations_zh": [
         "宁波工程学院，中国",
-        "宁波理工学院，中国"
+        "宁波理工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4003,7 +4370,7 @@
         "柏林亥姆霍兹材料与能源中心，德国",
         "米卢斯材料科学研究所，法国",
         "莱布尼茨复合材料研究所有限公司，德国",
-        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道工业大学，德国"
+        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道理工大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4707,7 +5074,7 @@
       "title_zh": "蛋白质支架调节硫胺素焦磷酸依赖性自由基生物催化中常见酮基自由基中间体的电子结构：来自 EPR 和 ENDOR 光谱的见解",
       "corresponding_affiliations_zh": [
         "加利福尼亞大學戴維斯分校，美国",
-        "加州大学圣塔芭芭拉分校，美国"
+        "加州大学圣巴巴拉分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4742,7 +5109,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "TMSN 3在光电催化有机合成中的应用",
       "corresponding_affiliations_zh": [
-        "黄淮学院，中国"
+        "黄淮海大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6010,7 +6377,7 @@
       "title_zh": "三线态氮宾通过双自由基中继引发亚半频哪醇重排",
       "corresponding_affiliations_zh": [
         "拜罗伊特大学，德国",
-        "哈雷-维滕贝格马丁·路德大学，德国",
+        "哈勒-维滕贝格马丁·路德大学，德国",
         "贵州大学，中国",
         "浙江理工大学，中国"
       ],
@@ -6082,7 +6449,7 @@
       "title_zh": "质子门控钴催化将持久亚磺酰基偶联重定向至对映选择性 C-S 键形成",
       "corresponding_affiliations_zh": [
         "南京工业大学，中国",
-        "材料化工国家重点实验室，中国"
+        "材料化学工程国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6492,7 +6859,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "钯催化环丁烯通过迁移瓦克氧化环收缩",
       "corresponding_affiliations_zh": [
-        "美因茨约翰内斯·古腾贝格大学，德国"
+        "美因茨约翰内斯·古腾堡大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
