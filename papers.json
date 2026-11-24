@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "papers": [
     {
       "title": "Supporting-electrolyte-free electrosynthesis of hydroquinone in solid polymer electrolyte electrolyzers",
@@ -126,6 +126,39 @@
       "toc_kind": ""
     },
     {
+      "title": "Biomimetic N ‐Terminal Homologation of Amino Acids",
+      "authors": [
+        "André Bossonnet",
+        "Ben Hillman",
+        "Cristina Trujillo",
+        "Aaron Trowbridge"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-21",
+      "doi": "10.1002/anie.6905638",
+      "url": "https://doi.org/10.1002/anie.6905638",
+      "abstract": "Homologation is a key tactic used in the lead optimization of small‐molecule pharmaceuticals due to the potent impact such modifications can have on target affinity and physicochemical properties. However, while many elegant homologation strategies have been developed for the synthesis of β 3 ‐amino acids via decarboxylation, preparation of the β 2 ‐amino acid homologues remains underexplored. We report a general biomimetic strategy for the N ‐terminal homologation of amino acids using photoredox catalysis. Key to the success of this approach is a radical translocation cascade driven by single‐electron transfer. This methodology provides streamlined access to a range of cyclic and acyclic β 2 ‐amino acids and phosphonates, providing new synthetic opportunities within drug discovery programs.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 74,
+      "corresponding_authors": [
+        "Aaron Trowbridge"
+      ],
+      "corresponding_affiliations": [
+        "University of Manchester, United Kingdom"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "氨基酸的仿生N-末端同源化",
+      "corresponding_affiliations_zh": [
+        "曼彻斯特大学，英国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "LMCT-Enabled Ferrioxalate Reductive C–O Bond Cleavage of Activated Aldehydes and Ketones",
       "authors": [
         "Hui Zhang",
@@ -156,6 +189,48 @@
       "title_zh": "活化醛和酮的LMCT介导的草酸铁还原性C–O键断裂",
       "corresponding_affiliations_zh": [
         "兰州大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Standardization Transformation of Softwood Protolignin to Benzoxazole Molecule With Tumor‐Selective Cytotoxicity",
+      "authors": [
+        "Ting Li",
+        "Li Liu",
+        "陈昊然",
+        "Weimin Zheng",
+        "Yilin Wang",
+        "Hao Li",
+        "Kaiyi Su",
+        "Jinlan Cheng"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-21",
+      "doi": "10.1002/anie.6800092",
+      "url": "https://doi.org/10.1002/anie.6800092",
+      "abstract": "The protolignin standardization transformation into high-value-added pharmaceutical chemicals requires elaborate strategy design and catalytic system construction. Herein, a novel lignin valorization pattern to produce G-lignin-derived benzoxazoles from softwood is achieved, which involves the tandem CRF transformation of lignocellulose to C3-alkyl guaiacol (C3-G), stoichiometric diazotization-reductive ammonification of C3-G to aminophenol C3-GAP, and photocatalytic cyclization of C3-GAP to the benzoxazole C3-GLB-pCBA. The whole process can yield 6.2 wt% benzoxazole C3-GLB-pCBA from the aromatic guaiacyl rings of the original softwood lignin. Furthermore, the in vitro cytotoxicity assays with human osteosarcoma (HOS) cells, normal human osteoblast cells (hFOB1.19), and mouse 3T3 fibroblasts confirm the potential tumor-selective cytotoxicity of the as-synthesized G-lignin-derived benzoxazole C3-GLB-pCBA. Further TEA and LCA indicate the sustainability of the synthesis process of C3-GLB-pCBA from softwood. The success of the tandem pattern may inspire further studies on the high-value utilization of lignin to produce pharmaceutical molecules.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 58,
+      "corresponding_authors": [
+        "Weimin Zheng",
+        "Zhitong Zhao",
+        "Chaofeng Zhang"
+      ],
+      "corresponding_affiliations": [
+        "Nanjing Medical University, China",
+        "Taiyuan University of Technology, China",
+        "Nanjing Forestry University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "软木原木质素向具有肿瘤选择性细胞毒性的苯并噁唑分子的标准化转化",
+      "corresponding_affiliations_zh": [
+        "南京医科大学，中国",
+        "太原理工大学，中国",
+        "南京林业大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -262,13 +337,13 @@
         "Liu‐Zhu Gong"
       ],
       "corresponding_affiliations": [
-        "Hefei National Center for Physical Sciences at Nanoscale, China",
+        "University of Science and Technology of China, China",
         "Anhui University, China"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "用于α-氟化季立体中心的对映选择性构建的协同路易斯碱有机催化和电催化",
       "corresponding_affiliations_zh": [
-        "合肥微尺度物质科学国家研究中心，中国",
+        "电子科技大学，中国",
         "安徽大学，中国"
       ],
       "translation_version": 2,
@@ -421,6 +496,35 @@
       "toc_kind": ""
     },
     {
+      "title": "Translation of molecular catalysts into highly functional interfaces for small molecule activation",
+      "authors": [
+        "Morgan McKee"
+      ],
+      "journal": "bonndoc (University of Bonn)",
+      "date": "2026-11-20",
+      "doi": "10.48565/bonndoc-1031",
+      "url": "https://doi.org/10.48565/bonndoc-1031",
+      "abstract": "The development of sustainable electrocatalytic systems for small-molecule activation represents a promising strategy for addressing challenges associated with greenhouse gas emissions, nitrogen pollution, and fossil-fuel-dependent chemical synthesis. Molecular electrocatalysts are particularly attractive in this context due to their well-defined and tuneable active sites, enabling detailed investigation of structure-activity relationships and catalytic mechanisms. This thesis explores the design, mechanistic understanding, and application of molecular transition metal catalysts for electrochemical CO2 reduction, nitrate reduction, dinitrogen activation, and electrochemical C-N bond formation. The first part of this work demonstrates that cobalt terpyridine complexes modified with perfluorinated alkyl side chains can self-assemble at gas-liquid-solid interfaces on gas diffusion electrodes, enabling highly selective electrochemical CO2 reduction to methane. Mechanistic investigations using in situ spectroscopy and proton inventory studies reveal the importance of hydrophobic catalytic microenvironments and proton-shuttling pyridine units in promoting multi-electron reduction pathways. The thesis further investigates electrochemical C-N bond formation from CO2 and nitrate using mono-terpyridine nickel complexes in both homogeneous and heterogenized configurations. A homogeneous mono-hydroxy terpyridine nickel catalyst enabled selective formamide production with, while mechanistic studies involving in situ spectroscopy and computational modelling provided insight into the coupling pathways between carbon- and nitrogen-derived intermediates. Subsequent heterogenization of terpyridine nickel catalysts demonstrated how ligand functionalization and immobilization influence catalytic activity, selectivity, and stability, while also revealing important electronic effects. To further expand molecular nitrogen activation chemistry, a palladium membrane reactor coupled with a mono-terpyridine nickel catalyst was developed for electrochemical ammonia synthesis from dinitrogen. This enabled selective ammonia production while suppressing competing hydrogen evolution. Combined electrochemical, spectroscopic, and computational studies revealed the formation of catalytically relevant Ni-H intermediates generated through hydrogen transfer from the palladium membrane. Finally, a copper bipyridine chloride complex was investigated as a molecular electrocatalyst for nitrate and organonitro reduction. The catalyst achieved near-quantitative Faradaic efficiencies for ammonia production from nitrate and selectively reduced nitroaromatic compounds to aniline derivatives. In situ spectroscopy revealed mechanistic pathways involving sequential N-O bond cleavage and proton-coupled electron transfer through nitrite, nitric oxide, and hydroxylamine intermediates. This thesis establishes molecular catalyst design principles for sustainable electrocatalytic small-molecule conversion. Through catalyst synthesis, electrochemistry, in situ spectroscopy, and mechanistic analysis, this work demonstrates how ligand environment, catalyst microenvironment, proton transfer pathways, and catalyst immobilization can be rationally engineered to control catalytic selectivity and activity across a range electrochemical transformations.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 55,
+      "corresponding_authors": [
+        "Morgan McKee"
+      ],
+      "corresponding_affiliations": [
+        "University of Bonn, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "将分子催化剂转化为用于小分子活化的高功能界面",
+      "corresponding_affiliations_zh": [
+        "波恩大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "[2 + 2]‐Cycloaddition: An Approach to Cyclobutane‐/Azetidine‐Containing Bicyclic Amines and Lactams",
       "authors": [
         "Bohdan S. Sosunovych",
@@ -514,14 +618,17 @@
       ],
       "relevance": 48,
       "corresponding_authors": [
+        "Ruth M. Gschwind",
         "Kirsten Zeitler"
       ],
       "corresponding_affiliations": [
+        "University of Regensburg, Germany",
         "Leipzig University, Germany"
       ],
-      "corresponding_source": "last_author_fallback",
+      "corresponding_source": "openalex_explicit",
       "title_zh": "超越p K a的PCET：解聚和额外碱效应作为解锁环醇直接分子间光催化开环远程烷基化中不可及底物的被忽视的关键因素",
       "corresponding_affiliations_zh": [
+        "雷根斯堡大学，德国",
         "莱比锡大学，德国"
       ],
       "translation_version": 2,
@@ -769,7 +876,7 @@
         "原子能与替代能源委员会，法国",
         "巴黎-萨克雷大学，法国",
         "原子能与替代能源委员会（CEA）巴黎-萨克雷中心，法国",
-        "药品与健康技术，法国"
+        "药品和健康技术，法国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1260,7 +1367,7 @@
       "title_zh": "配体介导的长程相互作用实现H2O2的选择性活化，从而高效净化水",
       "corresponding_affiliations_zh": [
         "同济大学，中国",
-        "上海环境污染控制与生态安全研究院，中国"
+        "上海市环境污染控制与生态安全研究院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -1640,7 +1747,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光氧化还原效率的动力学起源",
       "corresponding_affiliations_zh": [
-        "瓦隆大区在生命科学和生物技术领域的卓越表现，比利时",
+        "瓦隆大区在生命科学和生物技术领域的卓越成就，比利时",
         "鲁汶天主教大学，比利时"
       ],
       "translation_version": 2,
@@ -4078,8 +4185,8 @@
       "corresponding_affiliations_zh": [
         "原子能与替代能源委员会，法国",
         "巴黎-萨克雷大学，法国",
-        "国家农业、粮食与环境研究所，法国",
-        "药品与健康技术，法国"
+        "国家农业、食品与环境研究所，法国",
+        "药品和健康技术，法国"
       ],
       "translation_version": 2,
       "toc_url": "https://www.beilstein-journals.org/bjoc/content/figures/1860-5397-22-126-graphical-abstract.svg?max-width=637&background=FFFFFF",
@@ -4370,7 +4477,7 @@
         "柏林亥姆霍兹材料与能源中心，德国",
         "米卢斯材料科学研究所，法国",
         "莱布尼茨复合材料研究所有限公司，德国",
-        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道理工大学，德国"
+        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道应用技术大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4989,7 +5096,7 @@
       "title_zh": "镍催化炔烃的区域和立体选择性三组分双官能化",
       "corresponding_affiliations_zh": [
         "贵州工程职业学院，中国",
-        "绍兴文理学院，中国",
+        "绍兴大学，中国",
         "华中科技大学，中国"
       ],
       "translation_version": 2,
@@ -5033,7 +5140,7 @@
       "corresponding_affiliations_zh": [
         "图尔大学，法国",
         "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
-        "凡尔赛-圣康坦-昂伊夫林大学，法国",
+        "凡尔赛-圣康坦昂伊夫林大学，法国",
         "巴黎-萨克雷大学，法国",
         "凡尔赛拉瓦锡学院，法国",
         "化学与跨学科性、合成、分析、建模，法国",
@@ -5074,7 +5181,7 @@
       "title_zh": "蛋白质支架调节硫胺素焦磷酸依赖性自由基生物催化中常见酮基自由基中间体的电子结构：来自 EPR 和 ENDOR 光谱的见解",
       "corresponding_affiliations_zh": [
         "加利福尼亞大學戴維斯分校，美国",
-        "加州大学圣巴巴拉分校，美国"
+        "加州大学圣塔芭芭拉分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5109,7 +5216,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "TMSN 3在光电催化有机合成中的应用",
       "corresponding_affiliations_zh": [
-        "黄淮海大学，中国"
+        "黄淮学院，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5674,7 +5781,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "重氮盐：在现代键形成和经典命名反应中的应用",
       "corresponding_affiliations_zh": [
-        "贾米亚·米利亚·伊斯兰亚大学，印度"
+        "贾米亚·米利亚太伊斯兰大学，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6334,7 +6441,7 @@
       "title_zh": "拓扑绝缘体支持的有机 π 二聚体可实现异质 conPET 光催化惰性 C-X 键功能化",
       "corresponding_affiliations_zh": [
         "电子科技大学，中国",
-        "合肥微尺度物质科学国家研究中心，中国"
+        "合肥国家纳米尺度物理科学中心，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7558,7 +7665,7 @@
       "corresponding_affiliations_zh": [
         "赛诺菲（），德国",
         "萨里亚化学学院，西班牙",
-        "拉蒙·柳利大学，西班牙"
+        "拉蒙·尤尔大学，西班牙"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -8421,7 +8528,7 @@
       "title_zh": "铁电子离域能够实现催化选择性三硅烷化：超越空间位阻",
       "corresponding_affiliations_zh": [
         "南开大学，中国",
-        "北川医科大学，中国",
+        "川北医学院，中国",
         "重庆大学，中国",
         "杭州师范大学，中国",
         "科学院上海有机化学研究所，中国",
