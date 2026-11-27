@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "papers": [
     {
       "title": "Supporting-electrolyte-free electrosynthesis of hydroquinone in solid polymer electrolyte electrolyzers",
@@ -126,6 +126,80 @@
       "toc_kind": ""
     },
     {
+      "title": "Visible light mediated reactivity scope of hypervalent iodine reagents",
+      "authors": [
+        "Annu Jangra",
+        "Priya Jajoriya",
+        "Sangeeta Sharma",
+        "Ranjana Aggarwal",
+        "Mona Hooda",
+        "Gulshan Singh"
+      ],
+      "journal": "Discover Chemistry.",
+      "date": "2026-11-25",
+      "doi": "10.1007/s44371-026-01077-7",
+      "url": "https://doi.org/10.1007/s44371-026-01077-7",
+      "abstract": "Hypervalent iodine reagents represent an important class of environmentally benign reagent in organic synthesis with visible light irradiation. The synthesis via using hypervalent iodine reagents in visible light is most vital in synthetic organic chemistry to achieve green chemistry goals. Because of their strong oxidizing nature, functionalization reaction and group transfer reaction, hypervalent iodine (III) compounds- such as phenyliodine(III) diacetates (PIDA), phenyliodine(III) bis(trifluoroacetate) PIFA, benziodoxole derivative have specifically used in many photoredox reaction. Diverse synthetic transformation has been observed via radical generation as well as electron transfer due to their polarized I-X bonds dissociation under visible light. This review article highlights both direct photoactivated process and photocatalyst-assisted synthesis containing hypervalent iodine (III) reagents and their role as radical precursors in cyclization, as an oxidant, alkylation and functionalization reaction. The important observed methodologies include catalyst free visible light mediated difluoroalkylation of alkynes and alkenes, with direct C–H functionalization via Hypervalent iodine (III) reagents. The review summarizes recently reported applications of hypervalent iodine (III) reagents (HIRs) using photoredox catalysis in visible light.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 80,
+      "corresponding_authors": [
+        "Gulshan Singh"
+      ],
+      "corresponding_affiliations": [
+        "Shree Guru Gobind Singh Tricentenary University, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "可见光介导的高价碘试剂反应性范围",
+      "corresponding_affiliations_zh": [
+        "斯里·古鲁·戈宾德·辛格三百年纪念大学，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photoinduced Eosin Y Self-Disproportionation Enables Reactivity beyond Direct Excited-State Electron Transfer",
+      "authors": [
+        "Thomas Rittner",
+        "C. Lucht",
+        "N. Rascón",
+        "A. Abramov",
+        "L. Hetzel",
+        "N. P. Ramirez",
+        "A. Sester",
+        "R. J. Kutta"
+      ],
+      "journal": "Journal of the American Chemical Society",
+      "date": "2026-11-25",
+      "doi": "10.1021/jacs.6c20847",
+      "url": "https://doi.org/10.1021/jacs.6c20847",
+      "abstract": "Photoredox catalysis is commonly governed by the redox properties of the initially excited photocatalyst, which can limit the activation of difficult-to-oxidize alkenes. Here, we identify photoinduced self-disproportionation of neutral eosin Y (EH2) as an alternative activation pathway. In fluorinated-alcohol media, specific hydrogen-bonding interactions stabilize a minor population of the visible-light-absorbing EH2_acid tautomer. Following excitation and intersystem crossing, triplet EH2 undergoes intermolecular hydrogen-atom transfer with ground-state EH2 to generate the complementary radicals EH• and EH3•. Time-resolved spectroscopy shows that the alkene substrate does not measurably intercept excited EH2 but instead reacts with the secondary radical EH•, thereby separating photon absorption from substrate activation. Fluorinated alcohols further couple this radical-pair chemistry to productive C–C bond formation, as illustrated by highly selective polyene cyclizations. These findings establish photocatalyst self-disproportionation as a distinct mechanistic pathway that generates secondary reactive species whose reactivity is not accessible via direct excited-state electron transfer.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Christopher Johannes Stein",
+        "Ruth M. Gschwind",
+        "Patrick Nuernberger"
+      ],
+      "corresponding_affiliations": [
+        "Technical University of Munich, Germany",
+        "University of Regensburg, Germany"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "光诱导的伊红Y自歧化实现了超越直接激发态电子转移的反应性",
+      "corresponding_affiliations_zh": [
+        "慕尼黑工业大学，德国",
+        "雷根斯堡大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Zirconium-Enabled Chain-Walking SH2: Quaternary Carbons from Olefins and Carboxylic Acids",
       "authors": [
         "Theodore P. Curtis",
@@ -151,6 +225,210 @@
       "title_zh": "锆介导的链行走SH2反应：由烯烃和羧酸制备季碳",
       "corresponding_affiliations_zh": [
         "-普林斯顿大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Iron-Photocatalysed Ligand-to-Metal Charge Transfer Coupled with Nickel-Catalysed SH2 for Decarboxylative sp3–sp3 Coupling of Free Carboxylic Acids and NHPI Esters",
+      "authors": [
+        "Haofan Li",
+        "Weiping Su"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-24",
+      "doi": "10.26434/chemrxiv.15012673/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012673/v1",
+      "abstract": "Decarboxylative cross-coupling of two alkyl fragments without precious-metal catalysts, external oxidants, or stoichiometric base remains a central challenge in synthetic chemistry. Here we show that near-UV (395 nm) excitation of an Fe(III)–carboxylate complex initiates decarboxylative sp3–sp3 coupling of free carboxylic acids with N-hydroxyphthalimide (NHPI) redox-active esters by ligand-to-metal charge transfer (LMCT), in cooperation with a nickel catalyst that closes the cycle through bimolecular homolytic substitution (SH2). A single loading of trifluoroethanol (≈0.55 equiv, 4 µL at 0.1 mmol scale) replaces the external base by acting as a proton shuttle between the iron and nickel cycles. Turnover depends on a β-carbonyl handle on at least one coupling partner: the carbonyl chelates nickel in a five-membered ring and stabilises the Ni(III)–alkyl intermediate against β-hydride elimination and hydrogen-atom transfer (HAT) quenching. The platform engages unactivated, long-chain primary alkyl groups at 27–44% (NHPI-ester side) and 14–37% (free-acid side), a regime that remains difficult to reach under purely photochemical, base-free conditions, delivers 39 unique products (41 entries) at 14–96% yield overall, and provides a working hypothesis for the cooperative iron/nickel cycle that remains subject to further mechanistic validation.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 78,
+      "corresponding_authors": [
+        "Weiping Su"
+      ],
+      "corresponding_affiliations": [
+        "Fujian Institute of Research on the Structure of Matter, China"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "铁光催化配体到金属的电荷转移与镍催化SH2偶联用于游离羧酸和NHPI酯的脱羧sp3–sp3偶联",
+      "corresponding_affiliations_zh": [
+        "福建物质结构研究所，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Regio- and Enantioselective Allylboration of 1,3-Dienes",
+      "authors": [
+        "Patricia Gómez-Roibás",
+        "Thore Ifsen",
+        "Gregori Ujaque",
+        "Giuseppe Sciortino",
+        "Martín Fañanás‐Mastral"
+      ],
+      "journal": "ACS Catalysis",
+      "date": "2026-11-24",
+      "doi": "10.1021/acscatal.6c06974",
+      "url": "https://doi.org/10.1021/acscatal.6c06974",
+      "abstract": "Despite numerous strategies for 1,3-diene difunctionalization, methods that enable regio- and enantioselective allylation remain underdeveloped. We report a Cu/Pd synergistic catalytic approach for the regio-, enantio- and E-selective allylboration of acyclic 1,3-dienes, delivering chiral allyl boron-containing 1,5-dienes with high selectivity. These products serve as versatile intermediates for downstream transformations, including the synthesis of chiral cyclopentene frameworks bearing multiple stereocenters. This strategy provides streamlined access to valuable building blocks from simple hydrocarbons. Density functional theory (DFT) studies reveal a convergent mechanistic manifold in which multiple productive transmetalation pathways funnel into a common bis(allyl)palladium intermediate. Regio- and E-selectivity are established during the reductive elimination step from this intermediate, whereas the enantioselectivity is likely governed by the copper catalytic cycle.",
+      "tags": [
+        "Cu Catalysis"
+      ],
+      "relevance": 76,
+      "corresponding_authors": [
+        "Giuseppe Sciortino",
+        "Martín Fañanás‐Mastral"
+      ],
+      "corresponding_affiliations": [
+        "Universitat Autònoma de Barcelona, Spain",
+        "Universidade de Santiago de Compostela, Spain",
+        "Axencia Galega de Innovacion, Spain"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "1,3-二烯的区域选择性和对映选择性烯丙基硼化反应",
+      "corresponding_affiliations_zh": [
+        "巴塞罗那自治大学，西班牙",
+        "圣地亚哥-德孔波斯特拉大学，西班牙",
+        "加利西亚创新局，西班牙"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Enantioselective C(sp 3)–C(sp 3) Radical Coupling Through Photoinduced Electron Donor–Acceptor Activation",
+      "authors": [
+        "Zhuzhu Zhang",
+        "Yuyang Bai",
+        "Huaye Li",
+        "Lingling Chu"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-24",
+      "doi": "10.1002/anie.3874961",
+      "url": "https://doi.org/10.1002/anie.3874961",
+      "abstract": "The enantioselective construction of C(sp 3)–C(sp 3) bonds via radical pathways remains a formidable challenge, particularly when two transient alkyl radicals must be selectively coupled within a chiral catalytic environment. Here we report a photoinduced enantioselective C(sp 3)–C(sp 3) radical coupling for the synthesis of α‐fluoroalkylated secondary alcohols, enabled by dual electron donor–acceptor (EDA) activation and chiral nickel catalysis. Central to this approach are two EDA activation events: one directly generates a primary alkyl radical from a carboxylic acid‐derived redox ester, whereas the other generates an alkoxy radical that undergoes intramolecular 1,2‐hydrogen atom transfer to form a secondary α‐oxy alkyl radical. Stereocontrolled interception of these radicals by a chiral nickel complex enables enantioselective C(sp 3)–C(sp 3) bond formation. The reaction exhibits broad substrate scope and functional‐group tolerance, including the late‐stage functionalization of complex bioactive molecules. Mechanistic studies further support the proposed asymmetric radical coupling pathway.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 76,
+      "corresponding_authors": [
+        "Lingling Chu"
+      ],
+      "corresponding_affiliations": [
+        "Donghua University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过光诱导电子给体-受体活化实现对映选择性C(sp 3)–C(sp 3)自由基偶联",
+      "corresponding_affiliations_zh": [
+        "东华大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Palladium-Catalyzed TMM-Based Annulation Reactions: Mechanistic Manifolds and C–C, C–N, and C–O Bond Formation",
+      "authors": [
+        "Xin Huang",
+        "Yuhang Fan",
+        "Liping Chen",
+        "Wei Lai",
+        "Yuehong Zou",
+        "Qihao Nie",
+        "Jinquan Zhang",
+        "Ziyan Meng"
+      ],
+      "journal": "ACS Omega",
+      "date": "2026-11-24",
+      "doi": "10.1021/acsomega.6c11746",
+      "url": "https://doi.org/10.1021/acsomega.6c11746",
+      "abstract": "Palladium-catalyzed trimethylenemethane (TMM)-based annulation provides a versatile approach to the construction of structurally diverse carbocycles and heterocycles through C–C, C–N, and C–O bond formation. These transformations encompass mechanistically distinct manifolds, including sequential double allylic substitution of bis-allylic electrophiles, classical cycloadditions of zwitterionic Pd-TMM intermediates with electrophilic π-components, and annulations involving decarboxylatively generated aza- or oxa-π-allylpalladium 1,4-dipoles. This Review classifies these reactions according to precursor type, intermediate polarity, coupling partner, bond-forming mode, and ring size, and compares representative methods in terms of substrate scope, catalyst requirements, regio- and stereoselectivity, synthetic utility, and limitations. Particular attention is given to [3 + 2], [3 + 3], [4 + 3], [6 + 3], and related higher-order annulations, as well as relay, cooperative, and chemodivergent catalysis. Despite substantial progress, challenges remain in substrate generality, asymmetric induction, catalyst efficiency, and medium-ring formation. This mechanistically differentiated framework highlights opportunities for more general, selective, and sustainable TMM-based annulation chemistry.",
+      "tags": [
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 72,
+      "corresponding_authors": [
+        "Jinquan Zhang"
+      ],
+      "corresponding_affiliations": [
+        "Gannan Medical University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "钯催化的基于TMM的环化反应：机理多样性和C–C、C–N和C–O键的形成",
+      "corresponding_affiliations_zh": [
+        "赣南医学院，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Derivatization of Amino Acids via Photoredox‐Mediated Decarboxylative C–N Coupling",
+      "authors": [
+        "William J. Hicks",
+        "Xu Wang"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-24",
+      "doi": "10.1002/ejoc.71014",
+      "url": "https://doi.org/10.1002/ejoc.71014",
+      "abstract": "The importance of unnatural amino acids in drug discovery has been further spurred by recent breakthroughs in oral macrocyclic peptides. In this context, 3‐(1 H ‐indazolyl)alanine derivatives may serve as valuable bioisosteres of tryptophan and are highly sought after for tuning the properties of peptide therapeutics and peptidomimetics. However, current synthetic routes are often limited by narrow substrate scopes or poor N1/N2 regioselectivity. Herein, we report a mild, operationally simple, and stereoretentive dual metallaphotoredox methodology to prepare N, O ‐aminal precursors of 3‐(1 H ‐indazolyl)alanine derivatives, applicable to a range of substituted indazoles. Notably, these intermediates are obtained with high N1‐regioselectivity and are readily converted to the target Boc‐protected amino acids via a high‐yielding, two‐step sequence.",
+      "tags": [
+        "Photocatalysis",
+        "Decarboxylative Coupling"
+      ],
+      "relevance": 70,
+      "corresponding_authors": [
+        "Xu Wang"
+      ],
+      "corresponding_affiliations": [
+        "United States Military Academy, United States"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过光氧化还原介导的脱羧C–N偶联实现氨基酸的衍生化",
+      "corresponding_affiliations_zh": [
+        "西点军校，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Tunable Iron‐Catalyzed Photoredox Hydroalkylation and Alkylation of Azauracils With Alkanes",
+      "authors": [
+        "Juanjuan Wu",
+        "Junqi Su",
+        "Zhongyu Zhang",
+        "Leiyang Lv",
+        "Leilei Wang"
+      ],
+      "journal": "Advanced Synthesis & Catalysis",
+      "date": "2026-11-24",
+      "doi": "10.1002/adsc.70880",
+      "url": "https://doi.org/10.1002/adsc.70880",
+      "abstract": "A light‐driven, iron‐catalyzed strategy for the direct C─H functionalization of azauracils with unactivated alkanes is disclosed. Through a ligand‐to‐metal charge‐transfer pathway, the reaction provides hydroalkylation products under N 2 and alkylation products under air, enabling atmosphere‐controlled divergent selectivity. The method uses commercially available FeCl 3 and inexpensive NaCl without an external photocatalyst and proceeds under mild conditions with broad substrate scope. Its compatibility with bioactive‐molecule‐derived substrates further highlights its potential for late‐stage functionalization.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 68,
+      "corresponding_authors": [
+        "Leiyang Lv",
+        "Leilei Wang"
+      ],
+      "corresponding_affiliations": [
+        "Renmin University of China, China",
+        "Dezhou University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "使用烷烃对氮杂尿嘧啶进行可调铁催化光氧化还原加氢烷基化和烷基化",
+      "corresponding_affiliations_zh": [
+        "人民大学，中国",
+        "德州大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -183,6 +461,41 @@
       "title_zh": "通过无痕羧酸酯导向基团实现的光热亲核芳香取代",
       "corresponding_affiliations_zh": [
         "-普林斯顿大学，美国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocatalytic Radical Cascade Polyfluoroalkylation/Cyclization of o‐Cyanoarylacrylamides Toward Polyfluoroalkylated Quinoline‐2,4(1 H,3 H)‐Diones",
+      "authors": [
+        "Lijuan Tian",
+        "Ziwei Shan",
+        "Shangming Zhang",
+        "Yuqing Zhao",
+        "Yixian Cheng",
+        "Anaerguli Wufuer",
+        "Ablimit Abdukader"
+      ],
+      "journal": "European Journal of Organic Chemistry",
+      "date": "2026-11-24",
+      "doi": "10.1002/ejoc.70995",
+      "url": "https://doi.org/10.1002/ejoc.70995",
+      "abstract": "To overcome the transition‐metal dependence and harsh conditions of traditional syntheses of polyfluoroalkyl‐containing quinoline‐2,4(1 H,3 H)‐diones, this study proposes a green and efficient visible‐light‐induced tandem cyclization strategy. This method employs inexpensive Eosin Y as the photocatalyst and sodium tri‐/difluoromethanesulfinate as the fluoroalkyl source to achieve the tandem cyclization of o‐cyanoarylacrylamides, efficiently constructing structurally diverse polyfluoroalkyl‐ and perfluoroalkyl‐substituted quinoline‐2,4(1 H,3 H)‐diones under mild, redox‐neutral conditions. Notably, this protocol features transition‐metal‐free, additive‐free, and simple operation, providing a practical new avenue for the late‐stage modification of related pharmaceuticals and agrochemicals.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 60,
+      "corresponding_authors": [
+        "Ablimit Abdukader"
+      ],
+      "corresponding_affiliations": [
+        "Xinjiang University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "o-氰基芳基丙烯酰胺的光催化自由基级联多氟烷基化/环化反应制备多氟烷基化喹啉-2,4(1 H,3 H)-二酮",
+      "corresponding_affiliations_zh": [
+        "新疆大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -457,7 +770,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "芳基自由基作为卤原子转移（XAT）介体",
       "corresponding_affiliations_zh": [
-        "科学教育与研究学院蒂鲁瓦南塔布勒姆分院，印度"
+        "蒂鲁瓦南塔普勒姆科学教育与研究学院，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2175,7 +2488,7 @@
       "corresponding_authors": [
         "Rebecca L. Davis",
         "Alexandre Lemire",
-        "Shawn Collins"
+        "Shawn K. Collins"
       ],
       "corresponding_affiliations": [
         "University of Manitoba, Canada",
@@ -2222,7 +2535,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "光氧化还原效率的动力学起源",
       "corresponding_affiliations_zh": [
-        "瓦隆大区在生命科学和生物技术领域的卓越表现，比利时",
+        "瓦隆大区在生命科学和生物技术领域的卓越成就，比利时",
         "鲁汶天主教大学，比利时"
       ],
       "translation_version": 2,
@@ -2414,7 +2727,7 @@
       "corresponding_affiliations_zh": [
         "Ikerbasque，西班牙",
         "的里雅斯特大学，意大利",
-        "国家材料科学与技术大学间联合会，意大利"
+        "国家材料科学与技术大学间联合体，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -3372,7 +3685,7 @@
       "title_zh": "氮掺杂碳封装镍钴合金中的界面电子调节可实现高电流硝酸盐到氨的电合成",
       "corresponding_affiliations_zh": [
         "南京工业大学，中国",
-        "材料化学工程国家重点实验室，中国",
+        "材料化工国家重点实验室，中国",
         "南洋理工大学，新加坡"
       ],
       "translation_version": 2,
@@ -4869,7 +5182,7 @@
       "title_zh": "抑制阳极消耗的不对称交流电解苯甲醇脱氧",
       "corresponding_affiliations_zh": [
         "宁波工程学院，中国",
-        "宁波理工学院，中国"
+        "宁波理工大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -4952,7 +5265,7 @@
         "柏林亥姆霍兹材料与能源中心，德国",
         "米卢斯材料科学研究所，法国",
         "莱布尼茨复合材料研究所有限公司，德国",
-        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道应用技术大学，德国"
+        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道理工大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5615,7 +5928,7 @@
       "corresponding_affiliations_zh": [
         "图尔大学，法国",
         "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
-        "凡尔赛-圣康坦-昂伊夫林大学，法国",
+        "凡尔赛-圣康坦昂伊夫林大学，法国",
         "巴黎-萨克雷大学，法国",
         "凡尔赛拉瓦锡学院，法国",
         "化学与跨学科性、合成、分析、建模，法国",
@@ -5656,7 +5969,7 @@
       "title_zh": "蛋白质支架调节硫胺素焦磷酸依赖性自由基生物催化中常见酮基自由基中间体的电子结构：来自 EPR 和 ENDOR 光谱的见解",
       "corresponding_affiliations_zh": [
         "加利福尼亞大學戴維斯分校，美国",
-        "加州大学圣巴巴拉分校，美国"
+        "加州大学圣塔芭芭拉分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5691,7 +6004,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "TMSN 3在光电催化有机合成中的应用",
       "corresponding_affiliations_zh": [
-        "黄淮学院，中国"
+        "黄淮海大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6256,7 +6569,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "重氮盐：在现代键形成和经典命名反应中的应用",
       "corresponding_affiliations_zh": [
-        "贾米亚·米利亚·伊斯兰亚大学，印度"
+        "贾米亚米利亚太伊斯兰大学，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6916,7 +7229,7 @@
       "title_zh": "拓扑绝缘体支持的有机 π 二聚体可实现异质 conPET 光催化惰性 C-X 键功能化",
       "corresponding_affiliations_zh": [
         "电子科技大学，中国",
-        "合肥微尺度物质科学国家研究中心，中国"
+        "合肥国家纳米尺度物理科学中心，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7031,7 +7344,7 @@
       "title_zh": "质子门控钴催化将持久亚磺酰基偶联重定向至对映选择性 C-S 键形成",
       "corresponding_affiliations_zh": [
         "南京工业大学，中国",
-        "材料化学工程国家重点实验室，中国"
+        "材料化工国家重点实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
