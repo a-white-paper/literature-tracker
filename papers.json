@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "papers": [
     {
       "title": "Supporting-electrolyte-free electrosynthesis of hydroquinone in solid polymer electrolyte electrolyzers",
@@ -126,6 +126,78 @@
       "toc_kind": ""
     },
     {
+      "title": "Taming the carbamoyl radical for selective hydrocarbamidation of alkynes via metallaphotoredox catalysis",
+      "authors": [
+        "Nandita Ahalyan",
+        "Pintu Ghosh",
+        "Vikash Kumar",
+        "Sudip Maiti",
+        "Abhaykumar Rajpara",
+        "Saikat Pandit",
+        "Debabrata Maiti"
+      ],
+      "journal": "Chemical Science",
+      "date": "2026-11-25",
+      "doi": "10.1039/d6sc01758d",
+      "url": "https://doi.org/10.1039/d6sc01758d",
+      "abstract": "The direct addition of an amide group across unsaturated C-C bonds remains a persistent challenge in chemical transformations. Although nickel-catalyzed hydrocarbamoylation and hydroamidation reactions of alkynes have been developed under thermal conditions, these protocols typically require formamide and isocyanate as amide surrogates, which restricts their utility due to the limited range of compatible amide coupling partners. Herein, we probed a synthetically mild and efficient hydrocarbamidation of alkynes using carbamoyl chlorides enabled by Ir-photoredox/Ni catalysis. This protocol uniquely integrates the reactivity of silane in photocatalytic radical generation from carbamoyl chlorides and the efficient merging of the carbamoyl radical with the nickel catalytic cycle. The method exhibits substrate scope encompassing various alkynes and a diverse array of carbamoyl chlorides, and delivers the corresponding acrylamides with synthetically useful yields. Owing to its operational simplicity, scalability, and mild reaction conditions, this strategy provides a valuable platform for late-stage functionalization of drug-like molecules and synthesis of complex acrylamide scaffolds, which are widely found in pharmacophores and materials-science-related compounds.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 90,
+      "corresponding_authors": [
+        "Debabrata Maiti"
+      ],
+      "corresponding_affiliations": [
+        "Indian Institute of Technology Bombay, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "通过金属光氧化还原催化驯化氨基甲酰基自由基以实现炔烃的选择性氨基甲酰基化",
+      "corresponding_affiliations_zh": [
+        "理工学院孟买分校，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Photocontraction of Thietane Dioxides: A Modular Route to Functionalized Cyclopropanes",
+      "authors": [
+        "Jessica Parent",
+        "Elyssa Caron",
+        "Ali T. Mansour",
+        "Zhu Jun",
+        "Zhiqi Zhang",
+        "Felix Glaser",
+        "Ludovic Troian‐Gautier",
+        "Jie Wu"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-25",
+      "doi": "10.26434/chemrxiv.15012767/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012767/v1",
+      "abstract": "Cyclopropanes are important structural motifs in medicinal chemistry, and considerable efforts have been devoted to developing synthetic methods that accommodate diverse substitution patterns and functional-group profiles. Within the synthetic toolbox, ring-contraction strategies remain relatively underexplored, despite their potential to enable late-stage ring construction, provide access to challenging substitution patterns, and reduce reliance on protecting-group manipulations. In this context, we developed a modular approach to access functionalized 2-arylcyclopropanes based on the photochemical SO 2 extrusion from thietane dioxides. The method offers synthetic flexibility through complementary and straightforward precursor syntheses involving sulfene-alkene [2+2] cycloaddition or nucleophilic addition to thiete dioxides. The contraction process is catalyst-free, requires neither highly reactive reagents nor stoichiometric metal reagents and accommodates a broad range of N-, O-, P-, and C-based substituents. Its synthetic utility is demonstrated through the development of one-pot nucleophilic addition-photocontraction sequences, integration with skeletal editing to convert oxetanes into cyclopropanes, and implementation in continuous flow using UV LEDs irradiation. Experimental and computational investigations support a mechanism initiated by triplet-state fragmentation, followed by stereospecific cyclization of a singlet diradicaloid with concomitant SO 2 extrusion. This work establishes photochemical SO 2 extrusion as a versatile ring-contraction strategy complementary to established approaches to functionalized cyclopropanes.",
+      "tags": [
+        "Photocatalysis",
+        "Skeletal Editing"
+      ],
+      "relevance": 82,
+      "corresponding_authors": [
+        "Fabien Gagosz"
+      ],
+      "corresponding_affiliations": [
+        "University of Ottawa, Canada"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "噻烷二氧化物的光诱导收缩：一种合成官能化环丙烷的模块化途径",
+      "corresponding_affiliations_zh": [
+        "渥太华大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Visible light mediated reactivity scope of hypervalent iodine reagents",
       "authors": [
         "Annu Jangra",
@@ -148,12 +220,47 @@
         "Gulshan Singh"
       ],
       "corresponding_affiliations": [
-        "Shree Guru Gobind Singh Tricentenary University, India"
+        "Gurugram University, India"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "可见光介导的高价碘试剂反应性范围",
       "corresponding_affiliations_zh": [
-        "斯里·古鲁·戈宾德·辛格三百年纪念大学，印度"
+        "古尔冈大学，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Programmable Skeletal Editing of Pyridines Into Regiodefined N ‐Alkyl Pyrazoles",
+      "authors": [
+        "Xiangzhang Tao",
+        "Heeho Noh",
+        "Byeongyeong Oh",
+        "Julie Park",
+        "Sungwoo Hong"
+      ],
+      "journal": "Angewandte Chemie International Edition",
+      "date": "2026-11-25",
+      "doi": "10.1002/anie.3750596",
+      "url": "https://doi.org/10.1002/anie.3750596",
+      "abstract": "N‐ Alkyl pyrazoles are common motifs in pharmaceuticals and agrochemicals, yet their preparation as single regioisomers is often hampered by poor regioselectivity in the direct alkylation of NH‐pyrazoles. Here we report a skeletal‐editing strategy that converts readily available pyridines into regiodefined N‐ alkyl pyrazoles through selective two‐carbon deletion. The N‐ substituent is installed before pyrazole formation and retained through amine‐mediated Zincke‐type ring opening, acid‐promoted cyclization, and retro‐Mannich extrusion of a two‐carbon enamine, fixing the pyrazole regiochemistry at the precursor stage. The sequence contracts the C 5 N pyridine framework into a C 3 N 2 pyrazole, transferring the ring nitrogen, three carbon atoms, and their substitution pattern directly onto the product. The method accommodates diverse pyridine scaffolds and N‐ alkyl groups and enables the skeletal remodeling of structurally complex molecules, transforming a problematic regioselective N‐ alkylation into a programmable precursor‐design strategy.",
+      "tags": [
+        "Skeletal Editing"
+      ],
+      "relevance": 78,
+      "corresponding_authors": [
+        "Sungwoo Hong"
+      ],
+      "corresponding_affiliations": [
+        "Korea Advanced Institute of Science and Technology, South Korea",
+        "Institute for Basic Science, South Korea"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "将吡啶可编程骨架编辑为区域选择性N ‐烷基吡唑",
+      "corresponding_affiliations_zh": [
+        "科学技术院，韩国",
+        "基础科学研究所，韩国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -194,6 +301,109 @@
       "corresponding_affiliations_zh": [
         "慕尼黑工业大学，德国",
         "雷根斯堡大学，德国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Recent advances of 4CzIPN in visible-light-mediated ring-formation reactions towards N -heterocycles",
+      "authors": [
+        "M Manod",
+        "Joyal Roy",
+        "Gadha H",
+        "Archana Vijayakumar",
+        "Chithra Mohan"
+      ],
+      "journal": "RSC Advances",
+      "date": "2026-11-25",
+      "doi": "10.1039/d6ra08547d",
+      "url": "https://doi.org/10.1039/d6ra08547d",
+      "abstract": "4CzIPN-catalyzed visible-light photoredox reactions provide efficient access to diverse N-heterocycles. This review highlights recent metal-free ring-formation strategies, classified by molecular frameworks.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Chithra Mohan"
+      ],
+      "corresponding_affiliations": [
+        "Mahatma Gandhi University, India"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "4CzIPN在可见光介导的N-杂环成环反应方面的最新进展",
+      "corresponding_affiliations_zh": [
+        "圣雄甘地大学，印度"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "From Small to Medium Rings: Generalizable Ring Expansion of Cycloalkenols via Chloroferrate Photocatalysis",
+      "authors": [
+        "Victoria L. Nalewajko",
+        "Adlih Britton",
+        "Mounika Kuruba",
+        "Nicole C. H. Abel",
+        "Ariadne W. Glover",
+        "Kristaps Ermanis",
+        "Nelson Y. S. Lam"
+      ],
+      "journal": "ChemRxiv",
+      "date": "2026-11-25",
+      "doi": "10.26434/chemrxiv.15012788/v1",
+      "url": "https://doi.org/10.26434/chemrxiv.15012788/v1",
+      "abstract": "We report that the chloroferrate photocatalyst [Bu 4 N][FeCl 4] enables the ring expansion of four- to seven-membered cycloalkenols to give six- to nine-membered cyclic ketones, spanning substrate and substituent classes that previously necessitated individual solutions. Unified by a single photocatalytic manifold, the method permits a generalizable append-insert homologation of cyclic ketones, as formally demonstrated through a recursive ring expansion sequence. Mechanistic studies reveal the kinetically active role of collidine, while computational studies propose that collidine complexation of photogenerated Cl• suppresses its characteristic promiscuity. These findings establish an accessible platform for modular skeletal expansion and highlight the importance of additive-controlled reactivity in [FeCl 4] – photocatalysis.",
+      "tags": [
+        "Photocatalysis",
+        "Skeletal Editing"
+      ],
+      "relevance": 56,
+      "corresponding_authors": [
+        "Nelson Y. S. Lam"
+      ],
+      "corresponding_affiliations": [
+        "University of Victoria, Canada"
+      ],
+      "corresponding_source": "last_author_fallback",
+      "title_zh": "从小环到中环：通过氯铁酸盐光催化实现环烯醇的普遍性环扩反应",
+      "corresponding_affiliations_zh": [
+        "维多利亚大学，加拿大"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
+      "title": "Redox‐Active Oxamide–Nickel Complexes: Electronic Structures, Magnetic Properties, and Reactivity in C–C Bond Formation",
+      "authors": [
+        "Ying‐Xian Li",
+        "李莉萍",
+        "Ji‐Yan Zhang",
+        "Run Wang",
+        "Bao‐Hui Ye",
+        "Gao-Feng Liu"
+      ],
+      "journal": "Applied Organometallic Chemistry",
+      "date": "2026-11-25",
+      "doi": "10.1002/aoc.70697",
+      "url": "https://doi.org/10.1002/aoc.70697",
+      "abstract": "Redox‐active ligands enable metal–ligand cooperativity to tune the electronic structures and reactivity of transition‐metal complexes. Here, we report mononuclear and trinuclear nickel complexes supported by a tetradentate oxamide–aminophenol ligand. Single‐crystal X‐ray diffraction reveals a square‐planar Ni (II) monomer, whereas oxamido bridging affords a trinuclear complex with short Ni···Ni separations and supramolecular organization. Spectroscopic, electrochemical, and magnetic studies establish pronounced ligand redox non‐innocence. The mononuclear complex contains a ligand‐based iminosemiquinone radical, as supported by EPR spectroscopy and reversible ligand‐centered redox waves, whereas the trinuclear complex is EPR‐silent because of strong antiferromagnetic coupling between ligand radicals and nickel centers. Magnetic susceptibility data further reveal distinct exchange interactions dictated by nuclearity and electronic structure. Both complexes promote C–C bond formation, including Kumada–Corriu cross‐coupling and reductive homocoupling of benzyl halides under mild conditions, with the trinuclear complex showing higher activity than its mononuclear analog. These results identify oxamido‐supported redox‐active ligands as an effective platform for coupling electronic flexibility and magnetic communication with nickel‐mediated C–C bond formation.",
+      "tags": [
+        "Electrochemistry"
+      ],
+      "relevance": 48,
+      "corresponding_authors": [
+        "Gao-Feng Liu"
+      ],
+      "corresponding_affiliations": [
+        "Sun Yat-sen University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "氧化还原活性草酰胺-镍络合物：C–C键形成的电子结构、磁学性质和反应性",
+      "corresponding_affiliations_zh": [
+        "广州中山大学，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -250,12 +460,18 @@
         "Weiping Su"
       ],
       "corresponding_affiliations": [
-        "Fujian Institute of Research on the Structure of Matter, China"
+        "Chinese Academy of Sciences, China",
+        "Fujian Institute of Research on the Structure of Matter, China",
+        "State Key Laboratory of Structural Chemistry, China",
+        "Fujian Science and Technology Innovation Laboratory for Optoelectronic Information of China, China"
       ],
       "corresponding_source": "last_author_fallback",
       "title_zh": "铁光催化配体到金属的电荷转移与镍催化SH2偶联用于游离羧酸和NHPI酯的脱羧sp3–sp3偶联",
       "corresponding_affiliations_zh": [
-        "福建物质结构研究所，中国"
+        "科学院，中国",
+        "福建物质结构研究所，中国",
+        "结构化学国家重点实验室，中国",
+        "福建省光电信息科技创新实验室，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -387,12 +603,12 @@
         "Xu Wang"
       ],
       "corresponding_affiliations": [
-        "United States Military Academy, United States"
+        "Merck & Co., Inc., Rahway, NJ, USA (United States), United States"
       ],
       "corresponding_source": "openalex_explicit",
       "title_zh": "通过光氧化还原介导的脱羧C–N偶联实现氨基酸的衍生化",
       "corresponding_affiliations_zh": [
-        "西点军校，美国"
+        "默沙东公司，新泽西州拉韦市，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -639,6 +855,38 @@
       "toc_kind": ""
     },
     {
+      "title": "Catalytic Asymmetric Carbamoylation: Carbamoyl Sources, Activation Modes, and Stereocontrol",
+      "authors": [
+        "Xu Ha",
+        "Xi‐Lai Zhang",
+        "Yong‐Kang Li",
+        "Guo‐Qiang Xu"
+      ],
+      "journal": "Chemistry - A European Journal",
+      "date": "2026-11-23",
+      "doi": "10.1002/chem.71867",
+      "url": "https://doi.org/10.1002/chem.71867",
+      "abstract": "Chiral amides and lactams are ubiquitous in pharmaceuticals, natural products, and functional molecules, yet their synthesis often relies on preformed chiral building blocks or multistep functional-group manipulations. Catalytic asymmetric carbamoylation offers a complementary strategy by combining carbamoyl incorporation with stereogenic-element construction in a single catalytic process. This review summarizes recent advances according to the nature of the carbamoyl source, its activation mode, and the origin of stereocontrol. Formamides, carbamoyl halides, isocyanates, isocyanides, and CO/amine combinations enable polar and organometallic pathways involving C-H activation, oxidative addition, migratory insertion, and carbonylation, whereas photoredox-generated carbamoyl radicals provide polarity-reversed access through radical addition and enantioconvergent coupling. Asymmetric β-lactam formation through Kinugasa and carbonylative annulation reactions further expands the accessible structural space. Particular emphasis is placed on how stereochemical information is generated, transferred, or edited during these mechanistically distinct processes. Emerging opportunities in remote C─H functionalization, multicomponent coupling, radical-polar crossover, sustainable catalysis, and late-stage diversification are also discussed.",
+      "tags": [
+        "Photocatalysis"
+      ],
+      "relevance": 74,
+      "corresponding_authors": [
+        "Guo‐Qiang Xu"
+      ],
+      "corresponding_affiliations": [
+        "Lanzhou University, China"
+      ],
+      "corresponding_source": "openalex_explicit",
+      "title_zh": "催化不对称氨基甲酰化：氨基甲酰基来源、活化模式和立体控制",
+      "corresponding_affiliations_zh": [
+        "兰州大学，中国"
+      ],
+      "translation_version": 2,
+      "toc_url": "",
+      "toc_kind": ""
+    },
+    {
       "title": "Cobalt-Catalyzed Oxygen-Ligand Transfer to Carbon Radicals",
       "authors": [
         "Arman Khosravi",
@@ -670,7 +918,7 @@
       "title_zh": "钴催化的氧配体向碳自由基的转移",
       "corresponding_affiliations_zh": [
         "匹兹堡大学，美国",
-        "普渡大学西拉斐特分校，美国"
+        "普渡大学西拉法叶分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -770,7 +1018,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "芳基自由基作为卤原子转移（XAT）介体",
       "corresponding_affiliations_zh": [
-        "蒂鲁瓦南塔普勒姆科学教育与研究学院，印度"
+        "科学教育与研究学院蒂鲁瓦南塔普勒姆分院，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -969,20 +1217,14 @@
       ],
       "relevance": 58,
       "corresponding_authors": [
-        "Weimin Zheng",
-        "Zhitong Zhao",
         "Chaofeng Zhang"
       ],
       "corresponding_affiliations": [
-        "Nanjing Medical University, China",
-        "Taiyuan University of Technology, China",
         "Nanjing Forestry University, China"
       ],
-      "corresponding_source": "openalex_explicit",
+      "corresponding_source": "last_author_fallback",
       "title_zh": "软木原木质素向具有肿瘤选择性细胞毒性的苯并噁唑分子的标准化转化",
       "corresponding_affiliations_zh": [
-        "南京医科大学，中国",
-        "太原理工大学，中国",
         "南京林业大学，中国"
       ],
       "translation_version": 2,
@@ -1042,11 +1284,11 @@
       "date": "2026-11-20",
       "doi": "10.1002/anie.9101626",
       "url": "https://doi.org/10.1002/anie.9101626",
-      "abstract": "Migration−enabled alkene functionalization offers an attractive strategy for accessing molecular architectures beyond the reach of conventional alkene transformations. Yet existing approaches typically channel translocated radical intermediates into a single reaction manifold, limiting the broader potential of migration chemistry for divergent synthesis. Here, we establish a programmable migration−enabled synthesis platform that redirects allylamines from passive alkene substrates into versatile synthons for divergent molecular construction. Through the integration of radical functionalization with amino migration, this strategy generates a migratory radical intermediate that undergoes selective diversification via complementary radical−trapping, atom−transfer radical addition (ATRA), and radical−polar crossover (RPC) pathways under mild photocatalytic conditions, enabling divergent 1,2,3−trifunctionalization of allylamines. Broad compatibility with radical precursors, bifunctional reagents, nucleophiles, and diverse allylamine scaffolds provides access to more than 70 densely functionalized, C(sp 3 )−rich amino architectures, including molecules bearing quaternary carbon centers. More broadly, this work establishes radical migration as a programmable design principle for molecular diversification and expands the synthetic utility of allylamines as modular synthons for the systematic exploration of structure−function relationships.",
+      "abstract": "Migration-enabled alkene functionalization offers an attractive strategy for accessing molecular architectures beyond the reach of conventional alkene transformations. Yet existing approaches typically channel translocated radical intermediates into a single reaction manifold, limiting the broader potential of migration chemistry for divergent synthesis. Here, we establish a programmable migration-enabled synthesis platform that redirects allylamines from passive alkene substrates into versatile synthons for divergent molecular construction. Through the integration of radical functionalization with amino migration, this strategy generates a migratory radical intermediate that undergoes selective diversification via complementary radical-trapping, atom-transfer radical addition (ATRA), and radical-polar crossover (RPC) pathways under mild photocatalytic conditions, enabling divergent 1,2,3-trifunctionalization of allylamines. Broad compatibility with radical precursors, bifunctional reagents, nucleophiles, and diverse allylamine scaffolds provides access to more than 70 densely functionalized, C(sp3)-rich amino architectures, including molecules bearing quaternary carbon centers. More broadly, this work establishes radical migration as a programmable design principle for molecular diversification and expands the synthetic utility of allylamines as modular synthons for the systematic exploration of structure-function relationships.",
       "tags": [
         "Photocatalysis"
       ],
-      "relevance": 70,
+      "relevance": 82,
       "corresponding_authors": [
         "Xiaoping Chen",
         "Xiaheng Zhang"
@@ -2727,7 +2969,7 @@
       "corresponding_affiliations_zh": [
         "Ikerbasque，西班牙",
         "的里雅斯特大学，意大利",
-        "国家材料科学与技术大学间联合体，意大利"
+        "国家材料科学与技术大学间联合会，意大利"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -2829,7 +3071,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "功能有机材料的性质导向催化骨架编辑",
       "corresponding_affiliations_zh": [
-        "理研先导研究机构，日本",
+        "理化学研究所先导研究机构，日本",
         "东京大学，日本",
         "理研可持续资源科学中心，日本"
       ],
@@ -3756,7 +3998,7 @@
         "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
         "巴黎高科化学学院 - PSL，法国",
         "大学研究院，法国",
-        "巴黎文理人文大学，法国",
+        "巴黎文理哲学与人文大学，法国",
         "生命与健康科学化学研究所，法国"
       ],
       "translation_version": 2,
@@ -4973,7 +5215,7 @@
       "corresponding_affiliations_zh": [
         "原子能与替代能源委员会，法国",
         "巴黎-萨克雷大学，法国",
-        "国家农业、粮食与环境研究所，法国",
+        "国家农业、食品与环境研究所，法国",
         "药品与健康技术，法国"
       ],
       "translation_version": 2,
@@ -5265,7 +5507,7 @@
         "柏林亥姆霍兹材料与能源中心，德国",
         "米卢斯材料科学研究所，法国",
         "莱布尼茨复合材料研究所有限公司，德国",
-        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道理工大学，德国"
+        "莱茵兰-普法尔茨州凯撒斯劳滕-兰道应用技术大学，德国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -5928,7 +6170,7 @@
       "corresponding_affiliations_zh": [
         "图尔大学，法国",
         "<g id=\"487\"/><g id=\"490\"> Ｃｅｎｔｒｅ Ｎａｔｉｏｎａｌ ｄｅ Ｌａ Ｒｅｃｈｅｒｃｈｅ Ｓｃｉｅｎｔｉｆｉｑｕｅ， ｅｄ．</g>，法国",
-        "凡尔赛-圣康坦昂伊夫林大学，法国",
+        "凡尔赛-圣康坦-昂伊夫林大学，法国",
         "巴黎-萨克雷大学，法国",
         "凡尔赛拉瓦锡学院，法国",
         "化学与跨学科性、合成、分析、建模，法国",
@@ -5969,7 +6211,7 @@
       "title_zh": "蛋白质支架调节硫胺素焦磷酸依赖性自由基生物催化中常见酮基自由基中间体的电子结构：来自 EPR 和 ENDOR 光谱的见解",
       "corresponding_affiliations_zh": [
         "加利福尼亞大學戴維斯分校，美国",
-        "加州大学圣塔芭芭拉分校，美国"
+        "加州大学圣巴巴拉分校，美国"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -6569,7 +6811,7 @@
       "corresponding_source": "openalex_explicit",
       "title_zh": "重氮盐：在现代键形成和经典命名反应中的应用",
       "corresponding_affiliations_zh": [
-        "贾米亚米利亚太伊斯兰大学，印度"
+        "贾米亚·米利亚·伊斯兰亚大学，印度"
       ],
       "translation_version": 2,
       "toc_url": "",
@@ -7229,7 +7471,7 @@
       "title_zh": "拓扑绝缘体支持的有机 π 二聚体可实现异质 conPET 光催化惰性 C-X 键功能化",
       "corresponding_affiliations_zh": [
         "电子科技大学，中国",
-        "合肥国家纳米尺度物理科学中心，中国"
+        "合肥微尺度物质科学国家研究中心，中国"
       ],
       "translation_version": 2,
       "toc_url": "",
